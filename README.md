@@ -7,6 +7,7 @@ Alongside detailed reference documentation, we provide extensive learning resour
 
 ## MDN's mission
 
+
 MDN's mission is to provide a blueprint for a better internet and empower a new generation of developers and content creators to build it.
 
 The strength of MDN Web Docs lies in its vast community of active readers and contributors.
