@@ -34,71 +34,46 @@ svg {
 
 ```html
 <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg">
-  <!--
-  Upper left path:
-  Effect of the "miter" value
-  -->
-  <path
-    d="M1,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5"
-    stroke="black"
-    fill="none"
-    stroke-linejoin="miter" />
+  <style>
+    path {
+      stroke: black;
+      fill: none;
+    }
 
-  <!--
-  Center path:
-  Effect of the "round" value
-  -->
-  <path
-    d="M7,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5"
-    stroke="black"
-    fill="none"
-    stroke-linejoin="round" />
+    #highlight path {
+      stroke: pink;
+      fill: none;
+      stroke-width: 0.05;
+    }
 
-  <!--
-  Upper right path:
-  Effect of the "bevel" value
-  -->
-  <path
-    d="M13,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5"
-    stroke="black"
-    fill="none"
-    stroke-linejoin="bevel" />
+    circle {
+      fill: pink;
+    }
+  </style>
 
-  <!--
-  Bottom left path:
-  Effect of the "miter-clip" value
-  with fallback to "miter" if not supported.
-  -->
+  <!-- Upper left: the "miter" value -->
+  <path d="M1,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5" stroke-linejoin="miter" />
+
+  <!-- Center: the "round" value -->
+  <path d="M7,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5" stroke-linejoin="round" />
+
+  <!-- Upper right: the "bevel" value -->
+  <path d="M13,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5" stroke-linejoin="bevel" />
+
+  <!-- Bottom left: the "miter-clip" value with fallback to "miter" -->
   <path
     d="M3,11 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5"
-    stroke="black"
-    fill="none"
     stroke-linejoin="miter-clip" />
 
-  <!--
-  Bottom right path:
-  Effect of the "arcs" value
-  with fallback to "miter" if not supported.
-  -->
-  <path
-    d="M9,11 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5"
-    stroke="black"
-    fill="none"
-    stroke-linejoin="arcs" />
+  <!-- Bottom right: the "arcs" value with fallback to "miter" -->
+  <path d="M9,11 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5" stroke-linejoin="arcs" />
 
-  <!--
-  the following pink lines highlight the
-  position of the path for each stroke
-  -->
+  <!-- The pink lines highlight the position of the path for each stroke -->
   <g id="highlight">
-    <path
-      d="M1,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5"
-      stroke="pink"
-      fill="none"
-      stroke-width="0.025" />
-    <circle cx="1" cy="5" r="0.05" fill="pink" />
-    <circle cx="3" cy="2" r="0.05" fill="pink" />
-    <circle cx="5" cy="5.5" r="0.05" fill="pink" />
+    <path d="M1,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5" />
+    <circle cx="1" cy="5" r="0.05" />
+    <circle cx="3" cy="2" r="0.05" />
+    <circle cx="5" cy="5.5" r="0.05" />
   </g>
   <use xlink:href="#highlight" x="6" />
   <use xlink:href="#highlight" x="12" />
@@ -147,23 +122,29 @@ svg {
 
 ```html
 <svg viewBox="0 0 6 6" xmlns="http://www.w3.org/2000/svg">
-  <!-- Effect of the "arcs" value -->
-  <path
-    d="M1,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3"
-    stroke="black"
-    fill="none"
-    stroke-linejoin="arcs" />
+  <style>
+    path {
+      stroke: black;
+      fill: none;
+    }
 
-  <!--
-  the following pink lines highlight the
-  position of the path for each stroke
-  -->
+    #p path {
+      stroke: pink;
+      fill: none;
+      stroke-width: 0.025;
+    }
+
+    circle {
+      fill: pink;
+    }
+  </style>
+
+  <!-- Effect of the "arcs" value -->
+  <path d="M1,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3" stroke-linejoin="arcs" />
+
+  <!-- Pink lines highlight the position of the path for each stroke -->
   <g id="p">
-    <path
-      d="M1,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3"
-      stroke="pink"
-      fill="none"
-      stroke-width="0.025" />
+    <path d="M1,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3" />
     <circle cx="1" cy="5" r="0.05" fill="pink" />
     <circle cx="3" cy="2" r="0.05" fill="pink" />
     <circle cx="5" cy="5" r="0.05" fill="pink" />
