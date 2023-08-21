@@ -15,7 +15,7 @@ The challenges on page [Why use CSS](/en-US/docs/Learn/CSS/First_steps/How_CSS_w
 - Challenge
   - : Without looking up a reference, find five more color names that work in your stylesheet.
 - Solution
-  - : CSS supports common color names like `orange`, `yellow`, `blue`, `green`, or `black`. It also supports some more exotic color names like `chartreuse`, `fuschia`, or `burlywood`. See [CSS Color value](/en-US/docs/Web/CSS/color_value) for a complete list as well as other ways of specifying colors.
+  - : CSS supports common color names like `orange`, `yellow`, `blue`, `green`, or `black`. It also supports some more exotic color names like `chartreuse`, `fuchsia`, or `burlywood`. See [CSS Color value](/en-US/docs/Web/CSS/color_value) for a complete list as well as other ways of specifying colors.
 
 ## How CSS works
 

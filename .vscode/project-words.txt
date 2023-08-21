@@ -1,5 +1,6 @@
 affordance
 affordances
+alac
 bézier
 Bhattacharya
 Brosset
@@ -12,6 +13,7 @@ Damme
 Datagram
 Deque
 Dipika
+flac
 GAAD
 Grek
 GSAP
@@ -52,13 +54,17 @@ prophoto
 rgba
 ripgrep
 sctp
+spatialization
 srgb
 tabak
 Temani
 upvotes
 Verou
 vmin
+vorbis
+webmv
 Weyl
+WHATWG
 Willee
 worklets
 Yari
