@@ -77,7 +77,7 @@ What is important is that you ensure you've chosen the best registry for you. Ma
 
 Let's run through an example to get you started with using a package manager and registry to install a command line utility.
 
-[Parcel](https://parceljs.org/) is another tool that developers commonly use in their development process. Parcel is clever in that it can watch the contents of our code for calls to dependencies and automatically installs any dependencies it sees that our code needs. It can also automatically build our code.
+[Parcel](https://parceljs.org/) is another tool that developers commonly use in their development process. Parcel is convenient in that it provides a way to automatically build our code and offers more advanced features that you might need in a larger project. We'll look at it in more detail later on in the module.
 
 ### Setting up the app as an npm package
 
@@ -98,47 +98,22 @@ npm init
 
 You will now be asked some questions; npm will then create a default `package.json` file based on the answers:
 
-- `name`: A name to identify the app. Just press
+- `name`: A name to identify the app. Just press <kbd>Return</kbd> to accept the default `parcel-experiment`.
 
-  <kbd>Return</kbd>
+- `version`: The starting version number for the app. Again, just press <kbd>Return</kbd> to accept the default `1.0.0`.
 
-  to accept the default `parcel-experiment`.
+- `description`: A quick description of the app's purpose.
+  Type in something like "A starter package to learn about using npm", then press <kbd>Return</kbd>.
 
-- `version`: The starting version number for the app. Again, just press
+- `entry point`: This will be the top-level JavaScript file of the app.
+  The default `index.js` is fine for now — press <kbd>Return</kbd>.
 
-  <kbd>Return</kbd>
+- `test command`, `git repository`, and `keywords`: press <kbd>Return</kbd> to leave each of these blank for now.
 
-  to accept the default `1.0.0`.
+- `author`: The author of the project. Type your own name, and press <kbd>Return</kbd>.
 
-- `description`: A quick description of the app's purpose. Type in something really simple, like "A simple npm package to learn about using npm", then press
-
-  <kbd>Return</kbd>
-
-  .
-
-- `entry point`: This will be the top-level JavaScript file of the app. The default `index.js` is fine for now — press
-
-  <kbd>Return</kbd>
-
-  .
-
-- `test command`, `git repository`, and `keywords`: press
-
-  <kbd>Return</kbd>
-
-  to leave each of these blank for now.
-
-- `author`: The author of the project. Type your own name, and press
-
-  <kbd>Return</kbd>
-
-  .
-
-- `license`: The license to publish the package under. Press
-
-  <kbd>Return</kbd>
-
-  to accept the default for now.
+- `license`: The license to publish the package under.
+  Press <kbd>Return</kbd> to accept the default for now.
 
 Press <kbd>Return</kbd> one more time to accept these settings.
 
@@ -162,21 +137,23 @@ So this is the config file that defines your package. This is good for now, so l
 
 ### Installing parcel
 
-Run the following command to install Parcel locally:
+Run the following command to install Parcel as a dependency of your project:
 
 ```bash
-npm install parcel-bundler
+npm install --save-dev parcel
 ```
 
-Once that's done _All The Things_, we're now ready for some "modern client-side development" (which really means using build tools to make the developer experience a little easier). First of all however, take another look at your package.json file. You'll see that npm has added a new field, dependencies:
+Once that's done _All The Things_, we're now ready for some "modern client-side development" (which really means using build tools to make the developer experience a little easier). First of all however, take another look at your package.json file. You'll see that npm has added a new `devDependencies` field.
 
 ```json
-"dependencies": {
-  "parcel-bundler": "^1.12.4"
-}
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
 ```
 
 This is part of the npm magic — if in the future you move your codebase to another location, on another machine, you can recreate the same setup by running the command `npm install`, and npm will look at the dependencies and install them for you.
+
+Note that the `--save-dev` flag has marked the package as necessary for development, but not for production, so unnecessary code won't be included if you decide to install your app on a server.
 
 One disadvantage is that Parcel is only available inside our `parcel-experiment` app; you won't be able to run it in a different directory. But the advantages outweigh the disadvantages.
 
@@ -196,7 +173,7 @@ So now we need to add an `index.html` file to our working directory. Create `ind
     <title>My test page</title>
   </head>
   <body>
-    <script src="./index.js"></script>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
 ```
@@ -205,51 +182,77 @@ Next, we need to add an `index.js` file in the same directory as `index.html`. F
 
 ### Having fun with Parcel
 
-Now we'll run our newly installed Parcel tool. In your terminal, run the following command:
+Now we'll run our project with the following command:
 
 ```bash
- npx parcel index.html
+npx parcel index.html
 ```
 
 You should see something like this printed in your terminal:
 
 ```bash
 Server running at http://localhost:1234
-✨  Built in 193ms.
+✨ Built in 193ms.
 ```
-
-> **Note:** If you have trouble with the terminal returning a "command not found" type error, try running the above command with the `npx` utility, i.e. `npx parcel index.html`.
 
 Now we're ready to benefit from the full JavaScript package ecosystem. For a start, there is now a local web server running at `http://localhost:1234`. Go there now and you'll not see anything for now, but what is cool is that when you do make changes to your app, Parcel will rebuild it and refresh the server automatically so you can instantly see the effect your update had.
 
-Now for some page content. Let's say we want to show human-readable relative dates, such as "2 hours ago", "4 days ago" and so on. The [`date-fns`](https://date-fns.org/) package's `formatDistanceToNow()` method is useful for this (there's other packages that do the same thing too).
-
-In the `index.js` file, add the following code and save it:
+Now for some page content. Let's add a small bit of JavaScript to our `index.js` file:
 
 ```js
-import { formatDistanceToNow } from "date-fns";
+const today = new Date();
 
-const date = "1996-09-13 10:00:00";
-document.body.textContent = `${formatDistanceToNow(new Date(date))} ago`;
+document.body.textContent = `The time is ${today}`;
 ```
 
-Go back to `http://localhost:1234` and you'll see how long ago it is since the author turned 18.
+Go back to `http://localhost:1234` and you'll see today's date and time displayed on the page.
 
-What's particularly special about the code above is that it is using the `formatDistanceToNow()` function from the `date-fns` package, which we didn't install! Parcel has spotted that you need the module, searched for it in the `npmjs.com` package registry, and installed it locally for us, automatically. You can prove this by looking in our `package.json` file again — you'll see that the `dependencies` field has been updated for us:
+Let's make a small change to our HTML to make the page a little more interesting:
 
-```json
-"dependencies": {
-  "date-fns": "^2.12.0",
-  "parcel-bundler": "^1.12.4"
+```html
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <script src="./index.js" type="module"></script>
+    <form>
+      <input type="file" id="file-picker" />
+    </form>
+    <div id="file-content"></div>
+  </body>
+</html>
+```
+
+We've added a form with a file picker input, and somewhere to display some information about the file that is selected.
+Let's add some JavaScript to make this work.
+Replace the contents of `index.js` with the following:
+
+```js
+const reader = new FileReader();
+
+const filePicker = document.querySelector("#file-picker");
+const logger = document.querySelector("#file-content");
+
+filePicker.addEventListener("change", handleFiles, (e) => {
+  const file = e.target.files[0];
+  reader.readAsDataURL(file);
+});
+
+function handleFiles() {
+  const fileList = this.files;
+  logger.innerHTML = fileList[0].name + " " + fileList[0].size + " bytes";
 }
 ```
 
-Parcel has also added the files required for someone else to pick up this project and install any dependencies that we've used. If you take a look in the directory you ran the `parcel` command in, you'll find a number of new files; the most interesting of which are:
+Now when you select a file, we can use the [FileReader API](/en-US/docs/Web/API/FileReader) to read the file and display some information about it.
+If you want to dive deeper into this API, see [Using files from web applications](/en-US/docs/Web/API/File/Using_files_from_web_applications).
 
-- `node_modules`: The dependency files of Parcel and date-fns.
-- `dist`: The distribution directory — these are the automatically packaged, minified files Parcel has built for us, and the files it is serving at `localhost:1234`. These are the files you would upload to your web server when releasing the site online for public consumption.
-
-So long as we know the package name, we can use it in our code and Parcel will go off, fetch, and install (actually "copy") the package into our local directory (under `node_modules`).
+Take a look in the directory you ran the `parcel` command in, you'll see there's a `dist` directory.
+These are the automatically packaged, minified files Parcel has built for us, and the files it is serving at `localhost:1234`.
+These are the files you would upload to your web server when releasing the site online for public consumption.
 
 ### Building our code for production
 
@@ -259,64 +262,52 @@ Now stop the previous Parcel command using <kbd>Ctrl</kbd> + <kbd>C</kbd>.
 
 We can now prepare our bare bones example site for an imaginary deployment. Parcel provides an additional command to generate files that are suited to publication, making bundles (mentioned earlier) with the build option.
 
+Remove the `main` field from our `package.json` file as we don't need it in this example. Then, add the following to the `scripts` field:
+
+```json
+"scripts": {
+  "build": "parcel build index.html"
+},
+```
+
+Your package.json should look like:
+
+```json
+{
+  "name": "parcel-experiment",
+  "version": "1.0.0",
+  "description": "A simple npm package to learn about using npm",
+  "scripts": {
+    "build": "parcel build index.html"
+  },
+  "author": "Chris Mills",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
+```
+
 Run the following command:
 
 ```bash
-npx parcel build index.html
+npm run build
 ```
 
 You should see an output like so:
 
 ```bash
-✨  Built in 9.35s.
 
-dist/my-project.fb76efcf.js.map    648.58 KB     64ms
-dist/my-project.fb76efcf.js        195.74 KB    8.43s
-dist/index.html                        288 B    806ms
+> parcel-experiment@1.0.0 build
+> parcel build index.html
+
+✨ Built in 329ms
+
+dist/index.html           273 B    144ms
+dist/index.96c11459.js    378 B     71ms
 ```
 
 Again, the destination for our production files is the `dist` directory.
-
-### Reducing your app's file size
-
-However, as with all tools that "help" developers there's often a tradeoff. In this particular case, it's the file size. The JavaScript bundle my-project.fb76efcf.js is a whopping 195K — very large, given that all it does is print a line of text. Sure, there's some calculation, but we definitely don't need 195K worth of JavaScript to do this!
-
-When you use development tooling it's worth questioning whether they're doing the right thing for you. In this case, the bundle is nearly 200K because it has in fact included the entire `date-fns` library, not just the function we're using.
-
-If we had avoided any development tools and pointed a `<script src="">` element to a hosted version of `date-fns`, roughly the same thing would have happened — all of the library would be downloaded when our example page is loaded in a browser.
-
-However, this is where development tooling has a chance to shine. Whilst the tooling is on our machine, we can ask the software to inspect our use of the code and only include the functions that we're actually using in production — a process known as "Tree Shaking".
-
-This makes a lot of sense as we want to reduce file size and thus make our app load as quickly as possible. Different tooling will let you tree shake in different ways.
-
-Although the list grows by the month, there are three main offerings for tools that generate bundles from our source code: Webpack, [Rollup](https://rollupjs.org/guide/en/), and Parcel. There will be more available than this, but these are popular ones:
-
-- The RollUp tool offers tree shaking and code splitting as its core features.
-- Webpack requires some configuration (though "some" might be understating the complexity of some developers' Webpack configurations).
-- In the case of Parcel (prior to Parcel version 2), there's a special flag required — `--experimental-scope-hoisting` — which will tree shake while building.
-
-Let's stick with Parcel for now, given that we've already got it installed. Try running the following command:
-
-```bash
-npx parcel build index.html --experimental-scope-hoisting
-```
-
-You'll see that this makes a huge difference:
-
-```bash
-✨  Built in 7.87s.
-
-dist/my-project.86f8a5fc.js    10.34 KB    7.17s
-dist/index.html                   288 B    753ms
-```
-
-Now the bundle is approximately 10K. Much better.
-
-If we were to release this project to a server, we would only release the files in the `dist` folder. Parcel has automatically handled all the filename changes for us. We recommend having a look at the source code in `dist/index.html` just so you can see what changes Parcel has performed automatically.
-
-> **Note:** At the time of writing, Parcel 2 had not been released. However when it does, these commands will all still work because the authors of Parcel have had the good sense to name the tool slightly differently. To install Parcel 1.x you have to install `parcel-bundler`, but parcel 2.x is called `parcel`.
-
-There's a lot of tools available and the JavaScript package ecosystem is growing at an unprecedented rate, which has pros and cons. There's improvements being made all the time and the choice, for better or worse, is constantly increasing. Faced with the overwhelming choice of tooling, probably the most important lesson is to learn what the tool you select is capable of.
 
 ## A rough guide to package manager clients
 

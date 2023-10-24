@@ -50,6 +50,7 @@ munderover
 Navigations
 Neethling
 nolint
+npmjs
 okan
 Oklab
 oklch
@@ -58,9 +59,11 @@ prophoto
 rgba
 ripgrep
 sctp
+Snyk
 srgb
 tabak
 Temani
+unopinionated
 upvotes
 Verou
 vmin
