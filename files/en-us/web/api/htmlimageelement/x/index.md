@@ -65,7 +65,7 @@ including their user ID, their full name, and their avatar image.
   <tr>
     <td>12345678</td>
     <td>Johnny Rocket</td>
-    <td><img src="https://interactive-examples.mdn.mozilla.net/media/examples/grapefruit-slice-332-332.jpg"></td>
+    <td><img src="./grapefruit-slice-332-332.jpg" alt="A grapefruit cut in half with multiple grapefruit slices in the background."></td>
   </th>
 </table>
 <pre id="log">
@@ -112,19 +112,19 @@ The CSS defining the appearance of the table:
 
 ```css
 .group1 {
-  background-color: #d7d9f2;
+  background-color: aquamarine;
 }
 
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(100, 100, 100);
+  border: 2px solid black;
   font-family: sans-serif;
 }
 
 td,
 th {
-  border: 1px solid rgb(100, 100, 100);
-  padding: 10px 14px;
+  border: 1px solid black;
+  padding: 1em;
 }
 
 td > img {
@@ -136,7 +136,7 @@ td > img {
 
 The resulting table looks like this:
 
-{{EmbedLiveSample("Example", 600, 200)}}
+{{EmbedLiveSample("Example", 600, 220)}}
 
 ## Specifications
 
