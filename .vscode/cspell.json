@@ -6,9 +6,12 @@
   "dictionaries": [
     "bash",
     "css",
+    "companies",
+    "Companies & projects",
     "cpp",
     "django",
     "filetypes",
+    "File types & codecs",
     "fonts",
     "fullstack",
     "html",
@@ -17,7 +20,8 @@
     "markdown",
     "node",
     "npm",
-    "project-words",
+    "People",
+    "Project words",
     "python",
     "softwareTerms",
     "svelte",
@@ -29,6 +33,11 @@
     ".markdownlint-cli2.jsonc"
   ],
   "ignoreRegExpList": [
+    // https://cspell.org/types/cspell-types/types/PredefinedPatterns.html
+    "Base64",
+    "HexValues",
+    "Urls",
+    "href",
     // macros
     "{{\\s?\\w*\\(",
     "{{EmbedInteractiveExample\\(.*\\)}}",
@@ -49,23 +58,35 @@
     "aria-flowto=\"(?:[^\\\"]+|\\.)*\"",
     "aria-labelledby=\"(?:[^\\\"]+|\\.)*\"",
     "aria-owns=\"(?:[^\\\"]+|\\.)*\"",
-    "Base64",
     "class=\"(?:[^\\\"]+|\\.)*\"",
     "data-test-id=\"(?:[^\\\"]+|\\.)*\"",
     "for=\"(?:[^\\\"]+|\\.)*\"",
-    "HexValues",
     "href=\"(?:[^\\\"]+|\\.)*\"",
     "id=\"(?:[^\\\"]+|\\.)*\"",
     "lang=\".*\">.*</",
     "src=\"(?:[^\\\"]+|\\.)*\"",
-    "url\\(\"data\\:image/svg\\+xml.*\"\\)[,;]",
-    "Urls"
+    "url\\(\"data\\:image/svg\\+xml.*\"\\)[,;]"
   ],
   "allowCompoundWords": true,
   "dictionaryDefinitions": [
     {
-      "name": "project-words",
+      "name": "Project words",
       "path": "./project-words.txt",
+      "addWords": true
+    },
+    {
+      "name": "People",
+      "path": "./people.txt",
+      "addWords": true
+    },
+    {
+      "name": "File types & codecs",
+      "path": "./files-formats.txt",
+      "addWords": true
+    },
+    {
+      "name": "Companies & projects",
+      "path": "./companies-projects.txt",
       "addWords": true
     }
   ]
