@@ -17,7 +17,7 @@ Resources should be prefetched based on how likely it is that they will be neede
 This can be done using [`<link rel="prefetch">`](/en-US/docs/Web/HTML/Attributes/rel/prefetch) (the [Speculation Rules API](/en-US/docs/Web/API/Speculation_Rules_API) only handles document prefetches for navigations):
 
 ```html
-<link rel="prefetch" href="next.html" />
+<link rel="prefetch" href="next.html">
 ```
 
 ### Document prefetching
@@ -27,7 +27,7 @@ Developers can provide hints to the browser of navigations that should be prefet
 [`<link rel="prefetch">`](/en-US/docs/Web/HTML/Attributes/rel/prefetch):
 
 ```html
-<link rel="prefetch" href="next.html" />
+<link rel="prefetch" href="next.html">
 ```
 
 [Speculation Rules API](/en-US/docs/Web/API/Speculation_Rules_API) prefetch:
@@ -52,7 +52,7 @@ The Speculation Rules API handles document prefetches for navigations much bette
 [DNS prefetching](/en-US/docs/Web/HTML/Attributes/rel/dns-prefetch) resolves domain names in advance, speeding up load times by reducing the time associated with domain lookup at request time.
 
 ```html
-<link rel="dns-prefetch" href="https://example.com/" />
+<link rel="dns-prefetch" href="https://example.com/">
 ```
 
 ## See also

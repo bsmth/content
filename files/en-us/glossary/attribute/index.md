@@ -13,11 +13,11 @@ An attribute always has the form `name="value"` (the attribute's identifier foll
 You may see attributes without the equals sign or a value. That is a shorthand for providing the empty string in HTML, or the attribute's name in XML.
 
 ```html
-<input required />
+<input required>
 <!-- is the same as… -->
-<input required="" />
+<input required="">
 <!-- or -->
-<input required="required" />
+<input required="required">
 ```
 
 ## Reflection of an attribute
@@ -31,7 +31,7 @@ For example, the `placeholder` below is reflected into {{domxref("HTMLInputEleme
 Considering the following HTML:
 
 ```html
-<input placeholder="Original placeholder" />
+<input placeholder="Original placeholder">
 ```
 
 We can check the reflection between {{domxref("HTMLInputElement.placeholder")}} and the attribute using:

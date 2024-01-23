@@ -21,12 +21,12 @@ Here's an example of a HTML boolean attribute `checked`:
 
 ```html
 <!-- The following checkboxes will be checked on initial rendering -->
-<input type="checkbox" checked />
-<input type="checkbox" checked="" />
-<input type="checkbox" checked="checked" />
+<input type="checkbox" checked>
+<input type="checkbox" checked="">
+<input type="checkbox" checked="checked">
 
 <!-- The following checkbox will not be checked on initial rendering -->
-<input type="checkbox" />
+<input type="checkbox">
 ```
 
 ## See also

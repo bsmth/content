@@ -19,6 +19,11 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
+"@awmottaz/prettier-plugin-void-html@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@awmottaz/prettier-plugin-void-html/-/prettier-plugin-void-html-1.5.0.tgz#d690b3a80965938d4d427431b9fc1e2e89dfc267"
+  integrity sha512-RQlvzIo9dk6gXbCLZPApXYLhsPwwfuX8nk5a2Vx1bN7oU/1ARYqulkwHv6JXfcZbVhxhfLvE+Fu5bHQBO3jqwQ==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.22.13", "@babel/code-frame@^7.23.4":
   version "7.23.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.23.4.tgz#03ae5af150be94392cb5c7ccd97db5a19a5da6aa"
