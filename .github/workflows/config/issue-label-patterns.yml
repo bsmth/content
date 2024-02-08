@@ -1,3 +1,9 @@
+# Every issue should have 'needs triage' applied
+needs triage:
+  - "/.*/"
+
+# Apply based on regex matches in body of issue
+# See https://github.com/github/issue-labeler
 Content:Accessibility:
   - '\/docs\/Web\/Accessibility'
 Content:CSS:

@@ -1,4 +1,14 @@
-name: "Label issues by MDN URL or other regex match in issue description"
+name: "Label new issues by regex match"
+
+# This workflow is triggered when issues are opened.
+# The criteria for which label to use is defined in a config file
+# with a list of regex patterns. If the issue body contains
+# matches for any of the patterns, the associated label is applied.
+# This is typically used to match a reported MDN URL to a technology
+# category.
+#
+# See https://github.com/github/issue-labeler for more details.
+
 on:
   issues:
     types: [opened]
@@ -10,5 +20,5 @@ jobs:
       - uses: github/issue-labeler@v3.4
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          configuration-path: .github/issue-regex-labeler.yml
+          configuration-path: .github/workflows/config/issue-label-patterns.yml
           enable-versioned-regex: 0
