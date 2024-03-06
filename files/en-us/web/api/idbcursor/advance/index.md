@@ -6,11 +6,13 @@ page-type: web-api-instance-method
 browser-compat: api.IDBCursor.advance
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{APIRef("IndexedDB")}}
 
 The **`advance()`** method of the {{domxref("IDBCursor")}}
 interface sets the number of times a cursor should move
 its position forward.
+
+{{AvailableInWorkers}}
 
 ## Syntax
 

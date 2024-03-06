@@ -6,9 +6,11 @@ page-type: web-api-instance-method
 browser-compat: api.FormData.has
 ---
 
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers}}
+{{APIRef("XMLHttpRequest API")}}
 
 The **`has()`** method of the {{domxref("FormData")}} interface returns whether a `FormData` object contains a certain key.
+
+{{AvailableInWorkers}}
 
 ## Syntax
 

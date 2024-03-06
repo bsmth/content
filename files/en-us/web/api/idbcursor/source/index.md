@@ -6,13 +6,15 @@ page-type: web-api-instance-property
 browser-compat: api.IDBCursor.source
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{APIRef("IndexedDB")}}
 
 The **`source`** read-only property of the
 {{domxref("IDBCursor")}} interface returns the {{domxref("IDBObjectStore")}} or
 {{domxref("IDBIndex")}} that the cursor is iterating over. This function never returns
 null or throws an exception, even if the cursor is currently being iterated, has
 iterated past its end, or its transaction is not active.
+
+{{AvailableInWorkers}}
 
 ## Value
 

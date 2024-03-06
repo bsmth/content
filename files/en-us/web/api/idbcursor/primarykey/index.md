@@ -6,12 +6,14 @@ page-type: web-api-instance-property
 browser-compat: api.IDBCursor.primaryKey
 ---
 
-{{APIRef("IDBCursor")}} {{AvailableInWorkers}}
+{{APIRef("IDBCursor")}}
 
 The **`primaryKey`** read-only property of the
 {{domxref("IDBCursor")}} interface returns the cursor's current effective key. If the
 cursor is currently being iterated or has iterated outside its range, this is set to
 undefined. The cursor's primary key can be any data type.
+
+{{AvailableInWorkers}}
 
 ## Value
 

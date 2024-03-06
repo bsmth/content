@@ -6,11 +6,13 @@ page-type: web-api-instance-property
 browser-compat: api.IDBCursorWithValue.value
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{ APIRef("IndexedDB") }}
 
 The **`value`** read-only property of the
 {{domxref("IDBCursorWithValue")}} interface returns the value of the current cursor,
 whatever that is.
+
+{{AvailableInWorkers}}
 
 ## Value
 

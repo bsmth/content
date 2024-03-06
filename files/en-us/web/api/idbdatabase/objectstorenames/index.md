@@ -6,11 +6,13 @@ page-type: web-api-instance-property
 browser-compat: api.IDBDatabase.objectStoreNames
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{ APIRef("IndexedDB") }}
 
 The **`objectStoreNames`** read-only property of the
 {{domxref("IDBDatabase")}} interface is a {{ domxref("DOMStringList") }} containing a
 list of the names of the [object stores](/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology#object_store) currently in the connected database.
+
+{{AvailableInWorkers}}
 
 ## Value
 
