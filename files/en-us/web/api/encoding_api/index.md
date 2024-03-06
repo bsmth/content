@@ -9,11 +9,13 @@ browser-compat:
   - api.TextDecoderStream
 ---
 
-{{DefaultAPISidebar("Encoding API")}} {{AvailableInWorkers}}
+{{DefaultAPISidebar("Encoding API")}}
 
 The **Encoding API** provides a mechanism for handling text in various {{Glossary("character encoding", "character encodings")}}, including legacy non-{{Glossary("UTF-8")}} encodings.
 
 The API provides four interfaces: {{domxref("TextDecoder")}}, {{domxref("TextEncoder")}}, {{domxref("TextDecoderStream")}} and {{domxref("TextEncoderStream")}}.
+
+{{AvailableInWorkers}}
 
 ## Interfaces
 
