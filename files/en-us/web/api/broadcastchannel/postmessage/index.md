@@ -6,13 +6,15 @@ page-type: web-api-instance-method
 browser-compat: api.BroadcastChannel.postMessage
 ---
 
-{{APIRef("BroadCastChannel API")}} {{AvailableInWorkers}}
+{{APIRef("BroadCastChannel API")}}
 
 The **`BroadcastChannel.postMessage()`** sends a message,
 which can be of any kind of {{jsxref("Object")}},
 to each listener in any {{glossary("browsing context")}} with the same {{glossary("origin")}}.
 The message is transmitted as a ['message'](/en-US/docs/Web/API/BroadcastChannel/message_event) event
 targeted at each {{domxref("BroadcastChannel")}} bound to the channel.
+
+{{AvailableInWorkers}}
 
 ## Syntax
 

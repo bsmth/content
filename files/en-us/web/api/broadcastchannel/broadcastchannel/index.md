@@ -6,10 +6,12 @@ page-type: web-api-constructor
 browser-compat: api.BroadcastChannel.BroadcastChannel
 ---
 
-{{APIRef("BroadCastChannel API")}} {{AvailableInWorkers}}
+{{APIRef("BroadCastChannel API")}}
 
 The **`BroadcastChannel()`** constructor creates a new
 {{domxref("BroadcastChannel")}} and connects it to the underlying channel.
+
+{{AvailableInWorkers}}
 
 ## Syntax
 
@@ -21,8 +23,7 @@ new BroadcastChannel(channelName)
 
 - `channelName`
   - : A string representing the name of the channel; there is one
-    single channel with this name for all {{glossary("browsing context", "browsing
-    contexts")}} with the same {{glossary("origin")}}.
+    single channel with this name for all {{glossary("browsing context", "browsing contexts")}} with the same {{glossary("origin")}}.
 
 ## Examples
 
