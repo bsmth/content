@@ -30,7 +30,7 @@ Most of the time the user-agent is a Web browser, but it can be anything, for ex
 Each individual request is sent to a server, which handles it and provides an answer called the _response_.
 Between the client and the server there are numerous entities, collectively called {{Glossary("Proxy_server", "proxies")}}, which perform different operations and act as gateways or {{Glossary("Cache", "caches")}}, for example.
 
-![Client server chain](client-server-chain.png)
+![Client server chain](client-server-chain.svg)
 
 In reality, there are more computers between a browser and the server handling the request: there are routers, modems, and more.
 Thanks to the layered design of the Web, these are hidden in the network and transport layers.

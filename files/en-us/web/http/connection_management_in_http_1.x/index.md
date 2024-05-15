@@ -10,11 +10,17 @@ Connection management is a key topic in HTTP: opening and maintaining connection
 
 HTTP mostly relies on TCP for its transport protocol, providing a connection between the client and the server. In its infancy, HTTP used a single model to handle such connections. These connections were short-lived: a new one created each time a request needed sending, and closed once the answer had been received.
 
+![The HTTP/1.x model of short-lived connections. Connections are established with each request and closed after each response.](short-lived-connections.svg)
+
 This simple model held an innate limitation on performance: opening each TCP connection is a resource-consuming operation. Several messages must be exchanged between the client and the server. Network latency and bandwidth affect performance when a request needs sending. Modern Web pages require many requests (a dozen or more) to serve the amount of information needed, proving this earlier model inefficient.
 
-Two newer models were created in HTTP/1.1. The persistent-connection model keeps connections opened between successive requests, reducing the time needed to open new connections. The HTTP pipelining model goes one step further, by sending several successive requests without even waiting for an answer, reducing much of the latency in the network.
+Two newer models were created in HTTP/1.1. The persistent-connection model keeps connections opened between successive requests, reducing the time needed to open new connections.
 
-![Compares the performance of the three HTTP/1.x connection models: short-lived connections, persistent connections, and HTTP pipelining.](http1_x_connections.png)
+![The HTTP/1.x connection model of persistent connections where a connection is kept open while sequences of requests and responses occur.](persistent-connections.svg)
+
+The HTTP pipelining model goes one step further, by sending several successive requests without even waiting for an answer, reducing much of the latency in the network.
+
+![The HTTP/1.x connection model of HTTP pipelining where multiple requests are sent to a server before any have received a response. The connection is kept open while the server receives requests and sends responses.](http-pipelining.svg)
 
 > **Note:** HTTP/2 adds additional models for connection management.
 
