@@ -500,7 +500,7 @@ if (isset($_FILES['myFile'])) {
 <head>
   <meta charset="UTF-8">
   <title>dnd binary upload</title>
-    <script type="application/javascript">
+    <script type="text/javascript">
         function sendFile(file) {
             const uri = "/index.php";
             const xhr = new XMLHttpRequest();

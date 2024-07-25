@@ -71,7 +71,7 @@ elements from two different namespaces within a single document:
       title="||Working with elements||"
       onload="init()">
 
-<script type="application/javascript"><![CDATA[
+<script type="text/javascript"><![CDATA[
  let container;
  let newdiv;
  let txtnode;
