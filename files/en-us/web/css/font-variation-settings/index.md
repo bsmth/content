@@ -105,13 +105,29 @@ You can find a number of other variable font examples in our [Variable fonts gui
 
 You can edit the CSS in the example below to play with different font weight values. See what happens when you specify a value outside the weight range.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/weight.html", '100%', 940)}}
+```html live-sample___weight
+No HTML block found
+```
+
+```css live-sample___weight
+No CSS block found
+```
+
+{{EmbedLiveSample("weight")}}
 
 ### Controlling variable font slant (slnt)
 
 You can edit the CSS in the example below to play with different font slant/oblique values.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/slant.html", '100%', 940)}}
+```html live-sample___slant
+No HTML block found
+```
+
+```css live-sample___slant
+No CSS block found
+```
+
+{{EmbedLiveSample("slant")}}
 
 ## Specifications
 

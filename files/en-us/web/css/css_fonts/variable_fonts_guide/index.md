@@ -74,7 +74,15 @@ font-variation-settings: "wght" 375;
 
 The following live example's CSS can be edited to allow you to play with font-weight values.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/weight.html", '100%', 520)}}
+```html live-sample___weight
+No HTML block found
+```
+
+```css live-sample___weight
+No CSS block found
+```
+
+{{EmbedLiveSample("weight")}}
 
 ### Width
 
@@ -91,7 +99,15 @@ font-variation-settings: "wdth" 115;
 
 The following live example's CSS can be edited to allow you to play with font width values.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/width.html", '100%', 520)}}
+```html live-sample___width
+No HTML block found
+```
+
+```css live-sample___width
+No CSS block found
+```
+
+{{EmbedLiveSample("width")}}
 
 ### Italic
 
@@ -109,7 +125,15 @@ font-synthesis: none;
 
 The following live example's CSS can be edited to allow you to play with font italics.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/italic.html", '100%', 520)}}
+```html live-sample___italic
+No HTML block found
+```
+
+```css live-sample___italic
+No CSS block found
+```
+
+{{EmbedLiveSample("italic")}}
 
 ### Slant
 
@@ -223,7 +247,15 @@ font-variation-settings: "opsz" 36;
 
 The following live example's CSS can be edited to allow you to play with optical size values.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/optical-sizing.html", '100%', 1020)}}
+```html live-sample___optical-sizing
+No HTML block found
+```
+
+```css live-sample___optical-sizing
+No CSS block found
+```
+
+{{EmbedLiveSample("optical-sizing")}}
 
 ### Custom axes
 
@@ -239,7 +271,15 @@ font-variation-settings: "GRAD" 88;
 
 The following live example's CSS can be edited to allow you to play with font grade values.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/grade.html", '100%', 520)}}
+```html live-sample___grade
+No HTML block found
+```
+
+```css live-sample___grade
+No CSS block found
+```
+
+{{EmbedLiveSample("grade")}}
 
 ### Using a variable font: @font-face changes
 
@@ -315,7 +355,15 @@ h1 {
 
 The following example pages show two different ways to structure your CSS. The first uses the standard attributes wherever possible. The second example uses CSS Custom Properties to set values for a `font-variation-settings` string and shows how you can more easily update single variable values by overriding a single variable rather than rewriting the whole string. Note the hover effect on the `h2`, which only alters the grade axis custom property value.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/sample-page.html", '100%', 1220)}}
+```html live-sample___sample-page
+No HTML block found
+```
+
+```css live-sample___sample-page
+No CSS block found
+```
+
+{{EmbedLiveSample("sample-page")}}
 
 ## Resources
 

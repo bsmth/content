@@ -22,7 +22,126 @@ Media Object pattern needs some or all of the following characteristics:
 
 ## The recipe
 
-{{EmbedGHLiveSample("css-examples/css-cookbook/media-objects.html", '100%', 2700)}}
+```html live-sample___media-objects
+<div class="media">
+  <div class="img">
+    <img alt="Balloons" src="balloon-sq2.jpg" />
+  </div>
+
+  <div class="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+      vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit
+      lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque
+      porta sit amet nulla vitae luctus. Praesent quis risus id dolor venenatis
+      condimentum.
+    </p>
+  </div>
+  <div class="footer">An optional footer goes here.</div>
+</div>
+
+<div class="media">
+  <div class="img">
+    <img alt="Account" src="sharp-account_box-24px.svg" width="80px" />
+  </div>
+  <div class="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+      vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit
+      lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque
+      porta sit amet nulla vitae luctus. Praesent quis risus id dolor venenatis
+      condimentum.
+    </p>
+  </div>
+  <div class="footer"></div>
+</div>
+
+<div class="media media-flip">
+  <div class="img">
+    <img alt="Balloons" src="balloon-sq2.jpg" />
+  </div>
+
+  <div class="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+      vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit
+      lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque
+      porta sit amet nulla vitae luctus. Praesent quis risus id dolor venenatis
+      condimentum.
+    </p>
+  </div>
+  <div class="footer">An optional footer goes here.</div>
+</div>
+
+<div class="media">
+  <a class="img">
+    <img alt="Balloons" src="balloon-sq2.jpg" />
+  </a>
+
+  <div class="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+      vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit
+      lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque
+      porta sit amet nulla vitae luctus. Praesent quis risus id dolor venenatis
+      condimentum.
+    </p>
+  </div>
+
+  <div class="footer"></div>
+
+  <div class="media">
+    <a class="img">
+      <img alt="Balloons" src="balloon-sq2.jpg" />
+    </a>
+
+    <div class="content">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+        vitae ligula sit amet maximus.
+      </p>
+    </div>
+
+    <div class="footer"></div>
+  </div>
+</div>
+```
+
+```css live-sample___media-objects
+@media (min-width: 500px) {
+  .media {
+    display: grid;
+    grid-template-columns: fit-content(200px) 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+      "image content"
+      "image footer";
+    grid-gap: 20px;
+    margin-bottom: 4em;
+  }
+
+  .media-flip {
+    grid-template-columns: 1fr fit-content(250px);
+    grid-template-areas:
+      "content image"
+      "footer image";
+  }
+
+  .img {
+    grid-area: image;
+  }
+
+  .content {
+    grid-area: content;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+}
+```
+
+{{EmbedLiveSample("media-objects")}}
 
 > [!CALLOUT]
 >

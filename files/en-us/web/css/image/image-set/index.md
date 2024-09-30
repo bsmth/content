@@ -68,7 +68,24 @@ Browsers do not provide any special information on background images to assistiv
 
 This example shows how to use [`image-set()`](https://drafts.csswg.org/css-images-4/#funcdef-image-set) to provide two alternative {{cssxref("background-image")}} options, chosen depending on the resolution needed: a normal version and a high-resolution version.
 
-{{EmbedGHLiveSample("css-examples/images/image-set.html", '100%', 600)}}
+```html live-sample___image-set
+<div class="box"></div>
+```
+
+```css live-sample___image-set
+.box {
+  background-image: -webkit-image-set(
+    url("small-balloons.jpg") 1x,
+    url("large-balloons.jpg") 2x
+  );
+  background-image: image-set(
+    url("small-balloons.jpg") 1x,
+    url("large-balloons.jpg") 2x
+  );
+}
+```
+
+{{EmbedLiveSample("image-set")}}
 
 > [!NOTE]
 > In the above example, the `-webkit` prefixed version is also used to support Chrome and Safari. In Firefox 90, support was added for `-webkit-image-set()` as an alias to `image-set()` (in order to provide compat where developers had not added the standard property).
@@ -77,7 +94,24 @@ This example shows how to use [`image-set()`](https://drafts.csswg.org/css-image
 
 In the next example the `type()` function is used to serve the image in AVIF and JPEG formats. If the browser supports avif, it will choose that version. Otherwise it will use the jpeg version.
 
-{{EmbedGHLiveSample("css-examples/images/image-set-type.html", '100%', 600)}}
+```html live-sample___image-set-type
+<div class="box"></div>
+```
+
+```css live-sample___image-set-type
+.box {
+  background-image: -webkit-image-set(
+    url("large-balloons.avif"),
+    url("large-balloons.jpg")
+  );
+  background-image: image-set(
+    url("large-balloons.avif") type("image/avif"),
+    url("large-balloons.jpg") type("image/jpeg")
+  );
+}
+```
+
+{{EmbedLiveSample("image-set-type")}}
 
 #### Providing a fallback
 

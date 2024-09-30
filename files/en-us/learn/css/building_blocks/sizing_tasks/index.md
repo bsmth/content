@@ -23,7 +23,33 @@ The second box should be fixed at 100 pixels tall, so that content will overflow
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/sizing/height-min-height.html", '100%', 1000)}}
+```html live-sample___height-min-height
+<div class="box box1">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic. Gumbo beet greens
+    corn soko endive gumbo gourd.
+  </p>
+</div>
+
+<div class="box box2">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic. Gumbo beet greens
+    corn soko endive gumbo gourd.
+  </p>
+</div>
+```
+
+```css live-sample___height-min-height
+.box1 {
+}
+
+.box2 {
+}
+```
+
+{{EmbedLiveSample("height-min-height")}}
 
 > [!CALLOUT]
 >
@@ -39,7 +65,21 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/sizing/percentages.html", '100%', 800)}}
+```html live-sample___percentages
+<div class="box">
+  <div class="inner">Make me 60% of my parent's width.</div>
+</div>
+```
+
+```css live-sample___percentages
+* {
+  box-sizing: border-box;
+}
+.inner {
+}
+```
+
+{{EmbedLiveSample("percentages")}}
 
 > [!CALLOUT]
 >
@@ -55,7 +95,22 @@ Your final result should look like the images below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/sizing/max-width.html", '100%', 1200)}}
+```html live-sample___max-width
+<div class="box">
+  <img alt="star" src="star.png" />
+</div>
+
+<div class="box">
+  <img alt="balloons" src="balloons.jpg" />
+</div>
+```
+
+```css live-sample___max-width
+img {
+}
+```
+
+{{EmbedLiveSample("max-width")}}
 
 > [!CALLOUT]
 >

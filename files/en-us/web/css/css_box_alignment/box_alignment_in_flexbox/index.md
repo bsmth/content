@@ -12,7 +12,27 @@ The [box alignment](/en-US/docs/Web/CSS/CSS_box_alignment) Specification details
 
 In this example, three flex items are aligned on the main axis using {{cssxref("justify-content")}} and on the cross axis using {{cssxref("align-items")}}. The first item overrides the `align-items` values set on the group by setting {{cssxref("align-self")}} to `center`.
 
-{{EmbedGHLiveSample("css-examples/box-alignment/overview/flex-align-items.html", '100%', 500)}}
+```html live-sample___flex-align-items
+<div class="box">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three <br />has <br />extra <br />text</div>
+</div>
+```
+
+```css live-sample___flex-align-items
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box :first-child {
+  align-self: center;
+}
+```
+
+{{EmbedLiveSample("flex-align-items")}}
 
 ## The axes and flex-direction
 
@@ -47,7 +67,26 @@ There is a specific use case in flexbox where we might think that a `justify-sel
 
 By setting a {{cssxref("margin")}} of `auto` on one item in a set of flex items all aligned to start, we can create a split navigation. This works well with flexbox and the alignment properties. As soon as there is no space available for the auto margin, the item behaves in the same way as all the other flex items and shrinks to try to fit into space.
 
-{{EmbedGHLiveSample("css-examples/box-alignment/flexbox/auto-margins.html", '100%', 500)}}
+```html live-sample___auto-margins
+<div class="box">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+  <div class="push">Four</div>
+  <div>Five</div>
+</div>
+```
+
+```css live-sample___auto-margins
+.box {
+  display: flex;
+}
+.push {
+  margin-left: auto;
+}
+```
+
+{{EmbedLiveSample("auto-margins")}}
 
 ## The `gap` properties
 
@@ -61,7 +100,31 @@ On the main axis, the `column-gap` property creates fixed size gaps between adja
 
 On the cross axis the `row-gap` property creates spacing between adjacent flex lines, therefore `flex-wrap` must also be set to `wrap` for this to have any effect.
 
-{{EmbedGHLiveSample("css-examples/box-alignment/flexbox/gap.html", '100%', 700)}}
+```html live-sample___gap
+<div class="box">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+  <div>Four</div>
+  <div>Five</div>
+  <div>Six</div>
+</div>
+```
+
+```css live-sample___gap
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 2em;
+}
+
+.box > * {
+  flex: 1;
+}
+```
+
+{{EmbedLiveSample("gap")}}
 
 ## Reference
 

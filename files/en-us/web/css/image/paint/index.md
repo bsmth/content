@@ -51,7 +51,15 @@ li:nth-of-type(3n + 1) {
 
 The result will be the following:
 
-{{EmbedGHLiveSample("css-examples/houdini/css_painting_api/example-boxbg.html", '100%', 400)}}
+```html live-sample___example-boxbg
+No HTML block found
+```
+
+```css live-sample___example-boxbg
+No CSS block found
+```
+
+{{EmbedLiveSample("example-boxbg")}}
 
 ### With additional parameters
 

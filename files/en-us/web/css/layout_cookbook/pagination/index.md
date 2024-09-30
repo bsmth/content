@@ -18,7 +18,58 @@ Typically, the pagination component will be centered horizontally underneath the
 
 ## Recipe
 
-{{EmbedGHLiveSample("css-examples/css-cookbook/pagination.html", '100%', 720)}}
+```html live-sample___pagination
+<nav aria-label="pagination">
+  <ul class="pagination">
+    <li>
+      <a href=""
+        ><span aria-hidden="true">«</span
+        ><span class="visuallyhidden">previous set of pages</span></a
+      >
+    </li>
+    <li>
+      <a href=""><span class="visuallyhidden">page </span>1</a>
+    </li>
+    <li>
+      <a aria-current="page" href=""
+        ><span class="visuallyhidden">page </span>2</a
+      >
+    </li>
+    <li>
+      <a href=""><span class="visuallyhidden">page </span>3</a>
+    </li>
+    <li>
+      <a href=""><span class="visuallyhidden">page </span>4</a>
+    </li>
+    <li>
+      <a href=""
+        ><span class="visuallyhidden">next set of pages</span
+        ><span aria-hidden="true">»</span></a
+      >
+    </li>
+  </ul>
+</nav>
+```
+
+```css live-sample___pagination
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.pagination li {
+  margin: 0 1px;
+}
+```
+
+{{EmbedLiveSample("pagination")}}
 
 > [!CALLOUT]
 >

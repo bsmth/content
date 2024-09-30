@@ -40,7 +40,27 @@ For example, we can apply a set of styles or import an entire stylesheet if the 
 
 As another example, if you want to check if a browser supports the `row-gap` property you would write the following feature query. It doesn't matter which value you use in a lot of cases: if all you want is to check that the browser supports this property, then any valid value will do.
 
-{{EmbedGHLiveSample("css-examples/feature-queries/simple.html", '100%', 600)}}
+```html live-sample___simple
+<div class="box">
+  If your browser supports row-gap, border will be be dashed and text will be
+  red
+</div>
+```
+
+```css live-sample___simple
+.box {
+  border: 4px solid blue;
+  color: blue;
+}
+@supports (row-gap: 10px) {
+  .box {
+    border: 4px dashed darkgreen;
+    color: red;
+  }
+}
+```
+
+{{EmbedLiveSample("simple")}}
 
 The value part of the property-value pair matters more if you are testing for new values of a particular property. All browsers support `color: red`: this dates back to CSS1. However, there are often additional values added to properties in CSS, like [relative colors](/en-US/docs/Web/CSS/CSS_colors/Relative_colors), which may not be supported. Feature queries enable testing property and value pairs, meaning we can detect support for values.
 
@@ -71,7 +91,27 @@ In addition to asking the browser if it supports a feature, you can test for the
 
 The CSS inside the following example feature query will run if the browser does not support `row-gap`.
 
-{{EmbedGHLiveSample("css-examples/feature-queries/not.html", '100%', 600)}}
+```html live-sample___not
+<div class="box">
+  If your browser does not support row-gap, the content will be darkgreen with a
+  dashed border.
+</div>
+```
+
+```css live-sample___not
+.box {
+  border: 4px solid blue;
+  color: blue;
+}
+@supports not (row-gap: 10px) {
+  .box {
+    border: 4px dashed darkgreen;
+    color: darkgreen;
+  }
+}
+```
+
+{{EmbedLiveSample("not")}}
 
 ## Testing for more than one feature
 
@@ -86,7 +126,27 @@ You may need to test support for more than one property in your feature query. T
 
 For example, if the CSS you want to run requires that the browser supports CSS Shapes and CSS grid, you could create a rule that tests browser support for both of these features. The following rule will only return true if `shape-outside: circle()` and `display: grid` are both supported by the browser.
 
-{{EmbedGHLiveSample("css-examples/feature-queries/and.html", '100%', 600)}}
+```html live-sample___and
+<div class="box">
+  If your browser supports display: grid and shape-outside: circle(), the
+  content will be darkgreen with a dashed border.
+</div>
+```
+
+```css live-sample___and
+.box {
+  border: 4px solid blue;
+  color: blue;
+}
+@supports (display: grid) and (shape-outside: circle()) {
+  .box {
+    border: 4px dashed darkgreen;
+    color: darkgreen;
+  }
+}
+```
+
+{{EmbedLiveSample("and")}}
 
 ## Testing for at least one of multiple features
 
@@ -101,7 +161,26 @@ You can also use `or` to apply CSS only if one or more declarations are supporte
 
 This can be particularly useful if a feature is vendor prefixed, as you can test for the standard property plus any vendor prefixes.
 
-{{EmbedGHLiveSample("css-examples/feature-queries/or.html", '100%', 600)}}
+```html live-sample___or
+<div class="box">
+  The text and border will be green if your browser supports font smoothing.
+</div>
+```
+
+```css live-sample___or
+.box {
+  border: 4px solid blue;
+  color: blue;
+}
+@supports (font-smooth: always) or (-webkit-font-smoothing: antialiased) {
+  .box {
+    border: 4px dashed darkgreen;
+    color: darkgreen;
+  }
+}
+```
+
+{{EmbedLiveSample("or")}}
 
 ## Additional feature query options
 

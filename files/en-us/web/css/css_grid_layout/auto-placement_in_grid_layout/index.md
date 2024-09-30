@@ -473,7 +473,33 @@ Auto-placement is useful whenever you have a collection of items. That could be 
 
 Try removing the line `grid-auto-flow: dense` to see the content reflow to leave gaps in the layout.
 
-{{EmbedGHLiveSample("css-examples/grid/docs/autoplacement.html", '100%', 1200)}}
+```html live-sample___autoplacement
+<ul class="wrapper">
+  <li><img alt="placeholder" src="portrait.jpg" /></li>
+  <li class="landscape"><img alt="placeholder" src="landscape.jpg" /></li>
+  <li class="landscape"><img alt="placeholder" src="landscape.jpg" /></li>
+  <li class="landscape"><img alt="placeholder" src="landscape.jpg" /></li>
+  <li class="landscape"><img alt="placeholder" src="landscape.jpg" /></li>
+  <li><img alt="placeholder" src="portrait.jpg" /></li>
+  <li><img alt="placeholder" src="portrait.jpg" /></li>
+  <li><img alt="placeholder" src="portrait.jpg" /></li>
+</ul>
+```
+
+```css live-sample___autoplacement
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  gap: 10px;
+  grid-auto-flow: dense;
+}
+
+.wrapper li.landscape {
+  grid-column-end: span 2;
+}
+```
+
+{{EmbedLiveSample("autoplacement")}}
 
 Auto-placement can also help you lay out interface items which do have logical order. An example is the definition list in this next example. Definition lists are an interesting challenge to style as they are flat, there is nothing wrapping the groups of `dt` and `dd` items. In my example I am allowing auto-placement to place the items, however I have classes that start a `dt` in column 1, and `dd` in column 2, this ensure that terms go on one side and definitions on the other - no matter how many of each we have.
 

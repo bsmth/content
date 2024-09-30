@@ -16,7 +16,15 @@ This tool lets you pick a color in the sRGB {{glossary("color space")}} and conv
 
 When you select a color, it gets displayed in four standard CSS color formats. Control over the alpha channel is also supported.
 
-{{EmbedGHLiveSample("css-examples/modules/colors.html", '100%', 450)}}
+```html live-sample___colors
+No HTML block found
+```
+
+```css live-sample___colors
+No CSS block found
+```
+
+{{EmbedLiveSample("colors")}}
 
 The generated color values can be used anywhere the {{cssxref("color_value", "&lt;color&gt")}} data type is supported in CSS.
 

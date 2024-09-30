@@ -171,7 +171,19 @@ When you find CSS that you want to experiment with, replace the HTML `<body>` co
 
 As an alternative, you can also use the interactive editor below.
 
-{{EmbedGHLiveSample("css-examples/learn/getting-started/experiment-sandbox.html", '100%', 800)}}
+```html live-sample___experiment-sandbox
+<p>Create your test HTML here</p>
+```
+
+```css live-sample___experiment-sandbox
+/* Create your test CSS here */
+
+p {
+  color: red;
+}
+```
+
+{{EmbedLiveSample("experiment-sandbox")}}
 
 Read on and have fun!
 

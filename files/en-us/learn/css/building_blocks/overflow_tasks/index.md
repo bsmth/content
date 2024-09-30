@@ -21,7 +21,31 @@ In this task, the content is overflowing the box because it has a fixed height. 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/overflow/overflow-scroll.html", '100%', 1000)}}
+```html live-sample___overflow-scroll
+<div class="box">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+</div>
+```
+
+```css live-sample___overflow-scroll
+.box {
+  border: 5px solid black;
+  padding: 1em;
+  height: 200px;
+  width: 300px;
+}
+```
+
+{{EmbedLiveSample("overflow-scroll")}}
 
 > [!CALLOUT]
 >
@@ -37,7 +61,21 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/overflow/overflow-hidden.html", '100%', 1200)}}
+```html live-sample___overflow-hidden
+<div class="box">
+  <img alt="flowers" src="flowers.jpg" />
+</div>
+```
+
+```css live-sample___overflow-hidden
+.box {
+  border: 5px solid black;
+  height: 200px;
+  width: 300px;
+}
+```
+
+{{EmbedLiveSample("overflow-hidden")}}
 
 > [!CALLOUT]
 >

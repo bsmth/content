@@ -38,7 +38,35 @@ The `column-count` property specifies the number of columns that you would like 
 
 In the below example, we use the `column-count` property to create three columns on the `.container` element. The content, including the children of `.container`, is then split between the three columns.
 
-{{EmbedGHLiveSample("css-examples/multicol/basics/column-count.html", '100%', 550)}}
+```html live-sample___column-count
+<div class="container">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+
+  <p>
+    Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+    kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter
+    purslane kale. Celery potato scallion desert raisin horseradish spinach
+    carrot soko.
+  </p>
+</div>
+```
+
+```css live-sample___column-count
+.container {
+  column-count: 3;
+}
+```
+
+{{EmbedLiveSample("column-count")}}
 
 In the above example, the content is wrapped within the paragraph `<p>` tags with the default styling. Therefore, there is a margin above each paragraph. You can see how this margin causes the first line of text to be pushed down. This is because a multicol container creates a [block formatting context (BFC)](/en-US/docs/Web/CSS/CSS_display/Block_formatting_context) because of which margins on child elements do not collapse with any margin on the container.
 
@@ -50,7 +78,35 @@ In the case of a single column with less width available than the value of `colu
 
 In the example below, the `column-width` property is set to `200px`. We get as many 200-pixel columns as will fit the container, with the extra space shared equally.
 
-{{EmbedGHLiveSample("css-examples/multicol/basics/column-width.html", '100%', 550)}}
+```html live-sample___column-width
+<div class="container">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+
+  <p>
+    Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+    kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter
+    purslane kale. Celery potato scallion desert raisin horseradish spinach
+    carrot soko.
+  </p>
+</div>
+```
+
+```css live-sample___column-width
+.container {
+  column-width: 200px;
+}
+```
+
+{{EmbedLiveSample("column-width")}}
 
 ### Specifying both number and width of columns
 
@@ -60,7 +116,36 @@ When using both properties together, you may get fewer columns than specified in
 
 In this next example, we use `column-width` of `200px` and `column-count` of `2`. Even if there is space for more than two columns, we get two. If there is not enough space for two columns of at least 200 pixels each, we get one.
 
-{{EmbedGHLiveSample("css-examples/multicol/basics/column-count-width.html", '100%', 550)}}
+```html live-sample___column-count-width
+<div class="container">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+
+  <p>
+    Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+    kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter
+    purslane kale. Celery potato scallion desert raisin horseradish spinach
+    carrot soko. .
+  </p>
+</div>
+```
+
+```css live-sample___column-count-width
+.container {
+  column-count: 2;
+  column-width: 200px;
+}
+```
+
+{{EmbedLiveSample("column-count-width")}}
 
 ### Shorthand for column properties
 

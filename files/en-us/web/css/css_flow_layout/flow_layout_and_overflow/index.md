@@ -12,7 +12,36 @@ When there is more content than can fit into a container, an overflow situation 
 
 Giving an element a fixed height and width, then adding significant content to the box, creates a basic overflow example:
 
-{{EmbedGHLiveSample("css-examples/flow/overflow/overflow.html", '100%', 700)}}
+```html live-sample___overflow
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney.
+  </p>
+</div>
+<p>
+  Their names were Stephen and Joseph Montgolfier, they were papermakers by
+  trade, and were noted as possessing thoughtful minds and a deep interest in
+  all scientific knowledge and new discovery.
+</p>
+<p>
+  Before that night—a memorable night, as it was to prove—hundreds of millions
+  of people had watched the rising smoke-wreaths of their fires without drawing
+  any special inspiration from the fact.”
+</p>
+```
+
+```css live-sample___overflow
+.box {
+  width: 300px;
+  height: 100px;
+  border: 5px solid rebeccapurple;
+  padding: 10px;
+}
+```
+
+{{EmbedLiveSample("overflow")}}
 
 The content goes into the box. Once it fills the box, it continues to overflow in a visible way, displaying content outside the box, potentially displaying under subsequent content. The property that controls how overflow behaves is the [`overflow`](/en-US/docs/Web/CSS/overflow) property which has an initial value of `visible`. This is why we can see the overflow content.
 
@@ -20,15 +49,105 @@ The content goes into the box. Once it fills the box, it continues to overflow i
 
 There are other values that control how overflow content behaves. To hide overflowing content use a value of `hidden`. This may cause some of your content to not be visible.
 
-{{EmbedGHLiveSample("css-examples/flow/overflow/hidden.html", '100%', 700)}}
+```html live-sample___hidden
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney.
+  </p>
+</div>
+<p>
+  Their names were Stephen and Joseph Montgolfier, they were papermakers by
+  trade, and were noted as possessing thoughtful minds and a deep interest in
+  all scientific knowledge and new discovery.
+</p>
+<p>
+  Before that night—a memorable night, as it was to prove—hundreds of millions
+  of people had watched the rising smoke-wreaths of their fires without drawing
+  any special inspiration from the fact.”
+</p>
+```
+
+```css live-sample___hidden
+.box {
+  width: 300px;
+  height: 100px;
+  border: 5px solid rebeccapurple;
+  padding: 10px;
+  overflow: hidden;
+}
+```
+
+{{EmbedLiveSample("hidden")}}
 
 Using a value of `scroll` contains the content in its box and add scrollbars to enable viewing it. Scrollbars will be added even if the content fits in the box.
 
-{{EmbedGHLiveSample("css-examples/flow/overflow/scroll.html", '100%', 700)}}
+```html live-sample___scroll
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney.
+  </p>
+</div>
+<p>
+  Their names were Stephen and Joseph Montgolfier, they were papermakers by
+  trade, and were noted as possessing thoughtful minds and a deep interest in
+  all scientific knowledge and new discovery.
+</p>
+<p>
+  Before that night—a memorable night, as it was to prove—hundreds of millions
+  of people had watched the rising smoke-wreaths of their fires without drawing
+  any special inspiration from the fact.”
+</p>
+```
+
+```css live-sample___scroll
+.box {
+  width: 300px;
+  height: 100px;
+  border: 5px solid rebeccapurple;
+  padding: 10px;
+  overflow: scroll;
+}
+```
+
+{{EmbedLiveSample("scroll")}}
 
 Using a value of `auto` will display the content with no scrollbars if the content fits inside the box. If it doesn't fit then scrollbars will be added. Comparing the next example with the example for `overflow: scroll` you should see `overflow scroll` has horizontal and vertical scrollbars when it only needs vertical scrolling. The `auto` example below only adds the scrollbar in the direct we need to scroll.
 
-{{EmbedGHLiveSample("css-examples/flow/overflow/auto.html", '100%', 700)}}
+```html live-sample___auto
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney.
+  </p>
+</div>
+<p>
+  Their names were Stephen and Joseph Montgolfier, they were papermakers by
+  trade, and were noted as possessing thoughtful minds and a deep interest in
+  all scientific knowledge and new discovery.
+</p>
+<p>
+  Before that night—a memorable night, as it was to prove—hundreds of millions
+  of people had watched the rising smoke-wreaths of their fires without drawing
+  any special inspiration from the fact.”
+</p>
+```
+
+```css live-sample___auto
+.box {
+  width: 300px;
+  height: 100px;
+  border: 5px solid rebeccapurple;
+  padding: 10px;
+  overflow: auto;
+}
+```
+
+{{EmbedLiveSample("auto")}}
 
 As we have already learned, using any of these values, other than the default of `visible,` will create a new Block Formatting Context.
 
@@ -36,7 +155,37 @@ Note: In the [Working Draft of Overflow Level 3](https://www.w3.org/TR/css-overf
 
 The overflow property is in reality a shorthand for the [`overflow-x`](/en-US/docs/Web/CSS/overflow-x) and [`overflow-y`](/en-US/docs/Web/CSS/overflow-y) properties. If you specify only one value for overflow, this value is used for both axes. However, you can specify both values in which case the first is used for `overflow-x` and therefore the horizontal direction, and the second for `overflow-y` and the vertical direction. In the below example, I have only specified `overflow-y: scroll` so we do not get the unwanted horizontal scrollbar.
 
-{{EmbedGHLiveSample("css-examples/flow/overflow/overflow-y.html", '100%', 700)}}
+```html live-sample___overflow-y
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney.
+  </p>
+</div>
+<p>
+  Their names were Stephen and Joseph Montgolfier, they were papermakers by
+  trade, and were noted as possessing thoughtful minds and a deep interest in
+  all scientific knowledge and new discovery.
+</p>
+<p>
+  Before that night—a memorable night, as it was to prove—hundreds of millions
+  of people had watched the rising smoke-wreaths of their fires without drawing
+  any special inspiration from the fact.”
+</p>
+```
+
+```css live-sample___overflow-y
+.box {
+  width: 300px;
+  height: 100px;
+  border: 5px solid rebeccapurple;
+  padding: 10px;
+  overflow-y: scroll;
+}
+```
+
+{{EmbedLiveSample("overflow-y")}}
 
 ## Flow Relative Properties
 
@@ -52,7 +201,42 @@ In the Level 3 Overflow specification we have some properties which can help imp
 
 The [`text-overflow`](/en-US/docs/Web/CSS/text-overflow) property deals with text overflowing in the inline direction. It takes one of two values `clip`, in which case content is clipped when it overflows, this is the initial value and therefore the default behavior. We also have `ellipsis` which renders an ellipsis, which may be replaced with a better character for the language or writing mode in use.
 
-{{EmbedGHLiveSample("css-examples/flow/overflow/text-overflow.html", '100%', 500)}}
+```html live-sample___text-overflow
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney.
+  </p>
+
+  <p>
+    Their names were Stephen and Joseph Montgolfier, they were papermakers by
+    trade, and were noted as possessing thoughtful minds and a deep interest in
+    all scientific knowledge and new discovery.
+  </p>
+  <p>
+    Before that night—a memorable night, as it was to prove—hundreds of millions
+    of people had watched the rising smoke-wreaths of their fires without
+    drawing any special inspiration from the fact.”
+  </p>
+</div>
+```
+
+```css live-sample___text-overflow
+.box {
+  width: 300px;
+  border: 5px solid rebeccapurple;
+  padding: 10px;
+}
+
+.box p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+```
+
+{{EmbedLiveSample("text-overflow")}}
 
 ### Block-Axis Overflow
 

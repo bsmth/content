@@ -16,7 +16,36 @@ The list items should be displayed with the badges. The badge should be aligned 
 
 ## Recipe
 
-{{EmbedGHLiveSample("css-examples/css-cookbook/list-group-badges.html", '100%', 720)}}
+```html live-sample___list-group-badges
+<ul class="list-group">
+  <li>
+    Item One
+    <span class="badge">2</span>
+  </li>
+  <li>
+    Item Two
+    <span class="badge">10</span>
+  </li>
+  <li>
+    Item Three
+    <span class="badge">9</span>
+  </li>
+  <li>
+    Item Four
+    <span class="badge">0</span>
+  </li>
+</ul>
+```
+
+```css live-sample___list-group-badges
+.list-group li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+```
+
+{{EmbedLiveSample("list-group-badges")}}
 
 > [!CALLOUT]
 >

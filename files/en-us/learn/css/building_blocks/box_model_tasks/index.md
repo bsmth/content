@@ -23,7 +23,27 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/box-model/box-models.html", '100%', 1100)}}
+```html live-sample___box-models
+<div class="box">I use the standard box model.</div>
+<div class="box alternate">I use the alternate box model.</div>
+```
+
+```css live-sample___box-models
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 300px;
+  height: 150px;
+}
+
+.alternate {
+  box-sizing: border-box;
+}
+```
+
+{{EmbedLiveSample("box-models")}}
 
 > [!CALLOUT]
 >
@@ -46,7 +66,16 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/box-model/mbp.html", '100%', 600)}}
+```html live-sample___mbp
+<div class="box">I use the standard box model.</div>
+```
+
+```css live-sample___mbp
+.box {
+}
+```
+
+{{EmbedLiveSample("mbp")}}
 
 > [!CALLOUT]
 >
@@ -62,7 +91,31 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/box-model/inline-block.html", '100%', 800)}}
+```html live-sample___inline-block
+<div class="box">
+  <p>
+    Veggies es bonus vobis, <span>proinde vos postulo</span> essum magis
+    kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean
+    garlic.
+  </p>
+
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+</div>
+```
+
+```css live-sample___inline-block
+.box span {
+  background-color: pink;
+  border: 5px solid black;
+  padding: 1em;
+}
+```
+
+{{EmbedLiveSample("inline-block")}}
 
 > [!CALLOUT]
 >

@@ -17,7 +17,15 @@ The properties in this CSS module can be used to define the blending mode that s
 
 In this example, each box has a border, two striped background images, and a solid color background. The common background for all the boxes contains a pattern of circles. The three boxes in the second row are set to blend with the background of the container.
 
-{{EmbedGHLiveSample("css-examples/modules/compositing.html", '100%', 460)}}
+```html live-sample___compositing
+No HTML block found
+```
+
+```css live-sample___compositing
+No CSS block found
+```
+
+{{EmbedLiveSample("compositing")}}
 
 Notice how the background, border, and the content are all impacted as a result of the blending. To see the code for this sample, [view the source on GitHub](https://github.com/mdn/css-examples/blob/main/modules/compositing.html).
 

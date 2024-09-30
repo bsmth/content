@@ -76,7 +76,20 @@ One or more of the keyword values listed below, separated by commas.
 
 Try some of the other possible values by updating the CSS in the box below.
 
-{{EmbedGHLiveSample("css-examples/masking/mask-origin.html", '100%', 600)}}
+```html live-sample___mask-origin
+<div class="masked"></div>
+```
+
+```css live-sample___mask-origin
+.masked {
+  -webkit-mask-image: url(star.svg);
+  mask-image: url(star.svg);
+  -webkit-mask-origin: border-box;
+  mask-origin: border-box;
+}
+```
+
+{{EmbedLiveSample("mask-origin")}}
 
 ## Specifications
 

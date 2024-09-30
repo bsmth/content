@@ -143,7 +143,15 @@ CSS.paintWorklet.addModule("boxbg.js");
 
 While you can't play with the worklet's script, you can alter the custom property values in DevTools to change the colors and width of the background image.
 
-{{EmbedGHLiveSample("css-examples/houdini/css_painting_api/example-boxbg.html", '100%', 400)}}
+```html live-sample___example-boxbg
+No HTML block found
+```
+
+```css live-sample___example-boxbg
+No CSS block found
+```
+
+{{EmbedLiveSample("example-boxbg")}}
 
 ## Specifications
 

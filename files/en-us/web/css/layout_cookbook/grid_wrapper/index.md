@@ -14,7 +14,60 @@ Items placed on the grid should be able to align to a horizontally-centered max-
 
 ## Recipe
 
-{{EmbedGHLiveSample("css-examples/css-cookbook/grid-wrapper.html", '100%', 1100)}}
+```html live-sample___grid-wrapper
+<div class="grid">
+  <div class="wrapper">
+    <p>
+      This item aligns to a central “wrapper” – columns that have a maximum
+      width.
+    </p>
+  </div>
+
+  <div class="full-width">
+    <p>This item aligns to the edge of the grid container.</p>
+  </div>
+
+  <div class="left-edge">
+    <p>
+      This item aligns to the left edge of the grid container and the right edge
+      of the wrapper.
+    </p>
+  </div>
+
+  <div class="right-wrapper">
+    <p>This item aligns to the right edge of the “wrapper” columns.</p>
+  </div>
+</div>
+```
+
+```css live-sample___grid-wrapper
+.grid {
+  display: grid;
+  grid-template-columns: minmax(20px, 1fr) repeat(6, minmax(0, 60px)) minmax(
+      20px,
+      1fr
+    );
+  grid-gap: 10px;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.wrapper {
+  grid-column: 2 / -2;
+}
+
+.left-edge {
+  grid-column: 1 / -2;
+}
+
+.right-wrapper {
+  grid-column: 4 / -2;
+}
+```
+
+{{EmbedLiveSample("grid-wrapper")}}
 
 > [!CALLOUT]
 >

@@ -48,7 +48,15 @@ Associated CSS property: {{cssxref("font-kerning")}}
 
 This refers to the spacing between specific glyph pairings. This is generally on by default (as recommended by the OpenType specification). It should be noted that if {{cssxref("letter-spacing")}} is also set on your text, that is applied after kerning.
 
-{{EmbedGHLiveSample("css-examples/font-features/font-kerning.html", '100%', 520)}}
+```html live-sample___font-kerning
+No HTML block found
+```
+
+```css live-sample___font-kerning
+No CSS block found
+```
+
+{{EmbedLiveSample("font-kerning")}}
 
 ### Alternates
 
@@ -56,7 +64,15 @@ Associated CSS property: {{cssxref("font-variant-alternates")}}
 
 Fonts can supply a number of different alternatives for various glyphs, such as different styles of lower case 'a' or more or less elaborate swashes in a script typeface. This property can activate an entire set of alternates or just a specific one, depending on the values supplied. The example below is showing several different aspects of working with alternate characters. Fonts with alternate glyphs can make them available across the board or individually in separate stylistic sets, or even individual characters. In this example you can see two different typefaces, and the introduction of the {{cssxref("@font-feature-values")}} at-rule. This is used to define shortcuts or named options that can be defined per font family. This way you can create a named option that applies to only a single font, or one that is shared and can be applied more generally
 
-{{EmbedGHLiveSample("css-examples/font-features/font-variant-alternates.html", '100%', 800)}}
+```html live-sample___font-variant-alternates
+No HTML block found
+```
+
+```css live-sample___font-variant-alternates
+No CSS block found
+```
+
+{{EmbedLiveSample("font-variant-alternates")}}
 
 In this case, `@stylistic(alternates)` will show all the alternate characters for either font. Applying this to just the word 'My' alters the way the 'M' renders, and applying `@styleset(alt-a)` only changes the lower case 'a'.
 
@@ -86,7 +102,15 @@ Ligatures are glyphs that replace two or more separate glyphs in order to repres
 
 While more common in script typefaces, in the below example they are used to create arrows:
 
-{{EmbedGHLiveSample("css-examples/font-features/font-variant-ligatures.html", '100%', 540)}}
+```html live-sample___font-variant-ligatures
+No HTML block found
+```
+
+```css live-sample___font-variant-ligatures
+No CSS block found
+```
+
+{{EmbedLiveSample("font-variant-ligatures")}}
 
 ### Position
 
@@ -94,7 +118,15 @@ Associated CSS property: {{cssxref("font-variant-position")}}
 
 Position variants are used to enable typographic superscript and subscript glyphs. These are designed to work with the surrounding text without altering the baseline or line spacing. This is especially useful with the {{htmlelement("sub")}} or {{htmlelement("sup")}} elements.
 
-{{EmbedGHLiveSample("css-examples/font-features/font-variant-position.html", '100%', 550)}}
+```html live-sample___font-variant-position
+No HTML block found
+```
+
+```css live-sample___font-variant-position
+No CSS block found
+```
+
+{{EmbedLiveSample("font-variant-position")}}
 
 ### Capitals
 
@@ -102,7 +134,15 @@ Associated CSS property: {{cssxref("font-variant-caps")}}
 
 One of the more common use cases for OpenType features is proper small caps. These are capital letters sized to fit better amongst lower case letters and are generally used for acronyms and abbreviations.
 
-{{EmbedGHLiveSample("css-examples/font-features/font-variant-caps.html", '100%', 620)}}
+```html live-sample___font-variant-caps
+No HTML block found
+```
+
+```css live-sample___font-variant-caps
+No CSS block found
+```
+
+{{EmbedLiveSample("font-variant-caps")}}
 
 ### Numerals
 
@@ -124,11 +164,27 @@ Ordinals are also supported (such as '1st' or '3rd'), as is a slashed zero if pr
 
 #### Lining and old-style figures
 
-{{EmbedGHLiveSample("css-examples/font-features/font-variant-numeric.html", '100%', 560)}}
+```html live-sample___font-variant-numeric
+No HTML block found
+```
+
+```css live-sample___font-variant-numeric
+No CSS block found
+```
+
+{{EmbedLiveSample("font-variant-numeric")}}
 
 #### Fractions, ordinals, and slashed zero
 
-{{EmbedGHLiveSample("css-examples/font-features/font-variant-numeric-frac.html", '100%', 600)}}
+```html live-sample___font-variant-numeric-frac
+No HTML block found
+```
+
+```css live-sample___font-variant-numeric-frac
+No CSS block found
+```
+
+{{EmbedLiveSample("font-variant-numeric-frac")}}
 
 ### East Asian
 
@@ -136,7 +192,15 @@ Associated CSS property: {{cssxref("font-variant-east-asian")}}
 
 This allows access to various alternate forms of glyphs within a font. The example below shows a string of glyphs with only the OpenType set 'jis78' enabled. Uncheck the box below and you'll see more characters displayed.
 
-{{EmbedGHLiveSample("css-examples/font-features/font-variant-east-asian.html", '100%', 750)}}
+```html live-sample___font-variant-east-asian
+No HTML block found
+```
+
+```css live-sample___font-variant-east-asian
+No CSS block found
+```
+
+{{EmbedLiveSample("font-variant-east-asian")}}
 
 > [!NOTE]
 > These glyphs were copied out of a font sample and are not intended as prose.
@@ -145,7 +209,15 @@ This allows access to various alternate forms of glyphs within a font. The examp
 
 The {{Cssxref("font-variant")}} property is the shorthand syntax for defining all of the above. Setting a value of `normal` resets all properties to their initial value. Setting a value of `none` sets `font-variant-ligatures` to none and all other properties to their initial value. (Meaning that if kerning is on by default, it will still be on even with a value of `none` being supplied here.)
 
-{{EmbedGHLiveSample("css-examples/font-features/font-variant.html", '100%', 600)}}
+```html live-sample___font-variant
+No HTML block found
+```
+
+```css live-sample___font-variant
+No CSS block found
+```
+
+{{EmbedLiveSample("font-variant")}}
 
 ## Font feature settings
 

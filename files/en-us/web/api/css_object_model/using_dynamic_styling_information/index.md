@@ -41,7 +41,15 @@ In this example the background of the page is set to red using CSS. The JavaScri
 
 ### Result
 
-{{EmbedGHLiveSample("css-examples/cssom/modify-rule.html", '100%', 120)}}
+```html live-sample___modify-rule
+No HTML block found
+```
+
+```css live-sample___modify-rule
+No CSS block found
+```
+
+{{EmbedLiveSample("modify-rule")}}
 
 The list of properties available in the DOM from the `style` property is given on the [DOM CSS Properties List](/en-US/docs/Web/CSS/Reference) page.
 

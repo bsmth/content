@@ -92,7 +92,31 @@ In the example below you can see these selectors being used.
 - `li[class="a"]` matches a selector with a class of `a`, but not a selector with a class of `a` with another space-separated class as part of the value. It selects the second list item.
 - `li[class~="a"]` will match a class of `a` but also a value that contains the class of `a` as part of a whitespace-separated list. It selects the second and third list items.
 
-{{EmbedGHLiveSample("css-examples/learn/selectors/attribute.html", '100%', 800)}}
+```html live-sample___attribute
+<h1>Attribute presence and value selectors</h1>
+<ul>
+  <li>Item 1</li>
+  <li class="a">Item 2</li>
+  <li class="a b">Item 3</li>
+  <li class="ab">Item 4</li>
+</ul>
+```
+
+```css live-sample___attribute
+li[class] {
+  font-size: 200%;
+}
+
+li[class="a"] {
+  background-color: yellow;
+}
+
+li[class~="a"] {
+  color: red;
+}
+```
+
+{{EmbedLiveSample("attribute")}}
 
 ## Substring matching selectors
 
@@ -112,7 +136,31 @@ The next example shows usage of these selectors:
 - `li[class$="a"]` matches any attribute value that ends with `a`, so matches the first and third list item.
 - `li[class*="a"]` matches any attribute value where `a` appears anywhere in the string, so it matches all of our list items.
 
-{{EmbedGHLiveSample("css-examples/learn/selectors/attribute-substring.html", '100%', 800)}}
+```html live-sample___attribute-substring
+<h1>Attribute substring matching selectors</h1>
+<ul>
+  <li class="a">Item 1</li>
+  <li class="ab">Item 2</li>
+  <li class="bca">Item 3</li>
+  <li class="bcabc">Item 4</li>
+</ul>
+```
+
+```css live-sample___attribute-substring
+li[class^="a"] {
+  font-size: 200%;
+}
+
+li[class$="a"] {
+  background-color: yellow;
+}
+
+li[class*="a"] {
+  color: red;
+}
+```
+
+{{EmbedLiveSample("attribute-substring")}}
 
 ## Case-sensitivity
 
@@ -120,7 +168,26 @@ If you want to match attribute values case-insensitively you can use the value `
 
 In the example below, the first selector will match a value that begins with `a` — it only matches the first list item because the other two list items start with an uppercase A. The second selector uses the case-insensitive flag and so matches all of the list items.
 
-{{EmbedGHLiveSample("css-examples/learn/selectors/attribute-case.html", '100%', 800)}}
+```html live-sample___attribute-case
+<h1>Case-insensitivity</h1>
+<ul>
+  <li class="a">Item 1</li>
+  <li class="A">Item 2</li>
+  <li class="Ab">Item 3</li>
+</ul>
+```
+
+```css live-sample___attribute-case
+li[class^="a"] {
+  background-color: yellow;
+}
+
+li[class^="a" i] {
+  color: red;
+}
+```
+
+{{EmbedLiveSample("attribute-case")}}
 
 > [!NOTE]
 > There is also a newer value `s`, which will force case-sensitive matching in contexts where matching is normally case-insensitive, however this is less well supported in browsers and isn't very useful in an HTML context.

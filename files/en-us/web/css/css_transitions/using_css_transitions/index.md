@@ -334,7 +334,15 @@ With CSS you can make it smooth without any extra effort. Add a transition to th
 }
 ```
 
-{{EmbedGHLiveSample("css-examples/transitions/js-transitions.html", '100%', 500)}}
+```html live-sample___js-transitions
+No HTML block found
+```
+
+```css live-sample___js-transitions
+No CSS block found
+```
+
+{{EmbedLiveSample("js-transitions")}}
 
 ### Detecting the start and completion of a transition
 

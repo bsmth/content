@@ -21,7 +21,23 @@ In this task, you need to float the two elements with a class of `float1` and `f
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/float/float1.html", '100%', 900)}}
+```html live-sample___float1
+<div class="box">
+  <div class="float float1">One</div>
+  <div class="float float2">Two</div>
+  <p>The two boxes should float to either side of this text.</p>
+</div>
+```
+
+```css live-sample___float1
+.float1 {
+}
+
+.float2 {
+}
+```
+
+{{EmbedLiveSample("float1")}}
 
 > [!CALLOUT]
 >
@@ -37,7 +53,23 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/float/float2.html", '100%', 800)}}
+```html live-sample___float2
+<div class="box">
+  <div class="float">Float</div>
+  <p>This sentence appears next to the float.</p>
+  <p class="below">Cause this sentence to appear below the float.</p>
+</div>
+```
+
+```css live-sample___float2
+.float {
+}
+
+.below {
+}
+```
+
+{{EmbedLiveSample("float2")}}
 
 > [!CALLOUT]
 >
@@ -51,7 +83,23 @@ In this task, we have a floated element. The box wrapping the float and text is 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/float/float3.html", '100%', 800)}}
+```html live-sample___float3
+<div class="box">
+  <div class="float">Float</div>
+  <p>This sentence appears next to the float.</p>
+</div>
+```
+
+```css live-sample___float3
+.float {
+  float: right;
+}
+
+.box {
+}
+```
+
+{{EmbedLiveSample("float3")}}
 
 > [!CALLOUT]
 >

@@ -16,7 +16,26 @@ To place an item into the center of another box horizontally and vertically.
 
 ## Recipe
 
-{{EmbedGHLiveSample("css-examples/css-cookbook/center.html", '100%', 720)}}
+```html live-sample___center
+<div class="container">
+  <div class="item">I am centered!</div>
+</div>
+```
+
+```css live-sample___center
+.container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 10em;
+}
+```
+
+{{EmbedLiveSample("center")}}
 
 > [!CALLOUT]
 >

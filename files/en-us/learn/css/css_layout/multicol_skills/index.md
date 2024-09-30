@@ -23,7 +23,35 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/multicol/multicol1.html", '100%', 1000)}}
+```html live-sample___multicol1
+<div class="container">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+
+  <p>
+    Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+    kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter
+    purslane kale. Celery potato scallion desert raisin horseradish spinach
+    carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green
+    bean swiss chard seakale pumpkin onion chickpea gram corn pea.
+  </p>
+</div>
+```
+
+```css live-sample___multicol1
+.container {
+}
+```
+
+{{EmbedLiveSample("multicol1")}}
 
 > [!CALLOUT]
 >
@@ -39,7 +67,35 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/multicol/multicol2.html", '100%', 1000)}}
+```html live-sample___multicol2
+<div class="container">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+
+  <p>
+    Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+    kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter
+    purslane kale. Celery potato scallion desert raisin horseradish spinach
+    carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green
+    bean swiss chard seakale pumpkin onion chickpea gram corn pea.
+  </p>
+</div>
+```
+
+```css live-sample___multicol2
+.container {
+}
+```
+
+{{EmbedLiveSample("multicol2")}}
 
 > [!CALLOUT]
 >
@@ -53,7 +109,45 @@ In this task, we want you to cause the element containing the heading and subhea
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/multicol/multicol3.html", '100%', 1000)}}
+```html live-sample___multicol3
+<div class="container">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+  <div class="box">
+    <h2>I am a level 2 heading</h2>
+    <div class="subhead">Lotus root water spinach fennel</div>
+  </div>
+  <p>
+    Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+    kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter
+    purslane kale. Celery potato scallion desert raisin horseradish spinach
+    carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green
+    bean swiss chard seakale pumpkin onion chickpea gram corn pea.
+  </p>
+</div>
+```
+
+```css live-sample___multicol3
+.container {
+  column-count: 3;
+}
+
+.box {
+}
+
+h2 {
+}
+```
+
+{{EmbedLiveSample("multicol3")}}
 
 > [!CALLOUT]
 >

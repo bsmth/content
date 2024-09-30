@@ -42,7 +42,17 @@ A writing mode in CSS refers to whether the text is running horizontally or vert
 
 In the example below we have a heading displayed using `writing-mode: vertical-rl`. The text now runs vertically. Vertical text is common in graphic design, and can be a way to add a more interesting look and feel to your web design.
 
-{{EmbedGHLiveSample("css-examples/learn/writing-modes/simple-vertical.html", '100%', 800)}}
+```html live-sample___simple-vertical
+<h1>Play with writing modes</h1>
+```
+
+```css live-sample___simple-vertical
+h1 {
+  writing-mode: vertical-rl;
+}
+```
+
+{{EmbedLiveSample("simple-vertical")}}
 
 The three possible values for the [`writing-mode`](/en-US/docs/Web/CSS/writing-mode) property are:
 
@@ -58,7 +68,30 @@ We have already discussed [block and inline layout](/en-US/docs/Web/CSS/CSS_flow
 
 If we look at an example this will become clearer. In this next example I have two boxes that contain a heading and a paragraph. The first uses `writing-mode: horizontal-tb`, a writing mode that is written horizontally and from the top of the page to the bottom. The second uses `writing-mode: vertical-rl`; this is a writing mode that is written vertically and from right to left.
 
-{{EmbedGHLiveSample("css-examples/learn/writing-modes/block-inline.html", '100%', 1200)}}
+```html live-sample___block-inline
+<div class="wrapper">
+  <div class="box horizontal">
+    <h2>Heading</h2>
+    <p>A paragraph. Demonstrating Writing Modes in CSS.</p>
+  </div>
+  <div class="box vertical">
+    <h2>Heading</h2>
+    <p>A paragraph. Demonstrating Writing Modes in CSS.</p>
+  </div>
+</div>
+```
+
+```css live-sample___block-inline
+.horizontal {
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+```
+
+{{EmbedLiveSample("block-inline")}}
 
 When we switch the writing mode, we are changing which direction is block and which is inline. In a `horizontal-tb` writing mode the block direction runs from top to bottom; in a `vertical-rl` writing mode the block direction runs right-to-left horizontally. So the **block dimension** is always the direction blocks are displayed on the page in the writing mode in use. The **inline dimension** is always the direction a sentence flows.
 
@@ -82,7 +115,36 @@ The reason to talk about writing modes and direction at this point in your learn
 
 Let's take a look at our two boxes again — one with a `horizontal-tb` writing mode and one with `vertical-rl`. I have given both of these boxes a {{cssxref("width")}}. You can see that when the box is in the vertical writing mode, it still has a width, and this is causing the text to overflow.
 
-{{EmbedGHLiveSample("css-examples/learn/writing-modes/width.html", '100%', 1200)}}
+```html live-sample___width
+<div class="wrapper">
+  <div class="box horizontal">
+    <h2>Heading</h2>
+    <p>A paragraph. Demonstrating Writing Modes in CSS.</p>
+    <p>These boxes have a width.</p>
+  </div>
+  <div class="box vertical">
+    <h2>Heading</h2>
+    <p>A paragraph. Demonstrating Writing Modes in CSS.</p>
+    <p>These boxes have a width.</p>
+  </div>
+</div>
+```
+
+```css live-sample___width
+.box {
+  width: 150px;
+}
+
+.horizontal {
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+```
+
+{{EmbedLiveSample("width")}}
 
 What we really want in this scenario is to essentially swap height with width in accordance to the writing mode. When we're in a vertical writing mode we want the box to expand in the block dimension just like it does in the horizontal mode.
 
@@ -90,7 +152,36 @@ To make this easier, CSS has recently developed a set of mapped properties. Thes
 
 The property mapped to `width` when in a horizontal writing mode is called {{cssxref("inline-size")}} — it refers to the size in the inline dimension. The property for `height` is named {{cssxref("block-size")}} and is the size in the block dimension. You can see how this works in the example below where we have replaced `width` with `inline-size`.
 
-{{EmbedGHLiveSample("css-examples/learn/writing-modes/inline-size.html", '100%', 1000)}}
+```html live-sample___inline-size
+<div class="wrapper">
+  <div class="box horizontal">
+    <h2>Heading</h2>
+    <p>A paragraph. Demonstrating Writing Modes in CSS.</p>
+    <p>These boxes have inline-size.</p>
+  </div>
+  <div class="box vertical">
+    <h2>Heading</h2>
+    <p>A paragraph. Demonstrating Writing Modes in CSS.</p>
+    <p>These boxes have inline-size.</p>
+  </div>
+</div>
+```
+
+```css live-sample___inline-size
+.box {
+  inline-size: 150px;
+}
+
+.horizontal {
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+```
+
+{{EmbedLiveSample("inline-size")}}
 
 ### Logical margin, border, and padding properties
 
@@ -106,7 +197,51 @@ You can see a comparison between physical and logical properties below.
 
 **You can also see that the {{htmlelement("Heading_Elements", "h2")}} has a black `border-bottom`. Can you work out how to make that bottom border always go below the text in both writing modes?**
 
-{{EmbedGHLiveSample("css-examples/learn/writing-modes/logical-mbp.html", '100%', 1300)}}
+```html live-sample___logical-mbp
+<div class="wrapper">
+  <div class="box physical">
+    <h2>Physical Properties</h2>
+    <p>A paragraph. Demonstrating Logical Properties in CSS.</p>
+  </div>
+  <div class="box logical">
+    <h2>Logical Properties</h2>
+    <p>A paragraph. Demonstrating Logical Properties in CSS.</p>
+  </div>
+</div>
+```
+
+```css live-sample___logical-mbp
+.box {
+  inline-size: 200px;
+  writing-mode: horizontal-tb;
+}
+
+.logical {
+  margin-block-start: 20px;
+  padding-inline-end: 2em;
+  padding-block-start: 2px;
+  border-block-start: 5px solid pink;
+  border-inline-end: 10px dotted rebeccapurple;
+  border-block-end: 1em double orange;
+  border-inline-start: 1px solid black;
+}
+
+.physical {
+  margin-top: 20px;
+  padding-right: 2em;
+  padding-top: 2px;
+  border-top: 5px solid pink;
+  border-right: 10px dotted rebeccapurple;
+  border-bottom: 1em double orange;
+  border-left: 1px solid black;
+}
+
+h2 {
+  border-bottom: 5px solid black;
+}
+```
+
+{{EmbedLiveSample("logical-mbp")}}
 
 There are a huge number of properties when you consider all of the individual border longhands, and you can see all of the mapped properties on the MDN page for [Logical Properties and Values](/en-US/docs/Web/CSS/CSS_logical_properties_and_values).
 
@@ -118,7 +253,32 @@ For example, you can float an image left to cause text to wrap round the image. 
 
 **Change the writing mode on this example to `vertical-rl` to see what happens to the image. Change `inline-start` to `inline-end` to change the float.**
 
-{{EmbedGHLiveSample("css-examples/learn/writing-modes/float.html", '100%', 1000)}}
+```html live-sample___float
+<div class="wrapper">
+  <div class="box logical">
+    <img alt="star" src="big-star.png" />
+    <p>
+      This box uses logical properties. The star image has been floated
+      inline-start, it also has a margin on the inline-end and block-end.
+    </p>
+  </div>
+</div>
+```
+
+```css live-sample___float
+.box {
+  inline-size: 200px;
+  writing-mode: horizontal-tb;
+}
+
+img {
+  float: inline-start;
+  margin-inline-end: 10px;
+  margin-block-end: 10px;
+}
+```
+
+{{EmbedLiveSample("float")}}
 
 Here we are also using logical margin values to ensure the margin is in the correct place no matter what the writing mode is.
 

@@ -60,7 +60,26 @@ One or more `<position>` values, separated by commas.
 Change the `mask-position` value to any of the allowed values detailed above.
 If viewing the example in a Chromium-based browser change the value of `-webkit-mask-position`.
 
-{{EmbedGHLiveSample("css-examples/masking/mask-position.html", '100%', 760)}}
+```html live-sample___mask-position
+<div class="masked"></div>
+```
+
+```css live-sample___mask-position
+.masked {
+  width: 250px;
+  height: 250px;
+  background: blue linear-gradient(red, blue);
+  -webkit-mask-image: url(./star.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: top right;
+  mask-image: url(./star.svg);
+  mask-repeat: no-repeat;
+  mask-position: top right;
+  margin-bottom: 10px;
+}
+```
+
+{{EmbedLiveSample("mask-position")}}
 
 ## Specifications
 

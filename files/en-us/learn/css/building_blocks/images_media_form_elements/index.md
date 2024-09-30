@@ -52,7 +52,23 @@ In the example below we have two boxes, both 200 pixels in size:
 - One contains an image that is smaller than 200 pixels — it is smaller than the box and doesn't stretch to fill it.
 - The other is larger than 200 pixels and overflows the box.
 
-{{EmbedGHLiveSample("css-examples/learn/images/size.html", '100%', 1000)}}
+```html live-sample___size
+<div class="wrapper">
+  <div class="box"><img alt="star" src="star.png" /></div>
+  <div class="box"><img alt="balloons" src="balloons.jpg" /></div>
+</div>
+```
+
+```css live-sample___size
+.box {
+  width: 200px;
+}
+
+img {
+}
+```
+
+{{EmbedLiveSample("size")}}
 
 So what can we do about the overflowing issue?
 
@@ -66,7 +82,36 @@ The {{cssxref("object-fit")}} property can help you here. When using `object-fit
 
 Below we have used the value `cover`, which sizes the image down, maintaining the aspect ratio so that it neatly fills the box. As the aspect ratio is maintained, some parts of the image will be cropped by the box.
 
-{{EmbedGHLiveSample("css-examples/learn/images/object-fit.html", '100%', 1000)}}
+```html live-sample___object-fit
+<div class="wrapper">
+  <div class="box"><img alt="balloons" class="cover" src="balloons.jpg" /></div>
+  <div class="box">
+    <img alt="balloons" class="contain" src="balloons.jpg" />
+  </div>
+</div>
+```
+
+```css live-sample___object-fit
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+```
+
+{{EmbedLiveSample("object-fit")}}
 
 If we use `contain` as a value, the image will be scaled down until it is small enough to fit inside the box. This will result in "letterboxing" if it is not the same aspect ratio as the box.
 
@@ -78,7 +123,30 @@ When using various CSS layout techniques on replaced elements, you may well find
 
 You can see this happening in the example below where we have a two column, two row grid container, which has four items in it. All of the `<div>` elements have a background color and stretch to fill the row and column. The image, however, does not stretch.
 
-{{EmbedGHLiveSample("css-examples/learn/images/layout.html", '100%', 1000)}}
+```html live-sample___layout
+<div class="wrapper">
+  <img alt="star" src="star.png" />
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+```
+
+```css live-sample___layout
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+}
+
+.wrapper > div {
+  background-color: rebeccapurple;
+  border-radius: 0.5em;
+}
+```
+
+{{EmbedLiveSample("layout")}}
 
 If you are following these lessons in order then you may not have looked at layout yet. Just keep in mind that replaced elements, when they become part of a grid or flex layout, have different default behaviors, essentially to avoid them being stretched strangely by the layout.
 
@@ -107,7 +175,40 @@ Elements that allow for text input, such as `<input type="text">`, and the more 
 
 In the example below we have styled some text inputs using CSS — you can see that things such as borders, margins and padding all apply as you would expect. We are using attribute selectors to target the different input types. Try changing how this form looks by adjusting the borders, adding background colors to the fields, and changing fonts and padding.
 
-{{EmbedGHLiveSample("css-examples/learn/images/form.html", '100%', 1000)}}
+```html live-sample___form
+<form>
+  <div><label for="name">Name</label> <input id="name" type="text" /></div>
+  <div><label for="email">Email</label> <input id="email" type="email" /></div>
+
+  <div class="buttons"><input type="submit" value="Submit" /></div>
+</form>
+```
+
+```css live-sample___form
+input[type="text"],
+input[type="email"] {
+  border: 2px solid #000;
+  margin: 0 0 1em 0;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  border: 3px solid #333;
+  background-color: #999;
+  border-radius: 5px;
+  padding: 10px 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #333;
+}
+```
+
+{{EmbedLiveSample("form")}}
 
 > [!WARNING]
 > You should take care when changing the styling of form elements to make sure it is still obvious to the user they are form elements. You could create a form input with no borders and background that is almost indistinguishable from the content around it, but this would make it very hard to recognize and fill in.

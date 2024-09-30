@@ -44,7 +44,26 @@ In table layout, you have access to the {{cssxref("vertical-align")}} property t
 
 For many use cases, turning the block container into a flex item will give you the alignment capability that you are looking for. In the example below, a container with a single item inside has been turned into a flex container for the purpose of being able to use the alignment properties.
 
-{{EmbedGHLiveSample("css-examples/flexbox/alignment/intro.html", '100%', 700)}}
+```html live-sample___intro
+<div class="box">
+  <div></div>
+</div>
+```
+
+```css live-sample___intro
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+```
+
+{{EmbedLiveSample("intro")}}
 
 ## Reference
 

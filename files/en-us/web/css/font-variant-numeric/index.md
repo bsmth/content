@@ -85,7 +85,24 @@ This property can take one of two forms:
 
 ### Setting ordinal numeric forms
 
-{{EmbedGHLiveSample("css-examples/font-features/font-variant-numeric-example.html", '100%', 600)}}
+```html live-sample___font-variant-numeric-example
+<p class="ordinal">1st, 2nd, 3rd, 4th, 5th</p>
+```
+
+```css live-sample___font-variant-numeric-example
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+.ordinal {
+  font-variant-numeric: ordinal;
+  font-family: "Source Sans Pro";
+}
+```
+
+{{EmbedLiveSample("font-variant-numeric-example")}}
 
 ## Specifications
 

@@ -30,11 +30,59 @@ To create the most common masonry layout, your columns will be the grid axis and
 
 The child elements of this container will now lay out item by item along the rows, as they would with regular grid layout automatic placement. However, as they move onto a new row the items will display according to the masonry algorithm. Items will load into the column with the most room causing a tightly packed layout without strict row tracks.
 
-{{EmbedGHLiveSample("css-examples/grid/masonry/block-axis.html", '100%', 800)}}
+```html live-sample___block-axis
+<div class="grid">
+  <div class="item" style="block-size: 2em;"></div>
+  <div class="item" style="block-size: 3em;"></div>
+  <div class="item" style="block-size: 1.6em;"></div>
+  <div class="item" style="block-size: 4em;"></div>
+  <div class="item" style="block-size: 2.2em;"></div>
+  <div class="item" style="block-size: 3em;"></div>
+  <div class="item" style="block-size: 4.5em;"></div>
+  <div class="item" style="block-size: 1em;"></div>
+  <div class="item" style="block-size: 3.5em;"></div>
+  <div class="item" style="block-size: 2.8em;"></div>
+</div>
+```
+
+```css live-sample___block-axis
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: masonry;
+}
+```
+
+{{EmbedLiveSample("block-axis")}}
 
 It is also possible to create a masonry layout with items loading into rows.
 
-{{EmbedGHLiveSample("css-examples/grid/masonry/inline-axis.html", '100%', 1000)}}
+```html live-sample___inline-axis
+<div class="grid">
+  <div class="item" style="inline-size: 2em;"></div>
+  <div class="item" style="inline-size: 3em;"></div>
+  <div class="item" style="inline-size: 1.6em;"></div>
+  <div class="item" style="inline-size: 4em;"></div>
+  <div class="item" style="inline-size: 2.2em;"></div>
+  <div class="item" style="inline-size: 3em;"></div>
+  <div class="item" style="inline-size: 4.5em;"></div>
+  <div class="item" style="inline-size: 1em;"></div>
+  <div class="item" style="inline-size: 3.5em;"></div>
+  <div class="item" style="inline-size: 2.8em;"></div>
+</div>
+```
+
+```css live-sample___inline-axis
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: masonry;
+  grid-template-rows: repeat(3, 100px);
+}
+```
+
+{{EmbedLiveSample("inline-axis")}}
 
 ## Controlling the grid axis
 
@@ -44,11 +92,63 @@ On the grid axis, things will work just as you expect them to in grid layout. Yo
 
 In this example two of the items span two tracks, and the masonry items work around them.
 
-{{EmbedGHLiveSample("css-examples/grid/masonry/spanners.html", '100%', 800)}}
+```html live-sample___spanners
+<div class="grid">
+  <div class="item" style="block-size: 2em;"></div>
+  <div class="item" style="block-size: 3em; grid-column-end: span 2;"></div>
+  <div class="item" style="block-size: 1.6em;"></div>
+  <div class="item" style="block-size: 4em;"></div>
+  <div class="item" style="block-size: 2.2em; grid-column-end: span 2"></div>
+  <div class="item" style="block-size: 3em;"></div>
+  <div class="item" style="block-size: 4.5em;"></div>
+  <div class="item" style="block-size: 1em;"></div>
+  <div class="item" style="block-size: 3.5em;"></div>
+  <div class="item" style="block-size: 2.8em;"></div>
+</div>
+```
+
+```css live-sample___spanners
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: masonry;
+}
+```
+
+{{EmbedLiveSample("spanners")}}
 
 This example includes an item which has positioning for columns. Items with definite placement are placed before the masonry layout happens.
 
-{{EmbedGHLiveSample("css-examples/grid/masonry/positioned.html", '100%', 1000)}}
+```html live-sample___positioned
+<div class="grid">
+  <div class="item" style="block-size: 2em;"></div>
+  <div class="item" style="block-size: 3em;"></div>
+  <div class="item" style="block-size: 1.6em;"></div>
+  <div class="item" style="block-size: 4em;"></div>
+  <div class="item positioned" style="block-size: 3.2em;">positioned.</div>
+  <div class="item" style="block-size: 3em;"></div>
+  <div class="item" style="block-size: 4.5em;"></div>
+  <div class="item" style="block-size: 1em;"></div>
+  <div class="item" style="block-size: 3.5em;"></div>
+  <div class="item" style="block-size: 2.8em;"></div>
+</div>
+```
+
+```css live-sample___positioned
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: masonry;
+}
+
+.positioned {
+  grid-column: 2 / 4;
+}
+```
+
+{{EmbedLiveSample("positioned")}}
 
 ## Fallback
 

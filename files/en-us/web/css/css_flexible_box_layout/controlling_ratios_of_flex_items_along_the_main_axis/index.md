@@ -38,7 +38,29 @@ The example below contains two paragraph elements with different strings of text
 
 The second paragraph, with a value of `max-content`, does the opposite. It grows as large as it needs to be to fit the content without taking soft-wrapping opportunities. It will overflow the box it is in if that container is too narrow.
 
-{{EmbedGHLiveSample("css-examples/flexbox/ratios/min-max-content.html", '100%', 750)}}
+```html live-sample___min-max-content
+<p class="min-content">
+  I am sized with min-content and so I will take all of the soft-wrapping
+  opportunities.
+</p>
+<p class="max-content">
+  I am sized with max-content and so I will take none of the soft-wrapping
+  opportunities.
+</p>
+```
+
+```css live-sample___min-max-content
+.min-content {
+  width: min-content;
+  border: 2px dotted rgb(96 139 168);
+}
+.max-content {
+  width: max-content;
+  border: 2px dotted rgb(96 139 168);
+}
+```
+
+{{EmbedLiveSample("min-max-content")}}
 
 Remember this behavior and what effects `min-content` and `max-content` have as we explore `flex-grow` and `flex-shrink` later in this article.
 
@@ -64,7 +86,29 @@ If `flex-basis` is set to `auto`, the initial size of the item is the {{cssxref(
 
 This example contains three inflexible flex items, with both `flex-grow` and `flex-shrink` set to `0`. The first item, which has an explicit width of `150px`, takes a `flex-basis` of `150px`, whereas the other two items have no width set and so are sized according to their content width or `max-content`.
 
-{{EmbedGHLiveSample("css-examples/flexbox/ratios/flex-basis.html", '100%', 500)}}
+```html live-sample___flex-basis
+<div class="box">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+</div>
+```
+
+```css live-sample___flex-basis
+.box {
+  display: flex;
+}
+
+.box :first-child {
+  width: 150px;
+}
+
+.box > * {
+  flex: 0 0 auto;
+}
+```
+
+{{EmbedLiveSample("flex-basis")}}
 
 In addition to the `auto` keyword and any other valid {{cssxref("width")}} value, you can use the `content` keyword as the `flex-basis`. This results in the `flex-basis` being based on the content size, even if there is a `width` set on the item. This creates the same effect as removing any width set and using `auto` as the `flex-basis`. While similar to setting `max-content`, the `content` value enables any {{cssxref("aspect-ratio")}} to be calculated based on the cross-axis size.
 
@@ -98,7 +142,25 @@ Here, for the purpose of space distribution calculation, we are setting the size
 
 Try changing the `flex-grow` factor from 1 to 0 in this live example to see the different behavior:
 
-{{EmbedGHLiveSample("css-examples/flexbox/ratios/flex-grow.html", '100%', 520)}}
+```html live-sample___flex-grow
+<div class="box">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three has more content</div>
+</div>
+```
+
+```css live-sample___flex-grow
+.box {
+  display: flex;
+}
+
+.box > * {
+  flex: 1 1 0;
+}
+```
+
+{{EmbedLiveSample("flex-grow")}}
 
 ### Giving items different flex-grow factors
 
@@ -110,7 +172,33 @@ In the example below, we use `1` as the `flex-grow` factor for the first two ite
 2. The positive free space in the flex container is divided by this total value.
 3. The free space is distributed according to the individual values. In this case, the first item gets one part, the second one part, and the third two parts. This means that the third item is twice the size of the first and second items.
 
-{{EmbedGHLiveSample("css-examples/flexbox/ratios/flex-grow-ratios.html", '100%', 520)}}
+```html live-sample___flex-grow-ratios
+<div class="box">
+  <div class="one">One</div>
+  <div class="two">Two</div>
+  <div class="three">Three</div>
+</div>
+```
+
+```css live-sample___flex-grow-ratios
+.box {
+  display: flex;
+}
+
+.one {
+  flex: 1 1 0;
+}
+
+.two {
+  flex: 1 1 0;
+}
+
+.three {
+  flex: 2 1 0;
+}
+```
+
+{{EmbedLiveSample("flex-grow-ratios")}}
 
 Remember that you can use any positive value here. It is the ratio between the items that matters. You can use large numbers or decimals; it's up to you. To test this, change the `flex-grow` values in the above example to `.25`, `.25`, and `.50`. You should see the same result.
 
@@ -124,7 +212,26 @@ While `flex-grow` is used to add available space to items that can grow, `flex-s
 
 In this example, there are three `200px`-wide flex items in a `500px`-wide container. With `flex-shrink` set to `0`, the items are not allowed to shrink, causing them to overflow the container.
 
-{{EmbedGHLiveSample("css-examples/flexbox/ratios/flex-shrink.html", '100%', 500)}}
+```html live-sample___flex-shrink
+<div class="box">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three has more content</div>
+</div>
+```
+
+```css live-sample___flex-shrink
+.box {
+  display: flex;
+}
+
+.box > * {
+  flex: 0 0 auto;
+  width: 200px;
+}
+```
+
+{{EmbedLiveSample("flex-shrink")}}
 
 Change the `flex-shrink` value to `1`; each item will shrink by the same amount, fitting all the items into the container. The negative free space has been proportionally removed from each item, making each flex item smaller than its initial width.
 
@@ -138,7 +245,26 @@ Small items will not shrink to less than their `min-content` size, which is the 
 
 This example demonstrates `min-content` flooring, with the `flex-basis` resolving to the size of the content. If you change the width on the flex container, such as increasing it to `700px`, and then reduce the flex item width, you can see that the first two items will wrap. However, they will never become smaller than their `min-content` size. When the container gets small, the space is only removed from the third item when shrunken further.
 
-{{EmbedGHLiveSample("css-examples/flexbox/ratios/flex-shrink-min-content.html", '100%', 500)}}
+```html live-sample___flex-shrink-min-content
+<div class="box">
+  <div>Item One</div>
+  <div>Item Two</div>
+  <div>Item Three has more content and so has a larger size</div>
+</div>
+```
+
+```css live-sample___flex-shrink-min-content
+.box {
+  width: 500px;
+  display: flex;
+}
+
+.box > * {
+  flex: 1 1 auto;
+}
+```
+
+{{EmbedLiveSample("flex-shrink-min-content")}}
 
 In practice, this shrinking behavior provides reasonable results. It prevents content from disappearing completely and from becoming smaller than its minimum content size. The above rules are sensible for content that needs to shrink to fit its container.
 
@@ -148,7 +274,37 @@ In the same way as `flex-grow`, you can give flex items different `flex-shrink` 
 
 In this example, the first item has a `flex-shrink` factor of `1`, the second item `0` (so it won't shrink at all), and the third item `4`, making a total of `5` shrink factors. The third item, therefore, shrinks approximately four times more rapidly than the first, but neither will shrink below their `min-content` width. Play around with the different values: as with `flex-grow`, you can use decimals or larger numbers here as well.
 
-{{EmbedGHLiveSample("css-examples/flexbox/ratios/flex-shrink-ratios.html", '100%', 570)}}
+```html live-sample___flex-shrink-ratios
+<div class="box">
+  <div class="one">One</div>
+  <div class="two">Two</div>
+  <div class="three">Three</div>
+</div>
+```
+
+```css live-sample___flex-shrink-ratios
+.box {
+  display: flex;
+}
+
+.box > * {
+  width: 200px;
+}
+
+.one {
+  flex: 1 1 auto;
+}
+
+.two {
+  flex: 1 0 auto;
+}
+
+.three {
+  flex: 2 4 auto;
+}
+```
+
+{{EmbedLiveSample("flex-shrink-ratios")}}
 
 ## Mastering sizing of flex items
 

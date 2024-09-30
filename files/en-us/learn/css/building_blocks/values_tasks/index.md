@@ -27,7 +27,31 @@ You can find conversions for the hex color at [this link](https://convertingcolo
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/values/color.html", '100%', 1000)}}
+```html live-sample___color
+<ul>
+  <li class="hex">hex color</li>
+  <li class="rgb">RGB color</li>
+  <li class="hsl">HSL color</li>
+  <li class="transparency">Alpha value 0.6</li>
+</ul>
+```
+
+```css live-sample___color
+.hex {
+  background-color: #86defa;
+}
+
+.rgb {
+}
+
+.hsl {
+}
+
+.transparency {
+}
+```
+
+{{EmbedLiveSample("color")}}
 
 > [!CALLOUT]
 >
@@ -48,7 +72,35 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/values/length.html", '100%', 1000)}}
+```html live-sample___length
+<h1>Level 1 heading</h1>
+<p>
+  Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+  daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+</p>
+<h2>Level 2 heading</h2>
+<p>
+  Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+  tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+  Dandelion cucumber earthnut pea peanut soko zucchini.
+</p>
+```
+
+```css live-sample___length
+h1 {
+}
+
+h2 {
+}
+
+p {
+}
+
+h1 + p {
+}
+```
+
+{{EmbedLiveSample("length")}}
 
 > [!CALLOUT]
 >
@@ -64,7 +116,18 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/values/position.html", '100%', 800)}}
+```html live-sample___position
+<div class="box"></div>
+```
+
+```css live-sample___position
+.box {
+  background-image: url(star.png);
+  background-repeat: no-repeat;
+}
+```
+
+{{EmbedLiveSample("position")}}
 
 > [!CALLOUT]
 >

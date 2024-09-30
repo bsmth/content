@@ -15,7 +15,15 @@ The properties in the **CSS filter effects** module let you define a way of proc
 
 Play with the various sliders to apply filter effects to the image below:
 
-{{EmbedGHLiveSample("css-examples/modules/filters.html", '100%', 420)}}
+```html live-sample___filters
+No HTML block found
+```
+
+```css live-sample___filters
+No CSS block found
+```
+
+{{EmbedLiveSample("filters")}}
 
 To see the code for this filter effects sample, [view the source on GitHub](https://github.com/mdn/css-examples/blob/main/modules/filters.html).
 

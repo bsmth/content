@@ -23,7 +23,20 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/writing-modes/writing-mode.html", '100%', 800)}}
+```html live-sample___writing-mode
+<div class="box">Turn me on my side.</div>
+```
+
+```css live-sample___writing-mode
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+}
+```
+
+{{EmbedLiveSample("writing-mode")}}
 
 > [!CALLOUT]
 >
@@ -39,7 +52,23 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/writing-modes/logical-width-height.html", '100%', 1100)}}
+```html live-sample___logical-width-height
+<div class="box">Horizontal.</div>
+<div class="box vertical">Vertical.</div>
+```
+
+```css live-sample___logical-width-height
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 200px;
+  height: 100px;
+}
+```
+
+{{EmbedLiveSample("logical-width-height")}}
 
 > [!CALLOUT]
 >
@@ -55,7 +84,25 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/writing-modes/logical-mbp.html", '100%', 1100)}}
+```html live-sample___logical-mbp
+<div class="box">Horizontal.</div>
+<div class="box vertical">Vertical.</div>
+```
+
+```css live-sample___logical-mbp
+.box {
+  width: 150px;
+  height: 150px;
+  border-top: 5px solid rebeccapurple;
+  border-right: 5px solid grey;
+  border-bottom: 5px dotted red;
+  border-left: 5px dotted blue;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+```
+
+{{EmbedLiveSample("logical-mbp")}}
 
 > [!CALLOUT]
 >

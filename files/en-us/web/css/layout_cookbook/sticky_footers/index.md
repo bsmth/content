@@ -19,7 +19,27 @@ The Sticky footer pattern needs to meet the following requirements:
 
 ## The recipe
 
-{{EmbedGHLiveSample("css-examples/css-cookbook/sticky-footer.html", '100%', 720)}}
+```html live-sample___sticky-footer
+<div class="wrapper">
+  <header class="page-header">This is the header</header>
+  <article class="page-body">
+    <p>
+      Main page content here, add more if you want to see the footer push down.
+    </p>
+  </article>
+  <footer class="page-footer">Sticky footer</footer>
+</div>
+```
+
+```css live-sample___sticky-footer
+.wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+```
+
+{{EmbedLiveSample("sticky-footer")}}
 
 > [!CALLOUT]
 > To take a look at the code, you can [download the full example](https://github.com/mdn/css-examples/blob/main/css-cookbook/sticky-footer--download.html).
@@ -37,7 +57,43 @@ Grid auto-placement will place our items in source order and so the header goes 
 
 You can also use flexbox to create a sticky footer.
 
-{{EmbedGHLiveSample("css-examples/css-cookbook/sticky-footer-flexbox.html", '100%', 720)}}
+```html live-sample___sticky-footer-flexbox
+<div class="wrapper">
+  <header class="page-header">This is the header</header>
+  <main class="page-body">
+    <p>
+      Main page content here, add more if you want to see the footer push down.
+    </p>
+  </main>
+  <footer class="page-footer">Sticky footer</footer>
+</div>
+```
+
+```css live-sample___sticky-footer-flexbox
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.page-header,
+.page-footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.page-body {
+  flex-grow: 1;
+}
+```
+
+{{EmbedLiveSample("sticky-footer-flexbox")}}
 
 The flexbox example starts out in the same way, but we use `display:flex` rather than `display:grid` on the `.wrapper`; we also set `flex-direction` to `column`. Then we set our main content to `flex-grow: 1` and the other two elements to `flex-shrink: 0` — this prevents them from shrinking smaller when content fills the main area.
 

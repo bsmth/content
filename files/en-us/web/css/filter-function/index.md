@@ -55,7 +55,16 @@ div {
 
 Where the `<filter-function>` is the filter you select from the drop down and the `<value>` is the values you set with the slider:
 '
-{{EmbedGHLiveSample("css-examples/types/filterfunctions.html", '100%', '500')}}
+
+```html live-sample___filterfunctions
+No HTML block found
+```
+
+```css live-sample___filterfunctions
+No CSS block found
+```
+
+{{EmbedLiveSample("filterfunctions")}}
 
 ## Specifications
 

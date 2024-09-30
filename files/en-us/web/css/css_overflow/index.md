@@ -21,7 +21,15 @@ Use the following interactive example to see the effects of various `overflow` p
 
 The example also includes options to change the values for the `overflow-clip-margin` and `width` properties, as well as to programmatically scroll the content if the overflow property creates a {{Glossary("scroll container")}}. Select `overflow: clip` and see the effect of different `overflow-clip-margin` values. Select `overflow: hidden` or `overflow: scroll` to check out the various `ScrollLeft` and `ScrollTop` slider settings.
 
-{{EmbedGHLiveSample("css-examples/modules/overflow.html", '100%', 320)}}
+```html live-sample___overflow
+No HTML block found
+```
+
+```css live-sample___overflow
+No CSS block found
+```
+
+{{EmbedLiveSample("overflow")}}
 
 A link is included in the content box above to demonstrate the effects of keyboard focus on overflow and scroll behaviors. Try tabbing to the link or programmatically scrolling the content: the content will scroll only if the enumerated `<overflow>` value creates a scroll container.
 

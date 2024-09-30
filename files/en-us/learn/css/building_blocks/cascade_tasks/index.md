@@ -23,7 +23,31 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/cascade/cascade.html", '100%', 700)}}
+```html live-sample___cascade
+<div class="container" id="outer">
+  <div class="container" id="inner">
+    <ul>
+      <li class="nav"><a href="#">One</a></li>
+      <li class="nav"><a href="#">Two</a></li>
+    </ul>
+  </div>
+</div>
+```
+
+```css live-sample___cascade
+#outer div ul .nav a {
+  background-color: powderblue;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+div div li a {
+  color: rebeccapurple;
+}
+```
+
+{{EmbedLiveSample("cascade")}}
 
 > [!CALLOUT]
 >
@@ -39,7 +63,40 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/cascade/cascadelayer.html", '100%', 700)}}
+```html live-sample___cascadelayer
+<div class="container" id="outer">
+  <div class="container" id="inner">
+    <ul>
+      <li class="nav"><a href="#">One</a></li>
+      <li class="nav"><a href="#">Two</a></li>
+    </ul>
+  </div>
+</div>
+```
+
+```css live-sample___cascadelayer
+@layer yellow, purple, green;
+
+@layer yellow {
+  #outer div ul .nav a {
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}
+@layer purple {
+  div div li a {
+    color: rebeccapurple;
+  }
+}
+@layer green {
+  a {
+    color: lightgreen;
+  }
+}
+```
+
+{{EmbedLiveSample("cascadelayer")}}
 
 > [!CALLOUT]
 >

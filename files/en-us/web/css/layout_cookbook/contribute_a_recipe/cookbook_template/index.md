@@ -20,7 +20,26 @@ _What does this pattern need to include, or what problems does it need to solve?
 
 _Change the path to the example below to point to your merged example. The last parameter is the live example height, which you can change as needed._
 
-{{EmbedGHLiveSample("css-examples/css-cookbook/center.html", '100%', 720)}}
+```html live-sample___center
+<div class="container">
+  <div class="item">I am centered!</div>
+</div>
+```
+
+```css live-sample___center
+.container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 10em;
+}
+```
+
+{{EmbedLiveSample("center")}}
 
 _Change the link to point to your merged download version._
 

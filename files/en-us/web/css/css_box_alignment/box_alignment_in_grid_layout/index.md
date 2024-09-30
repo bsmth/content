@@ -14,7 +14,32 @@ As this page aims to detail things which are specific to CSS grid layout and Box
 
 In this example using grid layout, there is extra space in the grid container after laying out the fixed width tracks on the inline (main) axis. This space is distributed using `justify-content`. On the block (cross) axis the alignment of the items inside their grid areas is controlled with `align-items`. The first item overrides the `align-items` value set on the group by setting `align-self` to `center`.
 
-{{EmbedGHLiveSample("css-examples/box-alignment/overview/grid-align-items.html", '100%', 500)}}
+```html live-sample___grid-align-items
+<div class="box">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three <br />has <br />extra <br />text</div>
+  <div>Four</div>
+  <div>Five</div>
+  <div>Six</div>
+</div>
+```
+
+```css live-sample___grid-align-items
+.box {
+  display: grid;
+  width: 540px;
+  grid-template-columns: 120px 120px 120px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.box :first-child {
+  align-self: center;
+}
+```
+
+{{EmbedLiveSample("grid-align-items")}}
 
 ## Grid axes
 

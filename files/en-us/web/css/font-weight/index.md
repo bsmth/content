@@ -169,7 +169,38 @@ For TrueType or OpenType variable fonts, the "wght" variation is used to impleme
 
 This demo loads with `font-weight: 500;` set. Change the value of the `font-weight` property to see the weight of the text change.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/font-weight.html", '100%', 860)}}
+```html live-sample___font-weight
+<div class="container">
+  <p class="sample">
+    ...it would not be wonderful to meet a Megalosaurus, forty feet long or so,
+    waddling like an elephantine lizard up Holborn Hill.
+  </p>
+</div>
+```
+
+```css live-sample___font-weight
+@font-face {
+  src: url("fonts/MutatorSans.ttf");
+  font-family: "MutatorSans";
+  font-style: normal;
+  font-weight: 1 1000;
+}
+
+label {
+  font: 1rem monospace;
+  white-space: nowrap;
+}
+
+.sample {
+  text-transform: uppercase;
+  font:
+    1.5rem "MutatorSans",
+    sans-serif;
+  font-weight: 500;
+}
+```
+
+{{EmbedLiveSample("font-weight")}}
 
 ## Accessibility
 

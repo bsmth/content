@@ -133,7 +133,15 @@ This example specifies a downloadable font to use, applying it to the entire bod
 
 The output of this example code looks like so:
 
-{{EmbedGHLiveSample("css-examples/web-fonts/basic-web-font.html", '100%', '100')}}
+```html live-sample___basic-web-font
+No HTML block found
+```
+
+```css live-sample___basic-web-font
+No CSS block found
+```
+
+{{EmbedLiveSample("basic-web-font")}}
 
 ### Specifying local font alternatives
 

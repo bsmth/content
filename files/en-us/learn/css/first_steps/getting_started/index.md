@@ -110,7 +110,32 @@ li {
 
 Try this out in the interactive editor below (edit the code boxes) or in your local CSS document.
 
-{{EmbedGHLiveSample("css-examples/learn/getting-started/started1.html", '100%', 900)}}
+```html live-sample___started1
+<h1>I am a level one heading</h1>
+
+<p>
+  This is a paragraph of text. In the text is a <span>span element</span> and
+  also a <a href="http://example.com">link</a>.
+</p>
+
+<p>This is the second paragraph. It contains an <em>emphasized</em> element.</p>
+
+<ul>
+  <li>Item one</li>
+  <li>Item two</li>
+  <li>Item <em>three</em></li>
+</ul>
+```
+
+```css live-sample___started1
+h1 {
+}
+
+p {
+}
+```
+
+{{EmbedLiveSample("started1")}}
 
 ## Changing the default behavior of elements
 
@@ -204,7 +229,34 @@ h1 + p {
 
 The live example below includes the two rules above. Try adding a rule to make a span red if it is inside a paragraph. You will know if you have it right because the span in the first paragraph will be red, but the one in the first list item will not change color.
 
-{{EmbedGHLiveSample("css-examples/learn/getting-started/started2.html", '100%', 1100)}}
+```html live-sample___started2
+<h1>I am a level one heading</h1>
+
+<p>
+  This is a paragraph of text. In the text is a <span>span element</span> and
+  also a <a href="http://example.com">link</a>.
+</p>
+
+<p>This is the second paragraph. It contains an <em>emphasized</em> element.</p>
+
+<ul>
+  <li>Item <span>one</span></li>
+  <li>Item two</li>
+  <li>Item <em>three</em></li>
+</ul>
+```
+
+```css live-sample___started2
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+```
+
+{{EmbedLiveSample("started2")}}
 
 > [!NOTE]
 > As you can see, CSS gives us several ways to target elements, and we've only scratched the surface so far! We will be taking a proper look at all of these selectors and many more in our [Selectors](/en-US/docs/Learn/CSS/Building_blocks/Selectors) articles later on in the course.
@@ -233,7 +285,38 @@ a:hover {
 
 In the live example below, you can play with different values for the various states of a link. We have added the rules above to it, and now realize that the pink color is quite light and hard to read — why not change that to a better color? Can you make the links bold?
 
-{{EmbedGHLiveSample("css-examples/learn/getting-started/started3.html", '100%', 1000)}}
+```html live-sample___started3
+<h1>I am a level one heading</h1>
+
+<p>
+  This is a paragraph of text. In the text is a <span>span element</span> and
+  also a <a href="http://example.com">link</a>.
+</p>
+
+<p>This is the second paragraph. It contains an <em>emphasized</em> element.</p>
+
+<ul>
+  <li>Item one</li>
+  <li>Item two</li>
+  <li>Item <em>three</em></li>
+</ul>
+```
+
+```css live-sample___started3
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+```
+
+{{EmbedLiveSample("started3")}}
 
 We have removed the underline on our link on hover. You could remove the underline from all states of a link. It is worth remembering however that in a real site, you want to ensure that visitors know that a link is a link. Leaving the underline in place can be an important clue for people to realize that some text inside a paragraph can be clicked on — this is the behavior they are used to. As with everything in CSS, there is the potential to make the document less accessible with your changes — we will aim to highlight potential pitfalls in appropriate places.
 

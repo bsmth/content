@@ -18,7 +18,31 @@ For the `:active` and `:focus` pseudo-classes the {{cssxref("transition")}} prop
 
 In the example the transition takes 1 second, you can try changing this to see the difference a change in speed makes.
 
-{{EmbedGHLiveSample("css-examples/howto/transition-button.html", '100%', 720)}}
+```html live-sample___transition-button
+<div class="wrapper">
+  <button class="fade">Hover over me</button>
+</div>
+```
+
+```css live-sample___transition-button
+.fade {
+  background-color: #db1f48;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+.fade:hover {
+  background-color: #004369;
+}
+
+.fade:focus,
+.fade:active {
+  background-color: black;
+  transition: none;
+}
+```
+
+{{EmbedLiveSample("transition-button")}}
 
 > [!NOTE]
 > The {{cssxref("transition")}} property is a shorthand for {{cssxref("transition-delay")}}, {{cssxref("transition-duration")}}, {{cssxref("transition-property")}}, and {{cssxref("transition-timing-function")}}. See the pages for these properties on MDN to find ways to tweak your transitions.

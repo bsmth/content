@@ -170,7 +170,33 @@ The third box uses `em` units. These are relative to the element's font size. I'
 
 After following the instructions above, try playing with the values in other ways, to see what you get.
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/length.html", '100%', 900)}}
+```html live-sample___length
+<div class="wrapper">
+  <div class="box px">I am 200px wide</div>
+  <div class="box vw">I am 10vw wide</div>
+  <div class="box em">I am 10em wide</div>
+</div>
+```
+
+```css live-sample___length
+.wrapper {
+  font-size: 1em;
+}
+
+.px {
+  width: 200px;
+}
+
+.vw {
+  width: 10vw;
+}
+
+.em {
+  width: 10em;
+}
+```
+
+{{EmbedLiveSample("length")}}
 
 #### ems and rems
 
@@ -186,7 +212,57 @@ To start with, we set 16px as the font size on the `<html>` element.
 
 However, if you change the `<html>` element's `font-size` in the CSS you will see that everything else changes relative to it — both `rem`- and `em`-sized text.
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/em-rem.html", '100%', 1100)}}
+```html live-sample___em-rem
+<ul class="ems">
+  <li>One</li>
+  <li>Two</li>
+  <li>
+    Three
+    <ul>
+      <li>Three A</li>
+      <li>
+        Three B
+        <ul>
+          <li>Three B 2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<ul class="rems">
+  <li>One</li>
+  <li>Two</li>
+  <li>
+    Three
+    <ul>
+      <li>Three A</li>
+      <li>
+        Three B
+        <ul>
+          <li>Three B 2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+```
+
+```css live-sample___em-rem
+html {
+  font-size: 16px;
+}
+
+.ems li {
+  font-size: 1.3em;
+}
+
+.rems li {
+  font-size: 1.3rem;
+}
+```
+
+{{EmbedLiveSample("em-rem")}}
 
 #### Line height units
 
@@ -254,11 +330,60 @@ The difference is that the second set of two boxes is inside a wrapper that is 4
 
 **Try changing the width of the wrapper or the percentage value to see how this works.**
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/percentage.html", '100%', 1000)}}
+```html live-sample___percentage
+<div class="box px">I am 200px wide</div>
+<div class="box percent">I am 40% wide</div>
+<div class="wrapper">
+  <div class="box px">I am 200px wide</div>
+  <div class="box percent">I am 40% wide</div>
+</div>
+```
+
+```css live-sample___percentage
+.wrapper {
+  width: 400px;
+  border: 5px solid rebeccapurple;
+}
+
+.px {
+  width: 200px;
+}
+
+.percent {
+  width: 40%;
+}
+```
+
+{{EmbedLiveSample("percentage")}}
 
 The next example has font sizes set in percentages. Each `<li>` has a `font-size` of 80%; therefore, the nested list items become progressively smaller as they inherit their sizing from their parent.
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/percentage-fonts.html", '100%', 800)}}
+```html live-sample___percentage-fonts
+<ul>
+  <li>One</li>
+  <li>Two</li>
+  <li>
+    Three
+    <ul>
+      <li>Three A</li>
+      <li>
+        Three B
+        <ul>
+          <li>Three B 2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+```
+
+```css live-sample___percentage-fonts
+li {
+  font-size: 80%;
+}
+```
+
+{{EmbedLiveSample("percentage-fonts")}}
 
 Note that, while many value types accept a length or a percentage, there are some that only accept length. You can see which values are accepted on the MDN property reference pages. If the allowed value includes {{cssxref("length-percentage")}} then you can use a length or a percentage. If the allowed value only includes `<length>`, it is not possible to use a percentage.
 
@@ -268,7 +393,19 @@ Some value types accept numbers, without any unit added to them. An example of a
 
 **In the below example, try changing the value of `opacity` to various decimal values between `0` and `1` and see how the box and its contents become more or less opaque.**
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/opacity.html", '100%', 600)}}
+```html live-sample___opacity
+<div class="wrapper">
+  <div class="box">I am a box with opacity</div>
+</div>
+```
+
+```css live-sample___opacity
+.box {
+  opacity: 0.6;
+}
+```
+
+{{EmbedLiveSample("opacity")}}
 
 > [!NOTE]
 > When you use a number in CSS as a value it should not be surrounded in quotes.
@@ -292,7 +429,29 @@ You will see the color keywords (or 'named colors') used in many MDN code exampl
 
 **Try playing with different color values in the live examples below, to get more of an idea how they work.**
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/color-keywords.html", '100%', 800)}}
+```html live-sample___color-keywords
+<div class="wrapper">
+  <div class="box one">antiquewhite</div>
+  <div class="box two">blueviolet</div>
+  <div class="box three">greenyellow</div>
+</div>
+```
+
+```css live-sample___color-keywords
+.one {
+  background-color: antiquewhite;
+}
+
+.two {
+  background-color: blueviolet;
+}
+
+.three {
+  background-color: greenyellow;
+}
+```
+
+{{EmbedLiveSample("color-keywords")}}
 
 ### Hexadecimal RGB values
 
@@ -303,7 +462,29 @@ Each hex color value consists of a hash/pound symbol (`#`) followed by three or 
 When using hexadecimal to describe RGB values, each **pair** of hexadecimal characters is a decimal number representing one of the channels — red, green and blue — and allows us to specify any of the 256 available values for each (16 x 16 = 256).
 These values are less intuitive than keywords for defining colors, but they are a lot more versatile because you can represent any RGB color with them.
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/color-hex.html", '100%', 800)}}
+```html live-sample___color-hex
+<div class="wrapper">
+  <div class="box one">#02798b</div>
+  <div class="box two">#c55da1</div>
+  <div class="box three">#128a7d</div>
+</div>
+```
+
+```css live-sample___color-hex
+.one {
+  background-color: #02798b;
+}
+
+.two {
+  background-color: #c55da1;
+}
+
+.three {
+  background-color: #128a7d;
+}
+```
+
+{{EmbedLiveSample("color-hex")}}
 
 **Again, try changing the values to see how the colors vary.**
 
@@ -313,7 +494,29 @@ To create RGB values directly, the [`rgb()`](/en-US/docs/Web/CSS/color_value/rgb
 
 Let's rewrite our last example to use RGB colors:
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/color-rgb.html", '100%', 800)}}
+```html live-sample___color-rgb
+<div class="wrapper">
+  <div class="box one">rgb(2 121 139)</div>
+  <div class="box two">rgb(197 93 161)</div>
+  <div class="box three">rgb(18 138 125)</div>
+</div>
+```
+
+```css live-sample___color-rgb
+.one {
+  background-color: rgb(2 121 139);
+}
+
+.two {
+  background-color: rgb(197 93 161);
+}
+
+.three {
+  background-color: rgb(18 138 125);
+}
+```
+
+{{EmbedLiveSample("color-rgb")}}
 
 You can pass a fourth parameter to `rgb()`, which represents the alpha channel of the color, which controls opacity. If you set this value to `0` it will make the color fully transparent, whereas `1` will make it fully opaque. Values in between give you different levels of transparency.
 
@@ -322,7 +525,29 @@ You can pass a fourth parameter to `rgb()`, which represents the alpha channel o
 
 In the example below, we have added a background image to the containing block of our colored boxes. We have then set the boxes to have different opacity values — notice how the background shows through more when the alpha channel value is smaller.
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/color-rgba.html", '100%', 900)}}
+```html live-sample___color-rgba
+<div class="wrapper">
+  <div class="box one">rgb(2 121 139 / .3)</div>
+  <div class="box two">rgb(197 93 161 / .7)</div>
+  <div class="box three">rgb(18 138 125 / .9)</div>
+</div>
+```
+
+```css live-sample___color-rgba
+.one {
+  background-color: rgb(2 121 139 / 0.3);
+}
+
+.two {
+  background-color: rgb(197 93 161 / 0.7);
+}
+
+.three {
+  background-color: rgb(18 138 125 / 0.9);
+}
+```
+
+{{EmbedLiveSample("color-rgba")}}
 
 **In this example, try changing the alpha channel values to see how it affects the color output.**
 
@@ -362,11 +587,55 @@ The `hsl()` color value also has an optional fourth value, separated from the co
 
 Let's update the RGB example to use HSL colors instead:
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/color-hsl.html", '100%', 800)}}
+```html live-sample___color-hsl
+<div class="wrapper">
+  <div class="box one">hsl(188 97% 28%)</div>
+  <div class="box two">hsl(321 47% 57%)</div>
+  <div class="box three">hsl(174 77% 31%)</div>
+</div>
+```
+
+```css live-sample___color-hsl
+.one {
+  background-color: hsl(188 97% 28%);
+}
+
+.two {
+  background-color: hsl(321 47% 57%);
+}
+
+.three {
+  background-color: hsl(174 77% 31%);
+}
+```
+
+{{EmbedLiveSample("color-hsl")}}
 
 Just like with `rgb()` you can pass an alpha parameter to `hsl()` to specify opacity:
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/color-hsla.html", '100%', 900)}}
+```html live-sample___color-hsla
+<div class="wrapper">
+  <div class="box one">hsl(188 97% 28% / .3)</div>
+  <div class="box two">hsl(321 47% 57% / .7)</div>
+  <div class="box three">hsl(174 77% 31% / .9)</div>
+</div>
+```
+
+```css live-sample___color-hsla
+.one {
+  background-color: hsl(188 97% 28% / 0.3);
+}
+
+.two {
+  background-color: hsl(321 47% 57% / 0.7);
+}
+
+.three {
+  background-color: hsl(174 77% 31% / 0.9);
+}
+```
+
+{{EmbedLiveSample("color-hsla")}}
 
 ## Images
 
@@ -374,7 +643,26 @@ The [`<image>`](/en-US/docs/Web/CSS/image) value type is used wherever an image 
 
 In the example below, we have demonstrated an image and a gradient in use as a value for the CSS `background-image` property.
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/image.html", '100%', 900)}}
+```html live-sample___image
+<div class="box image"></div>
+<div class="box gradient"></div>
+```
+
+```css live-sample___image
+.image {
+  background-image: url(star.png);
+}
+
+.gradient {
+  background-image: linear-gradient(
+    90deg,
+    rgb(119 0 255 / 39%),
+    rgb(0 212 255 / 100%)
+  );
+}
+```
+
+{{EmbedLiveSample("image")}}
 
 > [!NOTE]
 > There are some other possible values for `<image>`, however these are newer and currently have poor browser support. Check out the page on MDN for the [`<image>`](/en-US/docs/Web/CSS/image) data type if you want to read about them.
@@ -387,7 +675,21 @@ A typical position value consists of two values — the first sets the position 
 
 In the following example we have positioned a background image 40px from the top and to the right of the container using a keyword.
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/position.html", '100%', 800)}}
+```html live-sample___position
+<div class="box"></div>
+```
+
+```css live-sample___position
+.box {
+  height: 300px;
+  width: 400px;
+  background-image: url(star.png);
+  background-repeat: no-repeat;
+  background-position: right 40px;
+}
+```
+
+{{EmbedLiveSample("position")}}
 
 **Play around with these values to see how you can push the image around.**
 
@@ -397,7 +699,25 @@ Throughout the examples above, we've seen places where keywords are used as a va
 
 There are places where you use strings in CSS. For example, [when specifying generated content](/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements#generating_content_with_before_and_after). In this case, the value is quoted to demonstrate that it is a string. In the example below, we use unquoted color keywords along with a quoted generated content string.
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/strings-idents.html", '100%', 600)}}
+```html live-sample___strings-idents
+<div class="box"></div>
+```
+
+```css live-sample___strings-idents
+.box {
+  width: 400px;
+  padding: 1em;
+  border-radius: 0.5em;
+  border: 5px solid rebeccapurple;
+  background-color: lightblue;
+}
+
+.box::after {
+  content: "This is a string. I know because it is quoted in the CSS.";
+}
+```
+
+{{EmbedLiveSample("strings-idents")}}
 
 ## Functions
 
@@ -426,7 +746,23 @@ We can't specify this width with a static value — if the parent uses a percent
 However, we can use `calc()` to set the width of the element to be 20% of its parent container plus 100px.
 The 20% is based on the width of the parent container (`.wrapper`) and if that width changes, the calculation will change too:
 
-{{EmbedGHLiveSample("css-examples/learn/values-units/calc.html", '100%', 500)}}
+```html live-sample___calc
+<div class="wrapper">
+  <div class="box">My width is calculated.</div>
+</div>
+```
+
+```css live-sample___calc
+.wrapper {
+  width: 400px;
+}
+
+.box {
+  width: calc(20% + 100px);
+}
+```
+
+{{EmbedLiveSample("calc")}}
 
 There are many other math functions that you can use in CSS, such as [`min()`](/en-US/docs/Web/CSS/min), [`max()`](/en-US/docs/Web/CSS/max), and [`clamp()`](/en-US/docs/Web/CSS/clamp); respectively these let you pick the smallest, largest, or middle value from a set of values.
 You can also use [Trigonometric functions](/en-US/docs/Web/CSS/CSS_Functions#trigonometric_functions) like [`sin()`](/en-US/docs/Web/CSS/sin), [`cos()`](/en-US/docs/Web/CSS/cos), and [`tan()`](/en-US/docs/Web/CSS/tan) to calculate angles for rotating elements around a point, or choose colors that take a [hue angle](/en-US/docs/Web/CSS/hue) as a parameter.

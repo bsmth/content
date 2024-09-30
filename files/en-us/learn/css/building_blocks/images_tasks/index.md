@@ -23,7 +23,18 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/images/object-fit.html", '100%', 1000)}}
+```html live-sample___object-fit
+<div class="box">
+  <img alt="balloons" src="balloons.jpg" />
+</div>
+```
+
+```css live-sample___object-fit
+img {
+}
+```
+
+{{EmbedLiveSample("object-fit")}}
 
 > [!CALLOUT]
 >
@@ -44,7 +55,24 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/images/form.html", '100%', 600)}}
+```html live-sample___form
+<form action="" class="myform" method="post">
+  <div>
+    <label for="fldSearch">Keywords</label>
+    <input id="fldSearch" name="keywords" type="search" />
+    <input name="btnSubmit" type="submit" value="Search" />
+  </div>
+</form>
+```
+
+```css live-sample___form
+.myform {
+  border: 2px solid #000;
+  padding: 5px;
+}
+```
+
+{{EmbedLiveSample("form")}}
 
 > [!CALLOUT]
 >

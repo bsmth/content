@@ -82,7 +82,28 @@ One or more of the keyword values listed below, separated by commas.
 
 Change the `mask-clip` value to any of the allowed values detailed above. If viewing the example in a Chromium-based browser change the value of `-webkit-mask-clip`.
 
-{{EmbedGHLiveSample("css-examples/masking/mask-clip.html", '100%', 800)}}
+```html live-sample___mask-clip
+<div class="masked"></div>
+```
+
+```css live-sample___mask-clip
+.masked {
+  width: 100px;
+  height: 100px;
+  background-color: #8cffa0;
+  margin: 20px;
+  border: 20px solid #8ca0ff;
+  padding: 20px;
+  -webkit-mask-image: url(./MDN.svg);
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-clip: border-box;
+  mask-image: url(./MDN.svg);
+  mask-size: 100% 100%;
+  mask-clip: border-box;
+}
+```
+
+{{EmbedLiveSample("mask-clip")}}
 
 ## Specifications
 

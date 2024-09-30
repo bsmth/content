@@ -23,7 +23,30 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/position/position1.html", '100%', 1000)}}
+```html live-sample___position1
+<div class="container">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+  <div class="target">Target</div>
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+</div>
+```
+
+```css live-sample___position1
+.container {
+}
+
+.target {
+}
+```
+
+{{EmbedLiveSample("position1")}}
 
 Additional question:
 
@@ -41,7 +64,46 @@ In this task, if you scroll the box in the example below, the sidebar scrolls wi
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/position/position2.html", '100%', 1300)}}
+```html live-sample___position2
+<div class="container">
+  <div class="sidebar">
+    <p>
+      This is the sidebar. It should remain in position as the content scrolls.
+    </p>
+  </div>
+  <div class="content">
+    <p>
+      Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+      onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+    </p>
+    <p>
+      Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+      tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+      Dandelion cucumber earthnut pea peanut soko zucchini.
+    </p>
+    <p>
+      Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+      kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus
+      winter purslane kale. Celery potato scallion desert raisin horseradish
+      spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo
+      shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.
+      Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi
+      beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki
+      bean chickweed potato bell pepper artichoke.
+    </p>
+  </div>
+</div>
+```
+
+```css live-sample___position2
+.container {
+}
+
+.sidebar {
+}
+```
+
+{{EmbedLiveSample("position2")}}
 
 > [!CALLOUT]
 >

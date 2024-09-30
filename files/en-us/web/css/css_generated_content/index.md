@@ -13,7 +13,15 @@ Generated content can be used for content replacement, in which case the content
 
 ### Generated content in action
 
-{{EmbedGHLiveSample("css-examples/modules/generated_content.html", '100%',420)}}
+```html live-sample___generated_content
+No HTML block found
+```
+
+```css live-sample___generated_content
+No CSS block found
+```
+
+{{EmbedLiveSample("generated_content")}}
 
 The HTML for this sample is a single, empty {{HTMLElement("div")}} inside an otherwise empty {{HTMLElement("body")}}. The snowman was created with [CSS images](/en-US/docs/Web/CSS/CSS_images) and [CSS backgrounds and borders](/en-US/docs/Web/CSS/CSS_backgrounds_and_borders). The carrot nose was added using generated content: an empty box with a wide orange [left border](/en-US/docs/Web/CSS/border-left) added to the {{cssxref("::before")}} pseudo-element. The text is also generated content: "only one &lt;div>" was generated with the {{cssxref("content")}} property applied to the {{cssxref("::after")}} pseudo-element.
 

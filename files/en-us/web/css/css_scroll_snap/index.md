@@ -15,7 +15,15 @@ This module includes the scroll container scroll-padding properties to adjust th
 
 To view scroll snapping in the box below, scroll up-and-down and left-and-right through the grid of 45 numbered boxes in the scrollable viewport.
 
-{{EmbedGHLiveSample("css-examples/modules/scroll_snap.html", '100%', 250)}}
+```html live-sample___scroll_snap
+No HTML block found
+```
+
+```css live-sample___scroll_snap
+No CSS block found
+```
+
+{{EmbedLiveSample("scroll_snap")}}
 
 With scroll snap, one of the numbered boxes that you scroll to will snap into place. The initial CSS makes the numbered box snap into the center of the viewport. Use the sliders to change the block and inline snap positions.
 

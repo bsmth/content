@@ -22,7 +22,28 @@ The _block flow direction_ is the direction in which boxes, for example paragrap
 
 While certain languages will use a particular writing mode or text direction, we can also use these properties for creative effect, such as running a heading vertically.
 
-{{EmbedGHLiveSample("css-examples/flow/writing-modes/creative-use.html", '100%', 720)}}
+```html live-sample___creative-use
+<div class="box">
+  <h1>A heading</h1>
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney. Their names
+    were Stephen and Joseph Montgolfier, they were papermakers by trade, and
+    were noted as possessing thoughtful minds and a deep interest in all
+    scientific knowledge and new discovery.
+  </p>
+</div>
+```
+
+```css live-sample___creative-use
+h1 {
+  writing-mode: vertical-lr;
+  float: left;
+}
+```
+
+{{EmbedLiveSample("creative-use")}}
 
 ## Block flow direction
 
@@ -30,41 +51,243 @@ The {{cssxref("writing-mode")}} property accepts the values `horizontal-tb`, `ve
 
 The following example shows blocks using `horizontal-tb`.
 
-{{EmbedGHLiveSample("css-examples/flow/writing-modes/horizontal-tb.html", '100%', 720)}}
+```html live-sample___horizontal-tb
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney. Their names
+    were Stephen and Joseph Montgolfier, they were papermakers by trade, and
+    were noted as possessing thoughtful minds and a deep interest in all
+    scientific knowledge and new discovery.
+  </p>
+  <p>
+    Before that night—a memorable night, as it was to prove—hundreds of millions
+    of people had watched the rising smoke-wreaths of their fires without
+    drawing any special inspiration from the fact.”
+  </p>
+</div>
+```
+
+```css live-sample___horizontal-tb
+.box {
+  writing-mode: horizontal-tb;
+}
+```
+
+{{EmbedLiveSample("horizontal-tb")}}
 
 The value `vertical-rl` gives you a right-to-left block flow direction with a vertical inline direction, as shown in the next example.
 
-{{EmbedGHLiveSample("css-examples/flow/writing-modes/vertical-rl.html", '100%', 720)}}
+```html live-sample___vertical-rl
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney. Their names
+    were Stephen and Joseph Montgolfier, they were papermakers by trade, and
+    were noted as possessing thoughtful minds and a deep interest in all
+    scientific knowledge and new discovery.
+  </p>
+  <p>
+    Before that night—a memorable night, as it was to prove—hundreds of millions
+    of people had watched the rising smoke-wreaths of their fires without
+    drawing any special inspiration from the fact.”
+  </p>
+</div>
+```
+
+```css live-sample___vertical-rl
+.box {
+  writing-mode: vertical-rl;
+}
+```
+
+{{EmbedLiveSample("vertical-rl")}}
 
 The final example demonstrates the third possible value for `writing-mode` — `vertical-lr`. This gives you a left-to-right block flow direction and a vertical inline direction.
 
-{{EmbedGHLiveSample("css-examples/flow/writing-modes/vertical-lr.html", '100%', 720)}}
+```html live-sample___vertical-lr
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney. Their names
+    were Stephen and Joseph Montgolfier, they were papermakers by trade, and
+    were noted as possessing thoughtful minds and a deep interest in all
+    scientific knowledge and new discovery.
+  </p>
+  <p>
+    Before that night—a memorable night, as it was to prove—hundreds of millions
+    of people had watched the rising smoke-wreaths of their fires without
+    drawing any special inspiration from the fact.”
+  </p>
+</div>
+```
+
+```css live-sample___vertical-lr
+.box {
+  writing-mode: vertical-lr;
+}
+```
+
+{{EmbedLiveSample("vertical-lr")}}
 
 ## Nested writing modes
 
 When a nested box is assigned a different writing mode to its parent, then an inline level box will display as if it has `display: inline-block`.
 
-{{EmbedGHLiveSample("css-examples/flow/writing-modes/inline-change-mode.html", '100%', 720)}}
+```html live-sample___inline-change-mode
+<div class="box">
+  <p>
+    One <span>November</span> night in the year 1782, so the story runs, two
+    brothers sat over their winter fire in the little French town of Annonay,
+    watching the grey smoke-wreaths from the hearth curl up the wide chimney.
+    Their names were Stephen and Joseph Montgolfier, they were papermakers by
+    trade, and were noted as possessing thoughtful minds and a deep interest in
+    all scientific knowledge and new discovery.
+  </p>
+</div>
+```
+
+```css live-sample___inline-change-mode
+.box {
+  writing-mode: vertical-rl;
+}
+.box span {
+  writing-mode: horizontal-tb;
+  padding: 10px;
+  border: 1px solid rebeccapurple;
+}
+```
+
+{{EmbedLiveSample("inline-change-mode")}}
 
 A block-level box will establish a new block formatting context, meaning that if its inner display type would be `flow`, it will get a computed display type of `flow-root`. This is shown in the next example where the box which displays as `horizontal-tb` contains a float which is contained due to its parent establishing a new BFC.
 
-{{EmbedGHLiveSample("css-examples/flow/writing-modes/block-change-mode.html", '100%', 720)}}
+```html live-sample___block-change-mode
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney.
+  </p>
+
+  <div>
+    <div class="float"></div>
+    This box should establish a new BFC.
+  </div>
+
+  <p>
+    Their names were Stephen and Joseph Montgolfier, they were papermakers by
+    trade, and were noted as possessing thoughtful minds and a deep interest in
+    all scientific knowledge and new discovery.
+  </p>
+</div>
+```
+
+```css live-sample___block-change-mode
+.box {
+  writing-mode: vertical-rl;
+}
+.box > div {
+  writing-mode: horizontal-tb;
+  padding: 10px;
+  border: 1px solid rebeccapurple;
+}
+.float {
+  width: 100px;
+  height: 150px;
+  background-color: rebeccapurple;
+  float: left;
+}
+```
+
+{{EmbedLiveSample("block-change-mode")}}
 
 ## Replaced elements
 
 Replaced elements such as images will not change their orientation based on the `writing-mode` property. However, replaced elements such as form controls which include text, should match the writing mode in use.
 
-{{EmbedGHLiveSample("css-examples/flow/writing-modes/replaced.html", '100%', 720)}}
+```html live-sample___replaced
+<div class="box">
+  <p>
+    One November night in the year 1782, so the story runs, two brothers sat
+    over their winter fire in the little French town of Annonay, watching the
+    grey smoke-wreaths from the hearth curl up the wide chimney.
+  </p>
+
+  <img alt="placeholder" src="blue-sky.png" />
+
+  <p>
+    Their names were Stephen and Joseph Montgolfier, they were papermakers by
+    trade, and were noted as possessing thoughtful minds and a deep interest in
+    all scientific knowledge and new discovery.
+  </p>
+</div>
+```
+
+```css live-sample___replaced
+.box {
+  writing-mode: vertical-rl;
+}
+```
+
+{{EmbedLiveSample("replaced")}}
 
 ## Logical properties and values
 
 Once you are working in writing modes other than `horizontal-tb` many of the properties and values that are mapped to the physical dimensions of the screen seem strange. For example, if you give a box a width of 100px, in `horizontal-tb` that would control the size in the inline direction. In `vertical-lr` it controls the size in the block direction because it does not rotate with the text.
 
-{{EmbedGHLiveSample("css-examples/flow/writing-modes/width.html", '100%', 720)}}
+```html live-sample___width
+<div class="box">
+  <div class="box1">Box 1</div>
+  <div class="box2">Box 2</div>
+</div>
+```
+
+```css live-sample___width
+.box1 {
+  writing-mode: horizontal-tb;
+  border: 5px solid rebeccapurple;
+  width: 100px;
+  margin: 10px;
+}
+.box2 {
+  writing-mode: vertical-lr;
+  border: 5px solid rebeccapurple;
+  width: 100px;
+  margin: 10px;
+}
+```
+
+{{EmbedLiveSample("width")}}
 
 Therefore, we have new properties of {{cssxref("block-size")}} and {{cssxref("inline-size")}}. If we give our block an `inline-size` of 100px, it doesn't matter whether we are in a horizontal or a vertical writing mode, `inline-size` will always mean the size in the inline direction.
 
-{{EmbedGHLiveSample("css-examples/flow/writing-modes/inline-size.html", '100%', 720)}}
+```html live-sample___inline-size
+<div class="box">
+  <div class="box1">Box 1</div>
+  <div class="box2">Box 2</div>
+</div>
+```
+
+```css live-sample___inline-size
+.box1 {
+  writing-mode: horizontal-tb;
+  border: 5px solid rebeccapurple;
+  inline-size: 100px;
+  margin: 10px;
+}
+.box2 {
+  writing-mode: vertical-lr;
+  border: 5px solid rebeccapurple;
+  inline-size: 100px;
+  margin: 10px;
+}
+```
+
+{{EmbedLiveSample("inline-size")}}
 
 The [CSS logical properties and values](/en-US/docs/Web/CSS/CSS_logical_properties_and_values) module includes logical versions of the properties that control margins, padding and borders as well as other mappings for things that we have typically used physical directions to specify.
 

@@ -23,7 +23,23 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/flexbox/flexbox1.html", '100%', 700)}}
+```html live-sample___flexbox1
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About Us</a></li>
+    <li><a href="/products">Our Products</a></li>
+    <li><a href="/contact">Contact Us</a></li>
+  </ul>
+</nav>
+```
+
+```css live-sample___flexbox1
+nav ul {
+}
+```
+
+{{EmbedLiveSample("flexbox1")}}
 
 > [!CALLOUT]
 >
@@ -39,7 +55,27 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/flexbox/flexbox2.html", '100%', 800)}}
+```html live-sample___flexbox2
+<ul>
+  <li>I am small</li>
+  <li>I have more content than the very small item.</li>
+  <li>
+    I have lots of content. So much content that I don't know where it is all
+    going to go. I'm glad that CSS is pretty good at dealing with situations
+    where we end up with more words than expected!
+  </li>
+</ul>
+```
+
+```css live-sample___flexbox2
+ul {
+}
+
+li {
+}
+```
+
+{{EmbedLiveSample("flexbox2")}}
 
 Additional question:
 
@@ -59,7 +95,21 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/flexbox/flexbox3.html", '100%', 800)}}
+```html live-sample___flexbox3
+<div class="parent">
+  <div class="child">Center me.</div>
+</div>
+```
+
+```css live-sample___flexbox3
+.parent {
+}
+
+.child {
+}
+```
+
+{{EmbedLiveSample("flexbox3")}}
 
 > [!CALLOUT]
 >
@@ -73,7 +123,30 @@ In this task, we want you to arrange these items into rows as in the image below
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/flexbox/flexbox4.html", '100%', 1100)}}
+```html live-sample___flexbox4
+<ul>
+  <li>Turnip</li>
+  <li>greens</li>
+  <li>yarrow</li>
+  <li>ricebean</li>
+  <li>rutabaga</li>
+  <li>endive</li>
+  <li>cauliflower</li>
+  <li>sea lettuce</li>
+  <li>kohlrabi</li>
+  <li>amaranth</li>
+</ul>
+```
+
+```css live-sample___flexbox4
+ul {
+}
+
+li {
+}
+```
+
+{{EmbedLiveSample("flexbox4")}}
 
 > [!CALLOUT]
 >

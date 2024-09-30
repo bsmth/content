@@ -15,7 +15,15 @@ The **CSS transforms** module defines how elements styled with CSS can be transf
 
 Use the sliders in the frame below to modify the translation, rotation, scale, and skew CSS transform properties of the cube in 3D space. As you move the cube through 3D space, notice the way it interacts with the element labelled `z:0px`, which is located at the 3D position `(0, 0, 0)`.
 
-{{EmbedGHLiveSample("css-examples/modules/transforms.html", '100%', 900)}}
+```html live-sample___transforms
+No HTML block found
+```
+
+```css live-sample___transforms
+No CSS block found
+```
+
+{{EmbedLiveSample("transforms")}}
 
 You can also use the `perspective` slider to modify the [`perspective`](/en-US/docs/Web/CSS/perspective) property of the cube's container, which determines the distance between you and the `z=0` plane.
 

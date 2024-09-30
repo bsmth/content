@@ -12,7 +12,15 @@ The **CSS multi-column layout** module lets you divide content across multiple c
 
 In this example, the 1967 speech from Canada's centennial, _A Lament for Confederation_, by Chief Dan George, is displayed across multiple columns, similar to the way articles are displayed in printed newspapers. If you have JavaScript enabled, controls enable changing the preferred column number and width, the width of the gap between columns, whether the title and a sample blockquote should be contained in a single column or made to span all columns, and whether breaking within the paragraphs should be avoided.
 
-{{EmbedGHLiveSample("css-examples/modules/multicol.html", '100%', 650)}}
+```html live-sample___multicol
+No HTML block found
+```
+
+```css live-sample___multicol
+No CSS block found
+```
+
+{{EmbedLiveSample("multicol")}}
 
 To see the code for this columned layout, [view the source on GitHub](https://github.com/mdn/css-examples/blob/main/modules/multicol.html).
 

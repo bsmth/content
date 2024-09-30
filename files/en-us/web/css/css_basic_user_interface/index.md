@@ -15,7 +15,15 @@ Basic user interface properties can be used to improve user experience and acces
 
 To view how basic user interface properties can alter the appearance of UI features, interact with the elements in this sample. Note that some features in this sample improve usability while others harm user experience.
 
-{{EmbedGHLiveSample("css-examples/modules/basicUI.html", '100%', 320)}}
+```html live-sample___basicUI
+No HTML block found
+```
+
+```css live-sample___basicUI
+No CSS block found
+```
+
+{{EmbedLiveSample("basicUI")}}
 
 The CSS {{CSSxRef("outline")}} and {{CSSxRef("outline-offset")}} properties were used to provide feedback to users which element currently has focus. An {{CSSxRef("accent-color")}} provides a theme color to all the form controls. The caret that appears when the text is edit has the same color thanks to the {{CSSxRef("caret-color")}} property. These can all be considered UI improvements.
 

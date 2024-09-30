@@ -23,7 +23,21 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/grid/grid1.html", '100%', 700)}}
+```html live-sample___grid1
+<div class="grid">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+  <div>Four</div>
+</div>
+```
+
+```css live-sample___grid1
+.grid {
+}
+```
+
+{{EmbedLiveSample("grid1")}}
 
 > [!CALLOUT]
 >
@@ -37,7 +51,29 @@ In this task, we already have a grid defined. By editing the CSS rules for the t
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/grid/grid2.html", '100%', 900)}}
+```html live-sample___grid2
+<div class="grid">
+  <div class="item1">One</div>
+  <div class="item2">Two</div>
+</div>
+```
+
+```css live-sample___grid2
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.item1 {
+}
+
+.item2 {
+}
+```
+
+{{EmbedLiveSample("grid2")}}
 
 Additional question:
 
@@ -55,7 +91,24 @@ In this task, there are four direct children in this grid. The starting point ha
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/grid/grid3.html", '100%', 800)}}
+```html live-sample___grid3
+<div class="grid">
+  <div class="one">One</div>
+  <div class="two">Two</div>
+  <div class="three">Three</div>
+  <div class="four">Four</div>
+</div>
+```
+
+```css live-sample___grid3
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+```
+
+{{EmbedLiveSample("grid3")}}
 
 > [!CALLOUT]
 >
@@ -69,7 +122,58 @@ In this task, you will need to use both grid layout and flexbox to recreate the 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/grid/grid4.html", '100%', 2000)}}
+```html live-sample___grid4
+<div class="container">
+  <div class="card">
+    <img alt="a single red balloon" src="balloons1.jpg" />
+    <ul class="tags">
+      <li>balloon</li>
+      <li>red</li>
+      <li>sky</li>
+      <li>blue</li>
+      <li>Hot air balloon</li>
+    </ul>
+  </div>
+  <div class="card">
+    <img alt="balloons over some houses" src="balloons2.jpg" />
+    <ul class="tags">
+      <li>balloons</li>
+      <li>houses</li>
+      <li>train</li>
+      <li>harborside</li>
+    </ul>
+  </div>
+  <div class="card">
+    <img alt="close-up of balloons inflating" src="balloons3.jpg" />
+    <ul class="tags">
+      <li>balloons</li>
+      <li>inflating</li>
+      <li>green</li>
+      <li>blue</li>
+    </ul>
+  </div>
+  <div class="card">
+    <img alt="a balloon in the sun" src="balloons4.jpg" />
+    <ul class="tags">
+      <li>balloon</li>
+      <li>sun</li>
+      <li>sky</li>
+      <li>summer</li>
+      <li>bright</li>
+    </ul>
+  </div>
+</div>
+```
+
+```css live-sample___grid4
+.container {
+}
+
+.tags {
+}
+```
+
+{{EmbedLiveSample("grid4")}}
 
 > [!CALLOUT]
 >

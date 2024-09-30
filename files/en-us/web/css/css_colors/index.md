@@ -17,7 +17,15 @@ While this module has only two CSS properties, {{cssxref("color")}} and {{cssxre
 
 The color syntax converter below shows the values of the currently selected color in [red-green-blue](/en-US/docs/Web/CSS/color_value/rgb) (RGB), [hexadecimal](/en-US/docs/Web/CSS/hex-color) (HEX), [hue, saturation, and lightness](/en-US/docs/Web/CSS/color_value/hsl) (HSL), and [hue, whiteness, and blackness](/en-US/docs/Web/CSS/color_value/hwb) (HWB) CSS color formats. All the RGB, HEX, HSL, and HWB color values here, while written differently, represent the same color value.
 
-{{EmbedGHLiveSample("css-examples/modules/colors.html", '100%', 450)}}
+```html live-sample___colors
+No HTML block found
+```
+
+```css live-sample___colors
+No CSS block found
+```
+
+{{EmbedLiveSample("colors")}}
 
 Selecting a color via the [color picker](/en-US/docs/Web/HTML/Element/input/color) and an opacity via the [slider](/en-US/docs/Web/HTML/Element/input/range) updates the RGB, HEX, HSL, and HWB values. When you choose a new color or opacity value, the color of the background and the slider update via the CSS properties {{cssxref("background-color")}} and {{cssxref("accent-color")}}, respectively.
 

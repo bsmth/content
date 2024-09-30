@@ -27,7 +27,28 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/selectors/type.html", '100%', 700)}}
+```html live-sample___type
+<div class="container">
+  <h1>This is a heading</h1>
+  <p>
+    Veggies es <span>bonus vobis</span>, proinde vos postulo essum magis
+    kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean
+    garlic.
+  </p>
+  <h2>A level 2 heading</h2>
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+</div>
+```
+
+```css live-sample___type
+No CSS block found
+```
+
+{{EmbedLiveSample("type")}}
 
 > [!CALLOUT]
 >
@@ -48,7 +69,30 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/selectors/class-id.html", '100%', 800)}}
+```html live-sample___class-id
+<div class="container">
+  <h1>This is a heading</h1>
+  <p>
+    Veggies es <span class="alert">bonus vobis</span>, proinde vos postulo
+    <span class="alert stop">essum magis</span> kohlrabi welsh onion daikon
+    amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+  <h2 id="special">A level 2 heading</h2>
+  <p>Gumbo beet greens corn soko endive gumbo gourd.</p>
+  <h2>Another level 2 heading</h2>
+  <p>
+    <span class="alert go">Parsley shallot</span> courgette tatsoi pea sprouts
+    fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber
+    earthnut pea peanut soko zucchini.
+  </p>
+</div>
+```
+
+```css live-sample___class-id
+No CSS block found
+```
+
+{{EmbedLiveSample("class-id")}}
 
 > [!CALLOUT]
 >
@@ -68,7 +112,54 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/selectors/pseudo.html", '100%', 800)}}
+```html live-sample___pseudo
+<div class="container">
+  <p>
+    Veggies es <a href="http://example.com">bonus vobis</a>, proinde vos postulo
+    essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon
+    azuki bean garlic.
+  </p>
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+  <table>
+    <tbody>
+      <tr>
+        <th>Fruits</th>
+        <th>Vegetables</th>
+      </tr>
+      <tr>
+        <td>Apple</td>
+        <td>Potato</td>
+      </tr>
+      <tr>
+        <td>Orange</td>
+        <td>Carrot</td>
+      </tr>
+      <tr>
+        <td>Tomato</td>
+        <td>Parsnip</td>
+      </tr>
+      <tr>
+        <td>Kiwi</td>
+        <td>Onion</td>
+      </tr>
+      <tr>
+        <td>Banana</td>
+        <td>Beet</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+```
+
+```css live-sample___pseudo
+No CSS block found
+```
+
+{{EmbedLiveSample("pseudo")}}
 
 > [!CALLOUT]
 >
@@ -87,7 +178,33 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/selectors/combinators.html", '100%', 800)}}
+```html live-sample___combinators
+<div class="container">
+  <h2>This is a heading</h2>
+  <p>This paragraph comes after the heading.</p>
+  <p>This is the second paragraph.</p>
+
+  <h2>Another heading</h2>
+  <p>This paragraph comes after the heading.</p>
+  <ul class="list">
+    <li>One</li>
+    <li>
+      Two
+      <ul>
+        <li>2.1</li>
+        <li>2.2</li>
+      </ul>
+    </li>
+    <li>Three</li>
+  </ul>
+</div>
+```
+
+```css live-sample___combinators
+No CSS block found
+```
+
+{{EmbedLiveSample("combinators")}}
 
 > [!CALLOUT]
 >
@@ -107,7 +224,22 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/selectors/attribute-links.html", '100%', 800)}}
+```html live-sample___attribute-links
+<ul>
+  <li><a href="https://example.com">Link 1</a></li>
+  <li><a href="http://example.com" title="Visit example.com">Link 2</a></li>
+  <li><a href="/contact">Link 3</a></li>
+  <li><a href="../contact/index.html">Link 4</a></li>
+</ul>
+```
+
+```css live-sample___attribute-links
+a {
+  border: 5px solid grey;
+}
+```
+
+{{EmbedLiveSample("attribute-links")}}
 
 > [!CALLOUT]
 >

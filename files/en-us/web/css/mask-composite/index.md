@@ -53,7 +53,22 @@ For the composition the current mask layer is referred to as _source_, while all
 
 ### Compositing mask layers with addition
 
-{{EmbedGHLiveSample("css-examples/masking/mask-composite.html", '100%', 550)}}
+```html live-sample___mask-composite
+<div class="masked"></div>
+```
+
+```css live-sample___mask-composite
+.masked {
+  -webkit-mask-image: url(MDN.svg), url(star.svg);
+  mask-image: url(MDN.svg), url(star.svg);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-composite: source-over;
+  mask-composite: add;
+}
+```
+
+{{EmbedLiveSample("mask-composite")}}
 
 ## Specifications
 

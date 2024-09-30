@@ -15,7 +15,15 @@ The **CSS animations** module lets you animate the values of CSS properties, suc
 
 To view the animation in the box below, click the checkbox 'Play the animation' or hover the cursor over the box. When the animating is active, the cloud at the top changes shape, snowflakes fall, and the snow level at the bottom rises. To pause the animation, uncheck the checkbox or move your cursor away from the box.
 
-{{EmbedGHLiveSample("css-examples/modules/animation.html", '100%', 650)}}
+```html live-sample___animation
+No HTML block found
+```
+
+```css live-sample___animation
+No CSS block found
+```
+
+{{EmbedLiveSample("animation")}}
 
 This sample animation uses {{cssxref("animation-iteration-count")}} to make the flakes fall repeatedly, {{cssxref("animation-direction")}} to make the cloud move back and forth, {{cssxref("animation-fill-mode")}} to raise the snow level in response to the cloud movement, and {{cssxref("animation-play-state")}} to pause the animation.
 

@@ -27,7 +27,21 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/backgrounds/backgrounds1.html", '100%', 700)}}
+```html live-sample___backgrounds1
+<div class="box">
+  <h2>Backgrounds &amp; Borders</h2>
+</div>
+```
+
+```css live-sample___backgrounds1
+.box {
+}
+
+h2 {
+}
+```
+
+{{EmbedLiveSample("backgrounds1")}}
 
 > [!CALLOUT]
 >
@@ -47,7 +61,21 @@ Your final result should look like the image below:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("css-examples/learn/tasks/backgrounds/backgrounds2.html", '100%', 700)}}
+```html live-sample___backgrounds2
+<div class="box">
+  <h2>Backgrounds &amp; Borders</h2>
+</div>
+```
+
+```css live-sample___backgrounds2
+.box {
+}
+
+h2 {
+}
+```
+
+{{EmbedLiveSample("backgrounds2")}}
 
 > [!CALLOUT]
 >

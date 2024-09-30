@@ -76,7 +76,24 @@ In this example, we will mask an element's border with a diamond pattern. The so
 
 To match the size of a single diamond, we will use a value of 90 divided by 3, or `30`, for slicing the image into corner and edge regions. A repeat value of `round` will make the mask slices fit evenly, i.e., without clipping or gaps.
 
-{{EmbedGHLiveSample("css-examples/masking/mask-border.html", '100%', 800)}}
+```html live-sample___mask-border
+<div class="masked">
+  This element is surrounded by a bitmap-based mask border! Pretty neat, isn't
+  it?
+</div>
+```
+
+```css live-sample___mask-border
+.masked {
+  -webkit-mask-box-image: url("mask-border-diamonds.png") 30 fill / /* slice */
+    20px / /* width */ 1px /* outset */ round; /* repeat */
+
+  mask-border: url("mask-border-diamonds.png") 30 fill / /* slice */ 20px /
+    /* width */ 1px /* outset */ round; /* repeat */
+}
+```
+
+{{EmbedLiveSample("mask-border")}}
 
 ## Specifications
 

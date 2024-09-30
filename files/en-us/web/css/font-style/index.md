@@ -54,7 +54,35 @@ For TrueType or OpenType variable fonts, the `"slnt"` variation is used to imple
 > [!NOTE]
 > For the example below to work, you'll need a browser that supports the CSS Fonts Level 4 syntax in which `font-style: oblique` can accept an `<angle>`. The demo loads with `font-style: oblique 23deg;`. Change the value to see the slant of the text change.
 
-{{EmbedGHLiveSample("css-examples/variable-fonts/oblique.html", '100%', 860)}}
+```html live-sample___oblique
+<div class="container">
+  <p class="sample">
+    ...it would not be wonderful to meet a Megalosaurus, forty feet long or so,
+    waddling like an elephantine lizard up Holborn Hill.
+  </p>
+</div>
+```
+
+```css live-sample___oblique
+@font-face {
+  src: url("fonts/AmstelvarAlpha-VF.ttf");
+  font-family: "AmstelvarAlpha";
+  font-style: normal;
+}
+
+label {
+  font: 1rem monospace;
+}
+
+.sample {
+  font:
+    2rem "AmstelvarAlpha",
+    sans-serif;
+  font-style: oblique 23deg;
+}
+```
+
+{{EmbedLiveSample("oblique")}}
 
 ## Accessibility
 

@@ -14,7 +14,22 @@ To center one box inside another using CSS you will need to use [CSS box alignme
 
 In the example below we have given the parent container `display: flex`; then set {{cssxref("justify-content")}} to center to align it horizontally, and {{cssxref("align-items")}} to center to align it vertically.
 
-{{EmbedGHLiveSample("css-examples/howto/center.html", '100%', 700)}}
+```html live-sample___center
+<div class="wrapper">
+  <div class="box">center me!</div>
+</div>
+```
+
+```css live-sample___center
+.wrapper {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+```
+
+{{EmbedLiveSample("center")}}
 
 > [!NOTE]
 > You can use this technique to do any kind of alignment of one or more elements inside another. In the example above you can try changing the values to any valid values for {{cssxref("justify-content")}} and {{cssxref("align-items")}}.
