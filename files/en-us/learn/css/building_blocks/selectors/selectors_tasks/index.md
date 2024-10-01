@@ -44,10 +44,6 @@ Try updating the live code below to recreate the finished example:
 </div>
 ```
 
-```css live-sample___type
-No CSS block found
-```
-
 {{EmbedLiveSample("type")}}
 
 > [!CALLOUT]
@@ -86,10 +82,6 @@ Try updating the live code below to recreate the finished example:
     earthnut pea peanut soko zucchini.
   </p>
 </div>
-```
-
-```css live-sample___class-id
-No CSS block found
 ```
 
 {{EmbedLiveSample("class-id")}}
@@ -198,10 +190,6 @@ Try updating the live code below to recreate the finished example:
     <li>Three</li>
   </ul>
 </div>
-```
-
-```css live-sample___combinators
-No CSS block found
 ```
 
 {{EmbedLiveSample("combinators")}}

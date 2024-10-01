@@ -105,10 +105,6 @@ Try updating the live code below to recreate the finished example:
 </table>
 ```
 
-```css live-sample___table
-No CSS block found
-```
-
 {{EmbedLiveSample("table")}}
 
 Additional question:
