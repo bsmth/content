@@ -59,28 +59,12 @@ A Tier 3 project needs 1 admin.
 
 ### Code examples and demos
 
-[//]: # "TODO: UPDATE WITH REPO TRIAGE"
+<!-- TODO: UPDATE WITH REPO TRIAGE -->
 
-The MDN Web Docs GitHub org contains a huge number of example repos. These generally contain freestanding code examples that are often linked to from our pages, but occasionally you'll find one of these examples embedded into a page using a macro call like this — `\
+The MDN Web Docs GitHub organization contains a number of example repos.
+These generally contain standalone code examples that are often linked to from our pages, but occasionally you'll find one of these examples embedded into a page using a macro call like this — `\{{EmbedGHLiveSample("css-examples/learn/tasks/grid/grid1.html", '100%', 700)}}`.
 
-```html live-sample___grid1
-<div class="grid">
-  <div>One</div>
-  <div>Two</div>
-  <div>Three</div>
-  <div>Four</div>
-</div>
-```
-
-```css live-sample___grid1
-.grid {
-}
-```
-
-{{EmbedLiveSample("grid1")}}
-`.
-
-Always remember, if you are updating the code on any given page, you'll need to update the corresponding example repo as well.
+If you are updating code on any given page, you'll need to update the corresponding example repo as well:
 
 - [**dom-examples**](https://github.com/mdn/dom-examples)
 - [**css-examples**](https://github.com/mdn/css-examples)
