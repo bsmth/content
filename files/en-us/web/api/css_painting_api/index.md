@@ -87,7 +87,7 @@ We used the `inputProperties()` method in the `registerPaint()` class to get the
 
 #### HTML
 
-```html
+```html live-sample___example-boxbg
 <ul>
   <li>item 1</li>
   <li>item 2</li>
@@ -114,19 +114,19 @@ We used the `inputProperties()` method in the `registerPaint()` class to get the
 
 In our CSS, we define the `--boxColor` and `--widthSubtractor` custom properties.
 
-```css
+```css live-sample___example-boxbg
 li {
   background-image: paint(boxbg);
-  --boxColor: hsl(55 90% 60% / 100%);
+  --boxColor: hsl(55 90% 60%);
 }
 
 li:nth-of-type(3n) {
-  --boxColor: hsl(155 90% 60% / 100%);
+  --boxColor: hsl(155 90% 60%);
   --widthSubtractor: 20;
 }
 
 li:nth-of-type(3n + 1) {
-  --boxColor: hsl(255 90% 60% / 100%);
+  --boxColor: hsl(255 90% 60%);
   --widthSubtractor: 40;
 }
 ```
@@ -135,21 +135,13 @@ li:nth-of-type(3n + 1) {
 
 In our `<script>` we register the worklet:
 
-```js
+```js live-sample___example-boxbg
 CSS.paintWorklet.addModule("boxbg.js");
 ```
 
 #### Result
 
 While you can't play with the worklet's script, you can alter the custom property values in DevTools to change the colors and width of the background image.
-
-```html live-sample___example-boxbg
-No HTML block found
-```
-
-```css live-sample___example-boxbg
-No CSS block found
-```
 
 {{EmbedLiveSample("example-boxbg")}}
 
