@@ -173,10 +173,6 @@ In the following example, we have three inline boxes created by a paragraph with
 </p>
 ```
 
-```css live-sample___inline
-No CSS block found
-```
-
 {{EmbedLiveSample("inline")}}
 
 The boxes around the words before the `<strong>` element and after the `</strong>` element are referred to as anonymous boxes, boxes introduced to ensure that everything is wrapped in a box, but ones that we cannot target directly.

@@ -28,9 +28,13 @@ where:
 
 In JavaScript, we register the [paint worklet](/en-US/docs/Web/API/PaintWorkletGlobalScope):
 
+<!-- See https://github.com/mdn/css-examples/blob/main/houdini/css_painting_api/example-boxbg.html -->
+
 ```js
 CSS.paintWorklet.addModule("boxbg.js");
 ```
+
+<!-- Needs paintWorklet support -->
 
 ...then, in the CSS, we define the `background-image` as a `paint()` type with the worklet name, `boxbg`, along with any variables (ex. `--boxColor` and `--widthSubtractor`) the worklet will use:
 
@@ -52,11 +56,43 @@ li:nth-of-type(3n + 1) {
 The result will be the following:
 
 ```html live-sample___example-boxbg
-No HTML block found
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+  <li>item 4</li>
+  <li>item 5</li>
+  <li>item 6</li>
+  <li>item 7</li>
+  <li>item 8</li>
+  <li>item 9</li>
+  <li>item 10</li>
+  <li>item 11</li>
+  <li>item 12</li>
+  <li>item 13</li>
+  <li>item 14</li>
+  <li>item 15</li>
+  <li>item 16</li>
+  <li>item 17</li>
+  <li>item</li>
+</ul>
 ```
 
 ```css live-sample___example-boxbg
-No CSS block found
+li {
+  background-image: paint(boxbg);
+  --boxColor: hsl(55 90% 60%);
+}
+
+li:nth-of-type(3n) {
+  --boxColor: hsl(155 90% 60%);
+  --widthSubtractor: 20;
+}
+
+li:nth-of-type(3n + 1) {
+  --boxColor: hsl(255 90% 60%);
+  --widthSubtractor: 40;
+}
 ```
 
 {{EmbedLiveSample("example-boxbg")}}

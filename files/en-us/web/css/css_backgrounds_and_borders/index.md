@@ -20,11 +20,55 @@ The properties in this module also let you define whether cells inside a {{HTMLE
 This sample of borders, backgrounds, and box shadows consists of centered background images made of linear and radial gradients. A series of box shadows make the border appear to "pop". The element on the left has a border image set. The element on the right has a rounded dotted border.
 
 ```html live-sample___backgrounds
-No HTML block found
+<article>
+  <div></div>
+  <div></div>
+</article>
 ```
 
 ```css live-sample___backgrounds
-No CSS block found
+article {
+  display: flex;
+  gap: 10px;
+}
+div {
+  color: #58ade3;
+  height: 320px;
+  width: 240px;
+  padding: 20px;
+  margin: 10px;
+  border: dotted 15px; /* defaults to `currentcolor` */
+  border-radius: 100px 0;
+  background-image: radial-gradient(
+      circle,
+      transparent 60%,
+      currentcolor 60% 70%,
+      transparent 70%
+    ),
+    linear-gradient(45deg, currentcolor, white),
+    linear-gradient(transparent, transparent);
+  /* the third transparent background image was added to provide space for the background color to show through */
+  background-color: currentcolor;
+  background-position: center;
+  background-size:
+    60px 60px,
+    120px 120px;
+  background-clip: content-box, content-box, padding-box;
+  box-shadow:
+    inset 5px 5px 5px rgb(0 0 0 / 0.4),
+    inset -5px -5px 5px rgb(0 0 0 / 0.4),
+    5px 5px 5px rgb(0 0 0 / 0.4),
+    -5px -5px 5px rgb(0 0 0 / 0.4);
+}
+div:first-of-type {
+  border-radius: 0;
+  border-image-source: repeating-conic-gradient(
+    from 3deg at 25% 25%,
+    currentColor 0 3deg,
+    transparent 3deg 6deg
+  );
+  border-image-slice: 30;
+}
 ```
 
 {{EmbedLiveSample("backgrounds")}}

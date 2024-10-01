@@ -105,6 +105,8 @@ You can find a number of other variable font examples in our [Variable fonts gui
 
 You can edit the CSS in the example below to play with different font weight values. See what happens when you specify a value outside the weight range.
 
+<!-- See https://github.com/mdn/css-examples/blob/main/variable-fonts/weight.html -->
+
 ```html live-sample___weight
 No HTML block found
 ```
@@ -118,6 +120,8 @@ No CSS block found
 ### Controlling variable font slant (slnt)
 
 You can edit the CSS in the example below to play with different font slant/oblique values.
+
+<!-- See https://github.com/mdn/css-examples/blob/main/variable-fonts/slant.html -->
 
 ```html live-sample___slant
 No HTML block found

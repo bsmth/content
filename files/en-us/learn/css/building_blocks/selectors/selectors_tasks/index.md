@@ -147,10 +147,6 @@ Try updating the live code below to recreate the finished example:
 </div>
 ```
 
-```css live-sample___pseudo
-No CSS block found
-```
-
 {{EmbedLiveSample("pseudo")}}
 
 > [!CALLOUT]

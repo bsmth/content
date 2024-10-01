@@ -54,14 +54,154 @@ div {
 ```
 
 Where the `<filter-function>` is the filter you select from the drop down and the `<value>` is the values you set with the slider:
-'
+
+```js live-sample___filterfunctions
+const selectElem = document.querySelector("select");
+const divElem = document.querySelector("div");
+const slider = document.querySelector("input");
+const output = document.querySelector("output");
+const curValue = document.querySelector("p code");
+
+selectElem.addEventListener("change", () => {
+  setSlider(selectElem.value);
+  setDiv(selectElem.value);
+});
+
+slider.addEventListener("input", () => {
+  setDiv(selectElem.value);
+});
+
+function setSlider(filter) {
+  switch (filter) {
+    case "blur":
+      slider.value = 0;
+      slider.min = 0;
+      slider.max = 30;
+      slider.step = 1;
+      slider.setAttribute("data-unit", "px");
+      break;
+    case "brightness":
+    case "contrast":
+    case "saturate":
+      slider.value = 1;
+      slider.min = 0;
+      slider.max = 4;
+      slider.step = 0.05;
+      slider.setAttribute("data-unit", "");
+      break;
+    case "drop-shadow":
+      slider.value = 0;
+      slider.min = -20;
+      slider.max = 40;
+      slider.step = 1;
+      slider.setAttribute("data-unit", "px");
+      break;
+    case "opacity":
+      slider.value = 1;
+      slider.min = 0;
+      slider.max = 1;
+      slider.step = 0.01;
+      slider.setAttribute("data-unit", "");
+      break;
+    case "grayscale":
+    case "invert":
+    case "sepia":
+      slider.value = 0;
+      slider.min = 0;
+      slider.max = 1;
+      slider.step = 0.01;
+      slider.setAttribute("data-unit", "");
+      break;
+    case "hue-rotate":
+      slider.value = 0;
+      slider.min = 0;
+      slider.max = 360;
+      slider.step = 1;
+      slider.setAttribute("data-unit", "deg");
+      break;
+    default:
+      console.error("Unknown filter set");
+  }
+}
+
+function setDiv(filter) {
+  const unit = slider.getAttribute("data-unit");
+  const offset = `${Math.round(slider.value)}${unit}`;
+  const radius = `${Math.round(Math.abs(slider.value / 2))}${unit}`;
+  divElem.style.filter =
+    filter === "drop-shadow"
+      ? `${selectElem.value}(${offset} ${offset} ${radius})`
+      : `${selectElem.value}(${slider.value}${unit})`;
+
+  updateOutput();
+  updateCurValue();
+}
+
+function updateOutput() {
+  output.textContent = slider.value;
+}
+
+function updateCurValue() {
+  curValue.textContent = `filter: ${divElem.style.filter}`;
+}
+
+setSlider(selectElem.value);
+setDiv(selectElem.value);
+```
 
 ```html live-sample___filterfunctions
-No HTML block found
+<div></div>
+<ul>
+  <li>
+    <label for="filter-select">Choose a filter function:</label>
+    <select id="filter-select">
+      <option selected>blur</option>
+      <option>brightness</option>
+      <option>contrast</option>
+      <option>drop-shadow</option>
+      <option>grayscale</option>
+      <option>hue-rotate</option>
+      <option>invert</option>
+      <option>opacity</option>
+      <option>saturate</option>
+      <option>sepia</option>
+    </select>
+  </li>
+  <li><input type="range" /><output></output></li>
+  <li>
+    <p>Current value: <code></code></p>
+  </li>
+</ul>
 ```
 
 ```css live-sample___filterfunctions
-No CSS block found
+div {
+  width: 300px;
+  height: 300px;
+  background: url(https://media.prod.mdn.mozit.cloud/attachments/2020/07/29/17350/3b4892b7e820122ac6dd7678891d4507/firefox.png)
+    no-repeat center;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 60%;
+}
+
+output {
+  width: 5%;
+  text-align: center;
+}
+
+select {
+  width: 40%;
+  margin-left: 2px;
+}
 ```
 
 {{EmbedLiveSample("filterfunctions")}}

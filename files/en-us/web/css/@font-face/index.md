@@ -105,40 +105,21 @@ The `@font-face` at-rule may be used not only at the top level of a CSS, but als
 
 ### Specifying a downloadable font
 
-This example specifies a downloadable font to use, applying it to the entire body of the document:
-
-```html
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Web Font Sample</title>
-    <style media="screen, print">
-      @font-face {
-        font-family: "Bitstream Vera Serif Bold";
-        src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
-      }
-
-      body {
-        font-family: "Bitstream Vera Serif Bold", serif;
-      }
-    </style>
-  </head>
-  <body>
-    This is Bitstream Vera Serif Bold.
-  </body>
-</html>
-```
-
-The output of this example code looks like so:
+This example specifies a downloadable font to use, applying it to the entire body of the document.
 
 ```html live-sample___basic-web-font
-No HTML block found
+This is Bitstream Vera Serif Bold.
 ```
 
 ```css live-sample___basic-web-font
-No CSS block found
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("VeraSeBd.ttf");
+}
+
+body {
+  font-family: "Bitstream Vera Serif Bold", serif;
+}
 ```
 
 {{EmbedLiveSample("basic-web-font")}}

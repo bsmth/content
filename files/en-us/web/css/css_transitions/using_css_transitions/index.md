@@ -321,7 +321,53 @@ document.addEventListener(
 
 With CSS you can make it smooth without any extra effort. Add a transition to the element and any change will happen smoothly:
 
-```css
+```html hidden live-sample___js-transitions
+<main>
+  <h1>Click anywhere to move the ball</h1>
+  <div id="foo" class="ball"></div>
+</main>
+```
+
+```js hidden live-sample___js-transitions
+var f = document.getElementById("foo");
+document.addEventListener(
+  "click",
+  function (ev) {
+    f.style.transform = "translateY(" + (ev.clientY - 25) + "px)";
+    f.style.transform += "translateX(" + (ev.clientX - 25) + "px)";
+  },
+  false,
+);
+```
+
+```css hidden live-sample___js-transitions
+body {
+  background-color: #fff;
+  color: #333;
+  font:
+    1.2em / 1.5 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+main {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 660px;
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
 .ball {
   border-radius: 25px;
   width: 50px;
@@ -332,14 +378,6 @@ With CSS you can make it smooth without any extra effort. Add a transition to th
   left: 0;
   transition: transform 1s;
 }
-```
-
-```html live-sample___js-transitions
-No HTML block found
-```
-
-```css live-sample___js-transitions
-No CSS block found
 ```
 
 {{EmbedLiveSample("js-transitions")}}

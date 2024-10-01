@@ -49,11 +49,11 @@ Associated CSS property: {{cssxref("font-kerning")}}
 This refers to the spacing between specific glyph pairings. This is generally on by default (as recommended by the OpenType specification). It should be noted that if {{cssxref("letter-spacing")}} is also set on your text, that is applied after kerning.
 
 ```html live-sample___font-kerning
-No HTML block found
+<!-- See https://github.com/mdn/css-examples/blob/main/font-features/font-kerning.html -->
 ```
 
 ```css live-sample___font-kerning
-No CSS block found
+/* See https://github.com/mdn/css-examples/blob/main/font-features/font-kerning.html */
 ```
 
 {{EmbedLiveSample("font-kerning")}}
@@ -65,11 +65,11 @@ Associated CSS property: {{cssxref("font-variant-alternates")}}
 Fonts can supply a number of different alternatives for various glyphs, such as different styles of lower case 'a' or more or less elaborate swashes in a script typeface. This property can activate an entire set of alternates or just a specific one, depending on the values supplied. The example below is showing several different aspects of working with alternate characters. Fonts with alternate glyphs can make them available across the board or individually in separate stylistic sets, or even individual characters. In this example you can see two different typefaces, and the introduction of the {{cssxref("@font-feature-values")}} at-rule. This is used to define shortcuts or named options that can be defined per font family. This way you can create a named option that applies to only a single font, or one that is shared and can be applied more generally
 
 ```html live-sample___font-variant-alternates
-No HTML block found
+<!-- See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-alternates.html -->
 ```
 
 ```css live-sample___font-variant-alternates
-No CSS block found
+/* See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-alternates.html */
 ```
 
 {{EmbedLiveSample("font-variant-alternates")}}
@@ -103,11 +103,11 @@ Ligatures are glyphs that replace two or more separate glyphs in order to repres
 While more common in script typefaces, in the below example they are used to create arrows:
 
 ```html live-sample___font-variant-ligatures
-No HTML block found
+<!-- See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-ligatures.html -->
 ```
 
 ```css live-sample___font-variant-ligatures
-No CSS block found
+/* See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-ligatures.html */
 ```
 
 {{EmbedLiveSample("font-variant-ligatures")}}
@@ -119,11 +119,11 @@ Associated CSS property: {{cssxref("font-variant-position")}}
 Position variants are used to enable typographic superscript and subscript glyphs. These are designed to work with the surrounding text without altering the baseline or line spacing. This is especially useful with the {{htmlelement("sub")}} or {{htmlelement("sup")}} elements.
 
 ```html live-sample___font-variant-position
-No HTML block found
+<!-- See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-position.html -->
 ```
 
 ```css live-sample___font-variant-position
-No CSS block found
+/* See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-position.html */
 ```
 
 {{EmbedLiveSample("font-variant-position")}}
@@ -135,11 +135,11 @@ Associated CSS property: {{cssxref("font-variant-caps")}}
 One of the more common use cases for OpenType features is proper small caps. These are capital letters sized to fit better amongst lower case letters and are generally used for acronyms and abbreviations.
 
 ```html live-sample___font-variant-caps
-No HTML block found
+<!-- See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-caps.html -->
 ```
 
 ```css live-sample___font-variant-caps
-No CSS block found
+/* See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-caps.html */
 ```
 
 {{EmbedLiveSample("font-variant-caps")}}
@@ -165,11 +165,11 @@ Ordinals are also supported (such as '1st' or '3rd'), as is a slashed zero if pr
 #### Lining and old-style figures
 
 ```html live-sample___font-variant-numeric
-No HTML block found
+<!-- See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-numeric.html -->
 ```
 
 ```css live-sample___font-variant-numeric
-No CSS block found
+/* See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-numeric.html */
 ```
 
 {{EmbedLiveSample("font-variant-numeric")}}
@@ -177,11 +177,11 @@ No CSS block found
 #### Fractions, ordinals, and slashed zero
 
 ```html live-sample___font-variant-numeric-frac
-No HTML block found
+<!-- See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-numeric-frac.html -->
 ```
 
 ```css live-sample___font-variant-numeric-frac
-No CSS block found
+/* See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-numeric-frac.html */
 ```
 
 {{EmbedLiveSample("font-variant-numeric-frac")}}
@@ -193,11 +193,11 @@ Associated CSS property: {{cssxref("font-variant-east-asian")}}
 This allows access to various alternate forms of glyphs within a font. The example below shows a string of glyphs with only the OpenType set 'jis78' enabled. Uncheck the box below and you'll see more characters displayed.
 
 ```html live-sample___font-variant-east-asian
-No HTML block found
+<!-- See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-east-asian.html -->
 ```
 
 ```css live-sample___font-variant-east-asian
-No CSS block found
+/* See https://github.com/mdn/css-examples/blob/main/font-features/font-variant-east-asian.html */
 ```
 
 {{EmbedLiveSample("font-variant-east-asian")}}
@@ -210,11 +210,11 @@ No CSS block found
 The {{Cssxref("font-variant")}} property is the shorthand syntax for defining all of the above. Setting a value of `normal` resets all properties to their initial value. Setting a value of `none` sets `font-variant-ligatures` to none and all other properties to their initial value. (Meaning that if kerning is on by default, it will still be on even with a value of `none` being supplied here.)
 
 ```html live-sample___font-variant
-No HTML block found
+<!-- See https://github.com/mdn/css-examples/blob/main/font-features/font-variant.html -->
 ```
 
 ```css live-sample___font-variant
-No CSS block found
+/* See https://github.com/mdn/css-examples/blob/main/font-features/font-variant.html */
 ```
 
 {{EmbedLiveSample("font-variant")}}
