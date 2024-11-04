@@ -9,7 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you understand how [flexbox and flex items](/en-US/docs/Learn/CSS/CSS_layout/Flexbox) behave. Below are four common design patterns that you might use flexbox to create. Your task is to build them using the starting points in the code blocks.
 
 > [!NOTE]
-> Click **"</> Play"** in the code blocks below to edit the examples in the MDN Playground or paste the code into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy and paste the code into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Task 1
@@ -20,7 +21,7 @@ Your final result should look like the image below:
 
 ![Flex items laid out as a row with space between them.](flex-task1.png)
 
-Try updating the code below to recreate the finished example:
+Try changing the CSS example below to recreate the styles:
 
 ```html live-sample___flexbox1
 <nav>
@@ -33,7 +34,7 @@ Try updating the code below to recreate the finished example:
 </nav>
 ```
 
-```css hidden live-sample___flexbox1
+```css live-sample___flexbox1
 body {
   font-family: sans-serif;
 }
@@ -43,7 +44,6 @@ nav ul {
   padding: 0;
   margin: 0;
 }
-
 nav a:link,
 nav a:visited {
   background-color: #4d7298;
@@ -54,15 +54,27 @@ nav a:visited {
   display: inline-block;
   text-decoration: none;
 }
-```
 
-```css live-sample___flexbox1
 nav ul {
-  /* Add some styles here: */
+  /* Add your solution here */
 }
 ```
 
 {{EmbedLiveSample("flexbox1", "", "200px")}}
+
+<details>
+<summary>Spoiler: (solution)</summary>
+
+You can apply `display: flex` and control spacing using the `justify-content` property:
+
+```css
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+```
+
+</details>
 
 ## Task 2
 
