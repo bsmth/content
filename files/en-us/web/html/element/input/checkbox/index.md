@@ -165,7 +165,112 @@ function updateDisplay() {
 }
 ```
 
-{{EmbedGHLiveSample("learning-area/html/forms/indeterminate-example/index.html", '100%', 200)}}
+```html live-sample___index
+<body>
+  <form>
+    <fieldset>
+      <legend>Complete the recipe</legend>
+      <div>
+        <input id="enchantment" name="enchantment" type="checkbox" />
+        <label for="enchantment"> Enchantment table </label>
+        <ul>
+          <li>
+            <input id="book" name="ingredient" type="checkbox" value="book" />
+            <label for="book"> Book </label>
+          </li>
+          <li>
+            <input
+              id="diamonds"
+              name="ingredient"
+              type="checkbox"
+              value="diamonds" />
+            <label for="diamonds"> Diamonds (x2) </label>
+          </li>
+          <li>
+            <input
+              id="obsidian"
+              name="ingredient"
+              type="checkbox"
+              value="obsidian" />
+            <label for="obsidian"> Obsidian (x4) </label>
+          </li>
+        </ul>
+      </div>
+    </fieldset>
+  </form>
+  <script>
+    const overall = document.querySelector("#enchantment");
+    const ingredients = document.querySelectorAll("ul input");
+
+    overall.addEventListener("click", (e) => {
+      e.preventDefault();
+    });
+
+    for (const ingredient of ingredients) {
+      ingredient.addEventListener("click", updateDisplay);
+    }
+
+    function updateDisplay() {
+      let checkedCount = 0;
+      for (const ingredient of ingredients) {
+        if (ingredient.checked) {
+          checkedCount++;
+        }
+      }
+
+      if (checkedCount === 0) {
+        overall.checked = false;
+        overall.indeterminate = false;
+      } else if (checkedCount === ingredients.length) {
+        overall.checked = true;
+        overall.indeterminate = false;
+      } else {
+        overall.checked = false;
+        overall.indeterminate = true;
+      }
+    }
+  </script>
+</body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+```js live-sample___index
+const overall = document.querySelector("#enchantment");
+const ingredients = document.querySelectorAll("ul input");
+
+overall.addEventListener("click", (e) => {
+  e.preventDefault();
+});
+
+for (const ingredient of ingredients) {
+  ingredient.addEventListener("click", updateDisplay);
+}
+
+function updateDisplay() {
+  let checkedCount = 0;
+  for (const ingredient of ingredients) {
+    if (ingredient.checked) {
+      checkedCount++;
+    }
+  }
+
+  if (checkedCount === 0) {
+    overall.checked = false;
+    overall.indeterminate = false;
+  } else if (checkedCount === ingredients.length) {
+    overall.checked = true;
+    overall.indeterminate = false;
+  } else {
+    overall.checked = false;
+    overall.indeterminate = true;
+  }
+}
+```
+
+{{EmbedLiveSample("index")}}
 
 ## Validation
 

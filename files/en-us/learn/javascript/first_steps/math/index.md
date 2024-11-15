@@ -404,12 +404,12 @@ If you try entering some of these values in a console, you'll see that they all 
 
 We'll look at how to code such logic when we look at conditional statements in a future article. For now, let's look at a quick example:
 
-```html
+```html live-sample___conditional
 <button>Start machine</button>
 <p>The machine is stopped.</p>
 ```
 
-```js
+```js live-sample___conditional
 const btn = document.querySelector("button");
 const txt = document.querySelector("p");
 
@@ -426,9 +426,7 @@ function updateBtn() {
 }
 ```
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/maths/conditional.html", '100%', 100)}}
-
-**[Open in new window](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/maths/conditional.html)**
+{{EmbedLiveSample("conditional")}}
 
 You can see the equality operator being used just inside the `updateBtn()` function. In this case, we are not testing if two mathematical expressions have the same value — we are testing whether the text content of a button contains a certain string — but it is still the same principle at work. If the button is currently saying "Start machine" when it is pressed, we change its label to "Stop machine", and update the label as appropriate. If the button is currently saying "Stop machine" when it is pressed, we swap the display back again.
 

@@ -91,7 +91,93 @@ input {
 
 The following live example shows you what they look like in your system — default on the left, and with the above CSS applied on the right ([find it here also](https://mdn.github.io/learning-area/html/forms/styling-examples/appearance-tester.html) if you want to test it on other systems).
 
-{{EmbedGHLiveSample("learning-area/html/forms/styling-examples/appearance-tester.html", '100%', 400)}}
+```html live-sample___appearance-tester
+<body>
+  <div>
+    <form>
+      <div>
+        <label for="search1"> search: </label>
+        <input id="search1" name="search1" type="search" />
+      </div>
+      <div>
+        <label for="text1"> text: </label>
+        <input id="text1" name="text1" type="text" />
+      </div>
+      <div>
+        <label for="date1"> date: </label>
+        <input id="date1" name="date1" type="datetime-local" />
+      </div>
+      <div>
+        <label for="radio1"> radio: </label>
+        <input id="radio1" name="radio1" type="radio" />
+      </div>
+      <div>
+        <label for="checkbox1"> checkbox: </label>
+        <input id="checkbox1" name="checkbox1" type="checkbox" />
+      </div>
+      <div>
+        <input type="submit" value="submit" />
+      </div>
+      <div>
+        <input type="button" value="button" />
+      </div>
+    </form>
+  </div>
+  <div class="appearance">
+    <form>
+      <div>
+        <label for="search2"> search: </label>
+        <input id="search2" name="search2" type="search" />
+      </div>
+      <div>
+        <label for="text2"> text: </label>
+        <input id="text2" name="text2" type="text" />
+      </div>
+      <div>
+        <label for="date2"> date: </label>
+        <input id="date2" name="date2" type="datetime-local" />
+      </div>
+      <div>
+        <label for="radio2"> radio: </label>
+        <input id="radio2" name="radio2" type="radio" />
+      </div>
+      <div>
+        <label for="checkbox2"> checkbox: </label>
+        <input id="checkbox2" name="checkbox2" type="checkbox" />
+      </div>
+      <div>
+        <input type="submit" value="submit" />
+      </div>
+      <div>
+        <input type="button" value="button" />
+      </div>
+    </form>
+  </div>
+</body>
+```
+
+```css live-sample___appearance-tester
+body {
+  margin: 20px auto;
+  max-width: 800px;
+  justify-content: space-around;
+}
+
+body,
+form > div {
+  display: flex;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+.appearance input {
+  appearance: none;
+}
+```
+
+{{EmbedLiveSample("appearance-tester")}}
 
 In most cases, the effect is to remove the stylized border, which makes CSS styling a bit easier, but isn't really essential. In a couple of cases — search and radio buttons/checkboxes, it becomes way more useful. We'll look at those now.
 
@@ -109,11 +195,109 @@ input[type="search"] {
 
 In the example below, you can see two identical styled search boxes. The right one has `appearance: none;` applied, and the left one doesn't. If you look at it in Safari on macOS you'll see that the left one isn't sized properly.
 
-{{EmbedGHLiveSample("learning-area/html/forms/styling-examples/search-appearance.html", '100%', 200)}}
+```html live-sample___search-appearance
+<body>
+  <div>
+    <form>
+      <div>
+        <label for="search1"> search: </label>
+        <input id="search1" name="search1" type="search" />
+      </div>
+    </form>
+  </div>
+  <div class="appearance">
+    <form>
+      <div>
+        <label for="search2"> search: </label>
+        <input id="search2" name="search2" type="search" />
+      </div>
+    </form>
+  </div>
+</body>
+```
+
+```css live-sample___search-appearance
+body,
+form > div {
+  display: flex;
+}
+
+body {
+  margin: 20px auto;
+  max-width: 800px;
+  justify-content: space-around;
+}
+
+form > div {
+  align-items: center;
+}
+
+input[type="search"] {
+  height: 32px;
+  padding: 0 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.appearance input[type="search"] {
+  appearance: none;
+}
+```
+
+{{EmbedLiveSample("search-appearance")}}
 
 Interestingly, setting border/background on the search field also fixes this problem. The following styled search doesn't have `appearance: none;` applied, but it doesn't suffer from the same problem in Safari as the previous example.
 
-{{EmbedGHLiveSample("learning-area/html/forms/styling-examples/styled-search.html", '100%', 200)}}
+```html live-sample___styled-search
+<body>
+  <div>
+    <form>
+      <div>
+        <label for="search2"> search: </label>
+        <input id="search2" name="search2" type="search" />
+      </div>
+    </form>
+  </div>
+</body>
+```
+
+```css live-sample___styled-search
+body,
+form > div {
+  display: flex;
+}
+
+body {
+  margin: 20px auto;
+  max-width: 800px;
+  justify-content: space-around;
+}
+
+form > div {
+  align-items: center;
+}
+
+input[type="search"] {
+  border: 2px solid black;
+  border-radius: 16px;
+  box-shadow: 1px 1px 1px red;
+  height: 32px;
+  padding: 0 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+input[type="search"]:hover,
+input[type="search"]:focus {
+  background: #eee;
+  box-shadow:
+    1px 1px 1px red,
+    inset 2px 2px 3px #666;
+}
+```
+
+{{EmbedLiveSample("styled-search")}}
 
 > [!NOTE]
 > You may have noticed that in the search field, the "x" delete icon, which appears when the value of the search is not null, disappears when the input loses focus in Edge and Chrome, but stays put in Safari. To remove via CSS, you can use `input[type="search"]:not(:focus, :active)::-webkit-search-cancel-button { display: none; }`.
@@ -236,7 +420,72 @@ You'll find out more about such pseudo-classes and more in the [next article](/e
 
 You can see the live result:
 
-{{EmbedGHLiveSample("learning-area/html/forms/styling-examples/checkboxes-styled.html", '100%', 200)}}
+```html live-sample___checkboxes-styled
+<body>
+  <form>
+    <fieldset>
+      <legend>Fruit preferences</legend>
+      <p>
+        <label>
+          <input name="fruit" type="checkbox" value="cherry" />
+          I like cherry
+        </label>
+      </p>
+      <p>
+        <label>
+          <input disabled="" name="fruit" type="checkbox" value="banana" />
+          I can't like banana
+        </label>
+      </p>
+      <p>
+        <label>
+          <input name="fruit" type="checkbox" value="strawberry" />
+          I like strawberry
+        </label>
+      </p>
+    </fieldset>
+  </form>
+</body>
+```
+
+```css live-sample___checkboxes-styled
+input[type="checkbox"] {
+  appearance: none;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  width: 1em;
+  height: 1em;
+  border: 1px solid gray;
+  /* Adjusts the position of the checkboxes on the text baseline */
+  vertical-align: -2px;
+  /* Set here so that Windows' High-Contrast Mode can override */
+  color: green;
+}
+
+input[type="checkbox"]::before {
+  content: "✔";
+  position: absolute;
+  font-size: 1.2em;
+  right: 0;
+  top: -0.3em;
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked::before {
+  /* Use `visibility` instead of `display` to avoid recalculating layout */
+  visibility: visible;
+}
+
+input[type="checkbox"]:disabled {
+  border-color: black;
+  background: #ddd;
+  color: gray;
+}
+```
+
+{{EmbedLiveSample("checkboxes-styled")}}
 
 We've also created a couple of other examples to give you more ideas:
 
@@ -255,7 +504,211 @@ If you are prepared to live with some differences in look and feel, you can get 
 
 Take the following example, which shows a number of the "ugly" form features in action:
 
-{{EmbedGHLiveSample("learning-area/html/forms/styling-examples/ugly-controls.html", '100%', 750)}}
+```html live-sample___ugly-controls
+<body>
+  <form>
+    <div>
+      <label for="select"> Select box: </label>
+      <div class="select-wrapper">
+        <select id="select" name="select">
+          <option>Banana</option>
+          <option>Cherry</option>
+          <option>Lemon</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <label for="myFruit"> "Favorite fruit?" datalist: </label>
+      <input id="myFruit" list="mySuggestion" name="myFruit" type="text" />
+      <datalist id="mySuggestion">
+        <option>Apple</option>
+        <option>Banana</option>
+        <option>Blackberry</option>
+        <option>Blueberry</option>
+        <option>Lemon</option>
+        <option>Lychee</option>
+        <option>Peach</option>
+        <option>Pear</option>
+      </datalist>
+    </div>
+    <div>
+      <label for="date1"> Datetime local: </label>
+      <input id="date1" name="date1" type="datetime-local" />
+    </div>
+    <div>
+      <label for="range"> Range: </label>
+      <input id="range" name="range" type="range" />
+    </div>
+    <div>
+      <label for="color"> Color: </label>
+      <input id="color" name="color" type="color" />
+    </div>
+    <div>
+      <label for="file"> File picker: </label>
+      <input id="file" multiple="" name="file" type="file" />
+      <ul id="file-list"></ul>
+    </div>
+    <div>
+      <label for="progress"> Progress: </label>
+      <progress id="progress" max="100" value="75">75/100</progress>
+    </div>
+    <div>
+      <label for="meter"> Meter: </label>
+      <meter
+        high="66"
+        id="meter"
+        low="33"
+        max="100"
+        min="0"
+        optimum="50"
+        value="75">
+        75
+      </meter>
+    </div>
+    <div>
+      <button>Submit?</button>
+    </div>
+  </form>
+  <script>
+    const fileInput = document.querySelector("#file");
+    const fileList = document.querySelector("#file-list");
+
+    fileInput.addEventListener("change", updateFileList);
+
+    function updateFileList() {
+      while (fileList.firstChild) {
+        fileList.removeChild(fileList.firstChild);
+      }
+
+      let curFiles = fileInput.files;
+
+      if (!(curFiles.length === 0)) {
+        for (let i = 0; i < curFiles.length; i++) {
+          const listItem = document.createElement("li");
+          listItem.textContent =
+            "File name: " +
+            curFiles[i].name +
+            "; file size " +
+            returnFileSize(curFiles[i].size) +
+            ".";
+          fileList.appendChild(listItem);
+        }
+      }
+    }
+
+    function returnFileSize(number) {
+      if (number < 1024) {
+        return number + "bytes";
+      } else if (number >= 1024 && number < 1048576) {
+        return (number / 1024).toFixed(1) + "KB";
+      } else if (number >= 1048576) {
+        return (number / 1048576).toFixed(1) + "MB";
+      }
+    }
+  </script>
+</body>
+```
+
+```css live-sample___ugly-controls
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input,
+select,
+progress,
+meter {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+select {
+  appearance: none;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  font-size: 1rem;
+  top: 6px;
+  right: 10px;
+  position: absolute;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="color"],
+select {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+```
+
+```js live-sample___ugly-controls
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+```
+
+{{EmbedLiveSample("ugly-controls")}}
 
 This example has the following CSS applied to it:
 
@@ -500,7 +953,153 @@ label[for="file"]:active {
 
 You can see the result of the above CSS styling in the below live example (see also [styled-file-picker.html](https://mdn.github.io/learning-area/html/forms/styling-examples/styled-file-picker.html) live, and the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/styling-examples/styled-file-picker.html)).
 
-{{EmbedGHLiveSample("learning-area/html/forms/styling-examples/styled-file-picker.html", '100%', 200)}}
+```html live-sample___styled-file-picker
+<body>
+  <form>
+    <div>
+      <label for="file"> Choose a file to upload </label>
+      <input id="file" multiple="" name="file" type="file" />
+      <ul id="file-list"></ul>
+    </div>
+    <div>
+      <button>Submit?</button>
+    </div>
+  </form>
+  <script>
+    const fileInput = document.querySelector("#file");
+    const fileList = document.querySelector("#file-list");
+
+    fileInput.addEventListener("change", updateFileList);
+
+    function updateFileList() {
+      while (fileList.firstChild) {
+        fileList.removeChild(fileList.firstChild);
+      }
+
+      let curFiles = fileInput.files;
+
+      if (!(curFiles.length === 0)) {
+        console.log("test");
+        for (let i = 0; i < curFiles.length; i++) {
+          const listItem = document.createElement("li");
+          listItem.textContent =
+            "File name: " +
+            curFiles[i].name +
+            "; file size " +
+            returnFileSize(curFiles[i].size) +
+            ".";
+          fileList.appendChild(listItem);
+        }
+      }
+    }
+
+    function returnFileSize(number) {
+      if (number < 1024) {
+        return number + "bytes";
+      } else if (number >= 1024 && number < 1048576) {
+        return (number / 1024).toFixed(1) + "KB";
+      } else if (number >= 1048576) {
+        return (number / 1048576).toFixed(1) + "MB";
+      }
+    }
+  </script>
+</body>
+```
+
+```css live-sample___styled-file-picker
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+```
+
+```js live-sample___styled-file-picker
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    console.log("test");
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+```
+
+{{EmbedLiveSample("styled-file-picker")}}
 
 ### Meters and progress bars
 

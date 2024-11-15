@@ -77,7 +77,126 @@ We set the `<span>`s to `position: relative` so that we can position the generat
 
 You can try it below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/pseudo-classes/valid-invalid.html", '100%', 430)}}
+```html live-sample___valid-invalid
+<body>
+  <form>
+    <fieldset>
+      <legend>Feedback form</legend>
+      <p>Required fields are labelled with "required".</p>
+      <div>
+        <label for="fname"> First name: </label>
+        <input id="fname" name="fname" required="" type="text" />
+        <span> </span>
+      </div>
+      <div>
+        <label for="lname"> Last name: </label>
+        <input id="lname" name="lname" required="" type="text" />
+        <span> </span>
+      </div>
+      <div>
+        <label for="email">
+          Email address (include if you want a response):
+        </label>
+        <input id="email" name="email" type="email" />
+        <span> </span>
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+```
+
+```css live-sample___valid-invalid
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eee;
+}
+
+input + span {
+  position: relative;
+}
+
+input:required + span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "required";
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  top: -26px;
+  left: -70px;
+}
+
+input + span::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+```
+
+{{EmbedLiveSample("valid-invalid")}}
 
 Notice how the required text inputs are invalid when empty, but valid when they have something filled in. The email input on the other hand is valid when empty, as it is not required, but invalid when it contains something that is not a proper email address.
 

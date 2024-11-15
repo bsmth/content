@@ -535,7 +535,100 @@ Now it's time to have a go yourself.
 
 Below you can see the timetable of a languages teacher. On Friday she has a new class teaching Dutch all day, but she also teaches German for a few periods on Tuesday and Thursdays. She wants to highlight the columns containing the days she is teaching.
 
-{{EmbedGHLiveSample("learning-area/html/tables/basic/timetable-fixed.html", '100%', 350)}}
+```html live-sample___timetable-fixed
+<body>
+  <h1>School timetable</h1>
+  <table>
+    <colgroup>
+      <col span="2" />
+      <col style="background-color:#97DB9A;" />
+      <col style="width:100px;" />
+      <col style="background-color:#97DB9A;" />
+      <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
+      <col span="2" style="width:100px;" />
+    </colgroup>
+    <tr>
+      <td></td>
+      <th>Mon</th>
+      <th>Tues</th>
+      <th>Wed</th>
+      <th>Thurs</th>
+      <th>Fri</th>
+      <th>Sat</th>
+      <th>Sun</th>
+    </tr>
+    <tr>
+      <th>1st period</th>
+      <td>English</td>
+      <td></td>
+      <td></td>
+      <td>German</td>
+      <td>Dutch</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2nd period</th>
+      <td>English</td>
+      <td>English</td>
+      <td></td>
+      <td>German</td>
+      <td>Dutch</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>3rd period</th>
+      <td></td>
+      <td>German</td>
+      <td></td>
+      <td>German</td>
+      <td>Dutch</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>4th period</th>
+      <td></td>
+      <td>English</td>
+      <td></td>
+      <td>English</td>
+      <td>Dutch</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</body>
+```
+
+```css live-sample___timetable-fixed
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+td {
+  text-align: center;
+}
+
+caption {
+  padding: 10px;
+}
+```
+
+{{EmbedLiveSample("timetable-fixed")}}
 
 Recreate the table by following the steps below.
 

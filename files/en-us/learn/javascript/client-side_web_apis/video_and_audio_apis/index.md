@@ -38,52 +38,58 @@ HTML comes with elements for embedding rich media in documents — {{htmlelement
 
 The {{htmlelement("video")}} and {{htmlelement("audio")}} elements allow us to embed video and audio into web pages. As we showed in [Video and audio content](/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content), a typical implementation looks like this:
 
-```html
+```css live-sample___multiple-video-formats
+video {
+  max-width: 100%;
+}
+```
+
+```html live-sample___multiple-video-formats
 <video controls>
-  <source src="rabbit320.mp4" type="video/mp4" />
-  <source src="rabbit320.webm" type="video/webm" />
+  <source
+    src="https://mdn.github.io/shared-assets/videos/flower.mp4"
+    type="video/mp4" />
+  <source
+    src="https://mdn.github.io/shared-assets/videos/flower.webm"
+    type="video/webm" />
   <p>
     Your browser doesn't support HTML video. Here is a
-    <a href="rabbit320.mp4">link to the video</a> instead.
+    <a href="https://mdn.github.io/shared-assets/videos/flower.mp4">
+      link to the video
+    </a>
+    instead.
   </p>
 </video>
 ```
 
 This creates a video player inside the browser like so:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/video-and-audio-content/multiple-video-formats.html", '100%', 380)}}
+{{EmbedLiveSample("multiple-video-formats", "", "430px")}}
 
-You can review what all the HTML features do in the article linked above; for our purposes here, the most interesting attribute is [`controls`](/en-US/docs/Web/HTML/Element/video#controls), which enables the default set of playback controls. If you don't specify this, you get no playback controls:
+You can review what all the HTML features do in the article linked above; for our purposes here, the most interesting attribute is [`controls`](/en-US/docs/Web/HTML/Element/video#controls), which enables the default set of playback controls. If you don't specify this, no playback controls are visible.
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/video-and-audio-content/multiple-video-formats-no-controls.html", '100%', 380)}}
+This is not as immediately useful for video playback, but it does have advantages. One issue with native browser controls is that they look different in each browser and aren't very keyboard-accessible.
 
-This is not as immediately useful for video playback, but it does have advantages. One big issue with the native browser controls is that they are different in each browser — not very good for cross-browser support! Another big issue is that the native controls in most browsers aren't very keyboard-accessible.
-
-You can solve both these problems by hiding the native controls (by removing the `controls` attribute), and programming your own with HTML, CSS, and JavaScript. In the next section, we'll look at the basic tools we have available to do this.
+You can work around these problems by hiding the native controls (by removing the `controls` attribute), and adding your own with HTML, CSS, and JavaScript.
+In the next section, we'll look at how to do this.
 
 ## The HTMLMediaElement API
 
 Part of the HTML spec, the {{domxref("HTMLMediaElement")}} API provides features to allow you to control video and audio players programmatically — for example {{domxref("HTMLMediaElement.play()")}}, {{domxref("HTMLMediaElement.pause()")}}, etc. This interface is available to both {{htmlelement("audio")}} and {{htmlelement("video")}} elements, as the features you'll want to implement are nearly identical. Let's go through an example, adding features as we go.
 
-Our finished example will look (and function) something like the following:
-
-{{EmbedGHLiveSample("learning-area/javascript/apis/video-audio/finished/", '100%', 360)}}
-
 ### Getting started
 
-To get started with this example, [download our media-player-start.zip](https://github.com/mdn/learning-area/blob/main/javascript/apis/video-audio/start/media-player-start.zip) and unzip it into a new directory on your hard drive. If you [downloaded our examples repo](https://github.com/mdn/learning-area), you'll find it in `javascript/apis/video-audio/start/`.
-
-At this point, if you load the HTML you should see a perfectly normal HTML video player, with the native controls rendered.
-
-#### Exploring the HTML
-
-Open the HTML index file. You'll see a number of features; the HTML is dominated by the video player and its controls:
+You can start with HTML with a video player and controls:
 
 ```html
 <div class="player">
   <video controls>
-    <source src="video/sintel-short.mp4" type="video/mp4" />
-    <source src="video/sintel-short.webm" type="video/webm" />
+    <source
+      src="https://mdn.github.io/shared-assets/videos/flower.mp4"
+      type="video/mp4" />
+    <source
+      src="https://mdn.github.io/shared-assets/videos/flower.webm"
+      type="video/webm" />
     <!-- fallback content here -->
   </video>
   <div class="controls">
@@ -105,11 +111,11 @@ Open the HTML index file. You'll see a number of features; the HTML is dominated
 
   - We have four {{htmlelement("button")}}s — play/pause, stop, rewind, and fast forward.
   - Each `<button>` has a `class` name, a `data-icon` attribute for defining what icon should be shown on each button (we'll show how this works in the below section), and an `aria-label` attribute to provide an understandable description of each button, since we're not providing a human-readable label inside the tags. The contents of `aria-label` attributes are read out by screen readers when their users focus on the elements that contain them.
-  - There is also a timer {{htmlelement("div")}}, which will report the elapsed time when the video is playing. Just for fun, we are providing two reporting mechanisms — a {{htmlelement("span")}} containing the elapsed time in minutes and seconds, and an extra `<div>` that we will use to create a horizontal indicator bar that gets longer as the time elapses. To get an idea of what the finished product will look like, [check out our finished version](https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/).
+  - There is also a timer {{htmlelement("div")}}, which will report the elapsed time when the video is playing. Just for fun, we are providing two reporting mechanisms — a {{htmlelement("span")}} containing the elapsed time in minutes and seconds, and an extra `<div>` that we will use to create a horizontal indicator bar that gets longer as the time elapses.
 
 #### Exploring the CSS
 
-Now open the CSS file and have a look inside. The CSS for the example is not too complicated, but we'll highlight the most interesting bits here. First of all, notice the `.controls` styling:
+For the CSS, we'll add some styles for the controls:
 
 ```css
 .controls {
@@ -144,8 +150,6 @@ Next, let's look at our button icons:
   font-family: "HeydingsControlsRegular";
   src: url("fonts/heydings_controls-webfont.eot");
   src:
-    url("fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
     url("fonts/heydings_controls-webfont.woff") format("woff"),
     url("fonts/heydings_controls-webfont.ttf") format("truetype");
   font-weight: normal;

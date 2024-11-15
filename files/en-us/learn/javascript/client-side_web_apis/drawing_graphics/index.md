@@ -45,11 +45,35 @@ The situation started to improve when browsers began to support the {{htmlelemen
 
 The below example shows a simple 2D canvas-based bouncing balls animation that we originally met in our [Introducing JavaScript objects](/en-US/docs/Learn/JavaScript/Objects/Object_building_practice) module:
 
-{{EmbedGHLiveSample("learning-area/javascript/oojs/bouncing-balls/index-finished.html", '100%', 500)}}
+```html live-sample___index-finished
+<body>
+  <h1>bouncing balls</h1>
+  <canvas> </canvas>
+  <script src="main-finished.js"></script>
+</body>
+```
+
+```css live-sample___index-finished
+No <style> content found
+```
+
+{{EmbedLiveSample("index-finished")}}
 
 Around 2006–2007, Mozilla started work on an experimental 3D canvas implementation. This became [WebGL](/en-US/docs/Web/API/WebGL_API), which gained traction among browser vendors, and was standardized around 2009–2010. WebGL allows you to create real 3D graphics inside your web browser; the below example shows a simple rotating WebGL cube:
 
-{{EmbedGHLiveSample("learning-area/javascript/apis/drawing-graphics/threejs-cube/index.html", '100%', 500)}}
+```html live-sample___index
+<body></body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+```js live-sample___index
+
+```
+
+{{EmbedLiveSample("index")}}
 
 This article will focus mainly on 2D canvas, as raw WebGL code is very complex. We will however show how to use a WebGL library to create a 3D scene more easily, and you can find a tutorial covering raw WebGL elsewhere — see [Getting started with WebGL](/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL).
 
@@ -194,7 +218,19 @@ So far we've looked at drawing filled rectangles, but you can also draw rectangl
 
 Now you should see that your white outline has become much thicker! That's it for now. At this point your example should look like this:
 
-{{EmbedGHLiveSample("learning-area/javascript/apis/drawing-graphics/getting-started/2_canvas_rectangles/index.html", '100%', 250)}}
+```html live-sample___index
+<body>
+  <canvas class="myCanvas">
+    <p>Add suitable fallback here.</p>
+  </canvas>
+</body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+{{EmbedLiveSample("index")}}
 
 > [!NOTE]
 > The finished code is available on GitHub as [2_canvas_rectangles](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/getting-started/2_canvas_rectangles).
@@ -306,7 +342,19 @@ Now let's look at how to draw a circle in canvas. This is accomplished using the
 
 That's it for now; your final example should look like this:
 
-{{EmbedGHLiveSample("learning-area/javascript/apis/drawing-graphics/getting-started/3_canvas_paths/index.html", '100%', 200)}}
+```html live-sample___index
+<body>
+  <canvas class="myCanvas">
+    <p>Add suitable fallback here.</p>
+  </canvas>
+</body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+{{EmbedLiveSample("index")}}
 
 > [!NOTE]
 > The finished code is available on GitHub as [3_canvas_paths](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/getting-started/3_canvas_paths).
@@ -346,7 +394,19 @@ canvas.setAttribute("aria-label", "Canvas text");
 
 Here we draw two lines of text, one outline and the other stroke. The final example should look like so:
 
-{{EmbedGHLiveSample("learning-area/javascript/apis/drawing-graphics/getting-started/4_canvas_text/index.html", '100%', 180)}}
+```html live-sample___index
+<body>
+  <canvas class="myCanvas">
+    <p>Add suitable fallback here.</p>
+  </canvas>
+</body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+{{EmbedLiveSample("index")}}
 
 > [!NOTE]
 > The finished code is available on GitHub as [4_canvas_text](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/getting-started/4_canvas_text).
@@ -398,7 +458,19 @@ It is possible to render external images onto your canvas. These can be simple i
 
 The final example should look like so:
 
-{{EmbedGHLiveSample("learning-area/javascript/apis/drawing-graphics/getting-started/5_canvas_images/index.html", '100%', 260)}}
+```html live-sample___index
+<body>
+  <canvas class="myCanvas">
+    <p>Add suitable fallback here.</p>
+  </canvas>
+</body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+{{EmbedLiveSample("index")}}
 
 > [!NOTE]
 > The finished code is available on GitHub as [5_canvas_images](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/getting-started/5_canvas_images).
@@ -471,7 +543,19 @@ Let's build a simple example.
 
 That's it! The final example should look like so:
 
-{{EmbedGHLiveSample("learning-area/javascript/apis/drawing-graphics/loops_animation/6_canvas_for_loop/index.html", '100%', 550)}}
+```html live-sample___index
+<body>
+  <canvas class="myCanvas">
+    <p>Add suitable fallback here.</p>
+  </canvas>
+</body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+{{EmbedLiveSample("index")}}
 
 At this point, we'd like to encourage you to play with the example and make it your own! For example:
 
@@ -636,7 +720,19 @@ Now let's create our own simple animation — we'll get a character from a certa
 
 That's it! The final example should look like so:
 
-{{EmbedGHLiveSample("learning-area/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation/index.html", '100%', 260)}}
+```html live-sample___index
+<body>
+  <canvas class="myCanvas">
+    <p>Add suitable fallback here.</p>
+  </canvas>
+</body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+{{EmbedLiveSample("index")}}
 
 > [!NOTE]
 > The finished code is available on GitHub as [7_canvas_walking_animation](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation).
@@ -647,7 +743,30 @@ As a final animation example, we'd like to show you a very simple drawing applic
 
 The example can be found on GitHub as [8_canvas_drawing_app](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/loops_animation/8_canvas_drawing_app), and you can play with it live below:
 
-{{EmbedGHLiveSample("learning-area/javascript/apis/drawing-graphics/loops_animation/8_canvas_drawing_app/index.html", '100%', 600)}}
+```html live-sample___index
+<body>
+  <div class="toolbar">
+    <input aria-label="select pen color" type="color" value="#ff0000" />
+    <input
+      aria-label="select pen size"
+      max="50"
+      min="2"
+      type="range"
+      value="30" />
+    <span class="output"> 30 </span>
+    <button>Clear canvas</button>
+  </div>
+  <canvas class="myCanvas">
+    <p>Add suitable fallback here.</p>
+  </canvas>
+</body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+{{EmbedLiveSample("index")}}
 
 Let's look at the most interesting parts. First of all, we keep track of the mouse's X and Y coordinates and whether it is being clicked or not with three variables: `curX`, `curY`, and `pressed`. When the mouse moves, we fire a function set as the `onmousemove` event handler, which captures the current X and Y values. We also use `onmousedown` and `onmouseup` event handlers to change the value of `pressed` to `true` when the mouse button is pressed, and back to `false` again when it is released.
 
@@ -818,7 +937,19 @@ Let's look at a simple example of how to create something with a WebGL library. 
 
 Let's have another quick look at what the finished product should look like:
 
-{{EmbedGHLiveSample("learning-area/javascript/apis/drawing-graphics/threejs-cube/index.html", '100%', 500)}}
+```html live-sample___index
+<body></body>
+```
+
+```css live-sample___index
+No <style> content found
+```
+
+```js live-sample___index
+
+```
+
+{{EmbedLiveSample("index")}}
 
 You can [find the finished code on GitHub](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/threejs-cube).
 
