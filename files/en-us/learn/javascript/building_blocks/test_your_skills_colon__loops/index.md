@@ -23,9 +23,28 @@ We haven't explicitly taught this yet in the course, but you'll have seen some e
 
 In our first looping task we want you to start by creating a simple loop that goes through all the items in the provided `myArray` and prints them out on the screen inside list items (i.e., [`<li>`](/en-US/docs/Web/HTML/Element/li) elements), which are appended to the provided `list`.
 
-> [!CALLOUT]
->
-> [Download the starting point for this task](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/tasks/loops/loops1-download.html) to work in your own editor or in an online editor.
+<details>
+<summary>Click here to show the solution</summary>
+
+In our first looping task we want you start by creating a simple `for...of` loop that goes through all the items in the provided `myArray` and prints them out on the screen inside list items, which are appended to the provided `list`.
+
+Note that using a `for()` loop would also be acceptable, as would a different loop structure such as `while()`.
+
+The finished code should look something like this:
+
+```js
+const myArray = ["tomatoes", "chick peas", "onions", "rice", "black beans"];
+
+const list = document.createElement("ul");
+
+for (let item of myArray) {
+  const listItem = document.createElement("li");
+  listItem.textContent = item;
+  list.appendChild(listItem);
+}
+```
+
+</details>
 
 ## Loops 2
 
@@ -41,9 +60,46 @@ You are given three variables to begin with:
 
 You should use a type of loop that you've not used in the previous task.
 
-> [!CALLOUT]
->
-> [Download the starting point for this task](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/tasks/loops/loops2-download.html) to work in your own editor or in an online editor.
+<details>
+<summary>Click here to show the solution</summary>
+
+In this next task, we want you to write a simple program that, given a name, searches an array of objects containing names and emails (`phonebook`) and, if it finds the name, outputs the name and phone number and then uses `break` to exit the loop.
+
+If the name is not found, it lets the user know.
+
+You should use a type of loop that you've not used in the previous task.
+
+The finished code should look something like this:
+
+```js
+const name = "Mustafa";
+const para = document.createElement("p");
+
+const phonebook = [
+  { name: "Chris", number: "1549" },
+  { name: "Li Kang", number: "9634" },
+  { name: "Anne", number: "9065" },
+  { name: "Francesca", number: "3001" },
+  { name: "Mustafa", number: "6888" },
+  { name: "Tina", number: "4312" },
+  { name: "Bert", number: "7780" },
+  { name: "Jada", number: "2282" },
+];
+
+// Add your code here
+for (let i = 0; i < phonebook.length; i++) {
+  if (phonebook[i].name === name) {
+    para.textContent = `${phonebook[i].name}'s number is ${phonebook[i].number}.`;
+    break;
+  }
+
+  if (i === phonebook.length - 1) {
+    para.textContent = "Name not found in the phonebook";
+  }
+}
+```
+
+</details>
 
 ## Loops 3
 
@@ -57,6 +113,24 @@ You need to use a loop to go through the numbers 2 to 500 backwards (1 is not co
 
 You should use a type of loop that you've not used in the previous two tasks.
 
-> [!CALLOUT]
->
-> [Download the starting point for this task](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/tasks/loops/loops3-download.html) to work in your own editor or in an online editor.
+<details>
+<summary>Click here to show the solution</summary>
+
+Finally, you'll need to use a loop to go through the numbers 1 to 500, backwards, and run the `isPrime()` function on them. For each number that isn't a prime number, use the `continue` keyword to move on to the next loop iteration. For each one that is a prime number, add it to the paragraph's `textContent`.
+
+You should use a type of loop that you've not used in the previous two tasks.
+
+The code should look something like this:
+
+```js
+do {
+  if (isPrime(i)) {
+    para.textContent += `${i} `;
+  }
+  i--;
+} while (i > 1);
+```
+
+(Answer provided by harryghgim; well done!)
+
+</details>

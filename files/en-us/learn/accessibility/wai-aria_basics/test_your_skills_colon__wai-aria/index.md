@@ -21,9 +21,24 @@ Try updating the live code below to recreate the finished example:
 
 {{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/aria/aria1.html", '100%', 700)}}
 
-> [!CALLOUT]
->
-> [Download the starting point for this task](https://github.com/mdn/learning-area/blob/main/accessibility/tasks/html-css/aria/aria1-download.html) to work in your own editor or in an online editor.
+<details>
+<summary>Click here to show the solution</summary>
+
+In our first ARIA task, we present you with a section of non-semantic markup, which is obviously meant to be a list. Assuming you are not able to change the elements used, how can you allow screenreader users to recognize this as a list?
+
+The `list` and `listitem` roles are what you need here. The updated markup would look like so:
+
+```html
+<div role="list">
+  <div role="listitem">Pig</div>
+  <div role="listitem">Gazelle</div>
+  <div role="listitem">Llama</div>
+  <div role="listitem">Majestic moose</div>
+  <div role="listitem">Hedgehog</div>
+</div>
+```
+
+</details>
 
 ## WAI-ARIA 2
 
@@ -36,9 +51,31 @@ Try updating the live code below to recreate the finished example:
 
 {{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/aria/aria2.html", '100%', 700)}}
 
-> [!CALLOUT]
->
-> [Download the starting point for this task](https://github.com/mdn/learning-area/blob/main/accessibility/tasks/html-css/aria/aria2-download.html) to work in your own editor or in an online editor.
+<details>
+<summary>Click here to show the solution</summary>
+
+In our second WAI-ARIA task, we present a simple search form, and we want you to add in a couple of WAI-ARIA features to improve its accessibility:
+
+1. How can you allow the search form to be called out as a separate landmark on the page by screenreaders, to make it easily findable?
+2. How can you give the search input a suitable label, without explicitly adding a visible text label to the DOM?
+
+Answers:
+
+1. Give the `<form>` element a `role="search"`. Most screenreaders will explicitly call this out as a search form, and/or include it as a separate landmark in the page's landmarks list.
+2. Include label text inside an `aria-label=""` attribute on the `<input>` element. This way it won't be visible on the page, but it will be read out by screenreaders.
+
+The finished HTML should look something like this:
+
+```html
+<form role="search">
+  <input
+    type="search"
+    name="search"
+    aria-label="Search for your favorite content on our site" />
+</form>
+```
+
+</details>
 
 ## WAI-ARIA 3
 

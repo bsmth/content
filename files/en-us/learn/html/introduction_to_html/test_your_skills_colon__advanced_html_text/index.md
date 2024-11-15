@@ -166,6 +166,41 @@ Try updating the live code below to recreate the finished example:
 
 {{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/advanced-text/advanced-text2.html", '100%', 700)}}
 
-> [!CALLOUT]
->
-> [Download the starting point for this task](https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/tasks/advanced-text/advanced-text2-download.html) to work in your own editor or in an online editor.
+<details>
+<summary>Click here to show the solution</summary>
+
+Our second task is designed to test knowledge of a number of different slightly-more-obscure semantic elements.
+
+The finished code should look like this:
+
+```html
+<h1>Advanced text semantics</h1>
+
+<p>Let's start with a quote:</p>
+
+<blockquote cite="https://developer.mozilla.org/en-US/docs/Learn/Accessibility">
+  <p>
+    <abbr>HTML</abbr>, Hypertext Markup Language is by default accessible, if
+    used correctly.
+  </p>
+</blockquote>
+
+<p>
+  <abbr>CSS</abbr>, Cascading Style Sheets, can also be used to make web pages
+  more, or less, accessible.
+</p>
+
+<p>
+  Chemical Formulae: H<sub>2</sub>O (Water), C<sub>2</sub>H<sub>6</sub>O
+  (Ethanol).
+</p>
+
+<p>
+  Dates:
+  <time datetime="2019-12-25">December 25<sup>th</sup> 2019</time> (Christmas
+  Day), <time datetime="2019-11-02">November 2<sup>nd</sup> 2019</time> (Día de
+  los Muertos).
+</p>
+```
+
+</details>

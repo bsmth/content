@@ -25,9 +25,24 @@ Try updating the live code below to recreate the finished example:
 
 {{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/images/images1.html", '100%', 700)}}
 
-> [!CALLOUT]
->
-> [Download the starting point for this task](https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/images1-download.html) to work in your own editor or in an online editor.
+<details>
+<summary>Click here to show the solution</summary>
+
+This task tests your ability to embed a simple image on the page, give it some alternative text, and give it some `width` and `height` attributes. Ideally the answer should look something like this:
+
+```html
+<h1>Basic image embed</h1>
+
+<img
+  src="images/blueberries.jpg"
+  alt="A pile of blueberries, small, round, blue berries"
+  width="615"
+  height="419" />
+```
+
+The filename and path must be correct for the image to show up. The `alt` text should describe the visual appearance of image for those that can't see it. Finally, the `width` and `height` attributes should contain the same values as the image's intrinsic width and height, so it displays at the correct size.
+
+</details>
 
 ## Task 2
 
@@ -37,9 +52,23 @@ Try updating the live code below to recreate the finished example:
 
 {{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/images/images2.html", '100%', 1000)}}
 
-> [!CALLOUT]
->
-> [Download the starting point for this task](https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/images2-download.html) to work in your own editor or in an online editor.
+<details>
+<summary>Click here to show the solution</summary>
+
+Here the student needs to add a `title` to the `<image>` element to create a tooltip that appears when moused over. The code would look something like this:
+
+```html
+<h1>Basic image title</h1>
+
+<img
+  src="larch.jpg"
+  alt="Several tall evergreen trees called larches"
+  title="Number 1 in Monty Python's How to recognise different trees from quite a long way away" />
+```
+
+Because screenreader support is unreliable and potentially unhelpful, information contained in the `title` attributes should be non-essential. Here were are just having a bit of fun.
+
+</details>
 
 ## Task 3
 
@@ -49,6 +78,26 @@ Try updating the live code below to recreate the finished example:
 
 {{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/images/images3.html", '100%', 1000)}}
 
-> [!CALLOUT]
->
-> [Download the starting point for this task](https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/images3-download.html) to work in your own editor or in an online editor.
+<details>
+<summary>Click here to show the solution</summary>
+
+In task 3 the student needs to create an image that is associated with a caption inside the HTML itself.
+
+The finished would probably look like this:
+
+```html
+<h1>Image and caption</h1>
+
+<figure>
+  <img
+    src="firefox.png"
+    alt="An abstract flaming fox wrapping around a blue sphere"
+    width="446"
+    height="460" />
+  <figcaption>The Firefox logo, newly abstracted for 2019!</figcaption>
+</figure>
+```
+
+Note that the caption should contain additional information, and not just repeat the image description found in the `alt` text.
+
+</details>
