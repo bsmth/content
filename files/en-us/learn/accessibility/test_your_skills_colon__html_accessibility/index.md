@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [HTML: A good basis for accessibility](/en-US/docs/Learn/Accessibility/HTML) article.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## HTML accessibility 1
@@ -21,7 +21,44 @@ We want you to update it use appropriate semantic HTML. You don't need to worry 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/html/html-a11y1.html", '100%', 1100)}}
+```html live-sample___html-a11y1
+<font size="7">Need help?</font> <br /><br />
+If you have any problems with our products, our support center can offer you all
+the help you need, whether you want:
+<br /><br />
+1. Advice choosing a new product
+<br />
+2. Tech support on an existing product
+<br />
+3. Refund and cancellation assistance
+<br /><br />
+<font size="5">Contact us now</font>
+<br /><br />
+Our help center contains live chat, email addresses, and phone numbers.
+<br /><br />
+<div class="button">Find Contact Details</div>
+<br />
+<font size="5">Find out answers</font>
+<br /><br />
+Our Forums section contains a large knowledge base of searchable previously
+asked questions, and you can always ask a new question if you can't find the
+answer you're looking for.
+<br /><br />
+<div class="button">Access Forums</div>
+```
+
+```css live-sample___html-a11y1
+.button {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  width: 170px;
+  padding: 10px;
+  text-align: center;
+}
+```
+
+{{EmbedLiveSample("html-a11y1")}}
 
 > [!CALLOUT]
 >
@@ -37,7 +74,39 @@ In the second task, you have a form containing three input fields. You need to:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/html/html-a11y2.html", '100%', 700)}}
+```html live-sample___html-a11y2
+<form>
+  <ul>
+    <li>
+      Name
+      <input name="name" type="text" />
+    </li>
+    <li>
+      Age
+      <input name="age" type="number" />
+    </li>
+    <li>
+      Email address
+      <input name="email" type="email" />
+    </li>
+  </ul>
+</form>
+```
+
+```css live-sample___html-a11y2
+form {
+  width: 400px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+```
+
+{{EmbedLiveSample("html-a11y2")}}
 
 > [!CALLOUT]
 >
@@ -53,7 +122,20 @@ In this task you are required to turn all the information links in the paragraph
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/html/html-a11y3.html", '100%', 700)}}
+```html live-sample___html-a11y3
+<p>
+  For more information about our activities, check out our fundraising page (<a
+    href="/fundraising"
+    >click here</a
+  >), education page (<a href="/education">click here</a>), sponsorship pack (<a
+    href="/resources/sponsorship.pdf"
+    >click here</a
+  >), and assessment sheets (<a href="/resources/assessments.docx">click here</a
+  >).
+</p>
+```
+
+{{EmbedLiveSample("html-a11y3")}}
 
 > [!CALLOUT]
 >
@@ -68,7 +150,39 @@ In our final HTML accessibility task, you are given a simple image gallery, whic
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/html/html-a11y4.html", '100%', 1100)}}
+```html live-sample___html-a11y4
+<header>
+  <img alt="A star that I use to decorate my page" src="images/star.png" />
+  <h1>Groovy images</h1>
+</header>
+<main>
+  <img src="images/teapot.jpg" />
+  <img src="images/football.jpg" />
+</main>
+```
+
+```css live-sample___html-a11y4
+.preview {
+  width: 400px;
+  margin: 0 auto;
+}
+
+main img {
+  display: block;
+  width: 250px;
+  margin: 20px auto;
+  box-shadow: 5px 5px 0 black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+```
+
+{{EmbedLiveSample("html-a11y4")}}
 
 > [!CALLOUT]
 >

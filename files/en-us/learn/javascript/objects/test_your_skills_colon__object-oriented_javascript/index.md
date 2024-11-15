@@ -29,7 +29,15 @@ We'd like you to:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/oojs/tasks/oojs/oojs1.html", '100%', 400)}}
+```js live-sample___oojs1
+class Shape {
+  name;
+  sides;
+  sideLength;
+}
+```
+
+{{EmbedLiveSample("oojs1")}}
 
 <details>
 <summary>Click here to show the solution</summary>

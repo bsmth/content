@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [Styling web forms](/en-US/docs/Learn/Forms/Styling_web_forms) article.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Styling basics 1

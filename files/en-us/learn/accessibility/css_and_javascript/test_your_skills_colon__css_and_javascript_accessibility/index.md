@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [CSS and JavaScript accessibility best practices](/en-US/docs/Learn/Accessibility/CSS_and_JavaScript) article.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## CSS accessibility 1
@@ -21,7 +21,26 @@ We'd like you to assume that the existing ruleset with the `a` selector is suppl
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/css/css-a11y1.html", '100%', 700)}}
+```html live-sample___css-a11y1
+<ul>
+  <li><a href="">Animals</a></li>
+  <li><a href="">Computers</a></li>
+  <li><a href="">Diversity and inclusion</a></li>
+  <li><a href="">Food</a></li>
+  <li><a href="">Medicine</a></li>
+  <li><a href="">Music</a></li>
+</ul>
+```
+
+```css live-sample___css-a11y1
+a {
+  text-decoration: none;
+  color: #666;
+  outline: none;
+}
+```
+
+{{EmbedLiveSample("css-a11y1")}}
 
 > [!CALLOUT]
 >
@@ -38,7 +57,58 @@ In this next task you are presented with a simple bit of content — just headin
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/css/css-a11y2.html", '100%', 700)}}
+```html live-sample___css-a11y2
+<main>
+  <h1>I am the eggman</h1>
+
+  <p>
+    Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm.
+    Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm
+    hempen halter furl.
+  </p>
+
+  <h2>They are the eggman</h2>
+
+  <p>
+    Swab barque interloper chantey doubloon starboard grog black jack gangway
+    rutters.
+  </p>
+
+  <h2>I am the walrus</h2>
+
+  <p>
+    Deadlights jack lad schooner scallywag dance the hempen jig carouser
+    broadside cable strike colors.
+  </p>
+</main>
+```
+
+```css live-sample___css-a11y2
+main {
+  padding: 20px;
+  background-color: red;
+}
+
+h1,
+h2,
+p {
+  color: #999;
+}
+
+h1 {
+  font-size: 2vw;
+}
+
+h2 {
+  font-size: 1.5vw;
+}
+
+p {
+  font-size: 1.2vw;
+}
+```
+
+{{EmbedLiveSample("css-a11y2")}}
 
 > [!CALLOUT]
 >

@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [Advanced form styling](/en-US/docs/Learn/Forms/Advanced_form_styling) and [UI pseudo-classes](/en-US/docs/Learn/Forms/UI_pseudo-classes) articles.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Advanced form styling 1
@@ -28,7 +28,41 @@ We've already provided you with a basic reset to build upon.
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/advanced-styling/advanced-styling1.html", '100%', 700)}}
+```html live-sample___advanced-styling1
+<form>
+  <input aria-label="Search our site" id="search" name="search" type="search" />
+  <div></div>
+</form>
+```
+
+```css live-sample___advanced-styling1
+body {
+  background-color: #fff;
+  color: #333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+```
+
+{{EmbedLiveSample("advanced-styling1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -118,7 +152,56 @@ We've already provided you with a basic reset to build upon.
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/advanced-styling/advanced-styling2.html", '100%', 700)}}
+```html live-sample___advanced-styling2
+<form>
+  <fieldset>
+    <legend>Who is your favorite pony?</legend>
+    <ul>
+      <li>
+        <label for="pinkie">Pinkie Pie</label>
+        <input id="pinkie" name="pony" type="radio" value="pinkie" />
+      </li>
+      <li>
+        <label for="rainbow">Rainbow Dash</label>
+        <input id="rainbow" name="pony" type="radio" value="rainbow" />
+      </li>
+      <li>
+        <label for="twilight">Twilight Sparkle</label>
+        <input id="twilight" name="pony" type="radio" value="twilight" />
+      </li>
+    </ul>
+  </fieldset>
+</form>
+```
+
+```css live-sample___advanced-styling2
+body {
+  background-color: #fff;
+  color: #333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+```
+
+{{EmbedLiveSample("advanced-styling2")}}
 
 <details>
 <summary>Click here to show the solution</summary>

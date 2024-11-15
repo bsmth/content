@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you understand how to [embed video and audio content in HTML](/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content), also using [object, iframe and other embedding technologies](/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies).
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Task 1
@@ -23,7 +23,19 @@ In this task, we want you to embed a simple audio file onto the page. You need t
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/media-embed/mediaembed1.html", '100%', 700)}}
+```html live-sample___mediaembed1
+<h1>Basic audio embed</h1>
+
+<audio></audio>
+```
+
+```css live-sample___mediaembed1
+audio {
+  border: 1px solid black;
+}
+```
+
+{{EmbedLiveSample("mediaembed1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -60,7 +72,19 @@ In this task, we want you to mark up a slightly more complex video player, with 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/media-embed/mediaembed2.html", '100%', 700)}}
+```html live-sample___mediaembed2
+<h1>Video embed</h1>
+
+<video></video>
+```
+
+```css live-sample___mediaembed2
+video {
+  border: 1px solid black;
+}
+```
+
+{{EmbedLiveSample("mediaembed2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -103,7 +127,17 @@ In this task, we want you to:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/media-embed/mediaembed3.html", '100%', 700)}}
+```html live-sample___mediaembed3
+<h1>Embedding</h1>
+
+<!-- PDF embed here  -->
+
+<hr />
+
+<!-- 3rd party embed here  -->
+```
+
+{{EmbedLiveSample("mediaembed3")}}
 
 <details>
 <summary>Click here to show the solution</summary>

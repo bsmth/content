@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [How to structure a web form](/en-US/docs/Learn/Forms/How_to_structure_a_web_form) article.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Form structure 1
@@ -21,7 +21,23 @@ In this task we want you to structure the provided form features:
 2. Mark up each text label with an appropriate element so that it is semantically associated with its respective form field.
 3. Add a suitable set of structural elements around the label/field pairs to separate them out.
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/form-structure/form-structure1.html", '100%', 700)}}
+```html live-sample___form-structure1
+<form>
+  Name:
+  <input id="name" name="name" type="text" />
+
+  Age:
+  <input id="age" name="age" type="number" />
+
+  Comment:
+  <input id="comment" name="comment" type="text" />
+
+  Email:
+  <input id="email" name="email" type="email" />
+</form>
+```
+
+{{EmbedLiveSample("form-structure1")}}
 
 <details>
 <summary>Click here to show the solution</summary>

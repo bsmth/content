@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [Other form controls](/en-US/docs/Learn/Forms/Other_form_controls) article.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Other controls 1
@@ -24,7 +24,26 @@ In our first "other controls" assessment, we'll get you to create a multi-line t
 
 To create the input, update the HTML code in the editor below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/other-controls/other-controls1.html", '100%', 500)}}
+```html live-sample___other-controls1
+<form>
+  <h2>Enter your comment</h2>
+  <ul>
+    <li>
+      <label for="name">Name:</label>
+      <input id="name" name="name" type="text" />
+    </li>
+    <li>
+      <label for="comment">Comment:</label>
+      <!-- add your input here  -->
+    </li>
+    <li>
+      <button>Submit comment</button>
+    </li>
+  </ul>
+</form>
+```
+
+{{EmbedLiveSample("other-controls1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -71,7 +90,22 @@ Now it's time to have a go at implementing a drop-down select menu, to allow a u
 
 To create the menu, update the HTML code in the editor below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/other-controls/other-controls2.html", '100%', 500)}}
+```html live-sample___other-controls2
+<form>
+  <ul>
+    <li>
+      <label for="food">Pick your favorite food:</label>
+
+      Salad Curry Pizza Fajitas Biscuits Crisps Fruit Breadsticks
+    </li>
+    <li>
+      <button>Submit choice</button>
+    </li>
+  </ul>
+</form>
+```
+
+{{EmbedLiveSample("other-controls2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -123,7 +157,22 @@ In our final task of this set, we start with much the same list of food choices.
 
 To create the input, update the HTML code in the editor below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/other-controls/other-controls3.html", '100%', 500)}}
+```html live-sample___other-controls3
+<form>
+  <ul>
+    <li>
+      <label for="food">Enter your favorite food:</label>
+
+      Salad Curry Pizza Fajitas Biscuits Crisps Fruit Breadsticks
+    </li>
+    <li>
+      <button>Submit choice</button>
+    </li>
+  </ul>
+</form>
+```
+
+{{EmbedLiveSample("other-controls3")}}
 
 <details>
 <summary>Click here to show the solution</summary>

@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you understand how to use [lesser-known HTML elements to mark up advanced semantic features](/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting).
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Task 1
@@ -75,7 +75,34 @@ dt {
 
 {{EmbedLiveSample("advanced-text1-finished")}}
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/advanced-text/advanced-text1.html", '100%', 700)}}
+```html live-sample___advanced-text1
+<h1>Advanced HTML Animals</h1>
+
+Llama Tall, woolly quadruped, pointy ears. Sometimes rideable, but grumpy and
+spits a lot. Big fan of list items. Anaconda A very large constrictor snake;
+travels rapidly by way of anchors to sneak up on his prey. Hippopotamus His
+description is bottomless.
+```
+
+```css live-sample___advanced-text1
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: purple;
+}
+
+dl {
+  color: gray;
+  margin: 0.5em 0;
+}
+
+dt {
+  font-weight: bold;
+  color: purple;
+}
+```
+
+{{EmbedLiveSample("advanced-text1")}}
 
 ## Task 2
 
@@ -164,7 +191,43 @@ time {
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/advanced-text/advanced-text2.html", '100%', 700)}}
+```html live-sample___advanced-text2
+<h1>Advanced text semantics</h1>
+
+<p>Let's start with a quote:</p>
+
+<p>
+  HTML, Hypertext Markup Language is by default accessible, if used correctly.
+</p>
+
+<p>CSS can also be used to make web pages more, or less, accessible.</p>
+
+<p>Chemical Formulae: H2O (Water), C2H6O (Ethanol).</p>
+
+<p>
+  Dates: December 25th 2019 (Christmas Day), November 2nd 2019 (Día de los
+  Muertos).
+</p>
+```
+
+```css live-sample___advanced-text2
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: purple;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+abbr,
+time {
+  color: green;
+}
+```
+
+{{EmbedLiveSample("advanced-text2")}}
 
 <details>
 <summary>Click here to show the solution</summary>

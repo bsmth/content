@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you understand how to [mark up text in HTML](/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals) to give it structure and meaning.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Task 1
@@ -57,7 +57,26 @@ p {
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/basic-text/basic-text1.html", '100%', 700)}}
+```html live-sample___basic-text1
+Basic HTML Animals This is the first paragraph in our page. It introduces our
+animals. The Llama Our Llama is a big fan of list items. When she spies a patch
+of them on a web page, she will eat them like sweets, licking her lips as she
+goes. The Anaconda The crafty anaconda likes to slither around the page,
+travelling rapidly by way of anchors to sneak up on his prey.
+```
+
+```css live-sample___basic-text1
+h1,
+h2 {
+  color: purple;
+}
+
+p {
+  color: gray;
+}
+```
+
+{{EmbedLiveSample("basic-text1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -142,7 +161,36 @@ ul {
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/basic-text/basic-text2.html", '100%', 700)}}
+```html live-sample___basic-text2
+<h1>Looking at lists</h1>
+
+<p>Turn the following list of my favorite vegetables into an unordered list.</p>
+
+Cucumber Broccoli Asparagus Pepper
+
+<p>Turn the following directions into an ordered list.</p>
+
+First knock on the door When prompted, say the magic word Wait for at least 5
+seconds Turn the handle and push
+```
+
+```css live-sample___basic-text2
+ul {
+  border: 2px solid orange;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ol,
+ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+```
+
+{{EmbedLiveSample("basic-text2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -221,7 +269,27 @@ em {
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/basic-text/basic-text3.html", '100%', 700)}}
+```html live-sample___basic-text3
+<h1>Emphasis and importance</h1>
+
+<p>
+  There are two things I care about — music and friends. Someday I might be able
+  to get my friends interested in each other, and my music!
+</p>
+```
+
+```css live-sample___basic-text3
+h1,
+strong {
+  color: purple;
+}
+
+em {
+  color: gray;
+}
+```
+
+{{EmbedLiveSample("basic-text3")}}
 
 <details>
 <summary>Click here to show the solution</summary>

@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you understand how to [implement hyperlinks in HTML](/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks).
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Task 1
@@ -27,7 +27,27 @@ In this task, we want you to help fill in the links on our Whales information pa
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/links/links1.html", '100%', 700)}}
+```html live-sample___links1
+<h1>Information on Whales</h1>
+
+<p>
+  For more information on our conservation activities and which Whales we study,
+  see our <a target="_blank">Whales page</a>.
+</p>
+
+<p>
+  If you want to ask our team more questions, feel free to
+  <a target="_blank">email us</a>.
+</p>
+```
+
+```css live-sample___links1
+p {
+  color: gray;
+}
+```
+
+{{EmbedLiveSample("links1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -74,7 +94,39 @@ In this task, we want you to fill in the four links so that they link to the app
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/links/links2.html", '100%', 800)}}
+```html live-sample___links2
+<h1>List path tests</h1>
+
+<ul>
+  <li><a target="_blank">Link me to the blue whale image</a></li>
+  <li><a target="_blank">Link me to the narwhal image</a></li>
+  <li><a target="_blank">Link me to Google image search</a></li>
+  <li><a>Link me to the paragraph at the bottom of the page</a></li>
+</ul>
+
+<div></div>
+
+<p id="bottom">The bottom of the page!</p>
+```
+
+```css live-sample___links2
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: purple;
+}
+
+li {
+  color: gray;
+  margin: 0.5em 0;
+}
+
+div {
+  height: 600px;
+}
+```
+
+{{EmbedLiveSample("links2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -122,7 +174,31 @@ The following links link to an info page about Narwhals, a support email address
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/links/links3.html", '100%', 700)}}
+```html live-sample___links3
+<p>
+  We do lots of work with Narwhals. To find out more about this work,
+  <a href="narwhals.html" target="_blank">click here</a>.
+</p>
+
+<p>
+  You can email our support team if you have any more questions —
+  <a href="mailto:whales@example.com">click here</a> to do so.
+</p>
+
+<p>
+  You can also <a href="factfile.pdf" target="_blank">click here</a> to download
+  our factfile, which contains lots more information, including an FAQ.
+</p>
+```
+
+```css live-sample___links3
+p {
+  color: gray;
+  margin: 0.5em 0;
+}
+```
+
+{{EmbedLiveSample("links3")}}
 
 <details>
 <summary>Click here to show the solution</summary>

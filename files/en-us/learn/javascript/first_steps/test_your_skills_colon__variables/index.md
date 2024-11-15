@@ -24,7 +24,21 @@ In this task we want you to:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/variables/variables1.html", '100%', 400)}}
+```js live-sample___variables1
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+const para1 = document.createElement("p");
+para1.textContent = myName;
+const para2 = document.createElement("p");
+para2.textContent = myAge;
+section.appendChild(para1);
+section.appendChild(para2);
+```
+
+{{EmbedLiveSample("variables1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -49,7 +63,20 @@ In this task you need to add a new line to correct the value stored in the exist
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/variables/variables2.html", '100%', 400)}}
+```js live-sample___variables2
+// Add your code here
+
+let myName = "Paul";
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+const para = document.createElement("p");
+para.textContent = myName;
+section.appendChild(para);
+```
+
+{{EmbedLiveSample("variables2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -71,7 +98,26 @@ The final task for now — in this case you are provided with some existing code
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/variables/variables3.html", '100%', 400)}}
+```js live-sample___variables3
+// Add your code here
+
+const myName = "Default";
+myName = "Chris";
+
+let myAge = "42";
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+const para1 = document.createElement("p");
+const para2 = document.createElement("p");
+para1.textContent = myName;
+para2.textContent = `In 20 years, I will be ${myAge + 20}`;
+section.appendChild(para1);
+section.appendChild(para2);
+```
+
+{{EmbedLiveSample("variables3")}}
 
 <details>
 <summary>Click here to show the solution</summary>

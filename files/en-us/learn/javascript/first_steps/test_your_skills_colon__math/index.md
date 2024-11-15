@@ -30,7 +30,32 @@ Try updating the live code below to recreate the finished example by following t
 
 To pass this test, `finalResult` should have a value of `48` and `evenOddResult` should have a value of `0`.
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/math/math1.html", '100%', 400)}}
+```js live-sample___math1
+let finalResult;
+
+let evenOddResult;
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+const para1 = document.createElement("p");
+const finalResultCheck =
+  finalResult === 48 ? `Yes, well done!` : `No, it is ${finalResult}`;
+para1.textContent = `Is the finalResult 48? ${finalResultCheck}`;
+const para2 = document.createElement("p");
+const evenOddResultCheck =
+  evenOddResult === 0
+    ? "The final result is even!"
+    : "The final result is odd. Hrm.";
+para2.textContent = evenOddResultCheck;
+
+section.appendChild(para1);
+section.appendChild(para2);
+```
+
+{{EmbedLiveSample("math1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -72,7 +97,30 @@ Try updating the live code below to recreate the finished example by following t
 
 To pass this test, `finalNumber` should have a result of `4633.33`.
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/math/math2.html", '100%', 400)}}
+```js live-sample___math2
+// Final result should be 4633.33
+// Add/update your code here
+
+let result = 7 + 13 / 9 + 7;
+let result2 = (100 / 2) * 6;
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+const para1 = document.createElement("p");
+para1.textContent = `Your finalResult is ${finalResult}`;
+const para2 = document.createElement("p");
+const finalNumberCheck =
+  typeof finalNumber === "number"
+    ? "finalNumber is a number type. Well done!"
+    : `Ooops! finalNumber is not a number.`;
+para2.textContent = finalNumberCheck;
+
+section.appendChild(para1);
+section.appendChild(para2);
+```
+
+{{EmbedLiveSample("math2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -107,7 +155,47 @@ There are three groups, each consisting of a statement and two variables.
 For each one, write a test that proves or disproves the statement made.
 Store the results of those tests in variables called `weightComparison`, `heightComparison`, and `pwdMatch`, respectively.
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/math/math3.html", '100%', 550)}}
+```js live-sample___math3
+// Statement 1: The elephant weighs less than the mouse
+const eleWeight = 1000;
+const mouseWeight = 2;
+
+// Statement 2: The Ostrich is taller than the duck
+const ostrichHeight = 2;
+const duckHeight = 0.3;
+
+// Statement 3: The two passwords match
+const pwd1 = "stromboli";
+const pwd2 = "stROmBoLi";
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+const para1 = document.createElement("p");
+const para2 = document.createElement("p");
+const para3 = document.createElement("p");
+
+const weightTest = weightComparison
+  ? "True — elephants weigh less than mice!?"
+  : "False — of course an elephant is heavier than a mouse!";
+const heightTest = heightComparison
+  ? "True — an ostrich is indeed taller than a duck!"
+  : "False — apparently a duck is taller than an ostrich!?";
+const pwdTest = pwdMatch
+  ? "True — the passwords match."
+  : "False — the passwords do not match; please check them";
+
+para1.textContent = weightTest;
+section.appendChild(para1);
+para2.textContent = heightTest;
+section.appendChild(para2);
+para3.textContent = pwdTest;
+section.appendChild(para3);
+```
+
+{{EmbedLiveSample("math3")}}
 
 <details>
 <summary>Click here to show the solution</summary>

@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [WAI-ARIA basics](/en-US/docs/Learn/Accessibility/WAI-ARIA_basics) article.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## WAI-ARIA 1
@@ -19,7 +19,37 @@ In our first ARIA task, we present you with a section of non-semantic markup, wh
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/aria/aria1.html", '100%', 700)}}
+```html live-sample___aria1
+<p>My favorite animals:</p>
+
+<div>
+  <div>Pig</div>
+  <div>Gazelle</div>
+  <div>Llama</div>
+  <div>Majestic moose</div>
+  <div>Hedgehog</div>
+</div>
+```
+
+```css live-sample___aria1
+div > div {
+  padding-left: 20px;
+  position: relative;
+}
+
+div > div::before {
+  content: " ";
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+```
+
+{{EmbedLiveSample("aria1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -49,7 +79,13 @@ In our second WAI-ARIA task, we present a simple search form, and we want you to
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/accessibility/tasks/html-css/aria/aria2.html", '100%', 700)}}
+```html live-sample___aria2
+<form>
+  <input name="search" type="search" />
+</form>
+```
+
+{{EmbedLiveSample("aria2")}}
 
 <details>
 <summary>Click here to show the solution</summary>

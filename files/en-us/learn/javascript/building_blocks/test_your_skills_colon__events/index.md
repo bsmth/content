@@ -28,7 +28,13 @@ The HTML should not be changed; just the JavaScript.
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/events/events1.html", '100%', 400)}}
+```js live-sample___events1
+const btn = document.querySelector(".off");
+
+// Add your code here
+```
+
+{{EmbedLiveSample("events1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -65,7 +71,30 @@ Now we'll look at keyboard events. To pass this assessment you need to build an 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/events/events2.html", '100%', 650)}}
+```js live-sample___events2
+const canvas = document.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+
+function drawCircle(x, y, size) {
+  ctx.fillStyle = "white";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  ctx.beginPath();
+  ctx.fillStyle = "black";
+  ctx.arc(x, y, size, 0, 2 * Math.PI);
+  ctx.fill();
+}
+
+let x = 50;
+let y = 50;
+const size = 30;
+
+drawCircle(x, y, size);
+
+// Add your code here
+```
+
+{{EmbedLiveSample("events2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -126,7 +155,13 @@ We want you to solve this without looping through all the buttons and giving eac
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/events/events3.html", '100%', 600)}}
+```js live-sample___events3
+const buttonBar = document.querySelector(".button-bar");
+
+// Add your code here
+```
+
+{{EmbedLiveSample("events3")}}
 
 <details>
 <summary>Click here to show the solution</summary>

@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [The HTML5 input types](/en-US/docs/Learn/Forms/HTML5_input_types) article.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## HTML controls 1
@@ -24,7 +24,30 @@ First, let's explore some input types. Create appropriate inputs for a user to u
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/html5-controls/html5-controls1.html", '100%', 700)}}
+```html live-sample___html5-controls1
+<form>
+  <h2>Edit your preferences</h2>
+  <ul>
+    <li>
+      <label for="email">Email</label>
+    </li>
+    <li>
+      <label for="website">Website</label>
+    </li>
+    <li>
+      <label for="phone">Phone number</label>
+    </li>
+    <li>
+      <label for="fave-color">Favorite color</label>
+    </li>
+    <li>
+      <button>Update preferences</button>
+    </li>
+  </ul>
+</form>
+```
+
+{{EmbedLiveSample("html5-controls1")}}
 
 > [!CALLOUT]
 >
@@ -40,7 +63,20 @@ Next, we want you to implement a slider control to allow the user to choose a ma
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/html5-controls/html5-controls2.html", '100%', 700)}}
+```html live-sample___html5-controls2
+<form>
+  <ul>
+    <li>
+      <label for="max-invite">Select maximum number of invitations</label>
+    </li>
+    <li>
+      <button>Submit</button>
+    </li>
+  </ul>
+</form>
+```
+
+{{EmbedLiveSample("html5-controls2")}}
 
 > [!CALLOUT]
 >

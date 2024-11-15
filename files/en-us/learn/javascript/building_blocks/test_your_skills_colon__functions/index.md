@@ -26,7 +26,29 @@ For the first task, you have to create a simple function — `chooseName()` — 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/functions/functions1.html", '100%', 400)}}
+```js live-sample___functions1
+const names = [
+  "Chris",
+  "Li Kang",
+  "Anne",
+  "Francesca",
+  "Mustafa",
+  "Tina",
+  "Bert",
+  "Jada",
+];
+const para = document.createElement("p");
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+
+section.appendChild(para);
+```
+
+{{EmbedLiveSample("functions1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -73,7 +95,20 @@ You'll want to clear the canvas before drawing, so that when the code is updated
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/functions/functions2.html", '100%', 700)}}
+```js live-sample___functions2
+const canvas = document.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+
+const x = 50;
+const y = 60;
+const width = 100;
+const height = 75;
+const color = "blue";
+
+// Add your code here
+```
+
+{{EmbedLiveSample("functions2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -116,7 +151,29 @@ In this task, you return to the problem posed in Task 1, with the aim of improvi
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/functions/functions3.html", '100%', 400)}}
+```js live-sample___functions3
+const names = [
+  "Chris",
+  "Li Kang",
+  "Anne",
+  "Francesca",
+  "Mustafa",
+  "Tina",
+  "Bert",
+  "Jada",
+];
+const para = document.createElement("p");
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+
+section.appendChild(para);
+```
+
+{{EmbedLiveSample("functions3")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -161,7 +218,34 @@ In this task, we have an array of names, and we're using {{jsxref("Array.filter(
 
 We'd like you to change this into an arrow function. See how compact you can make it.
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/functions/functions4.html", '100%', 400)}}
+```js live-sample___functions4
+const names = [
+  "Chris",
+  "Li Kang",
+  "Anne",
+  "Francesca",
+  "Mustafa",
+  "Tina",
+  "Bert",
+  "Jada",
+];
+const para = document.createElement("p");
+
+function isShort(name) {
+  return name.length < 5;
+}
+
+const shortNames = names.filter(isShort);
+para.textContent = shortNames;
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+
+section.appendChild(para);
+```
+
+{{EmbedLiveSample("functions4")}}
 
 <details>
 <summary>Click here to show the solution</summary>

@@ -9,8 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you understand [images and how to embed them in HTML](/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML).
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## Task 1
@@ -23,7 +23,18 @@ In this task, we want you to embed a simple image of some Blueberries into the p
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/images/images1.html", '100%', 700)}}
+```html live-sample___images1
+<h1>Basic image embed</h1>
+<img />
+```
+
+```css live-sample___images1
+img {
+  border: 1px solid black;
+}
+```
+
+{{EmbedLiveSample("images1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -50,7 +61,20 @@ In this task, you already have a full-featured image, but we'd like you to add a
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/images/images2.html", '100%', 1000)}}
+```html live-sample___images2
+<h1>Basic image title</h1>
+
+<img alt="Several tall evergreen trees called larches" src="larch.jpg" />
+```
+
+```css live-sample___images2
+img {
+  border: 1px solid black;
+  max-width: 100%;
+}
+```
+
+{{EmbedLiveSample("images2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -76,7 +100,18 @@ In this task, you are provided with both a full-featured image and some caption 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/images/images3.html", '100%', 1000)}}
+```html live-sample___images3
+<h1>Image and caption</h1>
+
+<img
+  alt="An abstract flaming fox wrapping around a blue sphere"
+  height="460"
+  src="firefox.png"
+  width="446" />
+The Firefox logo, newly abstracted for 2019!
+```
+
+{{EmbedLiveSample("images3")}}
 
 <details>
 <summary>Click here to show the solution</summary>

@@ -24,7 +24,31 @@ In this task you are provided with an object literal, and your tasks are to
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/oojs/tasks/object-basics/object-basics1.html", '100%', 400)}}
+```js live-sample___object-basics1
+const cat = {
+  name: "Bertie",
+  breed: "Cymric",
+  color: "white",
+  greeting: function () {
+    console.log("Meow!");
+  },
+};
+
+// Put your code here
+
+// Don't edit the code below here
+
+let para1 = document.createElement("p");
+let para2 = document.createElement("p");
+
+para1.textContent = `The cat's name is ${catName}.`;
+para2.textContent = `The cat's color is ${cat.color}.`;
+
+section.appendChild(para1);
+section.appendChild(para2);
+```
+
+{{EmbedLiveSample("object-basics1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -75,7 +99,19 @@ Once you've done this, you should then write a string to the variable `bandInfo`
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/oojs/tasks/object-basics/object-basics2.html", '100%', 400)}}
+```js live-sample___object-basics2
+let bandInfo;
+
+// Put your code here
+
+// Don't edit the code below here
+
+let para1 = document.createElement("p");
+para1.textContent = bandInfo;
+section.appendChild(para1);
+```
+
+{{EmbedLiveSample("object-basics2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -143,7 +179,18 @@ Call both `greeting()` methods to check that they log appropriate greetings to t
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/oojs/tasks/object-basics/object-basics3.html", '100%', 400)}}
+```js live-sample___object-basics3
+const cat = {
+  name: "Bertie",
+  breed: "Cymric",
+  color: "white",
+  greeting: function () {
+    console.log("Meow!");
+  },
+};
+```
+
+{{EmbedLiveSample("object-basics3")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -189,7 +236,30 @@ In this task we want you to improve the code so `greeting()` is only defined onc
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/oojs/tasks/object-basics/object-basics4.html", '100%', 400)}}
+```js live-sample___object-basics4
+const cat = {
+  name: "Bertie",
+  breed: "Cymric",
+  color: "white",
+  greeting: function () {
+    console.log(`Hello, said ${this.name} the ${this.breed}.`);
+  },
+};
+
+const cat2 = {
+  name: "Elfie",
+  breed: "Aphrodite Giant",
+  color: "ginger",
+  greeting: function () {
+    console.log(`Hello, said ${this.name} the ${this.breed}.`);
+  },
+};
+
+cat.greeting();
+cat2.greeting();
+```
+
+{{EmbedLiveSample("object-basics4")}}
 
 <details>
 <summary>Click here to show the solution</summary>

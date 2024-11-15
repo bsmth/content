@@ -9,10 +9,9 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [Handling text — strings in JavaScript](/en-US/docs/Learn/JavaScript/First_steps/Strings) and [Useful string methods](/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods) articles.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
-
 > [!NOTE]
 > In the examples below, if there is an error in your code it will be outputted into the results panel on the page, to help you try to figure out the answer (or into the browser's JavaScript console, in the case of the downloadable version).
 
@@ -27,7 +26,21 @@ You'll find that you get an error at this point. Can you fix the problem with `q
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/strings/strings1.html", '100%', 400)}}
+```js live-sample___strings1
+// Add your code here
+
+const quoteStart = 'Don't judge each day by the harvest you reap ';
+
+// Don't edit the code below here!
+
+section.innerHTML = ' ';
+const para1 = document.createElement('p');
+para1.textContent = finalQuote;
+
+section.appendChild(para1);
+```
+
+{{EmbedLiveSample("strings1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -59,7 +72,25 @@ In this task you are provided with two variables, `quote` and `substring`, which
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/strings/strings2.html", '100%', 400)}}
+```js live-sample___strings2
+const quote = "I do not like green eggs and ham. I do not like them, Sam-I-Am.";
+const substring = "green eggs and ham";
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+const para1 = document.createElement("p");
+para1.textContent = `The quote is ${quoteLength} characters long.`;
+const para2 = document.createElement("p");
+para2.textContent = revisedQuote;
+
+section.appendChild(para1);
+section.appendChild(para2);
+```
+
+{{EmbedLiveSample("strings2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -93,7 +124,24 @@ In the next string task, you are given the same quote that you ended up with in 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/strings/strings3.html", '100%', 400)}}
+```js live-sample___strings3
+const quote = "I dO nOT lIke gREen eGgS anD HAM";
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+const para1 = document.createElement("p");
+para1.textContent = fixedQuote;
+const para2 = document.createElement("p");
+para2.textContent = finalQuote;
+
+section.appendChild(para1);
+section.appendChild(para2);
+```
+
+{{EmbedLiveSample("strings3")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -133,7 +181,25 @@ In the final string task, we have given you the name of a theorem, two numeric v
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/strings/strings4.html", '100%', 400)}}
+```js live-sample___strings4
+const theorem = "Pythagorean theorem";
+
+const a = 5;
+const b = 8;
+
+const myString =
+  "Using *, we can work out that that if the two shortest sides of a right-angled triangle have lengths of * and *, the length of the hypotenuse is *.";
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+const para1 = document.createElement("p");
+para1.textContent = myString;
+
+section.appendChild(para1);
+```
+
+{{EmbedLiveSample("strings4")}}
 
 <details>
 <summary>Click here to show the solution</summary>

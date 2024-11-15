@@ -27,7 +27,22 @@ To finish off, you should then add another test that checks whether `season` con
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/conditionals/conditionals1.html", '100%', 400)}}
+```js live-sample___conditionals1
+let season = "summer";
+let response;
+
+// Add your code here
+
+// Don't edit the code below here!
+
+const section = document.querySelector(".preview");
+section.innerHTML = " ";
+let para1 = document.createElement("p");
+para1.textContent = response;
+section.appendChild(para1);
+```
+
+{{EmbedLiveSample("conditionals1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -76,7 +91,27 @@ Inside the first `if...else`, you need to nest another `if...else` that puts app
 Try updating the live code below to recreate the finished example. After you've entered your code, try changing `machineActive` to `true`, to see if it works.
 Please note that, for the scope of this exercise, the `Your score is __` statement will remain on the screen regardless of the `machineActive`'s value.
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/conditionals/conditionals2.html", '100%', 400)}}
+```js live-sample___conditionals2
+let response;
+let score = 75;
+let machineActive = false;
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+let para1 = document.createElement("p");
+let para2 = document.createElement("p");
+
+para1.textContent = `Your score is ${score}`;
+para2.textContent = response;
+
+section.appendChild(para1);
+section.appendChild(para2);
+```
+
+{{EmbedLiveSample("conditionals2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
@@ -140,7 +175,29 @@ If the machine is on, we also want a second conditional to run that checks wheth
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/building-blocks/tasks/conditionals/conditionals3.html", '100%', 400)}}
+```js live-sample___conditionals3
+let machineActive = true;
+let pwd = "cheese";
+
+let machineResult;
+let pwdResult;
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+let para1 = document.createElement("p");
+let para2 = document.createElement("p");
+
+para1.textContent = machineResult;
+para2.textContent = pwdResult;
+
+section.appendChild(para1);
+section.appendChild(para2);
+```
+
+{{EmbedLiveSample("conditionals3")}}
 
 <details>
 <summary>Click here to show the solution</summary>
