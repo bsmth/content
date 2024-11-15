@@ -673,9 +673,7 @@ form p {
 
 This gives us the following result:
 
-{{ EmbedLiveSample('Table_layout', '100%', '200') }}
-
-You can also see this example live at [css-tables-example.html](https://mdn.github.io/learning-area/css/styling-boxes/box-model-recap/css-tables-example.html) (see the [source code](https://github.com/mdn/learning-area/blob/main/css/styling-boxes/box-model-recap/css-tables-example.html) too.)
+{{EmbedLiveSample("Table_layout", "", "200px")}}
 
 > [!NOTE]
 > Table layout, unlike the other topics of this page, won't be further covered in this module. Use [grid layout](#grid_layout) instead.

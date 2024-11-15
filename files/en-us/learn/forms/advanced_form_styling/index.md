@@ -932,7 +932,7 @@ input[type="file"] {
 
 And then style the label to act like a button, which when pressed will open the file picker as expected:
 
-```css
+```css hidden live-sample___styled-file-picker
 label[for="file"] {
   box-shadow: 1px 1px 3px #ccc;
   background: linear-gradient(to bottom, #eee, #ccc);
@@ -951,62 +951,58 @@ label[for="file"]:active {
 }
 ```
 
-You can see the result of the above CSS styling in the below live example (see also [styled-file-picker.html](https://mdn.github.io/learning-area/html/forms/styling-examples/styled-file-picker.html) live, and the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/styling-examples/styled-file-picker.html)).
-
 ```html live-sample___styled-file-picker
-<body>
-  <form>
-    <div>
-      <label for="file"> Choose a file to upload </label>
-      <input id="file" multiple="" name="file" type="file" />
-      <ul id="file-list"></ul>
-    </div>
-    <div>
-      <button>Submit?</button>
-    </div>
-  </form>
-  <script>
-    const fileInput = document.querySelector("#file");
-    const fileList = document.querySelector("#file-list");
+<form>
+  <div>
+    <label for="file"> Choose a file to upload </label>
+    <input id="file" multiple="" name="file" type="file" />
+    <ul id="file-list"></ul>
+  </div>
+  <div>
+    <button>Submit?</button>
+  </div>
+</form>
+<script>
+  const fileInput = document.querySelector("#file");
+  const fileList = document.querySelector("#file-list");
 
-    fileInput.addEventListener("change", updateFileList);
+  fileInput.addEventListener("change", updateFileList);
 
-    function updateFileList() {
-      while (fileList.firstChild) {
-        fileList.removeChild(fileList.firstChild);
-      }
-
-      let curFiles = fileInput.files;
-
-      if (!(curFiles.length === 0)) {
-        console.log("test");
-        for (let i = 0; i < curFiles.length; i++) {
-          const listItem = document.createElement("li");
-          listItem.textContent =
-            "File name: " +
-            curFiles[i].name +
-            "; file size " +
-            returnFileSize(curFiles[i].size) +
-            ".";
-          fileList.appendChild(listItem);
-        }
-      }
+  function updateFileList() {
+    while (fileList.firstChild) {
+      fileList.removeChild(fileList.firstChild);
     }
 
-    function returnFileSize(number) {
-      if (number < 1024) {
-        return number + "bytes";
-      } else if (number >= 1024 && number < 1048576) {
-        return (number / 1024).toFixed(1) + "KB";
-      } else if (number >= 1048576) {
-        return (number / 1048576).toFixed(1) + "MB";
+    let curFiles = fileInput.files;
+
+    if (!(curFiles.length === 0)) {
+      console.log("test");
+      for (let i = 0; i < curFiles.length; i++) {
+        const listItem = document.createElement("li");
+        listItem.textContent =
+          "File name: " +
+          curFiles[i].name +
+          "; file size " +
+          returnFileSize(curFiles[i].size) +
+          ".";
+        fileList.appendChild(listItem);
       }
     }
-  </script>
-</body>
+  }
+
+  function returnFileSize(number) {
+    if (number < 1024) {
+      return number + "bytes";
+    } else if (number >= 1024 && number < 1048576) {
+      return (number / 1024).toFixed(1) + "KB";
+    } else if (number >= 1048576) {
+      return (number / 1048576).toFixed(1) + "MB";
+    }
+  }
+</script>
 ```
 
-```css live-sample___styled-file-picker
+```css hidden live-sample___styled-file-picker
 body {
   font-family: "Josefin Sans", sans-serif;
   margin: 20px auto;
@@ -1035,23 +1031,6 @@ input[type="file"] {
   height: 0;
   padding: 0;
   opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
 }
 
 button {

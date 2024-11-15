@@ -76,9 +76,7 @@ function updateName() {
 }
 ```
 
-{{ EmbedLiveSample('A_high-level_definition', '100%', 80) }}
-
-Try clicking on this last version of the text label to see what happens (note also that you can find this demo on GitHub — see the [source code](https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/what-is-js/javascript-label.html), or [run it live](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/what-is-js/javascript-label.html))!
+{{EmbedLiveSample("A_high-level_definition", "", "80px")}}
 
 JavaScript can do a lot more than that — let's explore what in more detail.
 

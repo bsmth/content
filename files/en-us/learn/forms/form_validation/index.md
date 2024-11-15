@@ -221,8 +221,6 @@ This gives us the following update — try it out:
 
 {{EmbedLiveSample("Validating_against_a_regular_expression", "100%", 80)}}
 
-You can find this [example live on GitHub](https://mdn.github.io/learning-area/html/forms/form-validation/fruit-pattern.html) along with the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/form-validation/fruit-pattern.html).
-
 In this example, the {{HTMLElement("input")}} element accepts one of four possible values: the strings "banana", "Banana", "cherry", or "Cherry". Regular expressions are case-sensitive, but we've made it support capitalized as well as lower-case versions using an extra "Aa" pattern nested inside square brackets.
 
 At this point, try changing the value inside the [`pattern`](/en-US/docs/Web/HTML/Attributes/pattern) attribute to equal some of the examples you saw earlier, and look at how that affects the values you can enter to make the input value valid.
@@ -302,8 +300,6 @@ div {
 Here is the example running live:
 
 {{EmbedLiveSample("Constraining_the_values_of_your_entries", "100%", 100)}}
-
-Try this [example live on GitHub](https://mdn.github.io/learning-area/html/forms/form-validation/fruit-length.html) and view the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/form-validation/fruit-length.html).
 
 Numeric input types, like `number`, `range` and `date`, can also take the [`step`](/en-US/docs/Web/HTML/Attributes/step) attribute. This attribute specifies what increment the value will go up or down by when the input controls are used (such as the up and down number buttons, or sliding the ranges thumb). The `step` attribute is omitted in our example, so the value defaults to `1`. This means that floats, like 3.2, will also show as invalid.
 
@@ -399,8 +395,6 @@ input:focus:invalid {
 This renders as follows:
 
 {{EmbedLiveSample("Full_example", "100%", 420)}}
-
-This [full example is live on GitHub](https://mdn.github.io/learning-area/html/forms/form-validation/full-example.html) along with the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/form-validation/full-example.html).
 
 See [Validation-related attributes](/en-US/docs/Web/HTML/Constraint_validation#validation-related_attributes) for a complete list of attributes that can be used to constrain input values and the input types that support them.
 
@@ -539,8 +533,6 @@ email.addEventListener("input", function (event) {
 ```
 
 {{EmbedLiveSample("custom-error-message")}}
-
-You can find this example live on GitHub as [custom-error-message.html](https://mdn.github.io/learning-area/html/forms/form-validation/custom-error-message.html), along with the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/form-validation/custom-error-message.html).
 
 #### Extending built-in form validation
 
@@ -900,8 +892,6 @@ function showError() {
 ```
 
 {{EmbedLiveSample("detailed-custom-validation")}}
-
-You can find this example live on GitHub as [detailed-custom-validation.html](https://mdn.github.io/learning-area/html/forms/form-validation/detailed-custom-validation.html) along with the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/form-validation/detailed-custom-validation.html).
 
 The constraint validation API gives you a powerful tool to handle form validation, letting you have enormous control over the user interface above and beyond what you can do with HTML and CSS alone.
 

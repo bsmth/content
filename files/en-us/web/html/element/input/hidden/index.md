@@ -121,14 +121,13 @@ The server would set the value of the hidden input with the ID `postID` to the I
 
 The output looks like this:
 
-{{ EmbedLiveSample('Examples', '100%', 200) }}
-
-> [!NOTE]
-> You can also find the example on GitHub (see the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/hidden-input-example/index.html), and also [see it running live](https://mdn.github.io/learning-area/html/forms/hidden-input-example/index.html)).
+{{EmbedLiveSample("Examples", "", "200px")}}
 
 When submitted, the form data sent to the server will look something like this:
 
-`title=My+excellent+blog+post&content=This+is+the+content+of+my+excellent+blog+post.+I+hope+you+enjoy+it!&postId=34657`
+```plain
+title=My+excellent+blog+post&content=This+is+the+content+of+my+excellent+blog+post.+I+hope+you+enjoy+it!&postId=34657
+```
 
 Even though the hidden input cannot be seen at all, its data is still submitted.
 
