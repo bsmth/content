@@ -364,9 +364,46 @@ x *= y; // x now contains the value 12
 
 In this exercise, you will manipulate some numbers and operators to change the size of a box. The box is drawn using a browser API called the {{domxref("Canvas API", "", "", "true")}}. There is no need to worry about how this works — just concentrate on the math for now. The width and height of the box (in pixels) are defined by the variables `x` and `y`, which are initially both given a value of 50.
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/maths/editable_canvas.html", '100%', 620)}}
+```html live-sample___editable-canvas
+<canvas id="canvas" width="400" height="250" class="playable-canvas"> </canvas>
 
-**[Open in new window](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/maths/editable_canvas.html)**
+<p>The rectangle is 50px wide and 50px high.</p>
+```
+
+```js hidden live-sample___editable-canvas
+const canvas = document.getElementById("canvas");
+const para = document.querySelector("p");
+const ctx = canvas.getContext("2d");
+
+let x = 50;
+let y = 50;
+
+function drawCanvas() {
+  // Clear and redraw the rectangle
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "green";
+  ctx.fillRect(10, 10, x, y);
+
+  // Update the paragraph text with the current dimensions
+  para.textContent = `The rectangle is ${x}px wide and ${y}px high.`;
+}
+
+// Initial draw on page load
+window.addEventListener("load", drawCanvas);
+```
+
+```js live-sample___editable-canvas
+ctx.fillStyle = "green";
+ctx.fillRect(10, 10, x, y);
+
+x = 50;
+y = 50;
+
+// drawCanvas
+drawCanvas();
+```
+
+{{EmbedLiveSample("editable-canvas")}}
 
 In the editable code box above, there are two lines marked with a comment that we'd like you to update to make the box grow/shrink to certain sizes, using certain operators and/or values in each case. Let's try the following:
 

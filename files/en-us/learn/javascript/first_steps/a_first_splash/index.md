@@ -43,15 +43,10 @@ With that in mind, let's look at the example we'll be building up in this articl
 
 ## Example — Guess the number game
 
-In this article we'll show you how to build up the simple game you can see below:
-
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game", 900, 300)}}
-
-Have a go at playing it — familiarize yourself with the game before you move on.
-
+In this article we'll show you how to build a number guessing game.
 Let's imagine your boss has given you the following brief for creating this game:
 
-> I want you to create a simple guess the number type game. It should choose a random number between 1 and 100, then challenge the player to guess the number in 10 turns. After each turn, the player should be told if they are right or wrong, and if they are wrong, whether the guess was too low or too high. It should also tell the player what numbers they previously guessed. The game will end once the player guesses correctly, or once they run out of turns. When the game ends, the player should be given an option to start playing again.
+> I want you to create a "guess the number" game. It should choose a random number between 1 and 100, then challenge the player to guess the number in 10 turns. After each turn, the player should be told if they are right or wrong, and if they are wrong, whether the guess was too low or too high. It should also tell the player what numbers they previously guessed. The game will end once the player guesses correctly, or once they run out of turns. When the game ends, the player should be given an option to start playing again.
 
 Upon looking at this brief, the first thing we can do is to start breaking it down into simple actionable tasks, in as much of a programmer mindset as possible:
 
@@ -82,21 +77,45 @@ Upon looking at this brief, the first thing we can do is to start breaking it do
 
 Let's now move forward, looking at how we can turn these steps into code, building up the example, and exploring JavaScript features as we go.
 
-### Initial setup
+### Guess the number game initial setup
 
-To begin this tutorial, we'd like you to make a local copy of the [number-guessing-game-start.html](https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/first-splash/number-guessing-game-start.html) file ([see it live here](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game-start.html)). Open it in both your text editor and your web browser. At the moment you'll see a simple heading, paragraph of instructions and form for entering a guess, but the form won't currently do anything.
-
-The place where we'll be adding all our code is inside the {{htmlelement("script")}} element at the bottom of the HTML:
+You can use the following as a starting point. You'll see a heading, paragraph of instructions and form for entering a guess, but the form won't currently do anything.
 
 ```html
+<h1>Number guessing game</h1>
+
+<p>
+  We have selected a random number between 1 and 100. See if you can guess it in
+  10 turns or fewer. We'll tell you if your guess was too high or too low.
+</p>
+
+<div class="form">
+  <label for="guessField">Enter a guess: </label>
+  <input
+    type="number"
+    min="1"
+    max="100"
+    required
+    id="guessField"
+    class="guessField" />
+  <input type="submit" value="Submit guess" class="guessSubmit" />
+</div>
+
+<div class="resultParas">
+  <p class="guesses"></p>
+  <p class="lastResult"></p>
+  <p class="lowOrHi"></p>
+</div>
 <script>
   // Your JavaScript goes here
 </script>
 ```
 
+The place where we'll be adding all our code is inside the {{htmlelement("script")}} element at the bottom of the HTML.
+
 ### Adding variables to store our data
 
-Let's get started. First of all, add the following lines inside your {{htmlelement("script")}} element:
+First of all, add the following lines inside your {{htmlelement("script")}} element:
 
 ```js
 let randomNumber = Math.floor(Math.random() * 100) + 1;
@@ -202,61 +221,45 @@ number2 = number2 + 2;
 
 When we are running true/false tests (for example inside conditionals — see [below](#conditionals)) we use [comparison operators](/en-US/docs/Web/JavaScript/Reference/Operators). For example:
 
-<table class="standard-table">
-  <thead>
-    <tr>
-      <th scope="col">Operator</th>
-      <th scope="col">Name</th>
-      <th scope="col">Example</th>
-    </tr>
-    <tr>
-      <td><code>===</code></td>
-      <td>Strict equality (is it exactly the same?)</td>
-      <td>
-        <pre class="brush: js">
-5 === 2 + 4 // false
-'Chris' === 'Bob' // false
-5 === 2 + 3 // true
-2 === '2' // false; number versus string
-</pre
-        >
-      </td>
-    </tr>
-    <tr>
-      <td><code>!==</code></td>
-      <td>Non-equality (is it not the same?)</td>
-      <td>
-        <pre class="brush: js">
-5 !== 2 + 4 // true
-'Chris' !== 'Bob' // true
-5 !== 2 + 3 // false
-2 !== '2' // true; number versus string
-</pre
-        >
-      </td>
-    </tr>
-    <tr>
-      <td><code>&#x3C;</code></td>
-      <td>Less than</td>
-      <td>
-        <pre class="brush: js">
-6 &#x3C; 10 // true
-20 &#x3C; 10 // false</pre
-        >
-      </td>
-    </tr>
-    <tr>
-      <td><code>></code></td>
-      <td>Greater than</td>
-      <td>
-        <pre class="brush: js">
-6 > 10 // false
-20 > 10 // true</pre
-        >
-      </td>
-    </tr>
-  </thead>
-</table>
+- `===`
+
+  - : Strict equality (is it exactly the same?)
+
+    ```js
+    5 === 2 + 4; // false
+    "Chris" === "Bob"; // false
+    5 === 2 + 3; // true
+    2 === "2"; // false; number versus string
+    ```
+
+- `!==`
+
+  - : Non-equality (is it not the same?)
+
+    ```js
+    5 !== 2 + 4; // true
+    "Chris" !== "Bob"; // true
+    5 !== 2 + 3; // false
+    2 !== "2"; // true; number versus string
+    ```
+
+- `<`
+
+  - : Less than
+
+    ```js
+    6 < 10; // true
+    20 < 10; // false
+    ```
+
+- `>`
+
+  - : Greater than
+
+    ```js
+    6 > 10; // false
+    20 > 10; // true
+    ```
 
 ### Text strings
 
@@ -518,6 +521,127 @@ Let's play with some browser objects a bit.
 
 ## Finished for now…
 
-So that's it for building the example. You got to the end — well done! Try your final code out, or [play with our finished version here](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game.html). If you can't get the example to work, check it against the [source code](https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/first-splash/number-guessing-game.html).
+So that's it for building the example. You got to the end — well done! The final version should look like this:
+
+```css hidden live-sample___guessing-game
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+.form input[type="number"] {
+  width: 200px;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+```
+
+```html live-sample___guessing-game
+<h1>Number guessing game</h1>
+
+<p>
+  We have selected a random number between 1 and 100. See if you can guess it in
+  10 turns or fewer. We'll tell you if your guess was too high or too low.
+</p>
+
+<div class="form">
+  <label for="guessField">Enter a guess: </label>
+  <input
+    type="number"
+    min="1"
+    max="100"
+    required
+    id="guessField"
+    class="guessField" />
+  <input type="submit" value="Submit guess" class="guessSubmit" />
+</div>
+
+<div class="resultParas">
+  <p class="guesses"></p>
+  <p class="lastResult"></p>
+  <p class="lowOrHi"></p>
+</div>
+
+<script>
+  let randomNumber = Math.floor(Math.random() * 100) + 1;
+  const guesses = document.querySelector(".guesses");
+  const lastResult = document.querySelector(".lastResult");
+  const lowOrHi = document.querySelector(".lowOrHi");
+  const guessSubmit = document.querySelector(".guessSubmit");
+  const guessField = document.querySelector(".guessField");
+  let guessCount = 1;
+  let resetButton;
+
+  function checkGuess() {
+    const userGuess = Number(guessField.value);
+    if (guessCount === 1) {
+      guesses.textContent = "Previous guesses: ";
+    }
+
+    guesses.textContent = `${guesses.textContent} ${userGuess}`;
+
+    if (userGuess === randomNumber) {
+      lastResult.textContent = "Congratulations! You got it right!";
+      lastResult.style.backgroundColor = "green";
+      lowOrHi.textContent = "";
+      setGameOver();
+    } else if (guessCount === 10) {
+      lastResult.textContent = "!!!GAME OVER!!!";
+      lowOrHi.textContent = "";
+      setGameOver();
+    } else {
+      lastResult.textContent = "Wrong!";
+      lastResult.style.backgroundColor = "red";
+      if (userGuess < randomNumber) {
+        lowOrHi.textContent = "Last guess was too low!";
+      } else if (userGuess > randomNumber) {
+        lowOrHi.textContent = "Last guess was too high!";
+      }
+    }
+
+    guessCount++;
+    guessField.value = "";
+    guessField.focus();
+  }
+
+  guessSubmit.addEventListener("click", checkGuess);
+
+  function setGameOver() {
+    guessField.disabled = true;
+    guessSubmit.disabled = true;
+    resetButton = document.createElement("button");
+    resetButton.textContent = "Start new game";
+    document.body.appendChild(resetButton);
+    resetButton.addEventListener("click", resetGame);
+  }
+
+  function resetGame() {
+    guessCount = 1;
+    const resetParas = document.querySelectorAll(".resultParas p");
+    for (const resetPara of resetParas) {
+      resetPara.textContent = "";
+    }
+
+    resetButton.parentNode.removeChild(resetButton);
+    guessField.disabled = false;
+    guessSubmit.disabled = false;
+    guessField.value = "";
+    guessField.focus();
+    lastResult.style.backgroundColor = "white";
+    randomNumber = Math.floor(Math.random() * 100) + 1;
+  }
+</script>
+```
+
+{{EmbedLiveSample("guessing-game", "", "300px")}}
 
 {{PreviousMenuNext("Learn/JavaScript/First_steps/What_is_JavaScript", "Learn/JavaScript/First_steps/What_went_wrong", "Learn/JavaScript/First_steps")}}

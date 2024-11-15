@@ -128,7 +128,7 @@ Another example is form elements. When new [`<input>`](/en-US/docs/Web/HTML/Elem
 
 The following example shows date and time inputs:
 
-```html
+```html live-sample___forms-test
 <form>
   <div>
     <label for="date">Enter a date:</label>
@@ -141,12 +141,37 @@ The following example shows date and time inputs:
 </form>
 ```
 
+```css live-sample___forms-test
+label {
+  float: left;
+  width: 30%;
+  text-align: right;
+}
+
+input {
+  float: right;
+  width: 65%;
+}
+
+label,
+input {
+  margin-bottom: 20px;
+}
+
+div {
+  clear: both;
+  margin: 10px;
+}
+
+body {
+  width: 400px;
+  margin: 0 auto;
+}
+```
+
 The output of this code is as follows:
 
-{{EmbedGHLiveSample("learning-area/tools-testing/cross-browser-testing/html-css/forms-test", '100%', 150)}}
-
-> [!NOTE]
-> You can also see this running live as [forms-test.html](https://mdn.github.io/learning-area/tools-testing/cross-browser-testing/html-css/forms-test.html) on GitHub (see the [source code](https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/html-css/forms-test.html) also).
+{{EmbedLiveSample("forms-test")}}
 
 If you view the example, you'll see the UI features in action as you try to input data. On devices with dynamic keyboards, type-specific keypads will be displayed. On a non-supporting browser, the inputs will just default to normal text inputs, meaning the user can still enter the correct information.
 
@@ -154,19 +179,12 @@ If you view the example, you'll see the UI features in action as you try to inpu
 
 CSS is arguably better at fallbacks than HTML. If a browser encounters a declaration or rule it doesn't understand, it just skips it completely without applying it or throwing an error. This might be frustrating for you and your users if such a mistake slips through to production code, but at least it means the whole site doesn't come crashing down because of one error, and if used cleverly you can use it to your advantage.
 
-Let's look at an example — a simple box styled with CSS, which has some styling provided by various CSS features:
-
-![A red pill button with rounded corners, inset shadow, and drop shadow](blingy-button.png)
-
-> [!NOTE]
-> You can also see this example running live on GitHub as [button-with-fallback.html](https://mdn.github.io/learning-area/tools-testing/cross-browser-testing/html-css/button-with-fallback.html) (also see the [source code](https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/html-css/button-with-fallback.html)).
-
+Let's look at an example — a simple box styled with CSS, which has some styling provided by various CSS features.
 The button has a number of declarations that style, but the two we are most interested in are as follows:
 
-```css
+```css live-sample___button-fallback
 button {
   /* … */
-
   background-color: #ff0000;
   background-color: rgb(255 0 0 / 100%);
   box-shadow:
@@ -184,6 +202,37 @@ button:active {
     inset -1px -1px 3px rgb(255 255 255 / 40%);
 }
 ```
+
+```css hidden live-sample___button-fallback
+html {
+  font-family: sans-serif;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+```
+
+```html live-sample___button-fallback
+<button>Press me</button>
+```
+
+{{embedlivesample("button-fallback")}}
 
 Here we are providing an [RGB](/en-US/docs/Web/CSS/color_value/rgb) {{cssxref("background-color")}} that changes opacity on hover to give the user a hint that the button is interactive, and some semi-transparent inset {{cssxref("box-shadow")}} shades to give the button a bit of texture and depth. While now fully supported, RGB colors and box shadows haven't been around forever; starting in IE9. Browsers that didn't support RGB colors would ignore the declaration meaning in old browsers the background just wouldn't show up at all so the text would be unreadable, no good at all!
 

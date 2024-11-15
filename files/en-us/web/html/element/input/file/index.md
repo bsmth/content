@@ -97,9 +97,6 @@ This produces the following output:
 
 {{EmbedLiveSample('A_basic_example', 650, 90)}}
 
-> [!NOTE]
-> You can find this example on GitHub too — see the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/file-examples/simple-file.html), and also [see it running live](https://mdn.github.io/learning-area/html/forms/file-examples/simple-file.html).
-
 Regardless of the user's device or operating system, the file input provides a button that opens up a file picker dialog that allows the user to choose a file.
 
 Including the [`multiple`](#multiple) attribute, as shown above, specifies that multiple files can be chosen at once. The user can choose multiple files from the file picker in any way that their chosen platform allows (e.g. by holding down <kbd>Shift</kbd> or <kbd>Control</kbd> and then clicking). If you only want the user to choose a single file per `<input>`, omit the `multiple` attribute.
@@ -161,9 +158,6 @@ div {
 This produces a similar-looking output to the previous example:
 
 {{EmbedLiveSample('Limiting_accepted_file_types', 650, 90)}}
-
-> [!NOTE]
-> You can find this example on GitHub too — see the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/file-examples/file-with-accept.html), and also [see it running live](https://mdn.github.io/learning-area/html/forms/file-examples/file-with-accept.html).
 
 It may look similar, but if you try selecting a file with this input, you'll see that the file picker only lets you select the file types specified in the `accept` value (the exact interface differs across browsers and operating systems).
 

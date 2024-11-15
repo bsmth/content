@@ -9,9 +9,8 @@ page-type: learn-module-assessment
 The aim of this skill test is to assess whether you've understood our [Classes in JavaScript](/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript) article.
 
 > [!NOTE]
-> You can try solutions in the interactive editors on this page or in an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
-> If there is an error in your code, it will be logged into the results panel on this page or in the JavaScript console.
->
+> Click **"Play"** in the code blocks below to edit the examples in the MDN Playground.
+> You can also copy the code (click the clipboard icon) and paste it into an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 > If you get stuck, you can reach out to us in one of our [communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 ## OOJS 1
@@ -29,6 +28,12 @@ We'd like you to:
 
 Try updating the live code below to recreate the finished example:
 
+```js hidden live-sample___oojs1
+function print(text) {
+  document.getElementById("output").innerText = text;
+}
+```
+
 ```js live-sample___oojs1
 class Shape {
   name;
@@ -37,18 +42,14 @@ class Shape {
 }
 ```
 
+```html hidden live-sample___oojs1
+<pre id="output">log here with <code>print("some text");</code></pre>
+```
+
 {{EmbedLiveSample("oojs1")}}
 
 <details>
 <summary>Click here to show the solution</summary>
-
-In this task we provide you with a `Shape` class containing only some data properties.
-
-We want you to:
-
-- add a constructor
-- define a `calcPerimeter()` method
-- create two instances of the class, a square and a triangle, and call their `calcPerimeter()` methods
 
 Your code should look something like this:
 
@@ -88,16 +89,28 @@ Create an instance of the `Square` class called `square` with appropriate proper
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/oojs/tasks/oojs/oojs2.html", '100%', 400)}}
+```js hidden live-sample___oojs2
+function print(text) {
+  document.getElementById("output").innerText = text;
+}
+```
+
+```js live-sample___oojs2
+class Shape {
+  name;
+  sides;
+  sideLength;
+}
+```
+
+```html hidden live-sample___oojs2
+<pre id="output">log here with <code>print("some text");</code></pre>
+```
+
+{{EmbedLiveSample("oojs2")}}
 
 <details>
 <summary>Click here to show the solution</summary>
-
-Next, we'd like you to start with the `Shape` class you created in the last task.
-
-We'd like you to create a `Square` class that inherits from `Shape`, and adds a `calcArea()` method that calculates the square's area.
-
-Create an instance of the `Square` called square with appropriate property values, and call its `calcPerimeter()` and `calcArea()` methods to show that it works.
 
 Your code should look something like this:
 

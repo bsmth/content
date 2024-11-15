@@ -80,27 +80,19 @@ Traditional live samples are inserted into the page using the [`EmbedLiveSample`
 
 ## GitHub live samples
 
-GitHub live samples are inserted into the page using the [`EmbedGHLiveSample`](https://github.com/mdn/yari/blob/main/kumascript/macros/EmbedGHLiveSample.ejs) macro. An \\{{EmbedGHLiveSample}} call dynamically grabs the document at a specified URL (which has to be inside the **mdn** GitHub organization), and inserts into the page inside an {{htmlelement("iframe")}}.
+GitHub live samples are inserted into the page using the [`EmbedGHLiveSample`](https://github.com/mdn/yari/blob/main/kumascript/macros/EmbedGHLiveSample.ejs) macro. An \\{{EmbedGHLiveSample}} call grabs the document at a specified URL (which has to be inside the **mdn** GitHub organization), and inserts into the page inside an {{htmlelement("iframe")}}.
 
-These work in a very similar way to Traditional live samples, but they are a lot simpler:
+These work in a very similar way to Traditional live samples, although you don't have to worry about placement of code blocks on the page — it grabs an HTML document in a GitHub repo, and puts it in the `<iframe>`.
 
-You don't have to worry about placement of code blocks on the page — it grabs an HTML document in a GitHub repo, and puts it in the `<iframe>`.
-
-The macro only has three parameters:
+The macro has three parameters:
 
 1. The URL of the document to embed — this is relative to the MDN organization, the top level directory of which is at `https://mdn.github.io/`. So this parameter needs to contain the part of the URL after that, e.g. `my-subdirectory/example.html`. You can omit the filename if it is called `index.html`.
 2. The width of the `<iframe>`, which can be expressed as a percentage or in pixels.
 3. The height of the `<iframe>`, which can be expressed as a percentage or in pixels.
 
-Let's look at an example. Say we wanted to embed the code at <https://mdn.github.io/learning-area/css/styling-boxes/backgrounds/>. We could use the following call:
-
-\\{{EmbedGHLiveSample("learning-area/css/styling-boxes/backgrounds/", '100%', 100)}}
-
-This looks like so when rendered:
-
-{{EmbedGHLiveSample("learning-area/css/styling-boxes/backgrounds/", '100%', 100)}}
+Say we wanted to embed the code at <https://mdn.github.io/learning-area/css/styling-boxes/backgrounds/>. We could use the following call `\{{EmbedGHLiveSample("learning-area/css/styling-boxes/backgrounds/")}}`
 
 ### Tips for using GitHub live samples
 
-- You obviously need to get a suitable code sample onto the [MDN GitHub organization](https://github.com/mdn/) first. This needs to be done using Git. If you are not familiar with Git, check out our [How do I use GitHub Pages?](/en-US/docs/Learn/Common_questions/Tools_and_setup/Using_GitHub_pages) article, and [Preparing to add the data](/en-US/docs/MDN/Writing_guidelines/Page_structures/Compatibility_tables) for more advanced uses.
+- You need to get a suitable code sample onto the [MDN GitHub organization](https://github.com/mdn/) first. This needs to be done using Git. If you are not familiar with Git, check out our [How do I use GitHub Pages?](/en-US/docs/Learn/Common_questions/Tools_and_setup/Using_GitHub_pages) article, and [Preparing to add the data](/en-US/docs/MDN/Writing_guidelines/Page_structures/Compatibility_tables) for more advanced uses.
 - Your code sample needs to be suitable to show what you are trying to demonstrate — it should contain one simple example that does one thing well, should have no offensive content in it, and should follow the MDN [Code sample guidelines](/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide).
