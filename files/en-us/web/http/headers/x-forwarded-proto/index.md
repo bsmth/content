@@ -63,6 +63,10 @@ X-Url-Scheme: https
 Not part of any current specification. The standardized version of this header is
 {{HTTPHeader("Forwarded")}}.
 
+## Browser compatibility
+
+Browsers do not actively process this header, so "browser compatibility" does not apply.
+
 ## See also
 
 - {{HTTPHeader("Forwarded")}}

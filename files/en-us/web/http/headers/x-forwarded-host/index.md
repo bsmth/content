@@ -50,6 +50,10 @@ X-Forwarded-Host: id42.example-cdn.com
 
 Not part of any current specification.
 
+## Browser compatibility
+
+Browsers do not actively process this header, so "browser compatibility" does not apply.
+
 ## See also
 
 - {{HTTPHeader("Host")}}

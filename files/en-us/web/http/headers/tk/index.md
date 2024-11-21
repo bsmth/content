@@ -84,6 +84,10 @@ Tk: N
 
 Part of the discontinued [Tracking Preference Expression (DNT)](https://www.w3.org/TR/tracking-dnt/#response-header-field) specification.
 
+## Browser compatibility
+
+Browsers do not actively process this header, so "browser compatibility" does not apply.
+
 ## See also
 
 - {{HTTPHeader("DNT")}} header

@@ -97,6 +97,10 @@ Forwarded: for=192.0.2.43, for="[2001:db8:cafe::17]"
 
 {{Specifications}}
 
+## Browser compatibility
+
+Browsers do not actively process this header, so "browser compatibility" does not apply.
+
 ## See also
 
 - {{HTTPHeader("X-Forwarded-For")}}

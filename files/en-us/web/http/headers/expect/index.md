@@ -72,6 +72,10 @@ The client completes the request by sending the actual data:
 
 {{Specifications}}
 
+## Browser compatibility
+
+Browsers do not actively process this header, so "browser compatibility" does not apply.
+
 ## See also
 
 - {{HTTPStatus("417", "417 Expectation Failed")}}

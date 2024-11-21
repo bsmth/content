@@ -47,7 +47,7 @@ Max-Forwards: 10
 
 ## Browser compatibility
 
-This feature is neither targeted at, nor implemented in, browsers.
+Browsers do not actively process this header, so "browser compatibility" does not apply.
 
 ## See also
 

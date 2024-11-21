@@ -45,6 +45,10 @@ Allow: GET, POST, HEAD
 
 {{Specifications}}
 
+## Browser compatibility
+
+Browsers do not actively process this header, so "browser compatibility" does not apply.
+
 ## See also
 
 - {{HTTPStatus("405", "405 Method Not Allowed")}} status code

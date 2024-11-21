@@ -2,7 +2,7 @@
 title: Proxy-Authorization
 slug: Web/HTTP/Headers/Proxy-Authorization
 page-type: http-header
-spec-urls: https://httpwg.org/specs/rfc9110.html#field.proxy-authorization
+browser-compat: http.headers.Proxy-Authorization
 ---
 
 {{HTTPSidebar}}
@@ -61,6 +61,10 @@ Proxy-Authorization: Bearer kNTktNTA1My00YzLT1234
 ## Specifications
 
 {{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
 
 ## See also
 
