@@ -1,5 +1,6 @@
 ---
 title: "Reason: CORS request external redirect not allowed"
+short-title: External redirect not allowed
 slug: Web/HTTP/CORS/Errors/CORSExternalRedirectNotAllowed
 page-type: http-cors-error
 ---
@@ -14,7 +15,7 @@ Reason: CORS request external redirect not allowed
 
 ## What went wrong?
 
-The {{Glossary("CORS")}} request was responded to by the server with an HTTP redirect
+The [CORS](/en-US/docs/Web/HTTP/CORS) request was responded to by the server with an HTTP redirect
 to a URL on a different origin than the original request, which is not permitted during
 CORS requests.
 
@@ -30,5 +31,4 @@ thereby avoiding the redirect.
 ## See also
 
 - [CORS errors](/en-US/docs/Web/HTTP/CORS/Errors)
-- Glossary: {{Glossary("CORS")}}
-- [CORS introduction](/en-US/docs/Web/HTTP/CORS)
+- [CORS](/en-US/docs/Web/HTTP/CORS)

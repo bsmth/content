@@ -46,7 +46,7 @@ A space-separated list of _source expression_ values. Resources of this type may
 
 - The [`<host-source>`](/en-US/docs/Web/HTTP/Headers/Content-Security-Policy#host-source) value `"https:"`
 - The [`<scheme-source>`](/en-US/docs/Web/HTTP/Headers/Content-Security-Policy#scheme-source) value `"https:"`
-- The string `"*"`
+- The string `*`
 
 ## Examples
 

@@ -1,5 +1,6 @@
 ---
 title: "Reason: CORS preflight channel did not succeed"
+short-title: Preflight channel did not succeed
 slug: Web/HTTP/CORS/Errors/CORSPreflightDidNotSucceed
 page-type: http-cors-error
 ---
@@ -14,7 +15,7 @@ Reason: CORS preflight channel did not succeed
 
 ## What went wrong?
 
-The {{Glossary("CORS")}} request requires preflight, preflighting could not be
+The [CORS](/en-US/docs/Web/HTTP/CORS) request requires preflight, preflighting could not be
 performed. There are a couple of reasons why preflighting might fail:
 
 - A cross-site request has previously been performed that already did a preflight, and
@@ -26,5 +27,4 @@ performed. There are a couple of reasons why preflighting might fail:
 ## See also
 
 - [CORS errors](/en-US/docs/Web/HTTP/CORS/Errors)
-- Glossary: {{Glossary("CORS")}}
-- [CORS introduction](/en-US/docs/Web/HTTP/CORS)
+- [CORS](/en-US/docs/Web/HTTP/CORS)

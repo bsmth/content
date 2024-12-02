@@ -1,5 +1,6 @@
 ---
 title: "Reason: CORS request did not succeed"
+short-title: CORS request did not succeed
 slug: Web/HTTP/CORS/Errors/CORSDidNotSucceed
 page-type: http-cors-error
 ---
@@ -31,5 +32,4 @@ Other possible causes include:
 ## See also
 
 - [CORS errors](/en-US/docs/Web/HTTP/CORS/Errors)
-- Glossary: {{Glossary("CORS")}}
-- [CORS introduction](/en-US/docs/Web/HTTP/CORS)
+- [CORS](/en-US/docs/Web/HTTP/CORS)

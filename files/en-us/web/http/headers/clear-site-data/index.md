@@ -50,7 +50,7 @@ Clear-Site-Data: "*"
   - : Indicates that the server will remove all [client hints](/en-US/docs/Web/HTTP/Client_hints) (requested via {{HTTPHeader("Accept-CH")}}) stored for the origin of the response URL.
 
     > [!NOTE]
-    > In browsers that support the `"clientHints"` data type, client hints are also cleared when the `"cache"`, `"cookies"`, or `"*"` types are specified. `"clientHints"` is therefore only needed when none of those other types are specified.
+    > In browsers that support the `"clientHints"` data type, client hints are also cleared when the `"cache"`, `"cookies"`, or `*` types are specified. `"clientHints"` is therefore only needed when none of those other types are specified.
 
 - `"cookies"`
   - : The server signals that the client should remove all cookies for the origin of the response URL. HTTP authentication credentials are also cleared out. This affects the entire registered domain, including subdomains. So `https://example.com` as well as `https://stage.example.com`, will have cookies cleared.
@@ -68,7 +68,7 @@ Clear-Site-Data: "*"
 
 - `"executionContexts"` {{Experimental_Inline}}
   - : The server signals that the client should reload all browsing contexts for the origin of the response ({{domxref("Location.reload")}}).
-- `"*"` (wildcard)
+- `*` (wildcard)
   - : The server signals that the client should clear all types of data for the origin of the response. If more data types are added in future versions of this header, they will also be covered by it.
 
 ## Examples

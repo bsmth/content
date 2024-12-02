@@ -1,5 +1,6 @@
 ---
 title: "Reason: Credential is not supported if the CORS header 'Access-Control-Allow-Origin' is '*'"
+short-title: "'Access-Control-Allow-Origin: *' with credentials"
 slug: Web/HTTP/CORS/Errors/CORSNotSupportingCredentials
 page-type: http-cors-error
 ---
@@ -14,7 +15,7 @@ Reason: Credential is not supported if the CORS header 'Access-Control-Allow-Ori
 
 ## What went wrong?
 
-The {{Glossary("CORS")}} request was attempted with the credentials flag set, but the server is configured using the wildcard (`"*"`) as the value of {{HTTPHeader("Access-Control-Allow-Origin")}}, which doesn't allow the use of credentials.
+The [CORS](/en-US/docs/Web/HTTP/CORS) request was attempted with the credentials flag set, but the server is configured using the wildcard (`*`) as the value of {{HTTPHeader("Access-Control-Allow-Origin")}}, which doesn't allow the use of credentials.
 
 To correct this problem on the client side, ensure that the credentials flag's value is `false` when issuing your CORS request.
 
@@ -27,5 +28,4 @@ If, instead, you need to adjust the server's behavior, you'll need to change the
 ## See also
 
 - [CORS errors](/en-US/docs/Web/HTTP/CORS/Errors)
-- Glossary: {{Glossary("CORS")}}
-- [CORS introduction](/en-US/docs/Web/HTTP/CORS)
+- [CORS](/en-US/docs/Web/HTTP/CORS)

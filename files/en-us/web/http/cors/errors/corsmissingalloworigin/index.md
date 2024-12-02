@@ -1,5 +1,6 @@
 ---
-title: "Reason: CORS header 'Access-Control-Allow-Origin' missing"
+title: CORS header 'Access-Control-Allow-Origin' missing
+short-title: Missing 'Access-Control-Allow-Origin'
 slug: Web/HTTP/CORS/Errors/CORSMissingAllowOrigin
 page-type: http-cors-error
 ---
@@ -14,7 +15,7 @@ Reason: CORS header 'Access-Control-Allow-Origin' missing
 
 ## What went wrong?
 
-The response to the {{Glossary("CORS")}} request is missing the required
+The response to the [CORS](/en-US/docs/Web/HTTP/CORS) request is missing the required
 {{HTTPHeader("Access-Control-Allow-Origin")}} header, which is used to determine whether
 or not the resource can be accessed by content operating within the current origin.
 
@@ -41,8 +42,7 @@ Access-Control-Allow-Origin: *
 ```
 
 > [!WARNING]
-> Using the wildcard to allow all sites to access a private
-> API is a bad idea.
+> Using the wildcard to allow all sites to access a private API is not recommended.
 
 To allow any site to make CORS requests _without_ using the `*`
 wildcard (for example, to enable credentials), your server must read the value of the
@@ -52,23 +52,16 @@ header to indicate that some headers are being set dynamically depending on the 
 
 ## Examples for common web servers
 
-The exact directive for setting headers depends on your web server.
+The directive for setting headers depends on your web server.
 
-In the examples below,
-
-In **Apache** ([docs](https://httpd.apache.org/docs/2.4/mod/mod_headers.html#header)), add a
-line such as the following to the server's configuration (within the appropriate
-`<Directory>`, `<Location>`,
-`<Files>`, or `<VirtualHost>` section). The
-configuration is typically found in a `.conf` file (`httpd.conf`
-and `apache.conf` are common names for these), or in an
-`.htaccess` file:
+In Apache, add a line such as the following to the server's configuration (within the appropriate `<Directory>`, `<Location>`, `<Files>`, or `<VirtualHost>` section).
+The configuration is typically found in a `.conf` file (`httpd.conf` and `apache.conf` are common names for these), or in an `.htaccess` file:
 
 ```apacheconf
 Header set Access-Control-Allow-Origin 'https://example.com'
 ```
 
-For **Nginx** ([docs](https://nginx.org/en/docs/http/ngx_http_headers_module.html#add_header)), the command to set up this header is:
+For Nginx, the configuration to set up this header is:
 
 ```nginx
 add_header 'Access-Control-Allow-Origin' 'https://example.com' always;
@@ -77,5 +70,6 @@ add_header 'Access-Control-Allow-Origin' 'https://example.com' always;
 ## See also
 
 - [CORS errors](/en-US/docs/Web/HTTP/CORS/Errors)
-- Glossary: {{Glossary("CORS")}}
-- [CORS introduction](/en-US/docs/Web/HTTP/CORS)
+- [CORS](/en-US/docs/Web/HTTP/CORS)
+- [Apache Server](https://httpd.apache.org/docs/2.4/mod/mod_headers.html#header) documentation
+- [Nginx headers module](https://nginx.org/en/docs/http/ngx_http_headers_module.html#add_header) documentation

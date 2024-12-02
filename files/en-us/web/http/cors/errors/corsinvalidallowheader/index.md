@@ -1,5 +1,6 @@
 ---
 title: "Reason: invalid token 'xyz' in CORS header 'Access-Control-Allow-Headers'"
+short-title: Invalid token in 'Access-Control-Allow-Headers'
 slug: Web/HTTP/CORS/Errors/CORSInvalidAllowHeader
 page-type: http-cors-error
 ---
@@ -14,7 +15,7 @@ Reason: invalid token 'xyz' in CORS header 'Access-Control-Allow-Headers'
 
 ## What went wrong?
 
-The response to the {{Glossary("CORS")}} request that was sent by the server includes
+The response to the [CORS](/en-US/docs/Web/HTTP/CORS) request that was sent by the server includes
 an {{HTTPHeader("Access-Control-Allow-Headers")}} header which includes at least one
 invalid header name.
 
@@ -31,6 +32,5 @@ ensure that the user agent or HTTP library you're using on the client is up-to-d
 ## See also
 
 - [CORS errors](/en-US/docs/Web/HTTP/CORS/Errors)
-- Glossary: {{Glossary("CORS")}}
-- [CORS introduction](/en-US/docs/Web/HTTP/CORS)
+- [CORS](/en-US/docs/Web/HTTP/CORS)
 - [HTTP headers](/en-US/docs/Web/HTTP/Headers)

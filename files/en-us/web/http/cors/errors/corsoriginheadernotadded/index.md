@@ -1,5 +1,6 @@
 ---
 title: "Reason: CORS header 'Origin' cannot be added"
+short-title: "'Origin' cannot be added"
 slug: Web/HTTP/CORS/Errors/CORSOriginHeaderNotAdded
 page-type: http-cors-error
 ---
@@ -24,5 +25,4 @@ access to multiple domains' content, for example.
 ## See also
 
 - [CORS errors](/en-US/docs/Web/HTTP/CORS/Errors)
-- Glossary: {{Glossary("CORS")}}
-- [CORS introduction](/en-US/docs/Web/HTTP/CORS)
+- [CORS](/en-US/docs/Web/HTTP/CORS)
