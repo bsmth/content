@@ -1,5 +1,6 @@
 ---
 title: How to document an HTTP header
+short-title: Document an HTTP header
 slug: MDN/Writing_guidelines/Howto/Document_an_HTTP_header
 page-type: mdn-writing-guide
 ---

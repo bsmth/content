@@ -1,5 +1,6 @@
 ---
 title: How to write in Markdown
+short-title: Write in Markdown
 slug: MDN/Writing_guidelines/Howto/Markdown_in_MDN
 page-type: mdn-writing-guide
 ---
