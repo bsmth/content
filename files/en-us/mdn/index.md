@@ -19,7 +19,5 @@ The resources below describe how the site works, how we write documentation, the
     They contain the editorial policies defining the types of content we write and the types of content we don't write.
     You'll find our writing style guide, how-to guides for specific tasks, and information about the structure of different types of pages.
 - [About MDN Web Docs](/en-US/about)
-  - : MDN Web Docs serves millions of readers every month, and connects developers with the tools and information they need to easily build projects on the open web.
-    Learn more about the history of the project, as well as the people and partners working on building and improving MDN Web Docs.
-- [MDN Product Advisory Board](https://github.com/mdn/pab/about.md)
-  - : The MDN Product Advisory Board's mission is to build collaboration between Mozilla, its documentation team, and the key collaborating organizations that help the MDN community collectively maintain MDN Web Docs.
+  - : MDN Web Docs serves millions of readers every month and connects developers with the tools and information they need to easily build projects on the open web.
+    Learn about the history of MDN, the team working on MDN Web Docs, our values, and our partners.
