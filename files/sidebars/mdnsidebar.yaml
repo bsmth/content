@@ -9,14 +9,14 @@ sidebar:
       - /MDN/Community
       - /MDN/Community/Getting_started
       - /MDN/Community/Our_repositories
-      - /MDN/Community/Translated_content
       - /MDN/Community/Open_source_etiquette
-      - /MDN/Community/Communication_channels
-      - /MDN/Community/Discussions
-      - /MDN/Community/Learn_forum
       - /MDN/Community/Issues
       - /MDN/Community/Pull_requests
+      - /MDN/Community/Discussions
+      - /MDN/Community/Translated_content
       - /MDN/Community/Roles_teams
+      - /MDN/Community/Communication_channels
+      - /MDN/Community/Learn_forum
   - title: writing_guide
     details: closed
     children:
