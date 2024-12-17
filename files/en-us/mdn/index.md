@@ -8,8 +8,8 @@ page-type: landing-page
 
 **MDN Web Docs** is a free-to-use resource documenting open web technologies.
 Our mission is to provide developers with the information they need to easily build projects on the web platform.
-
-In the resources below, you'll find information about how the site works, how we write documentation, the guidelines and conventions we follow, and how you can get involved.
+See our [About](/en-US/about) page to learn more about the history of the project, as well as the people and partners working on building and improving MDN Web Docs.
+The resources below describe how the site works, how we write documentation, the guidelines and conventions we follow, and how you can get involved.
 
 MDN Web Docs is an open-source project and welcomes contributions of all kinds.
 There are many different tasks you can help with, from proofreading or correcting typos to writing API documentation or guides.

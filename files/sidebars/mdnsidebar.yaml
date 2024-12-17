@@ -7,14 +7,9 @@ sidebar:
     details: closed
     children:
       - /MDN/Community
-      - title: contributing_to_mdn_web_docs
-        details: closed
-        children:
-          - /MDN/Community/Contributing
-          - /MDN/Community/Contributing/Getting_started
-          - /MDN/Community/Contributing/Our_repositories
-          - /MDN/Community/Contributing/Translated_content
-          - /MDN/Community/Contributing/Security_vulnerability_response
+      - /MDN/Community/Getting_started
+      - /MDN/Community/Our_repositories
+      - /MDN/Community/Translated_content
       - /MDN/Community/Open_source_etiquette
       - /MDN/Community/Communication_channels
       - /MDN/Community/Discussions
@@ -28,6 +23,8 @@ sidebar:
       - /MDN/Writing_guidelines
       - /MDN/Writing_guidelines/What_we_write
       - /MDN/Writing_guidelines/Writing_style_guide
+      - /MDN/Writing_guidelines/Experimental_deprecated_obsolete
+      - /MDN/Writing_guidelines/Attrib_copyright_license
       - title: how_to_guides
         details: closed
         children:
@@ -56,24 +53,12 @@ sidebar:
           - /MDN/Writing_guidelines/Page_structures/Syntax_sections
           - /MDN/Writing_guidelines/Page_structures/Macros
           - /MDN/Writing_guidelines/Page_structures/Feature_status
-      - /MDN/Writing_guidelines/Attrib_copyright_license
-      - /MDN/Writing_guidelines/Experimental_deprecated_obsolete
-  - title: advisory_board
-    details: closed
-    children:
-      - /MDN/MDN_Product_Advisory_Board
-      - /MDN/MDN_Product_Advisory_Board/Membership
-  - title: history
-    details: closed
-    children:
-      - /MDN/At_ten
-      - /MDN/At_ten/History_of_MDN
-  - /MDN/Changelog
+
 l10n:
   en-US:
     history: History
     advisory_board: Advisory Board
-    community_guidelines: Community guidelines
+    community_guidelines: Community resources
     contributing_to_mdn_web_docs: Contributing to MDN Web Docs
     writing_guide: Writing guidelines
     how_to_guides: How-to guides
@@ -81,7 +66,7 @@ l10n:
   es:
     history: History
     advisory_board: Advisory Board
-    community_guidelines: Community guidelines
+    community_guidelines: Community resources
     contributing_to_mdn_web_docs: Contributing to MDN Web Docs
     writing_guide: Writing guidelines
     how_to_guides: How-to guides
@@ -97,7 +82,7 @@ l10n:
   ja:
     history: History
     advisory_board: Advisory Board
-    community_guidelines: Community guidelines
+    community_guidelines: Community resources
     contributing_to_mdn_web_docs: Contributing to MDN Web Docs
     writing_guide: Writing guidelines
     how_to_guides: How-to guides
@@ -113,7 +98,7 @@ l10n:
   pt-BR:
     history: History
     advisory_board: Advisory Board
-    community_guidelines: Community guidelines
+    community_guidelines: Community resources
     contributing_to_mdn_web_docs: Contributing to MDN Web Docs
     writing_guide: Writing guidelines
     how_to_guides: How-to guides
@@ -121,7 +106,7 @@ l10n:
   ru:
     history: History
     advisory_board: Advisory Board
-    community_guidelines: Community guidelines
+    community_guidelines: Community resources
     contributing_to_mdn_web_docs: Contributing to MDN Web Docs
     writing_guide: Writing guidelines
     how_to_guides: How-to guides
@@ -137,7 +122,7 @@ l10n:
   zh-TW:
     history: History
     advisory_board: Advisory Board
-    community_guidelines: Community guidelines
+    community_guidelines: Community resources
     contributing_to_mdn_web_docs: Contributing to MDN Web Docs
     writing_guide: Writing guidelines
     how_to_guides: How-to guides

@@ -6,7 +6,7 @@ page-type: mdn-writing-guide
 
 {{MDNSidebar}}
 
-The pages below describe our guidelines for what we document and how we author pages on MDN Web Docs.
+The pages below describe our guidelines for what we document and the authoring rules for pages on MDN Web Docs.
 To learn how to contribute, see our [contribution guidelines](/en-US/docs/MDN/Community).
 
 - [What we write](/en-US/docs/MDN/Writing_guidelines/What_we_write)

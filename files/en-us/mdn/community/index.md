@@ -1,6 +1,6 @@
 ---
-title: Community guidelines
-short-title: Community
+title: Community resources
+short-title: Resources
 slug: MDN/Community
 page-type: mdn-community-guide
 ---

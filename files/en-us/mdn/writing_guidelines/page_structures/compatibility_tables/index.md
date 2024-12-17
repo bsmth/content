@@ -1,5 +1,5 @@
 ---
-title: Compatibility tables and the browser compatibility data repository (BCD)
+title: Compatibility tables and Browser Compatibility Data (BCD)
 slug: MDN/Writing_guidelines/Page_structures/Compatibility_tables
 page-type: mdn-writing-guide
 browser-compat: api.AbortController

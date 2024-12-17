@@ -1,5 +1,5 @@
 ---
-title: MDN GitHub Repositories
+title: MDN GitHub repositories
 slug: MDN/Community/Our_repositories
 page-type: mdn-community-guide
 ---

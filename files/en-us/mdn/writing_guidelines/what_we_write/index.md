@@ -6,7 +6,7 @@ page-type: mdn-writing-guide
 
 {{MDNSidebar}}
 
-MDN Web Docs contains _browser-neutral_ documentation that enables web developers to write _browser-agnostic_ code. In this article, you'll find information about whether or not a given topic and/or type of content should be included on MDN Web Docs.
+MDN Web Docs contains browser-neutral documentation that enables web developers to write browser-agnostic code. In this article, you'll find information about whether or not a given topic and/or type of content should be included on MDN Web Docs.
 
 ## Editorial Policies
 

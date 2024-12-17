@@ -1,5 +1,5 @@
 ---
-title: Guidelines to open and work on issues
+title: Opening and working on issues
 slug: MDN/Community/Issues
 page-type: mdn-community-guide
 ---
