@@ -13,7 +13,7 @@ In the resources below, you'll find information about how the site works, how we
 
 MDN Web Docs is an open-source project and welcomes contributions of all kinds.
 There are many different tasks you can help with, from proofreading or correcting typos to writing API documentation or guides.
-To find out how to help, visit the [Getting started](/en-US/docs/MDN/Community/Contributing/Getting_started) page.
+To find out how to help, visit the [Getting started](/en-US/docs/MDN/Community/Getting_started) page.
 If you want to talk to us and ask questions, get in touch in one of the [MDN Web Docs communication channels](/en-US/docs/MDN/Community/Communication_channels).
 
 - [Community](/en-US/docs/MDN/Community)

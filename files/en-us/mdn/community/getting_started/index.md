@@ -1,6 +1,7 @@
 ---
 title: Getting started with MDN Web Docs
-slug: MDN/Community/Contributing/Getting_started
+short-title: Getting started
+slug: MDN/Community/Getting_started
 page-type: mdn-community-guide
 ---
 
@@ -61,7 +62,7 @@ Here's a list of ways you can contribute to MDN Web Docs:
 - [Reviewing pull requests](/en-US/docs/MDN/Community/Pull_requests)
 - [Help beginners to learn on MDN Web Docs](/en-US/docs/MDN/Community/Learn_forum)
 - [Contribute to MDN Web Docs interactive examples](https://github.com/mdn/interactive-examples/blob/main/CONTRIBUTING.md)
-- [Help translate MDN Web Docs](/en-US/docs/MDN/Community/Contributing/Translated_content)
+- [Help translate MDN Web Docs](/en-US/docs/MDN/Community/Translated_content)
 - [Help fix known platform issues](https://github.com/mdn/yari/issues)
 - [Help us keep browser compatibility data up to date](https://github.com/mdn/browser-compat-data)
 
