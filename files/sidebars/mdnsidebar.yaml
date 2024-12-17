@@ -29,16 +29,16 @@ sidebar:
         details: closed
         children:
           - /MDN/Writing_guidelines/Howto
-          - /MDN/Writing_guidelines/Howto/Images_media
+          - /MDN/Writing_guidelines/Howto/Research_technology
+          - /MDN/Writing_guidelines/Howto/Markdown_in_MDN
           - /MDN/Writing_guidelines/Howto/Creating_moving_deleting
+          - /MDN/Writing_guidelines/Howto/Write_a_new_entry_in_the_glossary
           - /MDN/Writing_guidelines/Howto/Document_a_CSS_property
+          - /MDN/Writing_guidelines/Howto/Write_an_api_reference
           - /MDN/Writing_guidelines/Howto/Document_an_HTTP_header
           - /MDN/Writing_guidelines/Howto/Document_web_errors
-          - /MDN/Writing_guidelines/Howto/Research_technology
           - /MDN/Writing_guidelines/Howto/JSON_Structured_data
-          - /MDN/Writing_guidelines/Howto/Write_an_api_reference
-          - /MDN/Writing_guidelines/Howto/Write_a_new_entry_in_the_glossary
-          - /MDN/Writing_guidelines/Howto/Markdown_in_MDN
+          - /MDN/Writing_guidelines/Howto/Images_media
       - title: page_structures
         details: closed
         children:
