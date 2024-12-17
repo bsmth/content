@@ -7,7 +7,6 @@ page-type: mdn-community-guide
 {{MDNSidebar}}
 
 As a contributor, you can [report](#guidelines_for_reporting_an_issue) and [work](#guidelines_for_working_on_an_issue) on issues.
-
 After you report an issue, the issue gets triaged. Issue [triaging](#guidelines_for_triaging_issues) is typically done by people assigned the role of a maintainer or an owner.
 
 ## General guidelines for participation

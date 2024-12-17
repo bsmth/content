@@ -5392,13 +5392,14 @@
 /en-US/docs/MDC:How_to_Help	/en-US/docs/MDN/Community/Contributing
 /en-US/docs/MDN/About	/en-US/docs/MDN/Writing_guidelines
 /en-US/docs/MDN/At_ten/Contributing_to_MDN	/en-US/docs/MDN/Community/Contributing
+/en-US/docs/MDN/Changelog	/en-US/docs/MDN/Writing_guidelines/Changelog
 /en-US/docs/MDN/Community/Issues/Issue_triage	/en-US/docs/MDN/Community/Issues
 /en-US/docs/MDN/Community/MDN_content	/en-US/docs/MDN/Community/Contributing
 /en-US/docs/MDN/Community/MDN_content/Issues	/en-US/docs/MDN/Community/Issues
 /en-US/docs/MDN/Community/MDN_content/Pull_requests	/en-US/docs/MDN/Community/Pull_requests
 /en-US/docs/MDN/Community/Users_teams	/en-US/docs/MDN/Community/Roles_teams
 /en-US/docs/MDN/Contribute	/en-US/docs/MDN/Community/Contributing
-/en-US/docs/MDN/Contribute/Changelog	/en-US/docs/MDN/Changelog
+/en-US/docs/MDN/Contribute/Changelog	/en-US/docs/MDN/Writing_guidelines/Changelog
 /en-US/docs/MDN/Contribute/Code_sample_guidelines	/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide
 /en-US/docs/MDN/Contribute/Content	/en-US/docs/MDN/Writing_guidelines
 /en-US/docs/MDN/Contribute/Content/Content_blocks	/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN

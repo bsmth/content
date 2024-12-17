@@ -7,8 +7,8 @@ page-type: mdn-community-guide
 {{MDNSidebar}}
 
 We are an open community of developers, technical writers, and learners building resources for a better Web, regardless of brand, browser, or platform.
-Anyone can contribute, and each person who does contribute makes us stronger.
-Together we can continue to drive innovation on the Web to serve the greater good.
+Anyone can contribute, and each person who does contribute has an impact on millions of readers.
+Learn how to contribute and drive innovation on the Open Web.
 
 ## What can I do to help?
 
@@ -52,6 +52,18 @@ Someone from the team will respond with some comments, hints, or guidance.
 
 Make sure you're not working on something that's already in-progress - it can be frustrating to duplicate or lose work.
 If in doubt, ask questions on the issue.
+
+## Ways to contribute
+
+Here's a list of ways you can contribute to MDN Web Docs:
+
+- [Fixing known high impact issues](https://github.com/orgs/mdn/projects/25/views/1)
+- [Reviewing pull requests](/en-US/docs/MDN/Community/Pull_requests)
+- [Help beginners to learn on MDN Web Docs](/en-US/docs/MDN/Community/Learn_forum)
+- [Contribute to MDN Web Docs interactive examples](https://github.com/mdn/interactive-examples/blob/main/CONTRIBUTING.md)
+- [Help translate MDN Web Docs](/en-US/docs/MDN/Community/Contributing/Translated_content)
+- [Help fix known platform issues](https://github.com/mdn/yari/issues)
+- [Help us keep browser compatibility data up to date](https://github.com/mdn/browser-compat-data)
 
 ## Contributions
 
