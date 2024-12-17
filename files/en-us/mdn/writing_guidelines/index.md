@@ -6,7 +6,8 @@ page-type: mdn-writing-guide
 
 {{MDNSidebar}}
 
-MDN Web Docs is an open-source project. The sections outlined below describe our guidelines for _what_ we document and _how_ we do it on MDN Web Docs. To learn about _how to contribute_, see our [contribution guidelines](/en-US/docs/MDN/Community).
+The pages below describe our guidelines for what we document and how we author pages on MDN Web Docs.
+To learn how to contribute, see our [contribution guidelines](/en-US/docs/MDN/Community).
 
 - [What we write](/en-US/docs/MDN/Writing_guidelines/What_we_write)
 
@@ -20,6 +21,10 @@ MDN Web Docs is an open-source project. The sections outlined below describe our
 
   - : The writing style guide covers the language and style we use to write on MDN Web Docs. It also covers how to [format code examples](/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide).
 
+- [How to label a technology](/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete)
+
+  - : This section covers our definitions for the terms obsolete, deprecated, and experimental and provides guidelines on how to label a technology with them, and when we remove content from MDN Web Docs.
+
 - [How to write for MDN Web Docs](/en-US/docs/MDN/Writing_guidelines/Howto)
 
   - : This section covers all the information for creating and editing pages, including certain processes and techniques we adhere to. This section provides information about getting started, a general overview into how pages are structured, and where to find how-tos on specific tasks. This section includes topics such as:
@@ -28,7 +33,7 @@ MDN Web Docs is an open-source project. The sections outlined below describe our
 
       - : This section provides some handy tips for researching a technology you are documenting.
 
-    - [How to create, move, and delete pages](/en-US/docs/MDN/Writing_guidelines/Howto/Creating_moving_deleting)
+    - [How to create, edit, move, or delete pages](/en-US/docs/MDN/Writing_guidelines/Howto/Creating_moving_deleting)
 
       - : This section explains how we create, move, or delete a page on MDN Web Docs. It also explains how we redirect a page when moving or deleting the page.
 
@@ -91,7 +96,3 @@ MDN Web Docs is an open-source project. The sections outlined below describe our
 - [Attributions and copyright licensing information](/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license)
 
   - : Describes our policy on using MDN Web Docs content elsewhere on the web, how to get permission to republish content on MDN, and hints for linking to MDN content.
-
-- [How to label a technology](/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete)
-
-  - : This section covers our definitions for the terms obsolete, deprecated, and experimental and provides guidelines on how to label a technology with them, and when we remove content from MDN Web Docs.
