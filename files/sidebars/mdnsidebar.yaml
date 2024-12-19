@@ -55,6 +55,14 @@ sidebar:
           - /MDN/Writing_guidelines/Page_structures/Feature_status
 
 l10n:
+  de:
+    history: Geschichte
+    advisory_board: Product Advisory Board
+    community_guidelines: Gemeinschaftsrichtlinien
+    contributing_to_mdn_web_docs: Beiträge zu MDN Web Docs
+    writing_guide: Schreibanleitung
+    how_to_guides: Anleitungen
+    page_structures: Seitenstrukturen
   en-US:
     community_guidelines: Community resources
     contributing_to_mdn_web_docs: Contributing to MDN Web Docs
