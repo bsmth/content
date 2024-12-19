@@ -1,5 +1,5 @@
 ---
-title: MDN project documentation
+title: Contributing to MDN
 slug: MDN
 page-type: landing-page
 ---
@@ -12,7 +12,7 @@ The resources below describe how the site works, how we write documentation, the
 
 - [MDN Web Docs Community](/en-US/docs/MDN/Community)
   - : These pages describe how to get started contributing to MDN Web Docs.
-    You can find out how to work on GitHub issues, open discussions, or suggest new content.
+    You can find out where to look for answers, how to work on GitHub issues, open discussions, or suggest new content.
     If you need help or want to get in touch with us, you'll find all the information here.
 - [Writing guidelines](/en-US/docs/MDN/Writing_guidelines)
   - : These guides describe how to write for MDN Web Docs.
