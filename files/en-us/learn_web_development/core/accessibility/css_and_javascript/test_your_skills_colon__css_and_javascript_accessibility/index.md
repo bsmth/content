@@ -62,16 +62,16 @@ Try updating the live code below to recreate the finished example:
   <h1>I am the eggman</h1>
 
   <p>
-    Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm.
-    Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm
-    hempen halter furl.
+    Prow scuttle halter provost Sail ho shrouds spirits boom mizzenmast yardarm.
+    Pinnace holystone mizzenmast quarter crow's nest halter grog yardarm hempen
+    halter furl.
   </p>
 
   <h2>They are the eggman</h2>
 
   <p>
     Swab barque interloper chantey doubloon starboard grog black jack gangway
-    rutters.
+    halter.
   </p>
 
   <h2>I am the walrus</h2>

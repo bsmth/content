@@ -98,7 +98,93 @@ input:optional {
 
 The required controls would have a black border, and the optional control will have a silver border, like so:
 
-{{EmbedGHLiveSample("learning-area/html/forms/pseudo-classes/basic-required-optional.html", '100%', 400)}}
+```html live-sample___basic-required-optional
+<body>
+  <form>
+    <fieldset>
+      <legend>Feedback form</legend>
+      <div>
+        <label for="fname"> First name: </label>
+        <input id="fname" name="fname" required="" type="text" />
+      </div>
+      <div>
+        <label for="lname"> Last name: </label>
+        <input id="lname" name="lname" required="" type="text" />
+      </div>
+      <div>
+        <label for="email">
+          Email address (include if you want a response):
+        </label>
+        <input id="email" name="email" type="email" />
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+```
+
+```css live-sample___basic-required-optional
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eee;
+}
+
+input:required {
+  border: 1px solid black;
+}
+
+input:optional {
+  border: 1px solid silver;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+```
+
+{{EmbedLiveSample("basic-required-optional")}}
 
 You can also try submitting the form without filling it in, to see the client-side validation error messages browsers give you by default.
 
@@ -199,7 +285,106 @@ We set the `<span>` to `position: relative` so that we can set the generated con
 
 Then we give the generated content the content "required", which is what we wanted our label to say, and style and position it as we want. The result is seen below.
 
-{{EmbedGHLiveSample("learning-area/html/forms/pseudo-classes/required-optional-generated.html", '100%', 430)}}
+```html live-sample___required-optional-generated
+<body>
+  <form>
+    <fieldset>
+      <legend>Feedback form</legend>
+      <p>Required fields are labelled with "required".</p>
+      <div>
+        <label for="fname"> First name: </label>
+        <input id="fname" name="fname" required="" type="text" />
+        <span> </span>
+      </div>
+      <div>
+        <label for="lname"> Last name: </label>
+        <input id="lname" name="lname" required="" type="text" />
+        <span> </span>
+      </div>
+      <div>
+        <label for="email">
+          Email address (include if you want a response):
+        </label>
+        <input id="email" name="email" type="email" />
+        <span> </span>
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+```
+
+```css live-sample___required-optional-generated
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eee;
+}
+
+input + span {
+  position: relative;
+}
+
+input:required + span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "required";
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  top: -26px;
+  left: -70px;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+```
+
+{{EmbedLiveSample("required-optional-generated")}}
 
 ## Styling controls based on whether their data is valid
 
@@ -262,7 +447,126 @@ As before, we set the `<span>`s to `position: relative` so that we can position 
 
 You can try it below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/pseudo-classes/valid-invalid.html", '100%', 430)}}
+```html live-sample___valid-invalid
+<body>
+  <form>
+    <fieldset>
+      <legend>Feedback form</legend>
+      <p>Required fields are labelled with "required".</p>
+      <div>
+        <label for="fname"> First name: </label>
+        <input id="fname" name="fname" required="" type="text" />
+        <span> </span>
+      </div>
+      <div>
+        <label for="lname"> Last name: </label>
+        <input id="lname" name="lname" required="" type="text" />
+        <span> </span>
+      </div>
+      <div>
+        <label for="email">
+          Email address (include if you want a response):
+        </label>
+        <input id="email" name="email" type="email" />
+        <span> </span>
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+```
+
+```css live-sample___valid-invalid
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eee;
+}
+
+input + span {
+  position: relative;
+}
+
+input:required + span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "required";
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  top: -26px;
+  left: -70px;
+}
+
+input + span::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+```
+
+{{EmbedLiveSample("valid-invalid")}}
 
 Notice how the required text inputs are invalid when empty, but valid when they have something filled in. The email input on the other hand is valid when empty, as it is not required, but invalid when it contains something that is not a proper email address.
 
@@ -319,7 +623,143 @@ input:out-of-range + span::after {
 
 This is a similar story to what we had before in the `:required` example, except that here we've split out the declarations that apply to any `::after` content into a separate rule, and given the separate `::after` content for `:required` and `:out-of-range` states their own content and styling. You can try it here:
 
-{{EmbedGHLiveSample("learning-area/html/forms/pseudo-classes/out-of-range.html", '100%', 430)}}
+```html live-sample___out-of-range
+<body>
+  <form>
+    <fieldset>
+      <legend>Feedback form</legend>
+      <p>Required fields are labelled with "required".</p>
+      <div>
+        <label for="name"> Name: </label>
+        <input id="name" name="name" required="" type="text" />
+        <span> </span>
+      </div>
+      <div>
+        <label for="age"> Age (must be 12+): </label>
+        <input
+          id="age"
+          max="120"
+          min="12"
+          name="age"
+          required=""
+          type="number" />
+        <span> </span>
+      </div>
+      <div>
+        <label for="email">
+          Email address (include if you want a response):
+        </label>
+        <input id="email" name="email" type="email" />
+        <span> </span>
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+```
+
+```css live-sample___out-of-range
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eee;
+}
+
+input + span {
+  position: relative;
+}
+
+input + span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  padding: 5px 10px;
+  top: -26px;
+}
+
+input:required + span::after {
+  color: white;
+  background-color: black;
+  content: "required";
+  left: -70px;
+}
+
+input:out-of-range + span::after {
+  color: white;
+  background-color: red;
+  width: 155px;
+  content: "Outside allowable value range";
+  left: -182px;
+}
+
+input + span::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+```
+
+{{EmbedLiveSample("out-of-range")}}
 
 It is possible for the number input to be both required and out-of-range at the same time, so what happens then? Because the `:out-of-range` rule appears later in the source code than the `:required` rule, the [cascade rules](/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts#understanding_the_cascade) come into play, and the out of range message is shown.
 
@@ -426,7 +866,167 @@ It uses the [`change` event](/en-US/docs/Web/API/HTMLElement/change_event) to le
 
 You can see the example in action below (also [see it live here](https://mdn.github.io/learning-area/html/forms/pseudo-classes/enabled-disabled-shipping.html), and see the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/pseudo-classes/enabled-disabled-shipping.html)):
 
-{{EmbedGHLiveSample("learning-area/html/forms/pseudo-classes/enabled-disabled-shipping.html", '100%', 600)}}
+```html live-sample___enabled-disabled-shipping
+<body>
+  <form>
+    <fieldset id="shipping">
+      <legend>Shipping address</legend>
+      <div>
+        <label for="name1"> Name: </label>
+        <input id="name1" name="name1" required="" type="text" />
+      </div>
+      <div>
+        <label for="address1"> Address: </label>
+        <input id="address1" name="address1" required="" type="text" />
+      </div>
+      <div>
+        <label for="pcode1"> Zip/postal code: </label>
+        <input id="pcode1" name="pcode1" required="" type="text" />
+      </div>
+    </fieldset>
+    <fieldset id="billing">
+      <legend>Billing address</legend>
+      <div>
+        <label for="billing-checkbox"> Same as shipping address: </label>
+        <input checked="" id="billing-checkbox" type="checkbox" />
+      </div>
+      <div>
+        <label class="billing-label" for="name"> Name: </label>
+        <input disabled="" id="name" name="name" required="" type="text" />
+      </div>
+      <div>
+        <label class="billing-label" for="address2"> Address: </label>
+        <input
+          disabled=""
+          id="address2"
+          name="address2"
+          required=""
+          type="text" />
+      </div>
+      <div>
+        <label class="billing-label" for="pcode2"> Zip/postal code: </label>
+        <input disabled="" id="pcode2" name="pcode2" required="" type="text" />
+      </div>
+    </fieldset>
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+  <script>
+    // Wait for the page to finish loading
+    document.addEventListener(
+      "DOMContentLoaded",
+      function () {
+        // Attach `change` event listener to checkbox
+        document
+          .getElementById("billing-checkbox")
+          .addEventListener("change", toggleBilling);
+      },
+      false,
+    );
+
+    function toggleBilling() {
+      // Select the billing text fields
+      let billingItems = document.querySelectorAll(
+        '#billing input[type="text"]',
+      );
+
+      // Toggle the billing text fields
+      for (let i = 0; i < billingItems.length; i++) {
+        billingItems[i].disabled = !billingItems[i].disabled;
+      }
+    }
+  </script>
+</body>
+```
+
+```css live-sample___enabled-disabled-shipping
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+  margin-bottom: 20px;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+button,
+label,
+input[type="text"] {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eee;
+}
+
+input[type="text"]:disabled {
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+label:has(+ :disabled) {
+  color: #aaa;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+```
+
+```js live-sample___enabled-disabled-shipping
+// Wait for the page to finish loading
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+    // Attach `change` event listener to checkbox
+    document
+      .getElementById("billing-checkbox")
+      .addEventListener("change", toggleBilling);
+  },
+  false,
+);
+
+function toggleBilling() {
+  // Select the billing text fields
+  let billingItems = document.querySelectorAll('#billing input[type="text"]');
+
+  // Toggle the billing text fields
+  for (let i = 0; i < billingItems.length; i++) {
+    billingItems[i].disabled = !billingItems[i].disabled;
+  }
+}
+```
+
+{{EmbedLiveSample("enabled-disabled-shipping")}}
 
 ### Read-only and read-write
 
@@ -463,7 +1063,129 @@ textarea:read-write {
 
 The full example looks like this:
 
-{{EmbedGHLiveSample("learning-area/html/forms/pseudo-classes/readonly-confirmation.html", '100%', 660)}}
+```html live-sample___readonly-confirmation
+<body>
+  <form>
+    <fieldset>
+      <legend>Check shipping details</legend>
+      <div>
+        <label for="name"> Name: </label>
+        <input id="name" name="name" readonly="" type="text" value="Mr Soft" />
+      </div>
+      <div>
+        <label for="address"> Address: </label>
+        <textarea id="address" name="address" readonly="">
+23 Elastic Way,
+Viscous,
+Bright Ridge,
+CA
+</textarea
+        >
+      </div>
+      <div>
+        <label for="pcode"> Zip/postal code: </label>
+        <input id="pcode" name="pcode" readonly="" type="text" value="94708" />
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Final instructions</legend>
+      <div>
+        <label for="sms-confirm"> Send confirmation by SMS? </label>
+        <input id="sms-confirm" name="sms-confirm" type="checkbox" />
+      </div>
+      <div>
+        <label for="instructions"> Any special instructions? </label>
+        <textarea id="instructions" name="instructions"></textarea>
+      </div>
+    </fieldset>
+    <div>
+      <button type="button">Amend details</button>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</body>
+```
+
+```css live-sample___readonly-confirmation
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+  margin-bottom: 20px;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button,
+label,
+input[type="text"],
+textarea {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="text"],
+textarea {
+  width: 50%;
+}
+
+textarea {
+  height: 110px;
+  resize: none;
+}
+
+label {
+  width: 40%;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  background-color: #eee;
+}
+
+button {
+  width: 60%;
+  margin: 20px auto;
+}
+
+input:read-only,
+textarea:read-only {
+  border: 0;
+  box-shadow: none;
+  background-color: white;
+}
+
+textarea:read-write {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+}
+```
+
+{{EmbedLiveSample("readonly-confirmation")}}
 
 > **Note:** `:enabled` and `:read-write` are two more pseudo-classes that you'll probably rarely use, given that they describe the default states of input elements.
 
@@ -504,7 +1226,69 @@ input[type="radio"]:checked::before {
 
 You can try it out here:
 
-{{EmbedGHLiveSample("learning-area/html/forms/styling-examples/radios-styled.html", '100%', 200)}}
+```html live-sample___radios-styled
+<body>
+  <form>
+    <fieldset>
+      <legend>Choose your favorite fruit</legend>
+      <p>
+        <label>
+          <input name="fruit" type="radio" value="cherry" />
+          Cherry
+        </label>
+      </p>
+      <p>
+        <label>
+          <input name="fruit" type="radio" value="banana" />
+          Banana
+        </label>
+      </p>
+      <p>
+        <label>
+          <input name="fruit" type="radio" value="strawberry" />
+          Strawberry
+        </label>
+      </p>
+    </fieldset>
+  </form>
+</body>
+```
+
+```css live-sample___radios-styled
+input[type="radio"] {
+  appearance: none;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  /* Adjusts the position of the checkboxes on the text baseline */
+  vertical-align: -2px;
+  outline: none;
+}
+
+input[type="radio"]::before {
+  display: block;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: red;
+  font-size: 1.2em;
+  transform: translate(3px, 3px) scale(0);
+  transform-origin: center;
+  transition: all 0.3s ease-in;
+}
+
+input[type="radio"]:checked::before {
+  transform: translate(3px, 3px) scale(1);
+  transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
+```
+
+{{EmbedLiveSample("radios-styled")}}
 
 Basically, we build the styling for a radio button's "inner circle" using the `::before` pseudo-element, but set a `scale(0)` [`transform`](/en-US/docs/Web/CSS/transform) on it. We then use a [`transition`](/en-US/docs/Web/CSS/transition) to make the generated content on the label nicely animate into view when the radio is selected/checked. The advantage of using a transform rather than transitioning [`width`](/en-US/docs/Web/CSS/width)/[`height`](/en-US/docs/Web/CSS/height) is that you can use [`transform-origin`](/en-US/docs/Web/CSS/transform-origin) to make it grow from the center of the circle, rather than having it appear to grow from the circle's corner, and there is no jumping behavior as no box model property values are updated.
 
@@ -553,7 +1337,91 @@ This provides a little "Default" label on the item that was originally selected 
 
 See the live result below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/pseudo-classes/radios-checked-default.html", '100%', 200)}}
+```html live-sample___radios-checked-default
+<body>
+  <form>
+    <fieldset>
+      <legend>Choose your favorite fruit</legend>
+      <p>
+        <input id="cherry" name="fruit" type="radio" value="cherry" />
+        <label for="cherry"> Cherry </label>
+        <span> </span>
+      </p>
+      <p>
+        <input
+          checked=""
+          id="banana"
+          name="fruit"
+          type="radio"
+          value="banana" />
+        <label for="banana"> Banana </label>
+        <span> </span>
+      </p>
+      <p>
+        <input id="strawberry" name="fruit" type="radio" value="strawberry" />
+        <label for="strawberry"> Strawberry </label>
+        <span> </span>
+      </p>
+    </fieldset>
+  </form>
+</body>
+```
+
+```css live-sample___radios-checked-default
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  /* Adjusts the position of the checkboxes on the text baseline */
+  vertical-align: -2px;
+  outline: none;
+}
+
+input[type="radio"]::before {
+  display: block;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: red;
+  font-size: 1.2em;
+  transform: translate(3px, 3px) scale(0);
+  transform-origin: center;
+  transition: all 0.3s ease-in;
+}
+
+input[type="radio"]:checked::before {
+  transform: translate(3px, 3px) scale(1);
+  transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
+
+input ~ span {
+  position: relative;
+}
+
+input:default ~ span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "Default";
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  right: -65px;
+  top: -3px;
+}
+```
+
+{{EmbedLiveSample("radios-checked-default")}}
 
 > [!NOTE]
 > You can also find the example live on GitHub at [radios-checked-default.html](https://mdn.github.io/learning-area/html/forms/pseudo-classes/radios-checked-default.html) (also see the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/pseudo-classes/radios-checked-default.html).)
@@ -581,7 +1449,86 @@ This creates a fun little animated outline on the radio buttons, which hopefully
 
 See the live result below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/pseudo-classes/radios-checked-indeterminate.html", '100%', 200)}}
+```html live-sample___radios-checked-indeterminate
+<body>
+  <form>
+    <fieldset>
+      <legend>Choose your favorite fruit</legend>
+      <p>
+        <input id="cherry" name="fruit" type="radio" value="cherry" />
+        <label for="cherry"> Cherry </label>
+        <span> </span>
+      </p>
+      <p>
+        <input id="banana" name="fruit" type="radio" value="banana" />
+        <label for="banana"> Banana </label>
+        <span> </span>
+      </p>
+      <p>
+        <input id="strawberry" name="fruit" type="radio" value="strawberry" />
+        <label for="strawberry"> Strawberry </label>
+        <span> </span>
+      </p>
+    </fieldset>
+  </form>
+</body>
+```
+
+```css live-sample___radios-checked-indeterminate
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  /* Adjusts the position of the checkboxes on the text baseline */
+  vertical-align: -2px;
+  outline: none;
+}
+
+input[type="radio"]::before {
+  display: block;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: red;
+  font-size: 1.2em;
+  transform: translate(3px, 3px) scale(0);
+  transform-origin: center;
+  transition: all 0.3s ease-in;
+}
+
+input[type="radio"]:checked::before {
+  transform: translate(3px, 3px) scale(1);
+  transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
+
+input[type="radio"]:indeterminate {
+  border: 2px solid red;
+  animation: 0.4s linear infinite alternate border-pulse;
+}
+
+@keyframes border-pulse {
+  from {
+    border: 2px solid red;
+  }
+
+  to {
+    border: 6px solid red;
+  }
+}
+```
+
+{{EmbedLiveSample("radios-checked-indeterminate")}}
 
 > [!NOTE]
 > You can also find the example live on GitHub at [radios-checked-indeterminate.html](https://mdn.github.io/learning-area/html/forms/pseudo-classes/radios-checked-indeterminate.html) (also see the [source code](https://github.com/mdn/learning-area/blob/main/html/forms/pseudo-classes/radios-checked-indeterminate.html).)

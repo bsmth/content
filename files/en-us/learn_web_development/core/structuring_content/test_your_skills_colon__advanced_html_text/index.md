@@ -24,7 +24,65 @@ In this task, we want you to add some semantics to the provided HTML as follows:
 
 The finished example should look like this:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/advanced-text/advanced-text2-finished.html", '100%', 300)}}
+```html hidden live-sample___advanced-text2-finished
+<body>
+  <h1>Advanced text semantics</h1>
+  <p>Let's start with a quote:</p>
+  <blockquote
+    cite="https://developer.mozilla.org/en-US/docs/Learn/Accessibility">
+    <p>
+      <abbr title="HyperText Markup Language">HTML</abbr>, Hypertext Markup
+      Language is by default accessible, if used correctly.
+    </p>
+  </blockquote>
+  <p>
+    <abbr title="Cascading Style Sheets">CSS</abbr>, Cascading Style Sheets, can
+    also be used to make web pages more, or less, accessible.
+  </p>
+  <p>
+    Chemical Formulae: H<sub>2</sub>O (Water), C<sub>2</sub>H<sub>6</sub>O
+    (Ethanol).
+  </p>
+  <p>
+    Dates:
+    <time datetime="2019-12-25">December 25 <sup>th</sup> 2019 </time>
+    (Christmas Day),
+    <time datetime="2019-11-02">November 2<sup>nd</sup>2019</time>
+    (Día de los Muertos).
+  </p>
+</body>
+```
+
+```css hidden live-sample___advanced-text2-finished
+body {
+  background-color: #fff;
+  color: #333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: purple;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+abbr,
+time {
+  color: green;
+}
+```
+
+{{EmbedLiveSample("advanced-text2-finished")}}
 
 Try updating the live code below to recreate the finished example:
 

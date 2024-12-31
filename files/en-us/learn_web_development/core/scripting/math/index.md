@@ -435,7 +435,31 @@ function updateBtn() {
 }
 ```
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/maths/conditional.html", '100%', 100)}}
+```html live-sample___conditional
+<body>
+  <button>Start machine</button>
+  <p>The machine is stopped.</p>
+</body>
+```
+
+```js live-sample___conditional
+const btn = document.querySelector("button");
+const txt = document.querySelector("p");
+
+btn.addEventListener("click", updateBtn);
+
+function updateBtn() {
+  if (btn.textContent === "Start machine") {
+    btn.textContent = "Stop machine";
+    txt.textContent = "The machine has started!";
+  } else {
+    btn.textContent = "Start machine";
+    txt.textContent = "The machine is stopped.";
+  }
+}
+```
+
+{{EmbedLiveSample("conditional")}}
 
 **[Open in new window](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/maths/conditional.html)**
 

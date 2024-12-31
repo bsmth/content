@@ -48,11 +48,45 @@ The {{htmlelement("video")}} and {{htmlelement("audio")}} elements allow us to e
 
 This creates a video player inside the browser like so:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/video-and-audio-content/multiple-video-formats.html", '100%', 380)}}
+```html live-sample___multiple-video-formats
+<body>
+  <h1>Below is a video that will play in all modern browsers</h1>
+  <video controls="">
+    <source src="rabbit320.mp4" type="video/mp4" />
+    <source src="rabbit320.webm" type="video/webm" />
+    <p>
+      Your browser doesn't support HTML5 video. Here is a
+      <a href="rabbit320.mp4"> link to the video </a>
+      instead.
+    </p>
+  </video>
+</body>
+```
+
+{{EmbedLiveSample("multiple-video-formats")}}
 
 You can review what all the HTML features do in the article linked above; for our purposes here, the most interesting attribute is [`controls`](/en-US/docs/Web/HTML/Element/video#controls), which enables the default set of playback controls. If you don't specify this, you get no playback controls:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/video-and-audio-content/multiple-video-formats-no-controls.html", '100%', 380)}}
+```html live-sample___multiple-video-formats-no-controls
+<body>
+  <h1>Below is a video that will play in all modern browsers</h1>
+  <video>
+    <source src="rabbit320.mp4" type="video/mp4" />
+    <source src="rabbit320.webm" type="video/webm" />
+    <p>
+      Your browser doesn't support HTML5 video. Here is a
+      <a href="rabbit320.mp4"> link to the video </a>
+      instead.
+    </p>
+  </video>
+</body>
+```
+
+```css live-sample___multiple-video-formats-no-controls
+No <style> content found
+```
+
+{{EmbedLiveSample("multiple-video-formats-no-controls")}}
 
 This is not as immediately useful for video playback, but it does have advantages. One big issue with the native browser controls is that they are different in each browser — not very good for cross-browser support! Another big issue is that the native controls in most browsers aren't very keyboard-accessible.
 
