@@ -24,7 +24,26 @@ In our first "other controls" assessment, we'll get you to create a multi-line t
 
 To create the input, update the HTML code in the editor below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/other-controls/other-controls1.html", '100%', 500)}}
+```html live-sample___other-controls1
+<form>
+  <h2>Enter your comment</h2>
+  <ul>
+    <li>
+      <label for="name">Name:</label>
+      <input id="name" name="name" type="text" />
+    </li>
+    <li>
+      <label for="comment">Comment:</label>
+      <!-- add your input here  -->
+    </li>
+    <li>
+      <button>Submit comment</button>
+    </li>
+  </ul>
+</form>
+```
+
+{{EmbedLiveSample("other-controls1")}}
 
 > [!CALLOUT]
 >
@@ -40,7 +59,22 @@ Now it's time to have a go at implementing a drop-down select menu, to allow a u
 
 To create the menu, update the HTML code in the editor below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/other-controls/other-controls2.html", '100%', 500)}}
+```html live-sample___other-controls2
+<form>
+  <ul>
+    <li>
+      <label for="food">Pick your favorite food:</label>
+
+      Salad Curry Pizza Fajitas Biscuits Crisps Fruit Breadsticks
+    </li>
+    <li>
+      <button>Submit choice</button>
+    </li>
+  </ul>
+</form>
+```
+
+{{EmbedLiveSample("other-controls2")}}
 
 > [!CALLOUT]
 >
@@ -56,7 +90,22 @@ In our final task of this set, we start with much the same list of food choices.
 
 To create the input, update the HTML code in the editor below:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/other-controls/other-controls3.html", '100%', 500)}}
+```html live-sample___other-controls3
+<form>
+  <ul>
+    <li>
+      <label for="food">Enter your favorite food:</label>
+
+      Salad Curry Pizza Fajitas Biscuits Crisps Fruit Breadsticks
+    </li>
+    <li>
+      <button>Submit choice</button>
+    </li>
+  </ul>
+</form>
+```
+
+{{EmbedLiveSample("other-controls3")}}
 
 > [!CALLOUT]
 >

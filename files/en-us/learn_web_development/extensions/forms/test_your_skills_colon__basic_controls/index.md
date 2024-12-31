@@ -23,7 +23,17 @@ This task starts you off nice and gently by asking you to create two `<input>` e
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/basic-controls/basic-controls1.html", '100%', 700)}}
+```html live-sample___basic-controls1
+<form>
+  <ul>
+    <li>User ID</li>
+    <li>Password</li>
+    <li></li>
+  </ul>
+</form>
+```
+
+{{EmbedLiveSample("basic-controls1")}}
 
 > [!CALLOUT]
 >
@@ -40,7 +50,38 @@ The next task requires you to create working sets of checkboxes and radio button
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/basic-controls/basic-controls2.html", '100%', 700)}}
+```html live-sample___basic-controls2
+<form>
+  <fieldset>
+    <legend>Who is your favorite pony?</legend>
+    <ul>
+      <li>
+        <label for="pinkie">Pinkie Pie</label>
+      </li>
+      <li>
+        <label for="rainbow">Rainbow Dash</label>
+      </li>
+      <li>
+        <label for="twilight">Twilight Sparkle</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Hotdog preferences</legend>
+    <ul>
+      <li>
+        <label for="vegan">Vegan</label>
+      </li>
+      <li>
+        <label for="onions">Onions</label>
+      </li>
+    </ul>
+  </fieldset>
+  <button>Submit</button>
+</form>
+```
+
+{{EmbedLiveSample("basic-controls2")}}
 
 > [!CALLOUT]
 >
@@ -56,7 +97,18 @@ The final task in this set requires you to create a file picker.
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/basic-controls/basic-controls3.html", '100%', 700)}}
+```html live-sample___basic-controls3
+<form>
+  <ul>
+    <li>
+      <label for="gallery-img">Choose gallery images to upload</label>
+    </li>
+  </ul>
+  <button>Submit</button>
+</form>
+```
+
+{{EmbedLiveSample("basic-controls3")}}
 
 > [!CALLOUT]
 >

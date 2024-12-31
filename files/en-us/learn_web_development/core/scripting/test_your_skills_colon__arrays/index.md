@@ -21,7 +21,19 @@ Next, modify the first two items in the array using simple bracket notation and 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/arrays/arrays1.html", '100%', 400)}}
+```js live-sample___arrays1
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+let para1 = document.createElement("p");
+para1.textContent = `Array: ${myArray}`;
+
+section.appendChild(para1);
+```
+
+{{EmbedLiveSample("arrays1")}}
 
 > [!CALLOUT]
 >
@@ -37,7 +49,29 @@ Now let's move on to another task. Here you are provided with a string to work w
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/arrays/arrays2.html", '100%', 400)}}
+```js live-sample___arrays2
+// Add your code here
+
+let myString = "Ryu+Ken+Chun-Li+Cammy+Guile+Sakura+Sagat+Juri";
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+let para1 = document.createElement("p");
+para1.textContent = `Array: ${myArray}`;
+
+let para2 = document.createElement("p");
+para2.textContent = `The length of the array is ${arrayLength}.`;
+
+let para3 = document.createElement("p");
+para3.textContent = `The last item in the array is "${lastItem}".`;
+
+section.appendChild(para1);
+section.appendChild(para2);
+section.appendChild(para3);
+```
+
+{{EmbedLiveSample("arrays2")}}
 
 > [!CALLOUT]
 >
@@ -54,7 +88,31 @@ For this array task, we provide you with a starting array, and you will work in 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/arrays/arrays3.html", '100%', 400)}}
+```js live-sample___arrays3
+let myArray = [
+  "Ryu",
+  "Ken",
+  "Chun-Li",
+  "Cammy",
+  "Guile",
+  "Sakura",
+  "Sagat",
+  "Juri",
+];
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+
+let para1 = document.createElement("p");
+para1.textContent = myString;
+
+section.appendChild(para1);
+```
+
+{{EmbedLiveSample("arrays3")}}
 
 > [!CALLOUT]
 >
@@ -69,7 +127,22 @@ For this array task, we provide you with a starting array listing the names of s
 
 If it works, you should see `"Emus,Egrets"` appear in the page.
 
-{{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/tasks/arrays/arrays4.html", '100%', 400)}}
+```js live-sample___arrays4
+const birds = ["Parrots", "Falcons", "Eagles", "Emus", "Caracaras", "Egrets"];
+
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = " ";
+
+const para1 = document.createElement("p");
+para1.textContent = eBirds;
+
+section.appendChild(para1);
+```
+
+{{EmbedLiveSample("arrays4")}}
 
 > [!CALLOUT]
 >

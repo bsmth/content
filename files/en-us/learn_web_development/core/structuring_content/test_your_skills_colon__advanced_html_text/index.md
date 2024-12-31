@@ -28,7 +28,43 @@ The finished example should look like this:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/advanced-text/advanced-text2.html", '100%', 700)}}
+```html live-sample___advanced-text2
+<h1>Advanced text semantics</h1>
+
+<p>Let's start with a quote:</p>
+
+<p>
+  HTML, Hypertext Markup Language is by default accessible, if used correctly.
+</p>
+
+<p>CSS can also be used to make web pages more, or less, accessible.</p>
+
+<p>Chemical Formulae: H2O (Water), C2H6O (Ethanol).</p>
+
+<p>
+  Dates: December 25th 2019 (Christmas Day), November 2nd 2019 (Día de los
+  Muertos).
+</p>
+```
+
+```css live-sample___advanced-text2
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: purple;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+abbr,
+time {
+  color: green;
+}
+```
+
+{{EmbedLiveSample("advanced-text2")}}
 
 > [!CALLOUT]
 >

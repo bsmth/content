@@ -23,7 +23,19 @@ In this task, we want you to embed an audio file onto the page. You need to:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/media-embed/mediaembed1.html", '100%', 700)}}
+```html live-sample___mediaembed1
+<h1>Basic audio embed</h1>
+
+<audio></audio>
+```
+
+```css live-sample___mediaembed1
+audio {
+  border: 1px solid black;
+}
+```
+
+{{EmbedLiveSample("mediaembed1")}}
 
 > [!CALLOUT]
 >
@@ -44,7 +56,19 @@ In this task, we want you to mark up a slightly more complex video player, with 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/media-embed/mediaembed2.html", '100%', 700)}}
+```html live-sample___mediaembed2
+<h1>Video embed</h1>
+
+<video></video>
+```
+
+```css live-sample___mediaembed2
+video {
+  border: 1px solid black;
+}
+```
+
+{{EmbedLiveSample("mediaembed2")}}
 
 > [!CALLOUT]
 >

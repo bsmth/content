@@ -28,7 +28,41 @@ We've already provided you with a basic reset to build upon.
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/advanced-styling/advanced-styling1.html", '100%', 700)}}
+```html live-sample___advanced-styling1
+<form>
+  <input aria-label="Search our site" id="search" name="search" type="search" />
+  <div></div>
+</form>
+```
+
+```css live-sample___advanced-styling1
+body {
+  background-color: #fff;
+  color: #333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+```
+
+{{EmbedLiveSample("advanced-styling1")}}
 
 > [!CALLOUT]
 >
@@ -47,7 +81,56 @@ We've already provided you with a basic reset to build upon.
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/advanced-styling/advanced-styling2.html", '100%', 700)}}
+```html live-sample___advanced-styling2
+<form>
+  <fieldset>
+    <legend>Who is your favorite pony?</legend>
+    <ul>
+      <li>
+        <label for="pinkie">Pinkie Pie</label>
+        <input id="pinkie" name="pony" type="radio" value="pinkie" />
+      </li>
+      <li>
+        <label for="rainbow">Rainbow Dash</label>
+        <input id="rainbow" name="pony" type="radio" value="rainbow" />
+      </li>
+      <li>
+        <label for="twilight">Twilight Sparkle</label>
+        <input id="twilight" name="pony" type="radio" value="twilight" />
+      </li>
+    </ul>
+  </fieldset>
+</form>
+```
+
+```css live-sample___advanced-styling2
+body {
+  background-color: #fff;
+  color: #333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+```
+
+{{EmbedLiveSample("advanced-styling2")}}
 
 > [!CALLOUT]
 >

@@ -23,7 +23,26 @@ The finished example should look like this:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/basic-text/basic-text1.html", '100%', 700)}}
+```html live-sample___basic-text1
+Basic HTML Animals This is the first paragraph in our page. It introduces our
+animals. The Llama Our Llama is a big fan of list items. When she spies a patch
+of them on a web page, she will eat them like sweets, licking her lips as she
+goes. The Anaconda The crafty anaconda likes to slither around the page,
+travelling rapidly by way of anchors to sneak up on his prey.
+```
+
+```css live-sample___basic-text1
+h1,
+h2 {
+  color: purple;
+}
+
+p {
+  color: gray;
+}
+```
+
+{{EmbedLiveSample("basic-text1")}}
 
 > [!CALLOUT]
 >
@@ -39,7 +58,36 @@ The finished example should look like this:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/basic-text/basic-text2.html", '100%', 700)}}
+```html live-sample___basic-text2
+<h1>Looking at lists</h1>
+
+<p>Turn the following list of my favorite vegetables into an unordered list.</p>
+
+Cucumber Broccoli Asparagus Pepper
+
+<p>Turn the following directions into an ordered list.</p>
+
+First knock on the door When prompted, say the magic word Wait for at least 5
+seconds Turn the handle and push
+```
+
+```css live-sample___basic-text2
+ul {
+  border: 2px solid orange;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ol,
+ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+```
+
+{{EmbedLiveSample("basic-text2")}}
 
 > [!CALLOUT]
 >
@@ -55,7 +103,34 @@ The finished example should look like this:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/advanced-text/advanced-text1.html", '100%', 700)}}
+```html live-sample___advanced-text1
+<h1>Advanced HTML Animals</h1>
+
+Llama Tall, woolly quadruped, pointy ears. Sometimes rideable, but grumpy and
+spits a lot. Big fan of list items. Anaconda A very large constrictor snake;
+travels rapidly by way of anchors to sneak up on his prey. Hippopotamus His
+description is bottomless.
+```
+
+```css live-sample___advanced-text1
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: purple;
+}
+
+dl {
+  color: gray;
+  margin: 0.5em 0;
+}
+
+dt {
+  font-weight: bold;
+  color: purple;
+}
+```
+
+{{EmbedLiveSample("advanced-text1")}}
 
 > [!CALLOUT]
 >
@@ -71,7 +146,27 @@ The finished example should look like this:
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/introduction-to-html/tasks/basic-text/basic-text3.html", '100%', 700)}}
+```html live-sample___basic-text3
+<h1>Emphasis and importance</h1>
+
+<p>
+  There are two things I care about — music and friends. Someday I might be able
+  to get my friends interested in each other, and my music!
+</p>
+```
+
+```css live-sample___basic-text3
+h1,
+strong {
+  color: purple;
+}
+
+em {
+  color: gray;
+}
+```
+
+{{EmbedLiveSample("basic-text3")}}
 
 > [!CALLOUT]
 >

@@ -21,7 +21,23 @@ In this task we want you to structure the provided form features:
 2. Mark up each text label with an appropriate element so that it is semantically associated with its respective form field.
 3. Add a suitable set of structural elements around the label/field pairs to separate them out.
 
-{{EmbedGHLiveSample("learning-area/html/forms/tasks/form-structure/form-structure1.html", '100%', 700)}}
+```html live-sample___form-structure1
+<form>
+  Name:
+  <input id="name" name="name" type="text" />
+
+  Age:
+  <input id="age" name="age" type="number" />
+
+  Comment:
+  <input id="comment" name="comment" type="text" />
+
+  Email:
+  <input id="email" name="email" type="email" />
+</form>
+```
+
+{{EmbedLiveSample("form-structure1")}}
 
 > [!CALLOUT]
 >

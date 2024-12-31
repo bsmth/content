@@ -23,7 +23,18 @@ In this task, we want you to embed an image of some Blueberries into the page. Y
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/images/images1.html", '100%', 700)}}
+```html live-sample___images1
+<h1>Basic image embed</h1>
+<img />
+```
+
+```css live-sample___images1
+img {
+  border: 1px solid black;
+}
+```
+
+{{EmbedLiveSample("images1")}}
 
 > [!CALLOUT]
 >
@@ -35,7 +46,20 @@ In this task, you already have a full-featured image, but we'd like you to add a
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/images/images2.html", '100%', 1000)}}
+```html live-sample___images2
+<h1>Basic image title</h1>
+
+<img alt="Several tall evergreen trees called larches" src="larch.jpg" />
+```
+
+```css live-sample___images2
+img {
+  border: 1px solid black;
+  max-width: 100%;
+}
+```
+
+{{EmbedLiveSample("images2")}}
 
 > [!CALLOUT]
 >
@@ -47,7 +71,18 @@ In this task, you are provided with both a full-featured image and some caption 
 
 Try updating the live code below to recreate the finished example:
 
-{{EmbedGHLiveSample("learning-area/html/multimedia-and-embedding/tasks/images/images3.html", '100%', 1000)}}
+```html live-sample___images3
+<h1>Image and caption</h1>
+
+<img
+  alt="An abstract flaming fox wrapping around a blue sphere"
+  height="460"
+  src="firefox.png"
+  width="446" />
+The Firefox logo, newly abstracted for 2019!
+```
+
+{{EmbedLiveSample("images3")}}
 
 > [!CALLOUT]
 >
