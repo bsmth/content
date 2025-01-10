@@ -1,5 +1,6 @@
 ---
-title: Live examples
+title: Live samples (EmbedLiveSample)
+short-title: Live samples
 slug: MDN/Writing_guidelines/Page_structures/Live_samples
 page-type: mdn-writing-guide
 ---
@@ -16,38 +17,51 @@ The [Examples](#examples) section shows how you can implement these, and other, 
 
 ## How does the live sample system work?
 
-The live sample system groups code blocks, merges them into HTML and renders the HTML in an {{HTMLElement("iframe")}}.
-A live sample consists of two parts:
+The live sample system groups [code blocks](/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN#example_code_blocks), merges them into HTML and renders the result in an {{HTMLElement("iframe")}} in place of an `EmbedLiveSample` macro.
+Each code block has the language `html`, `css`, or `js`, followed by an optional string identifier (`live-sample___example-name`).
 
-- One or more code blocks grouped together
-- A macro call that shows the result of the combined code blocks in an {{HTMLElement("iframe")}}
-
-Each [code block](/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN#example_code_blocks) containing code for the output has a language identifier — `html`, `css`, or `js` — that specifies whether it's HTML, CSS, or JavaScript code. The language identifiers must be on the corresponding blocks of code, and a macro call (`EmbedLiveSample`) must be present in the page to display the output:
+This example shows how to group code blocks by string identifier:
 
 ````md
-## Examples
+```html live-sample___my-first-example
+<!-- HTML code -->
+```
+
+```css live-sample___my-first-example
+/* CSS code */
+```
+
+\{{EmbedLiveSample("my-first-example")}}
+````
+
+The following example groups code by section heading:
+
+````md
+### My second example
 
 ```html
 <!-- HTML code -->
 ```
 
-```css
-/* CSS code */
+```js
+// JavaScript code here
 ```
 
-\{{EmbedLiveSample("Examples")}}
+\{{EmbedLiveSample("my_second_example")}}
 ````
 
-The live sample system allows grouping of code blocks in different ways to effectively display the output. The next section describes these methods.
+The details of these grouping methods are described in more detail in the next section.
 
 ### Grouping code blocks
 
 Code blocks can be grouped in two ways:
 
-1. Using the ID of a heading or a block element that contains the code blocks as the identifier
-2. Specifying a string identifier along with code blocks
+1. A string identifier prefixed with `live-sample___`
+2. The ID of a heading or a block element containing code blocks
 
-Code blocks that do not explicitly specify an identifier are, by default, grouped together using the ID of the heading or block element that contains the code blocks. The identifier in this case is the ID of a heading or a block element (such as a {{HTMLElement("div")}}). This is shown in the example below, where `html` and `css` codes within the block "Styling a paragraph" are used to generate the output for the `EmbedLiveSample` macro call.
+Code blocks that do not have a string identifier are, by default, grouped together using the ID of the heading or block element that contains the code blocks.
+The identifier in this case is the ID of a heading or a block element (such as a {{HTMLElement("div")}}).
+In the example below, `html` and `css` code blocks within the "Styling a paragraph" section are used to generate the output for the `EmbedLiveSample` macro:
 
 ````md
 ## Examples
@@ -60,7 +74,6 @@ In this example, we're using CSS to style paragraphs that have the `fancy` class
 
 ```html
 <p>I'm not fancy.</p>
-
 <p class="fancy">But I am!</p>
 ```
 
@@ -80,9 +93,14 @@ Only the `<p>` element with `class="fancy"` will get styled `red`.
 ````
 
 - If the ID belongs to a block element, the group includes all the code blocks within the enclosing block element whose ID is used.
-- If the ID belongs to a heading, the group includes all the code blocks that are after that heading and before the next heading of the same heading level. Note that code blocks under subheadings of the specified heading are all used; if this is not the effect you want, use an ID on a block element or use a string identifier instead.
+- If the ID belongs to a heading, the group includes all the code blocks that are after that heading and before the next heading of the same heading level.
 
-To group code blocks using an identifier, add a string in the format `live-sample___{IDENTIFIER}` to the code block's info string. The identifier must be unique to the code blocks you want to group. For example, `live-sample___color-picker` uses `color-picker` as the identifier for the live sample system, and all code blocks with `live-sample___color-picker` in their info string are combined in the live sample.
+> [!NOTE]
+> All code blocks under headings and subheadings (children) are used; if this is not the effect you want, use an ID on a block element or use a string identifier instead.
+
+To group code blocks using an identifier, add a string in the format `live-sample___{IDENTIFIER}` to the code block's info string.
+The identifier must be unique (per page) to the code blocks you want to group.
+For example, `live-sample___color-picker` uses `color-picker` as the identifier for the live sample system, and all code blocks with `live-sample___color-picker` in their info string are combined in the live sample.
 The following example groups a CSS and a JavaScript code block together using the identifier `color-picker`:
 
 ````md
@@ -94,7 +112,6 @@ In this example, we're using CSS to style paragraphs that have the `fancy` class
 
 ```html live-sample___paragraph-styling
 <p>I'm not fancy.</p>
-
 <p class="fancy">But I am!</p>
 ```
 
