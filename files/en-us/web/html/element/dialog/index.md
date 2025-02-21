@@ -53,7 +53,7 @@ The `<dialog>` element is exposed by browsers in a manner similar to custom dial
 
 This example demonstrates the creation of a non-modal dialog by using only HTML. Because of the boolean `open` attribute in the `<dialog>` element, the dialog appears open when the page loads. The dialog can be closed by clicking the "OK" button because the `method` attribute in the `<form>` element is set to `"dialog"`. In this case, no JavaScript is needed to close the form.
 
-```html
+```html live-sample___html-dialog
 <dialog open>
   <p>Greetings, one and all!</p>
   <form method="dialog">
@@ -62,9 +62,7 @@ This example demonstrates the creation of a non-modal dialog by using only HTML.
 </dialog>
 ```
 
-#### Result
-
-{{EmbedLiveSample("HTML-only_dialog", "100%", 200)}}
+{{EmbedLiveSample('html-dialog', , , , , , , 'allow-forms')}}
 
 > [!NOTE]
 > Reload the page to reset the output.
