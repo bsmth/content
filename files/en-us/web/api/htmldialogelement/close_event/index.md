@@ -28,11 +28,9 @@ A generic {{domxref("Event")}}.
 
 ## Examples
 
-### Live example
+### Closing a dialog
 
-#### HTML
-
-```html
+```html live-sample___close-dialog
 <dialog class="example-dialog">
   <form method="dialog">
     <button>Close via method="dialog"</button>
@@ -46,21 +44,22 @@ A generic {{domxref("Event")}}.
 <div class="result"></div>
 ```
 
-```css hidden
+```css hidden live-sample___close-dialog
+body {
+  font: 1.2rem sans-serif;
+}
 button,
 div {
   margin: 0.5rem;
 }
 ```
 
-#### JavaScript
-
-```js
+```js live-sample___close-dialog
 const result = document.querySelector(".result");
 
 const dialog = document.querySelector(".example-dialog");
 dialog.addEventListener("close", (event) => {
-  result.textContent = "dialog was closed";
+  result.textContent = "Dialog was closed";
 });
 
 const openDialog = document.querySelector(".open-dialog");
@@ -75,9 +74,7 @@ closeButton.addEventListener("click", () => {
 });
 ```
 
-#### Result
-
-{{ EmbedLiveSample('Live_example', '100%', '200px') }}
+{{EmbedLiveSample('close-dialog', , '300', , , , , 'allow-forms')}}
 
 ## Specifications
 
