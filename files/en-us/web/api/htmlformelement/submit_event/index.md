@@ -48,11 +48,11 @@ _In addition to the properties listed below, this interface inherits the propert
 
 ## Examples
 
+### Listening for form submissions
+
 This example uses {{domxref("EventTarget.addEventListener()")}} to listen for form submit, and logs the current {{domxref("Event.timeStamp")}} whenever that occurs, then prevents the default action of submitting the form.
 
-### HTML
-
-```html
+```html live-sample___form-submission
 <form id="form">
   <label>Test field: <input type="text" /></label>
   <br /><br />
@@ -61,9 +61,7 @@ This example uses {{domxref("EventTarget.addEventListener()")}} to listen for fo
 <p id="log"></p>
 ```
 
-### JavaScript
-
-```js
+```js live-sample___form-submission
 function logSubmit(event) {
   log.textContent = `Form Submitted! Timestamp: ${event.timeStamp}`;
   event.preventDefault();
@@ -74,9 +72,7 @@ const log = document.getElementById("log");
 form.addEventListener("submit", logSubmit);
 ```
 
-### Result
-
-{{EmbedLiveSample("Examples")}}
+{{EmbedLiveSample("form-submission", , , , , , , "allow-modals")}}
 
 ## Specifications
 
