@@ -72,7 +72,7 @@ const log = document.getElementById("log");
 form.addEventListener("submit", logSubmit);
 ```
 
-{{EmbedLiveSample("form-submission", , , , , , , "allow-modals")}}
+{{EmbedLiveSample('form-submission', , , , , , , 'allow-forms')}}
 
 ## Specifications
 
