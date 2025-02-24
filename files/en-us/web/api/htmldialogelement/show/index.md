@@ -33,14 +33,14 @@ None ({{jsxref("undefined")}}).
 
 ## Examples
 
-The following example shows a simple button that, when clicked, opens a
+The following example shows a button that, when clicked, opens a
 {{htmlelement("dialog")}} containing a form via the `show()` method. From
 there you can click the _Cancel_ button to close the dialog (via the
 {{domxref("HTMLDialogElement.close()")}} method), or submit the form via the submit
 button.
 
-```html
-<!-- Simple pop-up dialog box, containing a form -->
+```html live-sample___dialog-show
+<!-- A pop-up dialog box, containing a form -->
 <dialog id="favDialog">
   <form method="dialog">
     <section>
@@ -64,36 +64,36 @@ button.
 <menu>
   <button id="updateDetails">Update details</button>
 </menu>
-
-<script>
-  (() => {
-    const updateButton = document.getElementById("updateDetails");
-    const cancelButton = document.getElementById("cancel");
-    const dialog = document.getElementById("favDialog");
-    dialog.returnValue = "favAnimal";
-
-    function openCheck(dialog) {
-      if (dialog.open) {
-        console.log("Dialog open");
-      } else {
-        console.log("Dialog closed");
-      }
-    }
-
-    // Update button opens a modeless dialog
-    updateButton.addEventListener("click", () => {
-      dialog.show();
-      openCheck(dialog);
-    });
-
-    // Form cancel button closes the dialog box
-    cancelButton.addEventListener("click", () => {
-      dialog.close("animalNotChosen");
-      openCheck(dialog);
-    });
-  })();
-</script>
 ```
+
+```js live-sample___dialog-show
+const updateButton = document.getElementById("updateDetails");
+const cancelButton = document.getElementById("cancel");
+const dialog = document.getElementById("favDialog");
+dialog.returnValue = "favAnimal";
+
+function openCheck(dialog) {
+  if (dialog.open) {
+    console.log("Dialog open");
+  } else {
+    console.log("Dialog closed");
+  }
+}
+
+// Update button opens a modeless dialog
+updateButton.addEventListener("click", () => {
+  dialog.show();
+  openCheck(dialog);
+});
+
+// Form cancel button closes the dialog box
+cancelButton.addEventListener("click", () => {
+  dialog.close("animalNotChosen");
+  openCheck(dialog);
+});
+```
+
+{{EmbedLiveSample('dialog-show', , '220', , , , , 'allow-forms')}}
 
 ## Specifications
 

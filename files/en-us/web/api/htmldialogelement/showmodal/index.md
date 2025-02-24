@@ -38,9 +38,7 @@ None ({{jsxref("undefined")}}).
 
 The following example shows a button that, when clicked, opens a modal {{htmlelement("dialog")}} containing a form via the `HTMLDialogElement.showModal()` function. While open, everything other than the modal dialog's contents is inert. From there you can click the _Cancel_ button to close the dialog (via the {{domxref("HTMLDialogElement.close()")}} function), or submit the form via the submit button. Selecting the cancel button closes the dialog, creating a {{domxref("HTMLDialogElement/close_event", "close")}} event, not a {{domxref("HTMLDialogElement/cancel_event", "cancel")}} event.
 
-#### HTML
-
-```html
+```html live-sample___dialog-modal
 <!-- pop-up dialog box, containing a form -->
 <dialog id="favDialog">
   <form method="dialog">
@@ -63,11 +61,13 @@ The following example shows a button that, when clicked, opens a modal {{htmlele
 <div>
   <button id="updateDetails">Update details</button>
 </div>
+
+<textarea rows="5" cols="33">
+Try to edit me while the dialog is open
+</textarea>
 ```
 
-#### JavaScript
-
-```js
+```js live-sample___dialog-modal
 const updateButton = document.getElementById("updateDetails");
 const cancelButton = document.getElementById("cancel");
 const dialog = document.getElementById("favDialog");
@@ -94,9 +94,14 @@ cancelButton.addEventListener("click", () => {
 });
 ```
 
-#### Result
+```css live-sample___dialog-modal
+div,
+textarea {
+  margin: 1em;
+}
+```
 
-{{EmbedLiveSample("Opening a modal dialog")}}
+{{EmbedLiveSample('dialog-modal', , '220', , , , , 'allow-forms')}}
 
 ## Specifications
 

@@ -10,9 +10,7 @@ This the example for a basic payment form for the article [How to structure an H
 
 ## A payment form
 
-### HTML
-
-```html-nolint
+```html-nolint live-sample___payment-form
 <form method="post">
   <h1>Payment form</h1>
   <p>
@@ -104,9 +102,10 @@ This the example for a basic payment form for the article [How to structure an H
 </form>
 ```
 
-### CSS
-
-```css
+```css live-sample___payment-form
+body {
+  font: 1em sans-serif;
+}
 h1 {
   margin-top: 0;
 }
@@ -119,7 +118,7 @@ ul {
 
 form {
   margin: 0 auto;
-  width: 400px;
+  width: 80%;
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
@@ -132,8 +131,7 @@ label span {
 
 input,
 fieldset {
-  font: 1em sans-serif;
-  width: 250px;
+  width: 60%;
   box-sizing: border-box;
   border: 1px solid #999;
 }
@@ -149,7 +147,7 @@ input:focus {
 }
 
 button {
-  margin: 20px 0 0 0;
+  margin: 1em 0 0 0;
 }
 
 label {
@@ -161,6 +159,4 @@ p label {
 }
 ```
 
-### Result
-
-{{ EmbedLiveSample('A_payment_form', '100%', 620) }}
+{{EmbedLiveSample('payment-form', , '800', , , , , 'allow-forms')}}

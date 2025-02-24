@@ -187,13 +187,13 @@ Let's put these ideas into practice and build a slightly more involved form — 
 
 2. Next, create your form by adding a {{htmlelement("form")}} element:
 
-   ```html-nolint
+   ```html-nolint live-sample___payment-form
    <form>
    ```
 
 3. Inside the `<form>` element, add a heading and paragraph to inform users how required fields are marked:
 
-   ```html-nolint
+   ```html-nolint live-sample___payment-form
    <h1>Payment form</h1>
    <p>
      Required fields are followed by
@@ -203,7 +203,7 @@ Let's put these ideas into practice and build a slightly more involved form — 
 
 4. Next, we'll add a larger section of code into the form, below our previous entry. Here you'll see that we are wrapping the contact information fields inside a distinct {{htmlelement("section")}} element. Moreover, we have a set of three radio buttons, each of which we are putting inside its own list ({{htmlelement("li")}}) element. We also have two standard text {{htmlelement("input")}}s and their associated {{htmlelement("label")}} elements, each contained inside a {{htmlelement("p")}}, and a password input for entering a password. Add this code to your form:
 
-   ```html
+   ```html live-sample___payment-form
    <section>
      <h2>Contact information</h2>
      <fieldset>
@@ -262,7 +262,7 @@ Let's put these ideas into practice and build a slightly more involved form — 
 
    Enter the following below the previous section:
 
-   ```html
+   ```html live-sample___payment-form
    <section>
      <h2>Payment information</h2>
      <p>
@@ -300,7 +300,7 @@ Let's put these ideas into practice and build a slightly more involved form — 
 
 6. The last section we'll add is a lot simpler, containing only a {{htmlelement("button")}} of type `submit`, for submitting the form data. Add this to the bottom of your form now:
 
-   ```html
+   ```html live-sample___payment-form
    <section>
      <p>
        <button type="submit">Validate the payment</button>
@@ -310,11 +310,14 @@ Let's put these ideas into practice and build a slightly more involved form — 
 
 7. Finally, complete your form by adding the outer {{htmlelement("form")}} closing tag:
 
-   ```html
+   ```html live-sample___payment-form
    </form>
    ```
 
-   ```css hidden
+   ```css hidden live-sample___payment-form
+   body {
+     font: 1em sans-serif;
+   }
    h1 {
      margin-top: 0;
    }
@@ -327,14 +330,10 @@ Let's put these ideas into practice and build a slightly more involved form — 
 
    form {
      margin: 0 auto;
-     width: 400px;
+     width: 80%;
      padding: 1em;
      border: 1px solid #ccc;
      border-radius: 1em;
-   }
-
-   div + div {
-     margin-top: 1em;
    }
 
    label span {
@@ -343,9 +342,8 @@ Let's put these ideas into practice and build a slightly more involved form — 
    }
 
    input,
-   textarea {
-     font: 1em sans-serif;
-     width: 250px;
+   fieldset {
+     width: 60%;
      box-sizing: border-box;
      border: 1px solid #999;
    }
@@ -356,25 +354,12 @@ Let's put these ideas into practice and build a slightly more involved form — 
      border: none;
    }
 
-   input:focus,
-   textarea:focus {
-     border-color: #000;
-   }
-
-   textarea {
-     vertical-align: top;
-     height: 5em;
-     resize: vertical;
-   }
-
-   fieldset {
-     width: 250px;
-     box-sizing: border-box;
-     border: 1px solid #999;
+   input:focus {
+     background-color: yellow;
    }
 
    button {
-     margin: 20px 0 0 0;
+     margin: 1em 0 0 0;
    }
 
    label {
@@ -388,7 +373,7 @@ Let's put these ideas into practice and build a slightly more involved form — 
 
 We applied some extra CSS to the finished form below. If you'd like to make changes to the appearance of your form, you can copy styles from [the example](/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form/Example) or visit [Styling web forms](/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms).
 
-{{EmbedLiveSample("active_learning_building_a_form_structure","100%",620)}}
+{{EmbedLiveSample('payment-form', , '800', , , , , 'allow-forms')}}
 
 ## Test your skills!
 

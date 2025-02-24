@@ -55,9 +55,9 @@ function draw() {
 ```
 
 ```html hidden
-<canvas id="canvas" width="150" height="150"
-  >A 6 by 6 square grid displaying 36 different colors</canvas
->
+<canvas id="canvas" width="150" height="150">
+  A 6 by 6 square grid displaying 36 different colors
+</canvas>
 ```
 
 ```js hidden

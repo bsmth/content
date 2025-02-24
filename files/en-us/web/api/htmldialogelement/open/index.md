@@ -23,14 +23,14 @@ show or hide the dialog.
 
 ## Examples
 
-The following example shows a simple button that, when clicked, opens a
+The following example shows a button that, when clicked, opens a
 {{htmlelement("dialog")}} containing a form via the `showModal()` method.
 From there you can click the _Cancel_ button to close the dialog (via the
 {{domxref("HTMLDialogElement.close()")}} method), or submit the form via the submit
 button.
 
-```html
-<!-- Simple pop-up dialog box -->
+```html live-sample___dialog-open
+<!-- A pop-up dialog box -->
 <dialog id="dialog">
   <form method="dialog">
     <button type="submit">Close</button>
@@ -41,37 +41,35 @@ button.
   <button id="openDialog">Open Dialog</button>
 </p>
 <p id="dialogStatus"></p>
+```
 
-<script>
-  (() => {
-    const openDialog = document.getElementById("openDialog");
-    const dialog = document.getElementById("dialog");
-    const text = document.getElementById("dialogStatus");
+```js live-sample___dialog-open
+const openDialog = document.getElementById("openDialog");
+const dialog = document.getElementById("dialog");
+const text = document.getElementById("dialogStatus");
 
-    function openCheck(dialog) {
-      if (dialog.open) {
-        text.innerText = "Dialog open";
-      } else {
-        text.innerText = "Dialog closed";
-      }
-    }
+function openCheck(dialog) {
+  if (dialog.open) {
+    text.innerText = "Dialog open";
+  } else {
+    text.innerText = "Dialog closed";
+  }
+}
 
-    // Update button opens a modal dialog
-    openDialog.addEventListener("click", () => {
-      dialog.showModal();
-      openCheck(dialog);
-    });
+// Update button opens a modal dialog
+openDialog.addEventListener("click", () => {
+  dialog.showModal();
+  openCheck(dialog);
+});
 
-    dialog.addEventListener("close", () => {
-      openCheck(dialog);
-    });
-  })();
-</script>
+dialog.addEventListener("close", () => {
+  openCheck(dialog);
+});
 ```
 
 ### Result
 
-{{ EmbedLiveSample('Examples', '100%', '200px') }}
+{{EmbedLiveSample('dialog-open', , , , , , , 'allow-forms')}}
 
 ## Specifications
 

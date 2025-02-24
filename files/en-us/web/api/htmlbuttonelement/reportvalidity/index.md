@@ -32,7 +32,7 @@ This far fetched example demonstrates how a button can be made invalid.
 
 We create a form that only contains a few buttons:
 
-```html
+```html live-sample___custom-error
 <form action="#" id="form" method="post">
   <p>
     <input type="submit" value="Submit" />
@@ -50,7 +50,7 @@ We create a form that only contains a few buttons:
 
 We add a bit of CSS, including `:valid` and `:invalid` styles for our button:
 
-```css
+```css live-sample___custom-error
 input[type="submit"],
 button {
   background-color: #33a;
@@ -71,7 +71,8 @@ button:valid {
 
 We include a function to toggle the value, content, and validation message of the example button:
 
-```js
+```js live-sample___custom-error
+const form = document.querySelector("form");
 const reportButton = document.querySelector("#report");
 const exampleButton = document.querySelector("#example");
 const output = document.querySelector("#log");
@@ -114,11 +115,16 @@ const toggleButton = () => {
   }
   return exampleButton.value;
 };
+// Reload on submit
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  location.reload();
+});
 ```
 
 #### Results
 
-{{EmbedLiveSample("Custom error message", "100%", 220)}}
+{{EmbedLiveSample('custom-error', , '220', , , , , 'allow-forms')}}
 
 The button is by default valid. Activate "THIS BUTTON" to change the value, content, and add a custom error message. Activating the "reportValidity()" button checks the validity of the button, reporting the custom error message to the user and throwing an `invalid` event if the button does not pass constraint validation due to the message.
 

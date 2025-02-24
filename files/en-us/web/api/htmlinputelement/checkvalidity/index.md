@@ -29,12 +29,11 @@ Returns `true` if the element's value has no validity problems; otherwise, retur
 
 ## Examples
 
-### HTML
-
 We include a form containing a required number field and two buttons: one to check the form and the other to submit it.
+When `false`, if the value is missing, below 21, above 65, or otherwise invalid, the invalid event will be logged to the console. To report the error to the user, use {{domxref("HTMLInputElement.reportValidity()")}} instead.
 
-```html
-<form action="#" method="post">
+```html live-sample___check-validity
+<form action="#" id="form" method="post">
   <p>
     <label for="age">Your (21 to 65) </label>
     <input type="number" name="age" required id="age" min="21" max="65" />
@@ -47,9 +46,8 @@ We include a form containing a required number field and two buttons: one to che
 </form>
 ```
 
-### JavaScript
-
-```js
+```js live-sample___check-validity
+const form = document.querySelector("#form");
 const output = document.querySelector("#log");
 const checkButton = document.querySelector("#check");
 const ageInput = document.querySelector("#age");
@@ -62,13 +60,13 @@ checkButton.addEventListener("click", () => {
   const checkVal = ageInput.checkValidity();
   output.innerHTML = `checkValidity returned: ${checkVal}`;
 });
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+});
 ```
 
-### Results
-
-{{EmbedLiveSample("Examples", "100%", 220)}}
-
-When `false`, if the value is missing, below 21, above 65, or otherwise invalid, the invalid event will be logged to the console. To report the error to the user, use {{domxref("HTMLInputElement.reportValidity()")}} instead.
+{{EmbedLiveSample('check-validity', , '220', , , , , 'allow-forms')}}
 
 ## Specifications
 

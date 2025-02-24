@@ -364,7 +364,7 @@ Let's look at an example.
 
 First, a simple HTML form that requires you to enter your first and last name:
 
-```html
+```html live-sample___prevent-default
 <form>
   <div>
     <label for="fname">First name: </label>
@@ -381,7 +381,7 @@ First, a simple HTML form that requires you to enter your first and last name:
 <p></p>
 ```
 
-```css hidden
+```css hidden live-sample___prevent-default
 div {
   margin-bottom: 10px;
 }
@@ -390,7 +390,7 @@ div {
 Now some JavaScript — here we implement a very simple check inside a handler for the [`submit`](/en-US/docs/Web/API/HTMLFormElement/submit_event) event (the submit event is fired on a form when it is submitted) that tests whether the text fields are empty.
 If they are, we call the [`preventDefault()`](/en-US/docs/Web/API/Event/preventDefault) function on the event object — which stops the form submission — and then display an error message in the paragraph below our form to tell the user what's wrong:
 
-```js
+```js live-sample___prevent-default
 const form = document.querySelector("form");
 const fname = document.getElementById("fname");
 const lname = document.getElementById("lname");
@@ -407,7 +407,7 @@ form.addEventListener("submit", (e) => {
 Obviously, this is pretty weak form validation — it wouldn't stop the user from validating the form with spaces or numbers entered into the fields, for example — but it is OK for example purposes.
 The output is as follows:
 
-{{ EmbedLiveSample('Preventing_default_behavior', '100%', 180, "", "") }}
+{{EmbedLiveSample('prevent-default', , , , , , , 'allow-forms')}}
 
 > [!NOTE]
 > For the full source code, see [preventdefault-validation.html](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/events/preventdefault-validation.html) (also see it [running live](https://mdn.github.io/learning-area/javascript/building-blocks/events/preventdefault-validation.html) here).

@@ -34,11 +34,11 @@ None ({{jsxref("undefined")}}).
 
 ## Examples
 
-The following example shows a simple button that, when clicked, opens a {{htmlelement("dialog")}} containing a form, via the `showModal()` method.
+The following example shows a button that, when clicked, opens a {{htmlelement("dialog")}} containing a form, via the `showModal()` method.
 From there you can click the _X_ button to request to close the dialog (via the `HTMLDialogElement.requestClose()` method), or submit the form via the submit button.
 
-```html
-<!-- Simple pop-up dialog box, containing a form -->
+```html live-sample___dialog-request-close
+<!-- A pop-up dialog box, containing a form -->
 <dialog id="favDialog">
   <form method="dialog">
     <button id="close" aria-label="close" formnovalidate>X</button>
@@ -63,41 +63,37 @@ From there you can click the _X_ button to request to close the dialog (via the 
 <menu>
   <button id="updateDetails">Update details</button>
 </menu>
+```
 
-<script>
-  (() => {
-    const updateButton = document.getElementById("updateDetails");
-    const closeButton = document.getElementById("close");
-    const dialog = document.getElementById("favDialog");
+```js live-sample___dialog-request-close
+const updateButton = document.getElementById("updateDetails");
+const closeButton = document.getElementById("close");
+const dialog = document.getElementById("favDialog");
 
-    // Update button opens a modal dialog
-    updateButton.addEventListener("click", () => {
-      dialog.showModal();
-    });
+// Update button opens a modal dialog
+updateButton.addEventListener("click", () => {
+  dialog.showModal();
+});
 
-    // Form close button requests to close the dialog box
-    closeButton.addEventListener("click", () => {
-      dialog.requestClose("animalNotChosen");
-    });
+// Form close button requests to close the dialog box
+closeButton.addEventListener("click", () => {
+  dialog.requestClose("animalNotChosen");
+});
 
-    function dialogShouldNotClose() {
-      // Add logic to decide whether to prevent the dialog from closing
-    }
+function dialogShouldNotClose() {
+  // Add logic to decide whether to prevent the dialog from closing
+}
 
-    dialog.addEventListener("cancel", (event) => {
-      if (!event.cancelable) return;
-      if (dialogShouldNotClose()) event.preventDefault();
-    });
-  })();
-</script>
+dialog.addEventListener("cancel", (event) => {
+  if (!event.cancelable) return;
+  if (dialogShouldNotClose()) event.preventDefault();
+});
 ```
 
 If the "X" button was of `type="submit"`, the dialog would have closed without requiring JavaScript.
 A form submission closes the `<dialog>` it is nested within if the [form's method is `dialog`](/en-US/docs/Web/HTML/Element/form#method), so no "close" button is required.
 
-### Result
-
-{{ EmbedLiveSample('Examples', '100%', '200px') }}
+{{EmbedLiveSample('dialog-request-close', , '220', , , , , 'allow-forms')}}
 
 ## Specifications
 
