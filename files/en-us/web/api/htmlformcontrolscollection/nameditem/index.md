@@ -36,44 +36,63 @@ namedItem(name)
 
 ## Examples
 
-### Using namedItem()
+### Using `namedItem()`
 
-#### HTML
-
-```html
+```html live-sample___named-item
 <form>
   <label for="notes">Notes:</label>
   <input id="notes" name="my-form-control" type="text" />
+</form>
+<pre id="output"></pre>
+```
 
+```js live-sample___named-item
+const form = document.querySelector("form");
+const firstItem = form.elements.namedItem("my-form-control");
+const output = document.querySelector("#output");
+
+output.textContent = `My item: ${firstItem.id}`;
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  location.reload();
+});
+```
+
+{{EmbedLiveSample('named-item', , , , , , , 'allow-forms')}}
+
+### `namedItem()` vs. `.elements`
+
+To get all items with the same name, access it like a property:
+
+```html live-sample___named-item-elements
+<form action="" method="POST">
+  <label for="notes">Notes:</label>
+  <input id="notes" name="my-form-control" type="text" />
   <label for="start">Start date:</label>
   <input id="start" name="my-form-control" type="date" />
 </form>
-
-<div id="output"></div>
+<pre id="output"></pre>
 ```
 
-```css hidden
-div {
-  margin: 1rem 0;
-}
-```
-
-#### JavaScript
-
-```js
+```js live-sample___named-item-elements
 const form = document.querySelector("form");
-const items = form.elements.namedItem("my-form-control");
-
+const allItems = form.elements["my-form-control"];
 const output = document.querySelector("#output");
-const itemIDs = Array.from(items)
+
+const itemIDs = Array.from(allItems)
   .map((item) => `"${item.id}"`)
   .join(", ");
+
 output.textContent = `My items: ${itemIDs}`;
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  location.reload();
+});
 ```
 
-#### Result
-
-{{EmbedLiveSample("Using namedItem()")}}
+{{EmbedLiveSample('named-item-elements', , , , , , , 'allow-forms')}}
 
 ## Specifications
 
