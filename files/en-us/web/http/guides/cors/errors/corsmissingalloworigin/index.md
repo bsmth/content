@@ -1,22 +1,21 @@
 ---
 title: "Reason: CORS header 'Access-Control-Allow-Origin' missing"
+short-title: "'Access-Control-Allow-Origin' header is missing"
 slug: Web/HTTP/Guides/CORS/Errors/CORSMissingAllowOrigin
 page-type: http-cors-error
 ---
 
 {{HTTPSidebar}}
 
-## Reason
+The response to the {{Glossary("CORS")}} request is missing the required {{HTTPHeader("Access-Control-Allow-Origin")}} header, which is used to determine whether or not the resource can be accessed by content operating within the current origin.
+
+## CORS error reason
 
 ```plain
 Reason: CORS header 'Access-Control-Allow-Origin' missing
 ```
 
-## What went wrong?
-
-The response to the {{Glossary("CORS")}} request is missing the required
-{{HTTPHeader("Access-Control-Allow-Origin")}} header, which is used to determine whether
-or not the resource can be accessed by content operating within the current origin.
+## Fixing '`Access-Control-Allow-Origin` missing' error
 
 If the server is under your control, add the origin of the requesting site to the set
 of domains permitted access by adding it to the `Access-Control-Allow-Origin`
@@ -41,8 +40,7 @@ Access-Control-Allow-Origin: *
 ```
 
 > [!WARNING]
-> Using the wildcard to allow all sites to access a private
-> API is a bad idea.
+> Using the wildcard to allow all sites to access a private API is a bad idea.
 
 To allow any site to make CORS requests _without_ using the `*`
 wildcard (for example, to enable credentials), your server must read the value of the

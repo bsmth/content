@@ -228,7 +228,7 @@ setTimeout(() => {
 
 A string passed to `setTimeout()` is evaluated in the global context, so local symbols in the context where `setTimeout()` was called will not be available when the string is evaluated as code.
 
-### Reasons for delays longer than specified
+### CORS errors for delays longer than specified
 
 There are a number of reasons why a timeout may take longer to fire than anticipated.
 This section describes the most common reasons.

@@ -35,7 +35,7 @@ with:
 - `uvw`
   - : Text that provides information that may help you resolve the problem, potentially including specific changes you might make to the CSP configuration.
 
-## What went wrong?
+## Fixing error
 
 This warning message means that due to the existence of a particular CSP directive, a resource wasn't loaded.
 

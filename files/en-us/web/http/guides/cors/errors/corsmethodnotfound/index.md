@@ -1,22 +1,23 @@
 ---
 title: "Reason: Did not find method in CORS header 'Access-Control-Allow-Methods'"
+short-title: No method in 'Access-Control-Allow-Methods' header
 slug: Web/HTTP/Guides/CORS/Errors/CORSMethodNotFound
 page-type: http-cors-error
 ---
 
 {{HTTPSidebar}}
 
-## Reason
+The HTTP method being used by the {{Glossary("CORS")}} request is not included in the list of methods specified by the response's {{HTTPHeader("Access-Control-Allow-Methods")}} header.
+
+## CORS error reason
 
 ```plain
 Reason: Did not find method in CORS header 'Access-Control-Allow-Methods'
 ```
 
-## What went wrong?
+## Fixing 'Did not find method in CORS header `Access-Control-Allow-Methods`' error
 
-The HTTP method being used by the {{Glossary("CORS")}} request is not included in the
-list of methods specified by the response's
-{{HTTPHeader("Access-Control-Allow-Methods")}} header. This header specifies a
+This header specifies a
 comma-delimited list of the HTTP methods which may be used when using CORS to access
 the URL specified in the request; if the request is using any other method, this error
 occurs.

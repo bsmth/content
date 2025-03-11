@@ -1,22 +1,21 @@
 ---
 title: "Reason: invalid token 'xyz' in CORS header 'Access-Control-Allow-Headers'"
+short-title: Invalid token in 'Access-Control-Allow-Headers' header
 slug: Web/HTTP/Guides/CORS/Errors/CORSInvalidAllowHeader
 page-type: http-cors-error
 ---
 
 {{HTTPSidebar}}
 
-## Reason
+The response to the {{Glossary("CORS")}} request that was sent by the server includes an {{HTTPHeader("Access-Control-Allow-Headers")}} header which includes at least one invalid header name.
+
+## CORS error reason
 
 ```plain
 Reason: invalid token 'xyz' in CORS header 'Access-Control-Allow-Headers'
 ```
 
-## What went wrong?
-
-The response to the {{Glossary("CORS")}} request that was sent by the server includes
-an {{HTTPHeader("Access-Control-Allow-Headers")}} header which includes at least one
-invalid header name.
+## Fixing 'invalid token `xyz` in CORS header `Access-Control-Allow-Headers`' error
 
 The `Access-Control-Allow-Headers` header is sent by the server in response
 to a {{Glossary("preflight request")}}; it lets the client know which [HTTP headers](/en-US/docs/Web/HTTP/Reference/Headers) are permitted in CORS requests.

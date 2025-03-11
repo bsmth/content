@@ -1,22 +1,21 @@
 ---
 title: "Reason: invalid token 'xyz' in CORS header 'Access-Control-Allow-Methods'"
+short-title: Invalid token in 'Access-Control-Allow-Methods' header
 slug: Web/HTTP/Guides/CORS/Errors/CORSInvalidAllowMethod
 page-type: http-cors-error
 ---
 
 {{HTTPSidebar}}
 
-## Reason
+The response to the {{Glossary("CORS")}} request that was sent by the server includes an {{HTTPHeader("Access-Control-Allow-Methods")}} header which includes at least one invalid method name.
+
+## CORS error reason
 
 ```plain
 Reason: invalid token 'xyz' in CORS header 'Access-Control-Allow-Methods'
 ```
 
-## What went wrong?
-
-The response to the {{Glossary("CORS")}} request that was sent by the server includes
-an {{HTTPHeader("Access-Control-Allow-Methods")}} header which includes at least one
-invalid method name.
+## Fixing 'invalid token `xyz` in CORS header `Access-Control-Allow-Methods`' error
 
 The `Access-Control-Allow-Methods` header is sent by the server to let the
 client know what [HTTP request methods](/en-US/docs/Web/HTTP/Reference/Methods) it

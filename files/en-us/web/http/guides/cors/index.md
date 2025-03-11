@@ -1,5 +1,6 @@
 ---
 title: Cross-Origin Resource Sharing (CORS)
+short-title: CORS
 slug: Web/HTTP/Guides/CORS
 page-type: guide
 browser-compat: http.headers.Access-Control-Allow-Origin

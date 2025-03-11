@@ -1,26 +1,26 @@
 ---
 title: "Reason: CORS disabled"
+short-title: CORS is disabled
 slug: Web/HTTP/Guides/CORS/Errors/CORSDisabled
 page-type: http-cors-error
 ---
 
 {{HTTPSidebar}}
 
-## Reason
+A request that needs to use {{Glossary("CORS")}} was attempted, but CORS is disabled in the user's browser.
+
+## CORS error reason
 
 ```plain
 Reason: CORS disabled
 ```
 
-## What went wrong?
+## Fixing 'CORS disabled' error
 
-A request that needs to use {{Glossary("CORS")}} was attempted, but CORS is disabled in
-the user's browser. When this happens, the user needs to turn CORS back on in their
-browser.
+The user needs to turn CORS back on in their browser.
 
-In Firefox, the preference that disables CORS is `content.cors.disable`.
-Setting this to `true` disables CORS, so whenever that's the case, CORS
-requests will always fail with this error.
+In Firefox, for example, the preference that disables CORS is `content.cors.disable`.
+Setting this to `true` disables CORS, so whenever that's the case, CORS requests will always fail with this error.
 
 ## See also
 

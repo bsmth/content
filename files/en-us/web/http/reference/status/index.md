@@ -8,6 +8,7 @@ browser-compat: http.status
 {{HTTPSidebar}}
 
 HTTP response status codes indicate whether a specific [HTTP](/en-US/docs/Web/HTTP) request has been successfully completed.
+
 Responses are grouped in five classes:
 
 1. [Informational responses](#informational_responses) (`100` – `199`)

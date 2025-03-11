@@ -1,21 +1,23 @@
 ---
 title: "Reason: CORS preflight channel did not succeed"
+short-title: Preflight channel did not succeed
 slug: Web/HTTP/Guides/CORS/Errors/CORSPreflightDidNotSucceed
 page-type: http-cors-error
 ---
 
 {{HTTPSidebar}}
 
-## Reason
+The {{Glossary("CORS")}} request requires preflight, preflighting could not be performed.
+
+## CORS error reason
 
 ```plain
 Reason: CORS preflight channel did not succeed
 ```
 
-## What went wrong?
+## Fixing 'preflight channel did not succeed' error
 
-The {{Glossary("CORS")}} request requires preflight, preflighting could not be
-performed. There are a couple of reasons why preflighting might fail:
+There are a couple of reasons why preflighting might fail:
 
 - A cross-site request has previously been performed that already did a preflight, and
   doing the preflight again is not permitted. Make sure your code only preflights once

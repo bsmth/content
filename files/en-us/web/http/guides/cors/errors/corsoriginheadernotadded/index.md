@@ -1,25 +1,24 @@
 ---
 title: "Reason: CORS header 'Origin' cannot be added"
+short-title: "'Origin' header cannot be added"
 slug: Web/HTTP/Guides/CORS/Errors/CORSOriginHeaderNotAdded
 page-type: http-cors-error
 ---
 
 {{HTTPSidebar}}
 
-## Reason
+The {{Glossary("user agent")}} was unable to add the required {{HTTPHeader("Origin")}} header to the {{Glossary("HTTP")}} request.
+
+## CORS error reason
 
 ```plain
 Reason: CORS header 'Origin' cannot be added
 ```
 
-## What went wrong?
+## Fixing '`Origin` cannot be added' error
 
-The {{Glossary("user agent")}} was unable to add the required {{HTTPHeader("Origin")}}
-header to the {{Glossary("HTTP")}} request. All CORS requests must have an
-`Origin` header.
-
-This can happen if the JavaScript code is running with enhanced privileges allowing it
-access to multiple domains' content, for example.
+All CORS requests must have an `Origin` header.
+This error can happen if the JavaScript code is running with enhanced privileges allowing it access to multiple domains' content, for example.
 
 ## See also
 

@@ -1,22 +1,21 @@
 ---
 title: "Reason: expected 'true' in CORS header 'Access-Control-Allow-Credentials'"
+short-title: "'Access-Control-Allow-Credentials' is not 'true'"
 slug: Web/HTTP/Guides/CORS/Errors/CORSMIssingAllowCredentials
 page-type: http-cors-error
 ---
 
 {{HTTPSidebar}}
 
-## Reason
+The {{Glossary("CORS")}} request requires that the server permit the use of credentials, but the server's {{HTTPHeader("Access-Control-Allow-Credentials")}} header's value isn't set to `true` to enable their use.
+
+## CORS error reason
 
 ```plain
 Reason: expected 'true' in CORS header 'Access-Control-Allow-Credentials'
 ```
 
-## What went wrong?
-
-The {{Glossary("CORS")}} request requires that the server permit the use of
-credentials, but the server's {{HTTPHeader("Access-Control-Allow-Credentials")}}
-header's value isn't set to `true` to enable their use.
+## Fixing 'expected `true` in CORS header `Access-Control-Allow-Credentials`' error
 
 To fix this problem on the client side, revise the code to not request the use of
 credentials.

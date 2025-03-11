@@ -1,20 +1,22 @@
 ---
 title: "Reason: CORS request not HTTP"
+short-title: Request not HTTP
 slug: Web/HTTP/Guides/CORS/Errors/CORSRequestNotHttp
 page-type: http-cors-error
 ---
 
 {{HTTPSidebar}}
 
-## Reason
+{{Glossary("CORS")}} requests may only use the HTTP or HTTPS URL scheme, but the URL specified by the request is of a different type.
+
+## CORS error reason
 
 ```plain
 Reason: CORS request not HTTP
 ```
 
-## What went wrong?
+## Fixing 'CORS request not HTTP' error
 
-{{Glossary("CORS")}} requests may only use the HTTP or HTTPS URL scheme, but the URL specified by the request is of a different type.
 This often occurs if the URL specifies a local file, using the `file:///` scheme.
 
 To fix this problem, make sure you use HTTPS URLs when issuing requests involving CORS, such as {{domxref("Window/fetch", "fetch()")}}, {{domxref("XMLHttpRequest")}}, Web Fonts (`@font-face`), and [WebGL textures](/en-US/docs/Web/API/WebGL_API/Tutorial/Using_textures_in_WebGL), and XSL stylesheets.
