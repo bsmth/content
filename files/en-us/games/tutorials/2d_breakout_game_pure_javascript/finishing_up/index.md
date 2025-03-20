@@ -296,7 +296,7 @@ document.getElementById("runButton").addEventListener("click", function () {
 
 ## Game over - for now!
 
-You've finished all the lessons - congratulations! By this point, you should now know the basics of canvas manipulation and the logic behind 2D games. Now it's a good time to learn some frameworks and continue game development. You can check out this series' counterpart, [2D breakout game using Phaser](/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser) or the [Cyber Orb built in Phaser](/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation) tutorial. You can also look through the [Games section on MDN](/en-US/docs/Games) for inspiration and more knowledge.
+You've finished all the lessons - congratulations! By this point, you should now know the basics of canvas manipulation and the logic behind 2D games. Now it's a good time to learn some frameworks and continue game development. You can check out the [Cyber Orb built in Phaser](/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation) tutorial. You can also look through the [Games section on MDN](/en-US/docs/Games) for inspiration and more knowledge.
 
 You could also go back to [this tutorial series' index page](/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript). Have fun coding!
 

@@ -674,152 +674,6 @@
       "trevorh"
     ]
   },
-  "Games/Tutorials/2D_breakout_game_Phaser": {
-    "modified": "2020-10-27T19:35:38.011Z",
-    "contributors": [
-      "escattone",
-      "msobanjo",
-      "MPDSilva",
-      "smoothie1998",
-      "wbamberg",
-      "chrisdavidmills",
-      "end3r",
-      "Jeremie"
-    ]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Animations_and_tweens": {
-    "modified": "2020-10-27T19:36:31.492Z",
-    "contributors": [
-      "escattone",
-      "wbamberg",
-      "joelpeyton",
-      "DavidScales",
-      "ekoontz",
-      "chrisdavidmills",
-      "end3r",
-      "Yuri-Predborskiy"
-    ]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Bounce_off_the_walls": {
-    "modified": "2020-10-27T19:38:16.822Z",
-    "contributors": ["escattone", "wbamberg", "chrisdavidmills", "end3r"]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Build_the_brick_field": {
-    "modified": "2020-10-27T19:39:01.586Z",
-    "contributors": [
-      "escattone",
-      "wbamberg",
-      "partikathwal",
-      "DavidScales",
-      "terenceng2010",
-      "chrisdavidmills",
-      "landrey",
-      "end3r"
-    ]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Buttons": {
-    "modified": "2020-10-27T19:37:08.095Z",
-    "contributors": ["escattone", "wbamberg", "chrisdavidmills", "end3r"]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Collision_detection": {
-    "modified": "2020-10-27T19:40:22.466Z",
-    "contributors": ["escattone", "wbamberg", "chrisdavidmills", "end3r"]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Extra_lives": {
-    "modified": "2020-10-27T19:40:46.630Z",
-    "contributors": [
-      "escattone",
-      "wbamberg",
-      "joelpeyton",
-      "chrisdavidmills",
-      "end3r"
-    ]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Game_over": {
-    "modified": "2020-10-27T19:41:31.830Z",
-    "contributors": [
-      "escattone",
-      "wbamberg",
-      "arpitnaugraiya",
-      "chrisdavidmills",
-      "end3r"
-    ]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework": {
-    "modified": "2020-10-27T19:42:00.915Z",
-    "contributors": [
-      "escattone",
-      "wbamberg",
-      "end3r",
-      "chrisdavidmills",
-      "kitihounel",
-      "megasan",
-      "Onkar316",
-      "brandtrock",
-      "teoli",
-      "delioliveandlive",
-      "Jeremie"
-    ]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Load_the_assets_and_print_them_on_screen": {
-    "modified": "2020-10-27T19:42:26.985Z",
-    "contributors": [
-      "escattone",
-      "wbamberg",
-      "end3r",
-      "chrisdavidmills",
-      "jamesdhurd",
-      "kitihounel",
-      "CheetahBongos",
-      "Yuri-Predborskiy"
-    ]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Move_the_ball": {
-    "modified": "2020-10-27T19:42:52.810Z",
-    "contributors": ["escattone", "wbamberg", "chrisdavidmills", "end3r"]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Physics": {
-    "modified": "2020-10-27T19:43:10.389Z",
-    "contributors": ["escattone", "wbamberg", "chrisdavidmills", "end3r"]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Player_paddle_and_controls": {
-    "modified": "2020-10-27T19:43:46.328Z",
-    "contributors": [
-      "escattone",
-      "wbamberg",
-      "marcusgenrich",
-      "chrisdavidmills",
-      "end3r"
-    ]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Randomizing_gameplay": {
-    "modified": "2020-10-27T19:37:28.337Z",
-    "contributors": ["escattone", "wbamberg", "chrisdavidmills", "end3r"]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Scaling": {
-    "modified": "2020-10-27T19:44:45.536Z",
-    "contributors": [
-      "escattone",
-      "wbamberg",
-      "DavidScales",
-      "chrisdavidmills",
-      "end3r"
-    ]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/The_score": {
-    "modified": "2020-10-27T19:45:46.988Z",
-    "contributors": ["escattone", "wbamberg", "chrisdavidmills", "end3r"]
-  },
-  "Games/Tutorials/2D_breakout_game_Phaser/Win_the_game": {
-    "modified": "2020-10-27T19:46:12.559Z",
-    "contributors": [
-      "escattone",
-      "wbamberg",
-      "ekoontz",
-      "chrisdavidmills",
-      "end3r"
-    ]
-  },
   "Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation": {
     "modified": "2020-10-27T19:52:47.292Z",
     "contributors": [
@@ -76782,50 +76636,6 @@
       "rachelandrew"
     ]
   },
-  "Web/CSS/Visual_formatting_model": {
-    "modified": "2020-09-05T23:17:19.677Z",
-    "contributors": [
-      "mfuji09",
-      "wbamberg",
-      "j9t",
-      "Konrud",
-      "chrisdavidmills",
-      "rachelandrew",
-      "LurN",
-      "ishan123456789",
-      "andreaswachowski",
-      "VladPavel15",
-      "mikkelrd",
-      "mfluehr",
-      "mustafasalah",
-      "david_ross",
-      "Levenson",
-      "jacklj",
-      "manavm1990",
-      "codingplayboy",
-      "jichao",
-      "BychekRU",
-      "YoutaoXing",
-      "rolfedh",
-      "jackarmley",
-      "zhen-w",
-      "NicBright",
-      "teoli",
-      "xfq",
-      "arigoldx",
-      "zhanglun",
-      "denised",
-      "AprilMorone",
-      "adrianocastro",
-      "Jeremie",
-      "Naesten",
-      "ZhoraVdB",
-      "maybe",
-      "Sheppy",
-      "ethertank",
-      "Dholbert"
-    ]
-  },
   "Web/CSS/CSS_filter_effects": {
     "modified": "2020-12-02T11:05:43.361Z",
     "contributors": ["peterbe", "wbamberg", "fscholz", "mfluehr"]
@@ -78814,6 +78624,50 @@
       "miken32",
       "Montehansen",
       "BijuGC"
+    ]
+  },
+  "Web/CSS/Visual_formatting_model": {
+    "modified": "2020-09-05T23:17:19.677Z",
+    "contributors": [
+      "mfuji09",
+      "wbamberg",
+      "j9t",
+      "Konrud",
+      "chrisdavidmills",
+      "rachelandrew",
+      "LurN",
+      "ishan123456789",
+      "andreaswachowski",
+      "VladPavel15",
+      "mikkelrd",
+      "mfluehr",
+      "mustafasalah",
+      "david_ross",
+      "Levenson",
+      "jacklj",
+      "manavm1990",
+      "codingplayboy",
+      "jichao",
+      "BychekRU",
+      "YoutaoXing",
+      "rolfedh",
+      "jackarmley",
+      "zhen-w",
+      "NicBright",
+      "teoli",
+      "xfq",
+      "arigoldx",
+      "zhanglun",
+      "denised",
+      "AprilMorone",
+      "adrianocastro",
+      "Jeremie",
+      "Naesten",
+      "ZhoraVdB",
+      "maybe",
+      "Sheppy",
+      "ethertank",
+      "Dholbert"
     ]
   },
   "Web/CSS/WebKit_Extensions": {

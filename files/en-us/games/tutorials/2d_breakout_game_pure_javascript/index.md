@@ -35,8 +35,6 @@ Starting with pure JavaScript is the best way to get a solid knowledge of web ga
 
 > [!NOTE]
 > This series of articles can be used as material for hands-on game development workshops. You can also make use of the [Gamedev Canvas Content Kit](https://github.com/end3r/Gamedev-Canvas-Content-Kit) based on this tutorial if you want to give a talk about game development in general.
->
-> If you are interested in using a game library for learning about 2D web game development, see this series' counterpart, [2D breakout game using Phaser](/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser).
 
 ## Next steps
 
