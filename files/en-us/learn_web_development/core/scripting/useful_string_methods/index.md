@@ -216,172 +216,66 @@ Each example comes with a "Reset" button, which you can use to reset the code if
 
 ### Filtering greeting messages
 
-In the first exercise, we'll start you off simple — we have an array of greeting card messages, but we want to sort them to list just the Christmas messages. We want you to fill in a conditional test inside the `if ()` structure to test each string and only print it in the list if it is a Christmas message.
+In the first exercise, we'll start you off simple — we have an array of greeting card messages, but we want to sort them to list just the Christmas messages.
 
-Think about how you could test whether the message in each case is a Christmas message. What string is present in all of those messages, and what method could you use to test whether it is present?
+Think about how you could test whether the message in each case is a Christmas message.
+What string is present in all of those messages, and what method could you use to test whether it is present?
 
-```html hidden
-<h2>Live output</h2>
+We want you to fill in a conditional test inside the `if ()` structure to test each string and only print it in the list if it is a Christmas message:
 
-<div class="output" style="min-height: 125px;">
+```html live-sample___filtering-greeting
+<h2>Your festive list:</h2>
+<div class="output">
   <ul></ul>
 </div>
-
-<h2>Editable code</h2>
-<p class="a11y-label">
-  Press Esc to move focus away from the code area (Tab inserts a tab character).
-</p>
-
-<textarea id="code" class="playable-code" style="height: 290px; width: 95%">
-const list = document.querySelector('.output ul');
-list.textContent = "";
-const greetings = ['Happy Birthday!',
-                 'Merry Christmas my love',
-                 'A happy Christmas to all the family',
-                 'You\'re all I want for Christmas',
-                 'Get well soon'];
-
-for (const greeting of greetings) {
-  // Your conditional test needs to go inside the parentheses
-  // in the line below, replacing what's currently there
-  if (greeting) {
-    const listItem = document.createElement('li');
-    listItem.textContent = greeting;
-    list.appendChild(listItem);
-  }
-}
-</textarea>
-
-<div class="playable-buttons">
-  <input id="reset" type="button" value="Reset" />
-  <input id="solution" type="button" value="Show solution" />
-</div>
 ```
 
-```css hidden
-html {
-  font-family: sans-serif;
-}
-
-h2 {
-  font-size: 16px;
-}
-
-.a11y-label {
-  margin: 0;
-  text-align: right;
-  font-size: 0.7rem;
-  width: 98%;
-}
-
-body {
-  margin: 10px;
-  background: #f5f9fa;
-}
-```
-
-```js hidden
-const textarea = document.getElementById("code");
-const reset = document.getElementById("reset");
-const solution = document.getElementById("solution");
-let code = textarea.value;
-let userEntry = textarea.value;
-
-function updateCode() {
-  eval(textarea.value);
-}
-
-reset.addEventListener("click", () => {
-  textarea.value = code;
-  userEntry = textarea.value;
-  solutionEntry = jsSolution;
-  solution.value = "Show solution";
-  updateCode();
-});
-
-solution.addEventListener("click", () => {
-  if (solution.value === "Show solution") {
-    textarea.value = solutionEntry;
-    solution.value = "Hide solution";
-  } else {
-    textarea.value = userEntry;
-    solution.value = "Show solution";
-  }
-  updateCode();
-});
-
-const jsSolution = `const list = document.querySelector('.output ul');
-list.textContent = "";
+```js live-sample___filtering-greeting
+const list = document.querySelector(".output ul");
 const greetings = [
-  'Happy Birthday!',
-  'Merry Christmas my love',
-  'A happy Christmas to all the family',
-  'You\\'re all I want for Christmas',
-  'Get well soon',
+  "Happy Birthday!",
+  "Merry Christmas my love",
+  "A happy Christmas to all the family",
+  "You're all I want for Christmas",
+  "Get well soon",
 ];
 
 for (const greeting of greetings) {
-  // Your conditional test needs to go inside the parentheses
-  // in the line below, replacing what's currently there
-  if (greeting.includes('Christmas')) {
-    const listItem = document.createElement('li');
+  // Your conditional needs to go in the parentheses
+  // in the next line, replacing "greeting"
+  if (greeting) {
+    const listItem = document.createElement("li");
     listItem.textContent = greeting;
     list.appendChild(listItem);
   }
-}`;
-
-let solutionEntry = jsSolution;
-
-textarea.addEventListener("input", updateCode);
-window.addEventListener("load", updateCode);
-
-// stop tab key tabbing out of textarea and
-// make it write a tab at the caret position instead
-
-textarea.onkeydown = (e) => {
-  if (e.code === "Tab") {
-    e.preventDefault();
-    insertAtCaret("\t");
-  }
-
-  if (e.code === "Escape") {
-    textarea.blur();
-  }
-};
-
-function insertAtCaret(text) {
-  const scrollPos = textarea.scrollTop;
-  let caretPos = textarea.selectionStart;
-  const front = textarea.value.substring(0, caretPos);
-  const back = textarea.value.substring(
-    textarea.selectionEnd,
-    textarea.value.length,
-  );
-
-  textarea.value = front + text + back;
-  caretPos += text.length;
-  textarea.selectionStart = caretPos;
-  textarea.selectionEnd = caretPos;
-  textarea.focus();
-  textarea.scrollTop = scrollPos;
 }
-
-// Update the saved userCode every time the user updates the text area code
-
-textarea.onkeyup = () => {
-  // We only want to save the state when the user code is being shown,
-  // not the solution, so that solution is not saved over the user code
-  if (solution.value === "Show solution") {
-    userEntry = textarea.value;
-  } else {
-    solutionEntry = textarea.value;
-  }
-
-  updateCode();
-};
 ```
 
-{{ EmbedLiveSample('Filtering_greeting_messages', '100%', 600) }}
+```css hidden live-sample___filtering-greeting
+body {
+  font-family: sans-serif;
+  margin: 10px;
+}
+```
+
+{{EmbedLiveSample('filtering-greeting', , 200)}}
+
+<details>
+<summary>Click here to show the solution</summary>
+
+You can use the string {{jsxref("String/includes", "includes()")}} method:
+
+```js
+for (const greeting of greetings) {
+  if (greeting.includes("Christmas")) {
+    const listItem = document.createElement("li");
+    listItem.textContent = greeting;
+    list.appendChild(listItem);
+  }
+}
+```
+
+</details>
 
 ### Fixing capitalization
 
@@ -395,158 +289,59 @@ In this exercise, we have the names of cities in the United Kingdom, but the cap
 > [!NOTE]
 > A hint — the parameters of the string methods don't have to be string literals; they can also be variables, or even variables with a method being invoked on them.
 
-```html hidden
-<h2>Live output</h2>
-
-<div class="output" style="min-height: 125px;">
+```html live-sample___fixing-capitalization
+<h2>Cities list:</h2>
+<div class="output">
   <ul></ul>
 </div>
+```
 
-<h2>Editable code</h2>
-<p class="a11y-label">
-  Press Esc to move focus away from the code area (Tab inserts a tab character).
-</p>
-
-<textarea id="code" class="playable-code" style="height: 250px; width: 95%">
-const list = document.querySelector('.output ul');
-list.textContent = "";
-const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
+```js live-sample___fixing-capitalization
+const list = document.querySelector(".output ul");
+const cities = ["lonDon", "ManCHESTer", "BiRmiNGHAM", "liVERpoOL"];
 
 for (const city of cities) {
-  // write your code just below here
-
+  // Add some lines of code here so `result` contains what you need:
   const result = city;
-  const listItem = document.createElement('li');
+
+  // Don't edit the following lines:
+  const listItem = document.createElement("li");
   listItem.textContent = result;
   list.appendChild(listItem);
 }
-</textarea>
-
-<div class="playable-buttons">
-  <input id="reset" type="button" value="Reset" />
-  <input id="solution" type="button" value="Show solution" />
-</div>
 ```
 
-```css hidden
-html {
-  font-family: sans-serif;
-}
-
-h2 {
-  font-size: 16px;
-}
-
-.a11y-label {
-  margin: 0;
-  text-align: right;
-  font-size: 0.7rem;
-  width: 98%;
-}
-
+```css hidden live-sample___fixing-capitalization
 body {
+  font-family: sans-serif;
   margin: 10px;
-  background: #f5f9fa;
 }
 ```
 
-```js hidden
-const textarea = document.getElementById("code");
-const reset = document.getElementById("reset");
-const solution = document.getElementById("solution");
-let code = textarea.value;
-let userEntry = textarea.value;
+{{EmbedLiveSample('fixing-capitalization', , 200)}}
 
-function updateCode() {
-  eval(textarea.value);
-}
+<details>
+<summary>Click here to show the solution</summary>
 
-reset.addEventListener("click", function () {
-  textarea.value = code;
-  userEntry = textarea.value;
-  solutionEntry = jsSolution;
-  solution.value = "Show solution";
-  updateCode();
-});
+This solution uses the following methods:
 
-solution.addEventListener("click", function () {
-  if (solution.value === "Show solution") {
-    textarea.value = solutionEntry;
-    solution.value = "Hide solution";
-  } else {
-    textarea.value = userEntry;
-    solution.value = "Show solution";
-  }
-  updateCode();
-});
+- {{jsxref("String/toLowerCase", "toLowerCase()")}} to lowercase the entire string
+- {{jsxref("String/slice", "slice()")}} to get the first letter
+- {{jsxref("String/replace", "replace()")}} to convert the first letter to uppercase
 
-const jsSolution = `const list = document.querySelector('.output ul');
-list.textContent = "";
-const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
-
+```js
 for (const city of cities) {
-  // write your code just below here
   const lower = city.toLowerCase();
-  const firstLetter = lower.slice(0,1);
-  const capitalized = lower.replace(firstLetter,firstLetter.toUpperCase());
+  const firstLetter = lower.slice(0, 1);
+  const capitalized = lower.replace(firstLetter, firstLetter.toUpperCase());
   const result = capitalized;
-  const listItem = document.createElement('li');
+  const listItem = document.createElement("li");
   listItem.textContent = result;
   list.appendChild(listItem);
-}`;
-
-let solutionEntry = jsSolution;
-
-textarea.addEventListener("input", updateCode);
-window.addEventListener("load", updateCode);
-
-// stop tab key tabbing out of textarea and
-// make it write a tab at the caret position instead
-
-textarea.onkeydown = function (e) {
-  if (e.code === "Tab") {
-    e.preventDefault();
-    insertAtCaret("\t");
-  }
-
-  if (e.code === "Escape") {
-    textarea.blur();
-  }
-};
-
-function insertAtCaret(text) {
-  const scrollPos = textarea.scrollTop;
-  let caretPos = textarea.selectionStart;
-  const front = textarea.value.substring(0, caretPos);
-  const back = textarea.value.substring(
-    textarea.selectionEnd,
-    textarea.value.length,
-  );
-
-  textarea.value = front + text + back;
-  caretPos += text.length;
-  textarea.selectionStart = caretPos;
-  textarea.selectionEnd = caretPos;
-  textarea.focus();
-  textarea.scrollTop = scrollPos;
 }
-
-// Update the saved userCode every time the user updates the text area code
-
-textarea.onkeyup = function () {
-  // We only want to save the state when the user code is being shown,
-  // not the solution, so that solution is not saved over the user code
-  if (solution.value === "Show solution") {
-    userEntry = textarea.value;
-  } else {
-    solutionEntry = textarea.value;
-  }
-
-  updateCode();
-};
 ```
 
-{{ EmbedLiveSample('Fixing_capitalization', '100%', 570) }}
+</details>
 
 ### Making new strings from old parts
 
@@ -570,166 +365,66 @@ We'd recommend doing it like this:
 4. Concatenate the two new variables and a string literal to make the final string.
 5. Change the value of the `result` variable to the final string, not the `station`.
 
-```html hidden
-<h2>Live output</h2>
-
-<div class="output" style="min-height: 125px;">
+```html live-sample___strings-from-parts
+<h2>Stations list:</h2>
+<div class="output">
   <ul></ul>
 </div>
+```
 
-<h2>Editable code</h2>
-<p class="a11y-label">
-  Press Esc to move focus away from the code area (Tab inserts a tab character).
-</p>
-
-<textarea id="code" class="playable-code" style="height: 285px; width: 95%">
-const list = document.querySelector('.output ul');
-list.textContent = "";
-const stations = ['MAN675847583748sjt567654;Manchester Piccadilly',
-                  'GNF576746573fhdg4737dh4;Greenfield',
-                  'LIV5hg65hd737456236dch46dg4;Liverpool Lime Street',
-                  'SYB4f65hf75f736463;Stalybridge',
-                  'HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield'];
+```js live-sample___strings-from-parts
+const list = document.querySelector(".output ul");
+const stations = [
+  "MAN675847583748sjt567654;Manchester Piccadilly",
+  "GNF576746573fhdg4737dh4;Greenfield",
+  "LIV5hg65hd737456236dch46dg4;Liverpool Lime Street",
+  "SYB4f65hf75f736463;Stalybridge",
+  "HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield",
+];
 
 for (const station of stations) {
-  // write your code just below here
-
+  // Add some lines of code here so `result` contains what you need:
   const result = station;
-  const listItem = document.createElement('li');
+
+  // Don't edit the following lines:
+  const listItem = document.createElement("li");
   listItem.textContent = result;
   list.appendChild(listItem);
 }
-</textarea>
-
-<div class="playable-buttons">
-  <input id="reset" type="button" value="Reset" />
-  <input id="solution" type="button" value="Show solution" />
-</div>
 ```
 
-```css hidden
-html {
-  font-family: sans-serif;
-}
-
-h2 {
-  font-size: 16px;
-}
-
-.a11y-label {
-  margin: 0;
-  text-align: right;
-  font-size: 0.7rem;
-  width: 98%;
-}
-
+```css hidden live-sample___strings-from-parts
 body {
+  font-family: sans-serif;
   margin: 10px;
-  background: #f5f9fa;
 }
 ```
 
-```js hidden
-const textarea = document.getElementById("code");
-const reset = document.getElementById("reset");
-const solution = document.getElementById("solution");
-let code = textarea.value;
-let userEntry = textarea.value;
+{{EmbedLiveSample('strings-from-parts', , 200)}}
 
-function updateCode() {
-  eval(textarea.value);
-}
+<details>
+<summary>Click here to show the solution</summary>
 
-reset.addEventListener("click", function () {
-  textarea.value = code;
-  userEntry = textarea.value;
-  solutionEntry = jsSolution;
-  solution.value = "Show solution";
-  updateCode();
-});
+This solution uses the following methods:
 
-solution.addEventListener("click", function () {
-  if (solution.value === "Show solution") {
-    textarea.value = solutionEntry;
-    solution.value = "Hide solution";
-  } else {
-    textarea.value = userEntry;
-    solution.value = "Show solution";
-  }
-  updateCode();
-});
+- {{jsxref("String/slice", "slice()")}} to extract the three-letter station code (the first three characters)
+- {{jsxref("String/indexOf", "indexOf()")}} to find where the `;` semicolon separator is
+- {{jsxref("String/slice", "slice()")}} the string again starting from the first character after the semicolon (the `name`)
+- {{jsxref("Template_literals", "template literals")}} for string formatting
 
-const jsSolution = `const list = document.querySelector('.output ul');
-list.textContent = '';
-const stations = ['MAN675847583748sjt567654;Manchester Piccadilly',
-                  'GNF576746573fhdg4737dh4;Greenfield',
-                  'LIV5hg65hd737456236dch46dg4;Liverpool Lime Street',
-                  'SYB4f65hf75f736463;Stalybridge',
-                  'HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield'];
-
+```js
 for (const station of stations) {
-  // write your code just below here
-  const code = station.slice(0,3);
-  const semiColon = station.indexOf(';');
+  const code = station.slice(0, 3);
+  const semiColon = station.indexOf(";");
   const name = station.slice(semiColon + 1);
-  const result = \`\${code}: \${name}\`;
-  const listItem = document.createElement('li');
+  const result = `${code}: ${name}`;
+  const listItem = document.createElement("li");
   listItem.textContent = result;
   list.appendChild(listItem);
-}`;
-
-let solutionEntry = jsSolution;
-
-textarea.addEventListener("input", updateCode);
-window.addEventListener("load", updateCode);
-
-// stop tab key tabbing out of textarea and
-// make it write a tab at the caret position instead
-
-textarea.onkeydown = function (e) {
-  if (e.code === "Tab") {
-    e.preventDefault();
-    insertAtCaret("\t");
-  }
-
-  if (e.code === "Escape") {
-    textarea.blur();
-  }
-};
-
-function insertAtCaret(text) {
-  const scrollPos = textarea.scrollTop;
-  let caretPos = textarea.selectionStart;
-  const front = textarea.value.substring(0, caretPos);
-  const back = textarea.value.substring(
-    textarea.selectionEnd,
-    textarea.value.length,
-  );
-
-  textarea.value = front + text + back;
-  caretPos += text.length;
-  textarea.selectionStart = caretPos;
-  textarea.selectionEnd = caretPos;
-  textarea.focus();
-  textarea.scrollTop = scrollPos;
 }
-
-// Update the saved userCode every time the user updates the text area code
-
-textarea.onkeyup = function () {
-  // We only want to save the state when the user code is being shown,
-  // not the solution, so that solution is not saved over the user code
-  if (solution.value === "Show solution") {
-    userEntry = textarea.value;
-  } else {
-    solutionEntry = textarea.value;
-  }
-
-  updateCode();
-};
 ```
 
-{{ EmbedLiveSample('Making_new_strings_from_old_parts', '100%', 600) }}
+</details>
 
 ## Test your skills!
 
