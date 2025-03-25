@@ -133,12 +133,10 @@ sidebar:
     details: closed
     children:
       - link: /Web/CSS/CSS_colors/Applying_color
-        title: Applying_color_to_HTML_elements
       - /Web/CSS/CSS_colors/Color_values
       - /Web/CSS/CSS_colors/Relative_colors
       - /Web/CSS/CSS_colors/Using_color_wisely
       - link: /Web/Accessibility/Guides/Colors_and_Luminance
-        title: Accessibility_Understanding_colors_and_luminance
       - link: /Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast
         title: Color_contrast
   - title: Columns
@@ -291,8 +289,6 @@ l10n:
     CSS_layout: CSS-Layout
     Guides: Leitfäden
     Animations: Animationen
-    Accessibility_Understanding_colors_and_luminance: "Barrierefreiheit: Farbwerte verstehen"
-    Applying_color_to_HTML_elements: Farben auf HTML-Elemente anwenden
     At-rules: At-Regeln
     Backgrounds_and_Borders: Hintergründe und Rahmen
     Resizing_background_images: Hintergrundbilder skalieren
@@ -521,8 +517,6 @@ l10n:
     Transforms: 变换
     Transitions: 过渡
     Tools: 工具
-    Accessibility_Understanding_colors_and_luminance: 无障碍：理解颜色和亮度
-    Applying_color_to_HTML_elements: 为 HTML 元素应用颜色
     Modules: 模块
     Pseudo-classes: 伪类
     Pseudo-elements: 伪元素
