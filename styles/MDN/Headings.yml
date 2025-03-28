@@ -1,0 +1,36 @@
+extends: capitalization
+message: "'%s' should use sentence-style capitalization."
+link: https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide#capitalization
+level: error
+scope: heading
+match: $sentence
+indicators:
+  - ":"
+exceptions:
+  - API
+  - Azure
+  - CLI
+  - CSS
+  - Code
+  - DOM
+  - Fetch
+  - HTML
+  - HTTP
+  - JavaScript
+  - Kubernetes
+  - Linux
+  - macOS
+  - MathML
+  - MongoDB
+  - REPL
+  - Studio
+  - SVG
+  - TypeScript
+  - URLs
+  - URL
+  - Visual
+  - VS
+  - WebAssembly
+  - Windows
+  - XMLHttpRequest
+  - XML

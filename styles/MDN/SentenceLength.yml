@@ -1,0 +1,7 @@
+extends: occurrence
+message: "Try to keep sentences short (less than 40 words)."
+link: https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide#consider_the_three_cs_of_writing
+scope: sentence
+level: suggestion
+max: 40
+token: \b(\w+)\b
