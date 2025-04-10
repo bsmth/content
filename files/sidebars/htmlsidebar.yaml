@@ -4,9 +4,6 @@ sidebar:
   - type: section
     link: /Web/HTML
   - type: section
-    link: /Web/HTML/Tutorials
-    title: Tutorials
-  - type: section
     link: /Web/HTML/Guides
     title: Guides
   - type: listSubPages
@@ -18,7 +15,7 @@ sidebar:
   - type: section
     link: /Web/HTML/Reference
     title: Reference
-  - type: listSubPages
+  - type: listSubPagesGrouped
     path: /Web/HTML/Reference/Elements
     title: HTML_Elements
     details: closed
@@ -29,9 +26,17 @@ sidebar:
     details: closed
     code: true
   - type: listSubPages
+    path: /Web/HTML/Reference/Elements/script/type
+    link: /Web/HTML/Reference/Elements/script/type
+    title: Script_types
+    details: closed
+    code: true
+  - /Web/HTML/Reference/Elements/meta/name
+  - type: listSubPages
     path: /Web/HTML/Reference/Attributes
     title: Attributes
     details: closed
+    code: true
   - type: listSubPages
     path: /Web/HTML/Reference/Global_attributes
     title: Global_attributes
@@ -51,6 +56,7 @@ l10n:
     Global_attributes: Global attributes
     Attributes: Attributes
     Input_types: <code>&lt;input&gt;</code> types
+    Script_types: <code>&lt;script&gt;</code> types
     Guides: Guides
   fr:
     Reference: Références

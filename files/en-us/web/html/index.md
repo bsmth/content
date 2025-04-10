@@ -19,13 +19,15 @@ The articles below can help you learn more about HTML.
 
 ## Beginner's tutorials
 
-- [Your first website: Creating the content](/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content)
-  - : This article provides a brief tour of what HTML is and how to use it, aimed at people who are completely new to web development.
+- [Creating content](/en-us/docs/learn_web_development/getting_started/your_first_website/creating_the_content)
+  - : HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. This article provides a basic understanding of HTML and its functionality, and shows you how to create the basic content for your first website.
 - [Structuring content with HTML](/en-US/docs/Learn_web_development/Core/Structuring_content)
-  - : Our [Learn web development](/en-US/docs/Learn_web_development) section's HTML module teaches all the HTML fundamentals from the ground up.
+  - : HTML is the technology that defines the content and structure of any website. Written properly, it should also define the semantics (meaning) of the content in a machine-readable way, which is vital for accessibility, search engine optimization, and making use of the built-in features browsers provide for content to work optimally. This module covers the basics of the language, before looking at key areas such as document structure, links, lists, images, forms, and more.
 
 ## Guides
 
+- [All HTML guides](/en-US/docs/Web/HTML/Guides)
+  - : A list of
 - [HTML forms](/en-US/docs/Learn_web_development/Extensions/Forms)
   - : Forms are a very important part of the Web — these provide much of the functionality you need for interacting with websites, e.g., registering and logging in, sending feedback, buying products, and more. This module gets you started with creating the client-side/front-end parts of forms.
 - [CORS enabled image](/en-US/docs/Web/HTML/How_to/CORS_enabled_image)
