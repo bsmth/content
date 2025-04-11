@@ -1,5 +1,6 @@
 ---
 title: WebAssembly numeric instructions
+short-title: Numeric instructions
 slug: WebAssembly/Reference/Numeric
 page-type: landing-page
 sidebar: webassemblysidebar

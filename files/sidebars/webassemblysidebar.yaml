@@ -4,54 +4,58 @@ sidebar:
   - type: section
     link: /WebAssembly
     title: WebAssembly
-  - title: Guides
-    details: open
-    children:
-      - link: /WebAssembly/Guides/Concepts
-        title: WebAssembly_concepts
-      - link: /WebAssembly/Guides/C_to_Wasm
-        title: Compiling_to_Wasm
-      - link: /WebAssembly/Guides/Rust_to_Wasm
-        title: Compiling_Rust_to_Wasm
-      - link: /WebAssembly/Guides/Using_the_JavaScript_API
-        title: JavaScript_API
-      - link: /WebAssembly/Guides/Understanding_the_text_format
-        title: Text_format
-      - link: /WebAssembly/Guides/Text_format_to_Wasm
-        title: Text_format_to_Wasm
-      - link: /WebAssembly/Guides/Loading_and_running
-        title: Loading_and_running
-      - link: /WebAssembly/Guides/Exported_functions
-        title: Exported_functions
-      - link: /WebAssembly/Guides/JavaScript_builtins
-        title: JavaScript_builtins
-      - link: /WebAssembly/Guides/Imported_string_constants
-        title: Imported_string_constants
-  - title: JavaScript_interface
-    details: open
-    children:
-      - link: /WebAssembly/Reference/JavaScript_interface
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/Module
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/Global
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/Instance
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/Memory
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/Table
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/Tag
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/Exception
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/CompileError
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/LinkError
-        code: true
-      - link: /WebAssembly/Reference/JavaScript_interface/RuntimeError
-        code: true
+  - type: section
+    link: /WebAssembly/Guides
+    title: Guides
+  - link: /WebAssembly/Guides/Concepts
+    title: WebAssembly_concepts
+  - link: /WebAssembly/Guides/C_to_Wasm
+    title: Compiling_to_Wasm
+  - link: /WebAssembly/Guides/Rust_to_Wasm
+    title: Compiling_Rust_to_Wasm
+  - link: /WebAssembly/Guides/Using_the_JavaScript_API
+    title: JavaScript_API
+  - link: /WebAssembly/Guides/Understanding_the_text_format
+    title: Text_format
+  - link: /WebAssembly/Guides/Text_format_to_Wasm
+    title: Text_format_to_Wasm
+  - link: /WebAssembly/Guides/Loading_and_running
+    title: Loading_and_running
+  - link: /WebAssembly/Guides/Exported_functions
+    title: Exported_functions
+  - link: /WebAssembly/Guides/JavaScript_builtins
+    title: JavaScript_builtins
+  - link: /WebAssembly/Guides/Imported_string_constants
+    title: Imported_string_constants
+  - type: section
+    link: /WebAssembly/Reference
+    title: Reference
+  - type: listSubPages
+    path: /WebAssembly/Reference/JavaScript_interface
+    link: /WebAssembly/Reference/JavaScript_interface
+    title: JavaScript_interface
+    details: closed
+    code: true
+  - type: listSubPages
+    path: /WebAssembly/Reference/Control_flow
+    link: /WebAssembly/Reference/Control_flow
+    details: closed
+    code: true
+  - type: listSubPages
+    path: /WebAssembly/Reference/Memory
+    link: /WebAssembly/Reference/Memory
+    details: closed
+    code: true
+  - type: listSubPages
+    path: /WebAssembly/Reference/Numeric
+    link: /WebAssembly/Reference/Numeric
+    details: closed
+    code: true
+  - type: listSubPages
+    path: /WebAssembly/Reference/Variables
+    link: /WebAssembly/Reference/Variables
+    details: closed
+    code: true
 l10n:
   de:
     WebAssembly_concepts: WebAssembly-Konzepte

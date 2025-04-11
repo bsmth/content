@@ -1,5 +1,6 @@
 ---
 title: WebAssembly memory instructions
+short-title: Memory instructions
 slug: WebAssembly/Reference/Memory
 page-type: landing-page
 sidebar: webassemblysidebar

@@ -1,5 +1,6 @@
 ---
 title: WebAssembly variable instructions
+short-title: Variable instructions
 slug: WebAssembly/Reference/Variables
 page-type: landing-page
 sidebar: webassemblysidebar
