@@ -11,6 +11,7 @@ sidebar:
     title: WebAssembly_concepts
   - link: /WebAssembly/Guides/C_to_Wasm
     title: Compiling_to_Wasm
+  - /WebAssembly/Guides/Existing_C_to_Wasm
   - link: /WebAssembly/Guides/Rust_to_Wasm
     title: Compiling_Rust_to_Wasm
   - link: /WebAssembly/Guides/Using_the_JavaScript_API

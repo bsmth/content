@@ -1,5 +1,6 @@
 ---
 title: Compiling an existing C module to WebAssembly
+short-title: Compiling C to WebAssembly
 slug: WebAssembly/Guides/Existing_C_to_Wasm
 page-type: guide
 sidebar: webassemblysidebar
