@@ -132,6 +132,7 @@ coprime
 CORB
 credentialled
 credentialless
+CRSF
 cryptids
 cryptosystems
 CSSWG
@@ -319,6 +320,7 @@ JSON-ifiable
 jsonifier
 jumpless
 JXON
+KACST
 Kbit
 Kbps
 keysyms
@@ -553,6 +555,7 @@ renderable
 renderbuffers
 reparsed
 replayability
+reportee
 repost
 reposted
 reposts
@@ -791,6 +794,7 @@ UAAG
 ufrag
 unabbreviate
 unbookmark
+unbundling
 uncacheable
 uncategorized
 unclickable
@@ -888,7 +892,6 @@ workgroups
 worklets
 workstreams
 writemasks
-WYSIYWG
 XMLHTTP
 XPCOM
 xrayed
