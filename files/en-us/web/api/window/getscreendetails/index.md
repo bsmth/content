@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Window.getScreenDetails
+sidebar: window-management-api
 ---
 
-{{APIRef("Window Management API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`getScreenDetails()`** method of the
 {{domxref("Window")}} interface returns a {{jsxref("Promise")}} that fulfills with a {{domxref("ScreenDetails")}} object instance representing the details of all the screens available to the user's device.
