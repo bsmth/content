@@ -44,17 +44,29 @@ This might produce output akin to this:
 
 ## Reference
 
-- [Timeouts](/en-US/docs/Web/WebDriver/Reference/Timeouts)
+The [WebDriver reference](/en-US/docs/Web/WebDriver/Reference) covers capabilities for session configuration, available commands, error handling responses, and timeout settings.
 
-### [Commands](/en-US/docs/Web/WebDriver/Reference/Commands)
+### Timeouts
+
+A WebDriver session has timeout definitions associated with it that control behavior for script injection, document navigation, and element retrieval.
+The [WebDriver timeouts](/en-US/docs/Web/WebDriver/Reference/Timeouts) reference describes how to use and interpret timeouts objects used in different contexts.
+
+### Commands
+
+WebDriver [Commands](/en-US/docs/Web/WebDriver/Reference/Commands) are documented in the following pages:
 
 {{ListSubpages("/en-US/docs/Web/WebDriver/Reference/Commands")}}
 
-### [Capabilities](/en-US/docs/Web/WebDriver/Reference/Capabilities)
+### Capabilities
+
+WebDriver [Capabilities](/en-US/docs/Web/WebDriver/Reference/Capabilities) are used to communicate the features supported by a session.
 
 {{ListSubpages("/en-US/docs/Web/WebDriver/Reference/Capabilities")}}
 
-### [Errors](/en-US/docs/Web/WebDriver/Reference/Errors)
+### Errors
+
+Any WebDriver command may receive an error represented by an HTTP response with a status code in the `4xx` or `5xx` range, and a JSON object holding details of the error.
+The following pages describe WebDriver [Errors](/en-US/docs/Web/WebDriver/Reference/Errors):
 
 {{ListSubpages("/en-US/docs/Web/WebDriver/Reference/Errors")}}
 
