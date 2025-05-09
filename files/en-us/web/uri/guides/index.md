@@ -6,8 +6,7 @@ page-type: listing-page
 sidebar: urlsidebar
 ---
 
-This page lists guides for URIs.
-They're intended to help you understand how URIs work and how to use them within your applications.
+This page lists guides for URIs to help you understand how they work and how to use them in your applications.
 
 {{SubPagesWithSummaries}}
 
