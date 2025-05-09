@@ -5,9 +5,14 @@ page-type: landing-page
 sidebar: xmlsidebar
 ---
 
-EXSLT is a set of extensions to [XSLT](/en-US/docs/Web/XML/XSLT). There are a number of modules; those that are supported by Firefox are listed below:
+EXSLT is a set of extensions to [XSLT](/en-US/docs/Web/XML/XSLT) with a number of modules for common operations.
+This page lists reference documentation for the modules that have browser support.
 
-## EXSLT modules
+## Reference
+
+The [EXSLT reference](/en-US/docs/Web/XML/EXSLT/Reference) describes common utilities, math operations, regular expressions, set manipulation, and string manipulation.
+
+## Overview of EXSLT
 
 To use an EXSLT function, you need to declare the namespace the function is in, and then use the appropriate prefix when calling the function. For example, to use the regular expressions package:
 

@@ -4,19 +4,20 @@ sidebar:
   - type: section
     link: /Web/URI
     title: URIs
-  - type: listSubPages
-    path: /Web/URI/Guides
+  - type: section
     link: /Web/URI/Guides
+    title: Guides
+  - /Web/URI/Guides/Choosing_between_www_and_non-www_URLs
   - type: section
     link: /Web/URI/Reference
     title: Reference
   - type: listSubPages
     path: /Web/URI/Reference/Schemes
     link: /Web/URI/Reference/Schemes
-    details: open
+    details: closed
     code: true
   - /Web/URI/Reference/Authority
   - type: listSubPages
     path: /Web/URI/Reference/Fragment
     link: /Web/URI/Reference/Fragment
-    details: open
+    details: closed
