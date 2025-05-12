@@ -53,4 +53,4 @@ firstScreen.addEventListener("change", (event) => {
 
 ## See also
 
-- [Window Management API](/en-US/docs/Web/API/Window_Management_API)
+- [Window Management API](/en-US/docs/Web/API/Window_management)

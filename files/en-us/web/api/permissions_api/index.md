@@ -66,7 +66,7 @@ A non-exhaustive list of permission-aware APIs includes:
 - [Storage API](/en-US/docs/Web/API/Storage_API): `persistent-storage`
 - [Web Bluetooth API](/en-US/docs/Web/API/Web_Bluetooth_API): `bluetooth`
 - [Web MIDI API](/en-US/docs/Web/API/Web_MIDI_API): `midi`
-- [Window Management API](/en-US/docs/Web/API/Window_Management_API): `window-management`
+- [Window Management API](/en-US/docs/Web/API/Window_management): `window-management`
 
 ## Interfaces
 

@@ -2,21 +2,20 @@
 
 sidebar:
   - type: section
-    link: /Web/API/Window_Management_API
+    link: /Web/API/Window_management
   - type: section
-    link: /Web/API/Window_Management_API/Guides
+    link: /Web/API/Window_management/Guides
     title: Guides
   - type: listSubPages
-    path: /Web/API/Window_Management_API/Guides
+    path: /Web/API/Window_management/Guides
   - type: section
-    link: /Web/API/Window_Management_API/Reference
+    link: /Web/API/Window_management/Reference
     title: Reference
-  - type: listSubPages
-    path: /Web/API/Window_Management_API/Reference/Interfaces
-    link: /Web/API/Window_Management_API/Reference/Interfaces
-    title: Interfaces
+  - title: Interfaces
     details: closed
-    code: true
+    children:
+      - /Web/API/Window_management/Reference/ScreenDetailed
+      - /Web/API/Window_management/Reference/ScreenDetails
   - title: Properties
     details: closed
     code: true
@@ -31,8 +30,8 @@ sidebar:
       - link: /Web/API/Window/getScreenDetails
         title: Window.getScreenDetails
   - type: listSubPages
-    path: /Web/API/Window_Management_API/Reference/Events
-    link: /Web/API/Window_Management_API/Reference/Events
+    path: /Web/API/Window_management/Reference/Events
+    link: /Web/API/Window_management/Reference/Events
     title: Events
     details: closed
     code: true

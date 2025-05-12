@@ -14,7 +14,7 @@ sidebar: window-management-api
 The **`isExtended`** read-only property of the
 {{domxref("Screen")}} interface returns `true` if the user's device has multiple screens, and `false` if not.
 
-This property is typically accessed via `window.screen.isExtended`, and can be used to test whether multiple screens are available before attempting to create a multi-window, multi-screen layout using the [Window Management API](/en-US/docs/Web/API/Window_Management_API).
+This property is typically accessed via `window.screen.isExtended`, and can be used to test whether multiple screens are available before attempting to create a multi-window, multi-screen layout using the [Window Management API](/en-US/docs/Web/API/Window_management).
 
 ## Value
 
@@ -43,4 +43,4 @@ if (window.screen.isExtended) {
 
 ## See also
 
-- [Window Management API](/en-US/docs/Web/API/Window_Management_API)
+- [Window Management API](/en-US/docs/Web/API/Window_management)

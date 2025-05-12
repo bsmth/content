@@ -68641,7 +68641,7 @@
       "rolfedh"
     ]
   },
-  "Web/API/Window_Management_API/Reference/Interfaces/ScreenDetailed/availLeft": {
+  "Web/API/Window_management/Reference/ScreenDetailed/availLeft": {
     "modified": "2020-10-15T21:13:04.118Z",
     "contributors": [
       "mfuji09",
@@ -68660,7 +68660,7 @@
       "Gor1"
     ]
   },
-  "Web/API/Window_Management_API/Reference/Interfaces/ScreenDetailed/availTop": {
+  "Web/API/Window_management/Reference/ScreenDetailed/availTop": {
     "modified": "2020-10-15T21:16:26.852Z",
     "contributors": [
       "mfuji09",
@@ -68676,7 +68676,7 @@
       "Gor1"
     ]
   },
-  "Web/API/Window_Management_API/Reference/Interfaces/ScreenDetailed/left": {
+  "Web/API/Window_management/Reference/ScreenDetailed/left": {
     "modified": "2020-10-15T21:16:24.841Z",
     "contributors": [
       "ExE-Boss",
@@ -68693,7 +68693,7 @@
       "Gor1"
     ]
   },
-  "Web/API/Window_Management_API/Reference/Interfaces/ScreenDetailed/top": {
+  "Web/API/Window_management/Reference/ScreenDetailed/top": {
     "modified": "2020-10-15T21:16:23.568Z",
     "contributors": [
       "ExE-Boss",

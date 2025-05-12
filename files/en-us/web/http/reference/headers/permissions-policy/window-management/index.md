@@ -9,7 +9,7 @@ browser-compat: http.headers.Permissions-Policy.window-management
 
 {{HTTPSidebar}}{{SeeCompatTable}}
 
-The HTTP {{HTTPHeader("Permissions-Policy")}} header `window-management` directive controls whether or not the current document is allowed to use the [Window Management API](/en-US/docs/Web/API/Window_Management_API) to manage windows on multiple displays.
+The HTTP {{HTTPHeader("Permissions-Policy")}} header `window-management` directive controls whether or not the current document is allowed to use the [Window Management API](/en-US/docs/Web/API/Window_management) to manage windows on multiple displays.
 
 Where this policy forbids use of the API:
 
@@ -39,6 +39,6 @@ The default allowlist for `window-management` is `self`.
 
 ## See also
 
-- [Window Management API](/en-US/docs/Web/API/Window_Management_API)
+- [Window Management API](/en-US/docs/Web/API/Window_management)
 - {{HTTPHeader("Permissions-Policy")}} header
 - [Permissions Policy](/en-US/docs/Web/HTTP/Guides/Permissions_Policy)
