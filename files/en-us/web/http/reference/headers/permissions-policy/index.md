@@ -220,7 +220,7 @@ You can specify
 
 - {{httpheader("Permissions-Policy/window-management", "window-management")}} {{experimental_inline}}
 
-  - : Controls whether or not the current document is allowed to use the [Window Management API](/en-US/docs/Web/API/Window_Management_API) to manage windows on multiple displays.
+  - : Controls whether or not the current document is allowed to use the [Window Management API](/en-US/docs/Web/API/Window_management) to manage windows on multiple displays.
 
 - {{httpheader("Permissions-Policy/xr-spatial-tracking", "xr-spatial-tracking")}} {{Experimental_Inline}}
   - : Controls whether or not the current document is allowed to use the [WebXR Device API](/en-US/docs/Web/API/WebXR_Device_API) to interact with a WebXR session.

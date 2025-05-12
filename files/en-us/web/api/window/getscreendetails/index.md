@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Window.getScreenDetails
+sidebar: window-management-api
 ---
 
-{{APIRef("Window Management API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`getScreenDetails()`** method of the
 {{domxref("Window")}} interface returns a {{jsxref("Promise")}} that fulfills with a {{domxref("ScreenDetails")}} object instance representing the details of all the screens available to the user's device.
@@ -30,7 +31,7 @@ A {{jsxref("Promise")}} that fulfills with a {{domxref("ScreenDetails")}} object
 ### Exceptions
 
 - `NotAllowedError` {{domxref("DOMException")}}
-  - : Thrown if a {{httpheader("Permissions-Policy/window-management", "window-management")}} [Permissions-Policy](/en-US/docs/Web/HTTP/Guides/Permissions_Policy) is set that blocks use of the [Window Management API](/en-US/docs/Web/API/Window_Management_API), or if the user has explicitly denied the browser's permission request to use the API.
+  - : Thrown if a {{httpheader("Permissions-Policy/window-management", "window-management")}} [Permissions-Policy](/en-US/docs/Web/HTTP/Guides/Permissions_Policy) is set that blocks use of the [Window Management API](/en-US/docs/Web/API/Window_management), or if the user has explicitly denied the browser's permission request to use the API.
 
 ## Examples
 
@@ -67,4 +68,4 @@ for (const screen of screenDetails.screens) {
 
 ## See also
 
-- [Window Management API](/en-US/docs/Web/API/Window_Management_API)
+- [Window Management API](/en-US/docs/Web/API/Window_management)
