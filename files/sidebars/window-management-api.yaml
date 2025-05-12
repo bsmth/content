@@ -1,0 +1,38 @@
+# Do not add comments to this file. They will be lost.
+
+sidebar:
+  - type: section
+    link: /Web/API/Window_Management_API
+  - type: section
+    link: /Web/API/Window_Management_API/Guides
+    title: Guides
+  - type: listSubPages
+    path: /Web/API/Window_Management_API/Guides
+  - type: section
+    link: /Web/API/Window_Management_API/Reference
+    title: Reference
+  - type: listSubPages
+    path: /Web/API/Window_Management_API/Reference/Interfaces
+    link: /Web/API/Window_Management_API/Reference/Interfaces
+    title: Interfaces
+    details: closed
+    code: true
+  - title: Properties
+    details: closed
+    code: true
+    children:
+      - link: /Web/API/Screen/isExtended
+        title: Screen.isExtended
+  - title: Methods
+    details: closed
+    children:
+      - link: /Web/API/Element/requestFullscreen
+        title: Element.requestFullscreen
+      - link: /Web/API/Window/getScreenDetails
+        title: Window.getScreenDetails
+  - type: listSubPages
+    path: /Web/API/Window_Management_API/Reference/Events
+    link: /Web/API/Window_Management_API/Reference/Events
+    title: Events
+    details: closed
+    code: true

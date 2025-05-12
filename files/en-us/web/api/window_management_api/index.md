@@ -6,9 +6,10 @@ status:
   - experimental
 browser-compat: api.Window.getScreenDetails
 spec-urls: https://w3c.github.io/window-management/
+sidebar: window-management-api
 ---
 
-{{SeeCompatTable}}{{DefaultAPISidebar("Window Management API")}}
+{{SeeCompatTable}}
 
 The **Window Management API** allows you to get detailed information on the displays connected to your device and more easily place windows on specific screens, paving the way towards more effective multi-screen applications.
 
@@ -30,7 +31,7 @@ However, the above features are limited. `Window.screen` only returns data about
 
 The Window Management API provides more robust, flexible window management. It allows you to query whether your display is extended with multiple screens and get information on each screen separately: windows can then be placed on each screen as desired. It also provides event handlers to allow you to respond to changes in the available screens, new fullscreen functionality to choose which screen to put into fullscreen mode (if any), and permissions functionality to control access to the API.
 
-For details on how to use it, see [Using the Window Management API](/en-US/docs/Web/API/Window_Management_API/Using).
+For details on how to use it, see [Using the Window Management API](/en-US/docs/Web/API/Window_Management_API/Guides/Using).
 
 > [!NOTE]
 > In modern browsers, a separate user gesture event is required for each `Window.open()` call, for security purposes. This prevents sites from spamming users with lots of windows. However, this poses an issue for multi-window applications. To work around this limitation, you can design your applications to open no more than one new window at once, reuse existing windows to display different pages, or advise users on how to update their browser settings to allow multiple windows.

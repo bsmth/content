@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Screen.isExtended
+sidebar: window-management-api
 ---
 
-{{APIRef("Window Management API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`isExtended`** read-only property of the
 {{domxref("Screen")}} interface returns `true` if the user's device has multiple screens, and `false` if not.
