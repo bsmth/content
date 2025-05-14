@@ -1,5 +1,6 @@
 ---
 title: Privacy on the web
+short-title: Privacy
 slug: Web/Privacy
 page-type: landing-page
 sidebar: privacy
