@@ -13624,6 +13624,7 @@
 /en-US/docs/Web/HTTP/Server-Side_Access_Control	/en-US/docs/Web/HTTP/Guides/CORS
 /en-US/docs/Web/HTTP/Session	/en-US/docs/Web/HTTP/Guides/Session
 /en-US/docs/Web/HTTP/Status	/en-US/docs/Web/HTTP/Reference/Status
+/en-US/docs/Web/HTTP/Status/$1	/en-US/docs/Web/HTTP/Reference/Status
 /en-US/docs/Web/HTTP/Status/100	/en-US/docs/Web/HTTP/Reference/Status/100
 /en-US/docs/Web/HTTP/Status/101	/en-US/docs/Web/HTTP/Reference/Status/101
 /en-US/docs/Web/HTTP/Status/102	/en-US/docs/Web/HTTP/Reference/Status/102
