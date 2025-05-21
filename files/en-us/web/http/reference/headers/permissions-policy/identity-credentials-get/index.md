@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: identity-credentials-get"
+short-title: identity-credentials-get
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/identity-credentials-get
 page-type: http-permissions-policy-directive
 status:

@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: local-fonts"
+short-title: local-fonts
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/local-fonts
 page-type: http-permissions-policy-directive
 status:

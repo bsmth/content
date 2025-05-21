@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: accelerometer"
+short-title: accelerometer
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/accelerometer
 page-type: http-permissions-policy-directive
 status:

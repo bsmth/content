@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: serial"
+short-title: serial
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/serial
 page-type: http-permissions-policy-directive
 status:

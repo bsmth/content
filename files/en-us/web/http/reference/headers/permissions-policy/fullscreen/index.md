@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: fullscreen"
+short-title: fullscreen
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/fullscreen
 page-type: http-permissions-policy-directive
 status:

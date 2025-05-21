@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: web-share"
+short-title: web-share
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/web-share
 page-type: http-permissions-policy-directive
 status:

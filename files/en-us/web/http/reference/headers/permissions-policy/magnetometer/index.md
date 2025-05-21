@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: magnetometer"
+short-title: magnetometer
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/magnetometer
 page-type: http-permissions-policy-directive
 status:

@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: ambient-light-sensor"
+short-title: ambient-light-sensor
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/ambient-light-sensor
 page-type: http-permissions-policy-directive
 status:

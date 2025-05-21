@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: publickey-credentials-get"
+short-title: publickey-credentials-get
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/publickey-credentials-get
 page-type: http-permissions-policy-directive
 status:

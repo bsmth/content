@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: usb"
+short-title: usb
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/usb
 page-type: http-permissions-policy-directive
 status:

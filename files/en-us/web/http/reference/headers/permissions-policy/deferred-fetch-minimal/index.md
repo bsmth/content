@@ -1,5 +1,6 @@
 ---
 title: "Permissions-Policy: deferred-fetch-minimal"
+short-title: deferred-fetch-minimal
 slug: Web/HTTP/Reference/Headers/Permissions-Policy/deferred-fetch-minimal
 page-type: http-permissions-policy-directive
 status:
