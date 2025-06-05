@@ -161,7 +161,7 @@
               "enum": [
                 "guide",
                 "landing-page",
-                "active-fx-release",
+                "firefox-release-notes-active",
                 "firefox-release-notes"
               ]
             }
