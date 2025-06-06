@@ -7,7 +7,7 @@ browser-compat: svg.global_attributes.clip-rule
 sidebar: svgref
 ---
 
-The `clip-rule` attribute only applies to graphics elements that are contained within a {{ SVGElement("clipPath") }} element. The `clip-rule` attribute basically works as the {{ SVGAttr("fill-rule") }} attribute, except that it applies to {{ SVGElement("clipPath") }} definitions.
+The SVG **`clip-rule`** attribute only applies to graphics elements that are contained within a {{ SVGElement("clipPath") }} element. The `clip-rule` attribute basically works as the {{ SVGAttr("fill-rule") }} attribute, except that it applies to {{ SVGElement("clipPath") }} definitions.
 
 > [!NOTE]
 > As a presentation attribute, `clip-rule` also has a CSS property counterpart: {{cssxref("clip-rule")}}. When both are specified, the CSS property takes priority.

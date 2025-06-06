@@ -7,7 +7,7 @@ browser-compat: svg.global_attributes.cursor
 sidebar: svgref
 ---
 
-The `cursor` attribute specifies the mouse cursor displayed when the mouse pointer is over an element.
+The SVG **`cursor`** attribute specifies the mouse cursor displayed when the mouse pointer is over an element.
 
 > [!NOTE]
 > As a presentation attribute, `cursor` also has a CSS property counterpart: {{cssxref("cursor")}}. When both are specified, the CSS property takes priority.
