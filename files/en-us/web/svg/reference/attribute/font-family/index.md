@@ -1,12 +1,13 @@
 ---
-title: font-family
+title: SVG font-family attribute
+short-title: font-family
 slug: Web/SVG/Reference/Attribute/font-family
 page-type: svg-attribute
 browser-compat: svg.global_attributes.font-family
 sidebar: svgref
 ---
 
-The **`font-family`** attribute indicates which font family will be used to render the text, specified as a prioritized list of font family names and/or generic family names.
+The SVG **`font-family`** attribute indicates which font family will be used to render the text, specified as a prioritized list of font family names and/or generic family names.
 
 > [!NOTE]
 > As a presentation attribute, `font-family` also has a CSS property counterpart: {{cssxref("font-family")}}. When both are specified, the CSS property takes priority.

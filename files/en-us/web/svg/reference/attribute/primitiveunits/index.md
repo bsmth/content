@@ -1,12 +1,13 @@
 ---
-title: primitiveUnits
+title: SVG primitiveUnits attribute
+short-title: primitiveUnits
 slug: Web/SVG/Reference/Attribute/primitiveUnits
 page-type: svg-attribute
 browser-compat: svg.elements.filter.primitiveUnits
 sidebar: svgref
 ---
 
-The **`primitiveUnits`** attribute specifies the coordinate system for the various length values within the filter primitives and for the attributes that define the filter primitive subregion.
+The SVG **`primitiveUnits`** attribute specifies the coordinate system for the various length values within the filter primitives and for the attributes that define the filter primitive subregion.
 
 You can use this attribute with the following SVG elements:
 

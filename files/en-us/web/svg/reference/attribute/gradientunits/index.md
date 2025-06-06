@@ -1,5 +1,6 @@
 ---
-title: gradientUnits
+title: SVG gradientUnits attribute
+short-title: gradientUnits
 slug: Web/SVG/Reference/Attribute/gradientUnits
 page-type: svg-attribute
 browser-compat:
@@ -8,7 +9,7 @@ browser-compat:
 sidebar: svgref
 ---
 
-The **`gradientUnits`** attribute defines the coordinate system used for attributes specified on the gradient elements.
+The SVG **`gradientUnits`** attribute defines the coordinate system used for attributes specified on the gradient elements.
 
 You can use this attribute with the following SVG elements:
 

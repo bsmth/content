@@ -1,12 +1,13 @@
 ---
-title: pointer-events
+title: SVG pointer-events attribute
+short-title: pointer-events
 slug: Web/SVG/Reference/Attribute/pointer-events
 page-type: svg-attribute
 browser-compat: svg.global_attributes.pointer-events
 sidebar: svgref
 ---
 
-The **`pointer-events`** attribute is a presentation attribute that allows defining whether or when an element may be the target of a mouse event.
+The SVG **`pointer-events`** attribute is a presentation attribute that allows defining whether or when an element may be the target of a mouse event.
 
 > [!NOTE]
 > As a presentation attribute, `pointer-events` also has a CSS property counterpart: {{cssxref("pointer-events")}}. When both are specified, the CSS property takes priority.

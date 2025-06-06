@@ -1,5 +1,6 @@
 ---
-title: textLength
+title: SVG textLength attribute
+short-title: textLength
 slug: Web/SVG/Reference/Attribute/textLength
 page-type: svg-attribute
 browser-compat:
@@ -9,7 +10,7 @@ browser-compat:
 sidebar: svgref
 ---
 
-The **`textLength`** attribute, available on SVG {{SVGElement("text")}} and {{SVGElement("tspan")}} elements, lets you specify the width of the space into which the text will draw. The {{glossary("user agent")}} will ensure that the text does not extend farther than that distance, using the method or methods specified by the {{SVGAttr("lengthAdjust")}} attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`.
+The SVG **`textLength`** attribute, available on SVG {{SVGElement("text")}} and {{SVGElement("tspan")}} elements, lets you specify the width of the space into which the text will draw. The {{glossary("user agent")}} will ensure that the text does not extend farther than that distance, using the method or methods specified by the {{SVGAttr("lengthAdjust")}} attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`.
 
 By using `textLength`, you can ensure that your SVG text displays at the same width regardless of conditions including web fonts failing to load (or not having loaded yet).
 

@@ -1,12 +1,13 @@
 ---
-title: numOctaves
+title: SVG numOctaves attribute
+short-title: numOctaves
 slug: Web/SVG/Reference/Attribute/numOctaves
 page-type: svg-attribute
 browser-compat: svg.elements.feTurbulence.numOctaves
 sidebar: svgref
 ---
 
-The **`numOctaves`** attribute defines the number of octaves for the noise function of the {{SVGElement("feTurbulence")}} primitive.
+The SVG **`numOctaves`** attribute defines the number of octaves for the noise function of the {{SVGElement("feTurbulence")}} primitive.
 
 An octave is a noise function defined by its frequency and amplitude. A turbulence is built by accumulating several octaves with increasing frequencies and decreasing amplitudes.
 The higher the number of octaves, the more natural the noise looks. Though more octaves also require more calculations, resulting in a negative impact on performance.

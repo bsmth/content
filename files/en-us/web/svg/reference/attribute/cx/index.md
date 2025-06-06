@@ -1,5 +1,6 @@
 ---
-title: cx
+title: SVG cx attribute
+short-title: cx
 slug: Web/SVG/Reference/Attribute/cx
 page-type: svg-attribute
 browser-compat:
@@ -9,7 +10,7 @@ browser-compat:
 sidebar: svgref
 ---
 
-The **`cx`** attribute defines the x-axis coordinate of a center point.
+The SVG **`cx`** attribute defines the x-axis coordinate of a center point.
 
 You can use this attribute with the following SVG elements:
 

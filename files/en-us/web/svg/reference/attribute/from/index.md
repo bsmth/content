@@ -1,12 +1,13 @@
 ---
-title: from
+title: SVG from attribute
+short-title: from
 slug: Web/SVG/Reference/Attribute/From
 page-type: svg-attribute
 browser-compat: svg.elements.animate.from
 sidebar: svgref
 ---
 
-The **`from`** attribute indicates the initial value of the attribute that will be modified during the animation.
+The SVG **`from`** attribute indicates the initial value of the attribute that will be modified during the animation.
 
 When used with the {{SVGAttr("to")}} attribute, the animation will change the modified attribute from the `from` value to the `to` value. When used with the {{SVGAttr("by")}} attribute, the animation will change the attribute relatively from the `from` value by the value specified in `by`.
 

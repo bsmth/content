@@ -1,12 +1,13 @@
 ---
-title: target
+title: SVG target attribute
+short-title: target
 slug: Web/SVG/Reference/Attribute/target
 page-type: svg-attribute
 browser-compat: svg.elements.a.target
 sidebar: svgref
 ---
 
-The **`target`** attribute should be used when there are multiple possible targets for the ending resource, such as when the parent document is embedded within an HTML or XHTML document, or is viewed with a tabbed browser. This attribute specifies the name of the browsing context (e.g., a browser tab or an (X)HTML iframe or object element) into which a document is to be opened when the link is activated:
+The SVG **`target`** attribute should be used when there are multiple possible targets for the ending resource, such as when the parent document is embedded within an HTML or XHTML document, or is viewed with a tabbed browser. This attribute specifies the name of the browsing context (e.g., a browser tab or an (X)HTML iframe or object element) into which a document is to be opened when the link is activated:
 
 You can use this attribute with the following SVG elements:
 

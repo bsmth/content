@@ -1,5 +1,6 @@
 ---
-title: spreadMethod
+title: SVG spreadMethod attribute
+short-title: spreadMethod
 slug: Web/SVG/Reference/Attribute/spreadMethod
 page-type: svg-attribute
 browser-compat:
@@ -8,7 +9,7 @@ browser-compat:
 sidebar: svgref
 ---
 
-The **`spreadMethod`** attribute determines how a shape is filled beyond the defined edges of a gradient.
+The SVG **`spreadMethod`** attribute determines how a shape is filled beyond the defined edges of a gradient.
 
 You can use this attribute with the following SVG elements:
 

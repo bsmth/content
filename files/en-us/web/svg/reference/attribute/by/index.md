@@ -1,12 +1,13 @@
 ---
-title: by
+title: SVG by attribute
+short-title: by
 slug: Web/SVG/Reference/Attribute/by
 page-type: svg-attribute
 browser-compat: svg.elements.animateTransform.by
 sidebar: svgref
 ---
 
-The **`by`** attribute specifies a relative offset value for an attribute that will be modified during an animation.
+The SVG **`by`** attribute specifies a relative offset value for an attribute that will be modified during an animation.
 
 The starting value for the attribute is either indicated by specifying it as value for the attribute given in the {{SVGAttr("attributeName")}} or the {{SVGAttr("from")}} attribute.
 

@@ -1,12 +1,13 @@
 ---
-title: min
+title: SVG min attribute
+short-title: min
 slug: Web/SVG/Reference/Attribute/min
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#MinAttribute
 sidebar: svgref
 ---
 
-The **`min`** attribute specifies the minimum value of the active animation duration.
+The SVG **`min`** attribute specifies the minimum value of the active animation duration.
 
 You can use this attribute with the following SVG elements:
 

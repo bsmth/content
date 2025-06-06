@@ -1,12 +1,13 @@
 ---
-title: stitchTiles
+title: SVG stitchTiles attribute
+short-title: stitchTiles
 slug: Web/SVG/Reference/Attribute/stitchTiles
 page-type: svg-attribute
 browser-compat: svg.elements.feTurbulence.stitchTiles
 sidebar: svgref
 ---
 
-The **`stitchTiles`** attribute defines how the Perlin Noise tiles behave at the border.
+The SVG **`stitchTiles`** attribute defines how the Perlin Noise tiles behave at the border.
 
 You can use this attribute with the following SVG elements:
 

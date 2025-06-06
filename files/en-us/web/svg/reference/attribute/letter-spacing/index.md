@@ -1,12 +1,13 @@
 ---
-title: letter-spacing
+title: SVG letter-spacing attribute
+short-title: letter-spacing
 slug: Web/SVG/Reference/Attribute/letter-spacing
 page-type: svg-attribute
 browser-compat: svg.global_attributes.letter-spacing
 sidebar: svgref
 ---
 
-The **`letter-spacing`** attribute controls spacing between text characters.
+The SVG **`letter-spacing`** attribute controls spacing between text characters.
 
 If the attribute value is a unitless number (like `128`), the browser processes it as a {{cssxref("length")}} in the current user coordinate system.
 

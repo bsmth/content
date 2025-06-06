@@ -1,12 +1,13 @@
 ---
-title: in
+title: SVG in attribute
+short-title: in
 slug: Web/SVG/Reference/Attribute/in
 page-type: svg-attribute
 spec-urls: https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-in
 sidebar: svgref
 ---
 
-The **`in`** attribute identifies input for the given filter primitive.
+The SVG **`in`** attribute identifies input for the given filter primitive.
 
 The value can be either one of the six keywords defined below, or a string which matches a previous {{SVGAttr("result")}} attribute value within the same {{SVGElement("filter")}} element. If no value is provided and this is the first filter primitive, then this filter primitive will use `SourceGraphic` as its input. If no value is provided and this is a subsequent filter primitive, then this filter primitive will use the result from the previous filter primitive as its input.
 

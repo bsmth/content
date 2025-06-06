@@ -1,12 +1,13 @@
 ---
-title: keyPoints
+title: SVG keyPoints attribute
+short-title: keyPoints
 slug: Web/SVG/Reference/Attribute/keyPoints
 page-type: svg-attribute
 browser-compat: svg.elements.animateMotion.keyPoints
 sidebar: svgref
 ---
 
-The **`keyPoints`** attribute indicates the simple duration of an animation.
+The SVG **`keyPoints`** attribute indicates the simple duration of an animation.
 
 You can use this attribute with the following SVG elements:
 

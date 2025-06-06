@@ -1,12 +1,13 @@
 ---
-title: attributeName
+title: SVG attributeName attribute
+short-title: attributeName
 slug: Web/SVG/Reference/Attribute/attributeName
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#AttributeNameAttribute
 sidebar: svgref
 ---
 
-The **`attributeName`** attribute indicates the name of the CSS property or attribute of the target element that is going to be changed during an animation.
+The SVG **`attributeName`** attribute indicates the name of the CSS property or attribute of the target element that is going to be changed during an animation.
 
 You can use this attribute with the following SVG elements:
 

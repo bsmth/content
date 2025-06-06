@@ -1,5 +1,6 @@
 ---
-title: "SVG attribute: crossorigin"
+title: SVG crossorigin attribute
+short-title: crossorigin
 slug: Web/SVG/Reference/Attribute/crossorigin
 page-type: svg-attribute
 browser-compat:
@@ -8,7 +9,7 @@ browser-compat:
 sidebar: svgref
 ---
 
-The crossorigin attribute, valid on the {{SVGElement("image")}} and {{SVGElement("feImage")}} elements, provides support for configuration of the Cross-Origin Resource Sharing ([CORS](/en-US/docs/Web/HTTP/Guides/CORS)) requests for the element's fetched data.
+The SVG **`crossorigin`** attribute, valid on the {{SVGElement("image")}} and {{SVGElement("feImage")}} elements, provides support for configuration of the Cross-Origin Resource Sharing ([CORS](/en-US/docs/Web/HTTP/Guides/CORS)) requests for the element's fetched data.
 
 This table shows possible keywords and their meaning:
 

@@ -1,12 +1,13 @@
 ---
-title: yChannelSelector
+title: SVG yChannelSelector attribute
+short-title: yChannelSelector
 slug: Web/SVG/Reference/Attribute/yChannelSelector
 page-type: svg-attribute
 browser-compat: svg.elements.feDisplacementMap.yChannelSelector
 sidebar: svgref
 ---
 
-The **`yChannelSelector`** attribute indicates which color channel from {{SVGAttr("in2")}} to use to displace the pixels in {{SVGAttr("in")}} along the y-axis.
+The SVG **`yChannelSelector`** attribute indicates which color channel from {{SVGAttr("in2")}} to use to displace the pixels in {{SVGAttr("in")}} along the y-axis.
 
 ## Elements
 

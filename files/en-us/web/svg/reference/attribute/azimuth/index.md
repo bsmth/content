@@ -1,12 +1,13 @@
 ---
-title: azimuth
+title: SVG azimuth attribute
+short-title: azimuth
 slug: Web/SVG/Reference/Attribute/azimuth
 page-type: svg-attribute
 browser-compat: svg.elements.feDistantLight.azimuth
 sidebar: svgref
 ---
 
-The **`azimuth`** attribute specifies the direction angle for the light source on the XY plane (clockwise), in degrees from the x axis.
+The SVG **`azimuth`** attribute specifies the direction angle for the light source on the XY plane (clockwise), in degrees from the x axis.
 
 You can use this attribute with the following SVG elements:
 

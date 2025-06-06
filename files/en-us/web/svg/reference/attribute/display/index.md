@@ -1,12 +1,13 @@
 ---
-title: display
+title: SVG display attribute
+short-title: display
 slug: Web/SVG/Reference/Attribute/display
 page-type: svg-attribute
 browser-compat: svg.global_attributes.display
 sidebar: svgref
 ---
 
-The **`display`** attribute lets you control the rendering of graphical or container elements.
+The SVG **`display`** attribute lets you control the rendering of graphical or container elements.
 
 A value of `display="none"` indicates that the given element and its children will not be rendered. Any value other than `none` or `inherit` indicates that the given element will be rendered by the browser.
 

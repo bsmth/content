@@ -1,12 +1,13 @@
 ---
-title: startOffset
+title: SVG startOffset attribute
+short-title: startOffset
 slug: Web/SVG/Reference/Attribute/startOffset
 page-type: svg-attribute
 browser-compat: svg.elements.textPath.startOffset
 sidebar: svgref
 ---
 
-The **`startOffset`** attribute defines an offset from the start of the path for the initial current text position along the path after converting the path to the {{SVGElement("textPath")}} element's coordinate system.
+The SVG **`startOffset`** attribute defines an offset from the start of the path for the initial current text position along the path after converting the path to the {{SVGElement("textPath")}} element's coordinate system.
 
 You can use this attribute with the following SVG elements:
 

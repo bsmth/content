@@ -1,12 +1,13 @@
 ---
-title: stroke-dasharray
+title: SVG stroke-dasharray attribute
+short-title: stroke-dasharray
 slug: Web/SVG/Reference/Attribute/stroke-dasharray
 page-type: svg-attribute
 browser-compat: svg.global_attributes.stroke-dasharray
 sidebar: svgref
 ---
 
-The **`stroke-dasharray`** attribute is a presentation attribute defining the pattern of dashes and gaps used to paint the outline of the shape.
+The SVG **`stroke-dasharray`** attribute is a presentation attribute defining the pattern of dashes and gaps used to paint the outline of the shape.
 
 > [!NOTE]
 > As a presentation attribute, `stroke-dasharray` also has a CSS property counterpart: {{cssxref("stroke-dasharray")}}. When both are specified, the CSS property takes priority.

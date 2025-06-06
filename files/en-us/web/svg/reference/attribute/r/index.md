@@ -1,5 +1,6 @@
 ---
-title: r
+title: SVG r attribute
+short-title: r
 slug: Web/SVG/Reference/Attribute/r
 page-type: svg-attribute
 browser-compat:
@@ -8,7 +9,7 @@ browser-compat:
 sidebar: svgref
 ---
 
-The **`r`** attribute defines the radius of a circle.
+The SVG **`r`** attribute defines the radius of a circle.
 
 You can use this attribute with the following SVG elements:
 

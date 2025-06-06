@@ -1,12 +1,13 @@
 ---
-title: begin
+title: SVG begin attribute
+short-title: begin
 slug: Web/SVG/Reference/Attribute/begin
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#BeginAttribute
 sidebar: svgref
 ---
 
-The **`begin`** attribute defines when the associated element becomes active.
+The SVG **`begin`** attribute defines when the associated element becomes active.
 For an animation element, this is the point at which the animation should begin.
 
 The attribute value is a semicolon separated list of values. The interpretation of a list of start times is detailed in the SMIL specification in ["Evaluation of begin and end time lists"](https://www.w3.org/TR/smil-animation/#Timing-EvaluationOfBeginEndTimeLists). Each individual value can be one of the following: `<offset-value>`, `<syncbase-value>`, `<event-value>`, `<repeat-value>`, `<accessKey-value>`, `<wallclock-sync-value>` or the keyword `indefinite`.

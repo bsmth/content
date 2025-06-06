@@ -1,12 +1,13 @@
 ---
-title: text-decoration
+title: SVG text-decoration attribute
+short-title: text-decoration
 slug: Web/SVG/Reference/Attribute/text-decoration
 page-type: svg-attribute
 browser-compat: svg.global_attributes.text-decoration
 sidebar: svgref
 ---
 
-The **`text-decoration`** attribute defines whether text is decorated with an underline, overline and/or strike-through. It is a shorthand for the {{cssxref("text-decoration-line")}} and {{cssxref("text-decoration-style")}} properties.
+The SVG **`text-decoration`** attribute defines whether text is decorated with an underline, overline and/or strike-through. It is a shorthand for the {{cssxref("text-decoration-line")}} and {{cssxref("text-decoration-style")}} properties.
 
 The fill and stroke of the text decoration are given by the fill and stroke of the text at the point where the text decoration is declared.
 

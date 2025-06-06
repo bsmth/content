@@ -1,12 +1,13 @@
 ---
-title: lang
+title: SVG lang attribute
+short-title: lang
 slug: Web/SVG/Reference/Attribute/lang
 page-type: svg-attribute
 browser-compat: svg.global_attributes.lang
 sidebar: svgref
 ---
 
-The **`lang`** attribute specifies the primary language used in contents and attributes containing text content of particular elements.
+The SVG **`lang`** attribute specifies the primary language used in contents and attributes containing text content of particular elements.
 
 There is also an {{SVGAttr("xml:lang")}} attribute (with namespace). If both of them are defined, the one with namespace is used and the one without is ignored.
 

@@ -1,12 +1,13 @@
 ---
-title: filter
+title: SVG filter attribute
+short-title: filter
 slug: Web/SVG/Reference/Attribute/filter
 page-type: svg-attribute
 browser-compat: svg.global_attributes.filter
 sidebar: svgref
 ---
 
-The **`filter`** attribute specifies the filter effects defined by the {{SVGElement("filter")}} element that shall be applied to its element.
+The SVG **`filter`** attribute specifies the filter effects defined by the {{SVGElement("filter")}} element that shall be applied to its element.
 
 > [!NOTE]
 > As a presentation attribute, `filter` also has a CSS property counterpart: {{cssxref("filter")}}. When both are specified, the CSS property takes priority.

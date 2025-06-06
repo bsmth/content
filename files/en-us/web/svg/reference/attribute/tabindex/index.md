@@ -1,12 +1,13 @@
 ---
-title: tabindex
+title: SVG tabindex attribute
+short-title: tabindex
 slug: Web/SVG/Reference/Attribute/tabindex
 page-type: svg-attribute
 browser-compat: svg.global_attributes.tabindex
 sidebar: svgref
 ---
 
-The **`tabindex`** attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.
+The SVG **`tabindex`** attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.
 
 You can use this attribute with any SVG element.
 

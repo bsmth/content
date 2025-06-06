@@ -1,5 +1,6 @@
 ---
-title: x1
+title: SVG x1 attribute
+short-title: x1
 slug: Web/SVG/Reference/Attribute/x1
 page-type: svg-attribute
 browser-compat:
@@ -8,7 +9,7 @@ browser-compat:
 sidebar: svgref
 ---
 
-The **`x1`** attribute is used to specify the first x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the {{SVGAttr("x")}} attribute instead.
+The SVG **`x1`** attribute is used to specify the first x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the {{SVGAttr("x")}} attribute instead.
 
 ## Elements
 

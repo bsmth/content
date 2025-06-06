@@ -1,12 +1,13 @@
 ---
-title: markerHeight
+title: SVG markerHeight attribute
+short-title: markerHeight
 slug: Web/SVG/Reference/Attribute/markerHeight
 page-type: svg-attribute
 browser-compat: svg.elements.marker.markerHeight
 sidebar: svgref
 ---
 
-The **`markerHeight`** attribute represents the height of the viewport into which the {{SVGElement("marker")}} is to be fitted when it is rendered according to the {{SVGAttr("viewBox")}} and {{SVGAttr("preserveAspectRatio")}} attributes.
+The SVG **`markerHeight`** attribute represents the height of the viewport into which the {{SVGElement("marker")}} is to be fitted when it is rendered according to the {{SVGAttr("viewBox")}} and {{SVGAttr("preserveAspectRatio")}} attributes.
 
 You can use this attribute with the following SVG elements:
 

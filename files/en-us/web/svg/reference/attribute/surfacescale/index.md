@@ -1,5 +1,6 @@
 ---
-title: surfaceScale
+title: SVG surfaceScale attribute
+short-title: surfaceScale
 slug: Web/SVG/Reference/Attribute/surfaceScale
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`surfaceScale`** attribute represents the height of the surface for a light filter primitive.
+The SVG **`surfaceScale`** attribute represents the height of the surface for a light filter primitive.
 
 You can use this attribute with the following SVG elements:
 

@@ -1,12 +1,13 @@
 ---
-title: tableValues
+title: SVG tableValues attribute
+short-title: tableValues
 slug: Web/SVG/Reference/Attribute/tableValues
 page-type: svg-attribute
 spec-urls: https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-tablevalues
 sidebar: svgref
 ---
 
-The **`tableValues`** attribute defines a list of numbers defining a lookup table of values for a color component transfer function.
+The SVG **`tableValues`** attribute defines a list of numbers defining a lookup table of values for a color component transfer function.
 
 You can use this attribute with the following SVG elements:
 

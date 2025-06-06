@@ -1,12 +1,13 @@
 ---
-title: stop-color
+title: SVG stop-color attribute
+short-title: stop-color
 slug: Web/SVG/Reference/Attribute/stop-color
 page-type: svg-attribute
 browser-compat: svg.global_attributes.stop-color
 sidebar: svgref
 ---
 
-The **`stop-color`** attribute indicates what color to use at a gradient stop.
+The SVG **`stop-color`** attribute indicates what color to use at a gradient stop.
 
 > [!NOTE]
 > With respect to gradients, SVG treats the `transparent` keyword differently than CSS. SVG does not calculate gradients in pre-multiplied space, so `transparent` really means transparent black. So, specifying a `stop-color` with the value `transparent` is equivalent to specifying a `stop-color` with the value `black` and a {{SVGAttr("stop-opacity")}} with the value `0`.

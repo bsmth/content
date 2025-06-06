@@ -1,5 +1,6 @@
 ---
-title: xlink:title
+title: SVG xlink:title attribute
+short-title: xlink:title
 slug: Web/SVG/Reference/Attribute/xlink:title
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{Deprecated_Header}}
 
-The **`xlink:title`** attribute is used to describe the meaning of a link or resource in a human-readable fashion.
+The SVG **`xlink:title`** attribute is used to describe the meaning of a link or resource in a human-readable fashion.
 
 The use of this information is highly dependent on the type of processing being done. It may be used, for example, to make titles available to applications used by visually impaired users, or to create a table of links, or to present help text that appears when a user lets a mouse pointer hover over a starting resource.
 

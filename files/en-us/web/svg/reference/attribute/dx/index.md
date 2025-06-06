@@ -1,5 +1,6 @@
 ---
-title: dx
+title: SVG dx attribute
+short-title: dx
 slug: Web/SVG/Reference/Attribute/dx
 page-type: svg-attribute
 spec-urls:
@@ -9,7 +10,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`dx`** attribute indicates a shift along the x-axis on the position of an element or its content.
+The SVG **`dx`** attribute indicates a shift along the x-axis on the position of an element or its content.
 
 You can use this attribute with the following SVG elements:
 

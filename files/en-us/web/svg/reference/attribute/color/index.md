@@ -1,12 +1,13 @@
 ---
-title: color
+title: SVG color attribute
+short-title: color
 slug: Web/SVG/Reference/Attribute/color
 page-type: svg-attribute
 browser-compat: svg.global_attributes.color
 sidebar: svgref
 ---
 
-The **`color`** attribute is used to provide a potential indirect value, `currentcolor`, for the {{SVGAttr("fill")}}, {{SVGAttr("stroke")}}, {{SVGAttr("stop-color")}}, {{SVGAttr("flood-color")}}, and {{SVGAttr("lighting-color")}} attributes.
+The SVG **`color`** attribute is used to provide a potential indirect value, `currentcolor`, for the {{SVGAttr("fill")}}, {{SVGAttr("stroke")}}, {{SVGAttr("stop-color")}}, {{SVGAttr("flood-color")}}, and {{SVGAttr("lighting-color")}} attributes.
 
 > [!NOTE]
 > As a presentation attribute, `color` also has a CSS property counterpart: {{cssxref("color")}}. When both are specified, the CSS property takes priority.

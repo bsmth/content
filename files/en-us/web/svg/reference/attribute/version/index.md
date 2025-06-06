@@ -1,5 +1,6 @@
 ---
-title: version
+title: SVG version attribute
+short-title: version
 slug: Web/SVG/Reference/Attribute/version
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{Deprecated_Header}}
 
-The **`version`** attribute is used to indicate what specification a SVG document conforms to. It is only allowed on the root {{SVGElement("svg")}} element. It is purely advisory and has no influence on rendering or processing.
+The SVG **`version`** attribute is used to indicate what specification a SVG document conforms to. It is only allowed on the root {{SVGElement("svg")}} element. It is purely advisory and has no influence on rendering or processing.
 
 While it is specified to accept any number, the only two valid choices are currently `1.0` and `1.1`.
 

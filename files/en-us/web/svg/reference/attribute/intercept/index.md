@@ -1,5 +1,6 @@
 ---
-title: intercept
+title: SVG intercept attribute
+short-title: intercept
 slug: Web/SVG/Reference/Attribute/intercept
 page-type: svg-attribute
 browser-compat: svg.elements.feFuncR
@@ -7,7 +8,7 @@ spec-urls: https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttr
 sidebar: svgref
 ---
 
-The **`intercept`** attribute defines the intercept of the linear function of color component transfers when the {{SVGAttr("type")}} attribute is set to `linear`.
+The SVG **`intercept`** attribute defines the intercept of the linear function of color component transfers when the {{SVGAttr("type")}} attribute is set to `linear`.
 
 The `linear` function is defined as `slope * color + intercept`, where `color` is the color value, the `intercept` provides a base value for the result, and the [`slope`](/en-US/docs/Web/SVG/Reference/Attribute/slope) is a scaling factor.
 

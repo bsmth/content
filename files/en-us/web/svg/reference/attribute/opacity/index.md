@@ -1,12 +1,13 @@
 ---
-title: opacity
+title: SVG opacity attribute
+short-title: opacity
 slug: Web/SVG/Reference/Attribute/opacity
 page-type: svg-attribute
 browser-compat: svg.global_attributes.opacity
 sidebar: svgref
 ---
 
-The **`opacity`** attribute specifies the transparency of an object or of a group of objects, that is, the degree to which the background behind the element is overlaid.
+The SVG **`opacity`** attribute specifies the transparency of an object or of a group of objects, that is, the degree to which the background behind the element is overlaid.
 
 > [!NOTE]
 > As a presentation attribute, `opacity` also has a CSS property counterpart: {{cssxref("opacity")}}. When both are specified, the CSS property takes priority.

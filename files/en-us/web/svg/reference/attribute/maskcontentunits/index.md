@@ -1,12 +1,13 @@
 ---
-title: maskContentUnits
+title: SVG maskContentUnits attribute
+short-title: maskContentUnits
 slug: Web/SVG/Reference/Attribute/maskContentUnits
 page-type: svg-attribute
 browser-compat: svg.elements.mask.maskContentUnits
 sidebar: svgref
 ---
 
-The **`maskContentUnits`** attribute indicates which coordinate system to use for the contents of the {{ SVGElement("mask") }} element.
+The SVG **`maskContentUnits`** attribute indicates which coordinate system to use for the contents of the {{ SVGElement("mask") }} element.
 
 You can use this attribute with the following SVG elements:
 

@@ -1,12 +1,13 @@
 ---
-title: keyTimes
+title: SVG keyTimes attribute
+short-title: keyTimes
 slug: Web/SVG/Reference/Attribute/keyTimes
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#KeyTimesAttribute
 sidebar: svgref
 ---
 
-The **`keyTimes`** attribute represents a list of time values used to control the pacing of the animation.
+The SVG **`keyTimes`** attribute represents a list of time values used to control the pacing of the animation.
 
 Each time in the list corresponds to a value in the {{SVGAttr("values")}} attribute list, and defines when the value is used in the animation. Each time value in the `keyTimes` list is specified as a floating point value between 0 and 1 (inclusive), representing a proportional offset into the duration of the animation element.
 

@@ -1,12 +1,13 @@
 ---
-title: ry
+title: SVG ry attribute
+short-title: ry
 slug: Web/SVG/Reference/Attribute/ry
 page-type: svg-attribute
 spec-urls: https://svgwg.org/svg2-draft/geometry.html#RY
 sidebar: svgref
 ---
 
-The **`ry`** attribute defines a radius on the y-axis.
+The SVG **`ry`** attribute defines a radius on the y-axis.
 
 You can use this attribute with the following SVG elements:
 

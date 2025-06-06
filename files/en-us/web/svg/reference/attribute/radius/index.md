@@ -1,12 +1,13 @@
 ---
-title: radius
+title: SVG radius attribute
+short-title: radius
 slug: Web/SVG/Reference/Attribute/radius
 page-type: svg-attribute
 browser-compat: svg.elements.feMorphology.radius
 sidebar: svgref
 ---
 
-The **`radius`** attribute represents the radius (or radii) for the operation on a given {{SVGElement("feMorphology")}} filter primitive.
+The SVG **`radius`** attribute represents the radius (or radii) for the operation on a given {{SVGElement("feMorphology")}} filter primitive.
 
 If two numbers are provided, the first number represents the x-radius and the second one the y-radius. If one number is provided, then that value is used for both x and y. The values are in the coordinate system established by the {{SVGAttr("primitiveUnits")}} attribute on the {{SVGElement("filter")}} element.
 

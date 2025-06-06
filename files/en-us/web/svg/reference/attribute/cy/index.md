@@ -1,5 +1,6 @@
 ---
-title: cy
+title: SVG cy attribute
+short-title: cy
 slug: Web/SVG/Reference/Attribute/cy
 page-type: svg-attribute
 browser-compat:
@@ -9,7 +10,7 @@ browser-compat:
 sidebar: svgref
 ---
 
-The **`cy`** attribute defines the y-axis coordinate of a center point.
+The SVG **`cy`** attribute defines the y-axis coordinate of a center point.
 
 You can use this attribute with the following SVG elements:
 

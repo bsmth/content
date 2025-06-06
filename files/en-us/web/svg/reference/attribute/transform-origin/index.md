@@ -1,5 +1,6 @@
 ---
-title: transform-origin
+title: SVG transform-origin attribute
+short-title: transform-origin
 slug: Web/SVG/Reference/Attribute/transform-origin
 page-type: svg-attribute
 browser-compat: svg.global_attributes.transform-origin
@@ -7,7 +8,7 @@ browser-compat: svg.global_attributes.transform-origin
 
 {{SVGRef()}}
 
-The **`transform-origin`** SVG attribute sets the origin for an item's transformations.
+The SVG **`transform-origin`** attribute sets the origin for an item's transformations.
 
 You can use this attribute with any SVG element.
 

@@ -1,12 +1,13 @@
 ---
-title: stroke-linecap
+title: SVG stroke-linecap attribute
+short-title: stroke-linecap
 slug: Web/SVG/Reference/Attribute/stroke-linecap
 page-type: svg-attribute
 browser-compat: svg.global_attributes.stroke-linecap
 sidebar: svgref
 ---
 
-The **`stroke-linecap`** attribute is a presentation attribute defining the shape to be used at the end of open subpaths when they are stroked.
+The SVG **`stroke-linecap`** attribute is a presentation attribute defining the shape to be used at the end of open subpaths when they are stroked.
 
 > [!NOTE]
 > As a presentation attribute, `stroke-linecap` also has a CSS property counterpart: {{cssxref("stroke-linecap")}}. When both are specified, the CSS property takes priority.

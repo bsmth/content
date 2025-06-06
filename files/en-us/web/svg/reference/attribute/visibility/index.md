@@ -1,12 +1,13 @@
 ---
-title: visibility
+title: SVG visibility attribute
+short-title: visibility
 slug: Web/SVG/Reference/Attribute/visibility
 page-type: svg-attribute
 browser-compat: svg.global_attributes.visibility
 sidebar: svgref
 ---
 
-The **`visibility`** attribute lets you control the visibility of graphical elements. With a value of `hidden` or `collapse` the current graphics element is invisible.
+The SVG **`visibility`** attribute lets you control the visibility of graphical elements. With a value of `hidden` or `collapse` the current graphics element is invisible.
 
 > [!NOTE]
 > If the `visibility` attribute is set to `hidden` on a text element, then the text is invisible but still takes up space in text layout calculations.

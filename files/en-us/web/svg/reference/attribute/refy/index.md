@@ -1,5 +1,6 @@
 ---
-title: refY
+title: SVG refY attribute
+short-title: refY
 slug: Web/SVG/Reference/Attribute/refY
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`refY`** attribute defines the y coordinate of an element's reference point.
+The SVG **`refY`** attribute defines the y coordinate of an element's reference point.
 
 You can use this attribute with the following SVG elements:
 

@@ -1,12 +1,13 @@
 ---
-title: stroke-opacity
+title: SVG stroke-opacity attribute
+short-title: stroke-opacity
 slug: Web/SVG/Reference/Attribute/stroke-opacity
 page-type: svg-attribute
 browser-compat: svg.global_attributes.stroke-opacity
 sidebar: svgref
 ---
 
-The **`stroke-opacity`** attribute is a presentation attribute defining the opacity of the paint server (_color_, _gradient_, _pattern_, etc.) applied to the stroke of a shape.
+The SVG **`stroke-opacity`** attribute is a presentation attribute defining the opacity of the paint server (_color_, _gradient_, _pattern_, etc.) applied to the stroke of a shape.
 
 > [!NOTE]
 > As a presentation attribute, `stroke-opacity` also has a CSS property counterpart: {{cssxref("stroke-opacity")}}. When both are specified, the CSS property takes priority.

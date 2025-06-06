@@ -1,12 +1,13 @@
 ---
-title: lighting-color
+title: SVG lighting-color attribute
+short-title: lighting-color
 slug: Web/SVG/Reference/Attribute/lighting-color
 page-type: svg-attribute
 browser-compat: svg.global_attributes.lighting-color
 sidebar: svgref
 ---
 
-The **`lighting-color`** attribute defines the color of the light source for lighting filter primitives.
+The SVG **`lighting-color`** attribute defines the color of the light source for lighting filter primitives.
 
 > [!NOTE]
 > As a presentation attribute, `lighting-color` also has a CSS property counterpart: {{cssxref("lighting-color")}}. When both are specified, the CSS property takes priority.

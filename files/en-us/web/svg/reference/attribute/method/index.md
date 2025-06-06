@@ -1,5 +1,6 @@
 ---
-title: method
+title: SVG method attribute
+short-title: method
 slug: Web/SVG/Reference/Attribute/method
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{SeeCompatTable}}
 
-The **`method`** attribute indicates the method by which text should be rendered along the path of a {{SVGElement("textPath")}} element.
+The SVG **`method`** attribute indicates the method by which text should be rendered along the path of a {{SVGElement("textPath")}} element.
 
 You can use this attribute with the following SVG elements:
 

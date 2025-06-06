@@ -1,12 +1,13 @@
 ---
-title: mask-type
+title: SVG mask-type attribute
+short-title: mask-type
 slug: Web/SVG/Reference/Attribute/mask-type
 page-type: svg-attribute
 browser-compat: svg.elements.mask.mask-type
 sidebar: svgref
 ---
 
-The **`mask-type`** attribute indicates which mask mode, _alpha_ or _luminance_, to use for the contents of the {{ SVGElement("mask") }} element when masking.
+The SVG **`mask-type`** attribute indicates which mask mode, _alpha_ or _luminance_, to use for the contents of the {{ SVGElement("mask") }} element when masking.
 
 You can use this attribute with the following SVG elements:
 

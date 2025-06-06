@@ -1,5 +1,6 @@
 ---
-title: height
+title: SVG height attribute
+short-title: height
 slug: Web/SVG/Reference/Attribute/height
 page-type: svg-attribute
 spec-urls:
@@ -11,7 +12,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`height`** attribute defines the vertical length of an element in the user coordinate system.
+The SVG **`height`** attribute defines the vertical length of an element in the user coordinate system.
 
 You can use this attribute with the following SVG elements:
 

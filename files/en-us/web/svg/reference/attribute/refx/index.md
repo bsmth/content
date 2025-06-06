@@ -1,5 +1,6 @@
 ---
-title: refX
+title: SVG refX attribute
+short-title: refX
 slug: Web/SVG/Reference/Attribute/refX
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`refX`** attribute defines the x coordinate of an element's reference point.
+The SVG **`refX`** attribute defines the x coordinate of an element's reference point.
 
 You can use this attribute with the following SVG elements:
 

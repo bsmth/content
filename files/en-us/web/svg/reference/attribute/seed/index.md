@@ -1,12 +1,13 @@
 ---
-title: seed
+title: SVG seed attribute
+short-title: seed
 slug: Web/SVG/Reference/Attribute/seed
 page-type: svg-attribute
 browser-compat: svg.elements.feTurbulence.seed
 sidebar: svgref
 ---
 
-The **`seed`** attribute represents the starting number for the pseudo random number generator of the {{SVGElement("feTurbulence")}} filter primitive.
+The SVG **`seed`** attribute represents the starting number for the pseudo random number generator of the {{SVGElement("feTurbulence")}} filter primitive.
 
 You can use this attribute with the following SVG elements:
 

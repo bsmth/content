@@ -1,5 +1,6 @@
 ---
-title: kernelUnitLength
+title: SVG kernelUnitLength attribute
+short-title: kernelUnitLength
 slug: Web/SVG/Reference/Attribute/kernelUnitLength
 page-type: svg-attribute
 spec-urls:
@@ -11,7 +12,7 @@ sidebar: svgref
 
 {{Deprecated_Header}}
 
-The **`kernelUnitLength`** attribute has two meanings based on the context it's used in. For lighting filter primitives, it indicates the intended distance for the x and y coordinates, for {{SVGElement("feConvolveMatrix")}}, it indicates the intended distance between successive columns and rows in the kernel matrix.
+The SVG **`kernelUnitLength`** attribute has two meanings based on the context it's used in. For lighting filter primitives, it indicates the intended distance for the x and y coordinates, for {{SVGElement("feConvolveMatrix")}}, it indicates the intended distance between successive columns and rows in the kernel matrix.
 
 You can use this attribute with the following SVG elements:
 

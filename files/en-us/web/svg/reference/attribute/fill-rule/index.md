@@ -1,12 +1,13 @@
 ---
-title: fill-rule
+title: SVG fill-rule attribute
+short-title: fill-rule
 slug: Web/SVG/Reference/Attribute/fill-rule
 page-type: svg-attribute
 browser-compat: svg.global_attributes.fill-rule
 sidebar: svgref
 ---
 
-The **`fill-rule`** attribute is a presentation attribute defining the algorithm to use to determine the _inside_ part of a shape.
+The SVG **`fill-rule`** attribute is a presentation attribute defining the algorithm to use to determine the _inside_ part of a shape.
 
 > [!NOTE]
 > As a presentation attribute, `fill-rule` also has a CSS property counterpart: {{cssxref("fill-rule")}}. When both are specified, the CSS property takes priority.

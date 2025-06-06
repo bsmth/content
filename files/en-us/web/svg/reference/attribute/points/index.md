@@ -1,5 +1,6 @@
 ---
-title: points
+title: SVG points attribute
+short-title: points
 slug: Web/SVG/Reference/Attribute/points
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`points`** attribute defines a list of points. Each point is defined by a pair of number representing a X and a Y coordinate in the user coordinate system. If the attribute contains an odd number of coordinates, the last one will be ignored.
+The SVG **`points`** attribute defines a list of points. Each point is defined by a pair of number representing a X and a Y coordinate in the user coordinate system. If the attribute contains an odd number of coordinates, the last one will be ignored.
 
 You can use this attribute with the following SVG elements:
 

@@ -1,12 +1,13 @@
 ---
-title: accumulate
+title: SVG accumulate attribute
+short-title: accumulate
 slug: Web/SVG/Reference/Attribute/accumulate
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#AccumulateAttribute
 sidebar: svgref
 ---
 
-The **`accumulate`** attribute controls whether or not an animation is cumulative.
+The SVG **`accumulate`** attribute controls whether or not an animation is cumulative.
 
 It is frequently useful for repeated animations to build upon the previous results, accumulating with each iteration. This attribute said to the animation if the value is added to the previous animated attribute's value on each iteration.
 

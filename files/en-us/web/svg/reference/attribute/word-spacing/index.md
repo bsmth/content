@@ -1,12 +1,13 @@
 ---
-title: word-spacing
+title: SVG word-spacing attribute
+short-title: word-spacing
 slug: Web/SVG/Reference/Attribute/word-spacing
 page-type: svg-attribute
 browser-compat: svg.global_attributes.word-spacing
 sidebar: svgref
 ---
 
-The **`word-spacing`** attribute specifies spacing behavior between words.
+The SVG **`word-spacing`** attribute specifies spacing behavior between words.
 
 If a {{cssxref("length")}} is provided without a unit identifier (e.g., an unqualified number such as 128), the browser processes the \<length> as a width value in the current user coordinate system.
 

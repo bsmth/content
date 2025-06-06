@@ -1,12 +1,13 @@
 ---
-title: k3
+title: SVG k3 attribute
+short-title: k3
 slug: Web/SVG/Reference/Attribute/k3
 page-type: svg-attribute
 browser-compat: svg.elements.feComposite.k3
 sidebar: svgref
 ---
 
-The **`k3`** attribute defines one of the values to be used within the `arithmetic` operation of the {{SVGElement("feComposite")}} filter primitive.
+The SVG **`k3`** attribute defines one of the values to be used within the `arithmetic` operation of the {{SVGElement("feComposite")}} filter primitive.
 
 The pixel composition is computed using the following formula:
 

@@ -1,12 +1,13 @@
 ---
-title: max
+title: SVG max attribute
+short-title: max
 slug: Web/SVG/Reference/Attribute/max
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#MaxAttribute
 sidebar: svgref
 ---
 
-The **`max`** attribute specifies the maximum value of the active animation duration.
+The SVG **`max`** attribute specifies the maximum value of the active animation duration.
 
 You can use this attribute with the following SVG elements:
 

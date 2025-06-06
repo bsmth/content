@@ -1,5 +1,6 @@
 ---
-title: xlink:show
+title: SVG xlink:show attribute
+short-title: xlink:show
 slug: Web/SVG/Reference/Attribute/xlink:show
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{Deprecated_Header}}
 
-The **`xlink:show`** attribute indicates how a linked resource should be opened and is meant for {{Glossary("XLink")}}-aware processors. In case of a conflict, the {{SVGAttr("target")}} attribute has priority, since it can express a wider range of values.
+The SVG **`xlink:show`** attribute indicates how a linked resource should be opened and is meant for {{Glossary("XLink")}}-aware processors. In case of a conflict, the {{SVGAttr("target")}} attribute has priority, since it can express a wider range of values.
 
 You can use this attribute with the following SVG elements:
 

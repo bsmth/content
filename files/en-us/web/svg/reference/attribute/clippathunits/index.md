@@ -1,12 +1,13 @@
 ---
-title: clipPathUnits
+title: SVG clipPathUnits attribute
+short-title: clipPathUnits
 slug: Web/SVG/Reference/Attribute/clipPathUnits
 page-type: svg-attribute
 spec-urls: https://drafts.fxtf.org/css-masking-1/#element-attrdef-clippath-clippathunits
 sidebar: svgref
 ---
 
-The **`clipPathUnits`** attribute indicates which coordinate system to use for the contents of the {{ SVGElement("clipPath") }} element.
+The SVG **`clipPathUnits`** attribute indicates which coordinate system to use for the contents of the {{ SVGElement("clipPath") }} element.
 
 You can use this attribute with the following SVG elements:
 

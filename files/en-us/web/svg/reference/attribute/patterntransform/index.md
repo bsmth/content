@@ -1,12 +1,13 @@
 ---
-title: patternTransform
+title: SVG patternTransform attribute
+short-title: patternTransform
 slug: Web/SVG/Reference/Attribute/patternTransform
 page-type: svg-attribute
 browser-compat: svg.elements.pattern.patternTransform
 sidebar: svgref
 ---
 
-The **`patternTransform`** attribute defines a list of [transform definitions](/en-US/docs/Web/SVG/Reference/Attribute/transform#transform_functions) that are applied to a pattern tile.
+The SVG **`patternTransform`** attribute defines a list of [transform definitions](/en-US/docs/Web/SVG/Reference/Attribute/transform#transform_functions) that are applied to a pattern tile.
 
 You can use this attribute with the following SVG elements:
 

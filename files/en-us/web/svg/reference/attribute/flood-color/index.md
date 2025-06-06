@@ -1,12 +1,13 @@
 ---
-title: flood-color
+title: SVG flood-color attribute
+short-title: flood-color
 slug: Web/SVG/Reference/Attribute/flood-color
 page-type: svg-attribute
 browser-compat: svg.global_attributes.flood-color
 sidebar: svgref
 ---
 
-The **`flood-color`** attribute indicates what color to use to flood the current filter primitive subregion.
+The SVG **`flood-color`** attribute indicates what color to use to flood the current filter primitive subregion.
 
 > [!NOTE]
 > As a presentation attribute, `flood-color` also has a CSS property counterpart: {{cssxref("flood-color")}}. When both are specified, the CSS property takes priority.

@@ -1,5 +1,6 @@
 ---
-title: to
+title: SVG to attribute
+short-title: to
 slug: Web/SVG/Reference/Attribute/To
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`to`** attribute indicates the final value of the attribute that will be modified during the animation.
+The SVG **`to`** attribute indicates the final value of the attribute that will be modified during the animation.
 
 The value of the attribute will change between the {{SVGAttr("from")}} attribute value and this value.
 

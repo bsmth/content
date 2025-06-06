@@ -1,5 +1,6 @@
 ---
-title: y
+title: SVG y attribute
+short-title: y
 slug: Web/SVG/Reference/Attribute/y
 page-type: svg-attribute
 spec-urls:
@@ -14,7 +15,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`y`** attribute defines a y-axis coordinate in the user coordinate system.
+The SVG **`y`** attribute defines a y-axis coordinate in the user coordinate system.
 
 ## Elements
 

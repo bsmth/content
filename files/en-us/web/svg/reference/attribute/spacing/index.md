@@ -1,12 +1,13 @@
 ---
-title: spacing
+title: SVG spacing attribute
+short-title: spacing
 slug: Web/SVG/Reference/Attribute/spacing
 page-type: svg-attribute
 browser-compat: svg.elements.textPath.spacing
 sidebar: svgref
 ---
 
-The **`spacing`** attribute indicates how the user agent should determine the spacing between typographic characters that are to be rendered along a path.
+The SVG **`spacing`** attribute indicates how the user agent should determine the spacing between typographic characters that are to be rendered along a path.
 
 You can use this attribute with the following SVG elements:
 

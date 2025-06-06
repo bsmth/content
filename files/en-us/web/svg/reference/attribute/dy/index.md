@@ -1,5 +1,6 @@
 ---
-title: dy
+title: SVG dy attribute
+short-title: dy
 slug: Web/SVG/Reference/Attribute/dy
 page-type: svg-attribute
 spec-urls:
@@ -9,7 +10,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`dy`** attribute indicates a shift along the y-axis on the position of an element or its content.
+The SVG **`dy`** attribute indicates a shift along the y-axis on the position of an element or its content.
 
 You can use this attribute with the following SVG elements:
 

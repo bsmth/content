@@ -1,12 +1,13 @@
 ---
-title: pointsAtY
+title: SVG pointsAtY attribute
+short-title: pointsAtY
 slug: Web/SVG/Reference/Attribute/pointsAtY
 page-type: svg-attribute
 browser-compat: svg.elements.feSpotLight.pointsAtY
 sidebar: svgref
 ---
 
-The **`pointsAtY`** attribute represents the y location in the coordinate system established by attribute {{SVGAttr("primitiveUnits")}} on the {{SVGElement("filter")}} element of the point at which the light source is pointing.
+The SVG **`pointsAtY`** attribute represents the y location in the coordinate system established by attribute {{SVGAttr("primitiveUnits")}} on the {{SVGElement("filter")}} element of the point at which the light source is pointing.
 
 You can use this attribute with the following SVG elements:
 

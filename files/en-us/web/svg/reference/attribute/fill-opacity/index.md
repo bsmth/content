@@ -1,12 +1,13 @@
 ---
-title: fill-opacity
+title: SVG fill-opacity attribute
+short-title: fill-opacity
 slug: Web/SVG/Reference/Attribute/fill-opacity
 page-type: svg-attribute
 browser-compat: svg.global_attributes.fill-opacity
 sidebar: svgref
 ---
 
-The **`fill-opacity`** attribute is a presentation attribute defining the opacity of the paint server (_color_, _gradient_, _pattern_, etc.) applied to a shape.
+The SVG **`fill-opacity`** attribute is a presentation attribute defining the opacity of the paint server (_color_, _gradient_, _pattern_, etc.) applied to a shape.
 
 > [!NOTE]
 > As a presentation attribute, `fill-opacity` also has a CSS property counterpart: {{cssxref("fill-opacity")}}. When both are specified, the CSS property takes priority.

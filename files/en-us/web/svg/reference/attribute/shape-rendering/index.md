@@ -1,12 +1,13 @@
 ---
-title: shape-rendering
+title: SVG shape-rendering attribute
+short-title: shape-rendering
 slug: Web/SVG/Reference/Attribute/shape-rendering
 page-type: svg-attribute
 browser-compat: svg.global_attributes.shape-rendering
 sidebar: svgref
 ---
 
-The **`shape-rendering`** attribute provides hints to the renderer about what tradeoffs to make when rendering shapes like paths, circles, or rectangles.
+The SVG **`shape-rendering`** attribute provides hints to the renderer about what tradeoffs to make when rendering shapes like paths, circles, or rectangles.
 
 > [!NOTE]
 > As a presentation attribute, `shape-rendering` also has a CSS property counterpart: {{cssxref("shape-rendering")}}. When both are specified, the CSS property takes priority.

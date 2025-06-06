@@ -1,12 +1,13 @@
 ---
-title: font-style
+title: SVG font-style attribute
+short-title: font-style
 slug: Web/SVG/Reference/Attribute/font-style
 page-type: svg-attribute
 browser-compat: svg.global_attributes.font-style
 sidebar: svgref
 ---
 
-The **`font-style`** attribute specifies whether the text is to be rendered using a normal, italic, or oblique face.
+The SVG **`font-style`** attribute specifies whether the text is to be rendered using a normal, italic, or oblique face.
 
 > [!NOTE]
 > As a presentation attribute, `font-style` also has a CSS property counterpart: {{cssxref("font-style")}}. When both are specified, the CSS property takes priority.

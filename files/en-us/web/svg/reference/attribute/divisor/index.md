@@ -1,12 +1,13 @@
 ---
-title: divisor
+title: SVG divisor attribute
+short-title: divisor
 slug: Web/SVG/Reference/Attribute/divisor
 page-type: svg-attribute
 browser-compat: svg.elements.feConvolveMatrix.divisor
 sidebar: svgref
 ---
 
-The **`divisor`** attribute specifies the value by which the resulting number of applying the {{SVGAttr("kernelMatrix")}} of a {{SVGElement("feConvolveMatrix")}} element to the input image color value is divided to yield the destination color value.
+The SVG **`divisor`** attribute specifies the value by which the resulting number of applying the {{SVGAttr("kernelMatrix")}} of a {{SVGElement("feConvolveMatrix")}} element to the input image color value is divided to yield the destination color value.
 
 A divisor that is the sum of all the matrix values tends to have an evening effect on the overall color intensity of the result.
 

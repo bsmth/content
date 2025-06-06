@@ -1,5 +1,6 @@
 ---
-title: clip-rule
+title: SVG clip-rule attribute
+short-title: clip-rule
 slug: Web/SVG/Reference/Attribute/clip-rule
 page-type: svg-attribute
 browser-compat: svg.global_attributes.clip-rule

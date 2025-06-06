@@ -1,5 +1,6 @@
 ---
-title: preserveAspectRatio
+title: SVG preserveAspectRatio attribute
+short-title: preserveAspectRatio
 slug: Web/SVG/Reference/Attribute/preserveAspectRatio
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given {{glossary("aspect ratio")}} must fit into a viewport with a different aspect ratio.
+The SVG **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given {{glossary("aspect ratio")}} must fit into a viewport with a different aspect ratio.
 
 The aspect ratio of an SVG image is defined by the {{SVGAttr('viewBox')}} attribute. Therefore, if `viewBox` isn't set, the `preserveAspectRatio` attribute has no effect on SVG's scaling (except in the case of the {{SVGElement('image')}} element, where `preserveAspectRatio` behaves differently as described below).
 

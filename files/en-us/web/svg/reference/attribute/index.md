@@ -1,5 +1,5 @@
 ---
-title: SVG Attribute reference
+title: SVG attribute reference
 short-title: Attributes
 slug: Web/SVG/Reference/Attribute
 page-type: landing-page

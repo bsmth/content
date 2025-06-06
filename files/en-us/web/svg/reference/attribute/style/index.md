@@ -1,12 +1,13 @@
 ---
-title: style
+title: SVG style attribute
+short-title: style
 slug: Web/SVG/Reference/Attribute/style
 page-type: svg-attribute
 browser-compat: svg.global_attributes.style
 sidebar: svgref
 ---
 
-The **`style`** attribute allows to style an element using {{Glossary("CSS")}} declarations. It functions identically to [the `style` attribute in HTML](/en-US/docs/Web/HTML/Reference/Global_attributes/style).
+The SVG **`style`** attribute allows to style an element using {{Glossary("CSS")}} declarations. It functions identically to [the `style` attribute in HTML](/en-US/docs/Web/HTML/Reference/Global_attributes/style).
 
 You can use this attribute with any SVG element.
 

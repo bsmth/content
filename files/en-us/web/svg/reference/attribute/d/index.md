@@ -1,12 +1,13 @@
 ---
-title: d
+title: SVG d attribute
+short-title: d
 slug: Web/SVG/Reference/Attribute/d
 page-type: svg-attribute
 browser-compat: svg.elements.path.d
 sidebar: svgref
 ---
 
-The **`d`** attribute defines a path to be drawn.
+The SVG **`d`** attribute defines a path to be drawn.
 
 A path definition is a list of [path commands](#path_commands) where each command is composed of a command letter and numbers that represent the command parameters.
 The commands are [detailed below](#path_commands).

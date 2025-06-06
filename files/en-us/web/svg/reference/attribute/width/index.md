@@ -1,5 +1,6 @@
 ---
-title: width
+title: SVG width attribute
+short-title: width
 slug: Web/SVG/Reference/Attribute/width
 page-type: svg-attribute
 spec-urls:
@@ -11,7 +12,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`width`** attribute defines the horizontal length of an element in the user coordinate system.
+The SVG **`width`** attribute defines the horizontal length of an element in the user coordinate system.
 
 ## Elements
 

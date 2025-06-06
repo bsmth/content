@@ -1,5 +1,6 @@
 ---
-title: values
+title: SVG values attribute
+short-title: values
 slug: Web/SVG/Reference/Attribute/values
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The `values` attribute has different meanings, depending upon the context where it's used, either it defines a sequence of values used over the course of an animation, or it's a list of numbers for a color matrix, which is interpreted differently depending on the type of color change to be performed.
+The SVG **`values`** attribute has different meanings, depending upon the context where it's used, either it defines a sequence of values used over the course of an animation, or it's a list of numbers for a color matrix, which is interpreted differently depending on the type of color change to be performed.
 
 You can use this attribute with the following SVG elements:
 

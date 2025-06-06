@@ -1,12 +1,13 @@
 ---
-title: stop-opacity
+title: SVG stop-opacity attribute
+short-title: stop-opacity
 slug: Web/SVG/Reference/Attribute/stop-opacity
 page-type: svg-attribute
 browser-compat: svg.global_attributes.stop-opacity
 sidebar: svgref
 ---
 
-The **`stop-opacity`** attribute defines the opacity of a given color gradient stop.
+The SVG **`stop-opacity`** attribute defines the opacity of a given color gradient stop.
 
 The opacity value used for the gradient calculation is the product of the value of `stop-opacity` and the opacity of the value of the {{SVGAttr("stop-color")}} attribute. For `stop-color` values that don't include explicit opacity information, the opacity is treated as `1`.
 

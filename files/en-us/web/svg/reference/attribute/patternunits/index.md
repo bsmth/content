@@ -1,12 +1,13 @@
 ---
-title: patternUnits
+title: SVG patternUnits attribute
+short-title: patternUnits
 slug: Web/SVG/Reference/Attribute/patternUnits
 page-type: svg-attribute
 browser-compat: svg.elements.pattern.patternUnits
 sidebar: svgref
 ---
 
-The **`patternUnits`** attribute indicates which coordinate system to use for the geometry properties of the {{ SVGElement("pattern") }} element.
+The SVG **`patternUnits`** attribute indicates which coordinate system to use for the geometry properties of the {{ SVGElement("pattern") }} element.
 
 You can use this attribute with the following SVG elements:
 

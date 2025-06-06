@@ -1,5 +1,6 @@
 ---
-title: clip
+title: SVG clip attribute
+short-title: clip
 slug: Web/SVG/Reference/Attribute/clip
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{deprecated_header}}
 
-The **`clip`** attribute defines the visible region of an element. You should use {{svgattr("clip-path")}} instead.
+The SVG **`clip`** attribute defines the visible region of an element. You should use {{svgattr("clip-path")}} instead.
 
 > [!NOTE]
 > As a presentation attribute, `clip` also has a CSS property counterpart: {{cssxref("clip")}}. When both are specified, the CSS property takes priority.

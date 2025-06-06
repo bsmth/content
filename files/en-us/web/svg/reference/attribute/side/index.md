@@ -1,5 +1,6 @@
 ---
-title: side
+title: SVG side attribute
+short-title: side
 slug: Web/SVG/Reference/Attribute/side
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{SeeCompatTable}}
 
-The **`side`** attribute determines the side of a path the text is placed on (relative to the path direction).
+The SVG **`side`** attribute determines the side of a path the text is placed on (relative to the path direction).
 
 You can use this attribute with the following SVG elements:
 

@@ -1,5 +1,6 @@
 ---
-title: in2
+title: SVG in2 attribute
+short-title: in2
 slug: Web/SVG/Reference/Attribute/in2
 page-type: svg-attribute
 spec-urls:
@@ -9,7 +10,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`in2`** attribute identifies the second input for the given filter primitive. It works exactly like the {{SVGAttr("in")}} attribute.
+The SVG **`in2`** attribute identifies the second input for the given filter primitive. It works exactly like the {{SVGAttr("in")}} attribute.
 
 You can use this attribute with the following SVG elements:
 

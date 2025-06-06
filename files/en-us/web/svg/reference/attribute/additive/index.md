@@ -1,12 +1,13 @@
 ---
-title: additive
+title: SVG additive attribute
+short-title: additive
 slug: Web/SVG/Reference/Attribute/additive
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#AdditiveAttribute
 sidebar: svgref
 ---
 
-The **`additive`** attribute controls whether or not an animation is additive.
+The SVG **`additive`** attribute controls whether or not an animation is additive.
 
 It is frequently useful to define animation as an offset or delta to an attribute's value, rather than as absolute values.
 

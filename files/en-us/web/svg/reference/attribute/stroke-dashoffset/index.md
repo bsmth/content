@@ -1,12 +1,13 @@
 ---
-title: stroke-dashoffset
+title: SVG stroke-dashoffset attribute
+short-title: stroke-dashoffset
 slug: Web/SVG/Reference/Attribute/stroke-dashoffset
 page-type: svg-attribute
 browser-compat: svg.global_attributes.stroke-dashoffset
 sidebar: svgref
 ---
 
-The **`stroke-dashoffset`** attribute is a presentation attribute defining an offset on the rendering of the associated dash array.
+The SVG **`stroke-dashoffset`** attribute is a presentation attribute defining an offset on the rendering of the associated dash array.
 
 > [!NOTE]
 > As a presentation attribute, `stroke-dashoffset` also has a CSS property counterpart: {{cssxref("stroke-dashoffset")}}. When both are specified, the CSS property takes priority.

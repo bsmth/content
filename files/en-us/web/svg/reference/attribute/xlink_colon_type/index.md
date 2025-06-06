@@ -1,5 +1,6 @@
 ---
-title: xlink:type
+title: SVG xlink:type attribute
+short-title: xlink:type
 slug: Web/SVG/Reference/Attribute/xlink:type
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{Deprecated_Header}}
 
-The **`xlink:type`** attribute identifies the type of {{Glossary("XLink")}} being used. In SVG, only simple links are available.
+The SVG **`xlink:type`** attribute identifies the type of {{Glossary("XLink")}} being used. In SVG, only simple links are available.
 
 You can use this attribute with the following SVG elements:
 

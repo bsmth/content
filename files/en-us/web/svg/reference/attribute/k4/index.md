@@ -1,12 +1,13 @@
 ---
-title: k4
+title: SVG k4 attribute
+short-title: k4
 slug: Web/SVG/Reference/Attribute/k4
 page-type: svg-attribute
 browser-compat: svg.elements.feComposite.k4
 sidebar: svgref
 ---
 
-The **`k4`** attribute defines one of the values to be used within the `arithmetic` operation of the {{SVGElement("feComposite")}} filter primitive.
+The SVG **`k4`** attribute defines one of the values to be used within the `arithmetic` operation of the {{SVGElement("feComposite")}} filter primitive.
 
 The pixel composition is computed using the following formula:
 

@@ -1,12 +1,13 @@
 ---
-title: image-rendering
+title: SVG image-rendering attribute
+short-title: image-rendering
 slug: Web/SVG/Reference/Attribute/image-rendering
 page-type: svg-attribute
 browser-compat: svg.global_attributes.image-rendering
 sidebar: svgref
 ---
 
-The **`image-rendering`** attribute provides a hint to the browser about how to make speed vs. quality tradeoffs as it performs image processing.
+The SVG **`image-rendering`** attribute provides a hint to the browser about how to make speed vs. quality tradeoffs as it performs image processing.
 
 The resampling is always done in a true color (e.g., 24-bit) color space even if the original data and/or the target device is indexed color.
 

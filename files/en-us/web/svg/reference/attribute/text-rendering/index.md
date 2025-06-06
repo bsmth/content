@@ -1,12 +1,13 @@
 ---
-title: text-rendering
+title: SVG text-rendering attribute
+short-title: text-rendering
 slug: Web/SVG/Reference/Attribute/text-rendering
 page-type: svg-attribute
 browser-compat: svg.global_attributes.text-rendering
 sidebar: svgref
 ---
 
-The **`text-rendering`** attribute provides hints to the renderer about what tradeoffs to make when rendering text.
+The SVG **`text-rendering`** attribute provides hints to the renderer about what tradeoffs to make when rendering text.
 
 > [!NOTE]
 > As a presentation attribute, `text-rendering` also has a CSS property counterpart: {{cssxref("text-rendering")}}. When both are specified, the CSS property takes priority.

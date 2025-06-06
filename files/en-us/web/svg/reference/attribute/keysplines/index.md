@@ -1,12 +1,13 @@
 ---
-title: keySplines
+title: SVG keySplines attribute
+short-title: keySplines
 slug: Web/SVG/Reference/Attribute/keySplines
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#KeySplinesAttribute
 sidebar: svgref
 ---
 
-The **`keySplines`** attribute defines a set of [Bézier curve](/en-US/docs/Glossary/Bezier_curve) control points associated with the {{SVGAttr("keyTimes")}} list, defining a cubic Bézier function that controls interval pacing.
+The SVG **`keySplines`** attribute defines a set of [Bézier curve](/en-US/docs/Glossary/Bezier_curve) control points associated with the {{SVGAttr("keyTimes")}} list, defining a cubic Bézier function that controls interval pacing.
 
 This attribute is ignored unless the {{SVGAttr("calcMode")}} attribute is set to `spline`.
 

@@ -1,12 +1,13 @@
 ---
-title: repeatDur
+title: SVG repeatDur attribute
+short-title: repeatDur
 slug: Web/SVG/Reference/Attribute/repeatDur
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#RepeatDurAttribute
 sidebar: svgref
 ---
 
-The **`repeatDur`** attribute specifies the total duration for repeating an animation.
+The SVG **`repeatDur`** attribute specifies the total duration for repeating an animation.
 
 You can use this attribute with the following SVG elements:
 

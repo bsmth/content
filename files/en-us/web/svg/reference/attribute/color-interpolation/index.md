@@ -1,12 +1,13 @@
 ---
-title: color-interpolation
+title: SVG color-interpolation attribute
+short-title: color-interpolation
 slug: Web/SVG/Reference/Attribute/color-interpolation
 page-type: svg-attribute
 browser-compat: svg.global_attributes.color-interpolation
 sidebar: svgref
 ---
 
-The **`color-interpolation`** attribute specifies the color space for gradient interpolations, color animations, and alpha compositing.
+The SVG **`color-interpolation`** attribute specifies the color space for gradient interpolations, color animations, and alpha compositing.
 
 > [!NOTE]
 > For filter effects, the {{SVGAttr("color-interpolation-filters")}} property controls which color space is used.

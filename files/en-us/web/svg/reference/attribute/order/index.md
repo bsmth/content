@@ -1,12 +1,13 @@
 ---
-title: order
+title: SVG order attribute
+short-title: order
 slug: Web/SVG/Reference/Attribute/order
 page-type: svg-attribute
 browser-compat: svg.elements.feConvolveMatrix.order
 sidebar: svgref
 ---
 
-The **`order`** attribute indicates the size of the matrix to be used by a {{SVGElement("feConvolveMatrix")}} element.
+The SVG **`order`** attribute indicates the size of the matrix to be used by a {{SVGElement("feConvolveMatrix")}} element.
 
 You can use this attribute with the following SVG elements:
 

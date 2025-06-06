@@ -1,5 +1,6 @@
 ---
-title: stdDeviation
+title: SVG stdDeviation attribute
+short-title: stdDeviation
 slug: Web/SVG/Reference/Attribute/stdDeviation
 page-type: svg-attribute
 browser-compat:
@@ -8,7 +9,7 @@ browser-compat:
 sidebar: svgref
 ---
 
-The **`stdDeviation`** attribute defines the standard deviation for the blur operation.
+The SVG **`stdDeviation`** attribute defines the standard deviation for the blur operation.
 
 You can use this attribute with the following SVG elements:
 

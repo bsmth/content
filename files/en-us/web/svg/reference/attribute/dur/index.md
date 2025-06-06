@@ -1,12 +1,13 @@
 ---
-title: dur
+title: SVG dur attribute
+short-title: dur
 slug: Web/SVG/Reference/Attribute/dur
 page-type: svg-attribute
 browser-compat: svg.elements.animate.dur
 sidebar: svgref
 ---
 
-The **`dur`** attribute indicates the simple duration of an animation.
+The SVG **`dur`** attribute indicates the simple duration of an animation.
 
 You can use this attribute with the following SVG elements:
 

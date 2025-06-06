@@ -1,12 +1,13 @@
 ---
-title: rx
+title: SVG rx attribute
+short-title: rx
 slug: Web/SVG/Reference/Attribute/rx
 page-type: svg-attribute
 spec-urls: https://svgwg.org/svg2-draft/geometry.html#RX
 sidebar: svgref
 ---
 
-The **`rx`** attribute defines a radius on the x-axis.
+The SVG **`rx`** attribute defines a radius on the x-axis.
 
 You can use this attribute with the following SVG elements:
 

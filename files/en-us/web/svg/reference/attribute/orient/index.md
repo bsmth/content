@@ -1,12 +1,13 @@
 ---
-title: orient
+title: SVG orient attribute
+short-title: orient
 slug: Web/SVG/Reference/Attribute/orient
 page-type: svg-attribute
 browser-compat: svg.elements.marker.orient
 sidebar: svgref
 ---
 
-The **`orient`** attribute indicates how a marker is rotated when it is placed at its position on the shape.
+The SVG **`orient`** attribute indicates how a marker is rotated when it is placed at its position on the shape.
 
 You can use this attribute with the following SVG elements:
 

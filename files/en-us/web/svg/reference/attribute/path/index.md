@@ -1,5 +1,6 @@
 ---
-title: path
+title: SVG path attribute
+short-title: path
 slug: Web/SVG/Reference/Attribute/path
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`path`** attribute has two different meanings, either it defines a text path along which the characters of a text are rendered, or a motion path along which a referenced element is animated.
+The SVG **`path`** attribute has two different meanings, either it defines a text path along which the characters of a text are rendered, or a motion path along which a referenced element is animated.
 
 You can use this attribute with the following SVG elements:
 

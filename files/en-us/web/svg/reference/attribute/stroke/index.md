@@ -1,12 +1,13 @@
 ---
-title: stroke
+title: SVG stroke attribute
+short-title: stroke
 slug: Web/SVG/Reference/Attribute/stroke
 page-type: svg-attribute
 browser-compat: svg.global_attributes.stroke
 sidebar: svgref
 ---
 
-The **`stroke`** attribute is a presentation attribute defining the color (_or any SVG paint servers like gradients or patterns_) used to paint the outline of the shape.
+The SVG **`stroke`** attribute is a presentation attribute defining the color (_or any SVG paint servers like gradients or patterns_) used to paint the outline of the shape.
 
 > [!NOTE]
 > As a presentation attribute, `stroke` also has a CSS property counterpart: {{cssxref("stroke")}}. When both are specified, the CSS property takes priority.

@@ -1,5 +1,6 @@
 ---
-title: specularExponent
+title: SVG specularExponent attribute
+short-title: specularExponent
 slug: Web/SVG/Reference/Attribute/specularExponent
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`specularExponent`** attribute controls the focus for the light source. The bigger the value the brighter the light.
+The SVG **`specularExponent`** attribute controls the focus for the light source. The bigger the value the brighter the light.
 
 You can use this attribute with the following SVG elements:
 

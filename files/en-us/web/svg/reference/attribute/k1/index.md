@@ -1,12 +1,13 @@
 ---
-title: k1
+title: SVG k1 attribute
+short-title: k1
 slug: Web/SVG/Reference/Attribute/k1
 page-type: svg-attribute
 browser-compat: svg.elements.feComposite.k1
 sidebar: svgref
 ---
 
-The **`k1`** attribute defines one of the values to be used within the `arithmetic` operation of the {{SVGElement("feComposite")}} filter primitive.
+The SVG **`k1`** attribute defines one of the values to be used within the `arithmetic` operation of the {{SVGElement("feComposite")}} filter primitive.
 
 The pixel composition is computed using the following formula:
 

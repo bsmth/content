@@ -1,12 +1,13 @@
 ---
-title: marker-start
+title: SVG marker-start attribute
+short-title: marker-start
 slug: Web/SVG/Reference/Attribute/marker-start
 page-type: svg-attribute
 browser-compat: svg.global_attributes.marker-start
 sidebar: svgref
 ---
 
-The **`marker-start`** attribute defines the arrowhead or polymarker that will be drawn at the first vertex of the given [shape](/en-US/docs/Web/SVG/Reference/Element#shape_elements).
+The SVG **`marker-start`** attribute defines the arrowhead or polymarker that will be drawn at the first vertex of the given [shape](/en-US/docs/Web/SVG/Reference/Element#shape_elements).
 
 For all shape elements, except {{SVGElement("polyline")}} and {{SVGElement("path")}}, the last vertex is the same as the first vertex. In this case, if the value of `marker-start` and {{SVGAttr("marker-end")}} are both not `none`, then two markers will be rendered on that final vertex. For `<path>` elements, for each closed subpath, the last vertex is the same as the first vertex. `marker-start` is only rendered on the first vertex of the [path data](/en-US/docs/Web/SVG/Reference/Attribute/d#path_commands).
 

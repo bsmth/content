@@ -1,5 +1,6 @@
 ---
-title: attributeType
+title: SVG attributeType attribute
+short-title: attributeType
 slug: Web/SVG/Reference/Attribute/attributeType
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{Deprecated_Header}}
 
-The **`attributeType`** attribute specifies the namespace in which the target attribute and its associated values are defined.
+The SVG **`attributeType`** attribute specifies the namespace in which the target attribute and its associated values are defined.
 
 You can use this attribute with the following SVG elements:
 

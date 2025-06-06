@@ -1,12 +1,13 @@
 ---
-title: restart
+title: SVG restart attribute
+short-title: restart
 slug: Web/SVG/Reference/Attribute/restart
 page-type: svg-attribute
 spec-urls: https://svgwg.org/specs/animations/#RestartAttribute
 sidebar: svgref
 ---
 
-The **`restart`** attribute specifies whether or not an animation can restart.
+The SVG **`restart`** attribute specifies whether or not an animation can restart.
 
 You can use this attribute with the following SVG elements:
 

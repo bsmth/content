@@ -1,12 +1,13 @@
 ---
-title: font-variant
+title: SVG font-variant attribute
+short-title: font-variant
 slug: Web/SVG/Reference/Attribute/font-variant
 page-type: svg-attribute
 browser-compat: svg.global_attributes.font-variant
 sidebar: svgref
 ---
 
-The **`font-variant`** attribute indicates whether the text is to be rendered using variations of the font's {{Glossary("glyph", "glyphs")}}.
+The SVG **`font-variant`** attribute indicates whether the text is to be rendered using variations of the font's {{Glossary("glyph", "glyphs")}}.
 
 > [!NOTE]
 > As a presentation attribute, `font-variant` also has a CSS property counterpart: {{cssxref("font-variant")}}. When both are specified, the CSS property takes priority.

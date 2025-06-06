@@ -1,5 +1,6 @@
 ---
-title: class
+title: SVG class attribute
+short-title: class
 slug: Web/SVG/Reference/Attribute/class
 page-type: svg-attribute
 browser-compat: svg.global_attributes.class

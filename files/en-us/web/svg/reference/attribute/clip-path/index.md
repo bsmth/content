@@ -1,12 +1,13 @@
 ---
-title: clip-path
+title: SVG clip-path attribute
+short-title: clip-path
 slug: Web/SVG/Reference/Attribute/clip-path
 page-type: svg-attribute
 browser-compat: svg.global_attributes.clip-path
 sidebar: svgref
 ---
 
-The **`clip-path`** presentation attribute defines or associates a clipping path with the element it is related to.
+The SVG **`clip-path`** presentation attribute defines or associates a clipping path with the element it is related to.
 
 > [!NOTE]
 > As a presentation attribute, `clip-path` also has a CSS property counterpart: {{cssxref("clip-path")}}. When both are specified, the CSS property takes priority.

@@ -1,12 +1,13 @@
 ---
-title: marker-end
+title: SVG marker-end attribute
+short-title: marker-end
 slug: Web/SVG/Reference/Attribute/marker-end
 page-type: svg-attribute
 browser-compat: svg.global_attributes.marker-end
 sidebar: svgref
 ---
 
-The **`marker-end`** attribute defines the arrowhead or polymarker that will be drawn at the final vertex of the given [shape](/en-US/docs/Web/SVG/Reference/Element#shape_elements).
+The SVG **`marker-end`** attribute defines the arrowhead or polymarker that will be drawn at the final vertex of the given [shape](/en-US/docs/Web/SVG/Reference/Element#shape_elements).
 
 For all shape elements, except {{SVGElement("polyline")}} and {{SVGElement("path")}}, the last vertex is the same as the first vertex. In this case, if the value of {{SVGAttr("marker-start")}} and `marker-end` are both not `none`, then two markers will be rendered on that final vertex. For `<path>` elements, for each closed subpath, the last vertex is the same as the first vertex. `marker-end` is only rendered on the final vertex of the [path data](/en-US/docs/Web/SVG/Reference/Attribute/d#path_commands).
 

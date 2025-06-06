@@ -1,12 +1,13 @@
 ---
-title: preserveAlpha
+title: SVG preserveAlpha attribute
+short-title: preserveAlpha
 slug: Web/SVG/Reference/Attribute/preserveAlpha
 page-type: svg-attribute
 browser-compat: svg.elements.feConvolveMatrix.preserveAlpha
 sidebar: svgref
 ---
 
-the `preserveAlpha` attribute indicates how a {{SVGElement("feConvolveMatrix")}} element handles alpha transparency.
+The SVG **`preserveAlpha`** attribute indicates how a {{SVGElement("feConvolveMatrix")}} element handles alpha transparency.
 
 You can use this attribute with the following SVG elements:
 

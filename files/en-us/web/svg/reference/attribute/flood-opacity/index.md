@@ -1,12 +1,13 @@
 ---
-title: flood-opacity
+title: SVG flood-opacity attribute
+short-title: flood-opacity
 slug: Web/SVG/Reference/Attribute/flood-opacity
 page-type: svg-attribute
 browser-compat: svg.global_attributes.flood-opacity
 sidebar: svgref
 ---
 
-The **`flood-opacity`** attribute indicates the opacity value to use across the current filter primitive subregion.
+The SVG **`flood-opacity`** attribute indicates the opacity value to use across the current filter primitive subregion.
 
 > [!NOTE]
 > As a presentation attribute, `flood-opacity` also has a CSS property counterpart: {{cssxref("flood-opacity")}}. When both are specified, the CSS property takes priority.

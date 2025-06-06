@@ -1,12 +1,13 @@
 ---
-title: media
+title: SVG media attribute
+short-title: media
 slug: Web/SVG/Reference/Attribute/media
 page-type: svg-attribute
 browser-compat: svg.elements.style.media
 sidebar: svgref
 ---
 
-The **`media`** attribute specifies a [media query](/en-US/docs/Web/CSS/CSS_media_queries) that must be matched for a style sheet to apply.
+The SVG **`media`** attribute specifies a [media query](/en-US/docs/Web/CSS/CSS_media_queries) that must be matched for a style sheet to apply.
 
 You can use this attribute with the following SVG elements:
 

@@ -1,5 +1,6 @@
 ---
-title: slope
+title: SVG slope attribute
+short-title: slope
 slug: Web/SVG/Reference/Attribute/slope
 page-type: svg-attribute
 browser-compat: svg.elements.feFuncR
@@ -7,7 +8,7 @@ spec-urls: https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttr
 sidebar: svgref
 ---
 
-The **`slope`** attribute defines the values for linear filters, such as brightness.
+The SVG **`slope`** attribute defines the values for linear filters, such as brightness.
 
 The `slope` attribute is supported by children of the {{SVGElement("feComponentTransfer")}} filter primitive, including the `feFunc-RGBA` transfer functions. When the `type` of a transfer function is `linear`, the `slope` defines the slope of the linear function.
 

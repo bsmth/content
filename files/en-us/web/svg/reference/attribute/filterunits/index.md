@@ -1,12 +1,13 @@
 ---
-title: filterUnits
+title: SVG filterUnits attribute
+short-title: filterUnits
 slug: Web/SVG/Reference/Attribute/filterUnits
 page-type: svg-attribute
 browser-compat: svg.elements.filter.filterUnits
 sidebar: svgref
 ---
 
-The **`filterUnits`** attribute defines the coordinate system for the attributes {{SVGAttr("x")}}, {{SVGAttr("y")}}, {{SVGAttr("width")}} and {{SVGAttr("height")}}.
+The SVG **`filterUnits`** attribute defines the coordinate system for the attributes {{SVGAttr("x")}}, {{SVGAttr("y")}}, {{SVGAttr("width")}} and {{SVGAttr("height")}}.
 
 You can use this attribute with the following SVG elements:
 

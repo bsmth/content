@@ -1,5 +1,6 @@
 ---
-title: x
+title: SVG x attribute
+short-title: x
 slug: Web/SVG/Reference/Attribute/x
 page-type: svg-attribute
 spec-urls:
@@ -14,7 +15,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`x`** attribute defines an x-axis coordinate in the user coordinate system.
+The SVG **`x`** attribute defines an x-axis coordinate in the user coordinate system.
 
 ## Elements
 

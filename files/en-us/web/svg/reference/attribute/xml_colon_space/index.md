@@ -1,5 +1,6 @@
 ---
-title: xml:space
+title: SVG xml:space attribute
+short-title: xml:space
 slug: Web/SVG/Reference/Attribute/xml:space
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{Deprecated_Header}}
 
-SVG supports the built-in XML **`xml:space`** attribute to handle whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.
+The SVG **`xml:space`** attribute is a built-in XML attribute that handles whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.
 
 > [!NOTE]
 > Instead of using the `xml:space` attribute, use the {{cssxref("white-space")}} CSS property.

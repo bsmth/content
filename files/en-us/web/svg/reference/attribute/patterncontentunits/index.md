@@ -1,12 +1,13 @@
 ---
-title: patternContentUnits
+title: SVG patternContentUnits attribute
+short-title: patternContentUnits
 slug: Web/SVG/Reference/Attribute/patternContentUnits
 page-type: svg-attribute
 browser-compat: svg.elements.pattern.patternContentUnits
 sidebar: svgref
 ---
 
-The **`patternContentUnits`** attribute indicates which coordinate system to use for the contents of the {{ SVGElement("pattern") }} element.
+The SVG **`patternContentUnits`** attribute indicates which coordinate system to use for the contents of the {{ SVGElement("pattern") }} element.
 
 > [!NOTE]
 > That this attribute has no effect if attribute {{ SVGAttr("viewBox") }} is specified on the {{ SVGElement("pattern") }} element.

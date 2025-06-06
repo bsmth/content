@@ -1,12 +1,13 @@
 ---
-title: elevation
+title: SVG elevation attribute
+short-title: elevation
 slug: Web/SVG/Reference/Attribute/elevation
 page-type: svg-attribute
 browser-compat: svg.elements.feDistantLight.elevation
 sidebar: svgref
 ---
 
-The **`elevation`** attribute specifies the direction angle for the light source from the XY plane towards the Z-axis, in degrees. Note that the positive Z-axis points towards the viewer of the content.
+The SVG **`elevation`** attribute specifies the direction angle for the light source from the XY plane towards the Z-axis, in degrees. Note that the positive Z-axis points towards the viewer of the content.
 
 You can use this attribute with the following SVG elements:
 

@@ -1,5 +1,6 @@
 ---
-title: xlink:href
+title: SVG xlink:href attribute
+short-title: xlink:href
 slug: Web/SVG/Reference/Attribute/xlink:href
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{Deprecated_Header}}
 
-The **`xlink:href`** attribute defines a reference to a resource as a reference [IRI](/en-US/docs/Web/SVG/Guides/Content_type#iri). The exact meaning of that link depends on the context of each element using it.
+The SVG **`xlink:href`** attribute defines a reference to a resource as a reference [IRI](/en-US/docs/Web/SVG/Guides/Content_type#iri). The exact meaning of that link depends on the context of each element using it.
 
 > [!NOTE]
 > SVG 2 removed the need for the `xlink` namespace, so instead of `xlink:href` you should use {{SVGAttr("href")}}. If you need to support earlier browser versions, the deprecated `xlink:href` attribute can be used as a fallback in addition to the `href` attribute, e.g., `<use href="some-id" xlink:href="some-id" x="5" y="5" />`.

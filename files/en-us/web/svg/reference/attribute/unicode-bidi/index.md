@@ -1,12 +1,13 @@
 ---
-title: unicode-bidi
+title: SVG unicode-bidi attribute
+short-title: unicode-bidi
 slug: Web/SVG/Reference/Attribute/unicode-bidi
 page-type: svg-attribute
 browser-compat: svg.global_attributes.unicode-bidi
 sidebar: svgref
 ---
 
-The **`unicode-bidi`** attribute specifies how the accumulation of the background image is managed.
+The SVG **`unicode-bidi`** attribute specifies how the accumulation of the background image is managed.
 
 > [!NOTE]
 > As a presentation attribute, `unicode-bidi` also has a CSS property counterpart: {{cssxref("unicode-bidi")}}. When both are specified, the CSS property takes priority.

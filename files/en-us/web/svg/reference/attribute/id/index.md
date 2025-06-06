@@ -1,12 +1,13 @@
 ---
-title: id
+title: SVG id attribute
+short-title: id
 slug: Web/SVG/Reference/Attribute/id
 page-type: svg-attribute
 browser-compat: svg.global_attributes.id
 sidebar: svgref
 ---
 
-The **`id`** attribute assigns a unique name to an element.
+The SVG **`id`** attribute assigns a unique name to an element.
 
 You can use this attribute with any SVG element.
 

@@ -1,11 +1,12 @@
 ---
-title: type
+title: SVG type attribute
+short-title: type
 slug: Web/SVG/Reference/Attribute/type
 page-type: svg-attribute
 sidebar: svgref
 ---
 
-The `type` attribute is a generic attribute and it has different meaning based on the context in which it's used.
+The SVG **`type`** attribute is a generic attribute and it has different meaning based on the context in which it's used.
 
 - For the {{SVGElement("animateTransform")}} element, it defines the type of transformation, whose values change over time.
 - For the {{SVGElement("feColorMatrix")}} element, it indicates the type of matrix operation. The keyword `matrix` indicates that a full 5x4 matrix of values will be provided. The other keywords represent convenience shortcuts to allow commonly used color operations to be performed without specifying a complete matrix.

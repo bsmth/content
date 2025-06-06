@@ -1,5 +1,6 @@
 ---
-title: font-stretch
+title: SVG font-stretch attribute
+short-title: font-stretch
 slug: Web/SVG/Reference/Attribute/font-stretch
 page-type: svg-attribute
 status:
@@ -10,7 +11,7 @@ sidebar: svgref
 
 {{deprecated_header}}
 
-The **`font-stretch`** attribute indicates the desired amount of condensing or expansion in the glyphs used to render the text.
+The SVG **`font-stretch`** attribute indicates the desired amount of condensing or expansion in the glyphs used to render the text.
 
 > [!NOTE]
 > As a presentation attribute, `font-stretch` also has a CSS property counterpart: {{cssxref("font-stretch")}}. When both are specified, the CSS property takes priority.

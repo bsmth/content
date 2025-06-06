@@ -1,12 +1,13 @@
 ---
-title: color-interpolation-filters
+title: SVG color-interpolation-filters attribute
+short-title: color-interpolation-filters
 slug: Web/SVG/Reference/Attribute/color-interpolation-filters
 page-type: svg-attribute
 browser-compat: svg.global_attributes.color-interpolation-filters
 sidebar: svgref
 ---
 
-The **`color-interpolation-filters`** attribute specifies the color space for imaging operations performed via filter effects.
+The SVG **`color-interpolation-filters`** attribute specifies the color space for imaging operations performed via filter effects.
 
 > [!NOTE]
 > This property just has an affect on filter operations. Therefore, it has no effect on filter primitives like {{SVGElement("feOffset")}}, {{SVGElement("feImage")}}, {{SVGElement("feTile")}} or {{SVGElement("feFlood")}}.

@@ -1,12 +1,13 @@
 ---
-title: stroke-linejoin
+title: SVG stroke-linejoin attribute
+short-title: stroke-linejoin
 slug: Web/SVG/Reference/Attribute/stroke-linejoin
 page-type: svg-attribute
 browser-compat: svg.global_attributes.stroke-linejoin
 sidebar: svgref
 ---
 
-The **`stroke-linejoin`** attribute is a presentation attribute defining the shape to be used at the corners of paths when they are stroked.
+The SVG **`stroke-linejoin`** attribute is a presentation attribute defining the shape to be used at the corners of paths when they are stroked.
 
 > [!NOTE]
 > As a presentation attribute, `stroke-linejoin` also has a CSS property counterpart: {{cssxref("stroke-linejoin")}}. When both are specified, the CSS property takes priority.

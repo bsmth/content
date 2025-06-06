@@ -1,12 +1,13 @@
 ---
-title: marker-mid
+title: SVG marker-mid attribute
+short-title: marker-mid
 slug: Web/SVG/Reference/Attribute/marker-mid
 page-type: svg-attribute
 browser-compat: svg.global_attributes.marker-mid
 sidebar: svgref
 ---
 
-The **`marker-mid`** attribute defines the arrowhead or polymarker that will be drawn at all interior vertices of the given [shape](/en-US/docs/Web/SVG/Reference/Element#shape_elements).
+The SVG **`marker-mid`** attribute defines the arrowhead or polymarker that will be drawn at all interior vertices of the given [shape](/en-US/docs/Web/SVG/Reference/Element#shape_elements).
 
 The marker is rendered on every vertex other than the first and last vertices of the [path data](/en-US/docs/Web/SVG/Reference/Attribute/d#path_commands).
 

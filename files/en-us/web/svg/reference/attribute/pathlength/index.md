@@ -1,12 +1,13 @@
 ---
-title: pathLength
+title: SVG pathLength attribute
+short-title: pathLength
 slug: Web/SVG/Reference/Attribute/pathLength
 page-type: svg-attribute
 spec-urls: https://svgwg.org/svg2-draft/paths.html#PathLengthAttribute
 sidebar: svgref
 ---
 
-The **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength` / (_computed value of path length_).
+The SVG **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength` / (_computed value of path length_).
 
 This can affect the actual rendered lengths of paths; including text paths, animation paths, and various stroke operations. Basically, all computations that require the length of the path. {{SVGAttr('stroke-dasharray')}}, for example, will assume the start of the path being 0 and the end point the value defined in the `pathLength` attribute.
 

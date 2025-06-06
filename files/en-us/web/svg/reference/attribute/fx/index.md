@@ -1,12 +1,13 @@
 ---
-title: fx
+title: SVG fx attribute
+short-title: fx
 slug: Web/SVG/Reference/Attribute/fx
 page-type: svg-attribute
 browser-compat: svg.elements.radialGradient.fx
 sidebar: svgref
 ---
 
-The **`fx`** attribute defines the x-axis coordinate of the focal point for a radial gradient.
+The SVG **`fx`** attribute defines the x-axis coordinate of the focal point for a radial gradient.
 
 You can use this attribute with the following SVG elements:
 

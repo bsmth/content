@@ -1,12 +1,13 @@
 ---
-title: fr
+title: SVG fr attribute
+short-title: fr
 slug: Web/SVG/Reference/Attribute/fr
 page-type: svg-attribute
 browser-compat: svg.elements.radialGradient.fr
 sidebar: svgref
 ---
 
-The **`fr`** attribute defines the radius of the focal point for the radial gradient.
+The SVG **`fr`** attribute defines the radius of the focal point for the radial gradient.
 
 You can use this attribute with the following SVG elements:
 

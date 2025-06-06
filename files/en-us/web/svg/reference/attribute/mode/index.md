@@ -1,12 +1,13 @@
 ---
-title: mode
+title: SVG mode attribute
+short-title: mode
 slug: Web/SVG/Reference/Attribute/mode
 page-type: svg-attribute
 browser-compat: svg.elements.feBlend.mode
 sidebar: svgref
 ---
 
-The **`mode`** attribute defines the blending mode on the {{SVGElement("feBlend")}} filter primitive.
+The SVG **`mode`** attribute defines the blending mode on the {{SVGElement("feBlend")}} filter primitive.
 
 You can use this attribute with the following SVG elements:
 

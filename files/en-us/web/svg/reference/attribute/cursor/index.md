@@ -1,5 +1,6 @@
 ---
-title: cursor
+title: SVG cursor attribute
+short-title: cursor
 slug: Web/SVG/Reference/Attribute/cursor
 page-type: svg-attribute
 browser-compat: svg.global_attributes.cursor

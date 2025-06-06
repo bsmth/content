@@ -1,12 +1,13 @@
 ---
-title: scale
+title: SVG scale attribute
+short-title: scale
 slug: Web/SVG/Reference/Attribute/scale
 page-type: svg-attribute
 browser-compat: svg.elements.feDisplacementMap.scale
 sidebar: svgref
 ---
 
-The **`scale`** attribute defines the displacement scale factor to be used on a {{SVGElement("feDisplacementMap")}} filter primitive. The amount is expressed in the coordinate system established by the {{SVGAttr("primitiveUnits")}} attribute on the {{SVGElement("filter")}} element.
+The SVG **`scale`** attribute defines the displacement scale factor to be used on a {{SVGElement("feDisplacementMap")}} filter primitive. The amount is expressed in the coordinate system established by the {{SVGAttr("primitiveUnits")}} attribute on the {{SVGElement("filter")}} element.
 
 You can use this attribute with the following SVG elements:
 

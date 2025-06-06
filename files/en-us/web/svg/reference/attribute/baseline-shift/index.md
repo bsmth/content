@@ -1,12 +1,13 @@
 ---
-title: baseline-shift
+title: SVG baseline-shift attribute
+short-title: baseline-shift
 slug: Web/SVG/Reference/Attribute/baseline-shift
 page-type: svg-attribute
 browser-compat: svg.global_attributes.baseline-shift
 sidebar: svgref
 ---
 
-The **`baseline-shift`** attribute allows repositioning of the dominant-baseline relative to the dominant-baseline of the parent text content element. The shifted object might be a sub- or superscript.
+The SVG **`baseline-shift`** attribute allows repositioning of the dominant-baseline relative to the dominant-baseline of the parent text content element. The shifted object might be a sub- or superscript.
 
 > [!NOTE]
 > As a presentation attribute, `baseline-shift` also has a CSS property counterpart: {{cssxref("baseline-shift")}}. When both are specified, the CSS property takes priority.

@@ -1,5 +1,6 @@
 ---
-title: operator
+title: SVG operator attribute
+short-title: operator
 slug: Web/SVG/Reference/Attribute/operator
 page-type: svg-attribute
 spec-urls:
@@ -8,7 +9,7 @@ spec-urls:
 sidebar: svgref
 ---
 
-The **`operator`** attribute has two meanings based on the context it's used in. Either it defines the compositing or morphing operation to be performed.
+The SVG **`operator`** attribute has two meanings based on the context it's used in. Either it defines the compositing or morphing operation to be performed.
 
 You can use this attribute with the following SVG elements:
 

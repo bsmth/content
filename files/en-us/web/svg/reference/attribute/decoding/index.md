@@ -1,5 +1,6 @@
 ---
-title: decoding
+title: SVG decoding attribute
+short-title: decoding
 slug: Web/SVG/Reference/Attribute/decoding
 page-type: svg-attribute
 browser-compat: svg.elements.image.decoding
