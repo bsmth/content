@@ -1,5 +1,6 @@
 ---
 title: Learn web development
+short-title: Learn
 slug: Learn_web_development
 page-type: landing-page
 sidebar: learnsidebar
