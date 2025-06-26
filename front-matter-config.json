@@ -31,17 +31,26 @@
       "sidebar": {
         "title": "Sidebar navigation",
         "description": "Sidebar navigation(s) to show, defined as YAML in /files/en-us/sidebars",
-        "type": ["array", "string"],
+        "type": "array",
         "items": {
-          "type": "string",
-          "enum": [
-            "mediasidebar",
-            "urlsidebar",
-            "xmlsidebar",
-            "xpathsidebar",
-            "xsltsidebar",
-            "exsltsidebar"
-          ]
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "propertyNames": {
+            "enum": [
+              "apiref",
+              "mediasidebar",
+              "urlsidebar",
+              "xmlsidebar",
+              "xpathsidebar",
+              "xsltsidebar",
+              "exsltsidebar"
+            ]
+          }
         }
       },
       "status": {
@@ -67,6 +76,15 @@
         "items": {
           "type": "string",
           "format": "uri"
+        }
+      },
+      "banners": {
+        "title": "Article banners",
+        "description": "Page banners, such as worker availability, secure context, etc.",
+        "type": ["array", "string"],
+        "items": {
+          "type": "string",
+          "enum": ["securecontext_header"]
         }
       }
     },
