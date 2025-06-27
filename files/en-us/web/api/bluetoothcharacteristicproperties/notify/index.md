@@ -8,7 +8,7 @@ status:
 browser-compat: api.BluetoothCharacteristicProperties.notify
 sidebar:
   - apiref:
-      -
+      - Bluetooth API
 ---
 
 {{securecontext_header}}{{SeeCompatTable}}

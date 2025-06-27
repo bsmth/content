@@ -4,9 +4,7 @@ short-title: windowControlsOverlay
 slug: Web/API/Navigator/windowControlsOverlay
 page-type: web-api-instance-property
 browser-compat: api.Navigator.windowControlsOverlay
-sidebar:
-  - apiref:
-      -
+sidebar: apiref
 ---
 
 {{SecureContext_Header}}

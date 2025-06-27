@@ -6,7 +6,7 @@ page-type: web-api-constructor
 browser-compat: api.AnalyserNode.AnalyserNode
 sidebar:
   - apiref:
-      - "Web Audio API"
+      - Web Audio API
 ---
 
 The **`AnalyserNode()`** constructor of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new {{domxref("AnalyserNode")}} object instance.
