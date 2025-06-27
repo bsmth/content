@@ -4,9 +4,10 @@ short-title: endContainer
 slug: Web/API/AbstractRange/endContainer
 page-type: web-api-instance-property
 browser-compat: api.AbstractRange.endContainer
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`endContainer`** property of the {{domxref("AbstractRange")}} interface returns the {{domxref("Node")}} in which the end of the range is located.
 

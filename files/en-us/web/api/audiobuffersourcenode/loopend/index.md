@@ -4,9 +4,10 @@ short-title: loopEnd
 slug: Web/API/AudioBufferSourceNode/loopEnd
 page-type: web-api-instance-property
 browser-compat: api.AudioBufferSourceNode.loopEnd
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `loopEnd` property of the {{ domxref("AudioBufferSourceNode") }}
 interface specifies is a floating point number specifying, in seconds, at what offset

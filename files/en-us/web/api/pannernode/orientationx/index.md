@@ -4,9 +4,10 @@ short-title: orientationX
 slug: Web/API/PannerNode/orientationX
 page-type: web-api-instance-property
 browser-compat: api.PannerNode.orientationX
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`orientationX`** property of the {{domxref("PannerNode")}} interface indicates the X (horizontal) component of the
 direction in which the audio source is facing, in a 3D Cartesian coordinate space.

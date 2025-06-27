@@ -4,9 +4,12 @@ short-title: height
 slug: Web/API/ImageBitmap/height
 page-type: web-api-instance-property
 browser-compat: api.ImageBitmap.height
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ImageBitmap.height`** read-only property returns the {{domxref("ImageBitmap")}} object's height in CSS pixels.
 

@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/SVGAngle/value
 page-type: web-api-instance-property
 browser-compat: api.SVGAngle.value
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `value` property of the {{domxref("SVGAngle")}} interface represents the floating point value of the [`<angle>`](/en-US/docs/Web/SVG/Guides/Content_type#angle) in degrees.
 

@@ -4,9 +4,10 @@ short-title: focusNode
 slug: Web/API/Selection/focusNode
 page-type: web-api-instance-property
 browser-compat: api.Selection.focusNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.focusNode`** read-only property returns the {{domxref("Node")}} in which the selection ends. It can return `null` if selection never existed in the document (e.g., an iframe that was never clicked on, or the node belongs to another document tree).
 

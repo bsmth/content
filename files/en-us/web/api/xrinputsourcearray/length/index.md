@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XRInputSourceArray.length
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The read-only **`length`** property returns an integer value
 indicating the number of items in the input source list represented by

@@ -4,9 +4,10 @@ short-title: outerHTML
 slug: Web/API/Element/outerHTML
 page-type: web-api-instance-property
 browser-compat: api.Element.outerHTML
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`outerHTML`** attribute of the {{ domxref("Element") }}
 DOM interface gets the serialized HTML fragment describing the element including its descendants.

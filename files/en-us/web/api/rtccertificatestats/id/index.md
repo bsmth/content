@@ -4,9 +4,10 @@ short-title: id
 slug: Web/API/RTCCertificateStats/id
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_certificate.id
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`id`** property of the {{domxref("RTCCertificateStats")}} dictionary is a string that uniquely identifies the object for which this object provides statistics.
 

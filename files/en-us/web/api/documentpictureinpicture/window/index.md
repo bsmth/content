@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.DocumentPictureInPicture.window
+sidebar:
+  - apiref:
+      - Document Picture-in-Picture API
 ---
 
-{{APIRef("Document Picture-in-Picture API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`window`** read-only property of the
 {{domxref("DocumentPictureInPicture")}} interface returns a {{domxref("Window")}} instance representing the browsing context inside the Picture-in-Picture window.

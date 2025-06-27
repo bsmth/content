@@ -4,9 +4,10 @@ short-title: set()
 slug: Web/API/StylePropertyMap/set
 page-type: web-api-instance-method
 browser-compat: api.StylePropertyMap.set
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`set()`** method of the {{domxref("StylePropertyMap")}}
 interface changes the CSS declaration with the given property.

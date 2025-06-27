@@ -4,9 +4,10 @@ short-title: getTranslatedShaderSource()
 slug: Web/API/WEBGL_debug_shaders/getTranslatedShaderSource
 page-type: webgl-extension-method
 browser-compat: api.WEBGL_debug_shaders.getTranslatedShaderSource
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`WEBGL_debug_shaders.getTranslatedShaderSource()`**
 method is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and allows

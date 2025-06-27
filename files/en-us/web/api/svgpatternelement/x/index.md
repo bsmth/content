@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/SVGPatternElement/x
 page-type: web-api-instance-property
 browser-compat: api.SVGPatternElement.x
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x`** read-only property of the {{domxref("SVGPatternElement")}} interface describes the x-axis coordinate of the start point of the pattern as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("x")}} attribute on the {{SVGElement("pattern")}} element.
 

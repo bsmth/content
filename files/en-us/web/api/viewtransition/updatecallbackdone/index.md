@@ -4,9 +4,10 @@ short-title: updateCallbackDone
 slug: Web/API/ViewTransition/updateCallbackDone
 page-type: web-api-instance-property
 browser-compat: api.ViewTransition.updateCallbackDone
+sidebar:
+  - apiref:
+      - View Transition API
 ---
-
-{{APIRef("View Transition API")}}
 
 The **`updateCallbackDone`** read-only property of the
 {{domxref("ViewTransition")}} interface is a {{jsxref("Promise")}} that fulfills when the promise returned by the {{domxref("Document.startViewTransition()", "document.startViewTransition()")}} method's callback fulfills, or rejects when it rejects.

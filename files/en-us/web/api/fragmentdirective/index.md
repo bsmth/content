@@ -3,9 +3,10 @@ title: FragmentDirective
 slug: Web/API/FragmentDirective
 page-type: web-api-interface
 browser-compat: api.FragmentDirective
+sidebar:
+  - apiref:
+      - URL Fragment Text Directives
 ---
-
-{{APIRef("URL Fragment Text Directives")}}
 
 The **`FragmentDirective`** interface is an object exposed to allow code to check whether or not a browser supports [text fragments](/en-US/docs/Web/URI/Reference/Fragment/Text_fragments).
 

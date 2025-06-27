@@ -4,9 +4,10 @@ short-title: getItem()
 slug: Web/API/SVGTransformList/getItem
 page-type: web-api-instance-method
 browser-compat: api.SVGTransformList.getItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getItem()` method of the {{domxref("SVGTransformList")}} interface returns the specified item from the list.
 

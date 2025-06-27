@@ -4,9 +4,10 @@ short-title: pending
 slug: Web/API/SpeechSynthesis/pending
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesis.pending
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`pending`** read-only property of the
 {{domxref("SpeechSynthesis")}} interface is a boolean value that returns

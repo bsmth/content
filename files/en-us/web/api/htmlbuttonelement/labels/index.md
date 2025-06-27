@@ -4,9 +4,10 @@ short-title: labels
 slug: Web/API/HTMLButtonElement/labels
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.labels
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`HTMLButtonElement.labels`** read-only property returns a
 {{domxref("NodeList")}} of the {{HTMLElement("label")}} elements associated with the

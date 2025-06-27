@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.FencedFrameConfig
+sidebar:
+  - apiref:
+      - Fenced Frame API
 ---
 
-{{SeeCompatTable}}{{APIRef("Fenced Frame API")}}
+{{SeeCompatTable}}
 
 The **`FencedFrameConfig`** interface represents the navigation of a {{htmlelement("fencedframe")}}, i.e., what content will be displayed in it.
 

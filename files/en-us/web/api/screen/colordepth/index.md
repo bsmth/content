@@ -4,9 +4,10 @@ short-title: colorDepth
 slug: Web/API/Screen/colorDepth
 page-type: web-api-instance-property
 browser-compat: api.Screen.colorDepth
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`Screen.colorDepth`** read-only property returns the
 color depth of the screen. Per the CSSOM, some implementations return `24`

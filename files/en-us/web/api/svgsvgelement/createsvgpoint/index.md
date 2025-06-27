@@ -4,9 +4,10 @@ short-title: createSVGPoint()
 slug: Web/API/SVGSVGElement/createSVGPoint
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.createSVGPoint
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `createSVGPoint()` method of the {{domxref("SVGSVGElement")}} interface creates a {{domxref("DOMPoint")}} object outside of any document trees.
 

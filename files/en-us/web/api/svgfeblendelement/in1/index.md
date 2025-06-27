@@ -4,9 +4,10 @@ short-title: in1
 slug: Web/API/SVGFEBlendElement/in1
 page-type: web-api-instance-property
 browser-compat: api.SVGFEBlendElement.in1
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`in1`** read-only property of the {{domxref("SVGFEBlendElement")}} interface reflects the {{SVGAttr("in")}} attribute of the given element.
 

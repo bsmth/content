@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGRectElement/width
 page-type: web-api-instance-property
 browser-compat: api.SVGRectElement.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`width`** read-only property of the {{domxref("SVGRectElement")}} interface describes the horizontal size of an SVG rectangle as a {{domxref("SVGAnimatedLength")}}. The length is in user coordinate system units along the x-axis. Its syntax is the same as that for [`<length>`](/en-US/docs/Web/SVG/Guides/Content_type#length).
 

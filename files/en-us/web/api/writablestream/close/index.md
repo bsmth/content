@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/WritableStream/close
 page-type: web-api-instance-method
 browser-compat: api.WritableStream.close
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`close()`** method of the {{domxref("WritableStream")}} interface closes the associated stream. All chunks written before this method is called are sent before the returned promise is fulfilled.
 

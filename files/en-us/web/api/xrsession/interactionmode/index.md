@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XRSession.interactionMode
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The {{domxref("XRSession")}} interface's _read-only_ **`interactionMode`** property
 describes the best space (according to the user agent) for the application to draw an interactive UI for the current session.

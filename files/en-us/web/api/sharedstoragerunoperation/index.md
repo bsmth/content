@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.SharedStorageRunOperation
+sidebar:
+  - apiref:
+      - Shared Storage API
 ---
 
-{{APIRef("Shared Storage API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`SharedStorageRunOperation`** interface of the {{domxref("Shared Storage API", "Shared Storage API", "", "nocode")}} represents a [Run output gate](/en-US/docs/Web/API/Shared_Storage_API#run) operation.
 

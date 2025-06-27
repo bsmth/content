@@ -3,9 +3,10 @@ title: Document
 slug: Web/API/Document
 page-type: web-api-interface
 browser-compat: api.Document
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Document`** interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the [DOM tree](/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model#what_is_a_dom_tree).
 

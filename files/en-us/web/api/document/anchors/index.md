@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.anchors
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`anchors`** read-only property of the
 {{domxref("Document")}} interface returns a list of all of the anchors in the document.

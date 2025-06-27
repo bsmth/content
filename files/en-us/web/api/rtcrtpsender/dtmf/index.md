@@ -4,9 +4,10 @@ short-title: dtmf
 slug: Web/API/RTCRtpSender/dtmf
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpSender.dtmf
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`dtmf`** property on the
 **{{domxref("RTCRtpSender")}}** interface returns a

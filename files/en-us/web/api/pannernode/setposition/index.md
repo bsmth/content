@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.PannerNode.setPosition
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 > [!NOTE]
 > The suggested replacement for this deprecated method is to instead set the [`positionX`](/en-US/docs/Web/API/PannerNode/positionX), [`positionY`](/en-US/docs/Web/API/PannerNode/positionY), and [`positionZ`](/en-US/docs/Web/API/PannerNode/positionZ) attributes directly.

@@ -4,9 +4,12 @@ short-title: invalidIteratorState
 slug: Web/API/XPathResult/invalidIteratorState
 page-type: web-api-instance-property
 browser-compat: api.XPathResult.invalidIteratorState
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
 
-{{APIRef("DOM XPath")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`invalidIteratorState`** property of the
 {{domxref("XPathResult")}} interface signifies that the iterator has become invalid. It

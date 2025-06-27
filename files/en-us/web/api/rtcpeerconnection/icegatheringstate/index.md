@@ -4,9 +4,10 @@ short-title: iceGatheringState
 slug: Web/API/RTCPeerConnection/iceGatheringState
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.iceGatheringState
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`iceGatheringState`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns a string that describes the overall ICE gathering state for this connection.
 This lets you detect, for example, when collection of ICE candidates has finished.

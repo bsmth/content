@@ -4,9 +4,12 @@ short-title: y
 slug: Web/API/XRViewport/y
 page-type: web-api-instance-property
 browser-compat: api.XRViewport.y
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRViewport")}} interface's
 **`y`** property indicates the offset from the bottom edge of

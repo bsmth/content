@@ -4,9 +4,12 @@ short-title: getAttribLocation()
 slug: Web/API/WebGLRenderingContext/getAttribLocation
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getAttribLocation
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getAttribLocation()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns the location of an

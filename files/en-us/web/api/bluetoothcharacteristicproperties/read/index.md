@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.BluetoothCharacteristicProperties.read
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{securecontext_header}}{{APIRef("Bluetooth API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`read`** read-only property of the
 {{domxref("BluetoothCharacteristicProperties")}} interface returns a

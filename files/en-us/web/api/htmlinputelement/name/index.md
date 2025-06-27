@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLInputElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`name`** property of the {{domxref("HTMLInputElement")}} interface indicates the name of the {{HTMLElement("input")}} element. It reflects the element's [`name`](/en-US/docs/Web/HTML/Reference/Elements/input#name) attribute.
 

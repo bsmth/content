@@ -4,9 +4,10 @@ short-title: startOffset
 slug: Web/API/StaticRange/startOffset
 page-type: web-api-instance-property
 browser-compat: api.StaticRange.startOffset
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`startOffset`**
 property of the {{domxref("StaticRange")}} interface returns the offset into the start

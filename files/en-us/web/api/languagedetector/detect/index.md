@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.LanguageDetector.detect
+sidebar:
+  - apiref:
+      - Translator and Language Detector APIs
 ---
 
-{{APIRef("Translator and Language Detector APIs")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`detect()`** method of the {{domxref("LanguageDetector")}} interface detects the closest matching language or languages that a given text string is most likely to be written in.
 

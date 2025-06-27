@@ -4,9 +4,12 @@ short-title: query()
 slug: Web/API/Permissions/query
 page-type: web-api-instance-method
 browser-compat: api.Permissions.query
+sidebar:
+  - apiref:
+      - Permissions API
 ---
 
-{{APIRef("Permissions API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`query()`** method of the {{domxref("Permissions")}} interface returns the state of a user permission on the global scope.
 

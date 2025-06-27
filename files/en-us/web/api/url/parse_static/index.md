@@ -4,9 +4,12 @@ short-title: parse()
 slug: Web/API/URL/parse_static
 page-type: web-api-static-method
 browser-compat: api.URL.parse_static
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`URL.parse()`** static method of the {{domxref("URL")}} interface returns a newly created {{domxref("URL")}} object representing the URL defined by the parameters.
 

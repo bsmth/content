@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLFontElement.face
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{deprecated_header}}{{ APIRef("HTML DOM") }}
+{{deprecated_header}}
 
 The obsolete
 **`HTMLFontElement.face`**

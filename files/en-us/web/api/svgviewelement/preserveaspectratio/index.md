@@ -4,9 +4,10 @@ short-title: preserveAspectRatio
 slug: Web/API/SVGViewElement/preserveAspectRatio
 page-type: web-api-instance-property
 browser-compat: api.SVGViewElement.preserveAspectRatio
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`preserveAspectRatio`** read-only property of the {{domxref("SVGViewElement")}} interface reflects the {{SVGAttr("preserveAspectRatio")}} attribute of the given {{SVGElement("view")}} element. It defines how the content within the `view` should be scaled to fit its viewport while preserving its aspect ratio.
 

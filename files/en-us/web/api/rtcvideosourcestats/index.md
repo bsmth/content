@@ -4,9 +4,10 @@ slug: Web/API/RTCVideoSourceStats
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport.type_media-source
 spec-urls: https://w3c.github.io/webrtc-stats/#dom-rtcvideosourcestats
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCVideoSourceStats`** dictionary of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) provides statistics information about a video track ({{domxref("MediaStreamTrack")}}) that is attached to one or more senders ({{domxref("RTCRtpSender")}}).
 

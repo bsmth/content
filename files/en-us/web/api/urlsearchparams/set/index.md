@@ -4,9 +4,12 @@ short-title: set()
 slug: Web/API/URLSearchParams/set
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.set
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`set()`** method of the {{domxref("URLSearchParams")}}
 interface sets the value associated with a given search parameter to the given value.

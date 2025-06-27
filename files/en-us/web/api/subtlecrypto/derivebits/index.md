@@ -4,9 +4,12 @@ short-title: deriveBits()
 slug: Web/API/SubtleCrypto/deriveBits
 page-type: web-api-instance-method
 browser-compat: api.SubtleCrypto.deriveBits
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`deriveBits()`** method of the
 {{domxref("SubtleCrypto")}} interface can be used to derive an array of bits from a base

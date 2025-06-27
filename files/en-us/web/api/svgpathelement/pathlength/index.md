@@ -4,9 +4,10 @@ short-title: pathLength
 slug: Web/API/SVGPathElement/pathLength
 page-type: web-api-instance-property
 browser-compat: api.SVGPathElement.pathLength
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`pathLength`** read-only property of the {{domxref("SVGPathElement")}} interface reflects the {{SVGAttr("pathLength")}} attribute of the given {{SVGelement("path")}} element.
 

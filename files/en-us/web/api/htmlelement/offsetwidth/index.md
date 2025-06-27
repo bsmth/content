@@ -4,9 +4,10 @@ short-title: offsetWidth
 slug: Web/API/HTMLElement/offsetWidth
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.offsetWidth
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`offsetWidth`** read-only property of the {{domxref("HTMLElement")}} interface returns the layout width of an element as an integer.
 

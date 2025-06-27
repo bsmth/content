@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.CSSPositionValue.x
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
 
-{{deprecated_header}}{{APIRef("CSS Typed Object Model API")}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`x`** property of the
 {{domxref("CSSPositionValue")}} interface returns the item's position along the web

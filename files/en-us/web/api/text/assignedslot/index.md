@@ -4,9 +4,10 @@ short-title: assignedSlot
 slug: Web/API/Text/assignedSlot
 page-type: web-api-instance-property
 browser-compat: api.Text.assignedSlot
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`assignedSlot`** property of the {{domxref("Text")}} interface
 returns the {{domxref("HTMLSlotElement")}} object associated with the element.

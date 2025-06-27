@@ -4,9 +4,10 @@ short-title: pause
 slug: Web/API/SpeechSynthesisUtterance/pause_event
 page-type: web-api-event
 browser-compat: api.SpeechSynthesisUtterance.pause_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`pause`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) {{domxref("SpeechSynthesisUtterance")}} object is fired when the utterance is paused part way through.
 

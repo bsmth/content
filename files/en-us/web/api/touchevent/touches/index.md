@@ -4,9 +4,10 @@ short-title: touches
 slug: Web/API/TouchEvent/touches
 page-type: web-api-instance-property
 browser-compat: api.TouchEvent.touches
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 **`touches`** is a read-only {{ domxref("TouchList") }} listing
 all the {{ domxref("Touch") }} objects for touch points that are currently in contact

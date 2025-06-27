@@ -4,9 +4,12 @@ short-title: draw()
 slug: Web/API/GPURenderBundleEncoder/draw
 page-type: web-api-instance-method
 browser-compat: api.GPURenderBundleEncoder.draw
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`draw()`** method of the
 {{domxref("GPURenderBundleEncoder")}} interface draws primitives based on the vertex buffers provided by {{domxref("GPURenderBundleEncoder.setVertexBuffer", "setVertexBuffer()")}}.

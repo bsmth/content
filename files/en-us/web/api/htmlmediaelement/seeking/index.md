@@ -4,9 +4,10 @@ short-title: seeking
 slug: Web/API/HTMLMediaElement/seeking
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.seeking
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`seeking`** read-only property of the {{domxref("HTMLMediaElement")}} interface is a Boolean indicating whether the resource, the {{htmlelement("audio")}} or {{htmlelement("video")}}, is in the process of seeking to a new position.
 

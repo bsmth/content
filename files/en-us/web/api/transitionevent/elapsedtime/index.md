@@ -4,9 +4,10 @@ short-title: elapsedTime
 slug: Web/API/TransitionEvent/elapsedTime
 page-type: web-api-instance-property
 browser-compat: api.TransitionEvent.elapsedTime
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ apiref("CSSOM") }}
 
 The **`TransitionEvent.elapsedTime`** read-only property is a
 `float` giving the amount of time the animation has been running, in seconds,

@@ -3,9 +3,12 @@ title: PushSubscription
 slug: Web/API/PushSubscription
 page-type: web-api-interface
 browser-compat: api.PushSubscription
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{ApiRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The `PushSubscription` interface of the [Push API](/en-US/docs/Web/API/Push_API) provides a subscription's URL endpoint along with the public key and secrets that should be used for encrypting push messages to this subscription.
 This information must be passed to the application server, using any desired application-specific method.

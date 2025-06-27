@@ -4,9 +4,12 @@ short-title: getTransports()
 slug: Web/API/AuthenticatorAttestationResponse/getTransports
 page-type: web-api-instance-method
 browser-compat: api.AuthenticatorAttestationResponse.getTransports
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`getTransports()`** method of the {{domxref("AuthenticatorAttestationResponse")}} interface returns an array of strings describing the different transports which may be used by the authenticator.
 

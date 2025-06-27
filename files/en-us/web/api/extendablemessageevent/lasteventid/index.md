@@ -4,9 +4,10 @@ short-title: lastEventId
 slug: Web/API/ExtendableMessageEvent/lastEventId
 page-type: web-api-instance-property
 browser-compat: api.ExtendableMessageEvent.lastEventId
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`lastEventID`** read-only property of the
 {{domxref("ExtendableMessageEvent")}} interface represents, in [server-sent events](/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events), the last event ID of the event source. This is an empty string.

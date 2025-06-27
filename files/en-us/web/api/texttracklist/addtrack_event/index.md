@@ -4,9 +4,8 @@ short-title: addtrack
 slug: Web/API/TextTrackList/addtrack_event
 page-type: web-api-event
 browser-compat: api.TextTrackList.addtrack_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`addtrack`** event is fired when a track is added to a [`TextTrackList`](/en-US/docs/Web/API/TextTrackList).
 

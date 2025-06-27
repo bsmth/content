@@ -4,9 +4,12 @@ short-title: index()
 slug: Web/API/IDBObjectStore/index
 page-type: web-api-instance-method
 browser-compat: api.IDBObjectStore.index
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`index()`** method of the {{domxref("IDBObjectStore")}}
 interface opens a named index in the current object store, after which it can be used

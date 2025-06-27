@@ -4,9 +4,10 @@ short-title: anchorNode
 slug: Web/API/Selection/anchorNode
 page-type: web-api-instance-property
 browser-compat: api.Selection.anchorNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.anchorNode`** read-only property returns the {{domxref("Node")}} in which the selection begins. It can return `null` if selection never existed in the document (e.g., an iframe that was never clicked on, or the node belongs to another document tree).
 

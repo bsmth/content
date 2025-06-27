@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/HTMLMeterElement/value
 page-type: web-api-instance-property
 browser-compat: api.HTMLMeterElement.value
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`value`** property of the {{DOMxRef("HTMLMeterElement")}} interface represents the current value of the {{htmlelement("meter")}} element as a floating-point number. It reflects the element's [`value`](/en-US/docs/Web/HTML/Reference/Elements/meter#value) attribute. If no `value` is set, it is the {{DOMxRef("HTMLMeterElement.min")}} value or `0`, whichever is greater.
 

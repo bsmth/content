@@ -4,9 +4,10 @@ short-title: crossOrigin
 slug: Web/API/HTMLScriptElement/crossOrigin
 page-type: web-api-instance-property
 browser-compat: api.HTMLScriptElement.crossOrigin
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`crossOrigin`** property of the {{domxref("HTMLScriptElement")}} interface reflects the {{Glossary("CORS", "Cross-Origin Resource Sharing")}} settings for the script element. For classic scripts from other [origins](/en-US/docs/Glossary/Origin), this controls if full error information will be exposed. For module scripts, it controls the script itself and any script it imports. See [CORS settings attributes](/en-US/docs/Web/HTML/Reference/Attributes/crossorigin) for details.
 

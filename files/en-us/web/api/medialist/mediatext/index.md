@@ -4,9 +4,10 @@ short-title: mediaText
 slug: Web/API/MediaList/mediaText
 page-type: web-api-instance-property
 browser-compat: api.MediaList.mediaText
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`mediaText`** property of the {{domxref("MediaList")}}
 interface is a {{Glossary("stringifier")}} that returns a string representing the

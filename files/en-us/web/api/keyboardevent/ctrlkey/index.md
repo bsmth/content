@@ -4,9 +4,10 @@ short-title: ctrlKey
 slug: Web/API/KeyboardEvent/ctrlKey
 page-type: web-api-instance-property
 browser-compat: api.KeyboardEvent.ctrlKey
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`KeyboardEvent.ctrlKey`** read-only property returns a
 boolean value that indicates if the <kbd>control</kbd> key was pressed

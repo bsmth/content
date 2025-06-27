@@ -3,9 +3,12 @@ title: WebTransport
 slug: Web/API/WebTransport
 page-type: web-api-interface
 browser-compat: api.WebTransport
+sidebar:
+  - apiref:
+      - WebTransport API
 ---
 
-{{APIRef("WebTransport API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`WebTransport`** interface of the {{domxref("WebTransport API", "WebTransport API", "", "nocode")}} provides functionality to enable a user agent to connect to an HTTP/3 server, initiate reliable and unreliable transport in either or both directions, and close the connection once it is no longer needed.
 

@@ -4,9 +4,10 @@ short-title: stitchTiles
 slug: Web/API/SVGFETurbulenceElement/stitchTiles
 page-type: web-api-instance-property
 browser-compat: api.SVGFETurbulenceElement.stitchTiles
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`stitchTiles`** read-only property of the {{domxref("SVGFETurbulenceElement")}} interface reflects the {{SVGAttr("stitchTiles")}} attribute of the given {{SVGElement("feTurbulence")}} element. It takes one of the `SVG_STITCHTYPE_*` constants defined on this interface.
 

@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.Navigation.navigateerror_event
+sidebar:
+  - apiref:
+      - Navigation API
 ---
 
-{{APIRef("Navigation API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`navigateerror`** event of the {{domxref("Navigation")}} interface is fired when a navigation fails.
 

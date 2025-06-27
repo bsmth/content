@@ -4,9 +4,10 @@ short-title: bytesReceived
 slug: Web/API/RTCDataChannelStats/bytesReceived
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_data-channel.bytesReceived
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`bytesReceived`** property of the {{domxref("RTCDataChannelStats")}} dictionary returns the total number of payload bytes received on the associated {{domxref("RTCDataChannel")}}.
 

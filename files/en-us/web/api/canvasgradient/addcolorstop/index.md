@@ -4,9 +4,12 @@ short-title: addColorStop()
 slug: Web/API/CanvasGradient/addColorStop
 page-type: web-api-instance-method
 browser-compat: api.CanvasGradient.addColorStop
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`CanvasGradient.addColorStop()`** method adds a new color stop,
 defined by an `offset` and a `color`, to a given canvas gradient.

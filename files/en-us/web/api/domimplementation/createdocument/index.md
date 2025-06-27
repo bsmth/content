@@ -4,9 +4,10 @@ short-title: createDocument()
 slug: Web/API/DOMImplementation/createDocument
 page-type: web-api-instance-method
 browser-compat: api.DOMImplementation.createDocument
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`DOMImplementation.createDocument()`** method creates and
 returns an {{domxref("XMLDocument")}}.

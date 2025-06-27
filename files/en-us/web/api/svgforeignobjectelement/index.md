@@ -3,9 +3,10 @@ title: SVGForeignObjectElement
 slug: Web/API/SVGForeignObjectElement
 page-type: web-api-interface
 browser-compat: api.SVGForeignObjectElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGForeignObjectElement`** interface provides access to the properties of {{SVGElement("foreignObject")}} elements, as well as methods to manipulate them.
 

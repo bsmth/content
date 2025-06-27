@@ -4,9 +4,10 @@ short-title: pageswap
 slug: Web/API/Window/pageswap_event
 page-type: web-api-event
 browser-compat: api.Window.pageswap_event
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`pageswap`** event is fired when you navigate across documents, when the previous document is about to unload.
 

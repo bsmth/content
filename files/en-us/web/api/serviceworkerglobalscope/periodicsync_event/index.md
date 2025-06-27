@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.ServiceWorkerGlobalScope.periodicsync_event
+sidebar:
+  - apiref:
+      - Periodic Background Sync")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Periodic Background Sync")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`periodicsync`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired at timed intervals, specified when registering a {{domxref('PeriodicSyncManager')}}.
 

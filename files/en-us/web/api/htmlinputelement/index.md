@@ -3,9 +3,10 @@ title: HTMLInputElement
 slug: Web/API/HTMLInputElement
 page-type: web-api-interface
 browser-compat: api.HTMLInputElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLInputElement`** interface provides special properties and methods for manipulating the options, layout, and presentation of {{HTMLElement("input")}} elements.
 

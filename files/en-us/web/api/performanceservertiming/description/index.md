@@ -4,9 +4,12 @@ short-title: description
 slug: Web/API/PerformanceServerTiming/description
 page-type: web-api-instance-property
 browser-compat: api.PerformanceServerTiming.description
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`description`** read-only property returns a
 string value of the server-specified metric description, or an empty

@@ -3,9 +3,10 @@ title: SVGUseElement
 slug: Web/API/SVGUseElement
 page-type: web-api-interface
 browser-compat: api.SVGUseElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 ## SVG use DOM interface
 

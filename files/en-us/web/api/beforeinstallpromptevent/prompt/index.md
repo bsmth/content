@@ -7,9 +7,10 @@ status:
   - experimental
   - non-standard
 browser-compat: api.BeforeInstallPromptEvent.prompt
+sidebar: apiref
 ---
 
-{{APIRef}}{{SeeCompatTable}}{{Non-standard_header}}
+{{SeeCompatTable}}{{Non-standard_header}}
 
 The **`prompt()`** method of the {{domxref("BeforeInstallPromptEvent")}} interface allows a developer to show the
 install prompt at a time of their own choosing. Typically this will be called in the event handler for the app's custom install UI.

@@ -4,9 +4,10 @@ short-title: processingStart
 slug: Web/API/PerformanceEventTiming/processingStart
 page-type: web-api-instance-property
 browser-compat: api.PerformanceEventTiming.processingStart
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The read-only **`processingStart`** property returns the time at which event dispatch started. This is when event handlers are about to be executed.
 

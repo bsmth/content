@@ -4,9 +4,10 @@ short-title: ariaOwnsElements
 slug: Web/API/Element/ariaOwnsElements
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaOwnsElements
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaOwnsElements`** property of the {{domxref("Element")}} interface is an array containing the element (or elements) that define a visual, functional, or contextual relationship between a parent element that it is applied to, and its child elements.
 This is used when the DOM hierarchy cannot be used to represent the relationship, and it would not otherwise be available to assistive technology,

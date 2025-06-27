@@ -4,9 +4,10 @@ short-title: shiftKey
 slug: Web/API/KeyboardEvent/shiftKey
 page-type: web-api-instance-property
 browser-compat: api.KeyboardEvent.shiftKey
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`KeyboardEvent.shiftKey`** read-only property is a
 boolean value that indicates if the <kbd>shift</kbd> key was pressed

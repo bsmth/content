@@ -4,9 +4,12 @@ short-title: views
 slug: Web/API/XRViewerPose/views
 page-type: web-api-instance-property
 browser-compat: api.XRViewerPose.views
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRViewerPose")}} property **`views`**
 returns an array which contains every {{domxref("XRView")}} which must be rendered in

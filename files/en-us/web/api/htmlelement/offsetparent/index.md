@@ -4,9 +4,10 @@ short-title: offsetParent
 slug: Web/API/HTMLElement/offsetParent
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.offsetParent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLElement.offsetParent`** read-only property returns a
 reference to the element which is the closest (nearest in the containment hierarchy)

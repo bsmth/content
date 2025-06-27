@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.VRDisplay.getImmediatePose
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{Deprecated_Header}}{{APIRef("WebVR API")}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`getImmediatePose()`** method of the {{domxref("VRDisplay")}} interface returns a {{domxref("VRPose")}} object defining the current pose of the `VRDisplay`, with no prediction applied.
 

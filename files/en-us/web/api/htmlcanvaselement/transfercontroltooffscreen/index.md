@@ -4,9 +4,10 @@ short-title: transferControlToOffscreen()
 slug: Web/API/HTMLCanvasElement/transferControlToOffscreen
 page-type: web-api-instance-method
 browser-compat: api.HTMLCanvasElement.transferControlToOffscreen
+sidebar:
+  - apiref:
+      - Canvas API
 ---
-
-{{APIRef("Canvas API")}}
 
 The **`HTMLCanvasElement.transferControlToOffscreen()`** method transfers control to an {{domxref("OffscreenCanvas")}} object, either on the main thread or on a worker.
 

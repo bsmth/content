@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLStyleElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`HTMLStyleElement.type`** property returns the type of the current style.
 The value mirrors the [HTML `<style>` element's `type` attribute](/en-US/docs/Web/HTML/Reference/Elements/style#type).

@@ -4,9 +4,8 @@ short-title: change
 slug: Web/API/AudioTrackList/change_event
 page-type: web-api-event
 browser-compat: api.AudioTrackList.change_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `change` event is fired when an audio track is enabled or disabled, for example by changing the track's [`enabled`](/en-US/docs/Web/API/AudioTrack/enabled) property.
 

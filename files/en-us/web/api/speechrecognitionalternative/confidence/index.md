@@ -4,9 +4,10 @@ short-title: confidence
 slug: Web/API/SpeechRecognitionAlternative/confidence
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognitionAlternative.confidence
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`confidence`** read-only property of the
 {{domxref("SpeechRecognitionResult")}} interface returns a numeric estimate of how

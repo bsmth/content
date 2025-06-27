@@ -4,9 +4,10 @@ short-title: size
 slug: Web/API/HTMLSelectElement/size
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.size
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`size`** property of the {{DOMxRef("HTMLSelectElement")}} interface specifies the number of options, or rows, that should be visible at one time. It reflects the {{htmlelement("select")}} element's [`size`](/en-US/docs/Web/HTML/Reference/Elements/select#size) attribute. If omitted, the value is `0`.
 

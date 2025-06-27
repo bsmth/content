@@ -4,9 +4,10 @@ short-title: positionZ
 slug: Web/API/PannerNode/positionZ
 page-type: web-api-instance-property
 browser-compat: api.PannerNode.positionZ
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`positionZ`** property of the {{ domxref("PannerNode") }} interface specifies the Z coordinate of the audio source's position in 3D Cartesian
 coordinates, corresponding to the _depth_ axis (behind-in front of the

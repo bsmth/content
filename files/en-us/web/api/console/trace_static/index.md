@@ -4,9 +4,12 @@ short-title: trace()
 slug: Web/API/console/trace_static
 page-type: web-api-static-method
 browser-compat: api.console.trace_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.trace()`** static method outputs a stack trace to the console.
 

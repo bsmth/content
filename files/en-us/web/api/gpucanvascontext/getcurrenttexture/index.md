@@ -4,9 +4,12 @@ short-title: getCurrentTexture()
 slug: Web/API/GPUCanvasContext/getCurrentTexture
 page-type: web-api-instance-method
 browser-compat: api.GPUCanvasContext.getCurrentTexture
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`getCurrentTexture()`** method of the
 {{domxref("GPUCanvasContext")}} interface returns the next {{domxref("GPUTexture")}} to be composited to the document by the canvas context.

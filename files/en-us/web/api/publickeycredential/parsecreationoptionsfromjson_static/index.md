@@ -4,9 +4,12 @@ short-title: parseCreationOptionsFromJSON()
 slug: Web/API/PublicKeyCredential/parseCreationOptionsFromJSON_static
 page-type: web-api-static-method
 browser-compat: api.PublicKeyCredential.parseCreationOptionsFromJSON_static
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`parseCreationOptionsFromJSON()`** static method of the {{domxref("PublicKeyCredential")}} interface creates a {{domxref("PublicKeyCredentialCreationOptions")}} object from a JSON representation of its properties.
 

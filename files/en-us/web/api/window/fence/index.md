@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Window.fence
+sidebar:
+  - apiref:
+      - Fenced Frame API
 ---
 
-{{SeeCompatTable}}{{APIRef("Fenced Frame API")}}
+{{SeeCompatTable}}
 
 The `fence` read-only property of the {{domxref("Window")}} interface returns a {{domxref("Fence")}} object instance for the current document context.
 

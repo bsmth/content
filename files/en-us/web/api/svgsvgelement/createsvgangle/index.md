@@ -4,9 +4,10 @@ short-title: createSVGAngle()
 slug: Web/API/SVGSVGElement/createSVGAngle
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.createSVGAngle
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `createSVGAngle()` method of the {{domxref("SVGSVGElement")}} interface creates an {{domxref("SVGAngle")}} object outside of any document trees.
 

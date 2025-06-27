@@ -4,9 +4,10 @@ short-title: localCandidateId
 slug: Web/API/RTCIceCandidatePairStats/localCandidateId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.localCandidateId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`localCandidateId`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary is a string that uniquely identifies the local {{Glossary("ICE")}} candidate which was analyzed to generate the {{domxref("RTCIceCandidateStats")}} used to compute the statistics for this pair of candidates.
 

@@ -4,9 +4,10 @@ short-title: reset()
 slug: Web/API/VideoDecoder/reset
 page-type: web-api-instance-method
 browser-compat: api.VideoDecoder.reset
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`reset()`** method of the {{domxref("VideoDecoder")}} interface resets all states including configuration, control messages in the control message queue, and all pending callbacks.
 

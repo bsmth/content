@@ -4,9 +4,12 @@ short-title: getAuthenticatorData()
 slug: Web/API/AuthenticatorAttestationResponse/getAuthenticatorData
 page-type: web-api-instance-method
 browser-compat: api.AuthenticatorAttestationResponse.getAuthenticatorData
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`getAuthenticatorData()`** method of the {{domxref("AuthenticatorAttestationResponse")}} interface returns an {{jsxref("ArrayBuffer")}} containing the authenticator data contained within the {{domxref("AuthenticatorAttestationResponse.attestationObject")}} property.
 

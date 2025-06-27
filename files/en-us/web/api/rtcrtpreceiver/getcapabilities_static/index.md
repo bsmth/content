@@ -4,9 +4,10 @@ short-title: getCapabilities()
 slug: Web/API/RTCRtpReceiver/getCapabilities_static
 page-type: web-api-static-method
 browser-compat: api.RTCRtpReceiver.getCapabilities_static
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The _static method_ **`RTCRtpReceiver.getCapabilities()`** returns an object describing the codec and header extension capabilities supported by {{domxref("RTCRtpReceiver")}} objects on the current device.
 

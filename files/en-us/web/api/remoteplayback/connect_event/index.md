@@ -4,9 +4,10 @@ short-title: connect
 slug: Web/API/RemotePlayback/connect_event
 page-type: web-api-event
 browser-compat: api.RemotePlayback.connect_event
+sidebar:
+  - apiref:
+      - Remote Playback API
 ---
-
-{{APIRef("Remote Playback API")}}
 
 The **`connect`** event of the {{domxref("RemotePlayback")}} interface fires when the user agent connects to the remote device.
 

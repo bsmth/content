@@ -4,9 +4,12 @@ short-title: controllerchange
 slug: Web/API/ServiceWorkerContainer/controllerchange_event
 page-type: web-api-event
 browser-compat: api.ServiceWorkerContainer.controllerchange_event
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`controllerchange`** event of the {{domxref("ServiceWorkerContainer")}} interface fires when the document's associated {{domxref("ServiceWorkerRegistration")}} acquires a new {{domxref("ServiceWorkerRegistration.active","active")}} worker.
 

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.Navigation
+sidebar:
+  - apiref:
+      - Navigation API
 ---
 
-{{APIRef("Navigation API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Navigation`** interface of the {{domxref("Navigation API", "Navigation API", "", "nocode")}} allows control over all navigation actions for the current `window` in one central place, including initiating navigations programmatically, examining navigation history entries, and managing navigations as they happen.
 

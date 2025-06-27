@@ -4,9 +4,10 @@ short-title: style
 slug: Web/API/CSSPageRule/style
 page-type: web-api-instance-property
 browser-compat: api.CSSPageRule.style
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`style`** read-only property of the {{domxref("CSSPageRule")}} interface returns a {{domxref("CSSPageDescriptors")}} object.
 This represents a [CSS declaration block](/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration_Block) for a CSS {{cssxref("@page")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule), and exposes style information and various style-related methods and properties for the page.

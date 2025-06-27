@@ -4,9 +4,10 @@ short-title: inBandMetadataTrackDispatchType
 slug: Web/API/TextTrack/inBandMetadataTrackDispatchType
 page-type: web-api-instance-property
 browser-compat: api.TextTrack.inBandMetadataTrackDispatchType
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`inBandMetadataTrackDispatchType`** read-only property of the {{domxref("TextTrack")}} interface returns the text track's in-band metadata dispatch type of the text track represented by the {{domxref("TextTrack")}} object.
 

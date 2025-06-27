@@ -4,9 +4,10 @@ short-title: fullscreenElement
 slug: Web/API/Document/fullscreenElement
 page-type: web-api-instance-property
 browser-compat: api.Document.fullscreenElement
+sidebar:
+  - apiref:
+      - Fullscreen API
 ---
-
-{{ApiRef("Fullscreen API")}}
 
 The
 **`Document.fullscreenElement`** read-only

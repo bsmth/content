@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.ChapterInformation
+sidebar:
+  - apiref:
+      - Media Session API
 ---
 
-{{APIRef("Media Session API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`ChapterInformation`** interface of the {{domxref("Media Session API", "", "", "nocode")}} represents the metadata for an individual chapter of a media resource (i.e., a video or audio file).
 

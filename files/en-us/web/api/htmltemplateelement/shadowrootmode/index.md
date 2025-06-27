@@ -4,9 +4,10 @@ short-title: shadowRootMode
 slug: Web/API/HTMLTemplateElement/shadowRootMode
 page-type: web-api-instance-property
 browser-compat: api.HTMLTemplateElement.shadowRootMode
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`shadowRootMode`** property of the {{domxref("HTMLTemplateElement")}} interface reflects the value of the [`shadowrootmode`](/en-US/docs/Web/HTML/Reference/Elements/template#shadowrootmode) attribute of the associated [`<template>`](/en-US/docs/Web/HTML/Reference/Elements/template) element.
 

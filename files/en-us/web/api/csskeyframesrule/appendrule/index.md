@@ -4,9 +4,10 @@ short-title: appendRule()
 slug: Web/API/CSSKeyframesRule/appendRule
 page-type: web-api-instance-method
 browser-compat: api.CSSKeyframesRule.appendRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM") }}
 
 The **`appendRule()`** method of the {{domxref("CSSKeyframeRule")}} interface appends a {{domxref("CSSKeyFrameRule")}} to the end of the rules.
 

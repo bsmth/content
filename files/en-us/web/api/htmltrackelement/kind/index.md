@@ -4,9 +4,10 @@ short-title: kind
 slug: Web/API/HTMLTrackElement/kind
 page-type: web-api-instance-property
 browser-compat: api.HTMLTrackElement.kind
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`kind`** property of the {{domxref("HTMLTrackElement")}} interface represents the type of track, or how the text track is meant to be used. It reflects the {{htmlelement("track")}} element's enumerated [`kind`](/en-US/docs/Web/HTML/Reference/Elements/track#kind) attribute.
 

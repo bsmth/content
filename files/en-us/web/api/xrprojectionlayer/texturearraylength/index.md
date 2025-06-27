@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XRProjectionLayer.textureArrayLength
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The read-only **`textureArrayLength`** property of the {{domxref("XRProjectionLayer")}} interface indicates layer's layer count for array textures when using `texture-array` as the `textureType`.
 

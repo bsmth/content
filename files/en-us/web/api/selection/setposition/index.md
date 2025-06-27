@@ -4,9 +4,10 @@ short-title: setPosition()
 slug: Web/API/Selection/setPosition
 page-type: web-api-instance-method
 browser-compat: api.Selection.setPosition
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Selection.setPosition()`** method collapses the current selection to a single point. The document is not modified. If the content is focused and editable, the caret will blink there.
 

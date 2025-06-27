@@ -4,9 +4,12 @@ short-title: LinearAccelerationSensor()
 slug: Web/API/LinearAccelerationSensor/LinearAccelerationSensor
 page-type: web-api-constructor
 browser-compat: api.LinearAccelerationSensor.LinearAccelerationSensor
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`LinearAccelerationSensor()`**
 constructor creates a new {{domxref("LinearAccelerationSensor")}} object which

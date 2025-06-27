@@ -4,9 +4,10 @@ short-title: accept
 slug: Web/API/HTMLInputElement/accept
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.accept
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`accept`** property of the {{domxref("HTMLInputElement")}} interface reflects the {{HTMLElement("input")}} element's [`accept`](/en-US/docs/Web/HTML/Reference/Elements/input#accept) attribute, generally a comma-separated list of unique file type specifiers providing a hint for the expected file type for an [`<input>` of type `file`](/en-US/docs/Web/HTML/Reference/Elements/input/file). If the attribute is not explicitly set, the `accept` property is an empty string.
 

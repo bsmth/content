@@ -4,9 +4,10 @@ short-title: canvas
 slug: Web/API/CanvasCaptureMediaStreamTrack/canvas
 page-type: web-api-instance-property
 browser-compat: api.CanvasCaptureMediaStreamTrack.canvas
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`canvas`** read-only property of the {{domxref("CanvasCaptureMediaStreamTrack")}} interface returns the {{domxref("HTMLCanvasElement")}} from which frames are being captured.
 

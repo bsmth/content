@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.AudioContext.sinkId
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`sinkId`** read-only property of the
 {{domxref("AudioContext")}} interface returns the sink ID of the current output audio device.

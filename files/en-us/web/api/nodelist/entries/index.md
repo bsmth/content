@@ -4,9 +4,10 @@ short-title: entries()
 slug: Web/API/NodeList/entries
 page-type: web-api-instance-method
 browser-compat: api.NodeList.entries
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeList.entries()`** method returns an
 {{jsxref("Iteration_protocols",'iterator')}} allowing to go through all key/value pairs

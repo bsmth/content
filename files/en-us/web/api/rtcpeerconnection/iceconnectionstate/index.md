@@ -4,9 +4,10 @@ short-title: iceConnectionState
 slug: Web/API/RTCPeerConnection/iceConnectionState
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.iceConnectionState
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`iceConnectionState`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns a string which state of the {{Glossary("ICE")}} agent associated with the {{domxref("RTCPeerConnection")}}: `new`, `checking`, `connected`, `completed`, `failed`, `disconnected`, and `closed`.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.LaunchParams.targetURL
+sidebar:
+  - apiref:
+      - Launch Handler API
 ---
 
-{{APIRef("Launch Handler API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`targetURL`** read-only property of the {{domxref("LaunchParams")}} interface returns the target URL of the associated web app launch.
 

@@ -4,9 +4,12 @@ short-title: objectStore
 slug: Web/API/IDBIndex/objectStore
 page-type: web-api-instance-property
 browser-compat: api.IDBIndex.objectStore
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`objectStore`** property of the {{domxref("IDBIndex")}}
 interface returns the object store referenced by the current index.

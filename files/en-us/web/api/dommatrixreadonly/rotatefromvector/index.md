@@ -4,9 +4,12 @@ short-title: rotateFromVector()
 slug: Web/API/DOMMatrixReadOnly/rotateFromVector
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.rotateFromVector
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `rotateFromVector()` method of the {{domxref("DOMMatrixReadOnly")}} interface is returns a new {{domxref("DOMMatrix")}} created by rotating the source matrix by the angle between the specified vector and `(1, 0)`. The rotation angle is determined by the angle between the vector `(1,0)T` and `(x,y)T` in the clockwise direction, or `(+/-)arctan(y/x)`. If `x` and `y` are both `0`, the angle is specified as `0`. The original matrix is not altered.
 

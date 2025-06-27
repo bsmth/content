@@ -4,9 +4,10 @@ short-title: disconnect
 slug: Web/API/RemotePlayback/disconnect_event
 page-type: web-api-event
 browser-compat: api.RemotePlayback.disconnect_event
+sidebar:
+  - apiref:
+      - Remote Playback API
 ---
-
-{{APIRef("Remote Playback API")}}
 
 The **`disconnect`** event of the {{domxref("RemotePlayback")}} interface fires when the user agent disconnects from the remote device.
 

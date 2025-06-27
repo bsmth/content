@@ -4,9 +4,12 @@ short-title: count
 slug: Web/API/GPUQuerySet/count
 page-type: web-api-instance-property
 browser-compat: api.GPUQuerySet.count
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`count`** read-only property of the
 {{domxref("GPUQuerySet")}} interface is a number specifying the number of queries managed by the `GPUQuerySet`.

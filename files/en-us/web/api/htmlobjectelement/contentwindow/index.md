@@ -4,9 +4,10 @@ short-title: contentWindow
 slug: Web/API/HTMLObjectElement/contentWindow
 page-type: web-api-instance-property
 browser-compat: api.HTMLObjectElement.contentWindow
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`contentWindow`** read-only property of
 the {{domxref("HTMLObjectElement")}} interface returns a {{glossary("WindowProxy")}}

@@ -4,9 +4,10 @@ short-title: reportValidity()
 slug: Web/API/HTMLSelectElement/reportValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLSelectElement.reportValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`reportValidity()`** method of the {{domxref("HTMLSelectElement")}} interface performs the same validity checking steps as the {{domxref("HTMLSelectElement.checkValidity", "checkValidity()")}} method. In addition, if the {{domxref("HTMLElement/invalid_event", "invalid")}} event is not canceled, the browser displays the problem to the user.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.MerchantValidationEvent.complete
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{APIRef("Payment Request API")}}{{Deprecated_Header}}{{SecureContext_Header}}
+{{Deprecated_Header}}{{SecureContext_Header}}
 
 The {{domxref("MerchantValidationEvent")}} method **`complete()`** takes merchant-specific information previously received from the {{domxref("MerchantValidationEvent.validationURL", "validationURL")}} and uses it to validate the merchant.
 

@@ -4,9 +4,12 @@ short-title: matchAll()
 slug: Web/API/Cache/matchAll
 page-type: web-api-instance-method
 browser-compat: api.Cache.matchAll
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`matchAll()`** method of the {{domxref("Cache")}}
 interface returns a {{jsxref("Promise")}} that resolves to an array of all matching

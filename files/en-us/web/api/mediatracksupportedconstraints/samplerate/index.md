@@ -4,9 +4,10 @@ short-title: sampleRate
 slug: Web/API/MediaTrackSupportedConstraints/sampleRate
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.sampleRate_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSupportedConstraints")}} dictionary's
 **`sampleRate`** property is a read-only Boolean value which is

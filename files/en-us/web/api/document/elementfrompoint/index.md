@@ -4,9 +4,10 @@ short-title: elementFromPoint()
 slug: Web/API/Document/elementFromPoint
 page-type: web-api-instance-method
 browser-compat: api.Document.elementFromPoint
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`elementFromPoint()`**
 method, available on the {{domxref("Document")}} object, returns the topmost {{domxref("Element")}} at the specified coordinates

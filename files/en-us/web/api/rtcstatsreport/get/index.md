@@ -4,9 +4,10 @@ short-title: get()
 slug: Web/API/RTCStatsReport/get
 page-type: web-api-instance-method
 browser-compat: api.RTCStatsReport.get
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`get()`** method of the {{domxref("RTCStatsReport")}} interface returns a specified element from an `RTCStatsReport`.
 

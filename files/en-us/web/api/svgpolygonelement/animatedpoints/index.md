@@ -4,9 +4,10 @@ short-title: animatedPoints
 slug: Web/API/SVGPolygonElement/animatedPoints
 page-type: web-api-instance-property
 browser-compat: api.SVGPolygonElement.animatedPoints
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animatedPoints`** read-only property of the {{domxref("SVGPolygonElement")}} interface reflects the animated value of the element's {{SVGAttr("points")}} attribute. If the {{SVGAttr("points")}} attribute is not being animated, it contains the same value as the `points` property.
 

@@ -4,9 +4,10 @@ short-title: IIRFilterNode()
 slug: Web/API/IIRFilterNode/IIRFilterNode
 page-type: web-api-constructor
 browser-compat: api.IIRFilterNode.IIRFilterNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`IIRFilterNode()`** constructor
 of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new

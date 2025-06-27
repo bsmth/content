@@ -3,9 +3,10 @@ title: HTMLTableCellElement
 slug: Web/API/HTMLTableCellElement
 page-type: web-api-interface
 browser-compat: api.HTMLTableCellElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLTableCellElement`** interface provides special properties and methods (beyond the regular {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating the layout and presentation of table cells, either header cells ({{HTMLElement("th")}}) or data cells ({{HTMLElement("td")}}), in an HTML document.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Translator.sourceLanguage
+sidebar:
+  - apiref:
+      - Translator and Language Detector APIs
 ---
 
-{{APIRef("Translator and Language Detector APIs")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`sourceLanguage`** read-only property of the {{domxref("Translator")}} interface returns the expected language of the input text to be translated.
 

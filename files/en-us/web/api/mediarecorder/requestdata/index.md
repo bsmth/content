@@ -4,9 +4,10 @@ short-title: requestData()
 slug: Web/API/MediaRecorder/requestData
 page-type: web-api-instance-method
 browser-compat: api.MediaRecorder.requestData
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`requestData()`**
 method of the {{domxref("MediaRecorder")}} interface is used to raise a {{domxref("MediaRecorder.dataavailable_event", "dataavailable")}} event containing a

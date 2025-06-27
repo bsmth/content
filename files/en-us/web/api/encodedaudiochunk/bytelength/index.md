@@ -4,9 +4,10 @@ short-title: byteLength
 slug: Web/API/EncodedAudioChunk/byteLength
 page-type: web-api-instance-property
 browser-compat: api.EncodedAudioChunk.byteLength
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`byteLength`** read-only property of the {{domxref("EncodedAudioChunk")}} interface returns the length in bytes of the encoded audio data.
 

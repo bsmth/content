@@ -4,9 +4,10 @@ short-title: end
 slug: Web/API/SpeechRecognition/end_event
 page-type: web-api-event
 browser-compat: api.SpeechRecognition.end_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`end`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) {{domxref("SpeechRecognition")}} object is fired when the speech recognition service has disconnected.
 

@@ -4,9 +4,10 @@ short-title: exitPictureInPicture()
 slug: Web/API/Document/exitPictureInPicture
 page-type: web-api-instance-method
 browser-compat: api.Document.exitPictureInPicture
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The **`exitPictureInPicture()`** method of the {{domxref("Document")}} interface
 requests that a video contained

@@ -4,9 +4,12 @@ short-title: makeXRCompatible()
 slug: Web/API/WebGLRenderingContext/makeXRCompatible
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.makeXRCompatible
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The {{domxref("WebGLRenderingContext")}} method
 **`makeXRCompatible()`** ensures that the rendering context

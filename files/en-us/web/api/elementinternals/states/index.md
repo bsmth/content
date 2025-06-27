@@ -4,9 +4,10 @@ short-title: states
 slug: Web/API/ElementInternals/states
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.states
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`states`** read-only property of the {{domxref("ElementInternals")}} interface returns a {{domxref("CustomStateSet")}} representing the possible states of the custom element.
 

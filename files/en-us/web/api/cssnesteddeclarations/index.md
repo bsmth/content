@@ -3,9 +3,10 @@ title: CSSNestedDeclarations
 slug: Web/API/CSSNestedDeclarations
 page-type: web-api-interface
 browser-compat: api.CSSNestedDeclarations
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSNestedDeclarations`** interface of the [CSS Rule API](/en-US/docs/Web/API/CSSRule) is used to group nested {{domxref("CSSRule")}}s.
 

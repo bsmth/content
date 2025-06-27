@@ -4,9 +4,12 @@ short-title: bubbles
 slug: Web/API/Event/bubbles
 page-type: web-api-instance-property
 browser-compat: api.Event.bubbles
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`bubbles`** read-only property of the {{domxref("Event")}} interface indicates whether the event bubbles up through the DOM tree or not.
 

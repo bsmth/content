@@ -4,9 +4,10 @@ short-title: ordered
 slug: Web/API/RTCDataChannel/ordered
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.ordered
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only `RTCDataChannel` property **`ordered`** indicates
 whether or not the data channel guarantees in-order delivery of messages;

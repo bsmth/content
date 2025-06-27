@@ -4,9 +4,10 @@ short-title: applyConstraints()
 slug: Web/API/MediaStreamTrack/applyConstraints
 page-type: web-api-instance-method
 browser-compat: api.MediaStreamTrack.applyConstraints
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`applyConstraints()`** method of the {{domxref("MediaStreamTrack")}} interface applies a set of constraints to the track; these constraints let the website or app establish ideal values and acceptable ranges of values for the constrainable properties of the track, such as frame rate, dimensions, echo cancellation, and so forth.
 

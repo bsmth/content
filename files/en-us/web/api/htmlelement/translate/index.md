@@ -4,9 +4,10 @@ short-title: translate
 slug: Web/API/HTMLElement/translate
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.translate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`translate`** property of the {{domxref("HTMLElement")}} interface indicates whether an element's attribute values and the values of its {{domxref("Text")}} node children are to be translated when the page is localized, or whether to leave them unchanged.
 

@@ -4,9 +4,10 @@ short-title: activate
 slug: Web/API/ServiceWorkerGlobalScope/activate_event
 page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.activate_event
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`activate`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired when a {{domxref("ServiceWorkerRegistration")}} acquires a new {{domxref("ServiceWorkerRegistration.active")}} worker.
 

@@ -4,9 +4,10 @@ short-title: bufferedAmountLowThreshold
 slug: Web/API/RTCDataChannel/bufferedAmountLowThreshold
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.bufferedAmountLowThreshold
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The `RTCDataChannel` property
 **`bufferedAmountLowThreshold`** is used to specify the number

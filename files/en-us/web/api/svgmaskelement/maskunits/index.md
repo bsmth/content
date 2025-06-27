@@ -4,9 +4,10 @@ short-title: maskUnits
 slug: Web/API/SVGMaskElement/maskUnits
 page-type: web-api-instance-property
 browser-compat: api.SVGMaskElement.maskUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The read-only **`maskUnits`** property of the {{domxref("SVGMaskElement")}} interface reflects the {{SVGAttr("maskUnits")}} attribute of a {{SVGElement("mask")}} element which defines the coordinate system to use for the mask of the element.
 

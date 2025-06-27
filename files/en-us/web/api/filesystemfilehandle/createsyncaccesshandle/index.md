@@ -4,9 +4,12 @@ short-title: createSyncAccessHandle()
 slug: Web/API/FileSystemFileHandle/createSyncAccessHandle
 page-type: web-api-instance-method
 browser-compat: api.FileSystemFileHandle.createSyncAccessHandle
+sidebar:
+  - apiref:
+      - File System API")}}{{AvailableInWorkers("dedicated
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers("dedicated")}}
+{{securecontext_header}}
 
 The **`createSyncAccessHandle()`** method of the
 {{domxref("FileSystemFileHandle")}} interface returns a {{jsxref('Promise')}} which resolves to a {{domxref('FileSystemSyncAccessHandle')}} object

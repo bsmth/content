@@ -4,9 +4,10 @@ short-title: id
 slug: Web/API/VideoTrack/id
 page-type: web-api-instance-property
 browser-compat: api.VideoTrack.id
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`id`** property contains a
 string which uniquely identifies the track represented by the

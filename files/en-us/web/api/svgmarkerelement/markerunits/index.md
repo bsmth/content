@@ -4,9 +4,10 @@ short-title: markerUnits
 slug: Web/API/SVGMarkerElement/markerUnits
 page-type: web-api-instance-property
 browser-compat: api.SVGMarkerElement.markerUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`markerUnits`** read-only property of the {{domxref("SVGMarkerElement")}} interface returns an {{domxref("SVGAnimatedEnumeration")}} object. This object returns an integer which represents the keyword values that the {{SVGattr("markerUnits")}} attribute accepts.
 

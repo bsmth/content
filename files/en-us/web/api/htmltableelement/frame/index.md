@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableElement.frame
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The {{domxref("HTMLTableElement")}} interface's **`frame`**
 property is a string that indicates which of the table's exterior borders should be

@@ -4,9 +4,10 @@ short-title: targetBitrate
 slug: Web/API/RTCOutboundRtpStreamStats/targetBitrate
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.targetBitrate
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`targetBitrate`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary represents the current target bitrate of the codec in use by the stream.
 

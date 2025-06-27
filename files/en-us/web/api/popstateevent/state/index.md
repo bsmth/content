@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/PopStateEvent/state
 page-type: web-api-instance-property
 browser-compat: api.PopStateEvent.state
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{ APIRef("History API") }}
 
 The **`state`** read-only property of the {{domxref("PopStateEvent")}} interface represents the state stored when the event was created.
 

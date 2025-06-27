@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.BrowserCaptureMediaStreamTrack
+sidebar:
+  - apiref:
+      - Screen Capture API
 ---
 
-{{APIRef("Screen Capture API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`BrowserCaptureMediaStreamTrack`** interface of the {{domxref("Screen Capture API", "Screen Capture API", "", "nocode")}} represents a single video track. It extends the {{domxref("MediaStreamTrack")}} class with methods to limit the part of a self-capture stream (for example, a user's screen or window) that is captured.
 

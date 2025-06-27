@@ -4,9 +4,10 @@ short-title: btoa()
 slug: Web/API/Window/btoa
 page-type: web-api-instance-method
 browser-compat: api.btoa
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`btoa()`** method of the {{domxref("Window")}} interface creates a
 {{glossary("Base64")}}-encoded {{Glossary("ASCII")}} string from a _binary string_ (i.e., a

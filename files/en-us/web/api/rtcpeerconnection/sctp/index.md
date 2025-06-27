@@ -4,9 +4,10 @@ short-title: sctp
 slug: Web/API/RTCPeerConnection/sctp
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.sctp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`sctp`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns an {{domxref("RTCSctpTransport")}} describing the {{Glossary("SCTP")}} transport over which SCTP data is being sent and received.
 If SCTP hasn't been negotiated, this value is `null`.

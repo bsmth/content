@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Sanitizer.replaceElementWithChildren
+sidebar:
+  - apiref:
+      - HTML Sanitizer API
 ---
 
-{{APIRef("HTML Sanitizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`replaceElementWithChildren()`** method of the {{domxref("Sanitizer")}} interface sets an element to be replaced by its child HTML elements when the sanitizer is used.
 The is primarily used for stripping styles from text.

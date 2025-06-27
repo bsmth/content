@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.GamepadPose.hasPosition
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{APIRef("WebVR API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`hasPosition`** read-only property of the {{domxref("GamepadPose")}} interface returns a boolean value stating whether the {{domxref("Gamepad")}} can track and return position information.
 

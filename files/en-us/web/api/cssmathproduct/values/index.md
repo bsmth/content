@@ -4,9 +4,10 @@ short-title: values
 slug: Web/API/CSSMathProduct/values
 page-type: web-api-instance-property
 browser-compat: api.CSSMathProduct.values
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSMathProduct.values`** read-only
 property of the {{domxref("CSSMathProduct")}} interface returns a

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.USBConnectionEvent.device
+sidebar:
+  - apiref:
+      - WebUSB API
 ---
 
-{{APIRef("WebUSB API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`device`** read-only property of the {{domxref("USBConnectionEvent")}} interface returns a {{domxref("USBDevice")}} object representing the device being connected or disconnected.
 

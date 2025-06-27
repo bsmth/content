@@ -4,9 +4,10 @@ short-title: toJSON()
 slug: Web/API/RTCSessionDescription/toJSON
 page-type: web-api-instance-method
 browser-compat: api.RTCSessionDescription.toJSON
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCSessionDescription.toJSON()`** method generates a
 {{Glossary("JSON")}} description of the object. Both properties,

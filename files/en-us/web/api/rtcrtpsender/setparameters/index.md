@@ -4,9 +4,10 @@ short-title: setParameters()
 slug: Web/API/RTCRtpSender/setParameters
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpSender.setParameters
+sidebar:
+  - apiref:
+      - WebRTC API
 ---
-
-{{APIRef("WebRTC API")}}
 
 The **`setParameters()`** method of the {{domxref("RTCRtpSender")}} interface applies changes the configuration of sender's {{domxref("RTCRtpSender.track", "track")}}, which is the {{domxref("MediaStreamTrack")}} for which the `RTCRtpSender` is responsible.
 

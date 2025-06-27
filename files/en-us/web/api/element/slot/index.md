@@ -4,9 +4,10 @@ short-title: slot
 slug: Web/API/Element/slot
 page-type: web-api-instance-property
 browser-compat: api.Element.slot
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The **`slot`** property of the {{domxref("Element")}} interface
 returns the name of the shadow DOM slot the element is inserted in.

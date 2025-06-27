@@ -4,9 +4,10 @@ short-title: displaySurface
 slug: Web/API/MediaTrackConstraints/displaySurface
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.displaySurface_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackConstraints")}} dictionary's **`displaySurface`** property is a [`ConstrainDOMString`](/en-US/docs/Web/API/MediaTrackConstraints#constraindomstring) describing the preferred value for the {{domxref("MediaTrackSettings.displaySurface","displaySurface")}} constrainable property.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PerformanceResourceTiming.contentType
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}{{SeeCompatTable}}
+{{AvailableInWorkers}}{{SeeCompatTable}}
 
 The **`contentType`** read-only property of the {{domxref("PerformanceResourceTiming")}} interface is a string indicating the content type of the fetched resource, formatted as a {{glossary("MIME type")}} and subtype separated by a forward slash.
 

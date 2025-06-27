@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.BluetoothRemoteGATTService.isPrimary
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`BluetoothGATTService.isPrimary`** read-only property
 returns a boolean value that indicates whether this is a primary service. If it

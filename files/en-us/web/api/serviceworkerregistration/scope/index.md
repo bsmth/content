@@ -4,9 +4,12 @@ short-title: scope
 slug: Web/API/ServiceWorkerRegistration/scope
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerRegistration.scope
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`scope`** read-only property of the {{domxref("ServiceWorkerRegistration")}} interface returns a string representing a URL that defines a service worker's registration scope; that is, the range of URLs a service worker can control. This is set using the `scope` parameter specified in the call to {{domxref('ServiceWorkerContainer.register()')}} which registered the service worker.
 

@@ -4,9 +4,10 @@ short-title: pointerrawupdate
 slug: Web/API/Element/pointerrawupdate_event
 page-type: web-api-event
 browser-compat: api.Element.pointerrawupdate_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{secureContext_header}}
+{{secureContext_header}}
 
 The **`pointerrawupdate`** event is fired when a pointer changes any properties that don't fire {{domxref('Element/pointerdown_event', 'pointerdown')}} or {{domxref('Element/pointerup_event', 'pointerup')}} events.
 See {{domxref('Element/pointermove_event', 'pointermove')}} for a list of these properties.

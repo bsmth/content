@@ -4,9 +4,10 @@ short-title: blob()
 slug: Web/API/PushMessageData/blob
 page-type: web-api-instance-method
 browser-compat: api.PushMessageData.blob
+sidebar:
+  - apiref:
+      - Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`blob()`** method of the {{domxref("PushMessageData")}} interface extracts push message data as a {{domxref("Blob")}} object.
 

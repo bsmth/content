@@ -4,9 +4,10 @@ short-title: cancelVideoFrameCallback()
 slug: Web/API/HTMLVideoElement/cancelVideoFrameCallback
 page-type: web-api-instance-method
 browser-compat: api.HTMLVideoElement.cancelVideoFrameCallback
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`cancelVideoFrameCallback()`** method of the {{domxref("HTMLVideoElement")}} interface cancels a previously-registered video frame callback.
 

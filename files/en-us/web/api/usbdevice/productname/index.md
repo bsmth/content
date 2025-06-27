@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.USBDevice.productName
+sidebar:
+  - apiref:
+      - WebUSB API
 ---
 
-{{APIRef("WebUSB API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`productName`** read only property of the
 {{domxref("USBDevice")}} interface the manufacturer-defined name that identifies a USB

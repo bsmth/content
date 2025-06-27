@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCCertificateStats/type
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_certificate.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`type`** property of the {{domxref("RTCCertificateStats")}} dictionary is a string with the value `"certificate"`.
 

@@ -4,9 +4,10 @@ short-title: autocapitalize
 slug: Web/API/HTMLElement/autocapitalize
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.autocapitalize
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`autocapitalize`** property of the {{domxref("HTMLElement")}} interface represents the element's capitalization behavior for user input. It is available on all HTML elements, though it doesn't affect all of them, including:
 

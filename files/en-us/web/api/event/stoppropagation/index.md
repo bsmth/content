@@ -4,9 +4,12 @@ short-title: stopPropagation()
 slug: Web/API/Event/stopPropagation
 page-type: web-api-instance-method
 browser-compat: api.Event.stopPropagation
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`stopPropagation()`** method of the {{domxref("Event")}}
 interface prevents further propagation of the current event in the capturing and

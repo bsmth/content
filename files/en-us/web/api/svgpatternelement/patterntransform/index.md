@@ -4,9 +4,10 @@ short-title: patternTransform
 slug: Web/API/SVGPatternElement/patternTransform
 page-type: web-api-instance-property
 browser-compat: api.SVGPatternElement.patternTransform
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`patternTransform`** read-only property of the {{domxref("SVGPatternElement")}} interface reflects the {{SVGAttr("patternTransform")}} attribute of the given {{SVGElement("pattern")}} element. This property holds the transformation applied to the pattern itself, allowing for operations like `translate`, `rotate`, `scale`, and `skew`.
 

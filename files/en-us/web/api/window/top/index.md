@@ -4,9 +4,8 @@ short-title: top
 slug: Web/API/Window/top
 page-type: web-api-instance-property
 browser-compat: api.Window.top
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 Returns a reference to the topmost window in the window hierarchy.
 

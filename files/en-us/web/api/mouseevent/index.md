@@ -3,9 +3,10 @@ title: MouseEvent
 slug: Web/API/MouseEvent
 page-type: web-api-interface
 browser-compat: api.MouseEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`MouseEvent`** interface represents events that occur due to the user interacting with a pointing device (such as a mouse).
 Common events using this interface include {{domxref("Element/click_event", "click")}}, {{domxref("Element/dblclick_event", "dblclick")}}, {{domxref("Element/mouseup_event", "mouseup")}}, {{domxref("Element/mousedown_event", "mousedown")}}.

@@ -3,9 +3,10 @@ title: CSSCounterStyleRule
 slug: Web/API/CSSCounterStyleRule
 page-type: web-api-interface
 browser-compat: api.CSSCounterStyleRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSCounterStyleRule`** interface represents an {{CSSxRef("@counter-style")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

@@ -4,9 +4,12 @@ short-title: load()
 slug: Web/API/FontFaceSet/load
 page-type: web-api-instance-method
 browser-compat: api.FontFaceSet.load
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `load()` method of the {{domxref("FontFaceSet")}} forces all the fonts given in parameters to be loaded.
 

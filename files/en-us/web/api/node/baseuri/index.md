@@ -4,9 +4,10 @@ short-title: baseURI
 slug: Web/API/Node/baseURI
 page-type: web-api-instance-property
 browser-compat: api.Node.baseURI
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`baseURI`** property of the {{domxref("Node")}} interface
 returns the absolute base URL of the document containing the node.

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BluetoothRemoteGATTCharacteristic.writeValueWithResponse
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`BluetoothRemoteGATTCharacteristic.writeValueWithResponse()`** method sets a {{domxref("BluetoothRemoteGATTCharacteristic")}} object's `value` property to the bytes contained in a given {{JSxRef("ArrayBuffer")}}, [writes the characteristic value with required response](https://webbluetoothcg.github.io/web-bluetooth/#writecharacteristicvalue), and returns the resulting {{JSxRef("Promise")}}.
 

@@ -4,9 +4,8 @@ short-title: removetrack
 slug: Web/API/VideoTrackList/removetrack_event
 page-type: web-api-event
 browser-compat: api.VideoTrackList.removetrack_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `removetrack` event is fired when a video track is removed from a [`VideoTrackList`](/en-US/docs/Web/API/VideoTrackList).
 

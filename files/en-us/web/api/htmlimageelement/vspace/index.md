@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLImageElement.vspace
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The _obsolete_ **`vspace`** property of the
 {{domxref("HTMLImageElement")}} interface specifies the number of pixels of empty space

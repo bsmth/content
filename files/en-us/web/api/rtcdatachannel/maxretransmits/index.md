@@ -4,9 +4,10 @@ short-title: maxRetransmits
 slug: Web/API/RTCDataChannel/maxRetransmits
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.maxRetransmits
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only `RTCDataChannel` property
 **`maxRetransmits`** returns the maximum number of times the

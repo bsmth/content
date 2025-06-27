@@ -3,9 +3,10 @@ title: MediaMetadata
 slug: Web/API/MediaMetadata
 page-type: web-api-interface
 browser-compat: api.MediaMetadata
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`MediaMetadata`** interface of the {{domxref("Media Session API", "", "", "nocode")}} allows a web page to provide rich media metadata for display in a platform UI.
 

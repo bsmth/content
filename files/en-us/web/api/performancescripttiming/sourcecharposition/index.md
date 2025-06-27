@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PerformanceScriptTiming.sourceCharPosition
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{SeeCompatTable}}{{APIRef("Performance API")}}
+{{SeeCompatTable}}
 
 The **`sourceCharPosition`** read-only property of the {{domxref("PerformanceScriptTiming")}} interface returns a number representing the script character position of the script feature that contributed to the long animation frame (LoAF).
 

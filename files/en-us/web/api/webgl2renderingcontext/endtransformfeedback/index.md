@@ -4,9 +4,12 @@ short-title: endTransformFeedback()
 slug: Web/API/WebGL2RenderingContext/endTransformFeedback
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.endTransformFeedback
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.endTransformFeedback()`** method
 of the [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) ends a transform feedback

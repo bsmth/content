@@ -4,9 +4,8 @@ short-title: messageerror
 slug: Web/API/Window/messageerror_event
 page-type: web-api-event
 browser-compat: api.Window.messageerror_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `messageerror` event is fired on a {{domxref('Window')}} object when it receives a message that can't be deserialized.
 

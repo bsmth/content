@@ -4,9 +4,10 @@ short-title: SubmitEvent()
 slug: Web/API/SubmitEvent/SubmitEvent
 page-type: web-api-constructor
 browser-compat: api.SubmitEvent.SubmitEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`SubmitEvent()`** constructor creates and returns a new {{domxref("SubmitEvent")}} object,
 which is used to represent a {{domxref("HTMLFormElement.submit_event", "submit")}} event

@@ -4,9 +4,12 @@ short-title: getPublicKey()
 slug: Web/API/AuthenticatorAttestationResponse/getPublicKey
 page-type: web-api-instance-method
 browser-compat: api.AuthenticatorAttestationResponse.getPublicKey
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`getPublicKey()`** method of the {{domxref("AuthenticatorAttestationResponse")}} interface returns an {{jsxref("ArrayBuffer")}} containing the DER `SubjectPublicKeyInfo` of the new credential (see [Subject Public Key Info](https://www.rfc-editor.org/rfc/rfc5280#section-4.1.2.7)), or `null` if this is not available.
 

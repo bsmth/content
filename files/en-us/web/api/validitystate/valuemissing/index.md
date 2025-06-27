@@ -4,9 +4,10 @@ short-title: valueMissing
 slug: Web/API/ValidityState/valueMissing
 page-type: web-api-instance-property
 browser-compat: api.ValidityState.valueMissing
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`valueMissing`** property of the [`ValidityState`](/en-US/docs/Web/API/ValidityState) interface indicates if a [`required`](/en-US/docs/Web/HTML/Reference/Attributes/required) control, such as an {{HTMLElement("input")}}, {{HTMLElement("select")}}, or {{HTMLElement("textarea")}}, has an empty value.
 

@@ -4,9 +4,10 @@ short-title: setRemoteDescription()
 slug: Web/API/RTCPeerConnection/setRemoteDescription
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.setRemoteDescription
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`setRemoteDescription()`** method of the {{domxref("RTCPeerConnection")}} interface sets the specified session description as the remote peer's current offer or answer.
 The description specifies the properties of the remote end of the connection, including the media format.

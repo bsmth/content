@@ -4,9 +4,10 @@ short-title: deleteRule()
 slug: Web/API/CSSGroupingRule/deleteRule
 page-type: web-api-instance-method
 browser-compat: api.CSSGroupingRule.deleteRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`deleteRule()`** method of the
 {{domxref("CSSGroupingRule")}} interface removes a CSS rule from a list of child CSS

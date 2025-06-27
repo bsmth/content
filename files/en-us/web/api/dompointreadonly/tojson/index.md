@@ -4,9 +4,12 @@ short-title: toJSON()
 slug: Web/API/DOMPointReadOnly/toJSON
 page-type: web-api-instance-method
 browser-compat: api.DOMPointReadOnly.toJSON
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The {{domxref("DOMPointReadOnly")}} method
 `toJSON()` returns an object giving the

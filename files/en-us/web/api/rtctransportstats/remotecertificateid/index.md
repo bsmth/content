@@ -4,9 +4,10 @@ short-title: remoteCertificateId
 slug: Web/API/RTCTransportStats/remoteCertificateId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_transport.remoteCertificateId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`remoteCertificateId`** property of the {{domxref("RTCTransportStats")}} dictionary is a string that indicates the id of the remote certificate used by this {{domxref("RTCIceTransport")}}.
 

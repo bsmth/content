@@ -4,9 +4,12 @@ short-title: openCursor()
 slug: Web/API/IDBIndex/openCursor
 page-type: web-api-instance-method
 browser-compat: api.IDBIndex.openCursor
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`openCursor()`** method of the {{domxref("IDBIndex")}}
 interface returns an {{domxref("IDBRequest")}} object, and, in a separate thread,

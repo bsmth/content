@@ -4,9 +4,10 @@ short-title: content
 slug: Web/API/HTMLMetaElement/content
 page-type: web-api-instance-property
 browser-compat: api.HTMLMetaElement.content
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMetaElement.content`** property gets or sets the `content` attribute of pragma directives and named {{htmlelement("meta")}} data in conjunction with {{domxref("HTMLMetaElement.name")}} or {{domxref("HTMLMetaElement.httpEquiv")}}.
 For more information, see the [content](/en-US/docs/Web/HTML/Reference/Elements/meta#content) attribute.

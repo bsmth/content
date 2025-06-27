@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/CSSStyleDeclaration/length
 page-type: web-api-instance-property
 browser-compat: api.CSSStyleDeclaration.length
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The read-only property returns an integer that represents the
 number of style declarations in this CSS declaration block.

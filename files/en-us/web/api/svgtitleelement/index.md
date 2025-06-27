@@ -3,9 +3,10 @@ title: SVGTitleElement
 slug: Web/API/SVGTitleElement
 page-type: web-api-interface
 browser-compat: api.SVGTitleElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGTitleElement`** interface corresponds to the {{SVGElement("title")}} element.
 

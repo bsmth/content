@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableCellElement.noWrap
+sidebar:
+  - apiref:
+      - HTML DOM API
 ---
 
-{{APIRef("HTML DOM API")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`noWrap`** property of the {{domxref("HTMLTableCellElement")}} interface returns a Boolean value indicating if the text of the cell may be wrapped on several lines or not.
 

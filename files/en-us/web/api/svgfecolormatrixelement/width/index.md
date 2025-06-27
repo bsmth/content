@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGFEColorMatrixElement/width
 page-type: web-api-instance-property
 browser-compat: api.SVGFEColorMatrixElement.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`width`** read-only property of the {{domxref("SVGFEColorMatrixElement")}} interface describes the horizontal size of an SVG filter primitive as a {{domxref("SVGAnimatedLength")}}.
 

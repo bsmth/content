@@ -3,9 +3,10 @@ title: RTCRtpScriptTransform
 slug: Web/API/RTCRtpScriptTransform
 page-type: web-api-interface
 browser-compat: api.RTCRtpScriptTransform
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCRtpScriptTransform`** interface of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) is used to insert a [WebRTC Encoded Transform](/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms) (a {{domxref("TransformStream")}} running in a worker thread) into the WebRTC sender and receiver pipelines.
 

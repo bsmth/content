@@ -4,9 +4,10 @@ short-title: tabIndex
 slug: Web/API/MathMLElement/tabIndex
 page-type: web-api-instance-property
 browser-compat: api.MathMLElement.tabIndex
+sidebar:
+  - apiref:
+      - MathML
 ---
-
-{{APIRef("MathML")}}
 
 The **`tabIndex`** property of the {{DOMxRef("MathMLElement")}} interface represents the tab order of the current MathML element.
 

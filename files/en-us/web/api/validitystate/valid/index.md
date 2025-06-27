@@ -4,9 +4,10 @@ short-title: valid
 slug: Web/API/ValidityState/valid
 page-type: web-api-instance-property
 browser-compat: api.ValidityState.valid
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`valid`** property of the [`ValidityState`](/en-US/docs/Web/API/ValidityState) interface indicates if the value of an {{HTMLElement("input")}} element meets all its validation constraints, and is therefore considered to be valid.
 

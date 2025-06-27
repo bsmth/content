@@ -4,9 +4,10 @@ short-title: packetsFailedDecryption
 slug: Web/API/RTCInboundRtpStreamStats/packetsFailedDecryption
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.packetsFailedDecryption
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`packetsFailedDecryption`**
 property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary indicates the total

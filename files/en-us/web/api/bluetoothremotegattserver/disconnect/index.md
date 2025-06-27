@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BluetoothRemoteGATTServer.disconnect
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`BluetoothRemoteGATTServer.disconnect()`** method causes
 the script execution environment to disconnect from `this.device`.

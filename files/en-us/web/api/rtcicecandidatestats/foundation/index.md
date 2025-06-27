@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_local-candidate.foundation
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`foundation`** property of the {{domxref("RTCIceCandidateStats")}} interface is a string that allows correlation of candidates from a common network path on multiple {{domxref("RTCIceTransport")}} objects.
 

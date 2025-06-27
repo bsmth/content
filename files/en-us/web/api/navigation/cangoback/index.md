@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Navigation.canGoBack
+sidebar:
+  - apiref:
+      - Navigation API
 ---
 
-{{APIRef("Navigation API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`canGoBack`** read-only property of the
 {{domxref("Navigation")}} interface returns `true`

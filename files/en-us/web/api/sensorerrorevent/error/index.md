@@ -4,9 +4,12 @@ short-title: error
 slug: Web/API/SensorErrorEvent/error
 page-type: web-api-instance-property
 browser-compat: api.SensorErrorEvent.error
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`error`** read-only property of
 the {{domxref("SensorErrorEvent")}} interface returns the {{domxref('DOMException')}}

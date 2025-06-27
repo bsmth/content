@@ -4,9 +4,10 @@ short-title: endElement()
 slug: Web/API/SVGAnimationElement/endElement
 page-type: web-api-instance-method
 browser-compat: api.SVGAnimationElement.endElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The {{domxref("SVGAnimationElement")}} method `endElement()` creates an end instance time for the current time. The new instance time is added to the end instance times list. The behavior of this method is equivalent to `endElementAt(0)`.
 

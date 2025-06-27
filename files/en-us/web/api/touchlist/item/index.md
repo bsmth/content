@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/TouchList/item
 page-type: web-api-instance-method
 browser-compat: api.TouchList.item
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The **`item()`** method returns the {{ domxref("Touch") }}
 object at the specified index in the {{ domxref("TouchList") }}.

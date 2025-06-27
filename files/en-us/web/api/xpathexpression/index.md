@@ -3,9 +3,10 @@ title: XPathExpression
 slug: Web/API/XPathExpression
 page-type: web-api-interface
 browser-compat: api.XPathExpression
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 This interface is a compiled XPath expression that can be evaluated on a document or specific node to return information from its {{Glossary("DOM")}} tree.
 

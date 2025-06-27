@@ -4,9 +4,10 @@ short-title: frames
 slug: Web/API/Window/frames
 page-type: web-api-instance-property
 browser-compat: api.Window.frames
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 Returns the window itself, which is an array-like object, listing the direct sub-frames
 of the current window.

@@ -4,9 +4,10 @@ short-title: emulatedPosition
 slug: Web/API/XRPose/emulatedPosition
 page-type: web-api-instance-property
 browser-compat: api.XRPose.emulatedPosition
+sidebar: apiref
 ---
 
-{{APIRef}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The `emulatedPosition` read-only attribute of the
 {{DOMxRef("XRPose")}} interface is a Boolean value indicating whether or not both the

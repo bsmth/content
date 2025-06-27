@@ -4,9 +4,10 @@ short-title: ctrlKey
 slug: Web/API/MouseEvent/ctrlKey
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.ctrlKey
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`MouseEvent.ctrlKey`** read-only property is a boolean value that indicates whether the <kbd>ctrl</kbd> key was pressed or not when a given mouse event occurs.
 

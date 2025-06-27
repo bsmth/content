@@ -4,9 +4,10 @@ short-title: lastElementChild
 slug: Web/API/DocumentFragment/lastElementChild
 page-type: web-api-instance-property
 browser-compat: api.DocumentFragment.lastElementChild
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`DocumentFragment.lastElementChild`** read-only property
 returns the document fragment's last child {{domxref("Element")}}, or `null` if there

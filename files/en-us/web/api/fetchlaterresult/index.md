@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.FetchLaterResult
+sidebar:
+  - apiref:
+      - fetchLater API
 ---
 
-{{APIRef("fetchLater API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`FetchLaterResult`** interface of the [`fetchLater()` API](/en-US/docs/Web/API/fetchLater_API) is returned by the {{domxref("Window.FetchLater()")}} method after a deferred fetch has been created.
 

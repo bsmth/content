@@ -4,9 +4,10 @@ short-title: activeElement
 slug: Web/API/ShadowRoot/activeElement
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.activeElement
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The **`activeElement`** read-only property of the
 {{domxref("ShadowRoot")}} interface returns the element within the shadow tree that has focus.

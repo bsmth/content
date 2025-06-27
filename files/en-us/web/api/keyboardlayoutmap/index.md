@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.KeyboardLayoutMap
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{SeeCompatTable}}{{APIRef("Keyboard API")}}
+{{SeeCompatTable}}
 
 The **`KeyboardLayoutMap`** interface of the {{domxref("Keyboard API", "", "", "nocode")}} is a read-only object with functions for retrieving the string associated with specific physical keys.
 

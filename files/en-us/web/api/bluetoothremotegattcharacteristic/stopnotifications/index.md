@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BluetoothRemoteGATTCharacteristic.stopNotifications
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`BluetoothRemoteGATTCharacteristic.stopNotifications()`** method
 returns a {{jsxref("Promise")}} to the BluetoothRemoteGATTCharacteristic instance when

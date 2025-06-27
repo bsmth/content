@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.FeaturePolicy
+sidebar:
+  - apiref:
+      - Feature Policy
 ---
 
-{{APIRef("Feature Policy")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The `FeaturePolicy` interface represents the set of [Permissions Policies](/en-US/docs/Web/HTTP/Guides/Permissions_Policy) applied to the current execution context.
 

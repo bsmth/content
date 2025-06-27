@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.WindowSharedStorage.worklet
+sidebar:
+  - apiref:
+      - Shared Storage API
 ---
 
-{{APIRef("Shared Storage API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`worklet`** read-only property of the
 {{domxref("WindowSharedStorage")}} interface contains the {{domxref("SharedStorageWorklet")}} instance representing the shared storage worklet for the current origin.

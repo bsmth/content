@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/PerformanceServerTiming/name
 page-type: web-api-instance-property
 browser-compat: api.PerformanceServerTiming.name
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`name`** read-only property returns a
 string value of the server-specified metric name.

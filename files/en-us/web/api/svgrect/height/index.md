@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGRect/height
 page-type: web-api-instance-property
 browser-compat: api.SVGRect.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** property of the {{domxref("SVGRect")}} interface is an alias for the {{DOMXref("DOMRect.height")}} property. It describes the vertical size of the element. It reflects the SVG element's {{SVGattr("height")}} attribute and the CSS {{cssxref("height")}} property.
 

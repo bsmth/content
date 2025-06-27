@@ -4,9 +4,12 @@ short-title: start()
 slug: Web/API/MessagePort/start
 page-type: web-api-instance-method
 browser-compat: api.MessagePort.start
+sidebar:
+  - apiref:
+      - Channel Messaging API
 ---
 
-{{APIRef("Channel Messaging API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`start()`** method of the {{domxref("MessagePort")}}
 interface starts the sending of messages queued on the port. This method is only needed

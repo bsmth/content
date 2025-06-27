@@ -4,9 +4,10 @@ short-title: keys()
 slug: Web/API/CSSUnparsedValue/keys
 page-type: web-api-instance-method
 browser-compat: api.CSSUnparsedValue.keys
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSUnparsedValue.keys()`** method
 returns a new _array iterator_ object that contains the keys

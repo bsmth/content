@@ -4,9 +4,10 @@ short-title: checkValidity()
 slug: Web/API/HTMLFieldSetElement/checkValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLFieldSetElement.checkValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`checkValidity()`** method of the {{domxref("HTMLFieldSetElement")}} interface checks if the element is valid, but always returns true because {{HTMLElement("fieldset")}} elements are never candidates for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation).
 

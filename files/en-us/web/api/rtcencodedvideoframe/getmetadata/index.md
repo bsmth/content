@@ -4,9 +4,10 @@ short-title: getMetadata()
 slug: Web/API/RTCEncodedVideoFrame/getMetadata
 page-type: web-api-instance-method
 browser-compat: api.RTCEncodedVideoFrame.getMetadata
+sidebar:
+  - apiref:
+      - WebRTC")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebRTC")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`getMetadata()`** method of the {{domxref("RTCEncodedVideoFrame")}} interface returns an object containing the metadata associated with the frame.
 

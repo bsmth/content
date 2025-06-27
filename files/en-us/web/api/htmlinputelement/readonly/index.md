@@ -4,9 +4,10 @@ short-title: readOnly
 slug: Web/API/HTMLInputElement/readOnly
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.readOnly
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`readOnly`** property of the {{DOMxRef("HTMLInputElement")}} interface indicates that the user cannot modify the value of the {{htmlelement("input")}}. It reflects the {{htmlelement("input")}} element's [`readonly`](/en-US/docs/Web/HTML/Reference/Elements/input#readonly) boolean attribute; returning `true` if the attribute is present and `false` when omitted.
 

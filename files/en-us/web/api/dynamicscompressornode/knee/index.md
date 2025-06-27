@@ -4,9 +4,10 @@ short-title: knee
 slug: Web/API/DynamicsCompressorNode/knee
 page-type: web-api-instance-property
 browser-compat: api.DynamicsCompressorNode.knee
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `knee` property of the {{ domxref("DynamicsCompressorNode") }} interface is a [k-rate](/en-US/docs/Web/API/AudioParam#k-rate) {{domxref("AudioParam")}} containing a decibel value representing the range above the threshold where the curve smoothly transitions to the compressed portion.
 

@@ -4,9 +4,10 @@ short-title: getConfiguration()
 slug: Web/API/RTCPeerConnection/getConfiguration
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.getConfiguration
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getConfiguration()`** method of the {{domxref("RTCPeerConnection")}} interface returns an object which indicates the current configuration of the {{domxref("RTCPeerConnection")}} on which the method is called.
 

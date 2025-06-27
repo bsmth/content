@@ -4,9 +4,12 @@ short-title: create()
 slug: Web/API/CredentialsContainer/create
 page-type: web-api-instance-method
 browser-compat: api.CredentialsContainer.create
+sidebar:
+  - apiref:
+      - Credential Management API
 ---
 
-{{APIRef("Credential Management API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`create()`** method of the {{domxref("CredentialsContainer")}} interface creates a new {{glossary("credential")}}, which can then be stored and later retrieved using the {{domxref("CredentialsContainer.get", "navigator.credentials.get()")}} method. The retrieved credential can then be used by a website to authenticate a user.
 

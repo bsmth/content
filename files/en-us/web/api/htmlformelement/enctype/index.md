@@ -4,9 +4,10 @@ short-title: enctype
 slug: Web/API/HTMLFormElement/enctype
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.enctype
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormElement.enctype`** property is the {{Glossary("MIME_type", "MIME type")}} of content that is used
 to submit the form to the server. Possible values are:

@@ -7,9 +7,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.Metadata.modificationTime
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
 
-{{APIRef("File and Directory Entries API")}}{{Non-standard_header}}{{SeeCompatTable}}
+{{Non-standard_header}}{{SeeCompatTable}}
 
 The read-only **`modificationTime`**
 property of the {{domxref("Metadata")}} interface is a {{jsxref("Date")}} object which

@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.VRDisplay.resetPose
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{APIRef("WebVR API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`resetPose()`** method of the {{domxref("VRDisplay")}} interface resets the pose for the `VRDisplay`, treating its current {{domxref("VRPose.position")}} and {{domxref("VRPose.orientation")}} as the "origin/zero" values.
 

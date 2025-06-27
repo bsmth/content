@@ -4,9 +4,12 @@ short-title: view
 slug: Web/API/ReadableStreamBYOBRequest/view
 page-type: web-api-instance-property
 browser-compat: api.ReadableStreamBYOBRequest.view
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`view`** getter property of the {{domxref("ReadableStreamBYOBRequest")}} interface returns the current view.
 

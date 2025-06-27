@@ -4,9 +4,12 @@ short-title: readAsText()
 slug: Web/API/FileReader/readAsText
 page-type: web-api-instance-method
 browser-compat: api.FileReader.readAsText
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`readAsText()`** method of the {{domxref("FileReader")}} interface is used to read the contents of the specified {{domxref("Blob")}} or {{domxref("File")}}.
 When the read operation is complete, the {{domxref("FileReader.readyState","readyState")}} property is changed to `DONE`,

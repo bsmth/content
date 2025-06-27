@@ -4,9 +4,10 @@ short-title: clear()
 slug: Web/API/SVGPointList/clear
 page-type: web-api-instance-method
 browser-compat: api.SVGPointList.clear
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`clear()`** method of the {{domxref("SVGPointList")}} interface removes all items from the list.
 

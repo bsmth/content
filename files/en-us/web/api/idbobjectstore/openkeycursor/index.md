@@ -4,9 +4,10 @@ short-title: openKeyCursor()
 slug: Web/API/IDBObjectStore/openKeyCursor
 page-type: web-api-instance-method
 browser-compat: api.IDBObjectStore.openKeyCursor
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{ APIRef("IndexedDB") }}
 
 The **`openKeyCursor()`** method of the
 {{domxref("IDBObjectStore")}} interface returns an {{domxref("IDBRequest")}} object

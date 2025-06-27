@@ -4,9 +4,12 @@ short-title: signal
 slug: Web/API/Request/signal
 page-type: web-api-instance-property
 browser-compat: api.Request.signal
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`signal`** property of the {{DOMxRef("Request")}} interface returns the {{domxref("AbortSignal")}} associated with the request.
 

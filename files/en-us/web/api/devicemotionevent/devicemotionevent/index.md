@@ -4,9 +4,12 @@ short-title: DeviceMotionEvent()
 slug: Web/API/DeviceMotionEvent/DeviceMotionEvent
 page-type: web-api-constructor
 browser-compat: api.DeviceMotionEvent.DeviceMotionEvent
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`DeviceMotionEvent()`** constructor creates a new {{DOMxRef("DeviceMotionEvent")}} object.
 

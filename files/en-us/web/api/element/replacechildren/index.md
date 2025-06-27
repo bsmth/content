@@ -4,9 +4,10 @@ short-title: replaceChildren()
 slug: Web/API/Element/replaceChildren
 page-type: web-api-instance-method
 browser-compat: api.Element.replaceChildren
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.replaceChildren()`** method replaces the
 existing children of a {{domxref("Node")}} with a specified new set of children. These

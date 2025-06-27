@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableSectionElement.align
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`align`** property of the {{domxref("HTMLTableSectionElement")}} interface is a string indicating how to horizontally align text in a {{htmlelement("thead")}}, {{htmlelement("tbody")}} or {{htmlelement("tfoot")}} table section. Individual rows and cells can override it.
 

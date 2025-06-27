@@ -4,9 +4,10 @@ short-title: nodeValue
 slug: Web/API/Node/nodeValue
 page-type: web-api-instance-property
 browser-compat: api.Node.nodeValue
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`nodeValue`** property of the {{domxref("Node")}} interface returns or sets the value of the current node.
 

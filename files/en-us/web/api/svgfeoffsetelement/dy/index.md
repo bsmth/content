@@ -4,9 +4,10 @@ short-title: dy
 slug: Web/API/SVGFEOffsetElement/dy
 page-type: web-api-instance-property
 browser-compat: api.SVGFEOffsetElement.dy
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`dy`** read-only property of the {{domxref("SVGFEOffsetElement")}} interface reflects the {{SVGAttr("dy")}} attribute of the given {{SVGElement("feOffset")}} element.
 

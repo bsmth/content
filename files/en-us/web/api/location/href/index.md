@@ -4,9 +4,10 @@ short-title: href
 slug: Web/API/Location/href
 page-type: web-api-instance-property
 browser-compat: api.Location.href
+sidebar:
+  - apiref:
+      - Location
 ---
-
-{{ApiRef("Location")}}
 
 The **`href`** property of the {{domxref("Location")}}
 interface is a {{Glossary("stringifier")}} that returns a string containing the whole

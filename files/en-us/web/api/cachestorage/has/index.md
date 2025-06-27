@@ -4,9 +4,12 @@ short-title: has()
 slug: Web/API/CacheStorage/has
 page-type: web-api-instance-method
 browser-compat: api.CacheStorage.has
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`has()`** method of the {{domxref("CacheStorage")}}
 interface returns a {{jsxref("Promise")}} that resolves to `true` if a

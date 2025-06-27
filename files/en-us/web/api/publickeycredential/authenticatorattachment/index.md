@@ -4,9 +4,12 @@ short-title: authenticatorAttachment
 slug: Web/API/PublicKeyCredential/authenticatorAttachment
 page-type: web-api-instance-property
 browser-compat: api.PublicKeyCredential.authenticatorAttachment
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`authenticatorAttachment`** read-only property of the {{domxref("PublicKeyCredential")}} interface is a string that indicates the general category of authenticator used during the associated {{domxref("CredentialsContainer.create()","navigator.credentials.create()")}} or {{domxref("CredentialsContainer.get()","navigator.credentials.get()")}} call.
 

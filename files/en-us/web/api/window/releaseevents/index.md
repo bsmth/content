@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Window.releaseEvents
+sidebar: apiref
 ---
 
-{{APIRef}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 Releases the window from trapping events of a specific type.
 

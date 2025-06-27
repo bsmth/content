@@ -4,9 +4,10 @@ short-title: fecPacketsDiscarded
 slug: Web/API/RTCInboundRtpStreamStats/fecPacketsDiscarded
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.fecPacketsDiscarded
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`fecPacketsDiscarded`** property
 of the {{domxref("RTCInboundRtpStreamStats")}} dictionary is a numeric value

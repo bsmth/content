@@ -4,9 +4,10 @@ short-title: createTFoot()
 slug: Web/API/HTMLTableElement/createTFoot
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableElement.createTFoot
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`createTFoot()`** method of
 {{domxref("HTMLTableElement")}} objects returns the {{HTMLElement("tfoot")}} element

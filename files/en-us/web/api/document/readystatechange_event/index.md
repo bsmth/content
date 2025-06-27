@@ -4,9 +4,8 @@ short-title: readystatechange
 slug: Web/API/Document/readystatechange_event
 page-type: web-api-event
 browser-compat: api.Document.readystatechange_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`readystatechange`** event is fired when the {{domxref("Document.readyState", "readyState")}} attribute of a document has changed.
 

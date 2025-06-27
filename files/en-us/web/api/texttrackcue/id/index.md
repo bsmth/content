@@ -4,9 +4,10 @@ short-title: id
 slug: Web/API/TextTrackCue/id
 page-type: web-api-instance-property
 browser-compat: api.TextTrackCue.id
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`id`** property of the {{domxref("TextTrackCue")}} interface returns and sets the identifier for this cue.
 

@@ -3,9 +3,10 @@ title: CommandEvent
 slug: Web/API/CommandEvent
 page-type: web-api-interface
 browser-compat: api.CommandEvent
+sidebar:
+  - apiref:
+      - Invoker Commands API
 ---
-
-{{APIRef("Invoker Commands API")}}
 
 The **`CommandEvent`** interface represents an event notifying the user when a {{domxref("HTMLButtonElement", "button")}} element with valid {{domxref("HTMLButtonElement.commandForElement", "commandForElement")}} and {{domxref("HTMLButtonElement.command", "command")}} attributes is about to invoke an interactive element.
 

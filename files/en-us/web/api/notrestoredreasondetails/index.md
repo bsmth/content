@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.NotRestoredReasonDetails
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`NotRestoredReasonDetails`** interface of the {{domxref("Performance API", "Performance API", "", "nocode")}} represents a single reason why a navigated page was blocked from using the back/forward cache ({{Glossary("bfcache")}}).
 

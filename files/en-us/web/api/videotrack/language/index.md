@@ -4,9 +4,10 @@ short-title: language
 slug: Web/API/VideoTrack/language
 page-type: web-api-instance-property
 browser-compat: api.VideoTrack.language
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **{{domxref("VideoTrack")}}**
 property **`language`** returns a string identifying the

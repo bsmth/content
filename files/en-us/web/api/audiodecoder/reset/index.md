@@ -4,9 +4,12 @@ short-title: reset()
 slug: Web/API/AudioDecoder/reset
 page-type: web-api-instance-method
 browser-compat: api.AudioDecoder.reset
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`reset()`** method of the {{domxref("AudioDecoder")}} interface resets all states including configuration, control messages in the control message queue, and all pending callbacks.
 

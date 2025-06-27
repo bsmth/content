@@ -4,9 +4,10 @@ short-title: htmlFor
 slug: Web/API/HTMLLabelElement/htmlFor
 page-type: web-api-instance-property
 browser-compat: api.HTMLLabelElement.htmlFor
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLLabelElement.htmlFor`** property reflects the value
 of the [`for`](/en-US/docs/Web/HTML/Reference/Elements/label#for) content property. That means that this

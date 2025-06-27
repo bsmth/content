@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PerformanceResourceTiming.firstInterimResponseStart
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}{{SeeCompatTable}}
+{{AvailableInWorkers}}{{SeeCompatTable}}
 
 The **`firstInterimResponseStart`** read-only property returns a {{domxref("DOMHighResTimeStamp","timestamp")}} immediately after the browser receives the first byte of the interim 1xx response (for example, 100 Continue or 103 Early Hints) from the server.
 

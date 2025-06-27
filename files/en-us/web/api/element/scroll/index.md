@@ -4,9 +4,8 @@ short-title: scroll()
 slug: Web/API/Element/scroll
 page-type: web-api-instance-method
 browser-compat: api.Element.scroll
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`scroll()`** method of the {{domxref("Element")}}
 interface scrolls the element to a particular set of coordinates inside a given

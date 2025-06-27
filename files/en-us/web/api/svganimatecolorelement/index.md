@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - deprecated
 browser-compat: api.SVGAnimateColorElement
+sidebar:
+  - apiref:
+      - SVG
 ---
 
-{{APIRef("SVG")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`SVGAnimateColorElement`** interface corresponds to the `<animateColor>` element.
 

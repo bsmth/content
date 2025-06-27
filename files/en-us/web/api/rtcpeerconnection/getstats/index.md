@@ -4,9 +4,10 @@ short-title: getStats()
 slug: Web/API/RTCPeerConnection/getStats
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.getStats
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getStats()`** method of the {{domxref("RTCPeerConnection")}} interface returns a promise which resolves with data providing statistics about either the overall connection or about the specified {{domxref("MediaStreamTrack")}}.
 

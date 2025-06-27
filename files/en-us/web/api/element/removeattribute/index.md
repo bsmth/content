@@ -4,9 +4,10 @@ short-title: removeAttribute()
 slug: Web/API/Element/removeAttribute
 page-type: web-api-instance-method
 browser-compat: api.Element.removeAttribute
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The {{domxref("Element")}} method
 **`removeAttribute()`** removes the attribute with the

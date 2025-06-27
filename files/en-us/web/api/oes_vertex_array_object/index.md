@@ -4,9 +4,10 @@ short-title: OES_vertex_array_object
 slug: Web/API/OES_vertex_array_object
 page-type: webgl-extension
 browser-compat: api.OES_vertex_array_object
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **OES_vertex_array_object** extension is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and provides vertex array objects (VAOs) which encapsulate vertex array states. These objects keep pointers to vertex data and provide names for different sets of vertex data.
 

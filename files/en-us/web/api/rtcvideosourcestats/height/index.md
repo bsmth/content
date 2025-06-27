@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/RTCVideoSourceStats/height
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_media-source.height
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`height`** property of the {{domxref("RTCVideoSourceStats")}} dictionary indicates the height, in pixels, of the last frame originating from this source.
 

@@ -3,9 +3,10 @@ title: BiquadFilterNode
 slug: Web/API/BiquadFilterNode
 page-type: web-api-interface
 browser-compat: api.BiquadFilterNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `BiquadFilterNode` interface represents a simple low-order filter, and is created using the {{ domxref("BaseAudioContext/createBiquadFilter") }} method. It is an {{domxref("AudioNode")}} that can represent different kinds of filters, tone control devices, and graphic equalizers. A `BiquadFilterNode` always has exactly one input and one output.
 

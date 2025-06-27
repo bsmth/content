@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableRowElement.bgColor
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`HTMLTableRowElement.bgColor`** property is used to set the background color of a row or retrieve the value of the obsolete [`bgColor`](/en-US/docs/Web/HTML/Reference/Elements/tr#bgcolor) attribute, if present.
 

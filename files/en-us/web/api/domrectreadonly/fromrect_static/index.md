@@ -4,9 +4,12 @@ short-title: fromRect()
 slug: Web/API/DOMRectReadOnly/fromRect_static
 page-type: web-api-static-method
 browser-compat: api.DOMRectReadOnly.fromRect_static
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`fromRect()`** static method of the
 {{domxref("DOMRectReadOnly")}} object creates a new `DOMRectReadOnly`

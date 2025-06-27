@@ -3,9 +3,10 @@ title: EncodedVideoChunk
 slug: Web/API/EncodedVideoChunk
 page-type: web-api-interface
 browser-compat: api.EncodedVideoChunk
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`EncodedVideoChunk`** interface of the {{domxref('WebCodecs API','','',' ')}} represents a chunk of encoded video data.
 

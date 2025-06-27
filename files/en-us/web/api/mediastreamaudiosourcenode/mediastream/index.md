@@ -4,9 +4,10 @@ short-title: mediaStream
 slug: Web/API/MediaStreamAudioSourceNode/mediaStream
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamAudioSourceNode.mediaStream
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The {{domxref("MediaStreamAudioSourceNode")}} interface's
 read-only **`mediaStream`** property indicates the

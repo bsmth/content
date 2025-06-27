@@ -4,9 +4,8 @@ short-title: quadraticCurveTo()
 slug: Web/API/CanvasRenderingContext2D/quadraticCurveTo
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.quadraticCurveTo
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.quadraticCurveTo()`**

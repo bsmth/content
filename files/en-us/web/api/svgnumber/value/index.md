@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/SVGNumber/value
 page-type: web-api-instance-property
 browser-compat: api.SVGNumber.value
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`value`** read-only property of the {{domxref("SVGNumber")}} interface represents the number.
 

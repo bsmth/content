@@ -3,9 +3,12 @@ title: CSPViolationReportBody
 slug: Web/API/CSPViolationReportBody
 page-type: web-api-interface
 browser-compat: api.CSPViolationReportBody
+sidebar:
+  - apiref:
+      - Reporting API
 ---
 
-{{APIRef("Reporting API")}} {{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The `CSPViolationReportBody` interface is an extension of the [Reporting API](/en-US/docs/Web/API/Reporting_API) that represents the body of a Content Security Policy (CSP) violation report.
 

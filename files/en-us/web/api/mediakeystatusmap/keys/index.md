@@ -4,9 +4,10 @@ short-title: keys()
 slug: Web/API/MediaKeyStatusMap/keys
 page-type: web-api-instance-method
 browser-compat: api.MediaKeyStatusMap.keys
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
-
-{{APIRef("Encrypted Media Extensions")}}
 
 The **`keys()`** method of the
 {{domxref("MediaKeyStatusMap")}} interface returns a new Iterator object, containing

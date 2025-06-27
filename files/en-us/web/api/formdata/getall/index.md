@@ -4,9 +4,12 @@ short-title: getAll()
 slug: Web/API/FormData/getAll
 page-type: web-api-instance-method
 browser-compat: api.FormData.getAll
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`getAll()`** method of the {{domxref("FormData")}} interface returns all the values associated with a given key from within a `FormData` object.
 

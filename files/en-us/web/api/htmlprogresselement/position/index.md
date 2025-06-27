@@ -4,9 +4,10 @@ short-title: position
 slug: Web/API/HTMLProgressElement/position
 page-type: web-api-instance-property
 browser-compat: api.HTMLProgressElement.position
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`position`** read-only property of the {{DOMxRef("HTMLProgressElement")}} interface returns current progress of the {{HTMLElement("progress")}} element.
 

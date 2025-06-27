@@ -4,9 +4,10 @@ short-title: setScale()
 slug: Web/API/SVGTransform/setScale
 page-type: web-api-instance-method
 browser-compat: api.SVGTransform.setScale
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `setScale()` method of the {{domxref("SVGTransform")}} interface sets the transform type to `SVG_TRANSFORM_SCALE`, with parameters `sx` and `sy` defining the scale amounts.
 

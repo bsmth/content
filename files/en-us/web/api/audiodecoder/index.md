@@ -3,9 +3,12 @@ title: AudioDecoder
 slug: Web/API/AudioDecoder
 page-type: web-api-interface
 browser-compat: api.AudioDecoder
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`AudioDecoder`** interface of the {{domxref('WebCodecs API','','',' ')}} decodes chunks of audio.
 

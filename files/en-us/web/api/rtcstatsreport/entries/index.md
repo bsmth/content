@@ -4,9 +4,10 @@ short-title: entries()
 slug: Web/API/RTCStatsReport/entries
 page-type: web-api-instance-method
 browser-compat: api.RTCStatsReport.entries
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`entries()`** method of the {{domxref("RTCStatsReport")}} interface returns a new [iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator) object that can be used to iterate through the key/value pairs for each element in the `RTCStatsReport` object, in insertion order.
 

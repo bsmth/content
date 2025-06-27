@@ -4,9 +4,12 @@ short-title: clientDataJSON
 slug: Web/API/AuthenticatorResponse/clientDataJSON
 page-type: web-api-instance-property
 browser-compat: api.AuthenticatorResponse.clientDataJSON
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`clientDataJSON`** property of the {{domxref("AuthenticatorResponse")}} interface stores a [JSON](/en-US/docs/Learn_web_development/Core/Scripting/JSON) string in an
 {{jsxref("ArrayBuffer")}}, representing the client data that was passed to {{domxref("CredentialsContainer.create()", "navigator.credentials.create()")}} or {{domxref("CredentialsContainer.get()", "navigator.credentials.get()")}}. This property is only accessed on one of the child objects of `AuthenticatorResponse`, specifically {{domxref("AuthenticatorAttestationResponse")}} or {{domxref("AuthenticatorAssertionResponse")}}.

@@ -4,9 +4,10 @@ short-title: ariaHidden
 slug: Web/API/ElementInternals/ariaHidden
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaHidden
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaHidden`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-hidden`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-hidden) attribute, which indicates whether the element is exposed to an accessibility API.
 

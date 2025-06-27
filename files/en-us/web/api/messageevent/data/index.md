@@ -4,9 +4,12 @@ short-title: data
 slug: Web/API/MessageEvent/data
 page-type: web-api-instance-property
 browser-compat: api.MessageEvent.data
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`data`** read-only property of the
 {{domxref("MessageEvent")}} interface represents the data sent by the message emitter.

@@ -4,9 +4,10 @@ short-title: innerText
 slug: Web/API/HTMLElement/innerText
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.innerText
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`innerText`** property of the {{domxref("HTMLElement")}} interface represents the rendered text content of a node and its descendants.
 

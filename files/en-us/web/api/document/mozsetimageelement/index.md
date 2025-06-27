@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.Document.mozSetImageElement
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{ ApiRef("DOM") }}{{ non-standard_header() }}
+{{ non-standard_header() }}
 
 The **`Document.mozSetImageElement()`** method changes the
 element being used as the CSS background for a background with a given background

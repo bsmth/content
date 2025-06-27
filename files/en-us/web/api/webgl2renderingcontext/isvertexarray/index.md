@@ -4,9 +4,12 @@ short-title: isVertexArray()
 slug: Web/API/WebGL2RenderingContext/isVertexArray
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.isVertexArray
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.isVertexArray()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) returns `true` if the

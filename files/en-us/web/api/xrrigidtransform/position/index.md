@@ -4,9 +4,12 @@ short-title: position
 slug: Web/API/XRRigidTransform/position
 page-type: web-api-instance-property
 browser-compat: api.XRRigidTransform.position
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRRigidTransform")}} property
 **`position`** is a {{domxref("DOMPointReadOnly")}} object which

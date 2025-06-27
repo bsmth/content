@@ -4,9 +4,10 @@ short-title: voiceURI
 slug: Web/API/SpeechSynthesisVoice/voiceURI
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisVoice.voiceURI
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`voiceURI`** read-only property of the
 {{domxref("SpeechSynthesisVoice")}} interface returns the type of URI and location of

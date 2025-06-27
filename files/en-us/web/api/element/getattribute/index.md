@@ -4,9 +4,10 @@ short-title: getAttribute()
 slug: Web/API/Element/getAttribute
 page-type: web-api-instance-method
 browser-compat: api.Element.getAttribute
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`getAttribute()`** method of the
 {{domxref("Element")}} interface returns the value of a specified attribute on the

@@ -4,9 +4,10 @@ short-title: getReceivers()
 slug: Web/API/RTCPeerConnection/getReceivers
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.getReceivers
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getReceivers()`** method of the {{domxref("RTCPeerConnection")}} interface returns an array of {{domxref("RTCRtpReceiver")}} objects, each of which represents one RTP receiver.
 Each RTP receiver manages the reception and decoding of data for a {{domxref("MediaStreamTrack")}} on an {{domxref("RTCPeerConnection")}}.

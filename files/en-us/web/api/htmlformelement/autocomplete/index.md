@@ -4,9 +4,10 @@ short-title: autocomplete
 slug: Web/API/HTMLFormElement/autocomplete
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.autocomplete
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`autocomplete`** property of the {{DOMxRef("HTMLFormElement")}} interface indicates whether the value of the form's controls can be automatically completed by the browser. It reflects the {{htmlelement("form")}} element's [`autocomplete`](/en-US/docs/Web/HTML/Reference/Attributes/autocomplete) attribute.
 

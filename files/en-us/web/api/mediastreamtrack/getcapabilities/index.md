@@ -4,9 +4,10 @@ short-title: getCapabilities()
 slug: Web/API/MediaStreamTrack/getCapabilities
 page-type: web-api-instance-method
 browser-compat: api.MediaStreamTrack.getCapabilities
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`getCapabilities()`** method of
 the {{domxref("MediaStreamTrack")}} interface returns an object detailing the accepted values or value range for each constrainable property of the associated `MediaStreamTrack`, based upon the platform and {{Glossary("user agent")}}.

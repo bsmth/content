@@ -4,9 +4,10 @@ short-title: numberOfChannels
 slug: Web/API/AudioData/numberOfChannels
 page-type: web-api-instance-property
 browser-compat: api.AudioData.numberOfChannels
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`numberOfChannels`** read-only property of the {{domxref("AudioData")}} interface returns the number of channels in the `AudioData` object.
 

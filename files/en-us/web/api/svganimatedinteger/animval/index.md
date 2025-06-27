@@ -4,9 +4,10 @@ short-title: animVal
 slug: Web/API/SVGAnimatedInteger/animVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedInteger.animVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animVal`** property of the {{domxref("SVGAnimatedInteger")}} interface represents the animated value of an [`<integer>`](/en-US/docs/Web/SVG/Guides/Content_type#integer). If no animation is applied, `animVal` equals `baseVal`.
 

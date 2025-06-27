@@ -3,9 +3,10 @@ title: SpeechSynthesisErrorEvent
 slug: Web/API/SpeechSynthesisErrorEvent
 page-type: web-api-interface
 browser-compat: api.SpeechSynthesisErrorEvent
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`SpeechSynthesisErrorEvent`** interface of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) contains information about any errors that occur while processing {{domxref("SpeechSynthesisUtterance")}} objects in the speech service.
 

@@ -4,9 +4,12 @@ short-title: duration
 slug: Web/API/PerformanceServerTiming/duration
 page-type: web-api-instance-property
 browser-compat: api.PerformanceServerTiming.duration
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`duration`** read-only property returns a double that contains the server-specified metric duration, or the value `0.0`.
 

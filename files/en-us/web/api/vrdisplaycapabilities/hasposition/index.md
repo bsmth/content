@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.VRDisplayCapabilities.hasPosition
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{APIRef("WebVR API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`hasPosition`** read-only property of the {{domxref("VRDisplayCapabilities")}} interface returns `true` if the VR display can track and return position information.
 

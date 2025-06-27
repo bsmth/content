@@ -4,9 +4,12 @@ short-title: useProgram()
 slug: Web/API/WebGLRenderingContext/useProgram
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.useProgram
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.useProgram()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) sets the specified
 {{domxref("WebGLProgram")}} as part of the current rendering state.

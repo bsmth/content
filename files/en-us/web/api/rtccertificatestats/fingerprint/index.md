@@ -4,9 +4,10 @@ short-title: fingerprint
 slug: Web/API/RTCCertificateStats/fingerprint
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_certificate.fingerprint
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`fingerprint`** property of the {{domxref("RTCCertificateStats")}} dictionary is a string containing the fingerprint value of the associated {{domxref("RTCCertificate")}}.
 

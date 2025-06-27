@@ -3,9 +3,12 @@ title: VideoDecoder
 slug: Web/API/VideoDecoder
 page-type: web-api-interface
 browser-compat: api.VideoDecoder
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`VideoDecoder`** interface of the {{domxref('WebCodecs API','','','true')}} decodes chunks of video.
 

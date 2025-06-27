@@ -4,9 +4,10 @@ short-title: attributeNamespace
 slug: Web/API/MutationRecord/attributeNamespace
 page-type: web-api-instance-property
 browser-compat: api.MutationRecord.attributeNamespace
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("MutationRecord")}} read-only property **`attributeNamespace`** is the namespace of the mutated attribute in the {{domxref("MutationRecord")}} observed by a {{domxref("MutationObserver")}}.
 

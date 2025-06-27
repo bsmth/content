@@ -4,9 +4,10 @@ short-title: previousElementSibling
 slug: Web/API/Element/previousElementSibling
 page-type: web-api-instance-property
 browser-compat: api.Element.previousElementSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.previousElementSibling`**
 read-only property returns the {{domxref("Element")}} immediately prior to the specified

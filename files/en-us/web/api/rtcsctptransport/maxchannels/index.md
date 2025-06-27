@@ -4,9 +4,10 @@ short-title: maxChannels
 slug: Web/API/RTCSctpTransport/maxChannels
 page-type: web-api-instance-property
 browser-compat: api.RTCSctpTransport.maxChannels
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`maxChannels`** read-only property of the {{DOMxRef("RTCSctpTransport")}} interface indicates the maximum number of {{DOMxRef("RTCDataChannel")}} objects that can be opened simultaneously.
 

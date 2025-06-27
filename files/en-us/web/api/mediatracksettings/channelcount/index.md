@@ -4,9 +4,10 @@ short-title: channelCount
 slug: Web/API/MediaTrackSettings/channelCount
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.channelCount_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's
 **`channelCount`** property is an integer indicating how many

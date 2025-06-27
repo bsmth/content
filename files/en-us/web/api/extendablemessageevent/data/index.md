@@ -4,9 +4,10 @@ short-title: data
 slug: Web/API/ExtendableMessageEvent/data
 page-type: web-api-instance-property
 browser-compat: api.ExtendableMessageEvent.data
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`data`** read-only property of the
 {{domxref("ExtendableMessageEvent")}} interface returns the event's data. It can be any

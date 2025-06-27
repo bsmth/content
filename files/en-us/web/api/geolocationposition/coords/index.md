@@ -4,9 +4,12 @@ short-title: coords
 slug: Web/API/GeolocationPosition/coords
 page-type: web-api-instance-property
 browser-compat: api.GeolocationPosition.coords
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`coords`** read-only property of the {{domxref("GeolocationPosition")}} interface returns a {{domxref("GeolocationCoordinates")}} object representing a geographic position. It contains the location, that is longitude and latitude on the Earth, the altitude, and the speed of the object concerned, regrouped inside the returned value. It also contains accuracy information about these values.
 

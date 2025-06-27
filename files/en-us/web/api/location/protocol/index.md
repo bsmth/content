@@ -4,9 +4,10 @@ short-title: protocol
 slug: Web/API/Location/protocol
 page-type: web-api-instance-property
 browser-compat: api.Location.protocol
+sidebar:
+  - apiref:
+      - Location
 ---
-
-{{ApiRef("Location")}}
 
 The **`protocol`** property of the {{domxref("Location")}} interface is a string containing the protocol or scheme of the location's URL, including the final `":"`.
 

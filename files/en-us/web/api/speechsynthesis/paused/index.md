@@ -4,9 +4,10 @@ short-title: paused
 slug: Web/API/SpeechSynthesis/paused
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesis.paused
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`paused`** read-only property of the
 {{domxref("SpeechSynthesis")}} interface is a boolean value that returns

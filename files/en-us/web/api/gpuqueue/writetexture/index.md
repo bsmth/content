@@ -4,9 +4,12 @@ short-title: writeTexture()
 slug: Web/API/GPUQueue/writeTexture
 page-type: web-api-instance-method
 browser-compat: api.GPUQueue.writeTexture
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`writeTexture()`** method of the
 {{domxref("GPUQueue")}} interface writes a provided data source into a given {{domxref("GPUTexture")}}.

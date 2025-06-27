@@ -4,9 +4,10 @@ short-title: computedStyleMap()
 slug: Web/API/Element/computedStyleMap
 page-type: web-api-instance-method
 browser-compat: api.Element.computedStyleMap
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`computedStyleMap()`** method of
 the {{domxref("Element")}} interface returns a {{domxref("StylePropertyMapReadOnly")}}

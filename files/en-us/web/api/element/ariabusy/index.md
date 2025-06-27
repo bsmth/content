@@ -4,9 +4,10 @@ short-title: ariaBusy
 slug: Web/API/Element/ariaBusy
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaBusy
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaBusy`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-busy`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-busy) attribute, which indicates whether an element is being modified, as assistive technologies may want to wait until the modifications are complete before exposing them to the user.
 

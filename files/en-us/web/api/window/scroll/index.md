@@ -4,9 +4,8 @@ short-title: scroll()
 slug: Web/API/Window/scroll
 page-type: web-api-instance-method
 browser-compat: api.Window.scroll
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.scroll()`** method scrolls the window to a
 particular place in the document.

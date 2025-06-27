@@ -4,9 +4,10 @@ short-title: blur()
 slug: Web/API/MathMLElement/blur
 page-type: web-api-instance-method
 browser-compat: api.MathMLElement.blur
+sidebar:
+  - apiref:
+      - MathML
 ---
-
-{{APIRef("MathML")}}
 
 The **`blur()`** method of the {{domxref("MathMLElement")}} interface removes keyboard focus from the current MathML element.
 

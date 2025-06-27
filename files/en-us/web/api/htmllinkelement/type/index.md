@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLLinkElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`type`** property of the {{domxref("HTMLLinkElement")}} interface is a string that reflects the {{glossary("MIME type")}} of the linked resource.
 

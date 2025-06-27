@@ -3,9 +3,10 @@ title: HTMLOptGroupElement
 slug: Web/API/HTMLOptGroupElement
 page-type: web-api-interface
 browser-compat: api.HTMLOptGroupElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLOptGroupElement`** interface provides special properties and methods (beyond the regular {{domxref("HTMLElement")}} object interface they also have available to them by inheritance) for manipulating the layout and presentation of {{HTMLElement("optgroup")}} elements.
 

@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/OscillatorNode/type
 page-type: web-api-instance-property
 browser-compat: api.OscillatorNode.type
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`type`** property of the {{domxref("OscillatorNode")}} interface specifies what shape of [waveform](https://en.wikipedia.org/wiki/Waveform) the
 oscillator will output. There are several common waveforms available, as well as an

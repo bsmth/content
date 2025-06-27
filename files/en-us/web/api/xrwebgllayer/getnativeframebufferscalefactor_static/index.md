@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - experimental
 browser-compat: api.XRWebGLLayer.getNativeFramebufferScaleFactor_static
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The static method
 **`XRWebGLLayer.getNativeFramebufferScaleFactor()`** returns a

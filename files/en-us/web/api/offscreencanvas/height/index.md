@@ -4,9 +4,12 @@ short-title: height
 slug: Web/API/OffscreenCanvas/height
 page-type: web-api-instance-property
 browser-compat: api.OffscreenCanvas.height
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`height`** property returns and sets the height of an {{domxref("OffscreenCanvas")}} object.
 

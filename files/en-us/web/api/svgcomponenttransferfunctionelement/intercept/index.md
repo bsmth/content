@@ -4,9 +4,10 @@ short-title: intercept
 slug: Web/API/SVGComponentTransferFunctionElement/intercept
 page-type: web-api-instance-property
 browser-compat: api.SVGComponentTransferFunctionElement.intercept
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`intercept`** read-only property of the {{domxref("SVGComponentTransferFunctionElement")}} interface reflects the {{SVGAttr("intercept")}} attribute of the given element.
 

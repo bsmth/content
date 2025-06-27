@@ -4,9 +4,12 @@ short-title: startTime
 slug: Web/API/PerformanceEntry/startTime
 page-type: web-api-instance-property
 browser-compat: api.PerformanceEntry.startTime
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`startTime`** property returns the first {{domxref("DOMHighResTimeStamp","timestamp", "", "no-code")}} recorded for this {{domxref("PerformanceEntry")}}. The meaning of this property depends on the value of this entry's {{domxref("PerformanceEntry.entryType", "entryType")}}.
 

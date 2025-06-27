@@ -4,9 +4,10 @@ short-title: autoplay
 slug: Web/API/HTMLMediaElement/autoplay
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.autoplay
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.autoplay`**
 property reflects the [`autoplay`](/en-US/docs/Web/HTML/Reference/Elements/video#autoplay) HTML attribute, indicating

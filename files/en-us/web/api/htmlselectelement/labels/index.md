@@ -4,9 +4,10 @@ short-title: labels
 slug: Web/API/HTMLSelectElement/labels
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.labels
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`HTMLSelectElement.labels`** read-only property returns a
 {{domxref("NodeList")}} of the {{HTMLElement("label")}} elements associated with the

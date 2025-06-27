@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.PresentationRequest.PresentationRequest
+sidebar:
+  - apiref:
+      - Presentation API
 ---
 
-{{APIRef("Presentation API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`PresentationRequest()`**
 constructor creates a new {{domxref("PresentationRequest")}} object which creates a

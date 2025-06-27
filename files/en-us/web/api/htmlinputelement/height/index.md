@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/HTMLInputElement/height
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.height
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`height`** property of the {{DOMxRef("HTMLInputElement")}} interface specifies the height of a control. It reflects the {{htmlelement("input")}} element's [`height`](/en-US/docs/Web/HTML/Reference/Elements/input#height) attribute.
 

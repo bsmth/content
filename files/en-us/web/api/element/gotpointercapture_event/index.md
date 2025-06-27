@@ -4,9 +4,8 @@ short-title: gotpointercapture
 slug: Web/API/Element/gotpointercapture_event
 page-type: web-api-event
 browser-compat: api.Element.gotpointercapture_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`gotpointercapture`** event is fired when an element captures a pointer using [`setPointerCapture()`](/en-US/docs/Web/API/Element/setPointerCapture).
 

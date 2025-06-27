@@ -4,9 +4,8 @@ short-title: close
 slug: Web/API/HTMLDialogElement/close_event
 page-type: web-api-event
 browser-compat: api.HTMLDialogElement.close_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `close` event is fired on an `HTMLDialogElement` object when the {{htmlelement("dialog")}} it represents has been closed.
 

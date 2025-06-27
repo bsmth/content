@@ -4,9 +4,10 @@ short-title: setHTML()
 slug: Web/API/ShadowRoot/setHTML
 page-type: web-api-instance-method
 browser-compat: api.ShadowRoot.setHTML
+sidebar:
+  - apiref:
+      - HTML Sanitizer API
 ---
-
-{{APIRef("HTML Sanitizer API")}}
 
 The **`setHTML()`** method of the {{domxref("ShadowRoot")}} interface provides an XSS-safe method to parse and sanitize a string of HTML into a {{domxref("DocumentFragment")}}, which then replaces the existing tree in the Shadow DOM.
 

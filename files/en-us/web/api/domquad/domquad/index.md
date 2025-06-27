@@ -4,9 +4,12 @@ short-title: DOMQuad()
 slug: Web/API/DOMQuad/DOMQuad
 page-type: web-api-constructor
 browser-compat: api.DOMQuad.DOMQuad
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMQuad()`** constructor
 creates and returns a new {{domxref("DOMQuad")}} object, given the values for some or

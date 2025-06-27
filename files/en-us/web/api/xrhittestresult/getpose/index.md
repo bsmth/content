@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.XRHitTestResult.getPose
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`getPose()`** method of the {{domxref("XRHitTestResult")}} interface returns the {{domxref("XRPose")}} of the hit test result relative to the given base space.
 

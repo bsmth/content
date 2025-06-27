@@ -4,9 +4,10 @@ short-title: currentRemoteDescription
 slug: Web/API/RTCPeerConnection/currentRemoteDescription
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.currentRemoteDescription
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`currentRemoteDescription`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns an
 {{domxref("RTCSessionDescription")}} object describing the remote end of the connection as it was most recently successfully negotiated since the last time the {{domxref("RTCPeerConnection")}} finished negotiating and connecting to a remote peer.

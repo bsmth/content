@@ -4,9 +4,10 @@ short-title: nominated
 slug: Web/API/RTCIceCandidatePairStats/nominated
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.nominated
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`nominated`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary specifies whether or not the candidate pair described by the underlying `RTCIceCandidatePair` has been nominated to be used as the configuration for the WebRTC connection.
 

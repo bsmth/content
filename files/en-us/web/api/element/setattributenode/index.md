@@ -4,9 +4,10 @@ short-title: setAttributeNode()
 slug: Web/API/Element/setAttributeNode
 page-type: web-api-instance-method
 browser-compat: api.Element.setAttributeNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`setAttributeNode()`** method of the {{domxref("Element")}} interface adds a new {{domxref("Attr")}} node to the specified element.
 

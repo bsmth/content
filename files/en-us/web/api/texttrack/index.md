@@ -3,9 +3,10 @@ title: TextTrack
 slug: Web/API/TextTrack
 page-type: web-api-interface
 browser-compat: api.TextTrack
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`TextTrack`** interface of the [WebVTT API](/en-US/docs/Web/API/WebVTT_API) represents a text track associated with a media element.
 

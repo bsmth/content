@@ -4,9 +4,10 @@ short-title: signalingstatechange
 slug: Web/API/RTCPeerConnection/signalingstatechange_event
 page-type: web-api-event
 browser-compat: api.RTCPeerConnection.signalingstatechange_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 A **`signalingstatechange`** event is sent to an {{domxref("RTCPeerConnection")}} to notify it that its signaling state, as indicated by the {{domxref("RTCPeerConnection.signalingState", "signalingState")}} property, has changed.
 

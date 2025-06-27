@@ -4,9 +4,10 @@ short-title: pattern
 slug: Web/API/HTMLInputElement/pattern
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.pattern
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`pattern`** property of the {{DOMxRef("HTMLInputElement")}} interface represents a [regular expression](/en-US/docs/Web/JavaScript/Guide/Regular_expressions) a non-null {{HTMLElement("input")}} value should match. It reflects the {{htmlelement("input")}} element's [`pattern`](/en-US/docs/Web/HTML/Reference/Attributes/pattern) attribute.
 

@@ -3,9 +3,12 @@ title: Event
 slug: Web/API/Event
 page-type: web-api-interface
 browser-compat: api.Event
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Event`** interface represents an event which takes place on an [`EventTarget`](/en-US/docs/Web/API/EventTarget).
 

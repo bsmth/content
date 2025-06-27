@@ -4,9 +4,10 @@ short-title: setMatrix()
 slug: Web/API/SVGTransform/setMatrix
 page-type: web-api-instance-method
 browser-compat: api.SVGTransform.setMatrix
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `setMatrix()` method of the {{domxref("SVGTransform")}} interface sets the transform type to `SVG_TRANSFORM_MATRIX`, with parameter `matrix` defining the new transformation.
 

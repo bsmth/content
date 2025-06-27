@@ -4,9 +4,10 @@ short-title: getImageData()
 slug: Web/API/CanvasRenderingContext2D/getImageData
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.getImageData
+sidebar:
+  - apiref:
+      - Canvas API
 ---
-
-{{APIRef("Canvas API")}}
 
 The {{domxref("CanvasRenderingContext2D")}} method
 **`getImageData()`** of the Canvas 2D API returns an

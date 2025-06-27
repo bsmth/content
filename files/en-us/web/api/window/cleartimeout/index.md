@@ -4,9 +4,10 @@ short-title: clearTimeout()
 slug: Web/API/Window/clearTimeout
 page-type: web-api-instance-method
 browser-compat: api.clearTimeout
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`clearTimeout()`** method of the {{domxref("Window")}} interface cancels a timeout previously established by calling {{domxref("Window.setTimeout()")}}.
 

@@ -4,9 +4,10 @@ short-title: setTimeout()
 slug: Web/API/WorkerGlobalScope/setTimeout
 page-type: web-api-instance-method
 browser-compat: api.setTimeout
+sidebar:
+  - apiref:
+      - HTML DOM")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("HTML DOM")}}{{AvailableInWorkers("worker")}}
 
 The **`setTimeout()`** method of the {{domxref("WorkerGlobalScope")}} interface sets a timer which executes a function or specified piece of code once the timer expires.
 

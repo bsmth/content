@@ -4,9 +4,12 @@ short-title: interval
 slug: Web/API/DeviceMotionEvent/interval
 page-type: web-api-instance-property
 browser-compat: api.DeviceMotionEvent.interval
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`interval`** read-only property of the {{domxref("DeviceMotionEvent")}} interface returns the interval, in milliseconds, at which data is obtained from the underlying
 hardware. You can use this to determine the granularity of motion events.

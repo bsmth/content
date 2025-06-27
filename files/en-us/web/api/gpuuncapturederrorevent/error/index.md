@@ -4,9 +4,12 @@ short-title: error
 slug: Web/API/GPUUncapturedErrorEvent/error
 page-type: web-api-instance-property
 browser-compat: api.GPUUncapturedErrorEvent.error
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`error`** read-only property of the
 {{domxref("GPUUncapturedErrorEvent")}} interface is a {{domxref("GPUError")}} object instance providing access to the details of the error.

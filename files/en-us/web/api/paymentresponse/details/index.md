@@ -4,9 +4,12 @@ short-title: details
 slug: Web/API/PaymentResponse/details
 page-type: web-api-instance-property
 browser-compat: api.PaymentResponse.details
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`details`** read-only property of the
 {{domxref("PaymentResponse")}} interface returns a JSON-serializable object that

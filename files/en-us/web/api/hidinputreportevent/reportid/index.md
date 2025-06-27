@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.HIDInputReportEvent.reportId
+sidebar:
+  - apiref:
+      - WebHID API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared
 ---
 
-{{securecontext_header}}{{APIRef("WebHID API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared")}}
+{{securecontext_header}}
 
 The **`reportId`** property of the {{domxref("HIDInputReportEvent")}} interface returns the one-byte identification prefix for this report, or 0 if the HID interface does not use report IDs.
 

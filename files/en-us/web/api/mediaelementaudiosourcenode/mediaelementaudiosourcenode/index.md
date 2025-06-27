@@ -4,9 +4,10 @@ short-title: MediaElementAudioSourceNode()
 slug: Web/API/MediaElementAudioSourceNode/MediaElementAudioSourceNode
 page-type: web-api-constructor
 browser-compat: api.MediaElementAudioSourceNode.MediaElementAudioSourceNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`MediaElementAudioSourceNode()`** constructor creates a new {{domxref("MediaElementAudioSourceNode")}} object instance.
 

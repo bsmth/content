@@ -4,9 +4,10 @@ short-title: selectionStart
 slug: Web/API/HTMLInputElement/selectionStart
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.selectionStart
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`selectionStart`** property of the {{domxref("HTMLInputElement")}} interface is a number that represents the beginning index of the selected text. When nothing is selected, then returns the position of the text input cursor (caret) inside of the `<input>` element.
 

@@ -4,9 +4,10 @@ short-title: toDataURL()
 slug: Web/API/HTMLCanvasElement/toDataURL
 page-type: web-api-instance-method
 browser-compat: api.HTMLCanvasElement.toDataURL
+sidebar:
+  - apiref:
+      - Canvas API
 ---
-
-{{APIRef("Canvas API")}}
 
 The **`HTMLCanvasElement.toDataURL()`** method returns a [data URL](/en-US/docs/Web/URI/Reference/Schemes/data) containing a representation of the image in the format specified by the `type` parameter.
 

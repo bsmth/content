@@ -4,9 +4,12 @@ short-title: observe()
 slug: Web/API/ReportingObserver/observe
 page-type: web-api-instance-method
 browser-compat: api.ReportingObserver.observe
+sidebar:
+  - apiref:
+      - Reporting API
 ---
 
-{{APIRef("Reporting API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`observe()`** method of the
 {{domxref("ReportingObserver")}} interface instructs a reporting observer to start

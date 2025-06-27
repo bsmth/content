@@ -4,9 +4,10 @@ short-title: endEvent
 slug: Web/API/SVGAnimationElement/endEvent_event
 page-type: web-api-event
 browser-compat: api.SVGAnimationElement.endEvent_event
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`endEvent`** event of the {{domxref("SVGAnimationElement")}} interface is fired when at the active end of the animation is reached.
 

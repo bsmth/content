@@ -4,9 +4,10 @@ short-title: nextSibling
 slug: Web/API/MutationRecord/nextSibling
 page-type: web-api-instance-property
 browser-compat: api.MutationRecord.nextSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("MutationRecord")}} read-only property **`nextSibling`** is the next sibling of an added or removed child node of the [`target`](/en-US/docs/Web/API/MutationRecord/target) of a {{domxref("MutationObserver")}}.
 

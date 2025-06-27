@@ -4,9 +4,10 @@ short-title: azimuth
 slug: Web/API/SVGFEDistantLightElement/azimuth
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDistantLightElement.azimuth
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`azimuth`** read-only property of the {{domxref("SVGFEDistantLightElement")}} interface reflects the {{SVGAttr("azimuth")}} attribute of the given {{SVGElement("feDistantLight")}} element.
 

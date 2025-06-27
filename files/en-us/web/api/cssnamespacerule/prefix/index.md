@@ -4,9 +4,10 @@ short-title: prefix
 slug: Web/API/CSSNamespaceRule/prefix
 page-type: web-api-instance-property
 browser-compat: api.CSSNamespaceRule.prefix
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The read-only **`prefix`** property of the {{domxref("CSSNamespaceRule")}} returns a string with the name of the prefix associated to this namespace. If there is no such prefix, it returns an empty string.
 

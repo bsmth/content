@@ -4,9 +4,12 @@ short-title: isTexture()
 slug: Web/API/WebGLRenderingContext/isTexture
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.isTexture
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.isTexture()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns `true` if the
 passed {{domxref("WebGLTexture")}} is valid and `false` otherwise.

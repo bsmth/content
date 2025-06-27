@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Presentation.receiver
+sidebar:
+  - apiref:
+      - Presentation
 ---
 
-{{APIRef("Presentation")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **read-only** {{domxref("Presentation")}} attribute
 `receiver`, which is only available in browser contexts which are

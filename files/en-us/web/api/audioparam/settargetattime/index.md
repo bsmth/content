@@ -4,9 +4,10 @@ short-title: setTargetAtTime()
 slug: Web/API/AudioParam/setTargetAtTime
 page-type: web-api-instance-method
 browser-compat: api.AudioParam.setTargetAtTime
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `setTargetAtTime()` method of the
 {{domxref("AudioParam")}} interface schedules the start of a gradual change to the

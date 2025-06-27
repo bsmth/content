@@ -4,9 +4,8 @@ short-title: cancelAnimationFrame()
 slug: Web/API/Window/cancelAnimationFrame
 page-type: web-api-instance-method
 browser-compat: api.Window.cancelAnimationFrame
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`window.cancelAnimationFrame()`** method cancels an
 animation frame request previously scheduled through a call to

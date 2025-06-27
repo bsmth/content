@@ -4,9 +4,12 @@ short-title: height
 slug: Web/API/ImageData/height
 page-type: web-api-instance-property
 browser-compat: api.ImageData.height
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The readonly **`ImageData.height`** property returns the number
 of rows in the {{domxref("ImageData")}} object.

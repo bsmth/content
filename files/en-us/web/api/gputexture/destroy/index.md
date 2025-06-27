@@ -4,9 +4,12 @@ short-title: destroy()
 slug: Web/API/GPUTexture/destroy
 page-type: web-api-instance-method
 browser-compat: api.GPUTexture.destroy
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`destroy()`** method of the
 {{domxref("GPUTexture")}} interface destroys the `GPUTexture`.

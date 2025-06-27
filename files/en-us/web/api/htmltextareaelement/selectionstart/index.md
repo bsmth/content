@@ -4,9 +4,10 @@ short-title: selectionStart
 slug: Web/API/HTMLTextAreaElement/selectionStart
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.selectionStart
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`selectionStart`** property of the {{domxref("HTMLTextAreaElement")}} interface specifies the start position of the current text selection in a {{HTMLElement("textarea")}} element. It is a number representing the beginning index of the selected text. It can be used to both retrieve and set the start of the index of the beginning of a `<textarea>`s selected text.
 

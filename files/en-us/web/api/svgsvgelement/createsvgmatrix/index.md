@@ -4,9 +4,10 @@ short-title: createSVGMatrix()
 slug: Web/API/SVGSVGElement/createSVGMatrix
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.createSVGMatrix
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `createSVGMatrix()` method of the {{domxref("SVGSVGElement")}} interface creates a {{domxref("DOMMatrix")}} object outside of any document trees.
 

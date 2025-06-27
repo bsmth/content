@@ -4,9 +4,12 @@ short-title: changed
 slug: Web/API/ExtendableCookieChangeEvent/changed
 page-type: web-api-instance-property
 browser-compat: api.ExtendableCookieChangeEvent.changed
+sidebar:
+  - apiref:
+      - Cookie Store API")}}{{AvailableInWorkers("service
 ---
 
-{{securecontext_header}}{{APIRef("Cookie Store API")}}{{AvailableInWorkers("service")}}
+{{securecontext_header}}
 
 The **`changed`** read-only property of the {{domxref("ExtendableCookieChangeEvent")}} interface returns any cookies that have been changed by the given `ExtendableCookieChangeEvent` instance.
 

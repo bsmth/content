@@ -4,9 +4,10 @@ short-title: startOffset
 slug: Web/API/SVGTextPathElement/startOffset
 page-type: web-api-instance-property
 browser-compat: api.SVGTextPathElement.startOffset
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`startOffset`** read-only property of the {{domxref("SVGTextPathElement")}} interface reflects the X component of the {{SVGAttr("startOffset")}} attribute of the given {{SVGElement("textPath")}}, which defines an offset from the start of the path for the initial current text position along the path after converting the path to the `<textPath>` element's coordinate system.
 

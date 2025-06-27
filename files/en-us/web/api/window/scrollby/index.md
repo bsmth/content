@@ -4,9 +4,8 @@ short-title: scrollBy()
 slug: Web/API/Window/scrollBy
 page-type: web-api-instance-method
 browser-compat: api.Window.scrollBy
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.scrollBy()`** method scrolls the document in the
 window by the given amount.

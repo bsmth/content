@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/HTMLFieldSetElement/disabled
 page-type: web-api-instance-property
 browser-compat: api.HTMLFieldSetElement.disabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`disabled`** property of the {{domxref("HTMLFieldSetElement")}} interface is a boolean value that reflects the {{htmlelement("fieldset")}} element's [`disabled`](/en-US/docs/Web/HTML/Reference/Elements/fieldset#disabled) attribute, which indicates whether the control is disabled.
 

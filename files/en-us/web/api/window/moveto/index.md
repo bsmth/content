@@ -4,9 +4,8 @@ short-title: moveTo()
 slug: Web/API/Window/moveTo
 page-type: web-api-instance-method
 browser-compat: api.Window.moveTo
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`moveTo()`** method of the {{domxref("Window")}}
 interface moves the current window to the specified coordinates.

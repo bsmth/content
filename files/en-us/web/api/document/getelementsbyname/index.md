@@ -4,9 +4,10 @@ short-title: getElementsByName()
 slug: Web/API/Document/getElementsByName
 page-type: web-api-instance-method
 browser-compat: api.Document.getElementsByName
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`getElementsByName()`** method
 of the {{domxref("Document")}} object returns a {{domxref("NodeList")}} Collection of

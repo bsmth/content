@@ -4,9 +4,10 @@ short-title: cssRules
 slug: Web/API/CSSKeyframesRule/cssRules
 page-type: web-api-instance-property
 browser-compat: api.CSSKeyframesRule.cssRules
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM") }}
 
 The read-only **`cssRules`** property of the {{domxref("CSSKeyframeRule")}} interface returns a {{domxref("CSSRuleList")}} containing the rules in the keyframes [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

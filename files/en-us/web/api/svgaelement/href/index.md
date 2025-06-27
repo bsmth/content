@@ -4,9 +4,10 @@ short-title: href
 slug: Web/API/SVGAElement/href
 page-type: web-api-instance-property
 browser-compat: api.SVGAElement.href
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`href`** read-only property of the {{domxref("SVGAElement")}} returns an {{domxref("SVGAnimatedString")}} object reflecting the value of the href attribute, and, in certain cases, the {{SVGAttr("xlink:href")}} {{deprecated_inline}} attribute. It specifies the target URI associated with the link.
 

@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/SVGStyleElement/disabled
 page-type: web-api-instance-property
 browser-compat: api.SVGStyleElement.disabled
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGStyleElement.disabled`** property can be used to get and set whether the stylesheet is disabled (`true`) or not (`false`).
 

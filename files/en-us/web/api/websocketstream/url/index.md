@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.WebSocketStream.url
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{SeeCompatTable}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{AvailableInWorkers}}
 
 The **`url`** read-only property of the
 {{domxref("WebSocketStream")}} interface returns the URL of the WebSocket server that the `WebSocketStream` instance was created with.

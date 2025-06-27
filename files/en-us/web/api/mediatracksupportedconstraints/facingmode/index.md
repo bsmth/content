@@ -4,9 +4,10 @@ short-title: facingMode
 slug: Web/API/MediaTrackSupportedConstraints/facingMode
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.facingMode_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSupportedConstraints")}} dictionary's
 **`facingMode`** property is a read-only Boolean value which is

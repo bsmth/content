@@ -4,9 +4,12 @@ short-title: features
 slug: Web/API/GPUAdapter/features
 page-type: web-api-instance-property
 browser-compat: api.GPUAdapter.features
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`features`** read-only property of the
 {{domxref("GPUAdapter")}} interface returns a {{domxref("GPUSupportedFeatures")}} object that describes additional functionality supported by the adapter.

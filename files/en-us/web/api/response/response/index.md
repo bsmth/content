@@ -4,9 +4,12 @@ short-title: Response()
 slug: Web/API/Response/Response
 page-type: web-api-constructor
 browser-compat: api.Response.Response
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Response()`** constructor creates a new {{domxref("Response")}} object.
 

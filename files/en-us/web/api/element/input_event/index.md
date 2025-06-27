@@ -4,9 +4,8 @@ short-title: input
 slug: Web/API/Element/input_event
 page-type: web-api-event
 browser-compat: api.Element.input_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`input`** event fires when the `value` of an {{HTMLElement("input")}}, {{HTMLElement("select")}}, or {{HTMLElement("textarea")}} element has been changed as a direct result of a user action (such as typing in a textbox or checking a checkbox).
 

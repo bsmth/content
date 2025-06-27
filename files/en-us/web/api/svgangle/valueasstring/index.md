@@ -4,9 +4,10 @@ short-title: valueAsString
 slug: Web/API/SVGAngle/valueAsString
 page-type: web-api-instance-property
 browser-compat: api.SVGAngle.valueAsString
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `valueAsString` property of the {{domxref("SVGAngle")}} interface represents the angle's value as a string, in the units expressed by {{domxref("SVGAngle.unitType", "unitType")}}.
 

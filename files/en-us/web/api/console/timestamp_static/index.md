@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - non-standard
 browser-compat: api.console.timeStamp_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}}{{Non-standard_header}} {{AvailableInWorkers}}
+{{Non-standard_header}} {{AvailableInWorkers}}
 
 The **`console.timeStamp()`** static method adds a single marker to the browser's Performance tool ([Firefox bug 1387528](https://bugzil.la/1387528), [Chrome](https://developer.chrome.com/docs/devtools/performance/reference)). This lets you correlate a point in your code with the other events recorded in the timeline, such as layout and paint events.
 

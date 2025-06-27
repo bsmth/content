@@ -4,9 +4,10 @@ short-title: isCollapsed
 slug: Web/API/Selection/isCollapsed
 page-type: web-api-instance-property
 browser-compat: api.Selection.isCollapsed
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.isCollapsed`** read-only property returns a
 boolean value which indicates whether or not there is currently any text

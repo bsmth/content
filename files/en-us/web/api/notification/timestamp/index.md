@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Notification.timestamp
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{SecureContext_Header}}{{SeeCompatTable}} {{AvailableInWorkers}}
+{{SecureContext_Header}}{{SeeCompatTable}} {{AvailableInWorkers}}
 
 The **`timestamp`** read-only property of the
 {{domxref("Notification")}} interface returns a number, as

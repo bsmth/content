@@ -4,9 +4,10 @@ short-title: min
 slug: Web/API/HTMLMeterElement/min
 page-type: web-api-instance-property
 browser-compat: api.HTMLMeterElement.min
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`min`** property of the {{DOMxRef("HTMLMeterElement")}} interface represents the minimum value of the {{htmlelement("meter")}} element as a floating-point number. It reflects the element's [`min`](/en-US/docs/Web/HTML/Reference/Elements/meter#min) attribute, or `0` if no `min` is defined.
 

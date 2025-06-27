@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.EditContext.attachedElements
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`attachedElements()`** method of the {{domxref("EditContext")}} interface returns an {{jsxref("Array")}} that contains only one item. This item is the element that's associated with the `EditContext` object.
 

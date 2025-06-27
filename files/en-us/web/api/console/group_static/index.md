@@ -4,9 +4,12 @@ short-title: group()
 slug: Web/API/console/group_static
 page-type: web-api-static-method
 browser-compat: api.console.group_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.group()`** static method creates a new inline group in the [Web console](https://firefox-source-docs.mozilla.org/devtools-user/web_console/index.html) log, causing any subsequent console messages to be indented by an additional level, until {{domxref("console/groupEnd_static", "console.groupEnd()")}} is called.
 

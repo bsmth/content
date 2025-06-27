@@ -4,9 +4,10 @@ short-title: getBoundingClientRect()
 slug: Web/API/Range/getBoundingClientRect
 page-type: web-api-instance-method
 browser-compat: api.Range.getBoundingClientRect
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.getBoundingClientRect()`** method returns a {{domxref("DOMRect")}} object that bounds the contents of the range; this is a rectangle
 enclosing the union of the bounding rectangles for all the elements in the range.

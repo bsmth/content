@@ -4,9 +4,10 @@ short-title: getPropertyPriority()
 slug: Web/API/CSSStyleDeclaration/getPropertyPriority
 page-type: web-api-instance-method
 browser-compat: api.CSSStyleDeclaration.getPropertyPriority
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **CSSStyleDeclaration.getPropertyPriority()** method interface returns
 a string that provides all explicitly set priorities on the CSS

@@ -4,9 +4,12 @@ short-title: midimessage
 slug: Web/API/MIDIInput/midimessage_event
 page-type: web-api-event
 browser-compat: api.MIDIInput.midimessage_event
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{APIRef("Web MIDI API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The `midimessage` event of the [Web MIDI API](/en-US/docs/Web/API/Web_MIDI_API) is fired when the MIDI port corresponding to this {{domxref("MIDIInput")}} finishes receiving one or more MIDI messages. An instance of {{domxref("MIDIMessageEvent")}} containing the message that was received is passed to the event handler.
 

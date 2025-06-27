@@ -4,9 +4,10 @@ short-title: generateKeyFrame()
 slug: Web/API/RTCRtpScriptTransformer/generateKeyFrame
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpScriptTransformer.generateKeyFrame
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`generateKeyFrame()`** method of the {{domxref("RTCRtpScriptTransformer")}} interface causes a video encoder to generate a key frame.
 

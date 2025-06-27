@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/PerformanceNavigationTiming/type
 page-type: web-api-instance-property
 browser-compat: api.PerformanceNavigationTiming.type
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`type`** read-only property returns the type of navigation.
 

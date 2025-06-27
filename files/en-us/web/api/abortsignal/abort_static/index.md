@@ -4,9 +4,12 @@ short-title: abort()
 slug: Web/API/AbortSignal/abort_static
 page-type: web-api-static-method
 browser-compat: api.AbortSignal.abort_static
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`AbortSignal.abort()`** static method returns an {{domxref("AbortSignal")}} that is already set as aborted (and which does not trigger an {{domxref("AbortSignal/abort_event","abort")}} event).
 

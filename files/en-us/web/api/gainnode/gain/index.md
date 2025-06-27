@@ -4,9 +4,10 @@ short-title: gain
 slug: Web/API/GainNode/gain
 page-type: web-api-instance-property
 browser-compat: api.GainNode.gain
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `gain` property of the {{ domxref("GainNode") }} interface is an [a-rate](/en-US/docs/Web/API/AudioParam#a-rate) {{domxref("AudioParam")}} representing the amount of gain to apply.
 

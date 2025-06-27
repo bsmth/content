@@ -4,9 +4,12 @@ short-title: delete()
 slug: Web/API/CookieStore/delete
 page-type: web-api-instance-method
 browser-compat: api.CookieStore.delete
+sidebar:
+  - apiref:
+      - Cookie Store API")}}{{AvailableInWorkers("window_and_service
 ---
 
-{{securecontext_header}}{{APIRef("Cookie Store API")}}{{AvailableInWorkers("window_and_service")}}
+{{securecontext_header}}
 
 The **`delete()`** method of the {{domxref("CookieStore")}} interface deletes a cookie that matches the given `name` or `options` object.
 The method expires the cookie by changing its date to one in the past.

@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/AudioParam/value
 page-type: web-api-instance-property
 browser-compat: api.AudioParam.value
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`value`** property of the {{domxref("AudioParam")}} interface gets or sets the value of this `AudioParam` at the current time.
 Initially, the value is set to {{domxref("AudioParam.defaultValue")}}.

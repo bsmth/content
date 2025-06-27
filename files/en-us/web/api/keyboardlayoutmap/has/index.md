@@ -7,9 +7,12 @@ status:
   - experimental
 browser-compat: api.KeyboardLayoutMap.has
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.has
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{APIRef("Keyboard API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`has()`** method of the
 {{domxref('KeyboardLayoutMap')}} interface returns a boolean indicating whether the

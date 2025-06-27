@@ -4,9 +4,10 @@ short-title: interimResults
 slug: Web/API/SpeechRecognition/interimResults
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognition.interimResults
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`interimResults`** property of the
 {{domxref("SpeechRecognition")}} interface controls whether interim results should be

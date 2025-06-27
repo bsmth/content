@@ -4,9 +4,12 @@ short-title: complete()
 slug: Web/API/PaymentResponse/complete
 page-type: web-api-instance-method
 browser-compat: api.PaymentResponse.complete
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The {{domxref("PaymentRequest")}} method
 **`complete()`** of the [Payment Request API](/en-US/docs/Web/API/Payment_Request_API) notifies the

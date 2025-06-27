@@ -4,9 +4,10 @@ short-title: startTime
 slug: Web/API/Animation/startTime
 page-type: web-api-instance-property
 browser-compat: api.Animation.startTime
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`Animation.startTime`** property of the {{domxref("Animation")}} interface is a double-precision floating-point value which indicates the scheduled time when an animation's playback should begin.
 

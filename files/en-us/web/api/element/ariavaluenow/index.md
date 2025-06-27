@@ -4,9 +4,10 @@ short-title: ariaValueNow
 slug: Web/API/Element/ariaValueNow
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaValueNow
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaValueNow`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-valuenow`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-valuenow) attribute, which defines the current value for a range widget.
 

@@ -3,9 +3,10 @@ title: CSSImportRule
 slug: Web/API/CSSImportRule
 page-type: web-api-interface
 browser-compat: api.CSSImportRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSImportRule`** interface represents an {{cssxref("@import")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

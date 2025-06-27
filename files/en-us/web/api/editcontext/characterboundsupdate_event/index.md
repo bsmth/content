@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.EditContext.characterboundsupdate_event
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The `characterboundsupdate` event fires when the operating system needs to know the bounds of certain characters within editable text region of the `EditContext` object.
 

@@ -4,9 +4,10 @@ short-title: files
 slug: Web/API/DataTransfer/files
 page-type: web-api-instance-property
 browser-compat: api.DataTransfer.files
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`files`** read-only property of [`DataTransfer`](/en-US/docs/Web/API/DataTransfer) objects is a [list of the files](/en-US/docs/Web/API/FileList) in the drag operation. If the operation includes no files, the list is empty.
 

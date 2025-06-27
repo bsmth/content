@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/MediaList/item
 page-type: web-api-instance-method
 browser-compat: api.MediaList.item
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`item()`** method of the {{domxref("MediaList")}} interface returns the media query at the specified `index`, or `null` if the specified `index` doesn't exist.
 

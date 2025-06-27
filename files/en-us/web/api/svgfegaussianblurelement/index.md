@@ -3,9 +3,10 @@ title: SVGFEGaussianBlurElement
 slug: Web/API/SVGFEGaussianBlurElement
 page-type: web-api-interface
 browser-compat: api.SVGFEGaussianBlurElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEGaussianBlurElement`** interface corresponds to the {{SVGElement("feGaussianBlur")}} element.
 

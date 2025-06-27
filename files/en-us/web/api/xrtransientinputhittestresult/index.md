@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.XRTransientInputHitTestResult
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}} {{secureContext_header}}{{SeeCompatTable}}
+{{secureContext_header}}{{SeeCompatTable}}
 
 The **`XRTransientInputHitTestResult`** interface of the [WebXR Device API](/en-US/docs/Web/API/WebXR_Device_API) contains an array of results of a hit test for transient input, grouped by input source.
 

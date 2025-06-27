@@ -4,9 +4,10 @@ short-title: extend()
 slug: Web/API/Selection/extend
 page-type: web-api-instance-method
 browser-compat: api.Selection.extend
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.extend()`** method moves the focus of the
 selection to a specified point. The anchor of the selection does not move. The selection

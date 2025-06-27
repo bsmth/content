@@ -4,9 +4,12 @@ short-title: detail
 slug: Web/API/CustomEvent/detail
 page-type: web-api-instance-property
 browser-compat: api.CustomEvent.detail
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`detail`** property of the {{domxref("CustomEvent")}} interface returns any data passed when initializing the event.
 

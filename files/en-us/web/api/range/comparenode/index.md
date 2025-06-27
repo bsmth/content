@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Range.compareNode
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}{{Non-standard_Header}}
+{{deprecated_header}}{{Non-standard_Header}}
 
 The **`compareNode()`** method of the {{domxref("Range")}} interface returns a constant indicating the
 position of the {{DOMxRef("Node")}}.

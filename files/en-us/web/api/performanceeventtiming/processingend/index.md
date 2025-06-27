@@ -4,9 +4,10 @@ short-title: processingEnd
 slug: Web/API/PerformanceEventTiming/processingEnd
 page-type: web-api-instance-property
 browser-compat: api.PerformanceEventTiming.processingEnd
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The read-only **`processingEnd`** property returns the time the last event handler finished executing.
 

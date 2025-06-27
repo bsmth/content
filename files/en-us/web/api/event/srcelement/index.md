@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Event.srcElement
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}{{AvailableInWorkers}}
+{{deprecated_header}}{{AvailableInWorkers}}
 
 The deprecated **`Event.srcElement`** is an alias for the {{domxref("Event.target")}} property. Use {{domxref("Event.target")}} instead.
 

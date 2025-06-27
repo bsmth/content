@@ -4,9 +4,10 @@ short-title: orientation
 slug: Web/API/Screen/orientation
 page-type: web-api-instance-property
 browser-compat: api.Screen.orientation
+sidebar:
+  - apiref:
+      - Screen Orientation API
 ---
-
-{{APIRef("Screen Orientation API")}}
 
 The **`orientation`** read-only property of the
 {{DOMxRef("Screen")}} interface returns the current orientation of the screen.

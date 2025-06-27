@@ -4,9 +4,10 @@ short-title: setCustomValidity()
 slug: Web/API/HTMLObjectElement/setCustomValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLObjectElement.setCustomValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`setCustomValidity()`** method of the
 {{domxref("HTMLObjectElement")}} interface sets a custom validity message for the

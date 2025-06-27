@@ -4,9 +4,10 @@ short-title: surfaceScale
 slug: Web/API/SVGFESpecularLightingElement/surfaceScale
 page-type: web-api-instance-property
 browser-compat: api.SVGFESpecularLightingElement.surfaceScale
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`surfaceScale`** read-only property of the {{domxref("SVGFESpecularLightingElement")}} interface reflects the {{SVGAttr("surfaceScale")}} attribute of the given {{SVGElement("feSpecularLighting")}} element.
 

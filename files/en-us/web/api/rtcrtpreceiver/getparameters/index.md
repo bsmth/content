@@ -4,9 +4,10 @@ short-title: getParameters()
 slug: Web/API/RTCRtpReceiver/getParameters
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpReceiver.getParameters
+sidebar:
+  - apiref:
+      - WebRTC API
 ---
-
-{{APIRef("WebRTC API")}}
 
 The **`getParameters()`** method of the {{domxref("RTCRtpReceiver")}} interface returns an object describing the current configuration for how the receiver's {{domxref("RTCRtpReceiver.track", "track")}} is decoded.
 

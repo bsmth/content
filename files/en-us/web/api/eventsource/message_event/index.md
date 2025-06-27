@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/EventSource/message_event
 page-type: web-api-event
 browser-compat: api.EventSource.message_event
+sidebar:
+  - apiref:
+      - Server Sent Events
 ---
 
-{{APIRef("Server Sent Events")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`message`** event of the {{domxref("EventSource")}} interface is fired when data is received through an event source.
 

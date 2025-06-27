@@ -4,9 +4,12 @@ short-title: toString()
 slug: Web/API/URLSearchParams/toString
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.toString
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`toString()`** method of the
 {{domxref("URLSearchParams")}} interface returns a query string suitable for use in a

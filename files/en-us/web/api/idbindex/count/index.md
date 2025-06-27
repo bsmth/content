@@ -4,9 +4,12 @@ short-title: count()
 slug: Web/API/IDBIndex/count
 page-type: web-api-instance-method
 browser-compat: api.IDBIndex.count
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`count()`** method of the {{domxref("IDBIndex")}}
 interface returns an {{domxref("IDBRequest")}} object, and in a separate thread,

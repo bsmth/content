@@ -4,9 +4,10 @@ short-title: WheelEvent()
 slug: Web/API/WheelEvent/WheelEvent
 page-type: web-api-constructor
 browser-compat: api.WheelEvent.WheelEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`WheelEvent()`** constructor returns a new {{domxref("WheelEvent")}} object.
 

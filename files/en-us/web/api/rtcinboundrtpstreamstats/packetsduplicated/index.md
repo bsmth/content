@@ -4,9 +4,10 @@ short-title: packetsDuplicated
 slug: Web/API/RTCInboundRtpStreamStats/packetsDuplicated
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.packetsDuplicated
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`packetsDuplicated`** property
 of the {{domxref("RTCInboundRtpStreamStats")}} dictionary indicates the total number

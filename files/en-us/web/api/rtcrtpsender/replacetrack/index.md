@@ -4,9 +4,10 @@ short-title: replaceTrack()
 slug: Web/API/RTCRtpSender/replaceTrack
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpSender.replaceTrack
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCRtpSender")}} method
 **`replaceTrack()`** replaces the track currently being used

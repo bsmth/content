@@ -4,9 +4,12 @@ short-title: code
 slug: Web/API/GeolocationPositionError/code
 page-type: web-api-instance-property
 browser-compat: api.GeolocationPositionError.code
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`code`** read-only property of the {{domxref("GeolocationPositionError")}} interface is an `unsigned short` representing the error code.
 

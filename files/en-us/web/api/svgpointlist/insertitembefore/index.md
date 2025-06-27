@@ -4,9 +4,10 @@ short-title: insertItemBefore()
 slug: Web/API/SVGPointList/insertItemBefore
 page-type: web-api-instance-method
 browser-compat: api.SVGPointList.insertItemBefore
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`insertItemBefore()`** method of the {{domxref("SVGPointList")}} interface inserts a {{domxref("DOMPoint")}} before another item in the list.
 

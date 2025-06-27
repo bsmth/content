@@ -4,9 +4,10 @@ short-title: after()
 slug: Web/API/DocumentType/after
 page-type: web-api-instance-method
 browser-compat: api.DocumentType.after
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`DocumentType.after()`** method inserts a set of
 {{domxref("Node")}} objects or strings in the children list of the

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.USBConfiguration.configurationName
+sidebar:
+  - apiref:
+      - WebUSB API
 ---
 
-{{APIRef("WebUSB API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`configurationName`** read-only property
 of the {{domxref("USBConfiguration")}} interface returns the name provided by the device

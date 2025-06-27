@@ -4,9 +4,12 @@ short-title: desiredSize
 slug: Web/API/ReadableStreamDefaultController/desiredSize
 page-type: web-api-instance-property
 browser-compat: api.ReadableStreamDefaultController.desiredSize
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`desiredSize`** read-only property of the
 {{domxref("ReadableStreamDefaultController")}} interface returns the desired size

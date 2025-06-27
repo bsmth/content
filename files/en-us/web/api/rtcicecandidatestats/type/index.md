@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCIceCandidateStats/type
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`type`** property of the {{domxref("RTCIceCandidateStats")}} dictionary is a string with the value `"local-candidate"`.
 

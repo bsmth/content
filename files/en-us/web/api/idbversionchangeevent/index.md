@@ -3,9 +3,12 @@ title: IDBVersionChangeEvent
 slug: Web/API/IDBVersionChangeEvent
 page-type: web-api-interface
 browser-compat: api.IDBVersionChangeEvent
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`IDBVersionChangeEvent`** interface of the [IndexedDB API](/en-US/docs/Web/API/IndexedDB_API) indicates that the version of the database has changed, as the result of an {{domxref("IDBOpenDBRequest.upgradeneeded_event", "onupgradeneeded")}} event handler function.
 

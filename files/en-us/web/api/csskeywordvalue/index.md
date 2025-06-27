@@ -3,9 +3,10 @@ title: CSSKeywordValue
 slug: Web/API/CSSKeywordValue
 page-type: web-api-interface
 browser-compat: api.CSSKeywordValue
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSKeywordValue`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model#css_typed_object_model) creates an object to represent CSS keywords and other identifiers.
 

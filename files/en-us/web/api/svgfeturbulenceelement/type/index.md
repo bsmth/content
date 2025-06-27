@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/SVGFETurbulenceElement/type
 page-type: web-api-instance-property
 browser-compat: api.SVGFETurbulenceElement.type
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`type`** read-only property of the {{domxref("SVGFETurbulenceElement")}} interface reflects the {{SVGAttr("type")}} attribute of the given {{SVGElement("feTurbulence")}} element. It takes one of the `SVG_TURBULENCE_TYPE_*` constants defined on this interface.
 

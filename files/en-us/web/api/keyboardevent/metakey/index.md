@@ -4,9 +4,10 @@ short-title: metaKey
 slug: Web/API/KeyboardEvent/metaKey
 page-type: web-api-instance-property
 browser-compat: api.KeyboardEvent.metaKey
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`KeyboardEvent.metaKey`** read-only property returning a
 boolean value that indicates if the <kbd>Meta</kbd> key was pressed

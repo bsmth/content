@@ -4,9 +4,10 @@ short-title: deltaZ
 slug: Web/API/WheelEvent/deltaZ
 page-type: web-api-instance-property
 browser-compat: api.WheelEvent.deltaZ
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`WheelEvent.deltaZ`** read-only property is a
 `double` representing the scroll amount along the z-axis, in the

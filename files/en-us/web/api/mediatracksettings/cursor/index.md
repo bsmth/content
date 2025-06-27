@@ -4,9 +4,10 @@ short-title: cursor
 slug: Web/API/MediaTrackSettings/cursor
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.cursor_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's **`cursor`** property indicates whether or not the cursor should be captured as part of the video track included in the {{domxref("MediaStream")}} returned by {{domxref("MediaDevices.getDisplayMedia", "getDisplayMedia()")}}.
 

@@ -4,9 +4,10 @@ short-title: getElementsByTagName()
 slug: Web/API/Element/getElementsByTagName
 page-type: web-api-instance-method
 browser-compat: api.Element.getElementsByTagName
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The
 **`Element.getElementsByTagName()`** method returns a live

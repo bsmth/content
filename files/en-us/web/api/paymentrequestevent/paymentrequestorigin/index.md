@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PaymentRequestEvent.paymentRequestOrigin
+sidebar:
+  - apiref:
+      - Payment Handler API")}}{{AvailableInWorkers("service
 ---
 
-{{SeeCompatTable}}{{APIRef("Payment Handler API")}}{{AvailableInWorkers("service")}}
+{{SeeCompatTable}}
 
 The **`paymentRequestOrigin`** read-only property of the
 {{domxref("PaymentRequestEvent")}} interface returns the origin where the

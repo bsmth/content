@@ -4,9 +4,10 @@ short-title: setSkewY()
 slug: Web/API/SVGTransform/setSkewY
 page-type: web-api-instance-method
 browser-compat: api.SVGTransform.setSkewY
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `setSkewY()` method of the {{domxref("SVGTransform")}} interface sets the transform type to `SVG_TRANSFORM_SKEWY`, with parameter `angle` defining the amount of skew along the Y-axis.
 

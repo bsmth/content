@@ -4,9 +4,10 @@ short-title: resultIndex
 slug: Web/API/SpeechRecognitionEvent/resultIndex
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognitionEvent.resultIndex
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`resultIndex`** read-only property of the
 {{domxref("SpeechRecognitionEvent")}} interface returns the lowest index value result in

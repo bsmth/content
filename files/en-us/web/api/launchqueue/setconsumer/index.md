@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.LaunchQueue.setConsumer
+sidebar:
+  - apiref:
+      - Launch Handler API
 ---
 
-{{APIRef("Launch Handler API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`setConsumer()`** method of the {{domxref("LaunchQueue")}} interface is used to declare the callback that will handle custom launch navigation handling in a [progressive web app](/en-US/docs/Web/Progressive_web_apps) (PWA). Such custom navigation is initiated via {{domxref("Window.launchQueue")}} when a PWA has been launched with a [`launch_handler`](/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/launch_handler) `client_mode` value of `focus-existing`, `navigate-new`, or `navigate-existing`.
 

@@ -4,9 +4,10 @@ short-title: insertCell()
 slug: Web/API/HTMLTableRowElement/insertCell
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableRowElement.insertCell
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`insertCell()`** method of the {{domxref("HTMLTableRowElement")}} interface inserts a new
 cell ({{HtmlElement("td")}}) into a table row ({{HtmlElement("tr")}}) and returns a

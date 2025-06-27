@@ -4,9 +4,10 @@ short-title: removetrack
 slug: Web/API/MediaStream/removetrack_event
 page-type: web-api-event
 browser-compat: api.MediaStream.removetrack_event
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`removetrack`** event is fired when a new {{domxref("MediaStreamTrack")}} object has been removed from a {{domxref("MediaStream")}}.
 

@@ -4,9 +4,12 @@ short-title: Gyroscope()
 slug: Web/API/Gyroscope/Gyroscope
 page-type: web-api-constructor
 browser-compat: api.Gyroscope.Gyroscope
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`Gyroscope()`** constructor
 creates a new {{domxref("Gyroscope")}} object which provides on each reading the

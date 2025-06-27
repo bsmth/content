@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.ServiceWorkerGlobalScope.backgroundfetchsuccess_event
+sidebar:
+  - apiref:
+      - Background Fetch API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Background Fetch API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`backgroundfetchsuccess`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired when a [background fetch](/en-US/docs/Web/API/Background_Fetch_API) operation has completed successfully: that is, when all network requests in the fetch have completed successfully.
 

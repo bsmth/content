@@ -4,9 +4,10 @@ short-title: repeatEvent
 slug: Web/API/SVGAnimationElement/repeatEvent_event
 page-type: web-api-event
 browser-compat: api.SVGAnimationElement.repeatEvent_event
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`repeatEvent`** event of the {{domxref("SVGAnimationElement")}} interface is fired when the element's local timeline repeats. It will be fired each time the element repeats, after the first iteration.
 

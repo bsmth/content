@@ -4,9 +4,8 @@ short-title: mousemove
 slug: Web/API/Element/mousemove_event
 page-type: web-api-event
 browser-compat: api.Element.mousemove_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `mousemove` event is fired at an element when a pointing device (usually a mouse) is moved while the cursor's hotspot is inside it.
 

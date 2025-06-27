@@ -4,9 +4,10 @@ short-title: relList
 slug: Web/API/HTMLAnchorElement/relList
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.relList
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLAnchorElement.relList`** read-only property reflects the [`rel`](/en-US/docs/Web/HTML/Reference/Attributes/rel) attribute. It is a live {{domxref("DOMTokenList")}} containing the set of link types indicating the relationship between the resource represented by the {{HTMLElement("a")}} element and the current document.
 

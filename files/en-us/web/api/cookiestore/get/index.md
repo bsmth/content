@@ -4,9 +4,12 @@ short-title: get()
 slug: Web/API/CookieStore/get
 page-type: web-api-instance-method
 browser-compat: api.CookieStore.get
+sidebar:
+  - apiref:
+      - Cookie Store API")}}{{AvailableInWorkers("window_and_service
 ---
 
-{{securecontext_header}}{{APIRef("Cookie Store API")}}{{AvailableInWorkers("window_and_service")}}
+{{securecontext_header}}
 
 The **`get()`** method of the {{domxref("CookieStore")}} interface returns a {{jsxref("Promise")}} that resolves to a single cookie matching the given `name` or `options` object. The method will return the first cookie that matches.
 

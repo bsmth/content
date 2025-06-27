@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.SnapEvent.SnapEvent
+sidebar:
+  - apiref:
+      - Snap Events
 ---
 
-{{APIRef("Snap Events")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`SnapEvent()`** constructor creates a new
 {{domxref("SnapEvent")}} object instance.

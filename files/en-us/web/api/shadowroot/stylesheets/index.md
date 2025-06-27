@@ -4,9 +4,10 @@ short-title: styleSheets
 slug: Web/API/ShadowRoot/styleSheets
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.styleSheets
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`styleSheets`** read-only property of the {{domxref("ShadowRoot")}} interface
 returns a {{domxref('StyleSheetList')}} of {{domxref('CSSStyleSheet')}} objects, for stylesheets explicitly linked into or embedded in a shadow tree.

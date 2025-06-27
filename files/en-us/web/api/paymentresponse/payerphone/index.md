@@ -4,9 +4,12 @@ short-title: payerPhone
 slug: Web/API/PaymentResponse/payerPhone
 page-type: web-api-instance-property
 browser-compat: api.PaymentResponse.payerPhone
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The `payerPhone` read-only property of the {{domxref("PaymentResponse")}}
 interface returns the phone number supplied by the user. This option is only present

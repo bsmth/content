@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.domain
+sidebar: apiref
 ---
 
-{{ApiRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`domain`** property of the {{domxref("Document")}}
 interface gets/sets the domain portion of the {{glossary("origin")}} of the current

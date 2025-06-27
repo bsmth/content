@@ -4,9 +4,12 @@ short-title: getEntries()
 slug: Web/API/Performance/getEntries
 page-type: web-api-instance-method
 browser-compat: api.Performance.getEntries
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`getEntries()`** method returns an array of all {{domxref("PerformanceEntry")}} objects currently present in the performance timeline.
 

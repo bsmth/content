@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.FeaturePolicy.allowsFeature
+sidebar:
+  - apiref:
+      - Feature Policy API
 ---
 
-{{APIRef("Feature Policy API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`allowsFeature()`** method of
 the {{DOMxRef("FeaturePolicy")}} interface enables introspection of individual

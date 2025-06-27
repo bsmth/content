@@ -4,9 +4,12 @@ short-title: translateSelf()
 slug: Web/API/DOMMatrix/translateSelf
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.translateSelf
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `translateSelf()` method of the {{domxref("DOMMatrix")}} interface is a mutable transformation method that modifies a matrix. It applies the specified vectors and returns the updated matrix. The default vector is `[0, 0, 0]`.
 

@@ -4,9 +4,12 @@ short-title: WritableStream()
 slug: Web/API/WritableStream/WritableStream
 page-type: web-api-constructor
 browser-compat: api.WritableStream.WritableStream
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WritableStream()`** constructor creates a new {{domxref("WritableStream")}} object instance.
 

@@ -4,9 +4,10 @@ short-title: upX
 slug: Web/API/AudioListener/upX
 page-type: web-api-instance-property
 browser-compat: api.AudioListener.upX
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `upX` read-only property of the {{ domxref("AudioListener") }} interface is an {{domxref("AudioParam")}} representing the x value of the direction vector defining the up direction the listener is pointing in.
 

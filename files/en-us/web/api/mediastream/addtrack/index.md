@@ -4,9 +4,10 @@ short-title: addTrack()
 slug: Web/API/MediaStream/addTrack
 page-type: web-api-instance-method
 browser-compat: api.MediaStream.addTrack
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`addTrack()`** method of the {{domxref("MediaStream")}} interface adds a new track to the
 stream. The track is specified as a parameter of type {{domxref("MediaStreamTrack")}}.

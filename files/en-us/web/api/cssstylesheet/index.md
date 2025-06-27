@@ -3,9 +3,10 @@ title: CSSStyleSheet
 slug: Web/API/CSSStyleSheet
 page-type: web-api-interface
 browser-compat: api.CSSStyleSheet
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSStyleSheet`** interface represents a single [CSS](/en-US/docs/Web/CSS) stylesheet, and lets you inspect and modify the list of rules contained in the stylesheet. It inherits properties and methods from its parent, {{domxref("StyleSheet")}}.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NotRestoredReasons.children
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`children`** read-only property of the
 {{domxref("NotRestoredReasons")}} interface returns an array of {{domxref("NotRestoredReasons")}} objects, one for each child {{htmlelement("iframe")}} embedded in the current document, which may contain reasons why the top-level frame was blocked relating to the child frames.

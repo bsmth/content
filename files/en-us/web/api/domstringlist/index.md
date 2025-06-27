@@ -3,9 +3,12 @@ title: DOMStringList
 slug: Web/API/DOMStringList
 page-type: web-api-interface
 browser-compat: api.DOMStringList
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMStringList`** interface is a legacy type returned by some APIs and represents a non-modifiable list of strings (`DOMString`).
 

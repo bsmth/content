@@ -4,9 +4,12 @@ short-title: CompressionStream()
 slug: Web/API/CompressionStream/CompressionStream
 page-type: web-api-constructor
 browser-compat: api.CompressionStream.CompressionStream
+sidebar:
+  - apiref:
+      - Compression Streams API
 ---
 
-{{APIRef("Compression Streams API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`CompressionStream()`** constructor creates a new {{domxref("CompressionStream")}} object which compresses a stream of data.
 

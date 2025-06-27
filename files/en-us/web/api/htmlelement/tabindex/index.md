@@ -4,9 +4,10 @@ short-title: tabIndex
 slug: Web/API/HTMLElement/tabIndex
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.tabIndex
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`tabIndex`** property of the
 {{DOMxRef("HTMLElement")}} interface represents the tab order of the current element.

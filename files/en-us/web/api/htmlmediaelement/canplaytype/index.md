@@ -4,9 +4,10 @@ short-title: canPlayType()
 slug: Web/API/HTMLMediaElement/canPlayType
 page-type: web-api-instance-method
 browser-compat: api.HTMLMediaElement.canPlayType
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLMediaElement")}} method **`canPlayType()`** reports how likely it is that the current browser will be able to play media of a given [MIME type](/en-US/docs/Web/HTTP/Guides/MIME_types).
 

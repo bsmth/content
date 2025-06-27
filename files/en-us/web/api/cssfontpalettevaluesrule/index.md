@@ -3,9 +3,10 @@ title: CSSFontPaletteValuesRule
 slug: Web/API/CSSFontPaletteValuesRule
 page-type: web-api-interface
 browser-compat: api.CSSFontPaletteValuesRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSFontPaletteValuesRule`** interface represents an {{cssxref("@font-palette-values")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

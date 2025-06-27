@@ -4,9 +4,12 @@ short-title: levelchange
 slug: Web/API/BatteryManager/levelchange_event
 page-type: web-api-event
 browser-compat: api.BatteryManager.levelchange_event
+sidebar:
+  - apiref:
+      - Battery API
 ---
 
-{{ApiRef("Battery API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`levelchange`** event of the {{domxref("BatteryManager")}} interface is fired when the battery {{domxref("BatteryManager.level", "level")}} property is updated.
 

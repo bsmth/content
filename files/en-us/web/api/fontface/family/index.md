@@ -4,9 +4,12 @@ short-title: family
 slug: Web/API/FontFace/family
 page-type: web-api-instance-property
 browser-compat: api.FontFace.family
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FontFace.family`** property allows the author to get or set the font family of a {{domxref("FontFace")}} object.
 

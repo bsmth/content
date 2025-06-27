@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - deprecated
 browser-compat: api.ScriptProcessorNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The `ScriptProcessorNode` interface allows the generation, processing, or analyzing of audio using JavaScript.
 

@@ -4,9 +4,12 @@ short-title: y
 slug: Web/API/DOMRect/y
 page-type: web-api-instance-property
 browser-compat: api.DOMRect.y
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`y`** property of the {{domxref("DOMRect")}} interface represents the y-coordinate of the rectangle, which is the vertical distance between the viewport's top edge and the rectangle's origin.
 

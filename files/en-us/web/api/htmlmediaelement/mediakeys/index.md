@@ -4,9 +4,12 @@ short-title: mediaKeys
 slug: Web/API/HTMLMediaElement/mediaKeys
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.mediaKeys
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only **`HTMLMediaElement.mediaKeys`** property returns a {{domxref("MediaKeys")}} object, that is a set of keys that the element can use for decryption of media data during playback.
 

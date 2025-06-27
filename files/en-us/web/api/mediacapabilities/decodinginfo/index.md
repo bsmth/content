@@ -4,9 +4,12 @@ short-title: decodingInfo()
 slug: Web/API/MediaCapabilities/decodingInfo
 page-type: web-api-instance-method
 browser-compat: api.MediaCapabilities.decodingInfo
+sidebar:
+  - apiref:
+      - Media Capabilities API
 ---
 
-{{APIRef("Media Capabilities API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`decodingInfo()`** method of the {{domxref("MediaCapabilities")}} interface returns a promise that fulfils with information about how well the user agent can decode/display media with a given configuration.
 

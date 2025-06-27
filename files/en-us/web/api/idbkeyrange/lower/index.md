@@ -4,9 +4,12 @@ short-title: lower
 slug: Web/API/IDBKeyRange/lower
 page-type: web-api-instance-property
 browser-compat: api.IDBKeyRange.lower
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`lower`** read-only property of the
 {{domxref("IDBKeyRange")}} interface returns the lower bound of the key range.

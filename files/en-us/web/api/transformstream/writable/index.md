@@ -4,9 +4,12 @@ short-title: writable
 slug: Web/API/TransformStream/writable
 page-type: web-api-instance-property
 browser-compat: api.TransformStream.writable
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`writable`** read-only property of the {{domxref("TransformStream")}} interface returns the {{domxref("WritableStream")}} instance controlled by this `TransformStream`.
 

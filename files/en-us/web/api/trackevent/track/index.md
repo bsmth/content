@@ -4,9 +4,10 @@ short-title: track
 slug: Web/API/TrackEvent/track
 page-type: web-api-instance-property
 browser-compat: api.TrackEvent.track
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`track`** property of
 the {{domxref("TrackEvent")}} interface specifies the media track object to which the

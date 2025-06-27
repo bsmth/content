@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.SerialPort.connect_event
+sidebar:
+  - apiref:
+      - Web Serial API")}}{{SecureContext_Header}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Web Serial API")}}{{SecureContext_Header}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`connect`** event of the {{domxref("SerialPort")}} interface is fired when the port connects to the device.
 

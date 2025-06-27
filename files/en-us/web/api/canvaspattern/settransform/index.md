@@ -4,9 +4,12 @@ short-title: setTransform()
 slug: Web/API/CanvasPattern/setTransform
 page-type: web-api-instance-method
 browser-compat: api.CanvasPattern.setTransform
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`CanvasPattern.setTransform()`** method uses a {{domxref("DOMMatrix")}} object as the pattern's transformation matrix and invokes it on the pattern.
 

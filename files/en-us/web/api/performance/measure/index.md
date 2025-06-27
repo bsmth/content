@@ -4,9 +4,12 @@ short-title: measure()
 slug: Web/API/Performance/measure
 page-type: web-api-instance-method
 browser-compat: api.Performance.measure
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`measure()`** method creates a named {{domxref("PerformanceMeasure")}} object representing a time measurement between two marks in the browser's performance timeline.
 

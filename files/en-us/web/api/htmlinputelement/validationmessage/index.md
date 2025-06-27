@@ -4,9 +4,10 @@ short-title: validationMessage
 slug: Web/API/HTMLInputElement/validationMessage
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.validationMessage
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validationMessage`** read-only property of the {{domxref("HTMLInputElement")}} interface returns a string representing a localized message that describes the validation constraints that the {{htmlelement("input")}} control does not satisfy (if any).
 

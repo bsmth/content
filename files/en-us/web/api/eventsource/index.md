@@ -3,9 +3,12 @@ title: EventSource
 slug: Web/API/EventSource
 page-type: web-api-interface
 browser-compat: api.EventSource
+sidebar:
+  - apiref:
+      - Server Sent Events
 ---
 
-{{APIRef("Server Sent Events")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`EventSource`** interface is web content's interface to [server-sent events](/en-US/docs/Web/API/Server-sent_events).
 

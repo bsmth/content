@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/Screen/width
 page-type: web-api-instance-property
 browser-compat: api.Screen.width
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`Screen.width`** read-only property returns the width of
 the screen in CSS pixels.

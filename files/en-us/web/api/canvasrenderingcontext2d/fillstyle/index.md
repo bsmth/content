@@ -4,9 +4,8 @@ short-title: fillStyle
 slug: Web/API/CanvasRenderingContext2D/fillStyle
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.fillStyle
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.fillStyle`**

@@ -4,9 +4,10 @@ short-title: radiusX
 slug: Web/API/SVGFEMorphologyElement/radiusX
 page-type: web-api-instance-property
 browser-compat: api.SVGFEMorphologyElement.radiusX
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`radiusX`** read-only property of the {{domxref("SVGFEMorphologyElement")}} interface reflects the X component of the {{SVGAttr("radius")}} attribute of the given {{SVGElement("feMorphology")}} element.
 

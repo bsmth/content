@@ -4,9 +4,10 @@ short-title: bias
 slug: Web/API/SVGFEConvolveMatrixElement/bias
 page-type: web-api-instance-property
 browser-compat: api.SVGFEConvolveMatrixElement.bias
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`bias`** read-only property of the {{domxref("SVGFEConvolveMatrixElement")}} interface reflects the {{SVGAttr("bias")}} attribute of the given {{SVGElement("feConvolveMatrix")}} element.
 

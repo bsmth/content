@@ -4,9 +4,10 @@ short-title: pause
 slug: Web/API/MediaRecorder/pause_event
 page-type: web-api-event
 browser-compat: api.MediaRecorder.pause_event
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`pause`** event of the {{domxref("MediaRecorder")}} interface is fired when
 {{domxref("MediaRecorder.pause()")}} is called.

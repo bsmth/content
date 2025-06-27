@@ -4,9 +4,10 @@ short-title: getFingerprints()
 slug: Web/API/RTCCertificate/getFingerprints
 page-type: web-api-instance-method
 browser-compat: api.RTCCertificate.getFingerprints
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getFingerprints()`** method of the **{{domxref("RTCCertificate")}}** interface is used to get an array of certificate fingerprints.
 

@@ -4,9 +4,10 @@ short-title: getSettings()
 slug: Web/API/MediaStreamTrack/getSettings
 page-type: web-api-instance-method
 browser-compat: api.MediaStreamTrack.getSettings
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`getSettings()`** method of the
 {{domxref("MediaStreamTrack")}} interface returns a {{domxref("MediaTrackSettings")}}

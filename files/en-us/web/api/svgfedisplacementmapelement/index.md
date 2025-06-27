@@ -3,9 +3,10 @@ title: SVGFEDisplacementMapElement
 slug: Web/API/SVGFEDisplacementMapElement
 page-type: web-api-interface
 browser-compat: api.SVGFEDisplacementMapElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEDisplacementMapElement`** interface corresponds to the {{SVGElement("feDisplacementMap")}} element.
 

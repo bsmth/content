@@ -3,9 +3,12 @@ title: CountQueuingStrategy
 slug: Web/API/CountQueuingStrategy
 page-type: web-api-interface
 browser-compat: api.CountQueuingStrategy
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`CountQueuingStrategy`** interface of the [Streams API](/en-US/docs/Web/API/Streams_API) provides a built-in chunk counting queuing strategy that can be used when constructing streams.
 

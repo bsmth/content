@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/IDBObjectStore/name
 page-type: web-api-instance-property
 browser-compat: api.IDBObjectStore.name
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`name`** property of the {{domxref("IDBObjectStore")}}
 interface indicates the name of this object store.

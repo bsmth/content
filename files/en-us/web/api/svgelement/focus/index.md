@@ -4,9 +4,10 @@ short-title: focus()
 slug: Web/API/SVGElement/focus
 page-type: web-api-instance-method
 browser-compat: api.SVGElement.focus
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGElement.focus()`** method sets focus on the specified SVG element, if it can be focused.
 The focused element is the element that will receive keyboard and similar events by default.

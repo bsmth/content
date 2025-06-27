@@ -4,9 +4,12 @@ short-title: toJSON()
 slug: Web/API/URL/toJSON
 page-type: web-api-instance-method
 browser-compat: api.URL.toJSON
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`toJSON()`** method of the {{domxref("URL")}} interface
 returns a string containing a serialized version of the URL,

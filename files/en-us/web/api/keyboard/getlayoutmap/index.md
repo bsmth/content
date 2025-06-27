@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Keyboard.getLayoutMap
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{APIRef("Keyboard API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`getLayoutMap()`** method of the
 {{domxref("Keyboard")}} interface returns a {{jsxref('Promise')}} that resolves with

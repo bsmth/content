@@ -4,9 +4,12 @@ short-title: getFramebufferAttachmentParameter()
 slug: Web/API/WebGLRenderingContext/getFramebufferAttachmentParameter
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getFramebufferAttachmentParameter
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The
 **`WebGLRenderingContext.getFramebufferAttachmentParameter()`**

@@ -4,9 +4,10 @@ short-title: unpauseAnimations()
 slug: Web/API/SVGSVGElement/unpauseAnimations
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.unpauseAnimations
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `unpauseAnimations()` method of the {{domxref("SVGSVGElement")}} interface resumes (i.e., unpauses) currently running animations that are defined within the SVG document fragment, causing the animation clock to continue from the time at which it was suspended.
 

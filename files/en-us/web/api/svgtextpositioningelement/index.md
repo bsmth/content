@@ -3,9 +3,10 @@ title: SVGTextPositioningElement
 slug: Web/API/SVGTextPositioningElement
 page-type: web-api-interface
 browser-compat: api.SVGTextPositioningElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGTextPositioningElement`** interface is implemented by elements that support attributes that position individual text glyphs. It is inherited by {{domxref("SVGTextElement")}} and {{domxref("SVGTSpanElement")}}.
 

@@ -4,9 +4,10 @@ short-title: target
 slug: Web/API/MutationRecord/target
 page-type: web-api-instance-property
 browser-compat: api.MutationRecord.target
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("MutationRecord")}} read-only property **`target`** is the target (i.e., the mutated/changed node) of a mutation observed with a {{domxref("MutationObserver")}}.
 

@@ -4,9 +4,10 @@ short-title: id
 slug: Web/API/RTCPeerConnectionStats/id
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_peer-connection.id
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`id`** property of the {{domxref("RTCPeerConnectionStats")}} dictionary is a string which uniquely identifies the object for which this object provides statistics.
 

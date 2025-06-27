@@ -4,9 +4,12 @@ short-title: TaskPriorityChangeEvent()
 slug: Web/API/TaskPriorityChangeEvent/TaskPriorityChangeEvent
 page-type: web-api-constructor
 browser-compat: api.TaskPriorityChangeEvent.TaskPriorityChangeEvent
+sidebar:
+  - apiref:
+      - Prioritized Task Scheduling API
 ---
 
-{{APIRef("Prioritized Task Scheduling API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`TaskPriorityChangeEvent()`** constructor creates a new {{domxref("TaskPriorityChangeEvent")}} object.
 

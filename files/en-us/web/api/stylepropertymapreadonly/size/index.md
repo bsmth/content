@@ -4,9 +4,10 @@ short-title: size
 slug: Web/API/StylePropertyMapReadOnly/size
 page-type: web-api-instance-property
 browser-compat: api.StylePropertyMapReadOnly.size
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`size`** read-only property of the
 {{domxref("StylePropertyMapReadOnly")}} interface returns an unsigned long integer

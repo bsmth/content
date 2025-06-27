@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.VRDisplay.capabilities
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{APIRef("WebVR API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`capabilities`** read-only property of the {{domxref("VRDisplay")}} interface returns a {{domxref("VRDisplayCapabilities")}} object that indicates the various capabilities of the `VRDisplay`.
 

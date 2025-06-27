@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/RTCIceTransport/state
 page-type: web-api-instance-property
 browser-compat: api.RTCIceTransport.state
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`state`** read-only property of the {{domxref("RTCIceTransport")}} interface returns the current state of the ICE transport, so you can determine the state of ICE gathering in which the ICE agent currently is operating.
 

@@ -3,9 +3,10 @@ title: RTCRtpReceiver
 slug: Web/API/RTCRtpReceiver
 page-type: web-api-interface
 browser-compat: api.RTCRtpReceiver
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCRtpReceiver`** interface of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) manages the reception and decoding of data for a {{domxref("MediaStreamTrack")}} on an {{domxref("RTCPeerConnection")}}.
 

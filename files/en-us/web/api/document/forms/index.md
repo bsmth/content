@@ -4,9 +4,10 @@ short-title: forms
 slug: Web/API/Document/forms
 page-type: web-api-instance-property
 browser-compat: api.Document.forms
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`forms`** read-only property of
 the {{domxref("Document")}} interface returns an {{domxref("HTMLCollection")}} listing

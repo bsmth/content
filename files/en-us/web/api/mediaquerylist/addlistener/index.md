@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.MediaQueryList.addListener
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The deprecated **`addListener()`** method of the
 {{DOMxRef("MediaQueryList")}} interface adds a listener to the

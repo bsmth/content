@@ -4,9 +4,10 @@ short-title: lookupNamespaceURI()
 slug: Web/API/Node/lookupNamespaceURI
 page-type: web-api-instance-method
 browser-compat: api.Node.lookupNamespaceURI
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`lookupNamespaceURI()`** method of the {{domxref("Node")}} interface
 takes a prefix as parameter and returns the namespace URI associated with it on the given node if found (and

@@ -4,9 +4,10 @@ short-title: getTrackById()
 slug: Web/API/VideoTrackList/getTrackById
 page-type: web-api-instance-method
 browser-compat: api.VideoTrackList.getTrackById
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **{{domxref("VideoTrackList")}}** method
 **`getTrackById()`** returns the first

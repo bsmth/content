@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLOutputElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLOutputElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`type`** read-only property of the {{domxref("HTMLOutputElement")}} interface returns the string `"output"`.
 

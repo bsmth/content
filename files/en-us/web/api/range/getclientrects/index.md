@@ -4,9 +4,10 @@ short-title: getClientRects()
 slug: Web/API/Range/getClientRects
 page-type: web-api-instance-method
 browser-compat: api.Range.getClientRects
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.getClientRects()`** method returns a list of {{domxref("DOMRect")}} objects representing the area of the screen occupied by the [range](/en-US/docs/Web/API/Range). This is created by aggregating the results of calls to
 {{ domxref("Element.getClientRects()") }} for all the elements in the range.

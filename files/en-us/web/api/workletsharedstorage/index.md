@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.WorkletSharedStorage
+sidebar:
+  - apiref:
+      - Shared Storage API
 ---
 
-{{APIRef("Shared Storage API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`WorkletSharedStorage`** interface of the {{domxref("Shared Storage API", "Shared Storage API", "", "nocode")}} represents the shared storage for a particular origin within a worklet context.
 

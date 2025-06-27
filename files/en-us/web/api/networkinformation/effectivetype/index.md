@@ -4,9 +4,12 @@ short-title: effectiveType
 slug: Web/API/NetworkInformation/effectiveType
 page-type: web-api-instance-property
 browser-compat: api.NetworkInformation.effectiveType
+sidebar:
+  - apiref:
+      - Network Information API
 ---
 
-{{APIRef("Network Information API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`effectiveType`** read-only property of the
 {{domxref("NetworkInformation")}} interface returns the effective type of the connection

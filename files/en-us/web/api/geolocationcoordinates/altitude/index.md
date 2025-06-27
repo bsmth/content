@@ -4,9 +4,12 @@ short-title: altitude
 slug: Web/API/GeolocationCoordinates/altitude
 page-type: web-api-instance-property
 browser-compat: api.GeolocationCoordinates.altitude
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`altitude`** read-only property of the {{domxref("GeolocationCoordinates")}} interface is a `double` representing the altitude of the position in meters above the [WGS84](https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf) ellipsoid (which defines the nominal sea level surface). This value is `null` if the implementation cannot provide this data.
 

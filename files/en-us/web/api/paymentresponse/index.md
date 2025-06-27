@@ -3,9 +3,12 @@ title: PaymentResponse
 slug: Web/API/PaymentResponse
 page-type: web-api-interface
 browser-compat: api.PaymentResponse
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{SecureContext_Header}}{{APIRef("Payment Request API")}}
+{{SecureContext_Header}}
 
 The **`PaymentResponse`** interface of the [Payment Request API](/en-US/docs/Web/API/Payment_Request_API) is returned after a user selects a payment method and approves a payment request.
 

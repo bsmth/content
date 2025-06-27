@@ -4,9 +4,10 @@ short-title: icecandidate
 slug: Web/API/RTCPeerConnection/icecandidate_event
 page-type: web-api-event
 browser-compat: api.RTCPeerConnection.icecandidate_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 An **`icecandidate`** event is sent to an {{domxref("RTCPeerConnection")}} when:
 

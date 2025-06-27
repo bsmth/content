@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - deprecated
 browser-compat: api.TextEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`TextEvent`** interface is a legacy UI event interface for reporting changes to text UI elements.
 

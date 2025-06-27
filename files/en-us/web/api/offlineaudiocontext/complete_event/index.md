@@ -4,9 +4,10 @@ short-title: complete
 slug: Web/API/OfflineAudioContext/complete_event
 page-type: web-api-event
 browser-compat: api.OfflineAudioContext.complete_event
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `complete` event of the {{domxref("OfflineAudioContext")}} interface is fired when the rendering of an offline audio context is complete.
 

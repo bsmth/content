@@ -4,9 +4,10 @@ short-title: contentBoxSize
 slug: Web/API/ResizeObserverEntry/contentBoxSize
 page-type: web-api-instance-property
 browser-compat: api.ResizeObserverEntry.contentBoxSize
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`contentBoxSize`** read-only property of
 the {{domxref("ResizeObserverEntry")}} interface returns an array containing the new

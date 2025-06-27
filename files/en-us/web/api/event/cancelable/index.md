@@ -4,9 +4,12 @@ short-title: cancelable
 slug: Web/API/Event/cancelable
 page-type: web-api-instance-property
 browser-compat: api.Event.cancelable
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`cancelable`** read-only property of the {{domxref("Event")}} interface indicates whether the event
 can be canceled, and therefore prevented as if the event never happened.

@@ -4,9 +4,10 @@ short-title: DynamicsCompressorNode()
 slug: Web/API/DynamicsCompressorNode/DynamicsCompressorNode
 page-type: web-api-constructor
 browser-compat: api.DynamicsCompressorNode.DynamicsCompressorNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`DynamicsCompressorNode()`**
 constructor creates a new {{domxref("DynamicsCompressorNode")}} object which provides

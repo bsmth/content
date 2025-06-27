@@ -4,9 +4,10 @@ short-title: cloneRange()
 slug: Web/API/Range/cloneRange
 page-type: web-api-instance-method
 browser-compat: api.Range.cloneRange
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`Range.cloneRange()`** method returns a
 {{domxref("Range")}} object with boundary points identical to the cloned

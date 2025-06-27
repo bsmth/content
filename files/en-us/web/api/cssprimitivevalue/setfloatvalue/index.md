@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.CSSPrimitiveValue.setFloatValue
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`setFloatValue()`** method of the
 {{domxref("CSSPrimitiveValue")}} interface is used to set a float value. If the property

@@ -5,9 +5,12 @@ slug: Web/API/MouseEvent/WEBKIT_FORCE_AT_FORCE_MOUSE_DOWN_static
 page-type: web-api-static-property
 status:
   - non-standard
+sidebar:
+  - apiref:
+      - Force Touch Events
 ---
 
-{{APIRef("Force Touch Events")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 **`MouseEvent.WEBKIT_FORCE_AT_FORCE_MOUSE_DOWN`** is a proprietary, WebKit-specific, static numeric property whose value is the minimum force necessary for a force click.
 

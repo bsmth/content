@@ -4,9 +4,12 @@ short-title: blendFunc()
 slug: Web/API/WebGLRenderingContext/blendFunc
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.blendFunc
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.blendFunc()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) defines which function is used for
 blending pixel arithmetic.

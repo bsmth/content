@@ -4,9 +4,8 @@ short-title: textAlign
 slug: Web/API/CanvasRenderingContext2D/textAlign
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.textAlign
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.textAlign`**

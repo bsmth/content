@@ -4,9 +4,10 @@ short-title: ariaFlowToElements
 slug: Web/API/ElementInternals/ariaFlowToElements
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaFlowToElements
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaFlowToElements`** property of the {{domxref("ElementInternals")}} interface is an array containing the element (or elements) that provide an alternate reading order of content, overriding the general default reading order at the user's discretion.
 If just one element is provided this is the next element in the reading order.

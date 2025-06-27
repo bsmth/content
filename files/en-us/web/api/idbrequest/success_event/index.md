@@ -4,9 +4,10 @@ short-title: success
 slug: Web/API/IDBRequest/success_event
 page-type: web-api-event
 browser-compat: api.IDBRequest.success_event
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{ APIRef("IndexedDB") }}
 
 The `success` event is fired when an `IDBRequest` succeeds. In the `success` event handler, you can access the result of the request, as well as place more requests to the same transaction.
 

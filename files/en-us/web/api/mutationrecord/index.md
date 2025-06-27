@@ -3,9 +3,10 @@ title: MutationRecord
 slug: Web/API/MutationRecord
 page-type: web-api-interface
 browser-compat: api.MutationRecord
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`MutationRecord`** is a read-only interface that represents an individual DOM mutation observed by a {{domxref("MutationObserver")}}. It is the object inside the array passed to the callback of a {{domxref("MutationObserver")}}.
 

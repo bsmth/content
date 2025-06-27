@@ -3,9 +3,10 @@ title: ValidityState
 slug: Web/API/ValidityState
 page-type: web-api-interface
 browser-compat: api.ValidityState
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`ValidityState`** interface represents the _validity states_ that an element can be in, with respect to constraint validation. Together, they help explain why an element's value fails to validate, if it's not valid.
 

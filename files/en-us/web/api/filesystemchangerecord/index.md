@@ -2,9 +2,10 @@
 title: FileSystemChangeRecord
 slug: Web/API/FileSystemChangeRecord
 page-type: web-api-interface
+sidebar:
+  - apiref:
+      - File System API
 ---
-
-{{APIRef("File System API")}}
 
 The **`FileSystemChangeRecord`** dictionary of the {{domxref("File System API", "File System API", "", "nocode")}} contains details of a single change observed by a {{domxref("FileSystemObserver")}}.
 

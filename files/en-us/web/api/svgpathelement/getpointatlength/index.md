@@ -4,9 +4,10 @@ short-title: getPointAtLength()
 slug: Web/API/SVGPathElement/getPointAtLength
 page-type: web-api-instance-method
 browser-compat: api.SVGPathElement.getPointAtLength
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`getPointAtLength()`** method of the {{domxref("SVGPathElement")}} interface returns the point at a given distance along the path.
 

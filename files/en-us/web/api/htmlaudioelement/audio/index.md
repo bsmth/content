@@ -4,9 +4,10 @@ short-title: Audio()
 slug: Web/API/HTMLAudioElement/Audio
 page-type: web-api-constructor
 browser-compat: api.HTMLAudioElement.Audio
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`Audio()`** constructor creates
 and returns a new {{domxref("HTMLAudioElement")}} which can be either attached to

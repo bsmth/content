@@ -4,9 +4,10 @@ short-title: respondWith()
 slug: Web/API/FetchEvent/respondWith
 page-type: web-api-instance-method
 browser-compat: api.FetchEvent.respondWith
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`respondWith()`** method of
 {{domxref("FetchEvent")}} prevents the browser's default fetch handling, and

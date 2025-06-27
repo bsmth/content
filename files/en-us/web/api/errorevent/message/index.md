@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/ErrorEvent/message
 page-type: web-api-instance-property
 browser-compat: api.ErrorEvent.message
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`message`** read-only property of the {{domxref("ErrorEvent")}} interface returns a string containing a human-readable error message describing the problem.
 

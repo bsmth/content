@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Sanitizer.allowAttribute
+sidebar:
+  - apiref:
+      - HTML Sanitizer API
 ---
 
-{{APIRef("HTML Sanitizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`allowAttribute()`** method of the {{domxref("Sanitizer")}} interface sets an attribute to be allowed on all elements.
 

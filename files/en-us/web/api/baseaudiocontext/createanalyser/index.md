@@ -4,9 +4,10 @@ short-title: createAnalyser()
 slug: Web/API/BaseAudioContext/createAnalyser
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createAnalyser
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `createAnalyser()` method of the
 {{domxref("BaseAudioContext")}} interface creates an {{domxref("AnalyserNode")}}, which

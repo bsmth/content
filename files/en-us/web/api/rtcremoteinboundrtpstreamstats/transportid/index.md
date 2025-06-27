@@ -4,9 +4,10 @@ short-title: transportId
 slug: Web/API/RTCRemoteInboundRtpStreamStats/transportId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_remote-inbound-rtp.transportId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`transportId`** property of the {{domxref("RTCRemoteInboundRtpStreamStats")}} dictionary is a string that uniquely identifies the associated {{domxref("RTCTransportStats")}} statistics object for this RTP stream's underlying transport.
 

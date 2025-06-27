@@ -4,9 +4,10 @@ short-title: getSelectedCandidatePair()
 slug: Web/API/RTCIceTransport/getSelectedCandidatePair
 page-type: web-api-instance-method
 browser-compat: api.RTCIceTransport.getSelectedCandidatePair
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getSelectedCandidatePair()`** method of the {{domxref("RTCIceTransport")}} interface returns an {{domxref("RTCIceCandidatePair")}} object containing the current best-choice pair of {{Glossary("ICE")}} candidates describing the configuration of the endpoints of the transport.
 

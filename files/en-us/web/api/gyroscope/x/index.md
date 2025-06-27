@@ -4,9 +4,12 @@ short-title: x
 slug: Web/API/Gyroscope/x
 page-type: web-api-instance-property
 browser-compat: api.Gyroscope.x
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`x`** read-only property of the
 {{domxref("Gyroscope")}} interface returns a number specifying the

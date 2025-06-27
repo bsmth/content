@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLFieldSetElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLFieldSetElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`name`** property of the {{domxref("HTMLFieldSetElement")}} interface indicates the name of the {{HTMLElement("fieldset")}} element. It reflects the element's [`name`](/en-US/docs/Web/HTML/Reference/Elements/fieldset#name) attribute.
 

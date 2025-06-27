@@ -4,9 +4,10 @@ short-title: identifier
 slug: Web/API/Touch/identifier
 page-type: web-api-instance-property
 browser-compat: api.Touch.identifier
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The **`Touch.identifier`** returns a value uniquely identifying
 this point of contact with the touch surface. This value remains consistent for every

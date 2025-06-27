@@ -4,9 +4,12 @@ short-title: port2
 slug: Web/API/MessageChannel/port2
 page-type: web-api-instance-property
 browser-compat: api.MessageChannel.port2
+sidebar:
+  - apiref:
+      - Channel Messaging API
 ---
 
-{{APIRef("Channel Messaging API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`port2`** read-only property of the
 {{domxref("MessageChannel")}} interface returns the second port of the message channel —

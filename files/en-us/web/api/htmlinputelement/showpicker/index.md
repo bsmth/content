@@ -4,9 +4,10 @@ short-title: showPicker()
 slug: Web/API/HTMLInputElement/showPicker
 page-type: web-api-instance-method
 browser-compat: api.HTMLInputElement.showPicker
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLInputElement.showPicker()`** method displays the browser picker for an `input` element.
 

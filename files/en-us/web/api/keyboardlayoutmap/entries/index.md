@@ -7,9 +7,12 @@ status:
   - experimental
 browser-compat: api.KeyboardLayoutMap.entries
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.entries
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{SeeCompatTable}}{{APIRef("Keyboard API")}}
+{{SeeCompatTable}}
 
 The **`entries()`** method of the {{domxref("KeyboardLayoutMap")}} interface returns a new [Iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator) object that contains the key/value pairs, in the same order as that provided by a {{jsxref("Statements/for...in", "for...in")}} loop (the difference being that a `for-in` loop enumerates properties in the prototype chain as well).
 

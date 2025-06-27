@@ -4,9 +4,10 @@ short-title: endOffset
 slug: Web/API/Range/endOffset
 page-type: web-api-instance-property
 browser-compat: api.Range.endOffset
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.endOffset`** read-only property returns a number
 representing where in the {{domxref("Range.endContainer")}} the {{domxref("Range")}}

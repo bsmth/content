@@ -3,9 +3,10 @@ title: LargestContentfulPaint
 slug: Web/API/LargestContentfulPaint
 page-type: web-api-interface
 browser-compat: api.LargestContentfulPaint
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The `LargestContentfulPaint` interface provides timing information about the largest image or text paint before user input on a web page.
 

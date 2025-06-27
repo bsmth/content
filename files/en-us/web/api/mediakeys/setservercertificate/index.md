@@ -4,9 +4,12 @@ short-title: setServerCertificate()
 slug: Web/API/MediaKeys/setServerCertificate
 page-type: web-api-instance-method
 browser-compat: api.MediaKeys.setServerCertificate
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`setServerCertificate()`** method of the {{domxref("MediaKeys")}} interface provides a server certificate to be used to encrypt messages to the license server.
 

@@ -4,9 +4,10 @@ short-title: referrer
 slug: Web/API/CSPViolationReportBody/referrer
 page-type: web-api-instance-property
 browser-compat: api.CSPViolationReportBody.referrer
+sidebar:
+  - apiref:
+      - Reporting API
 ---
-
-{{APIRef("Reporting API")}}
 
 The **`referrer`** read-only property of the {{domxref("CSPViolationReportBody")}} interface is a string that represents the URL of the referring page of the resource who's [Content Security Policy (CSP)](/en-US/docs/Web/HTTP/Guides/CSP) was violated.
 

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.WindowControlsOverlayGeometryChangeEvent
+sidebar:
+  - apiref:
+      - Window Controls Overlay API
 ---
 
-{{APIRef("Window Controls Overlay API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`WindowControlsOverlayGeometryChangeEvent`** interface of the [Window Controls Overlay API](/en-US/docs/Web/API/Window_Controls_Overlay_API) is passed to {{domxref("WindowControlsOverlay/geometrychange_event", "geometrychange")}} when the size or visibility of a desktop Progress Web App's title bar region changes.
 

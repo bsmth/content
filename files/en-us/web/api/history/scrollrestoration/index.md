@@ -4,9 +4,10 @@ short-title: scrollRestoration
 slug: Web/API/History/scrollRestoration
 page-type: web-api-instance-property
 browser-compat: api.History.scrollRestoration
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`scrollRestoration`** property of the {{DOMxRef("History")}}
 interface allows web applications to explicitly set default scroll restoration behavior

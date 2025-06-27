@@ -4,9 +4,10 @@ short-title: ariaAtomic
 slug: Web/API/ElementInternals/ariaAtomic
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaAtomic
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaAtomic`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-atomic`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-atomic) attribute, which indicates whether assistive technologies will present all, or only parts of, the changed region based on the change notifications defined by the `aria-relevant` attribute.
 

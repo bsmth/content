@@ -4,9 +4,10 @@ short-title: ariaLabelledByElements
 slug: Web/API/Element/ariaLabelledByElements
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaLabelledByElements
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaLabelledByElements`** property of the {{domxref("Element")}} interface is an array containing the element (or elements) that provide an accessible name for the element it is applied to.
 

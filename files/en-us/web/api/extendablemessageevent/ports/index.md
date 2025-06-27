@@ -4,9 +4,10 @@ short-title: ports
 slug: Web/API/ExtendableMessageEvent/ports
 page-type: web-api-instance-property
 browser-compat: api.ExtendableMessageEvent.ports
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`ports`** read-only property of the
 {{domxref("ExtendableMessageEvent")}} interface returns the array containing the

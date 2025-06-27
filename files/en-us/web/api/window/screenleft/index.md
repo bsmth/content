@@ -4,9 +4,8 @@ short-title: screenLeft
 slug: Web/API/Window/screenLeft
 page-type: web-api-instance-property
 browser-compat: api.Window.screenLeft
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.screenLeft`** read-only property returns the
 horizontal distance, in CSS pixels, from the left border of the user's browser viewport

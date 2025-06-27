@@ -7,9 +7,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.FileSystemObserver.observe
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{SeeCompatTable}}{{non-standard_header}}
+{{securecontext_header}}{{SeeCompatTable}}{{non-standard_header}}
 
 The **`observe()`** method of the
 {{domxref("FileSystemObserver")}} interface asks the observer to start observing changes to a given file or directory.

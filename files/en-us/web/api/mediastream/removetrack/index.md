@@ -4,9 +4,10 @@ short-title: removeTrack()
 slug: Web/API/MediaStream/removeTrack
 page-type: web-api-instance-method
 browser-compat: api.MediaStream.removeTrack
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`removeTrack()`** method of the {{domxref("MediaStream")}} interface removes a
 {{domxref("MediaStreamTrack")}} from a stream.

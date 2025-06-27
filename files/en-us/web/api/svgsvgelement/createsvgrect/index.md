@@ -4,9 +4,10 @@ short-title: createSVGRect()
 slug: Web/API/SVGSVGElement/createSVGRect
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.createSVGRect
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `createSVGRect()` method of the {{domxref("SVGSVGElement")}} interface creates an {{domxref("DOMRect")}} object outside of any document trees.
 

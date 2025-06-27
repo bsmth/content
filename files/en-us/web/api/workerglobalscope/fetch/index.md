@@ -4,9 +4,10 @@ short-title: fetch()
 slug: Web/API/WorkerGlobalScope/fetch
 page-type: web-api-instance-method
 browser-compat: api.fetch
+sidebar:
+  - apiref:
+      - Fetch API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Fetch API")}}{{AvailableInWorkers("worker")}}
 
 The **`fetch()`** method of the {{domxref("WorkerGlobalScope")}} interface starts the process of fetching a resource from the network, returning a promise that is fulfilled once the response is available.
 

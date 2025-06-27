@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/ImageDecoder/close
 page-type: web-api-instance-method
 browser-compat: api.ImageDecoder.close
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`close()`** method of the {{domxref("ImageDecoder")}} interface ends all pending work and releases system resources.
 

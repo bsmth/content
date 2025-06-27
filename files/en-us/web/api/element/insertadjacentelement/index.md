@@ -4,9 +4,10 @@ short-title: insertAdjacentElement()
 slug: Web/API/Element/insertAdjacentElement
 page-type: web-api-instance-method
 browser-compat: api.Element.insertAdjacentElement
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`insertAdjacentElement()`** method of the
 {{domxref("Element")}} interface inserts a given element node at a given position

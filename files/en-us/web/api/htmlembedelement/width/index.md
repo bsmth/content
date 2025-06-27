@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/HTMLEmbedElement/width
 page-type: web-api-instance-property
 browser-compat: api.HTMLEmbedElement.width
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`width`** property of the {{domxref("HTMLEmbedElement")}} interface returns a string that reflects the `width` attribute of the {{HTMLElement("embed")}} element, indicating the displayed width of the resource in CSS pixels.
 

@@ -4,9 +4,12 @@ short-title: eventPhase
 slug: Web/API/Event/eventPhase
 page-type: web-api-instance-property
 browser-compat: api.Event.eventPhase
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`eventPhase`** read-only property of the
 {{domxref("Event")}} interface indicates which phase of the event flow is currently

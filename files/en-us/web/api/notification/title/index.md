@@ -4,9 +4,12 @@ short-title: title
 slug: Web/API/Notification/title
 page-type: web-api-instance-property
 browser-compat: api.Notification.title
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`title`** read-only property of the
 {{domxref("Notification")}} interface indicates the title of the notification, as

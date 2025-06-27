@@ -4,9 +4,12 @@ short-title: Request()
 slug: Web/API/Request/Request
 page-type: web-api-constructor
 browser-compat: api.Request.Request
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Request()`** constructor creates a new
 {{domxref("Request")}} object.

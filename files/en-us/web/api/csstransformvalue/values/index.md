@@ -4,9 +4,10 @@ short-title: values()
 slug: Web/API/CSSTransformValue/values
 page-type: web-api-instance-method
 browser-compat: api.CSSTransformValue.values
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSTransformValue.values()`** returns a
 new _array iterator_ object that contains the values for

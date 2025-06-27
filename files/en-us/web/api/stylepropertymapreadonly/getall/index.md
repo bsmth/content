@@ -4,9 +4,10 @@ short-title: getAll()
 slug: Web/API/StylePropertyMapReadOnly/getAll
 page-type: web-api-instance-method
 browser-compat: api.StylePropertyMapReadOnly.getAll
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`getAll()`** method of the
 {{domxref("StylePropertyMapReadOnly")}} interface returns an array of

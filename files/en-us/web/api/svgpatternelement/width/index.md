@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGPatternElement/width
 page-type: web-api-instance-property
 browser-compat: api.SVGPatternElement.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`width`** read-only property of the {{domxref("SVGPatternElement")}} interface describes the width of the pattern as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("width")}} attribute on the {{SVGElement("pattern")}} element.
 

@@ -4,9 +4,10 @@ short-title: ariaSelected
 slug: Web/API/Element/ariaSelected
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaSelected
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaSelected`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-selected`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-selected) attribute, which indicates the current "selected" state of elements that have a selected state.
 

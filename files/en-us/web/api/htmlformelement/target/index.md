@@ -4,9 +4,10 @@ short-title: target
 slug: Web/API/HTMLFormElement/target
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.target
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`target`** property of the {{domxref("HTMLFormElement")}}
 interface represents the target of the form's action (i.e., the frame in which to render

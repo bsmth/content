@@ -3,9 +3,12 @@ title: FontFaceSet
 slug: Web/API/FontFaceSet
 page-type: web-api-interface
 browser-compat: api.FontFaceSet
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FontFaceSet`** interface of the [CSS Font Loading API](/en-US/docs/Web/API/CSS_Font_Loading_API) manages the loading of font-faces and querying of their download status.
 

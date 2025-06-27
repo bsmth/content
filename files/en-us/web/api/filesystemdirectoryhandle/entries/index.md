@@ -4,9 +4,12 @@ short-title: entries()
 slug: Web/API/FileSystemDirectoryHandle/entries
 page-type: web-api-instance-method
 browser-compat: api.FileSystemDirectoryHandle.entries
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers}}
+{{securecontext_header}}{{AvailableInWorkers}}
 
 The **`entries()`** method of the
 {{domxref("FileSystemDirectoryHandle")}} interface returns a new asynchronous iterator

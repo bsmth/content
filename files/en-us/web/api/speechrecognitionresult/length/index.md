@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/SpeechRecognitionResult/length
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognitionResult.length
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`length`** read-only property of the
 {{domxref("SpeechRecognitionResult")}} interface returns the length of the "array"

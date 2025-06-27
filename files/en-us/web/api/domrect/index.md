@@ -3,9 +3,12 @@ title: DOMRect
 slug: Web/API/DOMRect
 page-type: web-api-interface
 browser-compat: api.DOMRect
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 A **`DOMRect`** describes the size and position of a rectangle.
 

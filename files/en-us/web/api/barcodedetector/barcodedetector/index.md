@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.BarcodeDetector.BarcodeDetector
+sidebar:
+  - apiref:
+      - Barcode Detector API
 ---
 
-{{securecontext_header}}{{APIRef("Barcode Detector API")}}{{AvailableInWorkers}}{{SeeCompatTable}}
+{{securecontext_header}}{{AvailableInWorkers}}{{SeeCompatTable}}
 
 The **`BarcodeDetector()`** constructor creates
 a new {{domxref("BarcodeDetector")}} object which detects linear and two-dimensional

@@ -4,9 +4,10 @@ short-title: checkIntersection()
 slug: Web/API/SVGSVGElement/checkIntersection
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.checkIntersection
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `checkIntersection()` method of the {{domxref("SVGSVGElement")}} interface checks if the rendered content of the given element intersects the supplied rectangle.
 

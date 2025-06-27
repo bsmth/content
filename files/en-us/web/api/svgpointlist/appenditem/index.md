@@ -4,9 +4,10 @@ short-title: appendItem()
 slug: Web/API/SVGPointList/appendItem
 page-type: web-api-instance-method
 browser-compat: api.SVGPointList.appendItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`appendItem()`** method of the {{domxref("SVGPointList")}} interface adds a {{domxref("DOMPoint")}} to the end of the list.
 

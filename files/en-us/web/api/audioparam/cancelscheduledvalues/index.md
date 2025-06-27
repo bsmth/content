@@ -4,9 +4,10 @@ short-title: cancelScheduledValues()
 slug: Web/API/AudioParam/cancelScheduledValues
 page-type: web-api-instance-method
 browser-compat: api.AudioParam.cancelScheduledValues
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `cancelScheduledValues()` method of the {{ domxref("AudioParam") }}
 Interface cancels all scheduled future changes to the `AudioParam`.

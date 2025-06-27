@@ -4,9 +4,10 @@ short-title: maxMessageSize
 slug: Web/API/RTCSctpTransport/maxMessageSize
 page-type: web-api-instance-property
 browser-compat: api.RTCSctpTransport.maxMessageSize
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`maxMessageSize`** read-only property of the {{DOMxRef("RTCSctpTransport")}} interface indicates the maximum size of a message that can be sent using the {{DOMxRef("RTCDataChannel.send()")}} method.
 

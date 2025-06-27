@@ -4,9 +4,12 @@ short-title: alpha
 slug: Web/API/DeviceOrientationEvent/alpha
 page-type: web-api-instance-property
 browser-compat: api.DeviceOrientationEvent.alpha
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`alpha`** read-only property of the {{domxref("DeviceOrientationEvent")}} interface returns the rotation of the device around the Z axis; that is, the number of degrees by
 which the device is being twisted around the center of the screen.

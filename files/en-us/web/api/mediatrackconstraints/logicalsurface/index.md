@@ -4,9 +4,10 @@ short-title: logicalSurface
 slug: Web/API/MediaTrackConstraints/logicalSurface
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.logicalSurface_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackConstraints")}} dictionary's **`logicalSurface`** property is a [`ConstrainDOMString`](/en-US/docs/Web/API/MediaTrackConstraints#constraindomstring) describing the requested or mandatory constraints placed upon the value of the {{domxref("MediaTrackSettings.logicalSurface","logicalSurface")}} constrainable property.
 

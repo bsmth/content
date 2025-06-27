@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLImageElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The {{domxref("HTMLImageElement")}}
 interface's _deprecated_ **`name`** property specifies

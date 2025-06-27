@@ -3,9 +3,10 @@ title: XMLSerializer
 slug: Web/API/XMLSerializer
 page-type: web-api-interface
 browser-compat: api.XMLSerializer
+sidebar:
+  - apiref:
+      - XMLSerializer
 ---
-
-{{APIRef("XMLSerializer")}}
 
 The `XMLSerializer` interface provides the {{domxref("XMLSerializer.serializeToString", "serializeToString()")}} method to construct an XML string representing a {{Glossary("DOM")}} tree.
 

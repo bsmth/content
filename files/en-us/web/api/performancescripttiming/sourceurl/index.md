@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PerformanceScriptTiming.sourceURL
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{SeeCompatTable}}{{APIRef("Performance API")}}
+{{SeeCompatTable}}
 
 The **`sourceURL`** read-only property of the {{domxref("PerformanceScriptTiming")}} interface returns a string representing the URL of the script.
 

@@ -4,9 +4,10 @@ short-title: load()
 slug: Web/API/HTMLMediaElement/load
 page-type: web-api-instance-method
 browser-compat: api.HTMLMediaElement.load
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLMediaElement")}} method
 **`load()`** resets the media element to its initial state and

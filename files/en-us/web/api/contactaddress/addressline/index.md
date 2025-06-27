@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ContactAddress.addressLine
+sidebar:
+  - apiref:
+      - Contact Picker API
 ---
 
-{{securecontext_header}}{{APIRef("Contact Picker API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`addressLine`** read-only property of the {{domxref("ContactAddress")}} interface is an array of strings, each specifying a line of the address that is not covered by one of the other properties of `ContactAddress`. The array may include the street name, the house number, apartment number, the rural delivery route, descriptive instructions, or the post office box.
 

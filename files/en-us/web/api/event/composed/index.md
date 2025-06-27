@@ -4,9 +4,12 @@ short-title: composed
 slug: Web/API/Event/composed
 page-type: web-api-instance-property
 browser-compat: api.Event.composed
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
 
-{{APIRef("Shadow DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`composed`** property of the
 {{domxref("Event")}} interface returns a boolean value which indicates whether

@@ -4,9 +4,10 @@ short-title: removeProperty()
 slug: Web/API/CSSStyleDeclaration/removeProperty
 page-type: web-api-instance-method
 browser-compat: api.CSSStyleDeclaration.removeProperty
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`CSSStyleDeclaration.removeProperty()`** method interface
 removes a property from a CSS style declaration object.

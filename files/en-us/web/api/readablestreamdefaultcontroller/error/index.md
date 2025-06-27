@@ -4,9 +4,12 @@ short-title: error()
 slug: Web/API/ReadableStreamDefaultController/error
 page-type: web-api-instance-method
 browser-compat: api.ReadableStreamDefaultController.error
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`error()`** method of the
 {{domxref("ReadableStreamDefaultController")}} interface causes any future interactions

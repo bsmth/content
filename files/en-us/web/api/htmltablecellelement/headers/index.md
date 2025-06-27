@@ -4,9 +4,10 @@ short-title: headers
 slug: Web/API/HTMLTableCellElement/headers
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableCellElement.headers
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`headers`** property of the {{domxref("HTMLTableCellElement")}} interface
 contains a list of IDs of {{HTMLElement("th")}} elements that are _headers_ for this specific cell.

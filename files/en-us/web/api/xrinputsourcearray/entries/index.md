@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.XRInputSourceArray.entries
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The {{domxref("XRInputSourceArray")}} interface's
 **`entries()`** method returns a JavaScript

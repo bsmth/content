@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/TouchList/length
 page-type: web-api-instance-property
 browser-compat: api.TouchList.length
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The **`length`** read-only property indicates the number of
 items (touch points) in a given {{domxref("TouchList")}}.

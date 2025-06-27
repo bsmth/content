@@ -4,9 +4,10 @@ short-title: devicePixelContentBoxSize
 slug: Web/API/ResizeObserverEntry/devicePixelContentBoxSize
 page-type: web-api-instance-property
 browser-compat: api.ResizeObserverEntry.devicePixelContentBoxSize
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`devicePixelContentBoxSize`** read-only property of
 the {{domxref("ResizeObserverEntry")}} interface returns an array containing the size in device pixels of the observed element when the callback is run.

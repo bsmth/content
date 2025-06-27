@@ -4,9 +4,10 @@ short-title: importStylesheet()
 slug: Web/API/XSLTProcessor/importStylesheet
 page-type: web-api-instance-method
 browser-compat: api.XSLTProcessor.importStylesheet
+sidebar:
+  - apiref:
+      - XSLT
 ---
-
-{{APIRef("XSLT")}}
 
 The `importStylesheet()` method of the {{domxref("XSLTProcessor")}} interface imports an XSLT stylesheet for the processor.
 

@@ -4,9 +4,10 @@ short-title: currentSrc
 slug: Web/API/HTMLMediaElement/currentSrc
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.currentSrc
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.currentSrc`** property contains the
 absolute URL of the chosen media resource. This could happen, for example, if the web

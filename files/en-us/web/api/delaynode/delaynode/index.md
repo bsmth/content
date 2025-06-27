@@ -4,9 +4,10 @@ short-title: DelayNode()
 slug: Web/API/DelayNode/DelayNode
 page-type: web-api-constructor
 browser-compat: api.DelayNode.DelayNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`DelayNode()`**
 constructor of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API)

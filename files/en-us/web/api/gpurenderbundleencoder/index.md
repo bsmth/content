@@ -3,9 +3,12 @@ title: GPURenderBundleEncoder
 slug: Web/API/GPURenderBundleEncoder
 page-type: web-api-interface
 browser-compat: api.GPURenderBundleEncoder
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPURenderBundleEncoder`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} is used to pre-record bundles of commands.
 

@@ -4,9 +4,12 @@ short-title: width
 slug: Web/API/TextMetrics/width
 page-type: web-api-instance-property
 browser-compat: api.TextMetrics.width
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`width`** property of the {{domxref("TextMetrics")}} interface contains the text's advance width (the width of that inline box) in CSS pixels.
 

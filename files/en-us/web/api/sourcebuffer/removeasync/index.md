@@ -7,9 +7,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.SourceBuffer.removeAsync
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}{{Non-standard_Header}}{{SeeCompatTable}}
+{{Non-standard_Header}}{{SeeCompatTable}}
 
 The **`removeAsync()`** method of the
 {{domxref("SourceBuffer")}} interface starts the process of asynchronously removing

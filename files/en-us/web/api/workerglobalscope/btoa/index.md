@@ -4,9 +4,10 @@ short-title: btoa()
 slug: Web/API/WorkerGlobalScope/btoa
 page-type: web-api-instance-method
 browser-compat: api.btoa
+sidebar:
+  - apiref:
+      - HTML DOM")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("HTML DOM")}}{{AvailableInWorkers("worker")}}
 
 The **`btoa()`** method of the {{domxref("WorkerGlobalScope")}} interface creates a {{glossary("Base64")}}-encoded {{Glossary("ASCII")}} string from a _binary string_ (i.e., a string in which each character in the string is treated as a byte of binary data).
 

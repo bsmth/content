@@ -4,9 +4,10 @@ short-title: setCurrentTime()
 slug: Web/API/SVGSVGElement/setCurrentTime
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.setCurrentTime
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `setCurrentTime()` method of the {{domxref("SVGSVGElement")}} interface adjusts the clock for this SVG document fragment, establishing a new current time.
 

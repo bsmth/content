@@ -4,9 +4,10 @@ short-title: setAttributeNS()
 slug: Web/API/Element/setAttributeNS
 page-type: web-api-instance-method
 browser-compat: api.Element.setAttributeNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 `setAttributeNS` adds a new attribute or changes the value of an attribute
 with the given namespace and name.

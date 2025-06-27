@@ -4,9 +4,10 @@ short-title: stdDeviationX
 slug: Web/API/SVGFEDropShadowElement/stdDeviationX
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDropShadowElement.stdDeviationX
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`stdDeviationX`** read-only property of the {{domxref("SVGFEDropShadowElement")}} interface reflects the (possibly automatically computed) X component of the {{SVGAttr("stdDeviation")}} attribute of the given {{SVGElement("feDropShadow")}} element.
 

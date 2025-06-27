@@ -4,9 +4,10 @@ short-title: clipboardData
 slug: Web/API/ClipboardEvent/clipboardData
 page-type: web-api-instance-property
 browser-compat: api.ClipboardEvent.clipboardData
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
-
-{{APIRef("Clipboard API")}}
 
 The **`clipboardData`** property of the {{domxref("ClipboardEvent")}} interface holds a {{domxref("DataTransfer")}} object, which can be used to:
 

@@ -4,9 +4,10 @@ short-title: matches
 slug: Web/API/MediaQueryListEvent/matches
 page-type: web-api-instance-property
 browser-compat: api.MediaQueryListEvent.matches
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`matches`** read-only property of the
 {{DOMxRef("MediaQueryListEvent")}} interface is a boolean value that is

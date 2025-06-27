@@ -3,9 +3,12 @@ title: WakeLock
 slug: Web/API/WakeLock
 page-type: web-api-interface
 browser-compat: api.WakeLock
+sidebar:
+  - apiref:
+      - Screen Wake Lock API
 ---
 
-{{APIRef("Screen Wake Lock API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`WakeLock`** interface of the [Screen Wake Lock API](/en-US/docs/Web/API/Screen_Wake_Lock_API) can be used to request a lock that prevents device screens from dimming or locking when an application needs to keep running.
 

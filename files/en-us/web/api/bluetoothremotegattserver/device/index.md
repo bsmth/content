@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.BluetoothRemoteGATTServer.device
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`BluetoothRemoteGATTServer.device`** read-only property
 returns a reference to the {{domxref("BluetoothDevice")}} running the server.

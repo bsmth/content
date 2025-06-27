@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/HTMLIFrameElement/height
 page-type: web-api-instance-property
 browser-compat: api.HTMLIFrameElement.height
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`height`** property of the {{domxref("HTMLIFrameElement")}} interface returns a string that reflects the `height` attribute of the {{HTMLElement("iframe")}} element, indicating the height of the frame in CSS pixels.
 

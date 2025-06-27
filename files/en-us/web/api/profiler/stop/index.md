@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Profiler.stop
+sidebar:
+  - apiref:
+      - JS Self-Profiling API
 ---
 
-{{APIRef("JS Self-Profiling API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`stop()`** method of the {{domxref("Profiler")}} interface stops the profiler and returns a {{jsxref("Promise")}} which resolves to the profile itself.
 

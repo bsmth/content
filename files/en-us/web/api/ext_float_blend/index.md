@@ -4,9 +4,10 @@ short-title: EXT_float_blend
 slug: Web/API/EXT_float_blend
 page-type: webgl-extension
 browser-compat: api.EXT_float_blend
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The [WebGL API](/en-US/docs/Web/API/WebGL_API)'s `EXT_float_blend` extension allows blending and draw buffers with 32-bit floating-point components.
 

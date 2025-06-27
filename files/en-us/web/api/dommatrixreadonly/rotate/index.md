@@ -4,9 +4,12 @@ short-title: rotate()
 slug: Web/API/DOMMatrixReadOnly/rotate
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.rotate
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `rotate()` method of the {{domxref("DOMMatrixReadOnly")}} interface returns a new {{domxref("DOMMatrix")}} created by rotating the source matrix around each of its axes by the specified number of degrees. The original matrix is not altered.
 

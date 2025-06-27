@@ -4,9 +4,12 @@ short-title: release()
 slug: Web/API/WakeLockSentinel/release
 page-type: web-api-instance-method
 browser-compat: api.WakeLockSentinel.release
+sidebar:
+  - apiref:
+      - Screen Wake Lock API
 ---
 
-{{APIRef("Screen Wake Lock API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`release()`** method of the {{domxref("WakeLockSentinel")}} interface releases the {{domxref("WakeLockSentinel")}}, returning a {{jsxref("Promise")}} that is resolved once the sentinel has been successfully released.
 

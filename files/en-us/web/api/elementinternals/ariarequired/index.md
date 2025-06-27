@@ -4,9 +4,10 @@ short-title: ariaRequired
 slug: Web/API/ElementInternals/ariaRequired
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaRequired
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaRequired`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-required`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-required) attribute, which indicates that user input is required on the element before a form may be submitted.
 

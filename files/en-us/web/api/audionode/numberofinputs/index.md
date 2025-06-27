@@ -4,9 +4,10 @@ short-title: numberOfInputs
 slug: Web/API/AudioNode/numberOfInputs
 page-type: web-api-instance-property
 browser-compat: api.AudioNode.numberOfInputs
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `numberOfInputs` property of
 the {{domxref("AudioNode")}} interface returns the number of inputs feeding the

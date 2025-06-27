@@ -4,9 +4,12 @@ short-title: error()
 slug: Web/API/ReadableByteStreamController/error
 page-type: web-api-instance-method
 browser-compat: api.ReadableByteStreamController.error
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`error()`** method of the {{domxref("ReadableByteStreamController")}} interface causes any future interactions with the associated stream to error with the specified reason.
 

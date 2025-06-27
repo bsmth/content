@@ -4,9 +4,10 @@ short-title: cx
 slug: Web/API/SVGCircleElement/cx
 page-type: web-api-instance-property
 browser-compat: api.SVGCircleElement.cx
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`cx`** read-only property of the {{domxref("SVGCircleElement")}} interface reflects the {{SVGAttr("cx")}} attribute of a {{SVGElement("circle")}} element and by that defines the x-coordinate of the circle's center.<
 

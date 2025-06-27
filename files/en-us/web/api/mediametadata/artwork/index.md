@@ -4,9 +4,10 @@ short-title: artwork
 slug: Web/API/MediaMetadata/artwork
 page-type: web-api-instance-property
 browser-compat: api.MediaMetadata.artwork
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`artwork`** property of the
 {{domxref("MediaMetadata")}} interface returns or sets an array of

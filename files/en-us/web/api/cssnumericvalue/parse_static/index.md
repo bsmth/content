@@ -4,9 +4,10 @@ short-title: parse()
 slug: Web/API/CSSNumericValue/parse_static
 page-type: web-api-static-method
 browser-compat: api.CSSNumericValue.parse_static
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`parse()`** static method of the
 {{domxref("CSSNumericValue")}} interface converts a value string into an object whose

@@ -4,9 +4,10 @@ short-title: dx
 slug: Web/API/SVGFEDropShadowElement/dx
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDropShadowElement.dx
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`dx`** read-only property of the {{domxref("SVGFEDropShadowElement")}} interface reflects the {{SVGAttr("dx")}} attribute of the given {{SVGElement("feDropShadow")}} element.
 

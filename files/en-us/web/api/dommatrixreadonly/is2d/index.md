@@ -4,9 +4,12 @@ short-title: is2D
 slug: Web/API/DOMMatrixReadOnly/is2D
 page-type: web-api-instance-property
 browser-compat: api.DOMMatrixReadOnly.is2D
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The readonly **`is2D`** property of the {{domxref("DOMMatrixReadOnly")}} interface is a Boolean flag that is `true` when the matrix is 2D. The value is `true` if the matrix was initialized as a 2D matrix and only 2D transformation operations were applied. Otherwise, the matrix is defined in 3D, and `is2D` is `false`.
 

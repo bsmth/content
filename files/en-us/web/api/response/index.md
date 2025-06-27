@@ -3,9 +3,12 @@ title: Response
 slug: Web/API/Response
 page-type: web-api-interface
 browser-compat: api.Response
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Response`** interface of the [Fetch API](/en-US/docs/Web/API/Fetch_API) represents the response to a request.
 

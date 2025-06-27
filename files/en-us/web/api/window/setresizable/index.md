@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Window.setResizable
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{deprecated_header}}{{non-standard_header}}
+{{deprecated_header}}{{non-standard_header}}
 
 This method does nothing; it is a no-op. It is solely kept for compatibility with Netscape 4.x.
 

@@ -4,9 +4,8 @@ short-title: textBaseline
 slug: Web/API/CanvasRenderingContext2D/textBaseline
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.textBaseline
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.textBaseline`**

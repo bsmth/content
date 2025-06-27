@@ -3,9 +3,10 @@ title: VideoPlaybackQuality
 slug: Web/API/VideoPlaybackQuality
 page-type: web-api-interface
 browser-compat: api.VideoPlaybackQuality
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 A **`VideoPlaybackQuality`** object is returned by the {{domxref("HTMLVideoElement.getVideoPlaybackQuality()")}} method and contains metrics that can be used to determine the playback quality of a video.
 

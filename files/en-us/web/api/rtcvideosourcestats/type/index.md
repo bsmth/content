@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCVideoSourceStats/type
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_media-source.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`type`** property of the {{domxref("RTCVideoSourceStats")}} dictionary is a string with value `media-source`.
 

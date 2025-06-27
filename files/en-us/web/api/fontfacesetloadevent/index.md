@@ -3,9 +3,12 @@ title: FontFaceSetLoadEvent
 slug: Web/API/FontFaceSetLoadEvent
 page-type: web-api-interface
 browser-compat: api.FontFaceSetLoadEvent
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FontFaceSetLoadEvent`** interface of the [CSS Font Loading API](/en-US/docs/Web/API/CSS_Font_Loading_API) represents events fired at a {{domxref("FontFaceSet")}} after it starts loading font faces.
 

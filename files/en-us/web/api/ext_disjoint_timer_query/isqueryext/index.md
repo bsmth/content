@@ -4,9 +4,10 @@ short-title: isQueryEXT()
 slug: Web/API/EXT_disjoint_timer_query/isQueryEXT
 page-type: webgl-extension-method
 browser-compat: api.EXT_disjoint_timer_query.isQueryEXT
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`EXT_disjoint_timer_query.isQueryEXT()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) returns `true` if the

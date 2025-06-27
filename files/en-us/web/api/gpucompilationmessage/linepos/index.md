@@ -4,9 +4,12 @@ short-title: linePos
 slug: Web/API/GPUCompilationMessage/linePos
 page-type: web-api-instance-property
 browser-compat: api.GPUCompilationMessage.linePos
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`linePos`** read-only property of the
 {{domxref("GPUCompilationMessage")}} interface is a number representing the position in the code line that the message corresponds to. This could be an exact point, or the start of the relevant substring.

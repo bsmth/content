@@ -4,9 +4,8 @@ short-title: transitioncancel
 slug: Web/API/Element/transitioncancel_event
 page-type: web-api-event
 browser-compat: api.Element.transitioncancel_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`transitioncancel`** event is fired when a [CSS transition](/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions) is canceled.
 

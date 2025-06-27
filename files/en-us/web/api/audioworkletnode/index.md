@@ -3,9 +3,12 @@ title: AudioWorkletNode
 slug: Web/API/AudioWorkletNode
 page-type: web-api-interface
 browser-compat: api.AudioWorkletNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 > [!NOTE]
 > Although the interface is available outside [secure contexts](/en-US/docs/Web/Security/Secure_Contexts), the {{domxref("BaseAudioContext.audioWorklet")}} property is not, thus custom {{domxref("AudioWorkletProcessor")}}s cannot be defined outside them.

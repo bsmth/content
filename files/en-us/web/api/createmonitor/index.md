@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.CreateMonitor
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`CreateMonitor`** interface provides information on the progress of an AI model download or some fine-tuning data for the model.
 

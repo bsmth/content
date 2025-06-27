@@ -4,9 +4,10 @@ short-title: transform
 slug: Web/API/SVGClipPathElement/transform
 page-type: web-api-instance-property
 browser-compat: api.SVGClipPathElement.transform
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The read-only **`transform`** property of the {{domxref("SVGClipPathElement")}} interface reflects the {{SVGAttr("transform")}} attribute of a {{SVGElement("clipPath")}} element, that is a list of transformations applied to the element.
 

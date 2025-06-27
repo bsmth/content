@@ -4,9 +4,10 @@ short-title: readyState
 slug: Web/API/RTCDataChannel/readyState
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.readyState
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only `RTCDataChannel` property **`readyState`** returns a string which indicates the state of the data channel's underlying data connection.
 

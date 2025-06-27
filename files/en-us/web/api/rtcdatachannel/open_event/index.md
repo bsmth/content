@@ -4,9 +4,10 @@ short-title: open
 slug: Web/API/RTCDataChannel/open_event
 page-type: web-api-event
 browser-compat: api.RTCDataChannel.open_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The WebRTC **`open`** event is sent to an {{domxref("RTCDataChannel")}} object's `onopen` event handler when the underlying transport used to send and receive the data channel's messages is opened or reopened.
 

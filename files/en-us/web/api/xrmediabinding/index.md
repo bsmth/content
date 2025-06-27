@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.XRMediaBinding
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}} {{secureContext_header}}{{SeeCompatTable}}
+{{secureContext_header}}{{SeeCompatTable}}
 
 The **`XRMediaBinding`** interface is used to create layers that display the content of an {{domxref("HTMLVideoElement")}}.
 

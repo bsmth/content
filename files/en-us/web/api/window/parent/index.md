@@ -4,9 +4,8 @@ short-title: parent
 slug: Web/API/Window/parent
 page-type: web-api-instance-property
 browser-compat: api.Window.parent
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.parent`** property is a reference to the parent
 of the current window or subframe.

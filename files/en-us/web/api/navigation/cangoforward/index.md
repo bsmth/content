@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Navigation.canGoForward
+sidebar:
+  - apiref:
+      - Navigation API
 ---
 
-{{APIRef("Navigation API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`canGoForward`** read-only property of the
 {{domxref("Navigation")}} interface returns `true` if it is possible to navigate forwards in the navigation history

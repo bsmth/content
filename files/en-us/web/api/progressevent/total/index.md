@@ -4,9 +4,12 @@ short-title: total
 slug: Web/API/ProgressEvent/total
 page-type: web-api-instance-property
 browser-compat: api.ProgressEvent.total
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ProgressEvent.total`** read-only property is a number indicating the total size of the data being transmitted or processed.
 

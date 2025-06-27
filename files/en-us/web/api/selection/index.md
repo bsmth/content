@@ -3,9 +3,10 @@ title: Selection
 slug: Web/API/Selection
 page-type: web-api-interface
 browser-compat: api.Selection
+sidebar:
+  - apiref:
+      - Selection API
 ---
-
-{{ApiRef("Selection API")}}
 
 A **`Selection`** object represents the range of text selected by the user or the current position of the caret. Each {{domxref("document")}} is associated with a unique selection object, which can be retrieved by {{DOMxRef("document.getSelection()")}} or {{domxref("window.getSelection()")}} and then be examined and modified.
 

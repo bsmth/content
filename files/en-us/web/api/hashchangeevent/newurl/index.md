@@ -4,9 +4,10 @@ short-title: newURL
 slug: Web/API/HashChangeEvent/newURL
 page-type: web-api-instance-property
 browser-compat: api.HashChangeEvent.newURL
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`newURL`** read-only property of the
 {{domxref("HashChangeEvent")}} interface returns the new URL to which the window is

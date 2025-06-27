@@ -3,9 +3,10 @@ title: CSSScopeRule
 slug: Web/API/CSSScopeRule
 page-type: web-api-interface
 browser-compat: api.CSSScopeRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`CSSScopeRule`** interface of the [CSS Object Model](/en-US/docs/Web/API/CSS_Object_Model) represents a CSS {{CSSxRef("@scope")}} at-rule.
 

@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.VRDisplayCapabilities.maxLayers
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{APIRef("WebVR API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`maxLayers`** read-only property of the {{domxref("VRDisplayCapabilities")}} interface returns a number indicating the maximum number of {{domxref("VRLayerInit")}}s that the VR display can present at once (e.g., the maximum length of the array that {{domxref("VRDisplay.requestPresent()")}} can accept.)
 

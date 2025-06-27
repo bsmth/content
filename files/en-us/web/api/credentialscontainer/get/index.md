@@ -4,9 +4,12 @@ short-title: get()
 slug: Web/API/CredentialsContainer/get
 page-type: web-api-instance-method
 browser-compat: api.CredentialsContainer.get
+sidebar:
+  - apiref:
+      - Credential Management API
 ---
 
-{{APIRef("Credential Management API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`get()`** method of the {{domxref("CredentialsContainer")}} interface returns a {{jsxref("Promise")}} that fulfills with a single {{glossary("credential")}}, which can then be used to authenticate a user to a website.
 

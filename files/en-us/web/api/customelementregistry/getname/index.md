@@ -4,9 +4,10 @@ short-title: getName()
 slug: Web/API/CustomElementRegistry/getName
 page-type: web-api-instance-method
 browser-compat: api.CustomElementRegistry.getName
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`getName()`** method of the
 {{domxref("CustomElementRegistry")}} interface returns the name for a

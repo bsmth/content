@@ -4,9 +4,10 @@ short-title: appendMedium()
 slug: Web/API/MediaList/appendMedium
 page-type: web-api-instance-method
 browser-compat: api.MediaList.appendMedium
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The `appendMedium()` method of the {{DomxRef("MediaList")}} interface adds a media query to the list. If the media query is already in the collection, this method does nothing.
 

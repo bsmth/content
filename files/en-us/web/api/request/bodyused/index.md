@@ -4,9 +4,12 @@ short-title: bodyUsed
 slug: Web/API/Request/bodyUsed
 page-type: web-api-instance-property
 browser-compat: api.Request.bodyUsed
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`bodyUsed`** read-only property of the
 {{domxref("Request")}} interface is a boolean value that indicates

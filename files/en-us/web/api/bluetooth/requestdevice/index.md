@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Bluetooth.requestDevice
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`Bluetooth.requestDevice()`** method of the {{domxref("Bluetooth")}} interface returns a {{jsxref("Promise")}} that fulfills with a {{domxref("BluetoothDevice")}} object matching the specified options.
 If there is no chooser UI, this method returns the first device matching the criteria.

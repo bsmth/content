@@ -4,9 +4,10 @@ short-title: form
 slug: Web/API/HTMLOptionElement/form
 page-type: web-api-instance-property
 browser-compat: api.HTMLOptionElement.form
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`form`** read-only property of the {{domxref("HTMLOptionElement")}} interface returns an {{domxref("HTMLFormElement")}} object that owns the {{domxref("HTMLSelectElement")}} associated with this {{htmlelement("option")}}, or `null` if this option is not associated with a {{htmlelement("select")}} owned by a form.
 

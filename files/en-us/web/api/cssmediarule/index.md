@@ -3,9 +3,10 @@ title: CSSMediaRule
 slug: Web/API/CSSMediaRule
 page-type: web-api-interface
 browser-compat: api.CSSMediaRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`CSSMediaRule`** interface represents a single CSS {{cssxref("@media")}} rule.
 

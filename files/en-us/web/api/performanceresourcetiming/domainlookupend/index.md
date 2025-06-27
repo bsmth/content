@@ -4,9 +4,12 @@ short-title: domainLookupEnd
 slug: Web/API/PerformanceResourceTiming/domainLookupEnd
 page-type: web-api-instance-property
 browser-compat: api.PerformanceResourceTiming.domainLookupEnd
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`domainLookupEnd`** read-only property returns the {{domxref("DOMHighResTimeStamp","timestamp")}} immediately after the browser finishes the domain-name lookup for the resource.
 

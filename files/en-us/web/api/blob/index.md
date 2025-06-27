@@ -3,9 +3,12 @@ title: Blob
 slug: Web/API/Blob
 page-type: web-api-interface
 browser-compat: api.Blob
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Blob`** interface represents a blob, which is a file-like object of immutable, raw data; they can be read as text or binary data, or converted into a {{DOMxRef("ReadableStream")}} so its methods can be used for processing the data.
 

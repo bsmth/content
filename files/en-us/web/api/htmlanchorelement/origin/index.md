@@ -4,9 +4,10 @@ short-title: origin
 slug: Web/API/HTMLAnchorElement/origin
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.origin
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`origin`** read-only property of the {{domxref("HTMLAnchorElement")}} interface returns a string containing the Unicode serialization of the origin of the `<a>` element's `href`.
 

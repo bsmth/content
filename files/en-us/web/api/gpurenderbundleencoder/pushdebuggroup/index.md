@@ -4,9 +4,12 @@ short-title: pushDebugGroup()
 slug: Web/API/GPURenderBundleEncoder/pushDebugGroup
 page-type: web-api-instance-method
 browser-compat: api.GPURenderBundleEncoder.pushDebugGroup
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`pushDebugGroup()`** method of the
 {{domxref("GPURenderBundleEncoder")}} interface begins a render bundle debug group, which is marked with a specified label, and will contain all subsequent encoded commands up until a {{domxref("GPURenderBundleEncoder.popDebugGroup", "popDebugGroup()")}} method is invoked.

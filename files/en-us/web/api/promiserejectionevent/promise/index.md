@@ -4,9 +4,12 @@ short-title: promise
 slug: Web/API/PromiseRejectionEvent/promise
 page-type: web-api-instance-property
 browser-compat: api.PromiseRejectionEvent.promise
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The {{domxref("PromiseRejectionEvent")}} interface's
 **`promise`** read-only property indicates the JavaScript

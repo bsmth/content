@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - deprecated
 browser-compat: api.SVGRenderingIntent
+sidebar:
+  - apiref:
+      - SVG
 ---
 
-{{APIRef("SVG")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`SVGRenderingIntent`** interface defines the enumerated list of possible values for {{SVGAttr("rendering-intent")}} attributes or descriptors.
 

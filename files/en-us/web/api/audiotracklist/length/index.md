@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/AudioTrackList/length
 page-type: web-api-instance-property
 browser-compat: api.AudioTrackList.length
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **{{domxref("AudioTrackList")}}**
 property **`length`** returns the number of entries in the

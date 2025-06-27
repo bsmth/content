@@ -7,9 +7,12 @@ status:
   - experimental
 browser-compat: api.KeyboardLayoutMap.size
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-map.prototype.size
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{SeeCompatTable}}{{APIRef("Keyboard API")}}
+{{SeeCompatTable}}
 
 The **`size`** read-only property of
 the {{domxref("KeyboardLayoutMap")}} interface returns the number of elements in the

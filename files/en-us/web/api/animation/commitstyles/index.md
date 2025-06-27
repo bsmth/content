@@ -4,9 +4,10 @@ short-title: commitStyles()
 slug: Web/API/Animation/commitStyles
 page-type: web-api-instance-method
 browser-compat: api.Animation.commitStyles
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The `commitStyles()` method of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API)'s {{domxref("Animation")}} interface writes the [computed values](/en-US/docs/Web/CSS/CSS_cascade/Value_processing#computed_value) of the animation's current styles into its target element's [`style`](/en-US/docs/Web/HTML/Reference/Global_attributes/style) attribute. `commitStyles()` works even if the animation has been [automatically removed](/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API#automatically_removing_filling_animations).
 

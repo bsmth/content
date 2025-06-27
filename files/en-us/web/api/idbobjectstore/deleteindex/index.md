@@ -4,9 +4,12 @@ short-title: deleteIndex()
 slug: Web/API/IDBObjectStore/deleteIndex
 page-type: web-api-instance-method
 browser-compat: api.IDBObjectStore.deleteIndex
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`deleteIndex()`** method of the
 {{domxref("IDBObjectStore")}} interface destroys the index with the specified name in

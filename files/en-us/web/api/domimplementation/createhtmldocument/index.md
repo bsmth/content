@@ -4,9 +4,10 @@ short-title: createHTMLDocument()
 slug: Web/API/DOMImplementation/createHTMLDocument
 page-type: web-api-instance-method
 browser-compat: api.DOMImplementation.createHTMLDocument
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The
 **`DOMImplementation.createHTMLDocument()`** method creates a

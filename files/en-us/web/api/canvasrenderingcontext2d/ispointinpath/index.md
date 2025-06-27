@@ -4,9 +4,8 @@ short-title: isPointInPath()
 slug: Web/API/CanvasRenderingContext2D/isPointInPath
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.isPointInPath
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.isPointInPath()`**

@@ -4,9 +4,8 @@ short-title: moveTo()
 slug: Web/API/CanvasRenderingContext2D/moveTo
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.moveTo
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.moveTo()`**

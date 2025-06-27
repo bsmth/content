@@ -4,9 +4,8 @@ short-title: beforeunload
 slug: Web/API/Window/beforeunload_event
 page-type: web-api-event
 browser-compat: api.Window.beforeunload_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`beforeunload`** event is fired when the current window, contained document, and associated resources are about to be unloaded. The document is still visible and the event is still cancelable at this point.
 

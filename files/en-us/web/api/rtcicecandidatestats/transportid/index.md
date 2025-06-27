@@ -4,9 +4,10 @@ short-title: transportId
 slug: Web/API/RTCIceCandidateStats/transportId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.transportId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`transportId`** property of the {{domxref("RTCIceCandidateStats")}} dictionary is a string that uniquely identifies the transport that produced the {{domxref("RTCTransportStats")}} from which information about this candidate was taken.
 

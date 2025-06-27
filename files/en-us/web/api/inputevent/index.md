@@ -3,9 +3,10 @@ title: InputEvent
 slug: Web/API/InputEvent
 page-type: web-api-interface
 browser-compat: api.InputEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`InputEvent`** interface represents an event notifying the user of editable content changes.
 

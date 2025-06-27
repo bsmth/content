@@ -4,9 +4,10 @@ short-title: popoverTargetElement
 slug: Web/API/HTMLInputElement/popoverTargetElement
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.popoverTargetElement
+sidebar:
+  - apiref:
+      - Popover API
 ---
-
-{{APIRef("Popover API")}}
 
 The **`popoverTargetElement`** property of the {{domxref("HTMLInputElement")}} interface gets and sets the popover element to control via an {{htmlelement("input")}} element of `type="button"`.
 

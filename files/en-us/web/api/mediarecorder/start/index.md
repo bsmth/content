@@ -4,9 +4,10 @@ short-title: start()
 slug: Web/API/MediaRecorder/start
 page-type: web-api-instance-method
 browser-compat: api.MediaRecorder.start
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`start()`** method of the {{domxref("MediaRecorder")}} interface begins recording media into one or more {{domxref("Blob")}} objects.
 

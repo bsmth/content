@@ -4,9 +4,8 @@ short-title: roundRect()
 slug: Web/API/CanvasRenderingContext2D/roundRect
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.roundRect
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.roundRect()`** method of the Canvas 2D API adds a rounded rectangle to the current path.
 

@@ -4,9 +4,10 @@ short-title: setEndAfter()
 slug: Web/API/Range/setEndAfter
 page-type: web-api-instance-method
 browser-compat: api.Range.setEndAfter
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.setEndAfter()`** method sets the end position of a
 {{domxref("Range")}} relative to another {{domxref("Node")}}. The parent

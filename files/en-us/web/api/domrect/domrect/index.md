@@ -4,9 +4,12 @@ short-title: DOMRect()
 slug: Web/API/DOMRect/DOMRect
 page-type: web-api-constructor
 browser-compat: api.DOMRect.DOMRect
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMRect()`** constructor creates a new {{domxref("DOMRect")}} object.
 

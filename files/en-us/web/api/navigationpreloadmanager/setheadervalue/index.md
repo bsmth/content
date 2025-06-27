@@ -4,9 +4,12 @@ short-title: setHeaderValue()
 slug: Web/API/NavigationPreloadManager/setHeaderValue
 page-type: web-api-instance-method
 browser-compat: api.NavigationPreloadManager.setHeaderValue
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`setHeaderValue()`** method of the {{domxref("NavigationPreloadManager")}} interface sets the value of the {{HTTPHeader("Service-Worker-Navigation-Preload")}} header that will be sent with requests resulting from a {{domxref("Window/fetch", "fetch()")}} operation made during service worker navigation preloading.
 It returns an empty {{jsxref("Promise")}} that resolves with `undefined`.

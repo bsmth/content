@@ -4,9 +4,12 @@ short-title: bindBuffer()
 slug: Web/API/WebGLRenderingContext/bindBuffer
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.bindBuffer
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.bindBuffer()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) binds a given
 {{domxref("WebGLBuffer")}} to a target.

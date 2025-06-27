@@ -4,9 +4,10 @@ short-title: matrix
 slug: Web/API/SVGTransform/matrix
 page-type: web-api-instance-property
 browser-compat: api.SVGTransform.matrix
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`matrix`** read-only property of the {{domxref("SVGTransform")}} interface represents the transformation matrix that corresponds to the transformation `type`.
 

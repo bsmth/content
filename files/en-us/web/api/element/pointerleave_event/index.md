@@ -4,9 +4,8 @@ short-title: pointerleave
 slug: Web/API/Element/pointerleave_event
 page-type: web-api-event
 browser-compat: api.Element.pointerleave_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `pointerleave` event is fired when a pointing device is moved out of the hit test boundaries of an element. For pen devices, this event is fired when the stylus leaves the hover range detectable by the digitizer. Otherwise, `pointerleave` works the same as {{domxref("Element/mouseleave_event", "mouseleave")}}, and are dispatched at the same time. They are also dispatched at the same time as {{domxref("Element/mouseout_event", "mouseout")}} and {{domxref("Element/pointerout_event", "pointerout")}} events, if appropriate.
 

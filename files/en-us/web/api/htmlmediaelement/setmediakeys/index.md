@@ -4,9 +4,12 @@ short-title: setMediaKeys()
 slug: Web/API/HTMLMediaElement/setMediaKeys
 page-type: web-api-instance-method
 browser-compat: api.HTMLMediaElement.setMediaKeys
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`setMediaKeys()`** method of the {{domxref("HTMLMediaElement")}} interface sets the {{domxref("MediaKeys")}} that will be used to decrypt media during playback.
 

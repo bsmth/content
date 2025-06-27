@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Keyboard.unlock
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{APIRef("Keyboard API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`unlock()`** method of the
 {{domxref("Keyboard")}} interface unlocks all keys captured by the

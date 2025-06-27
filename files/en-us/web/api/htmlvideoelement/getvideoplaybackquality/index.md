@@ -4,9 +4,10 @@ short-title: getVideoPlaybackQuality()
 slug: Web/API/HTMLVideoElement/getVideoPlaybackQuality
 page-type: web-api-instance-method
 browser-compat: api.HTMLVideoElement.getVideoPlaybackQuality
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **{{domxref("HTMLVideoElement")}}** method
 **`getVideoPlaybackQuality()`** creates and returns a

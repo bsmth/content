@@ -3,9 +3,10 @@ title: CryptoKeyPair
 slug: Web/API/CryptoKeyPair
 page-type: web-api-interface
 spec-urls: https://w3c.github.io/webcrypto/#keypair
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
-
-{{APIRef("Web Crypto API")}}
 
 The **`CryptoKeyPair`** dictionary of the [Web Crypto API](/en-US/docs/Web/API/Web_Crypto_API) represents a key pair for an asymmetric cryptography algorithm, also known as a public-key algorithm.
 

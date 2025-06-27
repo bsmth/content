@@ -3,9 +3,12 @@ title: LinearAccelerationSensor
 slug: Web/API/LinearAccelerationSensor
 page-type: web-api-interface
 browser-compat: api.LinearAccelerationSensor
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`LinearAccelerationSensor`** interface of the [Sensor APIs](/en-US/docs/Web/API/Sensor_APIs) provides on each reading the acceleration applied to the device along all three axes, but without the contribution of gravity.
 

@@ -4,9 +4,10 @@ short-title: sentAlert
 slug: Web/API/RTCError/sentAlert
 page-type: web-api-instance-property
 browser-compat: api.RTCError.sentAlert
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`sentAlert`** property in an
 {{domxref("RTCError")}} object specifies the {{Glossary("DTLS")}} alert number occurred

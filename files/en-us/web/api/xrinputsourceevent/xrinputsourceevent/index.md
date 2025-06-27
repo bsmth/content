@@ -4,9 +4,12 @@ short-title: XRInputSourceEvent()
 slug: Web/API/XRInputSourceEvent/XRInputSourceEvent
 page-type: web-api-constructor
 browser-compat: api.XRInputSourceEvent.XRInputSourceEvent
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`XRInputSourceEvent()`**
 constructor creates and returns a new {{domxref("XRInputSourceEvent")}} object

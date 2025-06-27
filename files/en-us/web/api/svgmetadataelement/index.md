@@ -3,9 +3,10 @@ title: SVGMetadataElement
 slug: Web/API/SVGMetadataElement
 page-type: web-api-interface
 browser-compat: api.SVGMetadataElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGMetadataElement`** interface corresponds to the {{SVGElement("metadata")}} element.
 

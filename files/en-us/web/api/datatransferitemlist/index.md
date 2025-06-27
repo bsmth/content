@@ -3,9 +3,10 @@ title: DataTransferItemList
 slug: Web/API/DataTransferItemList
 page-type: web-api-interface
 browser-compat: api.DataTransferItemList
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransferItemList`** object is a list of {{domxref("DataTransferItem")}} objects representing items being dragged. During a _drag operation_, each {{domxref("DragEvent")}} has a {{domxref("DragEvent.dataTransfer","dataTransfer")}} property and that property is a `DataTransferItemList`.
 

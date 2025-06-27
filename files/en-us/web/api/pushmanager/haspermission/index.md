@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.PushManager.hasPermission
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{ApiRef("Push API")}}{{deprecated_header}}{{non-standard_header}}{{AvailableInWorkers}}
+{{deprecated_header}}{{non-standard_header}}{{AvailableInWorkers}}
 
 The **`PushManager.hasPermission()`** method of the {{domxref("PushManager")}} interface returns a {{jsxref("Promise")}} that resolves to the `PushPermissionStatus` of the requesting webapp, which will be one of `granted`, `denied`, or `default`.
 

@@ -4,9 +4,12 @@ short-title: AbortController()
 slug: Web/API/AbortController/AbortController
 page-type: web-api-constructor
 browser-compat: api.AbortController.AbortController
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`AbortController()`** constructor creates a new {{domxref("AbortController")}} object instance.
 

@@ -4,9 +4,10 @@ short-title: relatedTarget
 slug: Web/API/FocusEvent/relatedTarget
 page-type: web-api-instance-property
 browser-compat: api.FocusEvent.relatedTarget
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`relatedTarget`** read-only property of the {{domxref("FocusEvent")}} interface is the secondary target, depending on the type of event:
 

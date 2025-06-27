@@ -4,9 +4,12 @@ short-title: navigationPreload
 slug: Web/API/ServiceWorkerRegistration/navigationPreload
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerRegistration.navigationPreload
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`navigationPreload`** read-only property of the {{domxref("ServiceWorkerRegistration")}} interface returns the {{domxref("NavigationPreloadManager")}} associated with the current service worker registration.
 

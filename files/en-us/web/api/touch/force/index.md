@@ -4,9 +4,10 @@ short-title: force
 slug: Web/API/Touch/force
 page-type: web-api-instance-property
 browser-compat: api.Touch.force
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The **`Touch.force`** read-only property returns the amount of
 pressure the user is applying to the touch surface for a {{ domxref("Touch") }} point.

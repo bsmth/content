@@ -4,9 +4,12 @@ short-title: y
 slug: Web/API/DOMRectReadOnly/y
 page-type: web-api-instance-property
 browser-compat: api.DOMRectReadOnly.y
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`y`** read-only property of the **`DOMRectReadOnly`** interface represents the y coordinate of the `DOMRect`'s origin.
 

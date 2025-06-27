@@ -4,9 +4,10 @@ short-title: resize
 slug: Web/API/HTMLVideoElement/resize_event
 page-type: web-api-event
 browser-compat: api.HTMLVideoElement.resize_event
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`resize`** event of the {{domxref("HTMLVideoElement")}} interface fires when one or both of the {{domxref("HTMLVideoElement.videoWidth", "videoWidth")}} and {{domxref("HTMLVideoElement.videoHeight", "videoHeight")}} properties have just been updated.
 

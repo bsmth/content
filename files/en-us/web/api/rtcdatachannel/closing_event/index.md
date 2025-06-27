@@ -4,9 +4,10 @@ short-title: closing
 slug: Web/API/RTCDataChannel/closing_event
 page-type: web-api-event
 browser-compat: api.RTCDataChannel.closing_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`closing`** event is sent to an {{domxref("RTCDataChannel")}} just before the channel begins the process of shutting down its underlying data transport.
 

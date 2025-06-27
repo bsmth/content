@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.CSSPrimitiveValue.getRGBColorValue
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`getRGBColorValue()`** method of the
 {{domxref("CSSPrimitiveValue")}} interface is used to get an RGB color value. If this

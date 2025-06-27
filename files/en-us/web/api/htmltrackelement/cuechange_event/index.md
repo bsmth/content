@@ -4,9 +4,10 @@ short-title: cuechange
 slug: Web/API/HTMLTrackElement/cuechange_event
 page-type: web-api-event
 browser-compat: api.HTMLTrackElement.cuechange_event
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`cuechange`** event fires when a {{domxref("TextTrack")}} has changed the currently displaying cues. The event is fired on both the `TextTrack` and the {{domxref("HTMLTrackElement")}} in which it's being presented, if any.
 

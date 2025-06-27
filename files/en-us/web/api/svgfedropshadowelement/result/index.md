@@ -4,9 +4,10 @@ short-title: result
 slug: Web/API/SVGFEDropShadowElement/result
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDropShadowElement.result
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`result`** read-only property of the {{domxref("SVGFEDropShadowElement")}} interface describes the assigned name of an SVG filter primitive as a {{domxref("SVGAnimatedString")}}.
 

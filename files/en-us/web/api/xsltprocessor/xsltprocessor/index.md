@@ -4,9 +4,10 @@ short-title: XSLTProcessor()
 slug: Web/API/XSLTProcessor/XSLTProcessor
 page-type: web-api-constructor
 browser-compat: api.XSLTProcessor.XSLTProcessor
+sidebar:
+  - apiref:
+      - XSLT
 ---
-
-{{APIRef("XSLT")}}
 
 The **`XSLTProcessor()`** constructor creates a new {{domxref("XSLTProcessor")}} object instance.
 

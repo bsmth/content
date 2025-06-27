@@ -4,9 +4,12 @@ short-title: error
 slug: Web/API/EventSource/error_event
 page-type: web-api-event
 browser-compat: api.EventSource.error_event
+sidebar:
+  - apiref:
+      - Server Sent Events
 ---
 
-{{APIRef("Server Sent Events")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`error`** event of the {{domxref("EventSource")}} API is fired when a connection with an event source fails to be opened.
 

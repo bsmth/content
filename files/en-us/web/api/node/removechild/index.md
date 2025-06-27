@@ -4,9 +4,10 @@ short-title: removeChild()
 slug: Web/API/Node/removeChild
 page-type: web-api-instance-method
 browser-compat: api.Node.removeChild
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`removeChild()`** method of the {{domxref("Node")}} interface
 removes a child node from the DOM and returns the removed node.

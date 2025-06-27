@@ -4,9 +4,10 @@ short-title: diffuseConstant
 slug: Web/API/SVGFEDiffuseLightingElement/diffuseConstant
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDiffuseLightingElement.diffuseConstant
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`diffuseConstant`** read-only property of the {{domxref("SVGFEDiffuseLightingElement")}} interface reflects the {{SVGAttr("diffuseConstant")}} attribute of the given {{SVGElement("feDiffuseLighting")}} element.
 

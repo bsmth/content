@@ -4,9 +4,10 @@ short-title: observe()
 slug: Web/API/ResizeObserver/observe
 page-type: web-api-instance-method
 browser-compat: api.ResizeObserver.observe
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`observe()`** method of the
 {{domxref("ResizeObserver")}} interface starts observing the specified

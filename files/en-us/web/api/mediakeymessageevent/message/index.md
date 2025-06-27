@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/MediaKeyMessageEvent/message
 page-type: web-api-instance-property
 browser-compat: api.MediaKeyMessageEvent.message
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`MediaKeyMessageEvent.message`** read-only property
 returns an {{jsxref("ArrayBuffer")}} with a message from the content decryption module.

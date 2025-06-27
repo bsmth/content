@@ -4,9 +4,12 @@ short-title: vertexAttrib[1234]f[v]()
 slug: Web/API/WebGLRenderingContext/vertexAttrib
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.vertexAttrib1f
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.vertexAttrib[1234]f[v]()`**
 methods of the [WebGL API](/en-US/docs/Web/API/WebGL_API) specify constant

@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/MediaTrackSettings/height
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.height_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's **`height`**
 property is an integer indicating the number of pixels tall

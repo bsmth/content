@@ -4,9 +4,10 @@ short-title: unobserve()
 slug: Web/API/IntersectionObserver/unobserve
 page-type: web-api-instance-method
 browser-compat: api.IntersectionObserver.unobserve
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`unobserve()`** method of the {{domxref("IntersectionObserver")}} interface instructs the `IntersectionObserver` to stop observing the specified target element.
 

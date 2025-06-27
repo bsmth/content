@@ -4,9 +4,12 @@ short-title: getCoalescedEvents()
 slug: Web/API/PointerEvent/getCoalescedEvents
 page-type: web-api-instance-method
 browser-compat: api.PointerEvent.getCoalescedEvents
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
 
-{{APIRef("Pointer Events")}} {{secureContext_header}}
+{{secureContext_header}}
 
 The **`getCoalescedEvents()`** method of the {{domxref("PointerEvent")}} interface returns a sequence of `PointerEvent` instances that were coalesced (merged) into a single {{domxref('Element/pointermove_event', 'pointermove')}} or {{domxref('Element/pointerrawupdate_event', 'pointerrawupdate')}} event.
 Instead of a stream of many {{domxref('Element/pointermove_event', 'pointermove')}} events, user agents coalesce multiple updates into a single event.

@@ -4,9 +4,12 @@ short-title: createScriptURL()
 slug: Web/API/TrustedTypePolicy/createScriptURL
 page-type: web-api-instance-method
 browser-compat: api.TrustedTypePolicy.createScriptURL
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`createScriptURL()`** method of the {{domxref("TrustedTypePolicy")}} interface creates a {{domxref("TrustedScriptURL")}} object using a policy created by {{domxref("TrustedTypePolicyFactory.createPolicy()")}}.
 

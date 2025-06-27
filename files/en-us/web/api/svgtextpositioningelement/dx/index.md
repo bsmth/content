@@ -4,9 +4,10 @@ short-title: dx
 slug: Web/API/SVGTextPositioningElement/dx
 page-type: web-api-instance-property
 browser-compat: api.SVGTextPositioningElement.dx
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`dx`** read-only property of the {{domxref("SVGTextPositioningElement")}} interface describes the x-axis coordinate of the {{domxref("SVGTextElement")}} or {{domxref("SVGTSpanElement")}} as an {{domxref("SVGAnimatedLengthList")}}. It reflects the {{SVGAttr("dx")}} attribute's horizontal displacement of the individual text glyphs in the user coordinate system.
 

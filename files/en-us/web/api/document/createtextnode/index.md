@@ -4,9 +4,10 @@ short-title: createTextNode()
 slug: Web/API/Document/createTextNode
 page-type: web-api-instance-method
 browser-compat: api.Document.createTextNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 Creates a new {{domxref("Text")}} node. This method can be used to escape HTML
 characters.

@@ -4,9 +4,10 @@ short-title: setStdDeviation()
 slug: Web/API/SVGFEDropShadowElement/setStdDeviation
 page-type: web-api-instance-method
 browser-compat: api.SVGFEDropShadowElement.setStdDeviation
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `setStdDeviation()` method of the {{domxref("SVGFEDropShadowElement")}} interface sets the values for the {{SVGAttr("stdDeviation")}} attribute.
 

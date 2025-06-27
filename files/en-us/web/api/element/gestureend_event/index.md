@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - non-standard
 browser-compat: api.Element.gestureend_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`gestureend`** event is fired when there are no longer multiple fingers contacting the touch surface, thus ending the gesture.
 

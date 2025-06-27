@@ -4,9 +4,10 @@ short-title: decode()
 slug: Web/API/HTMLImageElement/decode
 page-type: web-api-instance-method
 browser-compat: api.HTMLImageElement.decode
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`decode()`**
 method of the {{domxref("HTMLImageElement")}} interface returns a

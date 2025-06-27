@@ -4,9 +4,10 @@ short-title: remove()
 slug: Web/API/CharacterData/remove
 page-type: web-api-instance-method
 browser-compat: api.CharacterData.remove
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`remove()`** method of the {{domxref("CharacterData")}} removes the text contained in the node.
 

@@ -4,9 +4,12 @@ short-title: digest()
 slug: Web/API/SubtleCrypto/digest
 page-type: web-api-instance-method
 browser-compat: api.SubtleCrypto.digest
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`digest()`** method of the {{domxref("SubtleCrypto")}} interface generates a _digest_ of the given data, using the specified {{glossary("hash function")}}.
 A digest is a short fixed-length value derived from some variable-length input.

@@ -4,9 +4,10 @@ short-title: escape()
 slug: Web/API/CSS/escape_static
 page-type: web-api-static-method
 browser-compat: api.CSS.escape_static
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSS.escape()`** static method returns a
 string containing the escaped string passed as parameter, mostly for

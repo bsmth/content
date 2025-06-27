@@ -4,9 +4,10 @@ short-title: willValidate
 slug: Web/API/HTMLInputElement/willValidate
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.willValidate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`willValidate`** read-only property of the {{domxref("HTMLInputElement")}} interface indicates whether the {{htmlelement("input")}} element is a candidate for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation). It is `false` if any conditions bar it from constraint validation, including:
 

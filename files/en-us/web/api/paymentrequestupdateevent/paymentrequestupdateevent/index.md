@@ -4,9 +4,12 @@ short-title: PaymentRequestUpdateEvent()
 slug: Web/API/PaymentRequestUpdateEvent/PaymentRequestUpdateEvent
 page-type: web-api-constructor
 browser-compat: api.PaymentRequestUpdateEvent.PaymentRequestUpdateEvent
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{APIRef("Payment Request API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`PaymentRequestUpdateEvent()`** constructor creates a new
 {{domxref("PaymentRequestUpdateEvent")}} object which enables a web page to update the

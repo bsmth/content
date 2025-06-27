@@ -4,9 +4,10 @@ short-title: registerProcessor()
 slug: Web/API/AudioWorkletGlobalScope/registerProcessor
 page-type: web-api-instance-method
 browser-compat: api.AudioWorkletGlobalScope.registerProcessor
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`registerProcessor`** method of the
 {{domxref("AudioWorkletGlobalScope")}} interface registers a class constructor derived

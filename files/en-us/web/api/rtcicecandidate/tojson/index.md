@@ -4,9 +4,10 @@ short-title: toJSON()
 slug: Web/API/RTCIceCandidate/toJSON
 page-type: web-api-instance-method
 browser-compat: api.RTCIceCandidate.toJSON
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCIceCandidate")}} method **`toJSON()`** converts the `RTCIceCandidate` on which it's called into JSON.
 

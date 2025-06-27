@@ -4,9 +4,10 @@ short-title: stream
 slug: Web/API/MediaRecorder/stream
 page-type: web-api-instance-property
 browser-compat: api.MediaRecorder.stream
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`stream`** read-only property of the {{domxref("MediaRecorder")}} interface returns the stream that was passed into the {{domxref("MediaRecorder.MediaRecorder", "MediaRecorder()")}} constructor when the `MediaRecorder` was created.
 

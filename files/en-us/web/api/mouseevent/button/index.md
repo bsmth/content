@@ -4,9 +4,10 @@ short-title: button
 slug: Web/API/MouseEvent/button
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.button
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`MouseEvent.button`** read-only property indicates which button was pressed or released on the mouse to trigger the event.
 

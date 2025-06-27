@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/VideoTrackList/length
 page-type: web-api-instance-property
 browser-compat: api.VideoTrackList.length
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **{{domxref("VideoTrackList")}}**
 property **`length`** returns the number of entries in the

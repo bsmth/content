@@ -4,9 +4,10 @@ short-title: convertToSpecifiedUnits()
 slug: Web/API/SVGLength/convertToSpecifiedUnits
 page-type: web-api-instance-method
 browser-compat: api.SVGLength.convertToSpecifiedUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `convertToSpecifiedUnits()` method of the {{domxref("SVGLength")}} interface allows you to convert the length's value to the specified unit type.
 

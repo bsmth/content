@@ -4,9 +4,10 @@ short-title: inlineSize
 slug: Web/API/ResizeObserverSize/inlineSize
 page-type: web-api-instance-property
 browser-compat: api.ResizeObserverSize.inlineSize
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`inlineSize`** read-only property of the {{domxref("ResizeObserverSize")}} interface returns the length of the observed element's border box in the inline dimension. For boxes with a horizontal {{cssxref("writing-mode")}}, this is the horizontal dimension, or width; if the writing-mode is vertical, this is the vertical dimension, or height.
 

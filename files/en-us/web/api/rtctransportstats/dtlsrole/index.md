@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_transport.dtlsRole
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`dtlsRole`** property of the {{domxref("RTCTransportStats")}} dictionary is a string that indicates the role of the associated {{domxref("RTCPeerConnection")}} in the DTLS negotiation.
 

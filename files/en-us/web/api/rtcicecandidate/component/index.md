@@ -4,9 +4,10 @@ short-title: component
 slug: Web/API/RTCIceCandidate/component
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.component
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`component`** property
 on the {{domxref("RTCIceCandidate")}} interface is a string which indicates whether

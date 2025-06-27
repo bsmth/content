@@ -3,9 +3,10 @@ title: SVGFEPointLightElement
 slug: Web/API/SVGFEPointLightElement
 page-type: web-api-interface
 browser-compat: api.SVGFEPointLightElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEPointLightElement`** interface corresponds to the {{SVGElement("fePointLight")}} element.
 

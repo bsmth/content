@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.NavigationHistoryEntry.dispose_event
+sidebar:
+  - apiref:
+      - Navigation API
 ---
 
-{{APIRef("Navigation API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`dispose`** event of the {{domxref("NavigationHistoryEntry")}} interface is fired when the entry is no longer part of the history entry list.
 

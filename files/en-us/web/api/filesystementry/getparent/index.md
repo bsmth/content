@@ -4,9 +4,10 @@ short-title: getParent()
 slug: Web/API/FileSystemEntry/getParent
 page-type: web-api-instance-method
 browser-compat: api.FileSystemEntry.getParent
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The {{domxref("FileSystemEntry")}} interface's method
 **`getParent()`** obtains a

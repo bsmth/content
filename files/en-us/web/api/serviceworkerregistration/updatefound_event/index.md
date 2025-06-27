@@ -4,9 +4,12 @@ short-title: updatefound
 slug: Web/API/ServiceWorkerRegistration/updatefound_event
 page-type: web-api-event
 browser-compat: api.ServiceWorkerRegistration.updatefound_event
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`updatefound`** event of the
 {{domxref("ServiceWorkerRegistration")}} interface is fired any time the {{domxref("ServiceWorkerRegistration.installing")}} property acquires a new service worker.

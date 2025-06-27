@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.XRMediaBinding.XRMediaBinding
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`XRMediaBinding()`** constructor creates and returns a new {{domxref("XRMediaBinding")}} object.
 

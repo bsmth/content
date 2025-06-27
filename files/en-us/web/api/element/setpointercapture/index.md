@@ -4,9 +4,10 @@ short-title: setPointerCapture()
 slug: Web/API/Element/setPointerCapture
 page-type: web-api-instance-method
 browser-compat: api.Element.setPointerCapture
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`setPointerCapture()`** method of the
 {{domxref("Element")}} interface is used to designate a specific element as the

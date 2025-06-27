@@ -3,9 +3,10 @@ title: VTTRegion
 slug: Web/API/VTTRegion
 page-type: web-api-interface
 browser-compat: api.VTTRegion
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The `VTTRegion` interface of the [WebVTT API](/en-US/docs/Web/API/WebVTT_API) describes a portion of the video to render a {{domxref("VTTCue")}} onto.
 

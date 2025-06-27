@@ -4,9 +4,10 @@ short-title: id
 slug: Web/API/LargestContentfulPaint/id
 page-type: web-api-instance-property
 browser-compat: api.LargestContentfulPaint.id
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`id`** read-only property of the {{domxref("LargestContentfulPaint")}} interface returns the ID of the element that is the largest contentful paint.
 

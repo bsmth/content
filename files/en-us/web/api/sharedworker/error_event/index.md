@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/SharedWorker/error_event
 page-type: web-api-event
 browser-compat: api.SharedWorker.error_event
+sidebar:
+  - apiref:
+      - Web Workers API
 ---
-
-{{APIRef("Web Workers API")}}
 
 The **`error`** event of the {{domxref("SharedWorker")}} interface fires when an error occurs in the worker.
 

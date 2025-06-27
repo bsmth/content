@@ -4,9 +4,10 @@ short-title: retransmittedPacketsSent
 slug: Web/API/RTCOutboundRtpStreamStats/retransmittedPacketsSent
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.retransmittedPacketsSent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`retransmittedPacketsSent`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary represents the total number of packets retransmitted for the source associated with this stream.
 

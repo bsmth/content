@@ -3,9 +3,10 @@ title: CSS
 slug: Web/API/CSS
 page-type: web-api-interface
 browser-compat: api.CSS
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSS`** interface holds useful CSS-related methods. No objects with this interface are implemented: it contains only static methods and is therefore a utilitarian interface.
 

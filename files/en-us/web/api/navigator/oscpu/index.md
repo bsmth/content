@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Navigator.oscpu
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{ ApiRef("HTML DOM") }} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`Navigator.oscpu`** property returns a string that identifies the current operating system.
 

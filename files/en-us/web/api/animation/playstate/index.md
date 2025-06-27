@@ -4,9 +4,10 @@ short-title: playState
 slug: Web/API/Animation/playState
 page-type: web-api-instance-property
 browser-compat: api.Animation.playState
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The read-only **`Animation.playState`** property of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) returns an enumerated value describing the playback state of an animation.
 

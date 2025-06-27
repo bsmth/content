@@ -4,9 +4,12 @@ short-title: timestamp
 slug: Web/API/GeolocationPosition/timestamp
 page-type: web-api-instance-property
 browser-compat: api.GeolocationPosition.timestamp
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`timestamp`** read-only property of the {{domxref("GeolocationPosition")}} interface represents the date and time that the position was acquired by the device.
 

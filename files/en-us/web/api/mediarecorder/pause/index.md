@@ -4,9 +4,10 @@ short-title: pause()
 slug: Web/API/MediaRecorder/pause
 page-type: web-api-instance-method
 browser-compat: api.MediaRecorder.pause
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`pause()`** method of the {{domxref("MediaRecorder")}} interface is used
 to pause recording of media streams.

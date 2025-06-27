@@ -4,9 +4,12 @@ short-title: open()
 slug: Web/API/MIDIPort/open
 page-type: web-api-instance-method
 browser-compat: api.MIDIPort.open
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`open()`** method of the {{domxref("MIDIPort")}} interface makes the MIDI device connected to this `MIDIPort` explicitly available.
 

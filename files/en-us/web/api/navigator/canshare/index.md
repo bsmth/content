@@ -4,9 +4,12 @@ short-title: canShare()
 slug: Web/API/Navigator/canShare
 page-type: web-api-instance-method
 browser-compat: api.Navigator.canShare
+sidebar:
+  - apiref:
+      - Web Share API
 ---
 
-{{APIRef("Web Share API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`canShare()`** method of the {{domxref("Navigator")}} interface returns `true` if the equivalent call to {{domxref("navigator.share()")}} would succeed.
 

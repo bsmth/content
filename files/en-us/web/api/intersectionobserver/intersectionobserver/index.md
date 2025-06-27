@@ -4,9 +4,10 @@ short-title: IntersectionObserver()
 slug: Web/API/IntersectionObserver/IntersectionObserver
 page-type: web-api-constructor
 browser-compat: api.IntersectionObserver.IntersectionObserver
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`IntersectionObserver()`** constructor creates and returns a new {{domxref("IntersectionObserver")}} object.
 

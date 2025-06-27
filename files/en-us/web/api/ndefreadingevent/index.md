@@ -5,9 +5,10 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.NDEFReadingEvent
+sidebar: apiref
 ---
 
-{{securecontext_header}}{{SeeCompatTable}}{{APIRef}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`NDEFReadingEvent`** interface of the [Web NFC API](/en-US/docs/Web/API/Web_NFC_API) represents events dispatched on new NFC readings obtained by {{DOMxRef("NDEFReader")}}.
 

@@ -3,9 +3,10 @@ title: RTCIceParameters
 slug: Web/API/RTCIceParameters
 page-type: web-api-interface
 spec-urls: https://w3c.github.io/webrtc-pc/#rtciceparameters
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCIceParameters`** dictionary specifies the username fragment and password assigned to an {{Glossary("ICE")}} session.
 

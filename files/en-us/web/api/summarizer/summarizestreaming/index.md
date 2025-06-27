@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Summarizer.summarizeStreaming
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`summarizeStreaming()`** method of the {{domxref("Summarizer")}} interface generates a new summary as a {{domxref("ReadableStream")}}.
 

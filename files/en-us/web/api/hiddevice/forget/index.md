@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.HIDDevice.forget
+sidebar:
+  - apiref:
+      - WebHID API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared
 ---
 
-{{securecontext_header}}{{APIRef("WebHID API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared")}}
+{{securecontext_header}}
 
 The **`forget()`** method of the {{domxref("HIDDevice")}} interface closes the connection to the HID device and forgets the device.
 

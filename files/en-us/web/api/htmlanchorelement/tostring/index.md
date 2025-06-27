@@ -4,9 +4,10 @@ short-title: toString()
 slug: Web/API/HTMLAnchorElement/toString
 page-type: web-api-instance-method
 browser-compat: api.HTMLAnchorElement.toString
+sidebar:
+  - apiref:
+      - URL API
 ---
-
-{{ApiRef("URL API")}}
 
 The **`HTMLAnchorElement.toString()`** {{Glossary("stringifier")}}
 method returns a string containing the whole URL. It is a read-only

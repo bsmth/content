@@ -4,9 +4,10 @@ short-title: Highlight()
 slug: Web/API/Highlight/Highlight
 page-type: web-api-constructor
 browser-compat: api.Highlight.Highlight
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`Highlight()`** constructor returns a newly created
 {{domxref("Highlight")}} object which can hold a collection of {{domxref("Range")}} objects to be styled using the {{domxref("css_custom_highlight_api", "CSS Custom Highlight API", "", "nocode")}}.

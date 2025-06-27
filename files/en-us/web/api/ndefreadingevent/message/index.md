@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NDEFReadingEvent.message
+sidebar: apiref
 ---
 
-{{securecontext_header}}{{APIRef}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`message`** property of the {{domxref("NDEFReadingEvent")}} interface returns an {{DOMxRef("NDEFMessage")}} object containing the received message.
 

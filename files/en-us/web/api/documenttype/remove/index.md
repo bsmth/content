@@ -4,9 +4,10 @@ short-title: remove()
 slug: Web/API/DocumentType/remove
 page-type: web-api-instance-method
 browser-compat: api.DocumentType.remove
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`DocumentType.remove()`** method removes a document's `doctype`.
 

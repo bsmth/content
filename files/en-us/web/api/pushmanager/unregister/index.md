@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.PushManager.unregister
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{ApiRef("Push API")}}{{deprecated_header}}{{non-standard_header}}{{AvailableInWorkers}}
+{{deprecated_header}}{{non-standard_header}}{{AvailableInWorkers}}
 
 The **`unregister()`** method was used to ask the system to
 unregister and delete the specified endpoint.

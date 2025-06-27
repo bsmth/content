@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.Window.scrollsnapchanging_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`scrollsnapchanging`** event of the {{domxref("Window")}} interface is fired on the `window` when the browser determines a new scroll snap target is pending, i.e., it will be selected when the current scroll gesture ends.
 

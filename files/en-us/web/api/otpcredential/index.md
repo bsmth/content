@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.OTPCredential
+sidebar:
+  - apiref:
+      - WebOTP API
 ---
 
-{{APIRef("WebOTP API")}}{{SecureContext_Header}}{{SeeCompatTable}}
+{{SecureContext_Header}}{{SeeCompatTable}}
 
 The **`OTPCredential`** interface of the {{domxref('WebOTP API','','',' ')}} is returned when a WebOTP {{domxref("CredentialsContainer.get", "navigator.credentials.get()")}} call (i.e., invoked with an `otp` option) fulfills. It includes a `code` property that contains the retrieved one-time password (OTP).
 

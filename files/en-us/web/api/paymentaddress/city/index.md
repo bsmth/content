@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.PaymentAddress.city
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{APIRef("Payment Request API")}}{{SecureContext_Header}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{SecureContext_Header}}{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`city`** read-only property of
 the {{domxref('PaymentAddress')}} interface returns a string containing the city or

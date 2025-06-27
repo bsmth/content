@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.VREyeParameters.maximumFieldOfView
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{APIRef("WebVR API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`maximumFieldOfView`** read-only property of the {{domxref("VREyeParameters")}} interface describes the maximum supported field of view for the current eye.
 

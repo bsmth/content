@@ -4,9 +4,10 @@ short-title: elevation
 slug: Web/API/SVGFEDistantLightElement/elevation
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDistantLightElement.elevation
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`elevation`** read-only property of the {{domxref("SVGFEDistantLightElement")}} interface reflects the {{SVGAttr("elevation")}} attribute of the given {{SVGElement("feDistantLight")}} element.
 

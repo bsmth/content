@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - experimental
 browser-compat: api.BarcodeDetector.getSupportedFormats_static
+sidebar:
+  - apiref:
+      - Barcode Detector API
 ---
 
-{{securecontext_header}}{{APIRef("Barcode Detector API")}}{{AvailableInWorkers}}{{SeeCompatTable}}
+{{securecontext_header}}{{AvailableInWorkers}}{{SeeCompatTable}}
 
 The **`getSupportedFormats()`** static method
 of the {{domxref("BarcodeDetector")}} interface returns a {{jsxref('Promise')}} which

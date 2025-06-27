@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PresentationConnection.id
+sidebar:
+  - apiref:
+      - Presentation API
 ---
 
-{{APIRef("Presentation API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`id`** attribute specifies the [presentation identifier](https://www.w3.org/TR/presentation-api/#dfn-presentation-identifier) of a [presentation connection](https://www.w3.org/TR/presentation-api/#dfn-presentation-connection).
 

@@ -4,9 +4,10 @@ short-title: DocumentFragment()
 slug: Web/API/DocumentFragment/DocumentFragment
 page-type: web-api-constructor
 browser-compat: api.DocumentFragment.DocumentFragment
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`DocumentFragment()`** constructor returns a new, empty
 {{domxref("DocumentFragment")}} object.

@@ -4,9 +4,12 @@ short-title: abort
 slug: Web/API/FileReader/abort_event
 page-type: web-api-event
 browser-compat: api.FileReader.abort_event
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`abort`** event of the {{domxref("FileReader")}} interface is fired when a read has been aborted: for instance because the program called {{domxref("FileReader.abort()")}}.
 

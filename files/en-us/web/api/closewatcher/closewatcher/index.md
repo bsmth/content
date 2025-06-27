@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.CloseWatcher.CloseWatcher
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`CloseWatcher()`** constructor creates a new {{domxref("CloseWatcher")}} object.
 

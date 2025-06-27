@@ -6,9 +6,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.CSSPositionValue
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
 
-{{deprecated_header}}{{APIRef("CSS Typed Object Model API")}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`CSSPositionValue`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model#css_typed_object_model) represents values for properties that take a position, for example {{cssxref('object-position')}}.
 

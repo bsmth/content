@@ -4,9 +4,10 @@ short-title: createSVGLength()
 slug: Web/API/SVGSVGElement/createSVGLength
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.createSVGLength
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `createSVGLength()` method of the {{domxref("SVGSVGElement")}} interface creates an {{domxref("SVGLength")}} object outside of any document trees.
 

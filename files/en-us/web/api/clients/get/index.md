@@ -4,9 +4,10 @@ short-title: get()
 slug: Web/API/Clients/get
 page-type: web-api-instance-method
 browser-compat: api.Clients.get
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`get()`** method of the
 {{domxref("Clients")}} interface gets a service worker client matching a given

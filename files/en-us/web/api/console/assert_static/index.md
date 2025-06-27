@@ -4,9 +4,12 @@ short-title: assert()
 slug: Web/API/console/assert_static
 page-type: web-api-static-method
 browser-compat: api.console.assert_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.assert()`** static method writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
 

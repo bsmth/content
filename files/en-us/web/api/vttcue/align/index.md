@@ -4,9 +4,10 @@ short-title: align
 slug: Web/API/VTTCue/align
 page-type: web-api-instance-property
 browser-compat: api.VTTCue.align
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`align`** property of the {{domxref("VTTCue")}} interface represents the alignment of all of the lines of text in the text box.
 

@@ -4,9 +4,10 @@ short-title: SharedWorker()
 slug: Web/API/SharedWorker/SharedWorker
 page-type: web-api-constructor
 browser-compat: api.SharedWorker.SharedWorker
+sidebar:
+  - apiref:
+      - Web Workers API
 ---
-
-{{APIRef("Web Workers API")}}
 
 The **`SharedWorker()`** constructor creates a
 {{domxref("SharedWorker")}} object that executes the script at the specified URL. This

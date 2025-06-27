@@ -4,9 +4,10 @@ short-title: lookupPrefix()
 slug: Web/API/Node/lookupPrefix
 page-type: web-api-instance-method
 browser-compat: api.Node.lookupPrefix
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`lookupPrefix()`** method of the {{domxref("Node")}} interface
 returns a string containing the prefix for a given namespace URI, if present,

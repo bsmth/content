@@ -4,9 +4,10 @@ short-title: sandbox
 slug: Web/API/HTMLIFrameElement/sandbox
 page-type: web-api-instance-property
 browser-compat: api.HTMLIFrameElement.sandbox
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`sandbox`** read-only property of the {{domxref("HTMLIFrameElement")}} interface returns a {{domxref("DOMTokenList")}} indicating extra restrictions on the behavior of the nested content.
 

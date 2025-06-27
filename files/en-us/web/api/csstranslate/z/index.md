@@ -4,9 +4,10 @@ short-title: z
 slug: Web/API/CSSTranslate/z
 page-type: web-api-instance-property
 browser-compat: api.CSSTranslate.z
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`z`** property of the
 {{domxref("CSSTranslate")}} interface representing the z-component of the translating

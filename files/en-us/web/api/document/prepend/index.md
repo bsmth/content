@@ -4,9 +4,10 @@ short-title: prepend()
 slug: Web/API/Document/prepend
 page-type: web-api-instance-method
 browser-compat: api.Document.prepend
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Document.prepend()`** method
 inserts a set of {{domxref("Node")}} objects or strings before

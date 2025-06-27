@@ -4,9 +4,12 @@ short-title: webkitRelativePath
 slug: Web/API/File/webkitRelativePath
 page-type: web-api-instance-property
 browser-compat: api.File.webkitRelativePath
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
 
-{{APIRef("File and Directory Entries API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`webkitRelativePath`** read-only property of the {{domxref("File")}} interface
 contains a string which specifies the file's path relative to the

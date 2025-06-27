@@ -3,9 +3,10 @@ title: HTMLPreElement
 slug: Web/API/HTMLPreElement
 page-type: web-api-interface
 browser-compat: api.HTMLPreElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLPreElement`** interface exposes specific properties and methods (beyond those of the {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating a block of preformatted text ({{HtmlElement("pre")}}).
 

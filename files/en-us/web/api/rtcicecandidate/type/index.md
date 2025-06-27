@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCIceCandidate/type
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **{{domxref("RTCIceCandidate")}}** interface's read-only **`type`** specifies the type of candidate the object represents.
 

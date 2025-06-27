@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.USBDevice.controlTransferIn
+sidebar:
+  - apiref:
+      - WebUSB API
 ---
 
-{{APIRef("WebUSB API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`controlTransferIn()`** method of the {{domxref("USBDevice")}} interface returns a {{jsxref("Promise")}} that resolves with a {{domxref("USBInTransferResult")}} when a command or status request has been transmitted to (received by) the USB device.
 

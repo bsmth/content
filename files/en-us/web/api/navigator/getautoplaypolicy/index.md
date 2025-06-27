@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Navigator.getAutoplayPolicy
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`getAutoplayPolicy()`** method of the _Autoplay Policy Detection API_ provides information about whether [autoplay](/en-US/docs/Web/Media/Guides/Autoplay) of media elements and audio contexts is allowed, disallowed, or only allowed if the audio is muted.
 

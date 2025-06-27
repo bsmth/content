@@ -4,9 +4,10 @@ short-title: acceptCharset
 slug: Web/API/HTMLFormElement/acceptCharset
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.acceptCharset
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormElement.acceptCharset`** property represents the {{glossary("character encoding")}} for the given {{htmlelement("form")}} element.
 

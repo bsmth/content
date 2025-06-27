@@ -4,9 +4,12 @@ short-title: ClipboardItem()
 slug: Web/API/ClipboardItem/ClipboardItem
 page-type: web-api-constructor
 browser-compat: api.ClipboardItem.ClipboardItem
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}} {{securecontext_header}}
+{{securecontext_header}}
 
 The **`ClipboardItem()`** constructor creates a new {{domxref("ClipboardItem")}} object, which represents data to be stored or retrieved via the [Clipboard API](/en-US/docs/Web/API/Clipboard_API) {{domxref("clipboard.write()")}} and {{domxref("clipboard.read()")}} methods, respectively.
 

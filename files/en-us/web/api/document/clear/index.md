@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Document.clear
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`Document.clear()`** method does nothing, but doesn't raise any error.
 

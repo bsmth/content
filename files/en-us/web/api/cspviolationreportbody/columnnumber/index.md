@@ -4,9 +4,10 @@ short-title: columnNumber
 slug: Web/API/CSPViolationReportBody/columnNumber
 page-type: web-api-instance-property
 browser-compat: api.CSPViolationReportBody.columnNumber
+sidebar:
+  - apiref:
+      - Reporting API
 ---
-
-{{APIRef("Reporting API")}}
 
 The **`columnNumber`** read-only property of the {{domxref("CSPViolationReportBody")}} interface indicates the column number in the source file that triggered the [Content Security Policy (CSP)](/en-US/docs/Web/HTTP/Guides/CSP) violation.
 

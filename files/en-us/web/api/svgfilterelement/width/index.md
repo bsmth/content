@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGFilterElement/width
 page-type: web-api-instance-property
 browser-compat: api.SVGFilterElement.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`width`** read-only property of the {{domxref("SVGFilterElement")}} interface describes the horizontal size of an SVG filter primitive as a {{domxref("SVGAnimatedLength")}}.
 

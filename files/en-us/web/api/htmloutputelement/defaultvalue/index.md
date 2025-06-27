@@ -4,9 +4,10 @@ short-title: defaultValue
 slug: Web/API/HTMLOutputElement/defaultValue
 page-type: web-api-instance-property
 browser-compat: api.HTMLOutputElement.defaultValue
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`defaultValue`** property of the {{DOMxRef("HTMLOutputElement")}} interface represents the default text content of this {{htmlelement("output")}} element. Getting and setting this value is equivalent to getting and setting {{domxref("Node.textContent", "textContent")}} on the {{htmlelement("output")}}.
 

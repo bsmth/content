@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Translator.translate
+sidebar:
+  - apiref:
+      - Translator and Language Detector APIs
 ---
 
-{{APIRef("Translator and Language Detector APIs")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`translate()`** method of the {{domxref("Translator")}} interface returns a translation of an input string.
 

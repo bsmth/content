@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Document.enableStyleSheetsForSet
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 Enables the style sheets matching the specified name in the current style sheet set,
 and disables all other style sheets (except those without a title, which are always

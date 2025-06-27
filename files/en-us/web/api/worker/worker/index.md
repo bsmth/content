@@ -4,9 +4,10 @@ short-title: Worker()
 slug: Web/API/Worker/Worker
 page-type: web-api-constructor
 browser-compat: api.Worker.Worker
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`Worker()`** constructor creates a {{domxref("Worker")}} object that executes the script at the specified URL. This script must obey the [same-origin policy](/en-US/docs/Web/Security/Same-origin_policy).
 

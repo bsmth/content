@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.Scheduling
+sidebar:
+  - apiref:
+      - Prioritized Task Scheduling API
 ---
 
-{{SeeCompatTable}}{{APIRef("Prioritized Task Scheduling API")}}
+{{SeeCompatTable}}
 
 The **`Scheduling`** object provides methods and properties to control scheduling tasks within the current document.
 

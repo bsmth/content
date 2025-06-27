@@ -4,9 +4,10 @@ short-title: setTimeout()
 slug: Web/API/Window/setTimeout
 page-type: web-api-instance-method
 browser-compat: api.setTimeout
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`setTimeout()`** method of the {{domxref("Window")}} interface sets a timer which executes a function or specified piece of code once the timer expires.
 

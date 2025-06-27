@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.DevicePosture.type
+sidebar:
+  - apiref:
+      - Device Posture API
 ---
 
-{{APIRef("Device Posture API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`type`** read-only property of the {{domxref("DevicePosture")}} interface returns the device's current posture.
 

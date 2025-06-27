@@ -4,9 +4,10 @@ short-title: played
 slug: Web/API/HTMLMediaElement/played
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.played
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`played`** read-only property of the {{domxref("HTMLMediaElement")}} interface indicates the time ranges the resource, an {{htmlelement("audio")}} or {{htmlelement("video")}} media file, has played. It returns a new {{domxref("TimeRanges")}} object that contains the ranges of the media source that the browser has played, if any, at the time the attribute is evaluated.
 

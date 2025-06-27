@@ -4,9 +4,12 @@ short-title: generateMipmap()
 slug: Web/API/WebGLRenderingContext/generateMipmap
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.generateMipmap
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.generateMipmap()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) generates a set of mipmaps for a

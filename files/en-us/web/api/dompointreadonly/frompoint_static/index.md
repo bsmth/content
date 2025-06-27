@@ -4,9 +4,12 @@ short-title: fromPoint()
 slug: Web/API/DOMPointReadOnly/fromPoint_static
 page-type: web-api-static-method
 browser-compat: api.DOMPointReadOnly.fromPoint_static
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The static **{{domxref("DOMPointReadOnly")}}**
 method `fromPoint()` creates and returns a new

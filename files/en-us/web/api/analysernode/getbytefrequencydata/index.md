@@ -4,9 +4,10 @@ short-title: getByteFrequencyData()
 slug: Web/API/AnalyserNode/getByteFrequencyData
 page-type: web-api-instance-method
 browser-compat: api.AnalyserNode.getByteFrequencyData
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`getByteFrequencyData()`** method of the {{ domxref("AnalyserNode") }} interface copies the current frequency data into a {{jsxref("Uint8Array")}} (unsigned byte array) passed into it.
 

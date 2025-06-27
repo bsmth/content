@@ -4,9 +4,12 @@ short-title: unique
 slug: Web/API/IDBIndex/unique
 page-type: web-api-instance-property
 browser-compat: api.IDBIndex.unique
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`unique`** read-only property returns a boolean that
 states whether the index allows duplicate keys.

@@ -4,9 +4,10 @@ short-title: reportError()
 slug: Web/API/Window/reportError
 page-type: web-api-instance-method
 browser-compat: api.reportError
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`reportError()`** method of the {{DOMxRef("Window")}} interface may be used to report errors to the console or event handlers of global scopes, emulating an uncaught JavaScript exception.
 

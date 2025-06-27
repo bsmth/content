@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ContactAddress.country
+sidebar:
+  - apiref:
+      - Contact Picker API
 ---
 
-{{securecontext_header}}{{APIRef("Contact Picker API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`country`** read-only property of the {{domxref("ContactAddress")}} interface is a string identifying the address's country using the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) standard. The string is always in its canonical upper-case form.
 

@@ -3,9 +3,10 @@ title: MediaStreamAudioDestinationNode
 slug: Web/API/MediaStreamAudioDestinationNode
 page-type: web-api-interface
 browser-compat: api.MediaStreamAudioDestinationNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `MediaStreamAudioDestinationNode` interface represents an audio destination consisting of a [WebRTC](/en-US/docs/Web/API/WebRTC_API) {{domxref("MediaStream")}} with a single `AudioMediaStreamTrack`, which can be used in a similar way to a `MediaStream` obtained from {{domxref("MediaDevices.getUserMedia", "navigator.mediaDevices.getUserMedia()")}}.
 

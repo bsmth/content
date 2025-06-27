@@ -4,9 +4,10 @@ short-title: signalingState
 slug: Web/API/RTCPeerConnection/signalingState
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.signalingState
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`signalingState`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns a string value describing the state of the signaling process on the local end of the connection while connecting or reconnecting to another peer.
 See [Signaling](/en-US/docs/Web/API/WebRTC_API/Session_lifetime#signaling) in our WebRTC session lifetime page.

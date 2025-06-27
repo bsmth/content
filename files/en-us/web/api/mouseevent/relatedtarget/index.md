@@ -4,9 +4,10 @@ short-title: relatedTarget
 slug: Web/API/MouseEvent/relatedTarget
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.relatedTarget
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`MouseEvent.relatedTarget`** read-only property is the secondary target for the mouse event, if there is one.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableElement.rules
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`HTMLTableElement.rules`** property indicates which cell
 borders to render in the table.

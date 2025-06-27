@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.CSSPrimitiveValue.getFloatValue
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`getFloatValue()`** method of the
 {{domxref("CSSPrimitiveValue")}} interface is used to get a float value in a specified

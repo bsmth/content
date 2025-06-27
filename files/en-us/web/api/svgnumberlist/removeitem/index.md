@@ -4,9 +4,10 @@ short-title: removeItem()
 slug: Web/API/SVGNumberList/removeItem
 page-type: web-api-instance-method
 browser-compat: api.SVGNumberList.removeItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`removeItem()`** method of the {{domxref("SVGNumberList")}} interface removes an existing item at the given index from the list.
 

@@ -4,9 +4,10 @@ short-title: style
 slug: Web/API/CSSNestedDeclarations/style
 page-type: web-api-instance-property
 browser-compat: api.CSSNestedDeclarations.style
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`style`** property of the {{domxref("CSSNestedDeclarations")}} interface represents the styles associated with the nested rules.
 

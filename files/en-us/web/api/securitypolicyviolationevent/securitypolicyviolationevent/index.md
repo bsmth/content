@@ -4,9 +4,12 @@ short-title: SecurityPolicyViolationEvent()
 slug: Web/API/SecurityPolicyViolationEvent/SecurityPolicyViolationEvent
 page-type: web-api-constructor
 browser-compat: api.SecurityPolicyViolationEvent.SecurityPolicyViolationEvent
+sidebar:
+  - apiref:
+      - Reporting API
 ---
 
-{{APIRef("Reporting API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`SecurityPolicyViolationEvent()`** constructor creates a new {{domxref("SecurityPolicyViolationEvent")}} object.
 

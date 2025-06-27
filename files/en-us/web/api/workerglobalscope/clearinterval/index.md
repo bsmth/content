@@ -4,9 +4,10 @@ short-title: clearInterval()
 slug: Web/API/WorkerGlobalScope/clearInterval
 page-type: web-api-instance-method
 browser-compat: api.clearInterval
+sidebar:
+  - apiref:
+      - HTML DOM")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("HTML DOM")}}{{AvailableInWorkers("worker")}}
 
 The **`clearInterval()`** method of the {{domxref("WorkerGlobalScope")}} interface cancels a timed, repeating action which was previously established by a call to {{domxref("WorkerGlobalScope.setInterval", "setInterval()")}}. If the parameter provided does not identify a previously established action, this method does nothing.
 

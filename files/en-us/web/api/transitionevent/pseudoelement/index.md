@@ -4,9 +4,10 @@ short-title: pseudoElement
 slug: Web/API/TransitionEvent/pseudoElement
 page-type: web-api-instance-property
 browser-compat: api.TransitionEvent.pseudoElement
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ apiref("CSSOM") }}
 
 The **`TransitionEvent.pseudoElement`** read-only property is a
 string, starting with `'::'`, containing the name of the [pseudo-element](/en-US/docs/Web/CSS/Pseudo-elements) the animation runs on.

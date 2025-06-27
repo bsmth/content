@@ -4,9 +4,10 @@ short-title: currentDirection
 slug: Web/API/RTCRtpTransceiver/currentDirection
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpTransceiver.currentDirection
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only {{domxref("RTCRtpTransceiver")}} property **`currentDirection`** is a string which indicates the current negotiated directionality of the transceiver.
 

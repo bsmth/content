@@ -4,9 +4,10 @@ short-title: createOffer()
 slug: Web/API/RTCPeerConnection/createOffer
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.createOffer
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`createOffer()`** method of the {{domxref("RTCPeerConnection")}} interface initiates the creation of an {{Glossary("SDP")}} offer for the purpose of starting a new WebRTC connection to a remote peer.
 

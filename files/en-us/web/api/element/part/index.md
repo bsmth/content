@@ -4,9 +4,10 @@ short-title: part
 slug: Web/API/Element/part
 page-type: web-api-instance-property
 browser-compat: api.Element.part
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`part`** property of the {{domxref("Element")}} interface
 represents the part identifier(s) of the element (i.e., set using the `part`

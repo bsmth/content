@@ -4,9 +4,12 @@ short-title: data
 slug: Web/API/MIDIMessageEvent/data
 page-type: web-api-instance-property
 browser-compat: api.MIDIMessageEvent.data
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`data`** read-only property of the {{domxref("MIDIMessageEvent")}} interface returns the MIDI data bytes of a single MIDI message.
 

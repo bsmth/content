@@ -4,9 +4,10 @@ short-title: data
 slug: Web/API/CharacterData/data
 page-type: web-api-instance-property
 browser-compat: api.CharacterData.data
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`data`** property of the {{domxref("CharacterData")}} interface represent the value of the current object's data.
 

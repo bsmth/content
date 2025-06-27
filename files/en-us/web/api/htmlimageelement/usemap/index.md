@@ -4,9 +4,10 @@ short-title: useMap
 slug: Web/API/HTMLImageElement/useMap
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.useMap
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`useMap`** property on the
 {{domxref("HTMLImageElement")}} interface reflects the value of the

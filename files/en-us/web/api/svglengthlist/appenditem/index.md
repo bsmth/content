@@ -4,9 +4,10 @@ short-title: appendItem()
 slug: Web/API/SVGLengthList/appendItem
 page-type: web-api-instance-method
 browser-compat: api.SVGLengthList.appendItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`appendItem()`** method of the {{domxref("SVGLengthList")}} interface inserts a new item at the end of the list. If the given item is already in a list, it is removed from its previous list before it is inserted into this list. The inserted item is the item itself and not a copy.
 

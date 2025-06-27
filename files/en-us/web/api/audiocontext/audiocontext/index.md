@@ -4,9 +4,10 @@ short-title: AudioContext()
 slug: Web/API/AudioContext/AudioContext
 page-type: web-api-constructor
 browser-compat: api.AudioContext.AudioContext
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`AudioContext()`** constructor
 creates a new {{domxref("AudioContext")}} object which represents an audio-processing

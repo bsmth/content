@@ -4,9 +4,12 @@ short-title: request()
 slug: Web/API/LockManager/request
 page-type: web-api-instance-method
 browser-compat: api.LockManager.request
+sidebar:
+  - apiref:
+      - Web Locks API
 ---
 
-{{APIRef("Web Locks API")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`request()`** method of the {{domxref("LockManager")}} interface requests a {{domxref('Lock')}} object with parameters specifying its name and characteristics.
 The requested `Lock` is passed to a callback, while the function itself returns a {{jsxref('Promise')}} that resolves (or rejects) with the result of the callback after the lock is released, or rejects if the request is aborted.

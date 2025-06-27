@@ -4,9 +4,12 @@ short-title: reason
 slug: Web/API/GPUDeviceLostInfo/reason
 page-type: web-api-instance-property
 browser-compat: api.GPUDeviceLostInfo.reason
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`reason`** read-only property of the
 {{domxref("GPUDeviceLostInfo")}} interface defines the reason the device was lost in a machine-readable way.

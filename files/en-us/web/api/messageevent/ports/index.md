@@ -4,9 +4,12 @@ short-title: ports
 slug: Web/API/MessageEvent/ports
 page-type: web-api-instance-property
 browser-compat: api.MessageEvent.ports
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ports`** read-only property of the
 {{domxref("MessageEvent")}} interface is an array of {{domxref("MessagePort")}} objects

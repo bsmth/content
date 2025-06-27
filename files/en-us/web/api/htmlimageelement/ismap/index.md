@@ -4,9 +4,10 @@ short-title: isMap
 slug: Web/API/HTMLImageElement/isMap
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.isMap
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLImageElement")}} property **`isMap`** is a
 Boolean value which indicates that the image is to be used by a server-side image map.

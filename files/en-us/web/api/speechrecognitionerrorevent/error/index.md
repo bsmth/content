@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/SpeechRecognitionErrorEvent/error
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognitionErrorEvent.error
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`error`** read-only property of the
 {{domxref("SpeechRecognitionErrorEvent")}} interface returns the type of error raised.

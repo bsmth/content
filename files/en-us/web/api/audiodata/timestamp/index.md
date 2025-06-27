@@ -4,9 +4,10 @@ short-title: timestamp
 slug: Web/API/AudioData/timestamp
 page-type: web-api-instance-property
 browser-compat: api.AudioData.timestamp
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`timestamp`** read-only property of the {{domxref("AudioData")}} interface returns the timestamp of this `AudioData` object.
 

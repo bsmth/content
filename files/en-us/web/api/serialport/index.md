@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.SerialPort
+sidebar:
+  - apiref:
+      - Web Serial API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("Web Serial API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The `SerialPort` interface of the [Web Serial API](/en-US/docs/Web/API/Web_Serial_API) provides access to a serial port on the host device.
 

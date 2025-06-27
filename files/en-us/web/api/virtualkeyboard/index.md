@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.VirtualKeyboard
+sidebar:
+  - apiref:
+      - VirtualKeyboard API
 ---
 
-{{SeeCompatTable}}{{APIRef("VirtualKeyboard API")}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`VirtualKeyboard`** interface of the [VirtualKeyboard API](/en-US/docs/Web/API/VirtualKeyboard_API) is useful on devices that have on-screen virtual keyboards, such as tablets, mobile phones, or other devices where a hardware keyboard may not be available.
 

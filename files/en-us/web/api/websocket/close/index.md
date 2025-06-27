@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/WebSocket/close
 page-type: web-api-instance-method
 browser-compat: api.WebSocket.close
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebSocket.close()`** method closes the
 {{domxref("WebSocket")}} connection or connection attempt, if any. If the connection is

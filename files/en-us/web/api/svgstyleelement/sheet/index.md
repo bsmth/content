@@ -4,9 +4,10 @@ short-title: sheet
 slug: Web/API/SVGStyleElement/sheet
 page-type: web-api-instance-property
 browser-compat: api.SVGStyleElement.sheet
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGStyleElement.sheet`** read-only property returns the {{domxref("CSSStyleSheet")}} corresponding to the given SVG style element, or `null` if there is none.
 

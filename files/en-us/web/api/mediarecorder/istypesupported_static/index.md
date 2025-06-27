@@ -4,9 +4,10 @@ short-title: isTypeSupported()
 slug: Web/API/MediaRecorder/isTypeSupported_static
 page-type: web-api-static-method
 browser-compat: api.MediaRecorder.isTypeSupported_static
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`isTypeSupported()`** static method of the {{domxref("MediaRecorder")}} interface returns a {{jsxref("Boolean")}} which is `true` if the MIME media type specified is one the user agent should be able to successfully record.
 

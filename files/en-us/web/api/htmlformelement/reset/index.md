@@ -4,9 +4,10 @@ short-title: reset()
 slug: Web/API/HTMLFormElement/reset
 page-type: web-api-instance-method
 browser-compat: api.HTMLFormElement.reset
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormElement.reset()`** method restores a form
 element's default values. This method does the same thing as clicking the form's

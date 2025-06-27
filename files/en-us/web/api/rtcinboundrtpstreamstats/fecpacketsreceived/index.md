@@ -4,9 +4,10 @@ short-title: fecPacketsReceived
 slug: Web/API/RTCInboundRtpStreamStats/fecPacketsReceived
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.fecPacketsReceived
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`fecPacketsReceived`** property
 of the {{domxref("RTCInboundRtpStreamStats")}} dictionary indicates how many

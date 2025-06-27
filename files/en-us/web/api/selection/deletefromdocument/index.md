@@ -4,9 +4,10 @@ short-title: deleteFromDocument()
 slug: Web/API/Selection/deleteFromDocument
 page-type: web-api-instance-method
 browser-compat: api.Selection.deleteFromDocument
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`deleteFromDocument()`** method of the
 {{domxref("Selection")}} interface invokes the {{domxref("Range.deleteContents()")}} method on the selected {{domxref("Range")}}.

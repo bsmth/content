@@ -4,9 +4,12 @@ short-title: getTags()
 slug: Web/API/SyncManager/getTags
 page-type: web-api-instance-method
 browser-compat: api.SyncManager.getTags
+sidebar:
+  - apiref:
+      - Background Sync
 ---
 
-{{APIRef("Background Sync")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`getTags()`** method of the
 {{domxref("SyncManager")}} interface returns a list of developer-defined identifiers for

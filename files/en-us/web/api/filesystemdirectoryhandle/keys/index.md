@@ -4,9 +4,12 @@ short-title: keys()
 slug: Web/API/FileSystemDirectoryHandle/keys
 page-type: web-api-instance-method
 browser-compat: api.FileSystemDirectoryHandle.keys
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers}}
+{{securecontext_header}}{{AvailableInWorkers}}
 
 The **`keys()`** method of the
 {{domxref("FileSystemDirectoryHandle")}} interface returns a new asynchronous iterator

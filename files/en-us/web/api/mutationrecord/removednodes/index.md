@@ -4,9 +4,10 @@ short-title: removedNodes
 slug: Web/API/MutationRecord/removedNodes
 page-type: web-api-instance-property
 browser-compat: api.MutationRecord.removedNodes
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("MutationRecord")}} read-only property **`removedNodes`** is a {{domxref("NodeList")}} of nodes removed from a target node by a mutation observed with a {{domxref("MutationObserver")}}.
 

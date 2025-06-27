@@ -4,9 +4,8 @@ short-title: submit
 slug: Web/API/HTMLFormElement/submit_event
 page-type: web-api-event
 browser-compat: api.HTMLFormElement.submit_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`submit`** event fires when a {{HtmlElement("form")}} is submitted.
 

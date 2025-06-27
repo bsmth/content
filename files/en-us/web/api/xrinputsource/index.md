@@ -3,9 +3,12 @@ title: XRInputSource
 slug: Web/API/XRInputSource
 page-type: web-api-interface
 browser-compat: api.XRInputSource
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The [WebXR Device API's](/en-US/docs/Web/API/WebXR_Device_API) **`XRInputSource`** interface describes a single source of control input which is part of the user's WebXR-compatible virtual or augmented reality system. The device is specific to the platform being used, but provides the direction in which it is being aimed and optionally may generate events if the user triggers performs actions using the device.
 

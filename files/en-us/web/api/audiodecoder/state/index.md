@@ -4,9 +4,12 @@ short-title: state
 slug: Web/API/AudioDecoder/state
 page-type: web-api-instance-property
 browser-compat: api.AudioDecoder.state
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`state`** read-only property of the {{domxref("AudioDecoder")}} interface returns the current state of the underlying codec.
 

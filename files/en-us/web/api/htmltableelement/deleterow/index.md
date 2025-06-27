@@ -4,9 +4,10 @@ short-title: deleteRow()
 slug: Web/API/HTMLTableElement/deleteRow
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableElement.deleteRow
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLTableElement.deleteRow()`** method removes a
 specific row ({{HtmlElement("tr")}}) from a given {{HtmlElement("table")}}.

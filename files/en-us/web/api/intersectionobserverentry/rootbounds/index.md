@@ -4,9 +4,10 @@ short-title: rootBounds
 slug: Web/API/IntersectionObserverEntry/rootBounds
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserverEntry.rootBounds
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`rootBounds`** read-only property of the {{domxref("IntersectionObserverEntry")}} interface is a {{domxref("DOMRectReadOnly")}} corresponding to the {{domxref("IntersectionObserverEntry.target", "target")}}'s root intersection rectangle, offset by the {{domxref("IntersectionObserver.rootMargin")}} if one is specified.
 

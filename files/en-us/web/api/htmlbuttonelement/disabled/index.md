@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/HTMLButtonElement/disabled
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.disabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLButtonElement.disabled`** property indicates whether the control is disabled, meaning that it does not accept any clicks.
 

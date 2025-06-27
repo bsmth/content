@@ -4,9 +4,10 @@ short-title: cssRules
 slug: Web/API/CSSStyleSheet/cssRules
 page-type: web-api-instance-property
 browser-compat: api.CSSStyleSheet.cssRules
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only {{domxref("CSSStyleSheet")}} property
 **`cssRules`** returns a live {{domxref("CSSRuleList")}} which

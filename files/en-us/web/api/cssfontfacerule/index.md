@@ -3,9 +3,10 @@ title: CSSFontFaceRule
 slug: Web/API/CSSFontFaceRule
 page-type: web-api-interface
 browser-compat: api.CSSFontFaceRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSFontFaceRule`** interface represents an {{cssxref("@font-face")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

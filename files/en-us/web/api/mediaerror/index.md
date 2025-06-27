@@ -3,9 +3,10 @@ title: MediaError
 slug: Web/API/MediaError
 page-type: web-api-interface
 browser-compat: api.MediaError
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`MediaError`** interface represents an error which occurred while handling media in an HTML media element based on {{domxref("HTMLMediaElement")}}, such as {{HTMLElement("audio")}} or {{HTMLElement("video")}}.
 

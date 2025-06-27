@@ -4,9 +4,10 @@ short-title: frames
 slug: Web/API/RTCVideoSourceStats/frames
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_media-source.frames
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`frames`** property of the {{domxref("RTCVideoSourceStats")}} dictionary indicates the total number of frames originating from this video source over its lifetime.
 

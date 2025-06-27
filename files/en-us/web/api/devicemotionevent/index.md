@@ -3,9 +3,12 @@ title: DeviceMotionEvent
 slug: Web/API/DeviceMotionEvent
 page-type: web-api-interface
 browser-compat: api.DeviceMotionEvent
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`DeviceMotionEvent`** interface of the {{domxref("Device Orientation Events", "", "", "nocode")}} provides web developers with information about the speed of changes for the device's position and orientation.
 

@@ -4,9 +4,10 @@ short-title: snapshotItem()
 slug: Web/API/XPathResult/snapshotItem
 page-type: web-api-instance-method
 browser-compat: api.XPathResult.snapshotItem
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
-
-{{APIRef("DOM XPath")}}
 
 The **`snapshotItem()`** method of the
 {{domxref("XPathResult")}} interface returns an item of the snapshot collection or

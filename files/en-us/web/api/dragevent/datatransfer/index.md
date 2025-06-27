@@ -4,9 +4,10 @@ short-title: dataTransfer
 slug: Web/API/DragEvent/dataTransfer
 page-type: web-api-instance-property
 browser-compat: api.DragEvent.dataTransfer
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DragEvent.dataTransfer`** read-only property holds the drag
 operation's data (as a {{domxref("DataTransfer")}} object).

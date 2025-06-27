@@ -4,9 +4,10 @@ short-title: animationsPaused()
 slug: Web/API/SVGSVGElement/animationsPaused
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.animationsPaused
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `animationsPaused()` method of the {{domxref("SVGSVGElement")}} interface checks whether the animations in the SVG document fragment are currently paused.
 

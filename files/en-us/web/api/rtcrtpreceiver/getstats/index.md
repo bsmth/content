@@ -4,9 +4,10 @@ short-title: getStats()
 slug: Web/API/RTCRtpReceiver/getStats
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpReceiver.getStats
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCRtpReceiver")}} method **`getStats()`** asynchronously requests an {{domxref("RTCStatsReport")}} object which provides statistics about incoming traffic on the owning {{domxref("RTCPeerConnection")}}, returning a {{jsxref("Promise")}} whose fulfillment handler will be called once the results are available.
 

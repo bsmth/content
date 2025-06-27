@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/TimeRanges/length
 page-type: web-api-instance-property
 browser-compat: api.TimeRanges.length
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`TimeRanges.length`** read-only property returns the
 number of ranges in the object.

@@ -4,9 +4,12 @@ short-title: Headers()
 slug: Web/API/Headers/Headers
 page-type: web-api-constructor
 browser-compat: api.Headers.Headers
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Headers()`** constructor creates a new
 {{domxref("Headers")}} object.

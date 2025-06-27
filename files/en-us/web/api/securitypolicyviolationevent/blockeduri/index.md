@@ -4,9 +4,12 @@ short-title: blockedURI
 slug: Web/API/SecurityPolicyViolationEvent/blockedURI
 page-type: web-api-instance-property
 browser-compat: api.SecurityPolicyViolationEvent.blockedURI
+sidebar:
+  - apiref:
+      - Reporting API
 ---
 
-{{APIRef("Reporting API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`blockedURI`** read-only property of the {{domxref("SecurityPolicyViolationEvent")}} interface is a string representing the URI of the resource that was blocked because it violates a [Content Security Policy (CSP)](/en-US/docs/Web/HTTP/Guides/CSP).
 

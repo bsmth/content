@@ -3,9 +3,10 @@ title: SVGFESpecularLightingElement
 slug: Web/API/SVGFESpecularLightingElement
 page-type: web-api-interface
 browser-compat: api.SVGFESpecularLightingElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFESpecularLightingElement`** interface corresponds to the {{SVGElement("feSpecularLighting")}} element.
 

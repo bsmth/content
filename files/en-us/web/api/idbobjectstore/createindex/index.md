@@ -4,9 +4,12 @@ short-title: createIndex()
 slug: Web/API/IDBObjectStore/createIndex
 page-type: web-api-instance-method
 browser-compat: api.IDBObjectStore.createIndex
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`createIndex()`** method of the
 {{domxref("IDBObjectStore")}} interface creates and returns a new

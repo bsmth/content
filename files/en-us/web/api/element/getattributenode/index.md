@@ -4,9 +4,10 @@ short-title: getAttributeNode()
 slug: Web/API/Element/getAttributeNode
 page-type: web-api-instance-method
 browser-compat: api.Element.getAttributeNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 Returns the specified attribute of the specified element, as an {{domxref("Attr")}} node.
 

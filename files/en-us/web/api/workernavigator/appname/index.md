@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.WorkerNavigator.appName
+sidebar:
+  - apiref:
+      - HTML DOM")}} {{Deprecated_Header}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("HTML DOM")}} {{Deprecated_Header}}{{AvailableInWorkers("worker")}}
 
 The value of the **`WorkerNavigator.appName`** property is always
 `"Netscape"`, in any browser. This property is kept only for compatibility

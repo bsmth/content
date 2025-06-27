@@ -4,9 +4,10 @@ short-title: intersectsNode()
 slug: Web/API/Range/intersectsNode
 page-type: web-api-instance-method
 browser-compat: api.Range.intersectsNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.intersectsNode()`** method returns a boolean
 indicating whether the given {{domxref("Node")}} intersects the {{domxref("Range")}}.

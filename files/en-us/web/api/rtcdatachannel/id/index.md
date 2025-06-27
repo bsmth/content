@@ -4,9 +4,10 @@ short-title: id
 slug: Web/API/RTCDataChannel/id
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.id
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only `RTCDataChannel` property
 **`id`** returns an ID number (between 0 and 65,534) which

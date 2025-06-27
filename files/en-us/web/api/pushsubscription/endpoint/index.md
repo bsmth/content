@@ -4,9 +4,12 @@ short-title: endpoint
 slug: Web/API/PushSubscription/endpoint
 page-type: web-api-instance-property
 browser-compat: api.PushSubscription.endpoint
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`endpoint`** read-only property of the
 {{domxref("PushSubscription")}} interface returns a string containing

@@ -4,9 +4,10 @@ short-title: createAnswer()
 slug: Web/API/RTCPeerConnection/createAnswer
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.createAnswer
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`createAnswer()`** method of the {{domxref("RTCPeerConnection")}} interface creates an {{Glossary("SDP")}} answer to an offer received from a remote peer during the offer/answer negotiation of a WebRTC connection.
 

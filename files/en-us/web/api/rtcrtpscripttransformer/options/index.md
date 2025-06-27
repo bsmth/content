@@ -4,9 +4,10 @@ short-title: options
 slug: Web/API/RTCRtpScriptTransformer/options
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpScriptTransformer.options
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`options`** read-only property of the {{domxref("RTCRtpScriptTransformer")}} interface returns the object that was (optionally) passed as the second argument [during construction](/en-US/docs/Web/API/RTCRtpScriptTransform/RTCRtpScriptTransform) of the corresponding {{domxref("RTCRtpScriptTransform")}}.
 

@@ -4,9 +4,12 @@ short-title: signalUnknownCredential()
 slug: Web/API/PublicKeyCredential/signalUnknownCredential_static
 page-type: web-api-static-method
 browser-compat: api.PublicKeyCredential.signalUnknownCredential_static
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`signalUnknownCredential()`** static method of the {{domxref("PublicKeyCredential")}} interface signals to the authenticator that a [credential ID](/en-US/docs/Web/API/PublicKeyCredentialRequestOptions#id) was not recognized by the [relying party](https://en.wikipedia.org/wiki/Relying_party) (RP) server.
 

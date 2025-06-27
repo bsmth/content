@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCIceCandidatePairStats/type
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`type`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary is a string with the value `"candidate-pair"`.
 

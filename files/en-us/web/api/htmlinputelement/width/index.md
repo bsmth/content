@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/HTMLInputElement/width
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.width
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`width`** property of the {{DOMxRef("HTMLInputElement")}} interface specifies the width of a control. It reflects the {{htmlelement("input")}} element's [`width`](/en-US/docs/Web/HTML/Reference/Elements/input#width) attribute.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_remote-outbound-rtp.roundTripTimeMeasurements
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`roundTripTimeMeasurements`** property of the {{domxref("RTCRemoteOutboundRtpStreamStats")}} dictionary is a positive integer value that represents the total number valid round of trip time measurements received for this [synchronizing source (SSRC)](/en-US/docs/Web/API/RTCRemoteOutboundRtpStreamStats/ssrc).
 

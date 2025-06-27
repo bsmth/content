@@ -4,9 +4,8 @@ short-title: createConicGradient()
 slug: Web/API/CanvasRenderingContext2D/createConicGradient
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.createConicGradient
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.createConicGradient()`** method of the Canvas 2D API creates a gradient around a point with given coordinates.
 

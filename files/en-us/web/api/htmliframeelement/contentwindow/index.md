@@ -4,9 +4,10 @@ short-title: contentWindow
 slug: Web/API/HTMLIFrameElement/contentWindow
 page-type: web-api-instance-property
 browser-compat: api.HTMLIFrameElement.contentWindow
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`contentWindow`** property returns the [Window](/en-US/docs/Web/API/Window) object of an [HTMLIFrameElement](/en-US/docs/Web/API/HTMLIFrameElement).
 

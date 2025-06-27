@@ -4,9 +4,12 @@ short-title: limits
 slug: Web/API/GPUDevice/limits
 page-type: web-api-instance-property
 browser-compat: api.GPUDevice.limits
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`limits`** read-only property of the
 {{domxref("GPUDevice")}} interface returns a {{domxref("GPUSupportedLimits")}} object that describes the limits supported by the device. All limit values will be included, and the limits requested during the creation of the device (i.e., when {{domxref("GPUAdapter.requestDevice()")}} is called) will be reflected in those values.

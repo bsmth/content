@@ -4,9 +4,10 @@ short-title: OES_texture_half_float_linear
 slug: Web/API/OES_texture_half_float_linear
 page-type: webgl-extension
 browser-compat: api.OES_texture_half_float_linear
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`OES_texture_half_float_linear`** extension is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and allows linear filtering with half floating-point pixel types for textures.
 

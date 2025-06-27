@@ -4,9 +4,10 @@ short-title: willValidate
 slug: Web/API/HTMLSelectElement/willValidate
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.willValidate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`willValidate`** read-only property of the {{domxref("HTMLSelectElement")}} interface indicates whether the {{htmlelement("select")}} element is a candidate for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation). It is `false` if any conditions bar it from constraint validation, such as when its {{domxref("HTMLSelectElement.disabled", "disabled")}} property is `true`.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.PerformanceElementTiming.toJSON
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`toJSON()`** method of the {{domxref("PerformanceElementTiming")}} interface is a {{Glossary("Serialization","serializer")}}; it returns a JSON representation of the {{domxref("PerformanceElementTiming")}} object.
 

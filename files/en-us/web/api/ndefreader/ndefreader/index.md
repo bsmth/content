@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.NDEFReader.NDEFReader
+sidebar:
+  - apiref:
+      - Web NFC API
 ---
 
-{{SecureContext_Header}}{{APIRef("Web NFC API")}}{{SeeCompatTable}}
+{{SecureContext_Header}}{{SeeCompatTable}}
 
 The **`NDEFReader()`**
 constructor of the {{domxref("NDEFReader")}} interface returns a

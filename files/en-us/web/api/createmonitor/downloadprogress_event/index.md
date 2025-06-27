@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.CreateMonitor.downloadprogress_event
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`downloadprogress`** event of the {{domxref("CreateMonitor")}} interface is fired when progress is made on the AI model download.
 

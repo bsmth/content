@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.SpeechGrammar.SpeechGrammar
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
 
-{{APIRef("Web Speech API")}}{{Non-standard_Header}}{{deprecated_header}}
+{{Non-standard_Header}}{{deprecated_header}}
 
 The **`SpeechGrammar()`** constructor of the
 {{domxref("SpeechGrammar")}} interface creates a new `SpeechGrammar` object

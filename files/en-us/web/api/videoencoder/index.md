@@ -3,9 +3,10 @@ title: VideoEncoder
 slug: Web/API/VideoEncoder
 page-type: web-api-interface
 browser-compat: api.VideoEncoder
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`VideoEncoder`** interface of the {{domxref('WebCodecs API', '', '', 1)}} encodes {{domxref("VideoFrame")}} objects into {{domxref("EncodedVideoChunk")}}s.
 

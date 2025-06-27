@@ -4,9 +4,12 @@ short-title: reason
 slug: Web/API/PromiseRejectionEvent/reason
 page-type: web-api-instance-property
 browser-compat: api.PromiseRejectionEvent.reason
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The {{domxref("PromiseRejectionEvent")}} **`reason`** read-only
 property is any JavaScript value or {{jsxref("Object")}} which provides the reason

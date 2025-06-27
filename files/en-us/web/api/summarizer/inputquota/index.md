@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Summarizer.inputQuota
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`inputQuota`** read-only property of the {{domxref("Summarizer")}} interface returns the input quota available to the browser for generating summaries.
 

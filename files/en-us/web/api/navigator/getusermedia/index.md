@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Navigator.getUserMedia
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{deprecated_header}}{{SecureContext_Header}}
+{{deprecated_header}}{{SecureContext_Header}}
 
 The deprecated **`Navigator.getUserMedia()`** method prompts the user for permission to use up to one video input device (such as a camera or shared screen) and up to one audio input device (such as a microphone) as the source for a {{domxref("MediaStream")}}.
 

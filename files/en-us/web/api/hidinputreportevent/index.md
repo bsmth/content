@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.HIDInputReportEvent
+sidebar:
+  - apiref:
+      - WebHID API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared
 ---
 
-{{securecontext_header}}{{APIRef("WebHID API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared")}}
+{{securecontext_header}}
 
 The **`HIDInputReportEvent`** interface of the [WebHID API](/en-US/docs/Web/API/WebHID_API) is passed to {{domxref("HIDDevice.inputreport_event", "inputreport")}} event of `HIDDevice` when an input report is received from any associated HID device.
 

@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - deprecated
 browser-compat: api.Window.unload_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{deprecated_header}}
+{{deprecated_header}}
 
 > [!WARNING]
 > Developers should avoid using this event. See "Usage notes" below.

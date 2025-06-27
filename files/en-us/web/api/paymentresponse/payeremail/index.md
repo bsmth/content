@@ -4,9 +4,12 @@ short-title: payerEmail
 slug: Web/API/PaymentResponse/payerEmail
 page-type: web-api-instance-property
 browser-compat: api.PaymentResponse.payerEmail
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The `payerEmail` read-only property of the {{domxref("PaymentResponse")}}
 interface returns the email address supplied by the user. This option is only present

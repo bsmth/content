@@ -5,9 +5,10 @@ slug: Web/API/HighlightRegistry/entries
 page-type: web-api-instance-method
 browser-compat: api.HighlightRegistry.entries
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.entries
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`entries()`** method of the {{domxref("HighlightRegistry")}} interface returns a new [Iterator](/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators) object that contains the `[name, highlight]` pairs for each element in the `HighlightRegistry` object, in insertion order.
 

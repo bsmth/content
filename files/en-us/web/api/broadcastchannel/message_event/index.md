@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/BroadcastChannel/message_event
 page-type: web-api-event
 browser-compat: api.BroadcastChannel.message_event
+sidebar:
+  - apiref:
+      - BroadCastChannel API
 ---
 
-{{APIRef("BroadCastChannel API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`message`** event of the {{domxref("BroadcastChannel")}} interface fires when a message arrives on that channel.
 

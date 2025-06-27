@@ -4,9 +4,10 @@ short-title: viewportElement
 slug: Web/API/SVGElement/viewportElement
 page-type: web-api-instance-property
 browser-compat: api.SVGElement.viewportElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`viewportElement`** property of the {{DOMxRef("SVGElement")}} interface represents the `SVGElement` which established the current viewport. Often the nearest ancestor {{SVGElement("svg")}} element. `null` if the given element is the outermost `<svg>` element.
 

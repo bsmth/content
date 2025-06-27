@@ -3,9 +3,12 @@ title: URLPattern
 slug: Web/API/URLPattern
 page-type: web-api-interface
 browser-compat: api.URLPattern
+sidebar:
+  - apiref:
+      - URL Pattern API
 ---
 
-{{APIRef("URL Pattern API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`URLPattern`** interface of the {{domxref("URL Pattern API", "", "", "nocode")}} matches URLs or parts of URLs against a pattern. The pattern can contain capturing groups that extract parts of the matched URL.
 

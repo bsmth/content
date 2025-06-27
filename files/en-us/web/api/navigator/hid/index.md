@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Navigator.hid
+sidebar:
+  - apiref:
+      - WebHID API
 ---
 
-{{APIRef("WebHID API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`Navigator.hid`**
 read-only property returns an {{domxref("HID")}} object providing methods for accessing HID device connections and events that fire when the user agent connects to or disconnects from a device.

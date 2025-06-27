@@ -4,9 +4,10 @@ short-title: ry
 slug: Web/API/SVGEllipseElement/ry
 page-type: web-api-instance-property
 browser-compat: api.SVGEllipseElement.ry
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`ry`** read-only property of the {{domxref("SVGEllipseElement")}} interface describes the y-axis radius of the ellipse as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("ry")}} attribute on the {{SVGElement("ellipse")}} element.
 

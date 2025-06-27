@@ -4,9 +4,10 @@ short-title: isTypeSupported()
 slug: Web/API/MediaSource/isTypeSupported_static
 page-type: web-api-static-method
 browser-compat: api.MediaSource.isTypeSupported_static
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`MediaSource.isTypeSupported()`** static method returns a boolean value which is `true` if the given MIME type and (optional) codec are _likely_ to be supported by the current {{Glossary("user agent")}}.
 

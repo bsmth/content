@@ -4,9 +4,8 @@ short-title: resizeTo()
 slug: Web/API/Window/resizeTo
 page-type: web-api-instance-method
 browser-compat: api.Window.resizeTo
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.resizeTo()`** method dynamically resizes the
 window.

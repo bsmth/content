@@ -4,9 +4,10 @@ short-title: lang
 slug: Web/API/SpeechRecognition/lang
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognition.lang
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`lang`** property of the {{domxref("SpeechRecognition")}}
 interface returns and sets the language of the current `SpeechRecognition`.

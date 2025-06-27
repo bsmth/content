@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.CloseWatcher.cancel_event
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{SeeCompatTable}}
+{{SeeCompatTable}}
 
 A `cancel` event is fired at a {{domxref("CloseWatcher")}} object before the `close` event, so that `close` can be prevented from firing, if necessary. It is triggered by all close signals (e.g., the <kbd>Esc</kbd> key) as well as {{domxref("CloseWatcher.requestClose()")}}.
 

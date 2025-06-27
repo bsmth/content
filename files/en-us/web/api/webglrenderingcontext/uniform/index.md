@@ -4,9 +4,12 @@ short-title: uniform[1234][fi][v]()
 slug: Web/API/WebGLRenderingContext/uniform
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.uniform1f
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.uniform[1234][fi][v]()`** methods
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) specify values of uniform

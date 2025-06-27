@@ -4,9 +4,10 @@ short-title: queueMicrotask()
 slug: Web/API/Window/queueMicrotask
 page-type: web-api-instance-method
 browser-compat: api.queueMicrotask
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`queueMicrotask()`** method of the {{domxref("Window")}} interface
 queues a microtask to be executed at a safe time prior to control returning to the

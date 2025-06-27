@@ -4,9 +4,12 @@ short-title: deleteSampler()
 slug: Web/API/WebGL2RenderingContext/deleteSampler
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.deleteSampler
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.deleteSampler()`** method of the
 [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) deletes a given

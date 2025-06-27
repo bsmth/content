@@ -4,9 +4,8 @@ short-title: embeds
 slug: Web/API/Document/embeds
 page-type: web-api-instance-property
 browser-compat: api.Document.embeds
+sidebar: apiref
 ---
-
-{{ApiRef}}
 
 The **`embeds`** read-only property of the
 {{domxref("Document")}} interface returns a list of the embedded

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.SharedStorageWorkletGlobalScope.register
+sidebar:
+  - apiref:
+      - Shared Storage API
 ---
 
-{{APIRef("Shared Storage API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`register()`** method of the
 {{domxref("SharedStorageWorkletGlobalScope")}} interface registers an {{domxref("SharedStorageOperation", "operation", "", "nocode")}} defined inside the current worklet module.

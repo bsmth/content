@@ -4,9 +4,12 @@ short-title: DecompressionStream()
 slug: Web/API/DecompressionStream/DecompressionStream
 page-type: web-api-constructor
 browser-compat: api.DecompressionStream.DecompressionStream
+sidebar:
+  - apiref:
+      - Compression Streams API
 ---
 
-{{APIRef("Compression Streams API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DecompressionStream()`** constructor creates a new {{domxref("DecompressionStream")}} object which decompresses a stream of data.
 

@@ -4,9 +4,10 @@ short-title: options
 slug: Web/API/HTMLSelectElement/options
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.options
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`HTMLSelectElement.options`** read-only property returns
 a {{domxref("HTMLOptionsCollection")}} of the {{HTMLElement("option")}} elements

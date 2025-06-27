@@ -4,9 +4,12 @@ short-title: request
 slug: Web/API/IDBCursor/request
 page-type: web-api-instance-property
 browser-compat: api.IDBCursor.request
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`request`** read-only property of the {{domxref("IDBCursor")}} interface returns the {{domxref("IDBRequest")}} used to obtain the cursor.
 

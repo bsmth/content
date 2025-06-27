@@ -4,9 +4,10 @@ short-title: controlsList
 slug: Web/API/HTMLMediaElement/controlsList
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.controlsList
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`controlsList`** property of the
 {{domxref("HTMLMediaElement")}} interface returns a DOMTokenList that helps the user

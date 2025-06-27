@@ -4,9 +4,12 @@ short-title: scale()
 slug: Web/API/DOMMatrixReadOnly/scale
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.scale
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`scale()`** method of the
 {{domxref("DOMMatrixReadOnly")}} interface creates a new matrix being the result of the

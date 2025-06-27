@@ -4,9 +4,10 @@ short-title: selected
 slug: Web/API/HTMLOptionElement/selected
 page-type: web-api-instance-property
 browser-compat: api.HTMLOptionElement.selected
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`selected`** property of the {{DOMxRef("HTMLOptionElement")}} interface specifies the current selectedness of the element; that is, whether the {{HTMLElement("option")}} is selected or not.
 

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - deprecated
 browser-compat: api.Plugin
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The `Plugin` interface provides information about a browser plugin.
 

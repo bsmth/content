@@ -4,9 +4,10 @@ short-title: preserveAspectRatio
 slug: Web/API/SVGMarkerElement/preserveAspectRatio
 page-type: web-api-instance-property
 browser-compat: api.SVGMarkerElement.preserveAspectRatio
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`preserveAspectRatio`** read-only property of the {{domxref("SVGMarkerElement")}} interface returns an {{domxref("SVGAnimatedPreserveAspectRatio")}} object containing the value of the {{SVGattr("preserveAspectRatio")}} attribute of the {{SVGElement("marker")}}.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.FontData.style
+sidebar:
+  - apiref:
+      - Local Font Access API
 ---
 
-{{APIRef("Local Font Access API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`style`** read-only property of the {{domxref("FontData")}} interface returns the style of the font face.
 

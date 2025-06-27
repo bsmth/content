@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/DOMTokenList/item
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.item
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`item()`** method of the {{domxref("DOMTokenList")}} interface returns an item in the list,
 determined by its position in the list, its index.

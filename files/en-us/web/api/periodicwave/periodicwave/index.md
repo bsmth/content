@@ -4,9 +4,10 @@ short-title: PeriodicWave()
 slug: Web/API/PeriodicWave/PeriodicWave
 page-type: web-api-constructor
 browser-compat: api.PeriodicWave.PeriodicWave
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`PeriodicWave()`** constructor of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new
 {{domxref("PeriodicWave")}} object instance.

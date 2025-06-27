@@ -4,9 +4,10 @@ short-title: speechstart
 slug: Web/API/SpeechRecognition/speechstart_event
 page-type: web-api-event
 browser-compat: api.SpeechRecognition.speechstart_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`speechstart`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) is fired when sound recognized by the speech recognition service as speech has been detected.
 

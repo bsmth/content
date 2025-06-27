@@ -4,9 +4,12 @@ short-title: lang
 slug: Web/API/Notification/lang
 page-type: web-api-instance-property
 browser-compat: api.Notification.lang
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`lang`** read-only property of the
 {{domxref("Notification")}} interface indicates the language used in the notification,

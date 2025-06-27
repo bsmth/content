@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/HTMLLinkElement/disabled
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.disabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`disabled`** property of the {{domxref("HTMLLinkElement")}} interface is a boolean value that represents whether the link is disabled. It only has an effect with style sheet links (`rel` property set to `stylesheet`).
 

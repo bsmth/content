@@ -4,9 +4,8 @@ short-title: save()
 slug: Web/API/CanvasRenderingContext2D/save
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.save
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.save()`**

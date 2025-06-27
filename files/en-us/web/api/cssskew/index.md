@@ -3,9 +3,10 @@ title: CSSSkew
 slug: Web/API/CSSSkew
 page-type: web-api-interface
 browser-compat: api.CSSSkew
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSSkew`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model) is part of the {{domxref('CSSTransformValue')}} interface. It represents the [`skew()`](/en-US/docs/Web/CSS/transform-function/skew) value of the individual {{CSSXRef('transform')}} property in CSS.
 

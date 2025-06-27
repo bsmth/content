@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.MediaStreamEvent.stream
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The read-only property **`MediaStreamEvent.stream`** returns
 the {{domxref("MediaStream")}} associated with the event.

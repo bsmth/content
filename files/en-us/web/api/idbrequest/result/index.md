@@ -4,9 +4,12 @@ short-title: result
 slug: Web/API/IDBRequest/result
 page-type: web-api-instance-property
 browser-compat: api.IDBRequest.result
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`result`** read-only property of the
 {{domxref("IDBRequest")}} interface returns the result of the request.

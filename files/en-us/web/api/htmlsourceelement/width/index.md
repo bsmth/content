@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/HTMLSourceElement/width
 page-type: web-api-instance-property
 browser-compat: api.HTMLSourceElement.width
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`width`** property of the {{domxref("HTMLSourceElement")}} interface is a non-negative number indicating the width of the image resource in CSS pixels.
 

@@ -3,9 +3,10 @@ title: "HTMLElement: toggle event"
 slug: Web/API/HTMLElement/toggle_event
 page-type: web-api-event
 browser-compat: api.HTMLElement.toggle_event
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`toggle`** event of the {{domxref("HTMLElement")}} interface fires on a {{domxref("Popover_API", "popover", "", "nocode")}} element, {{htmlelement("dialog")}} element, or {{htmlelement("details")}} element just after it is shown or hidden.
 

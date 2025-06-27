@@ -4,9 +4,10 @@ short-title: ariaRoleDescription
 slug: Web/API/Element/ariaRoleDescription
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaRoleDescription
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaRoleDescription`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-roledescription`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-roledescription) attribute, which defines a human-readable, author-localized description for the role of an element.
 

@@ -4,9 +4,10 @@ short-title: detune
 slug: Web/API/AudioBufferSourceNode/detune
 page-type: web-api-instance-property
 browser-compat: api.AudioBufferSourceNode.detune
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`detune`** property of the
 {{domxref("AudioBufferSourceNode")}} interface is a [k-rate](/en-US/docs/Web/API/AudioParam#k-rate) {{domxref("AudioParam")}}

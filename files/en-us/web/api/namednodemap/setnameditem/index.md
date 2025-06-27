@@ -4,9 +4,10 @@ short-title: setNamedItem()
 slug: Web/API/NamedNodeMap/setNamedItem
 page-type: web-api-instance-method
 browser-compat: api.NamedNodeMap.setNamedItem
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`setNamedItem()`** method of the {{domxref("NamedNodeMap")}} interface
 puts the {{domxref("Attr")}} identified by its name in the map.

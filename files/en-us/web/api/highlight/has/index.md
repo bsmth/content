@@ -5,9 +5,10 @@ slug: Web/API/Highlight/has
 page-type: web-api-instance-method
 browser-compat: api.Highlight.has
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.has
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`has()`** method of the {{domxref("Highlight")}} interface returns a boolean indicating whether a {{domxref("Range")}} object exists in a `Highlight` object or not.
 

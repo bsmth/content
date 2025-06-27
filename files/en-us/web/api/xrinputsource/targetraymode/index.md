@@ -4,9 +4,12 @@ short-title: targetRayMode
 slug: Web/API/XRInputSource/targetRayMode
 page-type: web-api-instance-property
 browser-compat: api.XRInputSource.targetRayMode
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRInputSource")}}
 property **`targetRayMode`** indicates the method by which the

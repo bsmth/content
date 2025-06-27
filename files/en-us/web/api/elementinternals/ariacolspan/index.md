@@ -4,9 +4,10 @@ short-title: ariaColSpan
 slug: Web/API/ElementInternals/ariaColSpan
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaColSpan
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaColSpan`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-colspan`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-colspan) attribute, which defines the number of columns spanned by a cell or gridcell within a table, grid, or treegrid.
 

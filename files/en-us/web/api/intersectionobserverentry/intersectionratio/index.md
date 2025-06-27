@@ -4,9 +4,10 @@ short-title: intersectionRatio
 slug: Web/API/IntersectionObserverEntry/intersectionRatio
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserverEntry.intersectionRatio
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`intersectionRatio`** read-only property of the {{domxref("IntersectionObserverEntry")}} interface tells you how much of the target element is currently visible within the root's intersection ratio, as a value between 0.0 and 1.0.
 

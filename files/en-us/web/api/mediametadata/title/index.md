@@ -4,9 +4,10 @@ short-title: title
 slug: Web/API/MediaMetadata/title
 page-type: web-api-instance-property
 browser-compat: api.MediaMetadata.title
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`title`** property of the
 {{domxref("MediaMetadata")}} interface returns or sets the title of the media to be

@@ -4,9 +4,10 @@ short-title: VTTCue()
 slug: Web/API/VTTCue/VTTCue
 page-type: web-api-constructor
 browser-compat: api.VTTCue.VTTCue
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`VTTCue()`** constructor creates and returns a new
 {{domxref("VTTCue")}} object.

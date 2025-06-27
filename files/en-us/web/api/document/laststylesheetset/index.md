@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Document.lastStyleSheetSet
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`Document.lastStyleSheetSet`** property returns the last enabled style sheet set. This property's
 value changes whenever the {{domxref("document.selectedStyleSheetSet")}} property is

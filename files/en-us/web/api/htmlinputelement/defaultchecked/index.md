@@ -4,9 +4,10 @@ short-title: defaultChecked
 slug: Web/API/HTMLInputElement/defaultChecked
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.defaultChecked
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`defaultChecked`** property of the {{DOMxRef("HTMLInputElement")}} interface specifies the default checkedness state of the element. This property reflects the {{htmlelement("input")}} element's [`checked`](/en-US/docs/Web/HTML/Reference/Elements/input#checked) attribute.
 

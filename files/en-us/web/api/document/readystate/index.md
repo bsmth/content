@@ -4,9 +4,10 @@ short-title: readyState
 slug: Web/API/Document/readyState
 page-type: web-api-instance-property
 browser-compat: api.Document.readyState
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Document.readyState`** property describes the loading state of the {{domxref("document")}}.
 When the value of this property changes, a {{domxref("Document/readystatechange_event", "readystatechange")}} event fires on the {{domxref("document")}} object.

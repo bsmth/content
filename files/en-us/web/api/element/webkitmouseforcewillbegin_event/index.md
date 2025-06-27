@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - non-standard
 browser-compat: api.Element.webkitmouseforcewillbegin_event
+sidebar:
+  - apiref:
+      - Force Touch Events
 ---
 
-{{APIRef("Force Touch Events")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 Safari for macOS fires the non-standard **`webkitmouseforcewillbegin`** event at an {{domxref("Element")}} before firing the initial {{domxref("Element/mousedown_event", "mousedown")}} event.
 

@@ -3,9 +3,10 @@ title: HTMLOptionElement
 slug: Web/API/HTMLOptionElement
 page-type: web-api-interface
 browser-compat: api.HTMLOptionElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLOptionElement`** interface represents {{HTMLElement("option")}} elements and inherits all properties and methods of the {{domxref("HTMLElement")}} interface.
 

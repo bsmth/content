@@ -4,9 +4,8 @@ short-title: error
 slug: Web/API/Window/error_event
 page-type: web-api-event
 browser-compat: api.Window.error_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `error` event is fired on a {{domxref("Window")}} object when a resource failed to load or couldn't be used — for example if a script has an execution error.
 

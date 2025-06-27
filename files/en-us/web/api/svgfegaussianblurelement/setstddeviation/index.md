@@ -4,9 +4,10 @@ short-title: setStdDeviation()
 slug: Web/API/SVGFEGaussianBlurElement/setStdDeviation
 page-type: web-api-instance-method
 browser-compat: api.SVGFEGaussianBlurElement.setStdDeviation
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `setStdDeviation()` method of the {{domxref("SVGFEGaussianBlurElement")}} interface sets the values for the {{SVGAttr("stdDeviation")}} attribute.
 

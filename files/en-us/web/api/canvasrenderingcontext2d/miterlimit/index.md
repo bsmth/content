@@ -4,9 +4,8 @@ short-title: miterLimit
 slug: Web/API/CanvasRenderingContext2D/miterLimit
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.miterLimit
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.miterLimit`** property of the
 Canvas 2D API sets the miter limit ratio.

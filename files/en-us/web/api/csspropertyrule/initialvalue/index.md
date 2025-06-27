@@ -4,9 +4,10 @@ short-title: initialValue
 slug: Web/API/CSSPropertyRule/initialValue
 page-type: web-api-instance-property
 browser-compat: api.CSSPropertyRule.initialValue
+sidebar:
+  - apiref:
+      - CSS Properties and Values API
 ---
-
-{{APIRef("CSS Properties and Values API")}}
 
 The read-only **`initialValue`** nullable property of the {{domxref("CSSPropertyRule")}} interface returns the initial value of the custom property registration represented by the {{cssxref("@property")}} rule, controlling the property's initial value.
 

@@ -3,9 +3,10 @@ title: EncodedAudioChunk
 slug: Web/API/EncodedAudioChunk
 page-type: web-api-interface
 browser-compat: api.EncodedAudioChunk
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`EncodedAudioChunk`** interface of the {{domxref('WebCodecs API','','',' ')}} represents a chunk of encoded audio data.
 

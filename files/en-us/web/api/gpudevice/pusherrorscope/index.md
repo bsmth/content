@@ -4,9 +4,12 @@ short-title: pushErrorScope()
 slug: Web/API/GPUDevice/pushErrorScope
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.pushErrorScope
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`pushErrorScope()`** method of the
 {{domxref("GPUDevice")}} interface pushes a new GPU error scope onto the device's error scope stack, allowing you to capture errors of a particular type.

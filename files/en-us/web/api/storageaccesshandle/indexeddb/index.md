@@ -4,9 +4,10 @@ short-title: indexedDB
 slug: Web/API/StorageAccessHandle/indexedDB
 page-type: web-api-instance-property
 browser-compat: api.StorageAccessHandle.indexedDB
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 The **`indexedDB`** property of the {{domxref("StorageAccessHandle")}} interface returns an unpartitioned {{domxref("IDBFactory")}} object if access was granted, and throws a `SecurityError` {{DOMxRef("DOMException")}} otherwise.
 

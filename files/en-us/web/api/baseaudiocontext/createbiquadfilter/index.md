@@ -4,9 +4,10 @@ short-title: createBiquadFilter()
 slug: Web/API/BaseAudioContext/createBiquadFilter
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createBiquadFilter
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createBiquadFilter()` method of the {{ domxref("BaseAudioContext") }}
 interface creates a {{ domxref("BiquadFilterNode") }}, which represents a second order

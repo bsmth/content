@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - experimental
 browser-compat: api.BluetoothUUID.getDescriptor_static
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{APIRef("Bluetooth API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`getDescriptor()`** static method of the {{domxref("BluetoothUUID")}} interface returns a UUID representing a registered descriptor when passed a name or the 16- or 32-bit UUID alias.
 

@@ -4,9 +4,12 @@ short-title: drawingBufferHeight
 slug: Web/API/WebGLRenderingContext/drawingBufferHeight
 page-type: web-api-instance-property
 browser-compat: api.WebGLRenderingContext.drawingBufferHeight
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`WebGLRenderingContext.drawingBufferHeight`**
 property represents the actual height of the current drawing buffer. It should match the

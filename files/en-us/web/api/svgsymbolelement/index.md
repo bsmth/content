@@ -3,9 +3,10 @@ title: SVGSymbolElement
 slug: Web/API/SVGSymbolElement
 page-type: web-api-interface
 browser-compat: api.SVGSymbolElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGSymbolElement`** interface corresponds to the {{SVGElement("symbol")}} element.
 

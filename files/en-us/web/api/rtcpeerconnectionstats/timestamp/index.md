@@ -4,9 +4,10 @@ short-title: timestamp
 slug: Web/API/RTCPeerConnectionStats/timestamp
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_peer-connection.timestamp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`timestamp`** property of the {{domxref("RTCPeerConnectionStats")}} dictionary is a {{domxref("DOMHighResTimeStamp")}} object specifying the time at which the data in the object was sampled.
 

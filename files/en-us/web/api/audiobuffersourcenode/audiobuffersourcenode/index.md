@@ -4,9 +4,10 @@ short-title: AudioBufferSourceNode()
 slug: Web/API/AudioBufferSourceNode/AudioBufferSourceNode
 page-type: web-api-constructor
 browser-compat: api.AudioBufferSourceNode.AudioBufferSourceNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`AudioBufferSourceNode()`**
 constructor creates a new {{domxref("AudioBufferSourceNode")}} object instance.

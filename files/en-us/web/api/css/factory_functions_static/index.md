@@ -3,9 +3,10 @@ title: CSS numeric factory functions
 slug: Web/API/CSS/factory_functions_static
 page-type: web-api-static-method
 browser-compat: api.CSS
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **CSS numeric factory
 functions**, such as `CSS.em()` and

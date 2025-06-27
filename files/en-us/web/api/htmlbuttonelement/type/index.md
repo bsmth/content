@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLButtonElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`type`** property of the {{domxref("HTMLButtonElement")}} interface is a string that indicates the behavior type of the {{HTMLElement("button")}} element.
 

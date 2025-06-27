@@ -4,9 +4,10 @@ short-title: markerWidth
 slug: Web/API/SVGMarkerElement/markerWidth
 page-type: web-api-instance-property
 browser-compat: api.SVGMarkerElement.markerWidth
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`markerWidth`** read-only property of the {{domxref("SVGMarkerElement")}} interface returns an {{domxref("SVGAnimatedLength")}} object containing the width of the {{SVGElement("marker")}} viewport as defined by the {{SVGattr("markerWidth")}} attribute.
 

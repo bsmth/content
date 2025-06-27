@@ -3,9 +3,12 @@ title: XRReferenceSpace
 slug: Web/API/XRReferenceSpace
 page-type: web-api-interface
 browser-compat: api.XRReferenceSpace
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{secureContext_header}}
+{{secureContext_header}}
 
 The WebXR Device API's **`XRReferenceSpace`** interface describes the coordinate system for a specific tracked entity or object within the virtual world using a specified tracking behavior. The tracking behavior is defined by the selected [reference space type](#reference_space_types). It expands upon the base class, {{domxref("XRSpace")}}, by adding support for several different tracking behaviors as well as to request a new reference space which describes the offset transform between the tracked object and another location in the world.
 

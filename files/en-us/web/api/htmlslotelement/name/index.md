@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLSlotElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLSlotElement.name
+sidebar:
+  - apiref:
+      - Shadow DOM API
 ---
-
-{{APIRef("Shadow DOM API")}}
 
 The **`name`** property of the {{domxref("HTMLSlotElement")}}
 interface returns or sets the slot name. A slot is a placeholder inside a web component

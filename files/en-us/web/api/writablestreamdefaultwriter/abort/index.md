@@ -4,9 +4,12 @@ short-title: abort()
 slug: Web/API/WritableStreamDefaultWriter/abort
 page-type: web-api-instance-method
 browser-compat: api.WritableStreamDefaultWriter.abort
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`abort()`** method of the
 {{domxref("WritableStreamDefaultWriter")}} interface aborts the stream, signaling that

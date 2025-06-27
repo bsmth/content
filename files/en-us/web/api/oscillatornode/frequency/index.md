@@ -4,9 +4,10 @@ short-title: frequency
 slug: Web/API/OscillatorNode/frequency
 page-type: web-api-instance-property
 browser-compat: api.OscillatorNode.frequency
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`frequency`** property of the {{ domxref("OscillatorNode") }} interface is an [a-rate](/en-US/docs/Web/API/AudioParam#a-rate) {{domxref("AudioParam")}} representing the frequency of oscillation in hertz.
 

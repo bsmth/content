@@ -3,9 +3,10 @@ title: AudioParam
 slug: Web/API/AudioParam
 page-type: web-api-interface
 browser-compat: api.AudioParam
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The Web Audio API's `AudioParam` interface represents an audio-related parameter, usually a parameter of an {{domxref("AudioNode")}} (such as {{ domxref("GainNode.gain") }}).
 

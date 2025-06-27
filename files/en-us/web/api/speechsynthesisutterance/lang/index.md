@@ -4,9 +4,10 @@ short-title: lang
 slug: Web/API/SpeechSynthesisUtterance/lang
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisUtterance.lang
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`lang`** property of the {{domxref("SpeechSynthesisUtterance")}} interface gets and sets the language of the utterance.
 

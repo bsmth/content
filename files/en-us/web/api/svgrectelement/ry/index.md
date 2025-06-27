@@ -4,9 +4,10 @@ short-title: ry
 slug: Web/API/SVGRectElement/ry
 page-type: web-api-instance-property
 browser-compat: api.SVGRectElement.ry
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`ry`** read-only property of the {{domxref("SVGRectElement")}} interface describes the vertical curve of the corners of an SVG rectangle as a {{domxref("SVGAnimatedLength")}}. The length is in user coordinate system units along the y-axis. Its syntax is the same as that for [`<length>`](/en-US/docs/Web/SVG/Guides/Content_type#length).
 

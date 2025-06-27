@@ -4,9 +4,10 @@ short-title: port
 slug: Web/API/AudioWorkletProcessor/port
 page-type: web-api-instance-property
 browser-compat: api.AudioWorkletProcessor.port
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The read-only **`port`** property of the
 {{domxref("AudioWorkletProcessor")}} interface returns the associated

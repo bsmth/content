@@ -4,9 +4,10 @@ short-title: ariaDetailsElements
 slug: Web/API/ElementInternals/ariaDetailsElements
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaDetailsElements
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaDetailsElements`** property of the {{domxref("ElementInternals")}} interface is an array containing the element (or elements) that provide an accessible details for the element it is applied to.
 The accessible details are similar to the accessible description (see {{domxref("ElementInternals/ariaDescribedByElements","ariaDescribedByElements")}}), but provides more verbose information.

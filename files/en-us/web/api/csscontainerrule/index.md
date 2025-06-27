@@ -3,9 +3,10 @@ title: CSSContainerRule
 slug: Web/API/CSSContainerRule
 page-type: web-api-interface
 browser-compat: api.CSSContainerRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`CSSContainerRule`** interface represents a single CSS {{cssxref("@container")}} rule.
 

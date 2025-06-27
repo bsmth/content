@@ -4,9 +4,10 @@ short-title: duration
 slug: Web/API/MediaSource/duration
 page-type: web-api-instance-property
 browser-compat: api.MediaSource.duration
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`duration`** property of the {{domxref("MediaSource")}}
 interface gets and sets the duration of the current media being presented.

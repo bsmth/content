@@ -4,9 +4,10 @@ short-title: clearInterval()
 slug: Web/API/Window/clearInterval
 page-type: web-api-instance-method
 browser-compat: api.clearInterval
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`clearInterval()`** method of the {{domxref("Window")}} interface cancels a timed, repeating action which was previously established by a call to {{domxref("Window.setInterval", "setInterval()")}}. If the parameter provided does not identify a previously established action, this method does nothing.
 

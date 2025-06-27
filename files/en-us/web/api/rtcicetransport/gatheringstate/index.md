@@ -4,9 +4,10 @@ short-title: gatheringState
 slug: Web/API/RTCIceTransport/gatheringState
 page-type: web-api-instance-property
 browser-compat: api.RTCIceTransport.gatheringState
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`gatheringState`** read-only property of the {{domxref("RTCIceTransport")}} interface returns a string that indicates the current gathering state of the ICE agent for this transport: `"new"`, `"gathering"`, or `"complete"`.
 

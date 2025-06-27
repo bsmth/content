@@ -4,9 +4,10 @@ short-title: src
 slug: Web/API/HTMLEmbedElement/src
 page-type: web-api-instance-property
 browser-compat: api.HTMLEmbedElement.src
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`src`** property of the {{domxref("HTMLEmbedElement")}} interface returns a string that indicates the URL of the resource being embedded.
 

@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.VRFieldOfView.rightDegrees
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{APIRef("WebVR API")}}{{Deprecated_header}}{{Non-standard_header}}
+{{Deprecated_header}}{{Non-standard_header}}
 
 The **`rightDegrees`** read-only property of the {{domxref("VRFieldOfView")}} interface returns the number of degrees to the right that the field of view extends in.
 

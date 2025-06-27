@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLAnchorElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`type`** property of the {{domxref("HTMLAnchorElement")}} interface is a string that indicates the MIME type of the linked resource.
 

@@ -4,9 +4,10 @@ short-title: track
 slug: Web/API/RTCRtpReceiver/track
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpReceiver.track
+sidebar:
+  - apiref:
+      - WebRTC API
 ---
-
-{{APIRef("WebRTC API")}}
 
 The **`track`** read-only property of the
 {{domxref("RTCRtpReceiver")}} interface returns the {{domxref("MediaStreamTrack")}}

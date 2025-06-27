@@ -4,9 +4,10 @@ short-title: numberOfItems
 slug: Web/API/SVGPointList/numberOfItems
 page-type: web-api-instance-property
 browser-compat: api.SVGPointList.numberOfItems
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`numberOfItems`** read-only property of the {{domxref("SVGPointList")}} interface returns the number of items in the list.
 

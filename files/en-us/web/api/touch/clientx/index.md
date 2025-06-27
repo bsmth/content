@@ -4,9 +4,10 @@ short-title: clientX
 slug: Web/API/Touch/clientX
 page-type: web-api-instance-property
 browser-compat: api.Touch.clientX
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The `Touch.clientX` read-only property returns the X coordinate of the touch
 point relative to the viewport, not including any scroll offset.

@@ -4,9 +4,10 @@ short-title: result
 slug: Web/API/SVGFEMorphologyElement/result
 page-type: web-api-instance-property
 browser-compat: api.SVGFEMorphologyElement.result
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`result`** read-only property of the {{domxref("SVGFEMorphologyElement")}} interface describes the assigned name of an SVG filter primitive as a {{domxref("SVGAnimatedString")}}.
 

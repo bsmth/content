@@ -4,9 +4,12 @@ short-title: colorSpace
 slug: Web/API/ImageData/colorSpace
 page-type: web-api-instance-property
 browser-compat: api.ImageData.colorSpace
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`ImageData.colorSpace`** property is a string indicating the color space of the image data.
 

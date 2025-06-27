@@ -4,9 +4,10 @@ short-title: ConvolverNode()
 slug: Web/API/ConvolverNode/ConvolverNode
 page-type: web-api-constructor
 browser-compat: api.ConvolverNode.ConvolverNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`ConvolverNode()`** constructor of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new
 {{domxref("ConvolverNode")}} object instance.

@@ -4,9 +4,12 @@ short-title: hint()
 slug: Web/API/WebGLRenderingContext/hint
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.hint
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.hint()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) specifies hints for certain
 behaviors. The interpretation of these hints depend on the implementation.

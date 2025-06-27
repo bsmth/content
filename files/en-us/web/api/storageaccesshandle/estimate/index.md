@@ -4,9 +4,10 @@ short-title: estimate()
 slug: Web/API/StorageAccessHandle/estimate
 page-type: web-api-instance-method
 browser-compat: api.StorageAccessHandle.estimate
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 > [!NOTE]
 > See {{domxref("StorageManager.estimate()")}} to understand usage.

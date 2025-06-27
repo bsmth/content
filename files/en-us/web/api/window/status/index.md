@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Window.status
+sidebar: apiref
 ---
 
-{{APIRef}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`status`** property of the
 {{domxref("Window")}} interface was originally intended to set the text in the status

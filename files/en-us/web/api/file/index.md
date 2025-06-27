@@ -3,9 +3,12 @@ title: File
 slug: Web/API/File
 page-type: web-api-interface
 browser-compat: api.File
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`File`** interface provides information about files and allows JavaScript in a web page to access their content.
 

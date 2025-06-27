@@ -4,9 +4,12 @@ short-title: uniformBlockBinding()
 slug: Web/API/WebGL2RenderingContext/uniformBlockBinding
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.uniformBlockBinding
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.uniformBlockBinding()`** method
 of the [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) assigns binding points

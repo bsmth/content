@@ -4,9 +4,10 @@ short-title: contains()
 slug: Web/API/DOMTokenList/contains
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.contains
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`contains()`** method of the {{domxref("DOMTokenList")}} interface
 returns a boolean value — `true` if the underlying list contains the given token,

@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - experimental
 browser-compat: api.BluetoothUUID.canonicalUUID_static
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{APIRef("Bluetooth API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`canonicalUUID()`** static method of the {{domxref("BluetoothUUID")}} interface returns the 128-bit UUID when passed a 16- or 32-bit UUID alias.
 

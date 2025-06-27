@@ -4,9 +4,12 @@ short-title: activated
 slug: Web/API/Sensor/activated
 page-type: web-api-instance-property
 browser-compat: api.Sensor.activated
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`activated`** read-only property
 of the {{domxref("Sensor")}} interface returns a boolean value indicating

@@ -4,9 +4,12 @@ short-title: error()
 slug: Web/API/TransformStreamDefaultController/error
 page-type: web-api-instance-method
 browser-compat: api.TransformStreamDefaultController.error
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`error()`** method of the {{domxref("TransformStreamDefaultController")}} interface errors both sides of the stream. Any further interactions with it will fail with the given error message, and any chunks in the queue will be discarded.
 

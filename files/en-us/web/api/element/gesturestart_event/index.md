@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - non-standard
 browser-compat: api.Element.gesturestart_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`gesturestart`** event is fired when multiple fingers contact the touch surface, thus starting a new gesture. During the gesture, {{domxref("Element/gesturechange_event", "gesturechange")}} events will be fired. When the gesture has ended, a {{domxref("Element/gestureend_event", "gestureend")}} event will be fired.
 

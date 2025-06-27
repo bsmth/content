@@ -4,9 +4,10 @@ short-title: after()
 slug: Web/API/CharacterData/after
 page-type: web-api-instance-method
 browser-compat: api.CharacterData.after
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`after()`** method of the {{domxref("CharacterData")}} interface
 inserts a set of {{domxref("Node")}} objects or strings in the children list of the

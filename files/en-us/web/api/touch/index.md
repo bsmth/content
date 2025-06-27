@@ -3,9 +3,10 @@ title: Touch
 slug: Web/API/Touch
 page-type: web-api-interface
 browser-compat: api.Touch
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{APIRef("Touch Events")}}
 
 The **`Touch`** interface represents a single contact point on a touch-sensitive device. The contact point is commonly a finger or stylus and the device may be a touchscreen or trackpad.
 

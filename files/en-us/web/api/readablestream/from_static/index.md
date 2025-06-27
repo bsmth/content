@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - experimental
 browser-compat: api.ReadableStream.from_static
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}{{SeeCompatTable}}
+{{AvailableInWorkers}}{{SeeCompatTable}}
 
 The **`ReadableStream.from()`** static method returns a {{domxref("ReadableStream")}} from a provided iterable or async iterable object.
 

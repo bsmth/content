@@ -4,9 +4,10 @@ short-title: amplitude
 slug: Web/API/SVGComponentTransferFunctionElement/amplitude
 page-type: web-api-instance-property
 browser-compat: api.SVGComponentTransferFunctionElement.amplitude
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`amplitude`** read-only property of the {{domxref("SVGComponentTransferFunctionElement")}} interface reflects the {{SVGAttr("amplitude")}} attribute of the given element.
 

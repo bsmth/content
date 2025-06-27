@@ -4,9 +4,10 @@ short-title: scrollHeight
 slug: Web/API/Element/scrollHeight
 page-type: web-api-instance-property
 browser-compat: api.Element.scrollHeight
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`scrollHeight`** read-only property of the {{domxref("Element")}} interface is a measurement of the height of an element's content, including content not visible on the screen due to overflow.
 

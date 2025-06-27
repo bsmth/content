@@ -4,9 +4,10 @@ short-title: sectionRowIndex
 slug: Web/API/HTMLTableRowElement/sectionRowIndex
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableRowElement.sectionRowIndex
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`sectionRowIndex`** read-only property of the {{domxref("HTMLTableRowElement")}} interface
 represents the position of a row within the current section ({{htmlelement("thead")}}, {{htmlelement("tbody")}}, or {{htmlelement("tfoot")}}).

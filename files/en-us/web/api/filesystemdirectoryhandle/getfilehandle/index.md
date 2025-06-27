@@ -4,9 +4,12 @@ short-title: getFileHandle()
 slug: Web/API/FileSystemDirectoryHandle/getFileHandle
 page-type: web-api-instance-method
 browser-compat: api.FileSystemDirectoryHandle.getFileHandle
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers}}
+{{securecontext_header}}{{AvailableInWorkers}}
 
 The **`getFileHandle()`** method of the
 {{domxref("FileSystemDirectoryHandle")}} interface returns a

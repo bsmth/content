@@ -4,9 +4,10 @@ short-title: querySelectorAll()
 slug: Web/API/DocumentFragment/querySelectorAll
 page-type: web-api-instance-method
 browser-compat: api.DocumentFragment.querySelectorAll
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`DocumentFragment.querySelectorAll()`** method returns a
 {{domxref("NodeList")}} of elements within the {{domxref("DocumentFragment")}} (using

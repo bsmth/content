@@ -4,9 +4,10 @@ short-title: toSum()
 slug: Web/API/CSSNumericValue/toSum
 page-type: web-api-instance-method
 browser-compat: api.CSSNumericValue.toSum
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`toSum()`** method of the
 {{domxref("CSSNumericValue")}} interface converts the object's value to a

@@ -4,9 +4,12 @@ short-title: log()
 slug: Web/API/console/log_static
 page-type: web-api-static-method
 browser-compat: api.console.log_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.log()`** static method outputs a message to the console.
 

@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.FileSystemDirectoryEntry.removeRecursively
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
 
-{{APIRef("File and Directory Entries API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The {{domxref("FileSystemDirectoryEntry")}} interface's method
 **`removeRecursively()`** removes

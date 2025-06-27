@@ -4,9 +4,10 @@ short-title: delayTime
 slug: Web/API/DelayNode/delayTime
 page-type: web-api-instance-property
 browser-compat: api.DelayNode.delayTime
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `delayTime` property of the {{ domxref("DelayNode") }} interface is an [a-rate](/en-US/docs/Web/API/AudioParam#a-rate) {{domxref("AudioParam")}} representing the amount of delay to apply.
 

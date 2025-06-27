@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Document.selectedStyleSheetSet
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`selectedStyleSheetSet`** property indicates the name of the style sheet set that's currently in use.
 

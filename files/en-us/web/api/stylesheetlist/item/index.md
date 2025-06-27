@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/StyleSheetList/item
 page-type: web-api-instance-method
 browser-compat: api.StyleSheetList.item
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`item()`** method of the {{domxref("StyleSheetList")}} interface returns a single {{domxref("CSSStyleSheet")}} object.
 

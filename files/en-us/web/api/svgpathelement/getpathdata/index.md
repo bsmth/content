@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.SVGPathElement.getPathData
+sidebar:
+  - apiref:
+      - SVG
 ---
 
-{{APIRef("SVG")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`SVGPathElement.getPathData()`** method returns the sequence of path segments that corresponds to the path data, optionally normalizing the values and segment types.
 

@@ -4,9 +4,10 @@ short-title: finished
 slug: Web/API/Animation/finished
 page-type: web-api-instance-property
 browser-compat: api.Animation.finished
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`Animation.finished`** read-only property of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) returns a {{jsxref("Promise")}} which resolves once the animation has finished playing.
 

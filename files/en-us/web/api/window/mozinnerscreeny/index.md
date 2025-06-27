@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.Window.mozInnerScreenY
+sidebar: apiref
 ---
 
-{{APIRef}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The `mozInnerScreenY` property of the {{domxref("Window")}} interface returns the Y coordinate of the top-left corner of the window's viewport, in screen
 coordinates.

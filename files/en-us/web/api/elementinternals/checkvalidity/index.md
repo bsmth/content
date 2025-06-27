@@ -4,9 +4,10 @@ short-title: checkValidity()
 slug: Web/API/ElementInternals/checkValidity
 page-type: web-api-instance-method
 browser-compat: api.ElementInternals.checkValidity
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`checkValidity()`** method of the {{domxref("ElementInternals")}} interface checks if the element meets any [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation) rules applied to it.
 

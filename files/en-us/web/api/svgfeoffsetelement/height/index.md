@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGFEOffsetElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGFEOffsetElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** read-only property of the {{domxref("SVGFEOffsetElement")}} interface describes the vertical size of an SVG filter primitive as an {{domxref("SVGAnimatedLength")}}.
 

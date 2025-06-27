@@ -4,9 +4,10 @@ short-title: ariaMultiSelectable
 slug: Web/API/ElementInternals/ariaMultiSelectable
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaMultiSelectable
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaMultiSelectable`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-multiselectable`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-multiselectable) attribute, which indicates that the user may select more than one item from the current selectable descendants.
 

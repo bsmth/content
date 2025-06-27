@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableElement.align
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`HTMLTableElement.align`** property represents the
 alignment of the table.

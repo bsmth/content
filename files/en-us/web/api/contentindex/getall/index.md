@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.ContentIndex.getAll
+sidebar:
+  - apiref:
+      - Content Index API
 ---
 
-{{APIRef("Content Index API")}}{{SeeCompatTable}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{AvailableInWorkers}}
 
 The **`getAll()`** method of the
 {{domxref("ContentIndex")}} interface returns a {{jsxref('Promise')}} that resolves with

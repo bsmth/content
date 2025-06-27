@@ -4,9 +4,10 @@ short-title: method
 slug: Web/API/HTMLFormElement/method
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.method
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormElement.method`** property represents the
 {{Glossary("HTTP")}} method used to submit the {{HtmlElement("form")}}.

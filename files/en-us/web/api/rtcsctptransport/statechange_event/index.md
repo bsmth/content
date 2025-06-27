@@ -4,9 +4,10 @@ short-title: statechange
 slug: Web/API/RTCSctpTransport/statechange_event
 page-type: web-api-event
 browser-compat: api.RTCSctpTransport.statechange_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 A **`statechange`** event is sent to an {{domxref("RTCSctpTransport")}} to provide notification when the {{domxref("RTCSctpTransport.state")}} property has changed.
 

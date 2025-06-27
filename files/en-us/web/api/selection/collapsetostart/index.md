@@ -4,9 +4,10 @@ short-title: collapseToStart()
 slug: Web/API/Selection/collapseToStart
 page-type: web-api-instance-method
 browser-compat: api.Selection.collapseToStart
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.collapseToStart()`** method collapses the
 selection to the start of the first range in the selection. If the content of the

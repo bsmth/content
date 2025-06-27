@@ -4,9 +4,12 @@ short-title: requestDevice()
 slug: Web/API/GPUAdapter/requestDevice
 page-type: web-api-instance-method
 browser-compat: api.GPUAdapter.requestDevice
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`requestDevice()`** method of the
 {{domxref("GPUAdapter")}} interface returns a {{jsxref("Promise")}} that fulfills with a {{domxref("GPUDevice")}} object, which is the primary interface for communicating with the GPU.

@@ -4,9 +4,10 @@ short-title: pointerBeforeReferenceNode
 slug: Web/API/NodeIterator/pointerBeforeReferenceNode
 page-type: web-api-instance-property
 browser-compat: api.NodeIterator.pointerBeforeReferenceNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeIterator.pointerBeforeReferenceNode`** read-only
 property returns a boolean flag that indicates whether the

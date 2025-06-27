@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PaymentRequestEvent.topOrigin
+sidebar:
+  - apiref:
+      - Payment Handler API")}}{{AvailableInWorkers("service
 ---
 
-{{SeeCompatTable}}{{APIRef("Payment Handler API")}}{{AvailableInWorkers("service")}}
+{{SeeCompatTable}}
 
 The **`topOrigin`** read-only property of the
 {{domxref("PaymentRequestEvent")}} interface returns the top-level payee origin where

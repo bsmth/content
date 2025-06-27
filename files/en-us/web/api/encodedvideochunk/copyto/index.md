@@ -4,9 +4,10 @@ short-title: copyTo()
 slug: Web/API/EncodedVideoChunk/copyTo
 page-type: web-api-instance-method
 browser-compat: api.EncodedVideoChunk.copyTo
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`copyTo()`** method of the {{domxref("EncodedVideoChunk")}} interface copies the encoded chunk of video data.
 

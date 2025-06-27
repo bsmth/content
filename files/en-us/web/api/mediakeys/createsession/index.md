@@ -4,9 +4,12 @@ short-title: createSession()
 slug: Web/API/MediaKeys/createSession
 page-type: web-api-instance-method
 browser-compat: api.MediaKeys.createSession
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The `createSession()` method of the {{domxref("MediaKeys")}} interface returns a new {{domxref("MediaKeySession")}} object, which represents a context for message exchange with a content decryption module (CDM).
 

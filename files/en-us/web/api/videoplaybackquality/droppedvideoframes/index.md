@@ -4,9 +4,10 @@ short-title: droppedVideoFrames
 slug: Web/API/VideoPlaybackQuality/droppedVideoFrames
 page-type: web-api-instance-property
 browser-compat: api.VideoPlaybackQuality.droppedVideoFrames
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`droppedVideoFrames`**
 property of the {{domxref("VideoPlaybackQuality")}} interface returns the number of

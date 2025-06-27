@@ -4,9 +4,10 @@ short-title: upgradeneeded
 slug: Web/API/IDBOpenDBRequest/upgradeneeded_event
 page-type: web-api-event
 browser-compat: api.IDBOpenDBRequest.upgradeneeded_event
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{APIRef("IndexedDB")}}
 
 The `upgradeneeded` event is fired when an attempt was made to open a database with a version number higher than its current version.
 

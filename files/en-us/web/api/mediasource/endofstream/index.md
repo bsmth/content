@@ -4,9 +4,10 @@ short-title: endOfStream()
 slug: Web/API/MediaSource/endOfStream
 page-type: web-api-instance-method
 browser-compat: api.MediaSource.endOfStream
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`endOfStream()`** method of the
 {{domxref("MediaSource")}} interface signals the end of the stream.

@@ -4,9 +4,10 @@ short-title: close()
 slug: Web/API/Document/close
 page-type: web-api-instance-method
 browser-compat: api.Document.close
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Document.close()`** method finishes writing to a
 document, opened with {{domxref("Document.open()")}}.

@@ -4,9 +4,12 @@ short-title: has()
 slug: Web/API/FormData/has
 page-type: web-api-instance-method
 browser-compat: api.FormData.has
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`has()`** method of the {{domxref("FormData")}} interface returns whether a `FormData` object contains a certain key.
 

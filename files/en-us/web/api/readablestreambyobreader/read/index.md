@@ -4,9 +4,12 @@ short-title: read()
 slug: Web/API/ReadableStreamBYOBReader/read
 page-type: web-api-instance-method
 browser-compat: api.ReadableStreamBYOBReader.read
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`read()`** method of the {{domxref("ReadableStreamBYOBReader")}} interface is used to read data into a view on a user-supplied buffer from an associated [readable byte stream](/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams).
 A request for data will be satisfied from the stream's internal queues if there is any data present.

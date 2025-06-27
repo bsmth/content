@@ -4,9 +4,10 @@ short-title: id
 slug: Web/API/MediaStreamTrack/id
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.id
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`id`** read-only property of the {{domxref("MediaStreamTrack")}} interface returns a
 string containing a unique identifier (GUID) for the track, which is

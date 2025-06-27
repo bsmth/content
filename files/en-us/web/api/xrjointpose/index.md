@@ -3,9 +3,10 @@ title: XRJointPose
 slug: Web/API/XRJointPose
 page-type: web-api-interface
 browser-compat: api.XRJointPose
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
-
-{{APIRef("WebXR Device API")}}
 
 The **`XRJointPose`** interface is an {{domxref("XRPose")}} with additional information about the size of the skeleton joint it represents.
 

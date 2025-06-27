@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_media-source.audioLevel
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`audioLevel`** property of the {{domxref("RTCAudioSourceStats")}} dictionary represents the audio level of the media source.
 

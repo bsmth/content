@@ -3,9 +3,10 @@ title: TreeWalker
 slug: Web/API/TreeWalker
 page-type: web-api-interface
 browser-compat: api.TreeWalker
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker`** object represents the nodes of a document subtree and a position within them.
 

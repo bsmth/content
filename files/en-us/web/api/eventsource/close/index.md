@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/EventSource/close
 page-type: web-api-instance-method
 browser-compat: api.EventSource.close
+sidebar:
+  - apiref:
+      - Server Sent Events
 ---
 
-{{APIRef("Server Sent Events")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`close()`** method of the {{domxref("EventSource")}}
 interface closes the connection, if one is made, and sets the

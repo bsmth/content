@@ -4,9 +4,12 @@ short-title: byobRequest
 slug: Web/API/ReadableByteStreamController/byobRequest
 page-type: web-api-instance-property
 browser-compat: api.ReadableByteStreamController.byobRequest
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`byobRequest`** read-only property of the {{domxref("ReadableByteStreamController")}} interface returns the current BYOB request, or `null` if there are no pending requests.
 

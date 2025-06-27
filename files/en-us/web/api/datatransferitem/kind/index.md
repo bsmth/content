@@ -4,9 +4,10 @@ short-title: kind
 slug: Web/API/DataTransferItem/kind
 page-type: web-api-instance-property
 browser-compat: api.DataTransferItem.kind
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The read-only **`DataTransferItem.kind`** property returns the kind–a string or a file–of the {{domxref("DataTransferItem")}} object representing the _drag data item_.
 

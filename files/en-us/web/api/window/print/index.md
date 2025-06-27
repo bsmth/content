@@ -4,9 +4,8 @@ short-title: print()
 slug: Web/API/Window/print
 page-type: web-api-instance-method
 browser-compat: api.Window.print
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 Opens the print dialog to print the current document.
 

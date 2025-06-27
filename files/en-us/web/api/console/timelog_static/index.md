@@ -4,9 +4,12 @@ short-title: timeLog()
 slug: Web/API/console/timeLog_static
 page-type: web-api-static-method
 browser-compat: api.console.timeLog_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.timeLog()`** static method logs the current value of a timer that was previously started by calling {{domxref("console/time_static", "console.time()")}}.
 

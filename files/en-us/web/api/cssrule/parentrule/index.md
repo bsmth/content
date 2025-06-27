@@ -4,9 +4,10 @@ short-title: parentRule
 slug: Web/API/CSSRule/parentRule
 page-type: web-api-instance-property
 browser-compat: api.CSSRule.parentRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`parentRule`** property of the {{domxref("CSSRule")}}
 interface returns the containing rule of the current rule if this exists, or otherwise

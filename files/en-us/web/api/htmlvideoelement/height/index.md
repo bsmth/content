@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/HTMLVideoElement/height
 page-type: web-api-instance-property
 browser-compat: api.HTMLVideoElement.height
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`height`** property of the {{domxref("HTMLVideoElement")}} interface returns an integer that reflects the `height` attribute of the {{HTMLElement("video")}} element, specifying the displayed height of the resource in CSS pixels.
 

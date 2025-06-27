@@ -4,9 +4,12 @@ short-title: kind
 slug: Web/API/MediaDeviceInfo/kind
 page-type: web-api-instance-property
 browser-compat: api.MediaDeviceInfo.kind
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`kind`** read-only property of
 the {{domxref("MediaDeviceInfo")}} interface returns an enumerated value, that is

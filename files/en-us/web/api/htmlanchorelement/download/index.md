@@ -4,9 +4,10 @@ short-title: download
 slug: Web/API/HTMLAnchorElement/download
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.download
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLAnchorElement.download`** property is a
 string indicating that the linked resource is intended to be

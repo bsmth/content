@@ -4,9 +4,12 @@ short-title: unicodeRange
 slug: Web/API/FontFace/unicodeRange
 page-type: web-api-instance-property
 browser-compat: api.FontFace.unicodeRange
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`unicodeRange`** property of the {{domxref("FontFace")}} interface retrieves or sets the range of unicode code points encompassing the font.
 

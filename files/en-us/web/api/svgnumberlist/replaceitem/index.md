@@ -4,9 +4,10 @@ short-title: replaceItem()
 slug: Web/API/SVGNumberList/replaceItem
 page-type: web-api-instance-method
 browser-compat: api.SVGNumberList.replaceItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`replaceItem()`** method of the {{domxref("SVGNumberList")}} interface replaces an existing item in the list with a new item. If the new item is already in a list, it is removed from its previous list before it is inserted into this list. The inserted item is the item itself and not a copy. If the item is already in this list, note that the index of the item to replace is before the removal of the item.
 

@@ -4,9 +4,10 @@ short-title: getTrackById()
 slug: Web/API/TextTrackList/getTrackById
 page-type: web-api-instance-method
 browser-compat: api.TextTrackList.getTrackById
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **{{domxref("TextTrackList")}}** method
 **`getTrackById()`** returns the first

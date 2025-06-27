@@ -4,9 +4,10 @@ short-title: kernelMatrix
 slug: Web/API/SVGFEConvolveMatrixElement/kernelMatrix
 page-type: web-api-instance-property
 browser-compat: api.SVGFEConvolveMatrixElement.kernelMatrix
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`kernelMatrix`** read-only property of the {{domxref("SVGFEConvolveMatrixElement")}} interface reflects the {{SVGAttr("kernelMatrix")}} attribute of the given {{SVGElement("feConvolveMatrix")}} element.
 

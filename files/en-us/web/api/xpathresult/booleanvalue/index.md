@@ -4,9 +4,12 @@ short-title: booleanValue
 slug: Web/API/XPathResult/booleanValue
 page-type: web-api-instance-property
 browser-compat: api.XPathResult.booleanValue
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
 
-{{APIRef("DOM XPath")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`booleanValue`** property of the
 {{domxref("XPathResult")}} interface returns the boolean value of a result with

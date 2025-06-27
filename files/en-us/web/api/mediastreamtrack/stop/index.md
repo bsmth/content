@@ -4,9 +4,10 @@ short-title: stop()
 slug: Web/API/MediaStreamTrack/stop
 page-type: web-api-instance-method
 browser-compat: api.MediaStreamTrack.stop
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`stop()`** method of the {{domxref("MediaStreamTrack")}} interface stops the track.
 

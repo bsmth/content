@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BackgroundFetchRegistration.matchAll
+sidebar:
+  - apiref:
+      - Background Fetch API
 ---
 
-{{APIRef("Background Fetch API")}}{{SeeCompatTable}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{AvailableInWorkers}}
 
 The **`matchAll()`** method of the {{domxref("BackgroundFetchRegistration")}} interface returns an array of matching {{domxref("BackgroundFetchRecord")}} objects.
 

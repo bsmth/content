@@ -4,9 +4,10 @@ short-title: hasAttributes()
 slug: Web/API/Element/hasAttributes
 page-type: web-api-instance-method
 browser-compat: api.Element.hasAttributes
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`hasAttributes()`** method of the {{domxref("Element")}}
 interface returns a boolean value indicating whether the current element has any

@@ -4,9 +4,12 @@ short-title: accuracy
 slug: Web/API/GeolocationCoordinates/accuracy
 page-type: web-api-instance-property
 browser-compat: api.GeolocationCoordinates.accuracy
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`accuracy`** read-only property of the {{domxref("GeolocationCoordinates")}} interface is a strictly positive `double` representing the accuracy, with a 95% confidence level, of the {{domxref("GeolocationCoordinates.latitude")}} and {{domxref("GeolocationCoordinates.longitude")}} properties expressed in meters.
 

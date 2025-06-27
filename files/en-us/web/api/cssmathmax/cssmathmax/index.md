@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.CSSMathMax.CSSMathMax
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
 
-{{SeeCompatTable}}{{APIRef("CSS Typed Object Model API")}}
+{{SeeCompatTable}}
 
 The **`CSSMathMax()`** constructor creates a
 new {{domxref("CSSMathMax")}} object which represents the CSS {{CSSXref('max', 'max()')}} function.

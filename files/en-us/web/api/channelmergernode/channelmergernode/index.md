@@ -4,9 +4,10 @@ short-title: ChannelMergerNode()
 slug: Web/API/ChannelMergerNode/ChannelMergerNode
 page-type: web-api-constructor
 browser-compat: api.ChannelMergerNode.ChannelMergerNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`ChannelMergerNode()`** constructor creates a new {{domxref("ChannelMergerNode")}} object instance.
 

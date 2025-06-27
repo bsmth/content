@@ -4,9 +4,10 @@ short-title: end
 slug: Web/API/SpeechSynthesisUtterance/end_event
 page-type: web-api-event
 browser-compat: api.SpeechSynthesisUtterance.end_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`end`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) {{domxref("SpeechSynthesisUtterance")}} object is fired when the utterance has finished being spoken.
 

@@ -4,9 +4,10 @@ short-title: requestStorageAccess()
 slug: Web/API/Document/requestStorageAccess
 page-type: web-api-instance-method
 browser-compat: api.Document.requestStorageAccess
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 The **`requestStorageAccess()`** method of the {{domxref("Document")}} interface allows content loaded in a third-party context (i.e., embedded in an {{htmlelement("iframe")}}) to request access to [third-party cookies](/en-US/docs/Web/Privacy/Guides/Third-party_cookies) and [unpartitioned state](/en-US/docs/Web/Privacy/Guides/State_Partitioning#state_partitioning). This is relevant to user agents that, by default, block access to third-party, [unpartitioned](/en-US/docs/Web/API/Storage_Access_API#unpartitioned_versus_partitioned_cookies) cookies to improve privacy (e.g., to prevent tracking), and is part of the [Storage Access API](/en-US/docs/Web/API/Storage_Access_API).
 

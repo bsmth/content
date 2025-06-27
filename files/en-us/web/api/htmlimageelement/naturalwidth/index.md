@@ -4,9 +4,10 @@ short-title: naturalWidth
 slug: Web/API/HTMLImageElement/naturalWidth
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.naturalWidth
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLImageElement")}} interface's read-only
 **`naturalWidth`** property returns the intrinsic (natural),

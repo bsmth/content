@@ -4,9 +4,10 @@ short-title: y1
 slug: Web/API/SVGLineElement/y1
 page-type: web-api-instance-property
 browser-compat: api.SVGLineElement.y1
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y1`** read-only property of the {{domxref("SVGLineElement")}} interface describes the start of the SVG line along the y-axis as an {{domxref("SVGAnimatedLength")}}. It reflects the {{SVGElement("line")}} element's {{SVGAttr("y1")}} geometric attribute.
 

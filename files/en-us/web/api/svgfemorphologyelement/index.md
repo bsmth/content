@@ -3,9 +3,10 @@ title: SVGFEMorphologyElement
 slug: Web/API/SVGFEMorphologyElement
 page-type: web-api-interface
 browser-compat: api.SVGFEMorphologyElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEMorphologyElement`** interface corresponds to the {{SVGElement("feMorphology")}} element.
 

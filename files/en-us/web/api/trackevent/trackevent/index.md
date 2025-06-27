@@ -4,9 +4,10 @@ short-title: TrackEvent()
 slug: Web/API/TrackEvent/TrackEvent
 page-type: web-api-constructor
 browser-compat: api.TrackEvent.TrackEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`TrackEvent()`** constructor
 creates and returns a new {{domxref("TrackEvent")}} object describing an event which

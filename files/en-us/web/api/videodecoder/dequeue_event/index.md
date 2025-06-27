@@ -4,9 +4,12 @@ short-title: dequeue
 slug: Web/API/VideoDecoder/dequeue_event
 page-type: web-api-event
 browser-compat: api.VideoDecoder.dequeue_event
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`dequeue`** event of the {{domxref("VideoDecoder")}} interface fires to signal a decrease in {{domxref("VideoDecoder.decodeQueueSize")}}.
 

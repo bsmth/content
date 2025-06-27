@@ -4,9 +4,10 @@ short-title: mediaElement
 slug: Web/API/MediaElementAudioSourceNode/mediaElement
 page-type: web-api-instance-property
 browser-compat: api.MediaElementAudioSourceNode.mediaElement
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The {{domxref("MediaElementAudioSourceNode")}} interface's
 read-only **`mediaElement`** property indicates the

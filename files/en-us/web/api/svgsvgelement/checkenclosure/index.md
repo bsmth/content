@@ -4,9 +4,10 @@ short-title: checkEnclosure()
 slug: Web/API/SVGSVGElement/checkEnclosure
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.checkEnclosure
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `checkEnclosure()` method of the {{domxref("SVGSVGElement")}} interface checks if the rendered content of the given element is entirely contained within the supplied rectangle.
 

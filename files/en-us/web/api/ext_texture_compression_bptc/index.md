@@ -4,9 +4,10 @@ short-title: EXT_texture_compression_bptc
 slug: Web/API/EXT_texture_compression_bptc
 page-type: webgl-extension
 browser-compat: api.EXT_texture_compression_bptc
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The `EXT_texture_compression_bptc` extension is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and exposes 4 BPTC compressed texture formats. These compression formats are called [BC7](https://learn.microsoft.com/en-us/windows/win32/direct3d11/bc7-format) and [BC6H](https://learn.microsoft.com/en-us/windows/win32/direct3d11/bc6h-format) in [Microsoft's DirectX API](https://learn.microsoft.com/en-us/windows/win32/direct3d11/texture-block-compression-in-direct3d-11).
 

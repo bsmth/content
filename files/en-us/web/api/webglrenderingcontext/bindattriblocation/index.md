@@ -4,9 +4,12 @@ short-title: bindAttribLocation()
 slug: Web/API/WebGLRenderingContext/bindAttribLocation
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.bindAttribLocation
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.bindAttribLocation()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) binds a generic vertex index

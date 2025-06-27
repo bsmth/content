@@ -4,9 +4,10 @@ short-title: framesPerSecond
 slug: Web/API/RTCOutboundRtpStreamStats/framesPerSecond
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.framesPerSecond
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`framesPerSecond`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary indicates the number of encoded frames sent in the last second.
 

@@ -4,9 +4,8 @@ short-title: formdata
 slug: Web/API/HTMLFormElement/formdata_event
 page-type: web-api-event
 browser-compat: api.HTMLFormElement.formdata_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`formdata`** event fires after the entry list representing the form's data is constructed. This happens when the form is submitted, but can also be triggered by the invocation of a {{domxref("FormData.FormData", "FormData()")}} constructor.
 

@@ -4,9 +4,8 @@ short-title: closePath()
 slug: Web/API/CanvasRenderingContext2D/closePath
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.closePath
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.closePath()`**

@@ -4,9 +4,10 @@ short-title: xChannelSelector
 slug: Web/API/SVGFEDisplacementMapElement/xChannelSelector
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDisplacementMapElement.xChannelSelector
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`xChannelSelector`** read-only property of the {{domxref("SVGFEDisplacementMapElement")}} interface reflects the {{SVGAttr("xChannelSelector")}} attribute of the given {{SVGElement("feDisplacementMap")}} element. It takes one of the `SVG_CHANNEL_*` constants defined on this interface.
 

@@ -4,9 +4,10 @@ short-title: hidden
 slug: Web/API/Document/hidden
 page-type: web-api-instance-property
 browser-compat: api.Document.hidden
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Document.hidden`** read-only property returns a Boolean
 value indicating if the page is considered hidden or not.

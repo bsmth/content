@@ -4,9 +4,10 @@ short-title: hasUnpartitionedCookieAccess()
 slug: Web/API/Document/hasUnpartitionedCookieAccess
 page-type: web-api-instance-method
 browser-compat: api.Document.hasUnpartitionedCookieAccess
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 The **`hasUnpartitionedCookieAccess()`** method of the {{domxref("Document")}} interface returns a {{jsxref("Promise")}} that resolves with a boolean value indicating whether the document has access to [third-party](/en-US/docs/Web/Privacy/Guides/Third-party_cookies), [unpartitioned](/en-US/docs/Web/API/Storage_Access_API#unpartitioned_versus_partitioned_cookies) cookies.
 

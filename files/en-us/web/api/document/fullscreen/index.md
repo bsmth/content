@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.fullscreen
+sidebar:
+  - apiref:
+      - Fullscreen API
 ---
 
-{{APIRef("Fullscreen API")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The obsolete {{domxref("Document")}} interface's **`fullscreen`** read-only property reports whether or not the document is currently displaying content in fullscreen mode.
 

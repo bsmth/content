@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.HTMLFencedFrameElement.width
+sidebar:
+  - apiref:
+      - Fenced Frame API
 ---
 
-{{SeeCompatTable}}{{APIRef("Fenced Frame API")}}
+{{SeeCompatTable}}
 
 The **`width`** property of the {{domxref("HTMLFencedFrameElement")}} gets and sets the value of the corresponding {{htmlelement("fencedframe")}} `width` attribute, which specifies the width of the element.
 

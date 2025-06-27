@@ -4,9 +4,10 @@ short-title: play()
 slug: Web/API/Animation/play
 page-type: web-api-instance-method
 browser-compat: api.Animation.play
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`play()`** method of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API)'s {{ domxref("Animation") }} Interface starts or resumes playing of an animation. If the animation is finished, calling `play()` restarts the animation, playing it from the beginning.
 

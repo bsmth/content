@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/SVGImageElement/x
 page-type: web-api-instance-property
 browser-compat: api.SVGImageElement.x
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x`** read-only property of the
 {{domxref("SVGImageElement")}} interface returns an {{domxref("SVGAnimatedLength")}}

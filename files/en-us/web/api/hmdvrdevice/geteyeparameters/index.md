@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.HMDVRDevice.getEyeParameters
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{deprecated_header}}{{APIRef("WebVR API")}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`getEyeParameters()`** method of the {{domxref("HMDVRDevice")}} interface returns current parameters for the eye specified as its argument ("left" or "right") — stored in a {{domxref("VREyeParameters")}} object.
 

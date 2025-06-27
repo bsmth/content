@@ -4,9 +4,10 @@ short-title: getElementById()
 slug: Web/API/Document/getElementById
 page-type: web-api-instance-method
 browser-compat: api.Document.getElementById
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`getElementById()`** method of the {{domxref("Document")}} interface returns an {{domxref("Element")}} object representing the element whose {{domxref("Element.id", "id")}} property matches the specified string. Since element IDs are required to be unique if specified, they're a useful way to get access to a specific element quickly.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.WindowControlsOverlayGeometryChangeEvent.titlebarAreaRect
+sidebar:
+  - apiref:
+      - Window Controls Overlay API
 ---
 
-{{APIRef("Window Controls Overlay API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`titlebarAreaRect`** read-only property of the {{domxref("WindowControlsOverlayGeometryChangeEvent")}} interface is a {{domxref("DOMRect")}} representing the position and size of the area occupied by the title bar in a desktop-installed Progressive Web App.
 

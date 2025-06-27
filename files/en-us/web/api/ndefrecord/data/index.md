@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NDEFRecord.data
+sidebar:
+  - apiref:
+      - Web NFC API
 ---
 
-{{SecureContext_Header}}{{SeeCompatTable}}{{APIRef("Web NFC API")}}
+{{SecureContext_Header}}{{SeeCompatTable}}
 
 The **`data`**
 property of the {{DOMxRef("NDEFRecord")}} interface returns a

@@ -4,9 +4,10 @@ short-title: numberOfChannels
 slug: Web/API/AudioBuffer/numberOfChannels
 page-type: web-api-instance-property
 browser-compat: api.AudioBuffer.numberOfChannels
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `numberOfChannels` property of the {{ domxref("AudioBuffer") }}
 interface returns an integer representing the number of discrete audio channels

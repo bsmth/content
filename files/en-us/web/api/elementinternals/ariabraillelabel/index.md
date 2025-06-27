@@ -4,9 +4,10 @@ short-title: ariaBrailleLabel
 slug: Web/API/ElementInternals/ariaBrailleLabel
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaBrailleLabel
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaBrailleLabel`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-braillelabel`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-braillelabel) attribute, which defines the ARIA braille label of the element.
 

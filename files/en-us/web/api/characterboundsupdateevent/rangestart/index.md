@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.CharacterBoundsUpdateEvent.rangeStart
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`CharacterBoundsUpdateEvent.rangeStart`** read-only property represents the offset of the first character within the editable text region for which the operating system needs the bounds.
 

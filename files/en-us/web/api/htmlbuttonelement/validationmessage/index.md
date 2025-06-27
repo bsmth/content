@@ -4,9 +4,10 @@ short-title: validationMessage
 slug: Web/API/HTMLButtonElement/validationMessage
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.validationMessage
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validationMessage`** read-only property of the {{domxref("HTMLButtonElement")}} interface returns a string representing a localized message that describes the validation constraints that the {{htmlelement("button")}} control does not satisfy (if any). This is the empty string if the control is not a candidate for constraint validation (the `<button>`'s [`type`](/en-US/docs/Web/HTML/Reference/Elements/button#type) is `button` or `reset`), or it satisfies its constraints.
 

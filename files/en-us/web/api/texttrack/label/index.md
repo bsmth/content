@@ -4,9 +4,10 @@ short-title: label
 slug: Web/API/TextTrack/label
 page-type: web-api-instance-property
 browser-compat: api.TextTrack.label
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`label`** read-only property of the {{domxref("TextTrack")}} interface returns a human-readable label for the text track, if it is available.
 

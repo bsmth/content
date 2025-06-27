@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/HTMLButtonElement/value
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.value
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`value`** property of the {{DOMxRef("HTMLButtonElement")}} interface represents the value of the {{htmlelement("button")}} element as a string, or the empty string if no value is set. It reflects the element's [`value`](/en-US/docs/Web/HTML/Reference/Elements/button#value) attribute.
 

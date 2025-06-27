@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/History/length
 page-type: web-api-instance-property
 browser-compat: api.History.length
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`length`** read-only property of the {{DOMxRef("History")}} interface
 returns an integer representing the number of entries in the session

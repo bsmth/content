@@ -4,9 +4,12 @@ short-title: addEventListener()
 slug: Web/API/EventTarget/addEventListener
 page-type: web-api-instance-method
 browser-compat: api.EventTarget.addEventListener
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`addEventListener()`** method of the {{domxref("EventTarget")}} interface
 sets up a function that will be called whenever the specified event is delivered to the target.

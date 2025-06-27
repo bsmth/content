@@ -4,9 +4,10 @@ short-title: url
 slug: Web/API/LargestContentfulPaint/url
 page-type: web-api-instance-property
 browser-compat: api.LargestContentfulPaint.url
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`url`** read-only property of the {{domxref("LargestContentfulPaint")}} interface returns the request URL of the element, if the element is an image.
 

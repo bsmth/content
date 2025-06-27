@@ -4,9 +4,10 @@ short-title: elements
 slug: Web/API/HTMLFormElement/elements
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.elements
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLFormElement")}} property
 **`elements`** returns an

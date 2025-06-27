@@ -4,9 +4,10 @@ short-title: MediaStreamTrackProcessor()
 slug: Web/API/MediaStreamTrackProcessor/MediaStreamTrackProcessor
 page-type: web-api-constructor
 browser-compat: api.MediaStreamTrackProcessor.MediaStreamTrackProcessor
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API
 ---
-
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}
 
 The **`MediaStreamTrackProcessor()`** constructor creates a new {{domxref("MediaStreamTrackProcessor")}} object which consumes a video {{domxref("MediaStreamTrack")}} object's source and generates a stream of {{domxref("VideoFrame")}}s.
 

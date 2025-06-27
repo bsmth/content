@@ -4,9 +4,10 @@ short-title: values()
 slug: Web/API/CSSUnparsedValue/values
 page-type: web-api-instance-method
 browser-compat: api.CSSUnparsedValue.values
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSUnparsedValue.values()`** method
 returns a new _array iterator_ object that contains the

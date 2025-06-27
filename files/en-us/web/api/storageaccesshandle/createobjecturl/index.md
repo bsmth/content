@@ -4,9 +4,10 @@ short-title: createObjectURL()
 slug: Web/API/StorageAccessHandle/createObjectURL
 page-type: web-api-instance-method
 browser-compat: api.StorageAccessHandle.createObjectURL
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 > [!NOTE]
 > See {{domxref("URL.createObjectURL_static", "createObjectURL()")}} to understand usage.

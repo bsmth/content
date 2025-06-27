@@ -4,9 +4,10 @@ short-title: max
 slug: Web/API/HTMLProgressElement/max
 page-type: web-api-instance-property
 browser-compat: api.HTMLProgressElement.max
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`max`** property of the {{DOMxRef("HTMLProgressElement")}} interface represents the upper bound of the {{HTMLElement("progress")}} element's range.
 

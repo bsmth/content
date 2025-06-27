@@ -4,9 +4,10 @@ short-title: format
 slug: Web/API/VideoFrame/format
 page-type: web-api-instance-property
 browser-compat: api.VideoFrame.format
+sidebar:
+  - apiref:
+      - Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`format`** property of the {{domxref("VideoFrame")}} interface returns the pixel format of the `VideoFrame`.
 

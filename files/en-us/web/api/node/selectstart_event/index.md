@@ -4,9 +4,8 @@ short-title: selectstart
 slug: Web/API/Node/selectstart_event
 page-type: web-api-event
 browser-compat: api.Node.selectstart_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`selectstart`** event of the [Selection API](/en-US/docs/Web/API/Selection) is fired when a user starts a new selection.
 

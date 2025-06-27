@@ -4,9 +4,10 @@ short-title: selectedCandidatePairChanges
 slug: Web/API/RTCTransportStats/selectedCandidatePairChanges
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_transport.selectedCandidatePairChanges
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`selectedCandidatePairChanges`** property of the {{domxref("RTCTransportStats")}} dictionary indicates the total number of times that the selected candidate pair of this transport has changed.
 

@@ -4,9 +4,12 @@ short-title: createPolicy()
 slug: Web/API/TrustedTypePolicyFactory/createPolicy
 page-type: web-api-instance-method
 browser-compat: api.TrustedTypePolicyFactory.createPolicy
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`createPolicy()`** method of the {{domxref("TrustedTypePolicyFactory")}} interface creates a {{domxref("TrustedTypePolicy")}} object that implements the rules passed as `policyOptions`.
 

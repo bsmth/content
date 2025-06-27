@@ -4,9 +4,12 @@ short-title: abort()
 slug: Web/API/IDBTransaction/abort
 page-type: web-api-instance-method
 browser-compat: api.IDBTransaction.abort
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`abort()`** method of the {{domxref("IDBTransaction")}}
 interface rolls back all the changes to objects in the database associated with this

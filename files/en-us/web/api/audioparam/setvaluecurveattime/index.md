@@ -4,9 +4,10 @@ short-title: setValueCurveAtTime()
 slug: Web/API/AudioParam/setValueCurveAtTime
 page-type: web-api-instance-method
 browser-compat: api.AudioParam.setValueCurveAtTime
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The
 **`setValueCurveAtTime()`** method of the

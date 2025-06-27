@@ -3,9 +3,12 @@ title: PermissionStatus
 slug: Web/API/PermissionStatus
 page-type: web-api-interface
 browser-compat: api.PermissionStatus
+sidebar:
+  - apiref:
+      - Permissions API
 ---
 
-{{APIRef("Permissions API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`PermissionStatus`** interface of the [Permissions API](/en-US/docs/Web/API/Permissions_API) provides the state of an object and an event handler for monitoring changes to said state.
 

@@ -4,9 +4,8 @@ short-title: resize
 slug: Web/API/Window/resize_event
 page-type: web-api-event
 browser-compat: api.Window.resize_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`resize`** event fires when the document view (window) has been resized.
 

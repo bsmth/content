@@ -3,9 +3,10 @@ title: FileSystemEntry
 slug: Web/API/FileSystemEntry
 page-type: web-api-interface
 browser-compat: api.FileSystemEntry
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The **`FileSystemEntry`** interface of the File and Directory Entries API represents a single entry in a file system. The entry can be a file or a directory (directories are represented by the {{domxref("FileSystemDirectoryEntry")}} interface). It includes methods for working with files—including copying, moving, removing, and reading files—as well as information about a file it points to—including the file name and its path from the root to the entry.
 

@@ -4,9 +4,12 @@ short-title: viewport()
 slug: Web/API/WebGLRenderingContext/viewport
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.viewport
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.viewport()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) sets the viewport, which specifies
 the affine transformation of x and y from normalized device coordinates to window

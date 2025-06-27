@@ -4,9 +4,10 @@ short-title: referrerPolicy
 slug: Web/API/HTMLImageElement/referrerPolicy
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.referrerPolicy
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The
 **`HTMLImageElement.referrerPolicy`**

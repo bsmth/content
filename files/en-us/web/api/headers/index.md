@@ -3,9 +3,12 @@ title: Headers
 slug: Web/API/Headers
 page-type: web-api-interface
 browser-compat: api.Headers
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Headers`** interface of the [Fetch API](/en-US/docs/Web/API/Fetch_API) allows you to perform various actions on [HTTP request and response headers](/en-US/docs/Web/HTTP/Reference/Headers). These actions include retrieving, setting, adding to, and removing headers from the list of the request's headers.
 

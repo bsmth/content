@@ -4,9 +4,10 @@ short-title: form
 slug: Web/API/HTMLObjectElement/form
 page-type: web-api-instance-property
 browser-compat: api.HTMLObjectElement.form
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`form`** read-only property of the {{domxref("HTMLObjectElement")}} interface returns an {{domxref("HTMLFormElement")}} object that owns this {{htmlelement("object")}}, or `null` if this object element is not owned by any form.
 

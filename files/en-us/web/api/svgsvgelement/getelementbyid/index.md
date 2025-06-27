@@ -4,9 +4,10 @@ short-title: getElementById()
 slug: Web/API/SVGSVGElement/getElementById
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.getElementById
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getElementById()` method of the {{domxref("SVGSVGElement")}} interface searches the SVG document fragment (i.e., the search is restricted to a subset of the document tree) for an {{domxref("Element")}} whose `id` property matches the specified string.
 

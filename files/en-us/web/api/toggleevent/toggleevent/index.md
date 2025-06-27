@@ -4,9 +4,10 @@ short-title: ToggleEvent()
 slug: Web/API/ToggleEvent/ToggleEvent
 page-type: web-api-constructor
 browser-compat: api.ToggleEvent.ToggleEvent
+sidebar:
+  - apiref:
+      - Popover API
 ---
-
-{{APIRef("Popover API")}}
 
 The **`ToggleEvent()`** constructor creates a new {{domxref("ToggleEvent")}} object.
 

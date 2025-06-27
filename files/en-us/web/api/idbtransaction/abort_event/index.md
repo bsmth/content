@@ -4,9 +4,10 @@ short-title: abort
 slug: Web/API/IDBTransaction/abort_event
 page-type: web-api-event
 browser-compat: api.IDBTransaction.abort_event
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{APIRef("IndexedDB")}}
 
 The `abort` event is fired when an `IndexedDB` transaction is aborted.
 

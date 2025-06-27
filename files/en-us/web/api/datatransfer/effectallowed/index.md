@@ -4,9 +4,10 @@ short-title: effectAllowed
 slug: Web/API/DataTransfer/effectAllowed
 page-type: web-api-instance-property
 browser-compat: api.DataTransfer.effectAllowed
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransfer.effectAllowed`** property specifies the
 effect that is allowed for a drag operation. The _copy_ operation is used to

@@ -4,9 +4,10 @@ short-title: bindVertexArrayOES()
 slug: Web/API/OES_vertex_array_object/bindVertexArrayOES
 page-type: webgl-extension-method
 browser-compat: api.OES_vertex_array_object.bindVertexArrayOES
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`OES_vertex_array_object.bindVertexArrayOES()`** method
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) binds a

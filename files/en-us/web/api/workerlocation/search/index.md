@@ -4,9 +4,10 @@ short-title: search
 slug: Web/API/WorkerLocation/search
 page-type: web-api-instance-property
 browser-compat: api.WorkerLocation.search
+sidebar:
+  - apiref:
+      - WorkerLocation")}}{{AvailableInWorkers("worker
 ---
-
-{{ApiRef("WorkerLocation")}}{{AvailableInWorkers("worker")}}
 
 The **`search`** property of a {{domxref("WorkerLocation")}} object returns the {{domxref("URL.search", "search")}} part of the worker's location.
 

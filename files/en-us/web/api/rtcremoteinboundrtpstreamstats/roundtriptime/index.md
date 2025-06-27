@@ -4,9 +4,10 @@ short-title: roundTripTime
 slug: Web/API/RTCRemoteInboundRtpStreamStats/roundTripTime
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_remote-inbound-rtp.roundTripTime
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`roundTripTime`** property of the {{domxref("RTCRemoteInboundRtpStreamStats")}} dictionary indicates the estimated round trip time (RTT) for this [synchronization source (SSRC)](/en-US/docs/Web/API/RTCRemoteInboundRtpStreamStats/ssrc), in seconds.
 

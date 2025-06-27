@@ -4,9 +4,8 @@ short-title: invalid
 slug: Web/API/HTMLInputElement/invalid_event
 page-type: web-api-event
 browser-compat: api.HTMLInputElement.invalid_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`invalid`** event fires when a submittable element has been checked for validity and doesn't satisfy its constraints.
 

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.DevicePosture
+sidebar:
+  - apiref:
+      - Device Posture API
 ---
 
-{{APIRef("Device Posture API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`DevicePosture`** interface of the {{domxref("Device Posture API", "Device Posture API", "", "nocode")}} represents the device's posture, that is, whether the viewport is in a flat or folded state.
 

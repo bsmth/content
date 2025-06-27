@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/HTMLAllCollection/length
 page-type: web-api-instance-property
 browser-compat: api.HTMLAllCollection.length
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`HTMLAllCollection.length`** property returns the number of items in this {{domxref("HTMLAllCollection")}}.
 

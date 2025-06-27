@@ -7,9 +7,12 @@ status:
   - experimental
 browser-compat: api.KeyboardLayoutMap.values
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.values
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{SeeCompatTable}}{{APIRef("Keyboard API")}}
+{{SeeCompatTable}}
 
 The **`values()`** method of the {{domxref("KeyboardLayoutMap")}} interface returns a new [Iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator) object that contains the values for each index in the `KeyboardLayoutMap` object.
 

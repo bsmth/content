@@ -3,9 +3,10 @@ title: HTMLFormControlsCollection
 slug: Web/API/HTMLFormControlsCollection
 page-type: web-api-interface
 browser-compat: api.HTMLFormControlsCollection
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormControlsCollection`** interface represents a _collection_ of HTML _form control elements_, returned by the {{domxref("HTMLFormElement")}} interface's {{domxref("HTMLFormElement.elements", "elements")}} property.
 

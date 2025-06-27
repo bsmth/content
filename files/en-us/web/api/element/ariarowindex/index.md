@@ -4,9 +4,10 @@ short-title: ariaRowIndex
 slug: Web/API/Element/ariaRowIndex
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaRowIndex
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaRowIndex`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-rowindex`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-rowindex) attribute, which defines an element's row index or position with respect to the total number of rows within a table, grid, or treegrid.
 

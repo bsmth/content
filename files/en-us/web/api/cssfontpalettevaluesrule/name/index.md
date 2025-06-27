@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/CSSFontPaletteValuesRule/name
 page-type: web-api-instance-property
 browser-compat: api.CSSFontPaletteValuesRule.name
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`name`** property of the {{domxref("CSSFontPaletteValuesRule")}} interface represents the name identifying the associated {{CSSxRef("@font-palette-values")}} at-rule. A valid name always starts with two dashes, such as `--Alternate`.
 

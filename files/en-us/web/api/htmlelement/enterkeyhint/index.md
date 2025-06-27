@@ -4,9 +4,10 @@ short-title: enterKeyHint
 slug: Web/API/HTMLElement/enterKeyHint
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.enterKeyHint
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`enterKeyHint`** property is an enumerated property defining
 what action label (or icon) to present for the enter key on virtual keyboards.

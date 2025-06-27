@@ -4,9 +4,10 @@ short-title: mid
 slug: Web/API/RTCOutboundRtpStreamStats/mid
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.mid
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`mid`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary is a string that contains the media ID negotiated between the local and remote peers.
 This uniquely identifies the pairing of source and destination for the transceiver's stream.

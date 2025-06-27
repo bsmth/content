@@ -4,9 +4,10 @@ short-title: form
 slug: Web/API/HTMLTextAreaElement/form
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.form
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`form`** read-only property of the {{domxref("HTMLTextAreaElement")}} interface returns an {{domxref("HTMLFormElement")}} object that owns this {{htmlelement("textarea")}}, or `null` if this textarea is not owned by any form.
 

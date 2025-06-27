@@ -4,9 +4,10 @@ short-title: autoGainControl
 slug: Web/API/MediaTrackSupportedConstraints/autoGainControl
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.autoGainControl_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSupportedConstraints")}} dictionary's **`autoGainControl`** property is a read-only Boolean value which is present (and set to `true`) in the object returned by {{domxref("MediaDevices.getSupportedConstraints()")}} if and only if the {{Glossary("user agent")}} supports the **`autoGainControl`** constraint.
 If the constraint isn't supported, it's not included in the list, so this value will never be `false`.

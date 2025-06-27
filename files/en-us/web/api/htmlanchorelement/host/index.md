@@ -4,9 +4,10 @@ short-title: host
 slug: Web/API/HTMLAnchorElement/host
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.host
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`host`** property of the {{domxref("HTMLAnchorElement")}} interface is a string containing the host, which is the {{domxref("HTMLAnchorElement.hostname", "hostname")}}, and then, if the {{glossary("port")}} of the URL is nonempty, a `":"`, followed by the {{domxref("HTMLAnchorElement.port", "port")}} of the URL. If the URL does not have a `hostname`, this property contains an empty string, `""`.
 

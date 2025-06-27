@@ -6,9 +6,10 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.NDEFReadingEvent.NDEFReadingEvent
+sidebar: apiref
 ---
 
-{{securecontext_header}}{{APIRef}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`NDEFReadingEvent()`** constructor creates a new {{domxref("NDEFReadingEvent")}} object which represents events dispatched on new NFC readings obtained by {{DOMxRef("NDEFReader")}}.
 

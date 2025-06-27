@@ -5,9 +5,10 @@ slug: Web/API/HighlightRegistry/set
 page-type: web-api-instance-method
 browser-compat: api.HighlightRegistry.set
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.set
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`set()`** method of the {{domxref("HighlightRegistry")}} interface adds or updates a {{domxref("Highlight")}} object in the registry with the specified name.
 

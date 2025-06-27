@@ -4,9 +4,10 @@ short-title: time
 slug: Web/API/IntersectionObserverEntry/time
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserverEntry.time
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`time`** read-only property of the {{domxref("IntersectionObserverEntry")}} interface is a {{domxref("DOMHighResTimeStamp")}} that indicates the time at which the intersection change occurred relative to the time at which the document was created.
 

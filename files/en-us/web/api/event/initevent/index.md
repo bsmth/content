@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Event.initEvent
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}{{AvailableInWorkers}}
+{{deprecated_header}}{{AvailableInWorkers}}
 
 The **`Event.initEvent()`** method is used to initialize the
 value of an {{ domxref("event") }} created using {{domxref("Document.createEvent()")}}.

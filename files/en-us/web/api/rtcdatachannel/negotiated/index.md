@@ -4,9 +4,10 @@ short-title: negotiated
 slug: Web/API/RTCDataChannel/negotiated
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.negotiated
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only `RTCDataChannel` property
 **`negotiated`** indicates whether the

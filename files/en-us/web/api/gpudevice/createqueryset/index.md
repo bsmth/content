@@ -4,9 +4,12 @@ short-title: createQuerySet()
 slug: Web/API/GPUDevice/createQuerySet
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.createQuerySet
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createQuerySet()`** method of the
 {{domxref("GPUDevice")}} interface creates a {{domxref("GPUQuerySet")}} that can be used to record the results of queries on passes, such as occlusion or timestamp queries.

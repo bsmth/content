@@ -4,9 +4,10 @@ short-title: load
 slug: Web/API/XMLHttpRequest/load_event
 page-type: web-api-event
 browser-compat: api.XMLHttpRequest.load_event
+sidebar:
+  - apiref:
+      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service")}}
 
 The `load` event is fired when an {{domxref("XMLHttpRequest")}} transaction completes successfully.
 

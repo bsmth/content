@@ -4,9 +4,8 @@ short-title: fontKerning
 slug: Web/API/CanvasRenderingContext2D/fontKerning
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.fontKerning
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.fontKerning`** property of the [Canvas API](/en-US/docs/Web/API/Canvas_API) specifies how font kerning information is used.
 

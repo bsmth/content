@@ -4,9 +4,10 @@ short-title: startContainer
 slug: Web/API/Range/startContainer
 page-type: web-api-instance-property
 browser-compat: api.Range.startContainer
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.startContainer`** read-only property returns the
 {{domxref("Node")}} within which the `Range` starts. To change the start

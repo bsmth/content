@@ -4,9 +4,8 @@ short-title: locationbar
 slug: Web/API/Window/locationbar
 page-type: web-api-instance-property
 browser-compat: api.Window.locationbar
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 Returns the `locationbar` object.
 

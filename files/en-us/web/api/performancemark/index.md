@@ -3,9 +3,12 @@ title: PerformanceMark
 slug: Web/API/PerformanceMark
 page-type: web-api-interface
 browser-compat: api.PerformanceMark
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 **`PerformanceMark`** is an interface for {{domxref("PerformanceEntry")}} objects with an {{domxref("PerformanceEntry.entryType","entryType")}} of `"mark"`.
 

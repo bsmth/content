@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.SnapEvent.snapTargetInline
+sidebar:
+  - apiref:
+      - Snap Events
 ---
 
-{{APIRef("Snap Events")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`snapTargetInline`** read-only property of the
 {{domxref("SnapEvent")}} interface returns a reference to the element snapped to in the inline direction when the event fired.

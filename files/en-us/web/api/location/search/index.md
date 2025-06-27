@@ -4,9 +4,10 @@ short-title: search
 slug: Web/API/Location/search
 page-type: web-api-instance-property
 browser-compat: api.Location.search
+sidebar:
+  - apiref:
+      - Location
 ---
-
-{{ApiRef("Location")}}
 
 The **`search`** property of the {{domxref("Location")}} interface is a search string, also called a _query string_, that is a string containing a `"?"` followed by the parameters of the location's URL. If the URL does not have a search query, this property contains an empty string, `""`.
 

@@ -4,9 +4,12 @@ short-title: activate
 slug: Web/API/Sensor/activate_event
 page-type: web-api-event
 browser-compat: api.Sensor.activate_event
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`activate`** event is fired when a sensor becomes activated. It means that it will start obtaining readings.
 

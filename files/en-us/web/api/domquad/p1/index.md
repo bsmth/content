@@ -4,9 +4,12 @@ short-title: p1
 slug: Web/API/DOMQuad/p1
 page-type: web-api-instance-property
 browser-compat: api.DOMQuad.p1
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMQuad`** interface's **`p1`** property holds the {{domxref("DOMPoint")}} object that represents one of the four corners of the `DOMQuad`. When created from {{domxref("DOMQuad.fromRect_static", "DOMQuad.fromRect()")}}, it is the point (x, y).
 

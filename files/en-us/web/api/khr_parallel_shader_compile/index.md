@@ -4,9 +4,10 @@ short-title: KHR_parallel_shader_compile
 slug: Web/API/KHR_parallel_shader_compile
 page-type: webgl-extension
 browser-compat: api.KHR_parallel_shader_compile
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`KHR_parallel_shader_compile`** extension is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and enables a non-blocking poll operation, so that compile/link status availability (`COMPLETION_STATUS_KHR`) can be queried without potentially incurring stalls. In other words you can check the status of your shaders compiling without blocking the runtime.
 

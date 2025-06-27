@@ -4,9 +4,10 @@ short-title: audiostart
 slug: Web/API/SpeechRecognition/audiostart_event
 page-type: web-api-event
 browser-compat: api.SpeechRecognition.audiostart_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`audiostart`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) is fired when the user agent has started to capture audio for speech recognition.
 

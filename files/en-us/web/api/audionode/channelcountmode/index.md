@@ -4,9 +4,10 @@ short-title: channelCountMode
 slug: Web/API/AudioNode/channelCountMode
 page-type: web-api-instance-property
 browser-compat: api.AudioNode.channelCountMode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `channelCountMode` property of the {{ domxref("AudioNode") }} interface represents an enumerated value describing the way channels must be matched between the node's inputs and outputs.
 

@@ -4,9 +4,10 @@ short-title: RTCPeerConnectionIceEvent()
 slug: Web/API/RTCPeerConnectionIceEvent/RTCPeerConnectionIceEvent
 page-type: web-api-constructor
 browser-compat: api.RTCPeerConnectionIceEvent.RTCPeerConnectionIceEvent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCPeerConnectionIceEvent()`** constructor creates a new
 {{domxref("RTCPeerConnectionIceEvent")}} object.

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.MediaStreamTrack.applyConstraints.suppressLocalAudioPlayback_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's **`suppressLocalAudioPlayback`** property controls whether the audio playing in a tab will continue to be played out of a user's local speakers when the tab is captured.
 

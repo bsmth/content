@@ -4,9 +4,10 @@ short-title: createMediaStreamSource()
 slug: Web/API/AudioContext/createMediaStreamSource
 page-type: web-api-instance-method
 browser-compat: api.AudioContext.createMediaStreamSource
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createMediaStreamSource()` method of the {{ domxref("AudioContext") }}
 Interface is used to create a new {{ domxref("MediaStreamAudioSourceNode") }}

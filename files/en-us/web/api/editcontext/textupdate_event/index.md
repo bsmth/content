@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.EditContext.textupdate_event
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The `textupdate` event of the {{domxref("EditContext")}} interface fires when the user has made changes to the text or selection of an editable region that's attached to an `EditContext` instance.
 

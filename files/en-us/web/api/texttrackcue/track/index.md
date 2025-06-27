@@ -4,9 +4,10 @@ short-title: track
 slug: Web/API/TextTrackCue/track
 page-type: web-api-instance-property
 browser-compat: api.TextTrackCue.track
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`track`** read-only property of the {{domxref("TextTrackCue")}} interface returns the {{domxref("TextTrack")}} object that this cue belongs to.
 

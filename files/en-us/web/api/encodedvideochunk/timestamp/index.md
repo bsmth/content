@@ -4,9 +4,10 @@ short-title: timestamp
 slug: Web/API/EncodedVideoChunk/timestamp
 page-type: web-api-instance-property
 browser-compat: api.EncodedVideoChunk.timestamp
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`timestamp`** read-only property of the {{domxref("EncodedVideoChunk")}} interface returns an integer indicating the timestamp of the video in microseconds.
 

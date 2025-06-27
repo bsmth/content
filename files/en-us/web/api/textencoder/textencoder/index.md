@@ -4,9 +4,12 @@ short-title: TextEncoder()
 slug: Web/API/TextEncoder/TextEncoder
 page-type: web-api-constructor
 browser-compat: api.TextEncoder.TextEncoder
+sidebar:
+  - apiref:
+      - Encoding API
 ---
 
-{{APIRef("Encoding API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`TextEncoder()`** constructor returns a newly created {{DOMxRef("TextEncoder")}} object that will generate a byte stream with UTF-8 encoding.
 

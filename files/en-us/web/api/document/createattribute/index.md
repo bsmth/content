@@ -4,9 +4,10 @@ short-title: createAttribute()
 slug: Web/API/Document/createAttribute
 page-type: web-api-instance-method
 browser-compat: api.Document.createAttribute
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Document.createAttribute()`** method creates a new
 attribute node, and returns it. The object created is a node implementing the

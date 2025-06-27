@@ -3,9 +3,12 @@ title: BatteryManager
 slug: Web/API/BatteryManager
 page-type: web-api-interface
 browser-compat: api.BatteryManager
+sidebar:
+  - apiref:
+      - Battery API
 ---
 
-{{ApiRef("Battery API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`BatteryManager`** interface of the {{domxref("Battery Status API", "", "", "nocode")}} provides information about the system's battery charge level. The {{domxref("navigator.getBattery()")}} method returns a promise that resolves with a `BatteryManager` interface.
 

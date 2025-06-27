@@ -3,9 +3,10 @@ title: CSSRule
 slug: Web/API/CSSRule
 page-type: web-api-interface
 browser-compat: api.CSSRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSRule`** interface represents a single CSS rule. There are several types of rules which inherit properties from `CSSRule`.
 

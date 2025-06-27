@@ -4,9 +4,12 @@ short-title: level
 slug: Web/API/BatteryManager/level
 page-type: web-api-instance-property
 browser-compat: api.BatteryManager.level
+sidebar:
+  - apiref:
+      - Battery API
 ---
 
-{{ApiRef("Battery API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`level`** read-only property of the {{domxref("BatteryManager")}} interface indicates the current battery charge level as a value between `0.0` and `1.0`.
 A value of `0.0` means the battery is empty and the system is about to be suspended.

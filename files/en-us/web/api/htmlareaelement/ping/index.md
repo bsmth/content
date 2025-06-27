@@ -4,9 +4,10 @@ short-title: ping
 slug: Web/API/HTMLAreaElement/ping
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.ping
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`ping`** property of the {{domxref("HTMLAreaElement")}} interface is a space-separated list of URLs. When the link is followed, the browser will send {{HTTPMethod("POST")}} requests with the body PING to the URLs.
 

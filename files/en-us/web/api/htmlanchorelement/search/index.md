@@ -4,9 +4,10 @@ short-title: search
 slug: Web/API/HTMLAnchorElement/search
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.search
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`search`** property of the {{domxref("HTMLAnchorElement")}} interface is a search string, also called a _query string_, that is a string containing a `"?"` followed by the parameters of the `<a>` element's `href`. If the URL does not have a search query, this property contains an empty string, `""`.
 

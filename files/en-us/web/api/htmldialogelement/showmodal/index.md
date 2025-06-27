@@ -4,9 +4,10 @@ short-title: showModal()
 slug: Web/API/HTMLDialogElement/showModal
 page-type: web-api-instance-method
 browser-compat: api.HTMLDialogElement.showModal
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`showModal()`** method of the
 {{domxref("HTMLDialogElement")}} interface displays the dialog as a modal, over the top

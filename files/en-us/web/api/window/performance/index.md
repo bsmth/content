@@ -4,9 +4,10 @@ short-title: performance
 slug: Web/API/Window/performance
 page-type: web-api-instance-property
 browser-compat: api.performance
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`performance`** property of the {{domxref("Window")}} interface returns a {{domxref("Performance")}} object, which can be used to gather performance information about code running in the window's scope.
 

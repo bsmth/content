@@ -4,9 +4,12 @@ short-title: depthOrArrayLayers
 slug: Web/API/GPUTexture/depthOrArrayLayers
 page-type: web-api-instance-property
 browser-compat: api.GPUTexture.depthOrArrayLayers
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`depthOrArrayLayers`** read-only property of the
 {{domxref("GPUTexture")}} interface represents the depth or layer count of the `GPUTexture`.

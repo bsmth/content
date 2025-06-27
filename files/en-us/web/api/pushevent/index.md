@@ -3,9 +3,10 @@ title: PushEvent
 slug: Web/API/PushEvent
 page-type: web-api-interface
 browser-compat: api.PushEvent
+sidebar:
+  - apiref:
+      - Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`PushEvent`** interface of the [Push API](/en-US/docs/Web/API/Push_API) represents a push message that has been received. This event is sent to the [global scope](/en-US/docs/Web/API/ServiceWorkerGlobalScope) of a {{domxref("ServiceWorker")}}. It contains the information sent from an application server to a {{domxref("PushSubscription")}}.
 

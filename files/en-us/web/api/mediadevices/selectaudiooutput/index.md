@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.MediaDevices.selectAudioOutput
+sidebar:
+  - apiref:
+      - Audio Output Devices API
 ---
 
-{{APIRef("Audio Output Devices API")}}{{securecontext_header}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`selectAudioOutput()`** method of the {{domxref("MediaDevices")}} interface prompts the user to select an audio output device, such as a speaker or headset. If the user selects a device, the method grants user permission to use the selected device as an audio output sink.
 

@@ -4,9 +4,12 @@ short-title: checkFramebufferStatus()
 slug: Web/API/WebGLRenderingContext/checkFramebufferStatus
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.checkFramebufferStatus
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.checkFramebufferStatus()`** method
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns the completeness

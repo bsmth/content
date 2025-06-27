@@ -4,9 +4,10 @@ short-title: cite
 slug: Web/API/HTMLModElement/cite
 page-type: web-api-instance-property
 browser-compat: api.HTMLModElement.cite
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`cite`** property of the {{domxref("HTMLModElement")}} interface indicates the URL of the resource explaining the modification. It reflects the `cite` attribute of the {{HTMLElement("del")}} element and {{HTMLElement("ins")}} elements.
 

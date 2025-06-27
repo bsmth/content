@@ -4,9 +4,10 @@ short-title: selectedCandidatePairId
 slug: Web/API/RTCTransportStats/selectedCandidatePairId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_transport.selectedCandidatePairId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`selectedCandidatePairId`** property of the {{domxref("RTCTransportStats")}} dictionary represents the unique identifier for the candidate pair stats associated with this transport.
 

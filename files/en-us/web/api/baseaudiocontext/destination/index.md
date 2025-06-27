@@ -4,9 +4,10 @@ short-title: destination
 slug: Web/API/BaseAudioContext/destination
 page-type: web-api-instance-property
 browser-compat: api.BaseAudioContext.destination
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `destination` property of the {{ domxref("BaseAudioContext") }}
 interface returns an {{ domxref("AudioDestinationNode") }} representing the final

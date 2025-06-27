@@ -4,9 +4,12 @@ short-title: open
 slug: Web/API/EventSource/open_event
 page-type: web-api-event
 browser-compat: api.EventSource.open_event
+sidebar:
+  - apiref:
+      - Server Sent Events
 ---
 
-{{APIRef("Server Sent Events")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`open`** event of the {{domxref("EventSource")}} interface is fired when a connection with an event source is opened.
 

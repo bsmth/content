@@ -4,9 +4,12 @@ short-title: z
 slug: Web/API/DOMPointReadOnly/z
 page-type: web-api-instance-property
 browser-compat: api.DOMPointReadOnly.z
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMPointReadOnly`** interface's
 **`z`** property holds the depth coordinate, z, for a

@@ -4,9 +4,12 @@ short-title: length
 slug: Web/API/GPUCompilationMessage/length
 page-type: web-api-instance-property
 browser-compat: api.GPUCompilationMessage.length
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`length`** read-only property of the
 {{domxref("GPUCompilationMessage")}} interface is a number representing the length of the substring that the message corresponds to.

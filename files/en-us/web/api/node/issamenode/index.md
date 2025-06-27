@@ -4,9 +4,10 @@ short-title: isSameNode()
 slug: Web/API/Node/isSameNode
 page-type: web-api-instance-method
 browser-compat: api.Node.isSameNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`isSameNode()`** method of the {{domxref("Node")}} interface
 is a legacy alias the [for the `===` strict equality operator](/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality).

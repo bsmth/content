@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.VideoTrackGenerator.muted
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API
 ---
 
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`muted`** Boolean property of the {{domxref("VideoTrackGenerator")}} interface can be used to temporarily halt or resume the generation of video frames in the output track.
 

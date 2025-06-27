@@ -4,9 +4,10 @@ short-title: remove
 slug: Web/API/Animation/remove_event
 page-type: web-api-event
 browser-compat: api.Animation.remove_event
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`remove`** event of the {{domxref("Animation")}} interface fires when the animation is [automatically removed](/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API#automatically_removing_filling_animations) by the browser.
 

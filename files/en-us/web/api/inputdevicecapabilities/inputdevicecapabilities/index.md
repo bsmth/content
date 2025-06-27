@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.InputDeviceCapabilities.InputDeviceCapabilities
+sidebar:
+  - apiref:
+      - Input Device Capabilities API
 ---
 
-{{APIRef("Input Device Capabilities API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The `InputDeviceCapabilities()` constructor creates a new
 {{domxref("InputDeviceCapabilities")}} object provides information about the physical

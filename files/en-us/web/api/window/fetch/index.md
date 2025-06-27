@@ -4,9 +4,10 @@ short-title: fetch()
 slug: Web/API/Window/fetch
 page-type: web-api-instance-method
 browser-compat: api.fetch
+sidebar:
+  - apiref:
+      - Fetch API
 ---
-
-{{APIRef("Fetch API")}}
 
 The **`fetch()`** method of the {{domxref("Window")}} interface starts the process of fetching a resource from the network, returning a promise that is fulfilled once the response is available.
 

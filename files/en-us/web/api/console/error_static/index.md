@@ -4,9 +4,12 @@ short-title: error()
 slug: Web/API/console/error_static
 page-type: web-api-static-method
 browser-compat: api.console.error_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.error()`** static method outputs a message to the console at the "error" log level. The message is only displayed to the user if the console is configured to display error output. In most cases, the log level is configured within the console UI. The message may be formatted as an error, with red colors and call stack information.
 

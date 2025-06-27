@@ -4,9 +4,10 @@ short-title: bytesReceived
 slug: Web/API/RTCInboundRtpStreamStats/bytesReceived
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.bytesReceived
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCInboundRtpStreamStats")}} dictionary's
 **`bytesReceived`** property is an integer value which

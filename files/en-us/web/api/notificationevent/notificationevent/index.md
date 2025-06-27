@@ -4,9 +4,10 @@ short-title: NotificationEvent()
 slug: Web/API/NotificationEvent/NotificationEvent
 page-type: web-api-constructor
 browser-compat: api.NotificationEvent.NotificationEvent
+sidebar:
+  - apiref:
+      - Web Notifications")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Web Notifications")}}{{AvailableInWorkers("service")}}
 
 The **`NotificationEvent()`** constructor creates a new {{domxref("NotificationEvent")}} object.
 

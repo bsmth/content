@@ -4,9 +4,12 @@ short-title: descentOverride
 slug: Web/API/FontFace/descentOverride
 page-type: web-api-instance-property
 browser-compat: api.FontFace.descentOverride
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`descentOverride`** property of the {{domxref("FontFace")}} interface returns and sets the value of the {{cssxref("@font-face/descent-override")}} descriptor.
 The possible values are `normal`, indicating that the metric used should be obtained from the font file, or a percentage.

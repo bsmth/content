@@ -4,9 +4,10 @@ short-title: getClientRects()
 slug: Web/API/Element/getClientRects
 page-type: web-api-instance-method
 browser-compat: api.Element.getClientRects
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`getClientRects()`** method of the {{domxref("Element")}}
 interface returns a collection of {{DOMxRef("DOMRect")}} objects that indicate the

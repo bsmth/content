@@ -4,9 +4,8 @@ short-title: select
 slug: Web/API/HTMLInputElement/select_event
 page-type: web-api-event
 browser-compat: api.HTMLInputElement.select_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`select`** event fires when some text has been selected.
 

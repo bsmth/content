@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Window.orientation
+sidebar: apiref
 ---
 
-{{APIRef}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 Returns the orientation in degrees (in 90-degree increments) of the viewport relative to the device's natural orientation.
 

@@ -4,9 +4,12 @@ short-title: share()
 slug: Web/API/Navigator/share
 page-type: web-api-instance-method
 browser-compat: api.Navigator.share
+sidebar:
+  - apiref:
+      - Web Share API
 ---
 
-{{APIRef("Web Share API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`share()`** method of the {{domxref("Navigator")}} interface invokes the native sharing mechanism of the device to share data such as text, URLs, or files. The available _share targets_ depend on the device, but might include the clipboard, contacts and email applications, websites, Bluetooth, etc.
 

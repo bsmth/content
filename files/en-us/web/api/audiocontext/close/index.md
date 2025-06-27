@@ -4,9 +4,10 @@ short-title: close()
 slug: Web/API/AudioContext/close
 page-type: web-api-instance-method
 browser-compat: api.AudioContext.close
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `close()` method of the {{ domxref("AudioContext") }} Interface closes the audio context, releasing any system audio resources that it uses.
 

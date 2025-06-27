@@ -4,9 +4,10 @@ short-title: url
 slug: Web/API/RTCIceCandidateStats/url
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.url
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCIceCandidateStats")}} dictionary's
 **`url`** property specifies the URL of the

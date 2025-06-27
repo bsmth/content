@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ContentIndexEvent.id
+sidebar:
+  - apiref:
+      - Content Index API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Content Index API")}}{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`id`** read-only property of the
 {{domxref("ContentIndexEvent")}} interface is a {{jsxref('String')}} which identifies

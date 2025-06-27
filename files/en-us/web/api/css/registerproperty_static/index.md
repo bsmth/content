@@ -4,9 +4,10 @@ short-title: registerProperty()
 slug: Web/API/CSS/registerProperty_static
 page-type: web-api-static-method
 browser-compat: api.CSS.registerProperty_static
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSS.registerProperty()`** static method registers
 [custom properties](/en-US/docs/Web/CSS/--*), allowing for property type checking, default

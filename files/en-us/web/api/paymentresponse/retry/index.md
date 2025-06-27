@@ -4,9 +4,12 @@ short-title: retry()
 slug: Web/API/PaymentResponse/retry
 page-type: web-api-instance-method
 browser-compat: api.PaymentResponse.retry
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The {{domxref("PaymentResponse")}} interface's
 **`retry()`** method makes it possible to ask the user to

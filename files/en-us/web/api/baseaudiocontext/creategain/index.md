@@ -4,9 +4,10 @@ short-title: createGain()
 slug: Web/API/BaseAudioContext/createGain
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createGain
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createGain()` method of the {{ domxref("BaseAudioContext") }}
 interface creates a {{ domxref("GainNode") }}, which can be used to control the

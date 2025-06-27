@@ -4,9 +4,12 @@ short-title: key
 slug: Web/API/IDBCursor/key
 page-type: web-api-instance-property
 browser-compat: api.IDBCursor.key
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`key`** read-only property of the
 {{domxref("IDBCursor")}} interface returns the key for the record at the cursor's

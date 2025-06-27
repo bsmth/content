@@ -4,9 +4,10 @@ short-title: setCustomValidity()
 slug: Web/API/HTMLOutputElement/setCustomValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLOutputElement.setCustomValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`setCustomValidity()`** method of the {{DOMxRef("HTMLOutputElement")}} interface sets the custom validity message for the {{htmlelement("output")}} element. Use the empty string to indicate that the element does _not_ have a custom validity error.
 

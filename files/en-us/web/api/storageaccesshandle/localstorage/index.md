@@ -4,9 +4,10 @@ short-title: localStorage
 slug: Web/API/StorageAccessHandle/localStorage
 page-type: web-api-instance-property
 browser-compat: api.StorageAccessHandle.localStorage
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 The **`localStorage`** property of the {{domxref("StorageAccessHandle")}} interface returns an unpartitioned local {{domxref("Storage")}} object if access was granted, and throws a `SecurityError` {{DOMxRef("DOMException")}} otherwise.
 

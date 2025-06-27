@@ -4,9 +4,10 @@ short-title: assignedElements()
 slug: Web/API/HTMLSlotElement/assignedElements
 page-type: web-api-instance-method
 browser-compat: api.HTMLSlotElement.assignedElements
+sidebar:
+  - apiref:
+      - Shadow DOM API
 ---
-
-{{APIRef("Shadow DOM API")}}
 
 The **`assignedElements()`** method of the {{domxref("HTMLSlotElement")}}
 interface returns a sequence of the elements assigned to this slot (and no

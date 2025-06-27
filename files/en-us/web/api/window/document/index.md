@@ -4,9 +4,8 @@ short-title: document
 slug: Web/API/Window/document
 page-type: web-api-instance-property
 browser-compat: api.Window.document
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 **`window.document`** returns a reference to the [document](/en-US/docs/Web/API/Document) contained in the window.
 

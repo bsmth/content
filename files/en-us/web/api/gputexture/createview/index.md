@@ -4,9 +4,12 @@ short-title: createView()
 slug: Web/API/GPUTexture/createView
 page-type: web-api-instance-method
 browser-compat: api.GPUTexture.createView
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createView()`** method of the
 {{domxref("GPUTexture")}} interface creates a {{domxref("GPUTextureView")}} representing a specific view of the `GPUTexture`.

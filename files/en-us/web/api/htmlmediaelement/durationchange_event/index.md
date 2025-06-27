@@ -4,9 +4,10 @@ short-title: durationchange
 slug: Web/API/HTMLMediaElement/durationchange_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.durationchange_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `durationchange` event is fired when the `duration` attribute has been updated.
 

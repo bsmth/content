@@ -3,9 +3,10 @@ title: SVGCircleElement
 slug: Web/API/SVGCircleElement
 page-type: web-api-interface
 browser-compat: api.SVGCircleElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGCircleElement`** interface is an interface for the {{SVGElement("circle")}} element.
 

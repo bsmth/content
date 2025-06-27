@@ -4,9 +4,10 @@ short-title: continuous
 slug: Web/API/SpeechRecognition/continuous
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognition.continuous
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`continuous`** property of the
 {{domxref("SpeechRecognition")}} interface controls whether continuous results are

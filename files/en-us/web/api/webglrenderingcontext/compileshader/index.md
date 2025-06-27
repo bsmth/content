@@ -4,9 +4,12 @@ short-title: compileShader()
 slug: Web/API/WebGLRenderingContext/compileShader
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.compileShader
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **WebGLRenderingContext.compileShader()** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) compiles a GLSL shader into binary
 data so that it can be used by a {{domxref("WebGLProgram")}}.

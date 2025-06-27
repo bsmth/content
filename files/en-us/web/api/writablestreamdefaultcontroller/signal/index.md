@@ -4,9 +4,12 @@ short-title: signal
 slug: Web/API/WritableStreamDefaultController/signal
 page-type: web-api-instance-property
 browser-compat: api.WritableStreamDefaultController.signal
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`signal`** property of the {{domxref("WritableStreamDefaultController")}} interface returns the {{domxref("AbortSignal")}} associated with the controller.
 

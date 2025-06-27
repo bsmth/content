@@ -4,9 +4,10 @@ short-title: origin
 slug: Web/API/Window/origin
 page-type: web-api-instance-property
 browser-compat: api.origin
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`origin`** read-only property of the {{domxref("Window")}} interface returns the origin of the global scope, serialized as a string.
 

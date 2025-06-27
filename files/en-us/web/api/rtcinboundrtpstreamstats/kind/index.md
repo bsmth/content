@@ -4,9 +4,10 @@ short-title: kind
 slug: Web/API/RTCInboundRtpStreamStats/kind
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.kind
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`kind`** property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary is a string indicating whether the described {{Glossary("RTP")}} stream contains audio or video media.
 

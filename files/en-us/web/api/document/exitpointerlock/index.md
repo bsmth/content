@@ -4,9 +4,10 @@ short-title: exitPointerLock()
 slug: Web/API/Document/exitPointerLock
 page-type: web-api-instance-method
 browser-compat: api.Document.exitPointerLock
+sidebar:
+  - apiref:
+      - Pointer Lock API
 ---
-
-{{APIRef("Pointer Lock API")}}
 
 The **`exitPointerLock()`** method of the {{domxref("Document")}} interface asynchronously releases a pointer lock previously requested through {{domxref("Element.requestPointerLock")}}.
 

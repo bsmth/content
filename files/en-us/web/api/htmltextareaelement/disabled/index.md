@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/HTMLTextAreaElement/disabled
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.disabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`disabled`** property of the {{DOMxRef("HTMLTextAreaElement")}} interface indicates whether this multi-line text control is disabled and cannot be interacted with. It reflects the {{htmlelement("textarea")}} element's [`disabled`](/en-US/docs/Web/HTML/Reference/Elements/textarea#autocomplete) attribute. When `false`, this `textarea` may still be disabled if its containing element, such as a {{htmlelement("fieldset")}}, is disabled.
 

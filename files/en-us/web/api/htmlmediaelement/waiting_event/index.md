@@ -4,9 +4,10 @@ short-title: waiting
 slug: Web/API/HTMLMediaElement/waiting_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.waiting_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `waiting` event is fired when playback has stopped because of a temporary lack of data.
 

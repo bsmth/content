@@ -4,9 +4,10 @@ short-title: deleteVertexArrayOES()
 slug: Web/API/OES_vertex_array_object/deleteVertexArrayOES
 page-type: webgl-extension-method
 browser-compat: api.OES_vertex_array_object.deleteVertexArrayOES
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`OES_vertex_array_object.deleteVertexArrayOES()`** method
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) deletes a given

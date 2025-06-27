@@ -4,9 +4,10 @@ short-title: isFile
 slug: Web/API/FileSystemEntry/isFile
 page-type: web-api-instance-property
 browser-compat: api.FileSystemEntry.isFile
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The read-only **`isFile`** property of
 the {{domxref("FileSystemEntry")}} interface is `true` if the entry

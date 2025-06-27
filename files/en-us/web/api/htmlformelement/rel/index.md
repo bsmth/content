@@ -4,9 +4,10 @@ short-title: rel
 slug: Web/API/HTMLFormElement/rel
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.rel
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`rel`** property of the {{domxref("HTMLFormElement")}} interface reflects the [`rel`](/en-US/docs/Web/HTML/Reference/Attributes/rel) attribute. It is a string containing what kinds of links the HTML {{HTMLElement("form")}} element creates, as a space-separated list of enumerated values.
 

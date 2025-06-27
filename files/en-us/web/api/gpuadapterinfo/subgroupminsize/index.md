@@ -4,9 +4,12 @@ short-title: subgroupMinSize
 slug: Web/API/GPUAdapterInfo/subgroupMinSize
 page-type: web-api-instance-property
 browser-compat: api.GPUAdapterInfo.subgroupMinSize
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`subgroupMinSize`** read-only property of the {{domxref("GPUAdapterInfo")}} interface returns the minimum supported [subgroup size](https://gpuweb.github.io/gpuweb/wgsl/#subgroup-size) for the {{domxref("GPUAdapter")}}. This can be used along with the `subgroups` [feature](/en-US/docs/Web/API/GPUSupportedFeatures).
 

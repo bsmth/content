@@ -4,9 +4,10 @@ short-title: setBaseAndExtent()
 slug: Web/API/Selection/setBaseAndExtent
 page-type: web-api-instance-method
 browser-compat: api.Selection.setBaseAndExtent
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`setBaseAndExtent()`** method of the {{domxref("Selection")}} interface sets the selection to be a range including all or parts of two specified DOM nodes, and any content located between them.
 

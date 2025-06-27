@@ -4,9 +4,10 @@ short-title: dataset
 slug: Web/API/MathMLElement/dataset
 page-type: web-api-instance-property
 browser-compat: api.MathMLElement.dataset
+sidebar:
+  - apiref:
+      - MathML
 ---
-
-{{APIRef("MathML")}}
 
 The **`dataset`** read-only property of the {{DOMxRef("MathMLElement")}} interface provides read/write access to [custom data attributes](/en-US/docs/Web/MathML/Reference/Global_attributes/data-*) (`data-*`) on elements. It exposes a map of strings ({{domxref("DOMStringMap")}}) with an entry for each `data-*` attribute.
 

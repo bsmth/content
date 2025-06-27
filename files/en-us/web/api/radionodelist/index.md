@@ -3,9 +3,10 @@ title: RadioNodeList
 slug: Web/API/RadioNodeList
 page-type: web-api-interface
 browser-compat: api.RadioNodeList
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`RadioNodeList`** interface represents a collection of elements in a {{HTMLElement("form")}} returned by a call to {{domxref("HTMLFormControlsCollection.namedItem()")}}.
 

@@ -4,9 +4,12 @@ short-title: copyExternalImageToTexture()
 slug: Web/API/GPUQueue/copyExternalImageToTexture
 page-type: web-api-instance-method
 browser-compat: api.GPUQueue.copyExternalImageToTexture
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`copyExternalImageToTexture()`** method of the
 {{domxref("GPUQueue")}} interface copies a snapshot taken from a source image, video, or canvas into a given {{domxref("GPUTexture")}}.

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_candidate-pair.packetsReceived
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`packetsReceived`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the total number of packets received on the candidate pair.
 

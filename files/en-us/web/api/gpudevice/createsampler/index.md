@@ -4,9 +4,12 @@ short-title: createSampler()
 slug: Web/API/GPUDevice/createSampler
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.createSampler
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createSampler()`** method of the
 {{domxref("GPUDevice")}} interface creates a {{domxref("GPUSampler")}}, which controls how shaders transform and filter texture resource data.

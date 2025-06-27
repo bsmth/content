@@ -4,9 +4,12 @@ short-title: sync
 slug: Web/API/ServiceWorkerRegistration/sync
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerRegistration.sync
+sidebar:
+  - apiref:
+      - Background Sync
 ---
 
-{{APIRef("Background Sync")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`sync`** read-only property of the
 {{domxref("ServiceWorkerRegistration")}} interface returns a reference to the

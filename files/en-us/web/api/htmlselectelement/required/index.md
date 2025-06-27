@@ -4,9 +4,10 @@ short-title: required
 slug: Web/API/HTMLSelectElement/required
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.required
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`required`** property of the {{DOMxRef("HTMLSelectElement")}} interface specifies that the user must select an option with a non-empty string value before submitting a form. It reflects the {{htmlelement("select")}} element's [`required`](/en-US/docs/Web/HTML/Reference/Elements/select#required) attribute.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.SpeechGrammarList.addFromURI
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
 
-{{APIRef("Web Speech API")}}{{ SeeCompatTable() }}
+{{ SeeCompatTable() }}
 
 The **`addFromURI()`** method of the
 {{domxref("SpeechGrammarList")}} interface takes a grammar present at a specific URI and

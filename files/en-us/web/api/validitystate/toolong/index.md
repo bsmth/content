@@ -4,9 +4,10 @@ short-title: tooLong
 slug: Web/API/ValidityState/tooLong
 page-type: web-api-instance-property
 browser-compat: api.ValidityState.tooLong
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`tooLong`** property of the [`ValidityState`](/en-US/docs/Web/API/ValidityState) interface indicates if the value of an {{HTMLElement("input")}} or {{HTMLElement("textarea")}}, after having been edited by the user, exceeds the maximum code-unit length established by the element's [`maxlength`](/en-US/docs/Web/HTML/Reference/Attributes/maxlength) attribute.
 

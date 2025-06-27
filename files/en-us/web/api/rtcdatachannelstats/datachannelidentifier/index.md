@@ -4,9 +4,10 @@ short-title: dataChannelIdentifier
 slug: Web/API/RTCDataChannelStats/dataChannelIdentifier
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_data-channel.dataChannelIdentifier
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`dataChannelIdentifier`** property of the {{domxref("RTCDataChannelStats")}} dictionary containing the {{domxref("RTCDataChannel.id", "id")}} of the associated `RTCDataChannel` providing these statistics.
 

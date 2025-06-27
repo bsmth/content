@@ -4,9 +4,12 @@ short-title: getActiveUniform()
 slug: Web/API/WebGLRenderingContext/getActiveUniform
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getActiveUniform
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getActiveUniform()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns a

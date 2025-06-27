@@ -3,9 +3,10 @@ title: CSSPageDescriptors
 slug: Web/API/CSSPageDescriptors
 page-type: web-api-interface
 browser-compat: api.CSSPageDescriptors
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSPageDescriptors`** interface represents a CSS declaration block for an {{cssxref("@page")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

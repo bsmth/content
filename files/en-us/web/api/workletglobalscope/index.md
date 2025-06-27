@@ -3,9 +3,12 @@ title: WorkletGlobalScope
 slug: Web/API/WorkletGlobalScope
 page-type: web-api-interface
 browser-compat: api.WorkletGlobalScope
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`WorkletGlobalScope`** interface is an abstract class that specific worklet scope classes inherit from. Each `WorkletGlobalScope` defines a new global environment.
 

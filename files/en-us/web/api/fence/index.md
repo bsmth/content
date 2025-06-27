@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.Fence
+sidebar:
+  - apiref:
+      - Fenced Frame API
 ---
 
-{{SeeCompatTable}}{{APIRef("Fenced Frame API")}}
+{{SeeCompatTable}}
 
 The **`Fence`** interface of the {{domxref("Fenced Frame API", "Fenced Frame API", "", "nocode")}} contains several functions relevant to {{htmlelement("fencedframe")}} functionality.
 

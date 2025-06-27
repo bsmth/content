@@ -4,9 +4,8 @@ short-title: blur
 slug: Web/API/Element/blur_event
 page-type: web-api-event
 browser-compat: api.Element.blur_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`blur`** event fires when an element has lost focus. The event does not bubble, but the related {{domxref("Element/focusout_event", "focusout")}} event that follows does bubble.
 

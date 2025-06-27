@@ -4,9 +4,10 @@ short-title: getAnimations()
 slug: Web/API/Element/getAnimations
 page-type: web-api-instance-method
 browser-compat: api.Element.getAnimations
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The `getAnimations()` method of the {{domxref("Element")}} interface
 (specified on the `Animatable` mixin) returns an array of all

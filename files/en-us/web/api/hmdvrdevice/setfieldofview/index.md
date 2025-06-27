@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.HMDVRDevice.setFieldOfView
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{deprecated_header}}{{APIRef("WebVR API")}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`setFieldOfView()`** method of the {{domxref("HMDVRDevice")}} interface can be used to set the field of view for one eye, or both eyes simultaneously.
 

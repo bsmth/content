@@ -4,9 +4,12 @@ short-title: clearAppBadge()
 slug: Web/API/WorkerNavigator/clearAppBadge
 page-type: web-api-instance-method
 browser-compat: api.WorkerNavigator.clearAppBadge
+sidebar:
+  - apiref:
+      - Badging API
 ---
 
-{{APIRef("Badging API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`clearAppBadge()`** method of the {{domxref("WorkerNavigator")}} interface clears a badge on the current app's icon by setting it to `nothing`. The value `nothing` indicates that no badge is currently set, and the status of the badge is _cleared_.
 

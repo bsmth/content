@@ -4,9 +4,10 @@ short-title: styleSheet
 slug: Web/API/CSSImportRule/styleSheet
 page-type: web-api-instance-property
 browser-compat: api.CSSImportRule.styleSheet
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`styleSheet`** property of the
 {{domxref("CSSImportRule")}} interface returns the CSS Stylesheet specified by the

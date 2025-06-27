@@ -3,9 +3,12 @@ title: MIDIAccess
 slug: Web/API/MIDIAccess
 page-type: web-api-interface
 browser-compat: api.MIDIAccess
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`MIDIAccess`** interface of the [Web MIDI API](/en-US/docs/Web/API/Web_MIDI_API) provides methods for listing MIDI input and output devices, and obtaining access to those devices.
 

@@ -4,9 +4,10 @@ short-title: previousSibling
 slug: Web/API/Node/previousSibling
 page-type: web-api-instance-property
 browser-compat: api.Node.previousSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`previousSibling`** property of the {{domxref("Node")}} interface
 returns the node immediately preceding the specified one in its parent's

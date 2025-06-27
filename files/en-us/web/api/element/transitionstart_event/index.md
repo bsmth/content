@@ -4,9 +4,8 @@ short-title: transitionstart
 slug: Web/API/Element/transitionstart_event
 page-type: web-api-event
 browser-compat: api.Element.transitionstart_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`transitionstart`** event is fired when a [CSS transition](/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions) has actually started, i.e., after any {{cssxref("transition-delay")}} has ended.
 

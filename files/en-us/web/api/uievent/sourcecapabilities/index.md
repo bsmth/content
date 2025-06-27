@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.UIEvent.sourceCapabilities
+sidebar:
+  - apiref:
+      - Input Device Capabilities API
 ---
 
-{{APIRef("Input Device Capabilities API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`sourceCapabilities`** read-only property of the {{domxref("UIEvent")}} interface returns
 an instance of the {{domxref('InputDeviceCapabilities')}} interface which provides

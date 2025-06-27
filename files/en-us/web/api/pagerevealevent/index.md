@@ -3,9 +3,10 @@ title: PageRevealEvent
 slug: Web/API/PageRevealEvent
 page-type: web-api-interface
 browser-compat: api.PageRevealEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`PageRevealEvent`** event object is made available inside handler functions for the {{domxref("Window.pagereveal_event", "pagereveal")}} event.
 

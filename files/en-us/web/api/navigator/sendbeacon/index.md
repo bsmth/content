@@ -4,9 +4,10 @@ short-title: sendBeacon()
 slug: Web/API/Navigator/sendBeacon
 page-type: web-api-instance-method
 browser-compat: api.Navigator.sendBeacon
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`navigator.sendBeacon()`**
 method {{glossary("Asynchronous", "asynchronously")}} sends an [HTTP POST](/en-US/docs/Web/HTTP/Reference/Methods/POST) request containing a small amount of data to a web server.

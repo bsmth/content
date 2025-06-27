@@ -4,9 +4,10 @@ short-title: kind
 slug: Web/API/AudioTrack/kind
 page-type: web-api-instance-property
 browser-compat: api.AudioTrack.kind
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`kind`** property contains a
 string indicating the category of audio contained in the

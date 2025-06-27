@@ -4,9 +4,10 @@ short-title: form
 slug: Web/API/HTMLButtonElement/form
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.form
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`form`** read-only property of the {{domxref("HTMLButtonElement")}} interface returns an {{domxref("HTMLFormElement")}} object that owns this {{htmlelement("button")}}, or `null` if this button is not owned by any form.
 

@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.RTCPeerConnection.removeStream
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`removeStream()`** method of the {{domxref("RTCPeerConnection")}} interface removes a {{domxref("MediaStream")}} as a local source of audio or video.
 If the negotiation already happened, a new one will be needed for the remote peer to be able to use it.

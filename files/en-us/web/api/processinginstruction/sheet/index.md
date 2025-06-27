@@ -4,9 +4,10 @@ short-title: sheet
 slug: Web/API/ProcessingInstruction/sheet
 page-type: web-api-instance-property
 browser-compat: api.ProcessingInstruction.sheet
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The read-only **`sheet`** property of the {{domxref("ProcessingInstruction")}} interface
 contains the stylesheet associated to the `ProcessingInstruction`.

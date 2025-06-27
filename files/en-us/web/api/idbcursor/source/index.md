@@ -4,9 +4,12 @@ short-title: source
 slug: Web/API/IDBCursor/source
 page-type: web-api-instance-property
 browser-compat: api.IDBCursor.source
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`source`** read-only property of the
 {{domxref("IDBCursor")}} interface returns the {{domxref("IDBObjectStore")}} or

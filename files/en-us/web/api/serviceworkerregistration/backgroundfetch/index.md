@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ServiceWorkerRegistration.backgroundFetch
+sidebar:
+  - apiref:
+      - Background Fetch API
 ---
 
-{{APIRef("Background Fetch API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`backgroundFetch`** read-only property of the
 {{domxref("ServiceWorkerRegistration")}} interface returns a reference to a

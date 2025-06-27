@@ -4,9 +4,10 @@ short-title: bytesSent
 slug: Web/API/RTCDataChannelStats/bytesSent
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_data-channel.bytesSent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`bytesSent`** property of the {{domxref("RTCDataChannelStats")}} dictionary returns the total number of payload bytes sent on the associated {{domxref("RTCDataChannel")}}.
 

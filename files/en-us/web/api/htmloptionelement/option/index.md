@@ -4,9 +4,10 @@ short-title: Option()
 slug: Web/API/HTMLOptionElement/Option
 page-type: web-api-constructor
 browser-compat: api.HTMLOptionElement.Option
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`Option()`** constructor creates a new
 {{domxref("HTMLOptionElement")}}.

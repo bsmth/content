@@ -4,9 +4,10 @@ short-title: timeout
 slug: Web/API/XMLHttpRequestUpload/timeout_event
 page-type: web-api-event
 browser-compat: api.XMLHttpRequestUpload.timeout_event
+sidebar:
+  - apiref:
+      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`timeout`** event is fired when progression is terminated due to preset time expiring.
 

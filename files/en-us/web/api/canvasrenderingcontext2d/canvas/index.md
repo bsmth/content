@@ -4,9 +4,8 @@ short-title: canvas
 slug: Web/API/CanvasRenderingContext2D/canvas
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.canvas
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.canvas`** property, part of the
 [Canvas API](/en-US/docs/Web/API/Canvas_API), is a read-only reference to the

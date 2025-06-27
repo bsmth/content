@@ -4,9 +4,10 @@ short-title: unit
 slug: Web/API/CSSUnitValue/unit
 page-type: web-api-instance-property
 browser-compat: api.CSSUnitValue.unit
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSUnitValue.unit`** read-only property
 of the {{domxref("CSSUnitValue")}} interface returns a string

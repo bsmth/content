@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.MutationEvent.prevValue
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{Deprecated_Header}}{{non-standard_header}}
+{{Deprecated_Header}}{{non-standard_header}}
 
 The **`prevValue`** read-only property of the {{domxref("MutationEvent")}} interface returns a string. In `DOMAttrModified` events, it represents the previous value of the {{domxref("Attr")}} node. In `DOMCharacterDataModified` events, it contains the previous value of the {{domxref("CharacterData")}} node. In all other cases, returns the empty string (`""`).
 

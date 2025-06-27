@@ -3,9 +3,10 @@ title: RTCCertificate
 slug: Web/API/RTCCertificate
 page-type: web-api-interface
 browser-compat: api.RTCCertificate
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCCertificate`** interface of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) provides an object representing a certificate that an {{domxref("RTCPeerConnection")}} uses to authenticate.
 

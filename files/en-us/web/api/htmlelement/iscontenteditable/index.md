@@ -4,9 +4,10 @@ short-title: isContentEditable
 slug: Web/API/HTMLElement/isContentEditable
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.isContentEditable
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLElement.isContentEditable`** read-only property
 returns a boolean value that is `true` if the contents of the element

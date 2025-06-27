@@ -4,9 +4,10 @@ short-title: href
 slug: Web/API/HTMLLinkElement/href
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.href
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`href`** property of the {{domxref("HTMLLinkElement")}} interface contains a string that is the URL associated with the link.
 

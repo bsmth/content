@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ContactAddress.phone
+sidebar:
+  - apiref:
+      - Contact Picker API
 ---
 
-{{securecontext_header}}{{APIRef("Contact Picker API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The read-only **`phone`** property of the {{domxref("ContactAddress")}} interface returns a string containing the telephone number of the recipient or contact person at the address.
 

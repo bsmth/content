@@ -3,9 +3,12 @@ title: GPUSupportedLimits
 slug: Web/API/GPUSupportedLimits
 page-type: web-api-interface
 browser-compat: api.GPUSupportedLimits
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUSupportedLimits`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} describes the limits supported by a {{domxref("GPUAdapter")}}.
 

@@ -4,9 +4,10 @@ short-title: href
 slug: Web/API/SVGUseElement/href
 page-type: web-api-instance-property
 browser-compat: api.SVGUseElement.href
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`href`** read-only property of the {{domxref("SVGUseElement")}} interface reflects the {{SVGAttr("href")}} or {{SVGAttr("xlink:href")}} {{deprecated_inline}} attribute of the given element.
 

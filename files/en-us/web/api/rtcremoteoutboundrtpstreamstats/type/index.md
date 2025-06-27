@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCRemoteOutboundRtpStreamStats/type
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_remote-outbound-rtp.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`type`** property of the {{domxref("RTCRemoteOutboundRtpStreamStats")}} dictionary is a string with the value `"remote-outbound-rtp"`.
 

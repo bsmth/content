@@ -4,9 +4,10 @@ short-title: previousNode()
 slug: Web/API/NodeIterator/previousNode
 page-type: web-api-instance-method
 browser-compat: api.NodeIterator.previousNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeIterator.previousNode()`** method returns the
 previous node in the set represented by the {{domxref("NodeIterator")}} and moves the

@@ -4,9 +4,10 @@ short-title: deltaY
 slug: Web/API/WheelEvent/deltaY
 page-type: web-api-instance-property
 browser-compat: api.WheelEvent.deltaY
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`WheelEvent.deltaY`** read-only property is a
 `double` representing the vertical scroll amount in the

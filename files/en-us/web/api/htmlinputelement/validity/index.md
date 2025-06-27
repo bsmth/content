@@ -4,9 +4,10 @@ short-title: validity
 slug: Web/API/HTMLInputElement/validity
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.validity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validity`** read-only property of the {{domxref("HTMLInputElement")}} interface returns a {{domxref("ValidityState")}} object that represents the validity states this element is in.
 

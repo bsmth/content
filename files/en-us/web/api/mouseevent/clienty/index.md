@@ -4,9 +4,10 @@ short-title: clientY
 slug: Web/API/MouseEvent/clientY
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.clientY
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`clientY`** read-only property of the {{domxref("MouseEvent")}} interface provides the vertical coordinate within the application's {{glossary("viewport")}} at which the event occurred (as opposed to the coordinate within the page).
 

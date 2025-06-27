@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.SharedStorage.delete
+sidebar:
+  - apiref:
+      - Shared Storage API
 ---
 
-{{APIRef("Shared Storage API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`delete()`** method of the {{domxref("SharedStorage")}} interface deletes an existing key-value pair from the current origin's shared storage.
 

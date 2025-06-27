@@ -4,9 +4,10 @@ short-title: operator
 slug: Web/API/SVGFECompositeElement/operator
 page-type: web-api-instance-property
 browser-compat: api.SVGFECompositeElement.operator
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`operator`** read-only property of the {{domxref("SVGFECompositeElement")}} interface reflects the {{SVGAttr("operator")}} attribute of the given {{SVGElement("feComposite")}} element.
 

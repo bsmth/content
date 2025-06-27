@@ -4,9 +4,10 @@ short-title: close()
 slug: Web/API/VideoFrame/close
 page-type: web-api-instance-method
 browser-compat: api.VideoFrame.close
+sidebar:
+  - apiref:
+      - Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`close()`** method of the {{domxref("VideoFrame")}} interface clears all states and releases the reference to the media resource.
 

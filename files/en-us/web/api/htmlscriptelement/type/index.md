@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLScriptElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLScriptElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`type`** property of the {{domxref("HTMLScriptElement")}} interface is a string that reflects the type of the script.
 

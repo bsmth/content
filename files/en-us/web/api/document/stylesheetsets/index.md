@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Document.styleSheetSets
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`styleSheetSets`** read-only property returns a live list of all of the currently-available style sheet sets.
 

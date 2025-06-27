@@ -4,9 +4,10 @@ short-title: pageY
 slug: Web/API/Touch/pageY
 page-type: web-api-instance-property
 browser-compat: api.Touch.pageY
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The **`Touch.pageY`** read-only property returns the Y
 coordinate of the touch point relative to the viewport, including any scroll offset.

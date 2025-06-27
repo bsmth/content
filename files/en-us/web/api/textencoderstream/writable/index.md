@@ -4,9 +4,12 @@ short-title: writable
 slug: Web/API/TextEncoderStream/writable
 page-type: web-api-instance-property
 browser-compat: api.TextEncoderStream.writable
+sidebar:
+  - apiref:
+      - Encoding API
 ---
 
-{{APIRef("Encoding API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`writable`** read-only property of the {{domxref("TextEncoderStream")}} interface returns a {{domxref("WritableStream")}}.
 

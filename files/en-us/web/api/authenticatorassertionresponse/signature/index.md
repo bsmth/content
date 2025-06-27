@@ -4,9 +4,12 @@ short-title: signature
 slug: Web/API/AuthenticatorAssertionResponse/signature
 page-type: web-api-instance-property
 browser-compat: api.AuthenticatorAssertionResponse.signature
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`signature`** read-only property of the
 {{domxref("AuthenticatorAssertionResponse")}} interface is an {{jsxref("ArrayBuffer")}}

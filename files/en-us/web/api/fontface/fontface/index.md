@@ -4,9 +4,12 @@ short-title: FontFace()
 slug: Web/API/FontFace/FontFace
 page-type: web-api-constructor
 browser-compat: api.FontFace.FontFace
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FontFace()`** constructor creates a new {{domxref("FontFace")}} object.
 

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.Profiler
+sidebar:
+  - apiref:
+      - JS Self-Profiling API
 ---
 
-{{APIRef("JS Self-Profiling API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Profiler`** interface of the [JS Self-Profiling API](/en-US/docs/Web/API/JS_Self-Profiling_API) enables you to create a [profile](/en-US/docs/Web/API/JS_Self-Profiling_API/Profile_content_and_format) of some part of your web application's execution.
 

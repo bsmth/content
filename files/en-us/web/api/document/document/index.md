@@ -4,9 +4,8 @@ short-title: Document()
 slug: Web/API/Document/Document
 page-type: web-api-constructor
 browser-compat: api.Document.Document
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Document`** constructor creates a new
 {{domxref("Document")}} object that is a web page loaded in the browser and serving as

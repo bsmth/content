@@ -3,9 +3,10 @@ title: MediaList
 slug: Web/API/MediaList
 page-type: web-api-interface
 browser-compat: api.MediaList
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`MediaList`** interface represents the media queries of a stylesheet, e.g., those set using a {{htmlelement("link")}} element's `media` attribute.
 

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.LaunchParams
+sidebar:
+  - apiref:
+      - Launch Handler API
 ---
 
-{{APIRef("Launch Handler API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`LaunchParams`** interface of the {{domxref("Launch Handler API", "Launch Handler API", "", "nocode")}} is used when implementing custom launch navigation handling in a PWA. When {{domxref("LaunchQueue.setConsumer", "window.launchQueue.setConsumer()")}} is invoked to set up the launch navigation handling functionality, the callback function inside `setConsumer()` is passed a `LaunchParams` object instance.
 

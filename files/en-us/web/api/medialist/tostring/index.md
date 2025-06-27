@@ -4,9 +4,10 @@ short-title: toString()
 slug: Web/API/MediaList/toString
 page-type: web-api-instance-method
 browser-compat: api.MediaList.toString
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`toString()`** {{Glossary("stringifier")}} method of the {{domxref("MediaList")}} interface returns a string representing the object's values. The value is a comma-separated list of media values in the same format as the {{domxref("MediaList.mediaText")}} property.
 

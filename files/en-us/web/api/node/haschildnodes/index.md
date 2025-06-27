@@ -4,9 +4,10 @@ short-title: hasChildNodes()
 slug: Web/API/Node/hasChildNodes
 page-type: web-api-instance-method
 browser-compat: api.Node.hasChildNodes
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`hasChildNodes()`** method of the {{domxref("Node")}} interface
 returns a boolean value indicating

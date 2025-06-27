@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - deprecated
 browser-compat: api.Window.orientationchange_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The `orientationchange` event is fired when the orientation of the device has changed.
 

@@ -3,9 +3,12 @@ title: ReadableByteStreamController
 slug: Web/API/ReadableByteStreamController
 page-type: web-api-interface
 browser-compat: api.ReadableByteStreamController
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ReadableByteStreamController`** interface of the [Streams API](/en-US/docs/Web/API/Streams_API) represents a controller for a [readable byte stream](/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams).
 It allows control of the state and internal queue of a {{domxref("ReadableStream")}} with an underlying byte source, and enables efficient zero-copy transfer of data from the underlying source to a consumer when the stream's internal queue is empty.

@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/StyleSheet/disabled
 page-type: web-api-instance-property
 browser-compat: api.StyleSheet.disabled
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`disabled`** property of the
 {{domxref("StyleSheet")}} interface determines whether the style sheet is prevented from

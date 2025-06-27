@@ -4,9 +4,10 @@ short-title: clear()
 slug: Web/API/DataTransferItemList/clear
 page-type: web-api-instance-method
 browser-compat: api.DataTransferItemList.clear
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The {{domxref("DataTransferItemList")}} method
 **`clear()`** removes all {{domxref("DataTransferItem")}}

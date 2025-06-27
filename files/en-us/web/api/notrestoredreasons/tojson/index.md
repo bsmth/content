@@ -7,9 +7,12 @@ status:
   - experimental
 browser-compat: api.NotRestoredReasons.toJSON
 spec-urls: https://html.spec.whatwg.org/multipage/nav-history-apis.html#notrestoredreasons
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`toJSON()`** method of the {{domxref("NotRestoredReasons")}} interface is a {{Glossary("Serialization","serializer")}}; it returns a JSON representation of the {{domxref("NotRestoredReasons")}} object.
 

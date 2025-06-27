@@ -4,9 +4,10 @@ short-title: replace()
 slug: Web/API/DOMTokenList/replace
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.replace
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`replace()`** method of the {{domxref("DOMTokenList")}} interface
 replaces an existing token with a new token.

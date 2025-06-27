@@ -4,9 +4,12 @@ short-title: entryType
 slug: Web/API/PerformanceEntry/entryType
 page-type: web-api-instance-property
 browser-compat: api.PerformanceEntry.entryType
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`entryType`** property returns a string representing the type of performance metric that this entry represents.
 

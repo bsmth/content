@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.TextUpdateEvent.TextUpdateEvent
+sidebar:
+  - apiref:
+      - TextUpdateEvent API
 ---
 
-{{APIRef("TextUpdateEvent API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`TextUpdateEvent()`** constructor returns a new {{DOMxRef("TextUpdateEvent")}} object.
 

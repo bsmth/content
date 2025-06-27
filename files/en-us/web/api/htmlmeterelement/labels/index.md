@@ -4,9 +4,10 @@ short-title: labels
 slug: Web/API/HTMLMeterElement/labels
 page-type: web-api-instance-property
 browser-compat: api.HTMLMeterElement.labels
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`HTMLMeterElement.labels`** read-only property returns a
 {{domxref("NodeList")}} of the {{HTMLElement("label")}} elements associated with the

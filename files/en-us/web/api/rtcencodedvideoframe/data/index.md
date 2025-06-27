@@ -4,9 +4,10 @@ short-title: data
 slug: Web/API/RTCEncodedVideoFrame/data
 page-type: web-api-instance-property
 browser-compat: api.RTCEncodedVideoFrame.data
+sidebar:
+  - apiref:
+      - WebRTC")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebRTC")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`data`** property of the {{domxref("RTCEncodedVideoFrame")}} interface returns a buffer containing the frame data.
 

@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.VRPose.angularVelocity
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{APIRef("WebVR API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`angularVelocity`** read-only property of the {{domxref("VRPose")}} interface returns an array representing the angular velocity vector of the {{domxref("VRDisplay")}} at the current timestamp, in radians per second.
 

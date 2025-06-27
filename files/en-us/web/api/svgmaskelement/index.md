@@ -3,9 +3,10 @@ title: SVGMaskElement
 slug: Web/API/SVGMaskElement
 page-type: web-api-interface
 browser-compat: api.SVGMaskElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGMaskElement`** interface provides access to the properties of {{SVGElement("mask")}} elements, as well as methods to manipulate them.
 

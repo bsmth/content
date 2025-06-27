@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.XRWebGLDepthInformation
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}} {{secureContext_header}}{{SeeCompatTable}}
+{{secureContext_header}}{{SeeCompatTable}}
 
 The **`XRWebGLDepthInformation`** interface contains depth information from the GPU/WebGL (returned by {{domxref("XRWebGLBinding.getDepthInformation()")}}).
 

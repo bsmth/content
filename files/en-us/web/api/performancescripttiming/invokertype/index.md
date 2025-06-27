@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PerformanceScriptTiming.invokerType
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{SeeCompatTable}}{{APIRef("Performance API")}}
+{{SeeCompatTable}}
 
 The **`invokerType`** read-only property of the {{domxref("PerformanceScriptTiming")}} interface returns a string value indicating the type of feature that, when invoked, ran the script.
 

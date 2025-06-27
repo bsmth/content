@@ -4,9 +4,12 @@ short-title: progress
 slug: Web/API/FileReader/progress_event
 page-type: web-api-event
 browser-compat: api.FileReader.progress_event
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`progress`** event of the {{domxref("FileReader")}} interface is fired periodically as the `FileReader` reads data.
 

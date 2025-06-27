@@ -4,9 +4,10 @@ short-title: HashChangeEvent()
 slug: Web/API/HashChangeEvent/HashChangeEvent
 page-type: web-api-constructor
 browser-compat: api.HashChangeEvent.HashChangeEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HashChangeEvent()`** constructor creates a new {{domxref("HashChangeEvent")}} object, that is used by the {{domxref("Window/hashchange_event", "hashchange")}} event fired at the {{domxref("window")}} object when the fragment of the URL changes.
 

@@ -4,9 +4,10 @@ short-title: values
 slug: Web/API/SVGFEColorMatrixElement/values
 page-type: web-api-instance-property
 browser-compat: api.SVGFEColorMatrixElement.values
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`values`** read-only property of the {{domxref("SVGFEColorMatrixElement")}} interface reflects the {{SVGAttr("values")}} attribute of the given element.
 

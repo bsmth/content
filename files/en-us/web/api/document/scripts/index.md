@@ -4,9 +4,10 @@ short-title: scripts
 slug: Web/API/Document/scripts
 page-type: web-api-instance-property
 browser-compat: api.Document.scripts
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`scripts`** property of the {{domxref("Document")}}
 interface returns a list of the {{HTMLElement("script")}}

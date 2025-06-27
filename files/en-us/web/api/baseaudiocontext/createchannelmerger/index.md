@@ -4,9 +4,10 @@ short-title: createChannelMerger()
 slug: Web/API/BaseAudioContext/createChannelMerger
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createChannelMerger
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createChannelMerger()` method of the {{domxref("BaseAudioContext")}} interface creates a {{domxref("ChannelMergerNode")}},
 which combines channels from multiple audio streams into a single audio stream.

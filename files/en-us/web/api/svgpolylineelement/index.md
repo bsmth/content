@@ -3,9 +3,10 @@ title: SVGPolylineElement
 slug: Web/API/SVGPolylineElement
 page-type: web-api-interface
 browser-compat: api.SVGPolylineElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGPolylineElement`** interface provides access to the properties of {{SVGElement("polyline")}} elements, as well as methods to manipulate them.
 

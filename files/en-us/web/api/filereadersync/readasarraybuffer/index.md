@@ -4,9 +4,10 @@ short-title: readAsArrayBuffer()
 slug: Web/API/FileReaderSync/readAsArrayBuffer
 page-type: web-api-instance-method
 browser-compat: api.FileReaderSync.readAsArrayBuffer
+sidebar:
+  - apiref:
+      - File API")}} {{AvailableInWorkers("worker_except_service
 ---
-
-{{APIRef("File API")}} {{AvailableInWorkers("worker_except_service")}}
 
 The **`readAsArrayBuffer()`** method of the {{DOMxRef("FileReaderSync")}} interface allows to read {{DOMxRef("File")}} or {{DOMxRef("Blob")}} objects in a synchronous way into an {{jsxref("ArrayBuffer")}}. This interface is [only available](/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers) in [workers](/en-US/docs/Web/API/Worker) as it enables synchronous I/O that could potentially block.
 

@@ -4,9 +4,12 @@ short-title: getIndexedParameter()
 slug: Web/API/WebGL2RenderingContext/getIndexedParameter
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.getIndexedParameter
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.getIndexedParameter()`** method
 of the [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) returns indexed

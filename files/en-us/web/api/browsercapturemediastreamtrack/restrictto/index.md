@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BrowserCaptureMediaStreamTrack.restrictTo
+sidebar:
+  - apiref:
+      - Screen Capture API
 ---
 
-{{APIRef("Screen Capture API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`restrictTo()`** method of the {{domxref("BrowserCaptureMediaStreamTrack")}} interface restricts a self-capture stream to a specific DOM element (and its descendants).
 

@@ -4,9 +4,12 @@ short-title: getRegistrations()
 slug: Web/API/ServiceWorkerContainer/getRegistrations
 page-type: web-api-instance-method
 browser-compat: api.ServiceWorkerContainer.getRegistrations
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`getRegistrations()`** method of the
 {{domxref("ServiceWorkerContainer")}} interface gets all

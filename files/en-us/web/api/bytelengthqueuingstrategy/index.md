@@ -3,9 +3,12 @@ title: ByteLengthQueuingStrategy
 slug: Web/API/ByteLengthQueuingStrategy
 page-type: web-api-interface
 browser-compat: api.ByteLengthQueuingStrategy
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ByteLengthQueuingStrategy`** interface of the [Streams API](/en-US/docs/Web/API/Streams_API) provides a built-in byte length queuing strategy that can be used when constructing streams.
 

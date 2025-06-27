@@ -4,9 +4,12 @@ short-title: deleteDatabase()
 slug: Web/API/IDBFactory/deleteDatabase
 page-type: web-api-instance-method
 browser-compat: api.IDBFactory.deleteDatabase
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`deleteDatabase()`** method of the
 {{DOMxRef("IDBFactory")}} interface requests the deletion of a database. The method

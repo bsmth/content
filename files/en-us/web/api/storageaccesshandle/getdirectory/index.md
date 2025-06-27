@@ -4,9 +4,10 @@ short-title: getDirectory()
 slug: Web/API/StorageAccessHandle/getDirectory
 page-type: web-api-instance-method
 browser-compat: api.StorageAccessHandle.getDirectory
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 > [!NOTE]
 > See {{domxref("StorageManager.getDirectory()")}} to understand usage.

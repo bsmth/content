@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XRProjectionLayer.ignoreDepthValues
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The read-only **`ignoreDepthValues`** property of the {{domxref("XRProjectionLayer")}} interface is a boolean indicating if the XR compositor is not making use of depth buffer values when rendering the layer.
 

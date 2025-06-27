@@ -4,9 +4,10 @@ short-title: define()
 slug: Web/API/CustomElementRegistry/define
 page-type: web-api-instance-method
 browser-compat: api.CustomElementRegistry.define
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`define()`** method of the {{domxref("CustomElementRegistry")}} interface adds a definition for a custom element to the custom element registry, mapping its name to the constructor which will be used to create it.
 

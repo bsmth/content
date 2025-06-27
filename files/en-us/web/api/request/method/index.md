@@ -4,9 +4,12 @@ short-title: method
 slug: Web/API/Request/method
 page-type: web-api-instance-property
 browser-compat: api.Request.method
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`method`** read-only property of the
 {{domxref("Request")}} interface contains the request's method (`GET`,

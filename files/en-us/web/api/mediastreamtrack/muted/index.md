@@ -4,9 +4,10 @@ short-title: muted
 slug: Web/API/MediaStreamTrack/muted
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.muted
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`muted`** read-only property of the
 {{domxref("MediaStreamTrack")}} interface returns a boolean value

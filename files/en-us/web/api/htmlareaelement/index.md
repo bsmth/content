@@ -3,9 +3,10 @@ title: HTMLAreaElement
 slug: Web/API/HTMLAreaElement
 page-type: web-api-interface
 browser-compat: api.HTMLAreaElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLAreaElement`** interface provides special properties and methods (beyond those of the regular object {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating the layout and presentation of {{HtmlElement("area")}} elements.
 

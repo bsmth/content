@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/RTCSctpTransport/state
 page-type: web-api-instance-property
 browser-compat: api.RTCSctpTransport.state
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`state`** read-only property of the {{DOMxRef("RTCSctpTransport")}} interface provides information which describes a Stream Control Transmission Protocol ({{Glossary("SCTP")}}) transport state.
 

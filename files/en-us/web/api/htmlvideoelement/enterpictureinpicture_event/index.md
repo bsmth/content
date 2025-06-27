@@ -4,9 +4,10 @@ short-title: enterpictureinpicture
 slug: Web/API/HTMLVideoElement/enterpictureinpicture_event
 page-type: web-api-event
 browser-compat: api.HTMLVideoElement.enterpictureinpicture_event
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The `enterpictureinpicture` event is fired when the {{DOMxRef("HTMLVideoElement")}} enters picture-in-picture mode successfully.
 

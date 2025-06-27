@@ -4,9 +4,10 @@ short-title: codecId
 slug: Web/API/RTCInboundRtpStreamStats/codecId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.codecId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`codecId`** property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary is a string that uniquely identifies the object that was inspected to produce the data in the {{domxref("RTCCodecStats")}} for the {{Glossary("RTP")}} stream.
 

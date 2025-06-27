@@ -4,9 +4,12 @@ short-title: hostname
 slug: Web/API/URL/hostname
 page-type: web-api-instance-property
 browser-compat: api.URL.hostname
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`hostname`** property of the {{domxref("URL")}} interface is a string containing either the {{glossary("domain name")}} or {{glossary("IP address")}} of the URL. If the URL does not have a hostname, this property contains an empty string, `""`. IPv4 and IPv6 addresses are normalized, such as stripping leading zeros, and domain names are converted to [IDN](https://en.wikipedia.org/wiki/Internationalized_domain_name).
 

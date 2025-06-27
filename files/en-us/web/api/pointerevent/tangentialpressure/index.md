@@ -4,9 +4,10 @@ short-title: tangentialPressure
 slug: Web/API/PointerEvent/tangentialPressure
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.tangentialPressure
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`tangentialPressure`** read-only property of the
 {{domxref("PointerEvent")}} interface represents the normalized tangential pressure of

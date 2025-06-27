@@ -4,9 +4,12 @@ short-title: disconnect()
 slug: Web/API/PerformanceObserver/disconnect
 page-type: web-api-instance-method
 browser-compat: api.PerformanceObserver.disconnect
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`disconnect()`** method of the {{domxref('PerformanceObserver')}} interface is used to stop the performance observer from receiving any {{domxref("PerformanceEntry","performance entry", '', 'true')}} events.
 

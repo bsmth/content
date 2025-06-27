@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.XRWebGLBinding.XRWebGLBinding
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`XRWebGLBinding()`** constructor creates and
 returns a new {{domxref("XRWebGLBinding")}} object.

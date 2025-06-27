@@ -4,9 +4,10 @@ short-title: CSSMathNegate()
 slug: Web/API/CSSMathNegate/CSSMathNegate
 page-type: web-api-constructor
 browser-compat: api.CSSMathNegate.CSSMathNegate
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSMathNegate()`** constructor creates a
 new {{domxref("CSSMathNegate")}} object which negates the value passed into it.

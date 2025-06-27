@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.UIEvent.initUIEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}} {{deprecated_header}}
+{{deprecated_header}}
 
 The **`UIEvent.initUIEvent()`** method initializes a UI event
 once it's been created.

@@ -3,9 +3,10 @@ title: StorageAccessHandle
 slug: Web/API/StorageAccessHandle
 page-type: web-api-interface
 browser-compat: api.StorageAccessHandle
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 The **`StorageAccessHandle`** interface represents access to [unpartitioned state](/en-US/docs/Web/Privacy/Guides/State_Partitioning#state_partitioning) granted by a call to {{domxref("Document.requestStorageAccess()")}}.
 

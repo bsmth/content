@@ -4,9 +4,8 @@ short-title: stroke()
 slug: Web/API/CanvasRenderingContext2D/stroke
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.stroke
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.stroke()`**

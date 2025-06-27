@@ -4,9 +4,10 @@ short-title: isComposing
 slug: Web/API/KeyboardEvent/isComposing
 page-type: web-api-instance-property
 browser-compat: api.KeyboardEvent.isComposing
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`KeyboardEvent.isComposing`** read-only property returns
 a boolean value indicating if the event is fired within a composition

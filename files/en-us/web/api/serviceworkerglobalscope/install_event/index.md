@@ -4,9 +4,10 @@ short-title: install
 slug: Web/API/ServiceWorkerGlobalScope/install_event
 page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.install_event
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`install`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired when a {{domxref("ServiceWorkerRegistration")}} acquires a new {{domxref("ServiceWorkerRegistration.installing")}} worker.
 

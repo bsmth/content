@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/HTMLSourceElement/height
 page-type: web-api-instance-property
 browser-compat: api.HTMLSourceElement.height
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`height`** property of the {{domxref("HTMLSourceElement")}} interface is a non-negative number indicating the height of the image resource in CSS pixels.
 

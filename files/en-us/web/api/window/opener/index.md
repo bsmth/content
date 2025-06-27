@@ -4,9 +4,10 @@ short-title: opener
 slug: Web/API/Window/opener
 page-type: web-api-instance-property
 browser-compat: api.Window.opener
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("Window")}} interface's
 **`opener`** property returns a reference to the window that

@@ -4,9 +4,10 @@ short-title: dataset
 slug: Web/API/HTMLElement/dataset
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.dataset
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`dataset`** read-only property
 of the {{DOMxRef("HTMLElement")}} interface provides read/write access to [custom data attributes](/en-US/docs/Web/HTML/Reference/Global_attributes/data-*)

@@ -4,9 +4,10 @@ short-title: speakAs
 slug: Web/API/CSSCounterStyleRule/speakAs
 page-type: web-api-instance-property
 browser-compat: api.CSSCounterStyleRule.speakAs
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`speakAs`** property of the {{domxref("CSSCounterStyleRule")}} interface gets and sets the value of the {{cssxref("@counter-style/speak-as","speak-as")}} descriptor. If the descriptor does not have a value set, this attribute returns an empty string.
 

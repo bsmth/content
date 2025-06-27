@@ -4,9 +4,10 @@ short-title: extractContents()
 slug: Web/API/Range/extractContents
 page-type: web-api-instance-method
 browser-compat: api.Range.extractContents
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`extractContents()`** method of the {{domxref("Range")}} interface is similar to a combination of {{domxref("Range.cloneContents()")}} and {{domxref("Range.deleteContents()")}}. It removes the child {{domxref("Node")}}s of the range from the document, clones them, and returns them as a new {{domxref("DocumentFragment")}} object. For partially selected nodes, only the selected text is deleted, but all containing parent nodes up to the common ancestor are cloned as well, resulting in two copies of these nodes, one in the original document and one in the extracted fragment.
 

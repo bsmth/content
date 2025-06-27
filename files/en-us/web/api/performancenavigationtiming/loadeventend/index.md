@@ -4,9 +4,10 @@ short-title: loadEventEnd
 slug: Web/API/PerformanceNavigationTiming/loadEventEnd
 page-type: web-api-instance-property
 browser-compat: api.PerformanceNavigationTiming.loadEventEnd
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`loadEventEnd`** read-only property returns a {{domxref("DOMHighResTimeStamp")}} representing the time immediately after the current document's [`load`](/en-US/docs/Web/API/Window/load_event) event handler completes.
 

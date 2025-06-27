@@ -4,9 +4,10 @@ short-title: StereoPannerNode()
 slug: Web/API/StereoPannerNode/StereoPannerNode
 page-type: web-api-constructor
 browser-compat: api.StereoPannerNode.StereoPannerNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`StereoPannerNode()`** constructor of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new {{domxref("StereoPannerNode")}} object which is an {{domxref("AudioNode")}} that represents a simple stereo panner node that can be used to pan an audio stream left or right.
 

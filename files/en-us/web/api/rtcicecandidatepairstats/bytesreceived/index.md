@@ -4,9 +4,10 @@ short-title: bytesReceived
 slug: Web/API/RTCIceCandidatePairStats/bytesReceived
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.bytesReceived
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`bytesReceived`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the total number of received payload bytes that have been received so far on the connection described by the candidate pair.
 

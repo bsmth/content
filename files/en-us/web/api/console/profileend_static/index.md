@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - non-standard
 browser-compat: api.console.profileEnd_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}}{{Non-standard_header}} {{AvailableInWorkers}}
+{{Non-standard_header}} {{AvailableInWorkers}}
 
 The **`console.profileEnd()`** static method stops recording a profile previously started with {{domxref("console/profile_static", "console.profile()")}}.
 

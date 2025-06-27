@@ -4,9 +4,10 @@ short-title: hasAttribute()
 slug: Web/API/Element/hasAttribute
 page-type: web-api-instance-method
 browser-compat: api.Element.hasAttribute
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.hasAttribute()`** method returns a
 **Boolean** value indicating whether the specified element has the

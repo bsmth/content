@@ -4,9 +4,10 @@ short-title: readable
 slug: Web/API/MediaStreamTrackProcessor/readable
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrackProcessor.readable
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API
 ---
-
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}
 
 The **`readable`** property of the {{domxref("MediaStreamTrackProcessor")}} interface returns a {{domxref("ReadableStream")}} of {{domxref("VideoFrame")}}s.
 

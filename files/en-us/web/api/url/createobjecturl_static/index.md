@@ -4,9 +4,10 @@ short-title: createObjectURL()
 slug: Web/API/URL/createObjectURL_static
 page-type: web-api-static-method
 browser-compat: api.URL.createObjectURL_static
+sidebar:
+  - apiref:
+      - File API")}} {{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("File API")}} {{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`createObjectURL()`** static method of the {{domxref("URL")}} interface
 creates a string containing a URL representing the object given in the parameter.

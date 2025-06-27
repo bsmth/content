@@ -4,9 +4,10 @@ short-title: bytes()
 slug: Web/API/PushMessageData/bytes
 page-type: web-api-instance-method
 browser-compat: api.PushMessageData.bytes
+sidebar:
+  - apiref:
+      - Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`bytes()`** method of the {{domxref("PushMessageData")}} interface extracts push message data as an {{jsxref("Uint8Array")}} object.
 

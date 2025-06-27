@@ -4,9 +4,10 @@ short-title: selectedIndex
 slug: Web/API/ImageTrackList/selectedIndex
 page-type: web-api-instance-property
 browser-compat: api.ImageTrackList.selectedIndex
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`selectedIndex`** property of the {{domxref("ImageTrackList")}} interface returns the `index` of the selected track.
 

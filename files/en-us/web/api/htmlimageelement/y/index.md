@@ -4,9 +4,10 @@ short-title: y
 slug: Web/API/HTMLImageElement/y
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.y
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only {{domxref("HTMLImageElement")}} property
 **`y`** indicates the y-coordinate of the

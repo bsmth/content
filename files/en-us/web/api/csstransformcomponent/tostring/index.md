@@ -4,9 +4,10 @@ short-title: toString()
 slug: Web/API/CSSTransformComponent/toString
 page-type: web-api-instance-method
 browser-compat: api.CSSTransformComponent.toString
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`toString()`** method of the {{domxref("CSSTransformComponent")}} interface is a {{Glossary("stringifier")}} returning a [CSS Transforms](/en-US/docs/Web/CSS/CSS_transforms) function.
 

@@ -4,9 +4,12 @@ short-title: keys()
 slug: Web/API/Cache/keys
 page-type: web-api-instance-method
 browser-compat: api.Cache.keys
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`keys()`** method of the {{domxref("Cache")}} interface returns a
 {{jsxref("Promise")}} that resolves to an array of {{domxref("Request")}} objects

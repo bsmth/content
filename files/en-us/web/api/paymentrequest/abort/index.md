@@ -4,9 +4,12 @@ short-title: abort()
 slug: Web/API/PaymentRequest/abort
 page-type: web-api-instance-method
 browser-compat: api.PaymentRequest.abort
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The `PaymentRequest.abort()` method of the {{domxref('PaymentRequest')}}
 interface causes the user agent to end the payment request and to remove any user

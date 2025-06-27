@@ -4,9 +4,10 @@ short-title: rangeCount
 slug: Web/API/Selection/rangeCount
 page-type: web-api-instance-property
 browser-compat: api.Selection.rangeCount
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.rangeCount`** read-only property returns the
 number of ranges in the selection.

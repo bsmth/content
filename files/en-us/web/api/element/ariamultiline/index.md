@@ -4,9 +4,10 @@ short-title: ariaMultiLine
 slug: Web/API/Element/ariaMultiLine
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaMultiLine
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaMultiLine`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-multiline`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-multiline) attribute, which indicates whether a text box accepts multiple lines of input or only a single line.
 

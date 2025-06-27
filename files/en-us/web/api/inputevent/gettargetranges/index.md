@@ -4,9 +4,10 @@ short-title: getTargetRanges()
 slug: Web/API/InputEvent/getTargetRanges
 page-type: web-api-instance-method
 browser-compat: api.InputEvent.getTargetRanges
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`getTargetRanges()`** method of the {{domxref("InputEvent")}} interface returns an array of {{domxref("StaticRange")}} objects that will be affected by a change to the DOM if the input event is not canceled.
 

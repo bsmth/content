@@ -3,9 +3,12 @@ title: WebGLSampler
 slug: Web/API/WebGLSampler
 page-type: web-api-interface
 browser-compat: api.WebGLSampler
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLSampler`** interface is part of the [WebGL 2](/en-US/docs/Web/API/WebGL_API) API and stores sampling parameters for {{domxref("WebGLTexture")}} access inside of a shader.
 

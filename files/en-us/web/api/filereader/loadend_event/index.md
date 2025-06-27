@@ -4,9 +4,12 @@ short-title: loadend
 slug: Web/API/FileReader/loadend_event
 page-type: web-api-event
 browser-compat: api.FileReader.loadend_event
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`loadend`** event of the {{domxref("FileReader")}} interface is fired when a file read has completed, successfully or not.
 

@@ -4,9 +4,10 @@ short-title: GainNode()
 slug: Web/API/GainNode/GainNode
 page-type: web-api-constructor
 browser-compat: api.GainNode.GainNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`GainNode()`** constructor of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new
 {{domxref("GainNode")}} object which is an {{domxref("AudioNode")}} that represents a

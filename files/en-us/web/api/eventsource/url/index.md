@@ -4,9 +4,12 @@ short-title: url
 slug: Web/API/EventSource/url
 page-type: web-api-instance-property
 browser-compat: api.EventSource.url
+sidebar:
+  - apiref:
+      - Server Sent Events
 ---
 
-{{APIRef("Server Sent Events")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`url`** read-only property of the
 {{domxref("EventSource")}} interface returns a string representing the

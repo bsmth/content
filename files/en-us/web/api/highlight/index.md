@@ -3,9 +3,10 @@ title: Highlight
 slug: Web/API/Highlight
 page-type: web-api-interface
 browser-compat: api.Highlight
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`Highlight`** interface of the [CSS Custom Highlight API](/en-US/docs/Web/API/CSS_Custom_Highlight_API) is used to represent a collection of {{domxref("Range")}} instances to be styled using the API.
 

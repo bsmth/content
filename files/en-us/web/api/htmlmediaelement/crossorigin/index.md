@@ -4,9 +4,10 @@ short-title: crossOrigin
 slug: Web/API/HTMLMediaElement/crossOrigin
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.crossOrigin
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.crossOrigin`** property is the CORS setting for this media element. See [CORS settings attributes](/en-US/docs/Web/HTML/Reference/Attributes/crossorigin) for details.
 

@@ -4,9 +4,10 @@ short-title: slotAssignment
 slug: Web/API/ShadowRoot/slotAssignment
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.slotAssignment
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The read-only **`slotAssignment`** property of the {{domxref("ShadowRoot")}} interface returns the _slot assignment mode_ for the shadow DOM tree. Nodes are either automatically assigned (`named`) or manually assigned (`manual`). The value of this property defined using the `slotAssignment` option when calling {{domxref("Element.attachShadow()")}}.
 

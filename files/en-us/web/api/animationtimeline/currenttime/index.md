@@ -4,9 +4,10 @@ short-title: currentTime
 slug: Web/API/AnimationTimeline/currentTime
 page-type: web-api-instance-property
 browser-compat: api.AnimationTimeline.currentTime
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`currentTime`** read-only property of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API)'s {{domxref("AnimationTimeline")}} interface returns the timeline's current time in milliseconds, or `null` if the timeline is inactive.
 

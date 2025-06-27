@@ -3,9 +3,10 @@ title: SVGLengthList
 slug: Web/API/SVGLengthList
 page-type: web-api-interface
 browser-compat: api.SVGLengthList
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGLengthList`** interface defines a list of {{ domxref("SVGLength") }} objects. It is used for the {{domxref("SVGAnimatedLengthList.baseVal", "baseVal")}} and {{domxref("SVGAnimatedLengthList.animVal", "animVal")}} properties of {{domxref("SVGAnimatedLengthList")}}.
 

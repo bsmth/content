@@ -4,9 +4,10 @@ short-title: scrollWidth
 slug: Web/API/Element/scrollWidth
 page-type: web-api-instance-property
 browser-compat: api.Element.scrollWidth
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`scrollWidth`** read-only property of the {{domxref("Element")}} interface is a measurement of the width of an element's content, including content not visible on the screen due to overflow.
 

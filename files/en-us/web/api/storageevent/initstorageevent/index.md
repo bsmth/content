@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.StorageEvent.initStorageEvent
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
 
-{{ApiRef("Web Storage API")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`StorageEvent.initStorageEvent()`** method is used to initialize the value of a {{ domxref("StorageEvent") }}.
 

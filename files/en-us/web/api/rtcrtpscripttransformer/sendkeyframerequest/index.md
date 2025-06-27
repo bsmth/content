@@ -4,9 +4,10 @@ short-title: sendKeyFrameRequest()
 slug: Web/API/RTCRtpScriptTransformer/sendKeyFrameRequest
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpScriptTransformer.sendKeyFrameRequest
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`sendKeyFrameRequest()`** method of the {{domxref("RTCRtpScriptTransformer")}} interface may be called by a [WebRTC Encoded Transform](/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms) that is processing incoming encoded video frames, in order to request a key frame from the sender.
 

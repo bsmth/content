@@ -4,9 +4,10 @@ short-title: userAgent
 slug: Web/API/Navigator/userAgent
 page-type: web-api-instance-property
 browser-compat: api.Navigator.userAgent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`Navigator.userAgent`** read-only property returns the
 user agent string for the current browser.

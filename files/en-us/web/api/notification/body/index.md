@@ -4,9 +4,12 @@ short-title: body
 slug: Web/API/Notification/body
 page-type: web-api-instance-property
 browser-compat: api.Notification.body
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`body`** read-only property of the
 {{domxref("Notification")}} interface indicates the body string of the notification, as

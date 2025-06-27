@@ -4,9 +4,10 @@ short-title: isPointInStroke()
 slug: Web/API/SVGGeometryElement/isPointInStroke
 page-type: web-api-instance-method
 browser-compat: api.SVGGeometryElement.isPointInStroke
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`isPointInStroke()`** method of the {{domxref("SVGGeometryElement")}} interface determines whether a given point is within the stroke shape of an element. The `point` argument is interpreted as a point in the local coordinate system of the element.
 

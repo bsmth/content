@@ -4,9 +4,10 @@ short-title: remote
 slug: Web/API/RTCIceCandidatePair/remote
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidatePair.remote
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`remote`** property of the
 **{{domxref("RTCIceCandidatePair")}}** dictionary specifies the

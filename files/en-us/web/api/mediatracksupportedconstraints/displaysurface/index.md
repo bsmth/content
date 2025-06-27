@@ -4,9 +4,10 @@ short-title: displaySurface
 slug: Web/API/MediaTrackSupportedConstraints/displaySurface
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.displaySurface_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSupportedConstraints")}} dictionary's **`displaySurface`** property indicates whether or not the {{domxref("MediaTrackConstraints.displaySurface", "displaySurface")}} constraint is supported by the user agent and the device on which the content is being used.
 

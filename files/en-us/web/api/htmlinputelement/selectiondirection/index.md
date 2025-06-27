@@ -4,9 +4,10 @@ short-title: selectionDirection
 slug: Web/API/HTMLInputElement/selectionDirection
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.selectionDirection
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`selectionDirection`** property of the {{domxref("HTMLInputElement")}} interface is a string that indicates the direction in which the user is selecting the text.
 

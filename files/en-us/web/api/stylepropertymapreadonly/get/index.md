@@ -4,9 +4,10 @@ short-title: get()
 slug: Web/API/StylePropertyMapReadOnly/get
 page-type: web-api-instance-method
 browser-compat: api.StylePropertyMapReadOnly.get
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`get()`** method of the
 {{domxref("StylePropertyMapReadOnly")}} interface returns a {{domxref("CSSStyleValue")}}

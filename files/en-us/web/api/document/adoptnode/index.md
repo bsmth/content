@@ -4,9 +4,10 @@ short-title: adoptNode()
 slug: Web/API/Document/adoptNode
 page-type: web-api-instance-method
 browser-compat: api.Document.adoptNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 **`Document.adoptNode()`** transfers a {{Glossary("node/dom", "node")}} from another {{domxref("Document", "document", "", "1")}} into the method's document.
 The adopted node and its subtree are removed from their original document (if any), and their {{domxref("Node.ownerDocument", "ownerDocument")}} is changed to the current document.

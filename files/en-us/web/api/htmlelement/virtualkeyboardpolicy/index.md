@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.HTMLElement.virtualKeyboardPolicy
+sidebar:
+  - apiref:
+      - VirtualKeyboard API
 ---
 
-{{APIRef("VirtualKeyboard API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`virtualKeyboardPolicy`** property of the {{domxref("HTMLElement")}} interface gets and sets a string indicating the on-screen virtual keyboard behavior on devices such as tablets, mobile phones, or other devices where a hardware keyboard may not be available, if the element's content is editable (for example, it is an {{htmlelement("input")}} or {{htmlelement("textarea")}} element, or an element with the [`contenteditable`](/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable) attribute set).
 

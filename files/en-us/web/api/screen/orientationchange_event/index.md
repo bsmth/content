@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Screen.orientationchange_event
+sidebar:
+  - apiref:
+      - Screen Orientation API
 ---
 
-{{APIRef("Screen Orientation API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The `orientationchange` event fires when the device's orientation has changed.
 

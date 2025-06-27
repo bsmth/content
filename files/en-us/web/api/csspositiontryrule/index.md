@@ -3,9 +3,10 @@ title: CSSPositionTryRule
 slug: Web/API/CSSPositionTryRule
 page-type: web-api-interface
 browser-compat: api.CSSPositionTryRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSPositionTryRule`** interface describes an object representing a {{cssxref("@position-try")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

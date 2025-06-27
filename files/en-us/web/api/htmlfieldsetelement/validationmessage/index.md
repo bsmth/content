@@ -4,9 +4,10 @@ short-title: validationMessage
 slug: Web/API/HTMLFieldSetElement/validationMessage
 page-type: web-api-instance-property
 browser-compat: api.HTMLFieldSetElement.validationMessage
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validationMessage`** read-only property of the {{domxref("HTMLFieldSetElement")}} interface returns a string representing a localized message that describes the validation constraints that the {{htmlelement("fieldset")}} control does not satisfy (if any). This is the empty string as `<fieldset>` elements are not candidates for constraint validation ({{domxref("HTMLFieldSetElement.willValidate")}} is `false`).
 

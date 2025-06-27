@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/VideoEncoder/state
 page-type: web-api-instance-property
 browser-compat: api.VideoEncoder.state
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`state`** read-only property of the {{domxref("VideoEncoder")}} interface returns the current state of the underlying codec.
 

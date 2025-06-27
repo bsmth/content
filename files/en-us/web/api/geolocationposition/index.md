@@ -3,9 +3,12 @@ title: GeolocationPosition
 slug: Web/API/GeolocationPosition
 page-type: web-api-interface
 browser-compat: api.GeolocationPosition
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`GeolocationPosition`** interface represents the position of the concerned device at a given time. The position, represented by a {{domxref("GeolocationCoordinates")}} object, comprehends the 2D position of the device, on a spheroid representing the Earth, but also its altitude and its speed.
 

@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/DOMException/message
 page-type: web-api-instance-property
 browser-compat: api.DOMException.message
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`message`** read-only property of the
 {{domxref("DOMException")}} interface returns a string representing

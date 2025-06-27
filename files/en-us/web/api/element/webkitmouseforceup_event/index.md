@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - non-standard
 browser-compat: api.Element.webkitmouseforceup_event
+sidebar:
+  - apiref:
+      - Force Touch Events
 ---
 
-{{APIRef("Force Touch Events")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The non-standard **`webkitmouseforceup`** event is fired by Safari at an {{domxref("Element")}} some time after the {{domxref("Element/webkitmouseforcedown_event", "webkitmouseforcedown")}} event, when pressure on the button has been reduced sufficiently to end the "force click".
 

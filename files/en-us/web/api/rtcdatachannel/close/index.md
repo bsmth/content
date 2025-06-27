@@ -4,9 +4,10 @@ short-title: close()
 slug: Web/API/RTCDataChannel/close
 page-type: web-api-instance-method
 browser-compat: api.RTCDataChannel.close
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCDataChannel.close()`** method closes the
 {{domxref("RTCDataChannel")}}. Either peer is permitted to call this method to initiate

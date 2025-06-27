@@ -4,9 +4,10 @@ short-title: systemId
 slug: Web/API/DocumentType/systemId
 page-type: web-api-instance-property
 browser-compat: api.DocumentType.systemId
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`systemId`** property of the {{domxref("DocumentType")}} returns the URL of the associated DTD.
 

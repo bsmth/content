@@ -4,9 +4,10 @@ short-title: src
 slug: Web/API/HTMLScriptElement/src
 page-type: web-api-instance-property
 browser-compat: api.HTMLScriptElement.src
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`src`** property of the {{domxref("HTMLScriptElement")}} interface is a string representing the URL of an external script; this can be used as an alternative to embedding a script directly within a document.
 

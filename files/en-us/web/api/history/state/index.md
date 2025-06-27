@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/History/state
 page-type: web-api-instance-property
 browser-compat: api.History.state
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`state`** read-only property of the {{DOMxRef("History")}} interface
 returns a value representing the state at the top of the history stack. This is

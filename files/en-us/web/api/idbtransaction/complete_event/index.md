@@ -4,9 +4,10 @@ short-title: complete
 slug: Web/API/IDBTransaction/complete_event
 page-type: web-api-event
 browser-compat: api.IDBTransaction.complete_event
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{APIRef("IndexedDB")}}
 
 The **`complete`** event of the [IndexedDB API](/en-US/docs/Web/API/IndexedDB_API) is fired when the transaction has successfully committed, which is either after you explicit call {{domxref("IDBTransaction.commit()")}} or when all requests have been successfully completed, and after handling their results, no new requests have been placed. See {{domxref("IDBTransaction")}} for more information.
 

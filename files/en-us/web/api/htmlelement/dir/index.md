@@ -4,9 +4,10 @@ short-title: dir
 slug: Web/API/HTMLElement/dir
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.dir
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`HTMLElement.dir`** property indicates the text writing directionality of the content of the current element. It reflects the element's [`dir`](/en-US/docs/Web/HTML/Reference/Global_attributes/dir) attribute.
 

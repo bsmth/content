@@ -4,9 +4,10 @@ short-title: playbackRate
 slug: Web/API/AudioBufferSourceNode/playbackRate
 page-type: web-api-instance-property
 browser-compat: api.AudioBufferSourceNode.playbackRate
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`playbackRate`** property of
 the {{ domxref("AudioBufferSourceNode") }} interface Is a [k-rate](/en-US/docs/Web/API/AudioParam#k-rate) {{domxref("AudioParam")}} that

@@ -4,9 +4,10 @@ short-title: z
 slug: Web/API/SVGFEPointLightElement/z
 page-type: web-api-instance-property
 browser-compat: api.SVGFEPointLightElement.z
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`z`** read-only property of the {{domxref("SVGFEPointLightElement")}} interface describes the z-axis value of the position of an SVG filter primitive as a {{domxref("SVGAnimatedNumber")}}. A positive Z-axis comes out towards the person viewing the content.
 

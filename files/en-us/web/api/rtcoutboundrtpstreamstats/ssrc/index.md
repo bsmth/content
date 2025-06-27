@@ -4,9 +4,10 @@ short-title: ssrc
 slug: Web/API/RTCOutboundRtpStreamStats/ssrc
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.ssrc
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`ssrc`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary contains a positive integer value that identifies the synchronization source (SSRC) of this stream of {{Glossary("RTP")}} packets.
 

@@ -4,9 +4,12 @@ short-title: PerformanceMark()
 slug: Web/API/PerformanceMark/PerformanceMark
 page-type: web-api-constructor
 browser-compat: api.PerformanceMark.PerformanceMark
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`PerformanceMark()`** constructor creates a {{domxref("DOMHighResTimeStamp","timestamp")}} with the given name.
 

@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/TextTrackList/length
 page-type: web-api-instance-property
 browser-compat: api.TextTrackList.length
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **{{domxref("TextTrackList")}}**
 property **`length`** returns the number of entries in the

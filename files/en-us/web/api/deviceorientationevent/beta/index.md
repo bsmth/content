@@ -4,9 +4,12 @@ short-title: beta
 slug: Web/API/DeviceOrientationEvent/beta
 page-type: web-api-instance-property
 browser-compat: api.DeviceOrientationEvent.beta
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`beta`** read-only property of the {{domxref("DeviceOrientationEvent")}} interface returns the rotation of the device around the X axis; that is, the number of degrees,
 ranged between -180 and 180, by which the device is tipped forward or backward.

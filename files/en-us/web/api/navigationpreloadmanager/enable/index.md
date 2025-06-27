@@ -4,9 +4,12 @@ short-title: enable()
 slug: Web/API/NavigationPreloadManager/enable
 page-type: web-api-instance-method
 browser-compat: api.NavigationPreloadManager.enable
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`enable()`** method of the {{domxref("NavigationPreloadManager")}} interface is used to enable preloading of resources managed by the service worker.
 It returns a promise that resolves with `undefined`.

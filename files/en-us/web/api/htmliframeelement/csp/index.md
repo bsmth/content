@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.HTMLIFrameElement.csp
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`csp`** property of the {{domxref("HTMLIFrameElement")}}
 interface specifies the [Content Security Policy](/en-US/docs/Web/HTTP/Guides/CSP) that an

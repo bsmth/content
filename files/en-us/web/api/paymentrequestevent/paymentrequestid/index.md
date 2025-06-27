@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PaymentRequestEvent.paymentRequestId
+sidebar:
+  - apiref:
+      - Payment Handler API")}}{{AvailableInWorkers("service
 ---
 
-{{SeeCompatTable}}{{APIRef("Payment Handler API")}}{{AvailableInWorkers("service")}}
+{{SeeCompatTable}}
 
 The **`paymentRequestId`** read-only property of the
 {{domxref("PaymentRequestEvent")}} interface returns the ID of the

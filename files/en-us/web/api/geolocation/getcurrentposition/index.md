@@ -4,9 +4,12 @@ short-title: getCurrentPosition()
 slug: Web/API/Geolocation/getCurrentPosition
 page-type: web-api-instance-method
 browser-compat: api.Geolocation.getCurrentPosition
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`getCurrentPosition()`** method of the {{domxref("Geolocation")}} interface is used to get the current position of the device.
 

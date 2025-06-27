@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLDetailsElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLDetailsElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`name`** property of the {{domxref("HTMLDetailsElement")}} interface reflects the [`name`](/en-US/docs/Web/HTML/Reference/Elements/details#name) attribute of {{htmlelement("details")}} elements. It enables multiple `<details>` elements to be connected together, where only one for the `<details>` elements can be open at once. This allows developers to easily create UI features such as accordions without scripting.
 

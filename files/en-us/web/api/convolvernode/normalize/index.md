@@ -4,9 +4,10 @@ short-title: normalize
 slug: Web/API/ConvolverNode/normalize
 page-type: web-api-instance-property
 browser-compat: api.ConvolverNode.normalize
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `normalize` property of the {{ domxref("ConvolverNode") }} interface
 is a boolean that controls whether the impulse response from the buffer will be

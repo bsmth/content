@@ -4,9 +4,12 @@ short-title: buttons
 slug: Web/API/Gamepad/buttons
 page-type: web-api-instance-property
 browser-compat: api.Gamepad.buttons
+sidebar:
+  - apiref:
+      - Gamepad API
 ---
 
-{{APIRef("Gamepad API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`buttons`** property of the {{domxref("Gamepad")}} interface returns an array of {{domxref("GamepadButton")}} objects representing the buttons present on the device.
 

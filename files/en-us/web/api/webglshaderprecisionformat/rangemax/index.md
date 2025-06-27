@@ -4,9 +4,12 @@ short-title: rangeMax
 slug: Web/API/WebGLShaderPrecisionFormat/rangeMax
 page-type: web-api-instance-property
 browser-compat: api.WebGLShaderPrecisionFormat.rangeMax
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`WebGLShaderPrecisionFormat.rangeMax`** property returns the base 2 log of the absolute value of the maximum value that can be represented.
 

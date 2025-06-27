@@ -4,9 +4,10 @@ short-title: size
 slug: Web/API/HTMLInputElement/size
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.size
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`size`** property of the {{DOMxRef("HTMLInputElement")}} interface defines the number of visible characters displayed. It reflects the {{htmlelement("input")}} element's [`size`](/en-US/docs/Web/HTML/Reference/Elements/input#size) attribute.
 

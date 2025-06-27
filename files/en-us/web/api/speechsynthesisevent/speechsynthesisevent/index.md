@@ -4,9 +4,10 @@ short-title: SpeechSynthesisEvent()
 slug: Web/API/SpeechSynthesisEvent/SpeechSynthesisEvent
 page-type: web-api-constructor
 browser-compat: api.SpeechSynthesisEvent.SpeechSynthesisEvent
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`SpeechSynthesisEvent()`** constructor creates a new {{domxref("SpeechSynthesisEvent")}} object.
 

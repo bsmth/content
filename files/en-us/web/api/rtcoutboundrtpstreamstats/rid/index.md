@@ -4,9 +4,10 @@ short-title: rid
 slug: Web/API/RTCOutboundRtpStreamStats/rid
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.rid
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`rid`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary is a string that specifies the RTP stream ID, if defined.
 

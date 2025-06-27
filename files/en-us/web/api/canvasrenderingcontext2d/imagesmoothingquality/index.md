@@ -4,9 +4,8 @@ short-title: imageSmoothingQuality
 slug: Web/API/CanvasRenderingContext2D/imageSmoothingQuality
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.imageSmoothingQuality
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`imageSmoothingQuality`** property of the
 {{domxref("CanvasRenderingContext2D")}} interface, part of the [Canvas API](/en-US/docs/Web/API/Canvas_API), lets you set the quality of

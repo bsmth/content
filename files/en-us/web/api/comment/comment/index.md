@@ -4,9 +4,10 @@ short-title: Comment()
 slug: Web/API/Comment/Comment
 page-type: web-api-constructor
 browser-compat: api.Comment.Comment
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Comment()`** constructor returns a newly created
 {{domxref("Comment")}} object with the optional string given in

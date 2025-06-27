@@ -4,9 +4,10 @@ short-title: ariaControlsElements
 slug: Web/API/ElementInternals/ariaControlsElements
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaControlsElements
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaControlsElements`** property of the {{domxref("ElementInternals")}} interface is an array containing the element (or elements) that are controlled by the element it is applied to.
 For example, this might be set on a [combobox](/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role) to indicate the element that it pops up, or on a [`scrollbar`](/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/scrollbar_role) to indicate the ID of the element it controls.

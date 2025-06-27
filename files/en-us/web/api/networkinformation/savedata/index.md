@@ -4,9 +4,12 @@ short-title: saveData
 slug: Web/API/NetworkInformation/saveData
 page-type: web-api-instance-property
 browser-compat: api.NetworkInformation.saveData
+sidebar:
+  - apiref:
+      - Network Information API
 ---
 
-{{APIRef("Network Information API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`saveData`** read-only
 property of the {{domxref("NetworkInformation")}} interface returns `true` if the user has set a reduced data usage option on the user agent.

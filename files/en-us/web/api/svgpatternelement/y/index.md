@@ -4,9 +4,10 @@ short-title: y
 slug: Web/API/SVGPatternElement/y
 page-type: web-api-instance-property
 browser-compat: api.SVGPatternElement.y
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y`** read-only property of the {{domxref("SVGPatternElement")}} interface describes the y-axis coordinate of the start point of the pattern as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("y")}} attribute on the {{SVGElement("pattern")}} element.
 

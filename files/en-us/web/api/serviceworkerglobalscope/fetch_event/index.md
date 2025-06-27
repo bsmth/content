@@ -4,9 +4,10 @@ short-title: fetch
 slug: Web/API/ServiceWorkerGlobalScope/fetch_event
 page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.fetch_event
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`fetch`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired in the service worker's global scope when the main app thread makes a network request. It enables the service worker to intercept network requests and send customized responses (for example, from a local cache).
 

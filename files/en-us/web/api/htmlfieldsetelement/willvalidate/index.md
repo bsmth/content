@@ -4,9 +4,10 @@ short-title: willValidate
 slug: Web/API/HTMLFieldSetElement/willValidate
 page-type: web-api-instance-property
 browser-compat: api.HTMLFieldSetElement.willValidate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`willValidate`** read-only property of the {{domxref("HTMLFieldSetElement")}} interface returns `false`, because {{HTMLElement("fieldset")}} elements are not candidates for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation).
 

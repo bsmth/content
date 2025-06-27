@@ -4,9 +4,12 @@ short-title: lastModified
 slug: Web/API/File/lastModified
 page-type: web-api-instance-property
 browser-compat: api.File.lastModified
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`lastModified`** read-only property of the {{domxref("File")}} interface provides the
 last modified date of the file as the number of milliseconds since the Unix

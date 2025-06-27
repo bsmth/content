@@ -4,9 +4,12 @@ short-title: DOMRectReadOnly()
 slug: Web/API/DOMRectReadOnly/DOMRectReadOnly
 page-type: web-api-constructor
 browser-compat: api.DOMRectReadOnly.DOMRectReadOnly
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMRectReadOnly()`** constructor creates a new {{domxref("DOMRectReadOnly")}} object.
 

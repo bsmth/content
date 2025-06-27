@@ -4,9 +4,10 @@ short-title: collapse()
 slug: Web/API/Range/collapse
 page-type: web-api-instance-method
 browser-compat: api.Range.collapse
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`collapse()`** method of the {{domxref("Range")}} interface collapses the
 {{domxref("Range")}} to one of its boundary points.

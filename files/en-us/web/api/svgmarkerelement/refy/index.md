@@ -4,9 +4,10 @@ short-title: refY
 slug: Web/API/SVGMarkerElement/refY
 page-type: web-api-instance-property
 browser-compat: api.SVGMarkerElement.refY
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`refY`** read-only property of the {{domxref("SVGMarkerElement")}} interface returns an {{domxref("SVGAnimatedLength")}} object containing the value of the {{SVGattr("refY")}} attribute of the {{SVGElement("marker")}}.
 

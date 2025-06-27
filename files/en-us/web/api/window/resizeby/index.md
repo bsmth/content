@@ -4,9 +4,8 @@ short-title: resizeBy()
 slug: Web/API/Window/resizeBy
 page-type: web-api-instance-method
 browser-compat: api.Window.resizeBy
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.resizeBy()`** method resizes the current window
 by a specified amount.

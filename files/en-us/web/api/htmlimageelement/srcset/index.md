@@ -4,9 +4,10 @@ short-title: srcset
 slug: Web/API/HTMLImageElement/srcset
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.srcset
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLImageElement")}} property
 **`srcset`** is a string which identifies one or more

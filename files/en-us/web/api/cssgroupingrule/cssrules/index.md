@@ -4,9 +4,10 @@ short-title: cssRules
 slug: Web/API/CSSGroupingRule/cssRules
 page-type: web-api-instance-property
 browser-compat: api.CSSGroupingRule.cssRules
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`cssRules`** property of the
 {{domxref("CSSGroupingRule")}} interface returns a {{domxref("CSSRuleList")}} containing

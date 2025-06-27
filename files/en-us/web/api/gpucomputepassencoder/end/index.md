@@ -4,9 +4,12 @@ short-title: end()
 slug: Web/API/GPUComputePassEncoder/end
 page-type: web-api-instance-method
 browser-compat: api.GPUComputePassEncoder.end
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`end()`** method of the
 {{domxref("GPUComputePassEncoder")}} interface completes recording of the current compute pass command sequence.

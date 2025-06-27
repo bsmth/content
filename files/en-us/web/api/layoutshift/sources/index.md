@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.LayoutShift.sources
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{SeeCompatTable}}{{APIRef("Performance API")}}
+{{SeeCompatTable}}
 
 The **`sources`** read-only property of the {{domxref("LayoutShift")}} interface returns an array of {{domxref("LayoutShiftAttribution")}} objects that indicate the DOM elements that moved during the layout shift.
 

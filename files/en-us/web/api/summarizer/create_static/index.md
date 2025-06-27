@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - experimental
 browser-compat: api.Summarizer.create_static
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{securecontext_header}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`create()`** static method of the {{domxref("Summarizer")}} interface creates a new `Summarizer` instance from which to generate summaries.
 

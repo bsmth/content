@@ -4,9 +4,10 @@ short-title: clear()
 slug: Web/API/StylePropertyMap/clear
 page-type: web-api-instance-method
 browser-compat: api.StylePropertyMap.clear
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`clear()`** method of the {{domxref("StylePropertyMap")}}
 interface removes all declarations in the `StylePropertyMap`.

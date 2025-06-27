@@ -4,9 +4,10 @@ short-title: max
 slug: Web/API/HTMLInputElement/max
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.max
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`max`** property of the {{domxref("HTMLInputElement")}} interface reflects the {{HTMLElement("input")}} element's [`max`](/en-US/docs/Web/HTML/Reference/Elements/input#max) attribute, which generally defines the maximum valid value for a numeric or date-time input. If the attribute is not explicitly set, the `max` property is an empty string.
 

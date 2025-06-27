@@ -4,9 +4,10 @@ short-title: loop
 slug: Web/API/AudioBufferSourceNode/loop
 page-type: web-api-instance-property
 browser-compat: api.AudioBufferSourceNode.loop
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `loop` property of the {{ domxref("AudioBufferSourceNode") }}
 interface is a Boolean indicating if the audio asset must be replayed when the end of

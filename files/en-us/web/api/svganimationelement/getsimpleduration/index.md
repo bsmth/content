@@ -4,9 +4,10 @@ short-title: getSimpleDuration()
 slug: Web/API/SVGAnimationElement/getSimpleDuration
 page-type: web-api-instance-method
 browser-compat: api.SVGAnimationElement.getSimpleDuration
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The {{domxref("SVGAnimationElement")}} method `getSimpleDuration()` returns a float representing the number of seconds for the simple duration for this animation.
 

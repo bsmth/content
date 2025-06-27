@@ -4,9 +4,12 @@ short-title: addModule()
 slug: Web/API/Worklet/addModule
 page-type: web-api-instance-method
 browser-compat: api.Worklet.addModule
+sidebar:
+  - apiref:
+      - Worklets
 ---
 
-{{APIRef("Worklets")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`addModule()`** method of the
 {{domxref("Worklet")}} interface loads the module in the given JavaScript file and

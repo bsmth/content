@@ -4,9 +4,12 @@ short-title: password
 slug: Web/API/URL/password
 page-type: web-api-instance-property
 browser-compat: api.URL.password
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`password`** property of the {{domxref("URL")}} interface is a string containing the password component of the URL. If the URL does not have a password, this property contains an empty string, `""`.
 

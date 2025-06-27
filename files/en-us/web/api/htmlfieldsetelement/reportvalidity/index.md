@@ -4,9 +4,10 @@ short-title: reportValidity()
 slug: Web/API/HTMLFieldSetElement/reportValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLFieldSetElement.reportValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`reportValidity()`** method of the {{domxref("HTMLFieldSetElement")}} interface performs the same validity checking steps as the {{domxref("HTMLFieldSetElement.checkValidity", "checkValidity()")}} method. It always returns true because {{HTMLElement("fieldset")}} elements are never candidates for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation).
 

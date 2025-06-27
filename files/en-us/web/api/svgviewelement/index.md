@@ -3,9 +3,10 @@ title: SVGViewElement
 slug: Web/API/SVGViewElement
 page-type: web-api-interface
 browser-compat: api.SVGViewElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGViewElement`** interface provides access to the properties of {{SVGElement("view")}} elements, as well as methods to manipulate them.
 

@@ -4,9 +4,12 @@ short-title: advance()
 slug: Web/API/IDBCursor/advance
 page-type: web-api-instance-method
 browser-compat: api.IDBCursor.advance
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`advance()`** method of the {{domxref("IDBCursor")}}
 interface sets the number of times a cursor should move

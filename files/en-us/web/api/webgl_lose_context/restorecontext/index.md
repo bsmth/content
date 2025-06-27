@@ -4,9 +4,10 @@ short-title: restoreContext()
 slug: Web/API/WEBGL_lose_context/restoreContext
 page-type: webgl-extension-method
 browser-compat: api.WEBGL_lose_context.restoreContext
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **WEBGL_lose_context.restoreContext()** method is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and allows you to simulate
 restoring the context of a {{domxref("WebGLRenderingContext")}} object.

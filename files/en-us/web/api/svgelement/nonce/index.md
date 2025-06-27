@@ -4,9 +4,10 @@ short-title: nonce
 slug: Web/API/SVGElement/nonce
 page-type: web-api-instance-property
 browser-compat: api.SVGElement.nonce
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`nonce`** property of the {{DOMxRef("SVGElement")}} interface returns the nonce that is used by [Content Security Policy](/en-US/docs/Web/HTTP/Guides/CSP) to determine whether a given fetch will be allowed to proceed.
 

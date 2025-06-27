@@ -4,9 +4,12 @@ short-title: json()
 slug: Web/API/Request/json
 page-type: web-api-instance-method
 browser-compat: api.Request.json
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`json()`** method of the {{domxref("Request")}} interface
 reads the request body and returns it as a promise that resolves with the result of parsing the body text as {{JSxRef("JSON")}}.

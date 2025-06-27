@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGFESpecularLightingElement/width
 page-type: web-api-instance-property
 browser-compat: api.SVGFESpecularLightingElement.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`width`** read-only property of the {{domxref("SVGFESpecularLightingElement")}} interface describes the horizontal size of an SVG filter primitive as a {{domxref("SVGAnimatedLength")}}.
 

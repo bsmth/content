@@ -4,9 +4,10 @@ short-title: close()
 slug: Web/API/SharedWorkerGlobalScope/close
 page-type: web-api-instance-method
 browser-compat: api.SharedWorkerGlobalScope.close
+sidebar:
+  - apiref:
+      - Web Workers API
 ---
-
-{{APIRef("Web Workers API")}}
 
 The **`close()`** method of the {{domxref("SharedWorkerGlobalScope")}} interface discards any tasks queued in the `SharedWorkerGlobalScope`'s event loop, effectively closing this particular scope.
 

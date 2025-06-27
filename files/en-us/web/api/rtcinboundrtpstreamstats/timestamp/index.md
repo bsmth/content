@@ -4,9 +4,10 @@ short-title: timestamp
 slug: Web/API/RTCInboundRtpStreamStats/timestamp
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.timestamp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`timestamp`** property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary is a {{domxref("DOMHighResTimeStamp")}} object specifying the time at which the data in the object was sampled.
 

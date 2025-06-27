@@ -4,9 +4,12 @@ short-title: lengthComputable
 slug: Web/API/ProgressEvent/lengthComputable
 page-type: web-api-instance-property
 browser-compat: api.ProgressEvent.lengthComputable
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The
 **`ProgressEvent.lengthComputable`** read-only property is a

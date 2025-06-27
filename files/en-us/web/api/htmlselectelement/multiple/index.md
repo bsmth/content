@@ -4,9 +4,10 @@ short-title: multiple
 slug: Web/API/HTMLSelectElement/multiple
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.multiple
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`multiple`** property of the {{DOMxRef("HTMLSelectElement")}} interface specifies that the user may select more than one option from the list of options. It reflects the {{htmlelement("select")}} element's [`multiple`](/en-US/docs/Web/HTML/Reference/Elements/select#multiple) attribute.
 

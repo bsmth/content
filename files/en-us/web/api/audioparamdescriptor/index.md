@@ -3,9 +3,10 @@ title: AudioParamDescriptor
 slug: Web/API/AudioParamDescriptor
 page-type: web-api-interface
 spec-urls: https://webaudio.github.io/web-audio-api/#AudioParamDescriptor
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`AudioParamDescriptor`** dictionary of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) specifies properties for {{domxref("AudioParam")}} objects.
 

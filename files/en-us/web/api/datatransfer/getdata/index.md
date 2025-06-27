@@ -4,9 +4,10 @@ short-title: getData()
 slug: Web/API/DataTransfer/getData
 page-type: web-api-instance-method
 browser-compat: api.DataTransfer.getData
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`DataTransfer.getData()`**
 method retrieves drag data (as a string) for the specified type.

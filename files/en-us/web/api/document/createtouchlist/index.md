@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Document.createTouchList
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Deprecated_Header}}{{Non-standard_header}}
+{{Deprecated_Header}}{{Non-standard_header}}
 
 The **`Document.createTouchList()`** method creates and returns a new {{DOMxRef("TouchList")}} object.
 

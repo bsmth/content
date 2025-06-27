@@ -4,9 +4,10 @@ short-title: createSVGTransformFromMatrix()
 slug: Web/API/SVGTransformList/createSVGTransformFromMatrix
 page-type: web-api-instance-method
 browser-compat: api.SVGTransformList.createSVGTransformFromMatrix
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `createSVGTransformFromMatrix()` method of the {{domxref("SVGTransformList")}} interface creates an {{domxref("SVGTransform")}} object which is initialized to a transform of type `SVG_TRANSFORM_MATRIX` and whose values are the given matrix.
 

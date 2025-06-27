@@ -4,9 +4,10 @@ short-title: startOffset
 slug: Web/API/ViewTimeline/startOffset
 page-type: web-api-instance-property
 browser-compat: api.ViewTimeline.startOffset
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`startOffset`** read-only property of the {{domxref("ViewTimeline")}} interface returns a {{domxref("CSSNumericValue")}} representing the starting (0% progress) scroll position of the timeline as an offset from the start of the overflowing section of content in the scroller.
 

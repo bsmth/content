@@ -3,9 +3,10 @@ title: History
 slug: Web/API/History
 page-type: web-api-interface
 browser-compat: api.History
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`History`** interface of the {{domxref("History API", "", "", "nocode")}} allows manipulation of the browser _session history_, that is the pages visited in the tab or frame that the current page is loaded in.
 

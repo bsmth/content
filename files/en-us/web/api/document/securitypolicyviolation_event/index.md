@@ -4,9 +4,8 @@ short-title: securitypolicyviolation
 slug: Web/API/Document/securitypolicyviolation_event
 page-type: web-api-event
 browser-compat: api.Document.securitypolicyviolation_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`securitypolicyviolation`** event is fired when a [Content Security Policy](/en-US/docs/Web/HTTP/Guides/CSP) is violated.
 

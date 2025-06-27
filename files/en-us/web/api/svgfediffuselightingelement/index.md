@@ -3,9 +3,10 @@ title: SVGFEDiffuseLightingElement
 slug: Web/API/SVGFEDiffuseLightingElement
 page-type: web-api-interface
 browser-compat: api.SVGFEDiffuseLightingElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEDiffuseLightingElement`** interface corresponds to the {{SVGElement("feDiffuseLighting")}} element.
 

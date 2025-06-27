@@ -4,9 +4,10 @@ short-title: suspend
 slug: Web/API/HTMLMediaElement/suspend_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.suspend_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `suspend` event is fired when the user agent is intentionally not fetching media data, in which case {{domxref("HTMLMediaElement.networkState")}} is set to `HTMLMediaElement.NETWORK_IDLE`. This can happen if there's no more data to load, or if loading is unnecessary; for example, the browser may decide to only buffer 5 minutes of a video in advance, in which case loading is suspended until the user watches more of the video.
 

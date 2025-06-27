@@ -4,9 +4,10 @@ short-title: getTransceivers()
 slug: Web/API/RTCPeerConnection/getTransceivers
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.getTransceivers
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getTransceivers()`** method of the {{domxref("RTCPeerConnection")}} interface returns a list of the {{domxref("RTCRtpTransceiver")}} objects being used to send and receive data on the connection.
 

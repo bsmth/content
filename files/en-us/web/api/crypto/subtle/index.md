@@ -4,9 +4,12 @@ short-title: subtle
 slug: Web/API/Crypto/subtle
 page-type: web-api-instance-property
 browser-compat: api.Crypto.subtle
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`Crypto.subtle`** read-only property returns a
 {{domxref("SubtleCrypto")}} which can then be used to perform low-level

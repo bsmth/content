@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Scheduling.isInputPending
+sidebar:
+  - apiref:
+      - Prioritized Task Scheduling API
 ---
 
-{{SeeCompatTable}}{{APIRef("Prioritized Task Scheduling API")}}
+{{SeeCompatTable}}
 
 The **`isInputPending()`** method of the {{domxref("Scheduling")}} interface allows you to check whether there are pending input events in the event queue, indicating that the user is attempting to interact with the page.
 

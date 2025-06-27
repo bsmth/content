@@ -4,9 +4,10 @@ short-title: remove()
 slug: Web/API/HTMLSelectElement/remove
 page-type: web-api-instance-method
 browser-compat: api.HTMLSelectElement.remove
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLSelectElement.remove()`** method removes the element
 at the specified index from the options collection for this select element.

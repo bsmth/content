@@ -4,9 +4,10 @@ short-title: slope
 slug: Web/API/SVGComponentTransferFunctionElement/slope
 page-type: web-api-instance-property
 browser-compat: api.SVGComponentTransferFunctionElement.slope
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`slope`** read-only property of the {{domxref("SVGComponentTransferFunctionElement")}} interface reflects the {{SVGAttr("slope")}} attribute of the given element.
 

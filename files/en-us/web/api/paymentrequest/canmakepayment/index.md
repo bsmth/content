@@ -4,9 +4,12 @@ short-title: canMakePayment()
 slug: Web/API/PaymentRequest/canMakePayment
 page-type: web-api-instance-method
 browser-compat: api.PaymentRequest.canMakePayment
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The {{domxref("PaymentRequest")}} method
 **`canMakePayment()`** determines whether or not the request

@@ -4,9 +4,12 @@ short-title: methodName
 slug: Web/API/PaymentResponse/methodName
 page-type: web-api-instance-property
 browser-compat: api.PaymentResponse.methodName
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`methodName`** read-only
 property of the {{domxref("PaymentResponse")}} interface returns a string uniquely

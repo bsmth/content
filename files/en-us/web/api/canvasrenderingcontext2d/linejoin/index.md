@@ -4,9 +4,8 @@ short-title: lineJoin
 slug: Web/API/CanvasRenderingContext2D/lineJoin
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.lineJoin
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.lineJoin`**

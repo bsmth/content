@@ -4,9 +4,10 @@ short-title: getAttributeNS()
 slug: Web/API/Element/getAttributeNS
 page-type: web-api-instance-method
 browser-compat: api.Element.getAttributeNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`getAttributeNS()`** method of the {{domxref("Element")}}
 interface returns the string value of the attribute with the specified namespace and

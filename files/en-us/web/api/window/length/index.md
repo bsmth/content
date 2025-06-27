@@ -4,9 +4,8 @@ short-title: length
 slug: Web/API/Window/length
 page-type: web-api-instance-property
 browser-compat: api.Window.length
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 Returns the number of frames (either {{HTMLElement("frame")}} or
 {{HTMLElement("iframe")}} elements) in the window.

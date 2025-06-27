@@ -4,9 +4,8 @@ short-title: isPointInStroke()
 slug: Web/API/CanvasRenderingContext2D/isPointInStroke
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.isPointInStroke
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.isPointInStroke()`**

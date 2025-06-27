@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.NDEFRecord.NDEFRecord
+sidebar:
+  - apiref:
+      - Web NFC API
 ---
 
-{{SecureContext_Header}}{{SeeCompatTable}}{{APIRef("Web NFC API")}}
+{{SecureContext_Header}}{{SeeCompatTable}}
 
 The **`NDEFRecord()`**
 constructor of the [Web NFC API](/en-US/docs/Web/API/Web_NFC_API) returns a

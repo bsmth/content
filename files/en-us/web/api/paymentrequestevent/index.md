@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.PaymentRequestEvent
+sidebar:
+  - apiref:
+      - Payment Handler API")}}{{AvailableInWorkers("service
 ---
 
-{{SeeCompatTable}}{{APIRef("Payment Handler API")}}{{AvailableInWorkers("service")}}
+{{SeeCompatTable}}
 
 The **`PaymentRequestEvent`** interface of the {{domxref("Payment Handler API", "", "", "nocode")}} is the object passed to a payment handler when a {{domxref("PaymentRequest")}} is made.
 

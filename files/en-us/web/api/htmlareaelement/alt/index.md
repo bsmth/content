@@ -4,9 +4,10 @@ short-title: alt
 slug: Web/API/HTMLAreaElement/alt
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.alt
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`alt`** property of the {{DOMxRef("HTMLAreaElement")}} interface specifies the text of the hyperlink, defining the textual label for an image map's link. It reflects the {{htmlelement("area")}} element's [`alt`](/en-US/docs/Web/HTML/Reference/Elements/area#alt) attribute.
 

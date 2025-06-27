@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Document.featurePolicy
+sidebar:
+  - apiref:
+      - Feature Policy
 ---
 
-{{APIRef("Feature Policy")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`featurePolicy`** read-only property of the {{domxref("Document")}} interface returns the {{domxref("FeaturePolicy")}} interface which provides a simple API for inspecting the [Permissions Policies](/en-US/docs/Web/HTTP/Guides/Permissions_Policy) applied to a specific document.
 

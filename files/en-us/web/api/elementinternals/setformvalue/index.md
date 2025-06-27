@@ -4,9 +4,10 @@ short-title: setFormValue()
 slug: Web/API/ElementInternals/setFormValue
 page-type: web-api-instance-method
 browser-compat: api.ElementInternals.setFormValue
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`setFormValue()`** method of the {{domxref("ElementInternals")}} interface sets the element's submission value and state, communicating these to the user agent.
 

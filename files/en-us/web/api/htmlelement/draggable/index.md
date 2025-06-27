@@ -4,9 +4,10 @@ short-title: draggable
 slug: Web/API/HTMLElement/draggable
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.draggable
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`draggable`** property of the {{domxref("HTMLElement")}} interface gets and sets a {{jsxref("Boolean")}} primitive indicating if the element is draggable.
 

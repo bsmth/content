@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.Element.scrollTopMax
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`Element.scrollTopMax`** read-only property returns a
 number representing the maximum top scroll offset possible for the

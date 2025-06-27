@@ -4,9 +4,10 @@ short-title: readyState
 slug: Web/API/HTMLTrackElement/readyState
 page-type: web-api-instance-property
 browser-compat: api.HTMLTrackElement.readyState
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`readyState`** read-only property of the {{domxref("HTMLTrackElement")}} interface returns a number representing the {{HTMLElement("track")}} element's text track readiness state:
 

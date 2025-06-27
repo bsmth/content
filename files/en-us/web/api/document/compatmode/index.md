@@ -4,9 +4,10 @@ short-title: compatMode
 slug: Web/API/Document/compatMode
 page-type: web-api-instance-property
 browser-compat: api.Document.compatMode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Document.compatMode`** read-only property indicates
 whether the document is rendered in [Quirks mode](/en-US/docs/Web/HTML/Guides/Quirks_mode_and_standards_mode) or

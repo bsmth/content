@@ -4,9 +4,10 @@ short-title: resume()
 slug: Web/API/SpeechSynthesis/resume
 page-type: web-api-instance-method
 browser-compat: api.SpeechSynthesis.resume
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`resume()`** method of the {{domxref("SpeechSynthesis")}}
 interface puts the `SpeechSynthesis` object into a non-paused state:

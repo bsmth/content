@@ -4,9 +4,10 @@ short-title: lock()
 slug: Web/API/ScreenOrientation/lock
 page-type: web-api-instance-method
 browser-compat: api.ScreenOrientation.lock
+sidebar:
+  - apiref:
+      - Screen Orientation
 ---
-
-{{APIRef("Screen Orientation")}}
 
 The **`lock()`** method of the {{domxref("ScreenOrientation")}} interface locks the orientation of the containing document to the specified orientation.
 

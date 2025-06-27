@@ -4,9 +4,10 @@ short-title: ariaCurrent
 slug: Web/API/ElementInternals/ariaCurrent
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaCurrent
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaCurrent`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-current`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-current) attribute, which indicates the element that represents the current item within a container or set of related elements.
 

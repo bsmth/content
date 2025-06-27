@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Window.fetchLater
+sidebar:
+  - apiref:
+      - fetchLater API
 ---
 
-{{APIRef("fetchLater API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`fetchLater()`** method of the {{domxref("Window")}} interface creates a deferred fetch.
 

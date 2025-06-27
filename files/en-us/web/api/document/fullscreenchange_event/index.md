@@ -4,9 +4,10 @@ short-title: fullscreenchange
 slug: Web/API/Document/fullscreenchange_event
 page-type: web-api-event
 browser-compat: api.Document.fullscreenchange_event
+sidebar:
+  - apiref:
+      - Fullscreen API
 ---
-
-{{APIRef("Fullscreen API")}}
 
 The **`fullscreenchange`** event is fired immediately after the browser switches into or out of fullscreen mode.
 

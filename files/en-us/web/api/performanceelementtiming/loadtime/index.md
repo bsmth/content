@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PerformanceElementTiming.loadTime
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`loadTime`** read-only property of the {{domxref("PerformanceElementTiming")}} interface always returns `0` for text. For images it returns the time which is the latest between the time the image resource is loaded and the time it is attached to the element.
 

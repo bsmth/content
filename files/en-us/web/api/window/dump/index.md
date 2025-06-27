@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.Window.dump
+sidebar: apiref
 ---
 
-{{APIRef}} {{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`Window.dump()`** method logs messages to the browser's standard output (`stdout`). If the browser was started from a terminal, output sent to `dump()` will appear in the terminal.
 

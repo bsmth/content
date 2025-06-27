@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.SourceBuffer.textTracks
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`textTracks`** read-only property of the
 {{domxref("SourceBuffer")}} interface returns a list of the text tracks currently

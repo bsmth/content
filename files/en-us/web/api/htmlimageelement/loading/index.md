@@ -4,9 +4,10 @@ short-title: loading
 slug: Web/API/HTMLImageElement/loading
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.loading
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLImageElement")}} property **`loading`** is a string whose value provides a hint to the {{Glossary("user agent")}} on how to handle the loading of the image which is currently outside the window's {{Glossary("visual viewport")}}.
 

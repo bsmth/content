@@ -3,9 +3,10 @@ title: HTMLLegendElement
 slug: Web/API/HTMLLegendElement
 page-type: web-api-interface
 browser-compat: api.HTMLLegendElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLLegendElement`** is an interface allowing to access properties of the {{HTMLElement("legend")}} elements. It inherits properties and methods from the {{domxref("HTMLElement")}} interface.
 

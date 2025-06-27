@@ -3,9 +3,10 @@ title: AnimationEffect
 slug: Web/API/AnimationEffect
 page-type: web-api-interface
 browser-compat: api.AnimationEffect
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The `AnimationEffect` interface of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) is an interface representing animation effects.
 

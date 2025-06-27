@@ -4,9 +4,10 @@ short-title: contains()
 slug: Web/API/Node/contains
 page-type: web-api-instance-method
 browser-compat: api.Node.contains
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`contains()`** method of the {{domxref("Node")}} interface
 returns a boolean value indicating

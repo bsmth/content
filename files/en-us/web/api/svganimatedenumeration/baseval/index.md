@@ -4,9 +4,10 @@ short-title: baseVal
 slug: Web/API/SVGAnimatedEnumeration/baseVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedEnumeration.baseVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`baseVal`** property of the {{domxref("SVGAnimatedEnumeration")}} interface contains the initial value of an SVG enumeration.
 

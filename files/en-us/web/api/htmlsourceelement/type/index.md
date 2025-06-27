@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLSourceElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLSourceElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`type`** property of the {{domxref("HTMLSourceElement")}} interface is a string representing the {{glossary("MIME type")}} of the media resource.
 

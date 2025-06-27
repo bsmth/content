@@ -4,9 +4,10 @@ short-title: src
 slug: Web/API/HTMLSourceElement/src
 page-type: web-api-instance-property
 browser-compat: api.HTMLSourceElement.src
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`src`** property of the {{domxref("HTMLSourceElement")}} interface is a string indicating the URL of a media resource to use as the source for the element.
 

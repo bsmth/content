@@ -4,9 +4,12 @@ short-title: encrypt()
 slug: Web/API/SubtleCrypto/encrypt
 page-type: web-api-instance-method
 browser-compat: api.SubtleCrypto.encrypt
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`encrypt()`** method of the {{domxref("SubtleCrypto")}} interface encrypts data.
 

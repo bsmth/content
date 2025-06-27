@@ -4,9 +4,12 @@ short-title: TextDecoder()
 slug: Web/API/TextDecoder/TextDecoder
 page-type: web-api-constructor
 browser-compat: api.TextDecoder.TextDecoder
+sidebar:
+  - apiref:
+      - Encoding API
 ---
 
-{{APIRef("Encoding API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`TextDecoder()`** constructor returns a newly created {{DOMxRef("TextDecoder")}} object for the encoding specified in parameter.
 

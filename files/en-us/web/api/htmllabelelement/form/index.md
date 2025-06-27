@@ -4,9 +4,10 @@ short-title: form
 slug: Web/API/HTMLLabelElement/form
 page-type: web-api-instance-property
 browser-compat: api.HTMLLabelElement.form
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`form`** read-only property of the {{domxref("HTMLLabelElement")}} interface returns an {{domxref("HTMLFormElement")}} object that owns the {{domxref("HTMLLabelElement.control", "control")}} associated with this {{HTMLElement("label")}}, or `null` if this label is not associated with a control owned by a form.
 

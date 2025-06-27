@@ -4,9 +4,12 @@ short-title: connection
 slug: Web/API/MIDIPort/connection
 page-type: web-api-instance-property
 browser-compat: api.MIDIPort.connection
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`connection`** read-only property of the {{domxref("MIDIPort")}} interface returns the connection state of the port.
 

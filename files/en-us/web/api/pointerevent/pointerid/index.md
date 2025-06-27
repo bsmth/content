@@ -4,9 +4,10 @@ short-title: pointerId
 slug: Web/API/PointerEvent/pointerId
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.pointerId
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`pointerId`** read-only property of the
 {{domxref("PointerEvent")}} interface is an identifier assigned to a given pointer

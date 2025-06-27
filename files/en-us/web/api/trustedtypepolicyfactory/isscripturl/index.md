@@ -4,9 +4,12 @@ short-title: isScriptURL()
 slug: Web/API/TrustedTypePolicyFactory/isScriptURL
 page-type: web-api-instance-method
 browser-compat: api.TrustedTypePolicyFactory.isScriptURL
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`isScriptURL()`** method of the {{domxref("TrustedTypePolicyFactory")}} interface returns true if it is passed a valid {{domxref("TrustedScriptURL")}} object.
 

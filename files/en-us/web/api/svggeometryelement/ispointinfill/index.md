@@ -4,9 +4,10 @@ short-title: isPointInFill()
 slug: Web/API/SVGGeometryElement/isPointInFill
 page-type: web-api-instance-method
 browser-compat: api.SVGGeometryElement.isPointInFill
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`isPointInFill()`** method of the {{domxref("SVGGeometryElement")}} interface determines whether a given point is within the fill shape of an element. The `point` argument is interpreted as a point in the local coordinate system of the element.
 

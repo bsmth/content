@@ -4,9 +4,10 @@ short-title: Text()
 slug: Web/API/Text/Text
 page-type: web-api-constructor
 browser-compat: api.Text.Text
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM")}}
 
 The **`Text()`** constructor returns a new {{domxref("Text")}} object
 with the optional string given in parameter as its textual content.

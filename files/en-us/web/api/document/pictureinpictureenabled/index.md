@@ -4,9 +4,10 @@ short-title: pictureInPictureEnabled
 slug: Web/API/Document/pictureInPictureEnabled
 page-type: web-api-instance-property
 browser-compat: api.Document.pictureInPictureEnabled
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The read-only
 **`pictureInPictureEnabled`** property of the

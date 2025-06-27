@@ -3,9 +3,10 @@ title: HTMLCollection
 slug: Web/API/HTMLCollection
 page-type: web-api-interface
 browser-compat: api.HTMLCollection
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`HTMLCollection`** interface represents a generic collection (array-like object similar to {{jsxref("Functions/arguments", "arguments")}}) of elements (in document order) and offers methods and properties for selecting from the list.
 

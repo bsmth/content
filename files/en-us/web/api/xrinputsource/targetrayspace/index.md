@@ -4,9 +4,12 @@ short-title: targetRaySpace
 slug: Web/API/XRInputSource/targetRaySpace
 page-type: web-api-instance-property
 browser-compat: api.XRInputSource.targetRaySpace
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRInputSource")}} property
 **`targetRaySpace`** returns an {{domxref("XRSpace")}}

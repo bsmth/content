@@ -4,9 +4,12 @@ short-title: generateKey()
 slug: Web/API/SubtleCrypto/generateKey
 page-type: web-api-instance-method
 browser-compat: api.SubtleCrypto.generateKey
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`generateKey()`** method of the {{domxref("SubtleCrypto")}} interface is used to generate a new key (for symmetric algorithms) or key pair (for public-key algorithms).
 

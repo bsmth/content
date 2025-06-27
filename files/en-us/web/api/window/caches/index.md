@@ -4,9 +4,12 @@ short-title: caches
 slug: Web/API/Window/caches
 page-type: web-api-instance-property
 browser-compat: api.caches
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`caches`** read-only property of the {{domxref("Window")}} interface returns the {{domxref("CacheStorage")}} object associated with the current context.
 This object enables functionality such as storing assets for offline use, and generating custom responses to requests.

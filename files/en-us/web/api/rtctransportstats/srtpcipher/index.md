@@ -4,9 +4,10 @@ short-title: srtpCipher
 slug: Web/API/RTCTransportStats/srtpCipher
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_transport.srtpCipher
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`srtpCipher`** property of the {{domxref("RTCTransportStats")}} dictionary indicates the descriptive name of the protection profile used for the [Secure Real-time Transport Protocol (SRTP)](/en-US/docs/Glossary/RTP) transport.
 

@@ -3,9 +3,10 @@ title: RTCError
 slug: Web/API/RTCError
 page-type: web-api-interface
 browser-compat: api.RTCError
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCError`** interface describes an error which has occurred while handling [WebRTC](/en-US/docs/Web/API/WebRTC_API) operations. It's based upon the standard {{domxref("DOMException")}} interface that describes general DOM errors.
 

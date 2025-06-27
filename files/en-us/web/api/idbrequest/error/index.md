@@ -4,9 +4,12 @@ short-title: error
 slug: Web/API/IDBRequest/error
 page-type: web-api-instance-property
 browser-compat: api.IDBRequest.error
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`error`** read-only property of the
 {{domxref("IDBRequest")}} interface returns the error in the event of an unsuccessful

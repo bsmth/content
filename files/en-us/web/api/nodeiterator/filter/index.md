@@ -4,9 +4,10 @@ short-title: filter
 slug: Web/API/NodeIterator/filter
 page-type: web-api-instance-property
 browser-compat: api.NodeIterator.filter
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeIterator.filter`** read-only property returns a
 `NodeFilter` object, that is an object which implements an

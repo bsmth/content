@@ -4,9 +4,10 @@ short-title: insertData()
 slug: Web/API/CharacterData/insertData
 page-type: web-api-instance-method
 browser-compat: api.CharacterData.insertData
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`insertData()`** method of the {{domxref("CharacterData")}} interface
 inserts the provided data into this `CharacterData` node's current data,

@@ -4,9 +4,10 @@ short-title: ClipboardEvent()
 slug: Web/API/ClipboardEvent/ClipboardEvent
 page-type: web-api-constructor
 browser-compat: api.ClipboardEvent.ClipboardEvent
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
-
-{{APIRef("Clipboard API")}}
 
 The **`ClipboardEvent()`** constructor returns a new {{domxref("ClipboardEvent")}}, representing an event providing information related to modification of the clipboard, that is {{domxref("Element/cut_event", "cut")}}, {{domxref("Element/copy_event", "copy")}}, and {{domxref("Element/paste_event", "paste")}} events.
 

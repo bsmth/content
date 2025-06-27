@@ -4,9 +4,10 @@ short-title: replaceWith()
 slug: Web/API/CharacterData/replaceWith
 page-type: web-api-instance-method
 browser-compat: api.CharacterData.replaceWith
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`replaceWith()`** method of the {{domxref("CharacterData")}} interface
 replaces this node in the children list of its parent

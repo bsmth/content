@@ -4,9 +4,10 @@ short-title: setItem()
 slug: Web/API/Storage/setItem
 page-type: web-api-instance-method
 browser-compat: api.Storage.setItem
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`setItem()`** method of the {{domxref("Storage")}}
 interface, when passed a key name and value, will add that key to the given

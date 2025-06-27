@@ -3,9 +3,10 @@ title: HighlightRegistry
 slug: Web/API/HighlightRegistry
 page-type: web-api-interface
 browser-compat: api.HighlightRegistry
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`HighlightRegistry`** interface of the [CSS Custom Highlight API](/en-US/docs/Web/API/CSS_Custom_Highlight_API) is used to register {{domxref("Highlight")}} objects to be styled using the API.
 It is accessed via {{domxref("CSS.highlights_static", "CSS.highlights")}}.

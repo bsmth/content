@@ -3,9 +3,10 @@ title: HTMLLinkElement
 slug: Web/API/HTMLLinkElement
 page-type: web-api-interface
 browser-compat: api.HTMLLinkElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLLinkElement`** interface represents reference information for external resources and the relationship of those resources to a document and vice versa (corresponds to [`<link>`](/en-US/docs/Web/HTML/Reference/Elements/link) element; not to be confused with [`<a>`](/en-US/docs/Web/HTML/Reference/Elements/a), which is represented by [`HTMLAnchorElement`](/en-US/docs/Web/API/HTMLAnchorElement)). This object inherits all of the properties and methods of the {{domxref("HTMLElement")}} interface.
 

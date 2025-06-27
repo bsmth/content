@@ -4,9 +4,10 @@ short-title: caretPositionFromPoint()
 slug: Web/API/Document/caretPositionFromPoint
 page-type: web-api-instance-method
 browser-compat: api.Document.caretPositionFromPoint
+sidebar:
+  - apiref:
+      - CSSOM View
 ---
-
-{{APIRef("CSSOM View")}}
 
 The **`caretPositionFromPoint()`** method of the {{domxref("Document")}} interface returns a {{domxref('CaretPosition')}} object, containing the DOM node, along with the caret and caret's character offset within that node.
 

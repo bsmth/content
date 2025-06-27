@@ -4,9 +4,10 @@ short-title: size
 slug: Web/API/RTCStatsReport/size
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.size
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`size`** read-only property of the {{domxref("RTCStatsReport")}} interface returns the number of items in the current report.
 

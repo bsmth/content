@@ -4,9 +4,12 @@ short-title: waiting
 slug: Web/API/ServiceWorkerRegistration/waiting
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerRegistration.waiting
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`waiting`** read-only property of the
 {{domxref("ServiceWorkerRegistration")}} interface returns a service worker whose

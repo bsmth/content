@@ -4,9 +4,8 @@ short-title: scrollBy()
 slug: Web/API/Element/scrollBy
 page-type: web-api-instance-method
 browser-compat: api.Element.scrollBy
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`scrollBy()`** method of the {{domxref("Element")}}
 interface scrolls an element by the given amount.

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.Event.originalTarget
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Non-standard_header}}{{AvailableInWorkers}}
+{{Non-standard_header}}{{AvailableInWorkers}}
 
 The read-only **`originalTarget`** property of the {{domxref("Event")}} interface returns the original target of the event before any retargetings. Unlike {{domxref("Event.explicitOriginalTarget")}} it can also be native anonymous content.
 

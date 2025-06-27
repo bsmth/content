@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Sanitizer.setComments
+sidebar:
+  - apiref:
+      - HTML Sanitizer API
 ---
 
-{{APIRef("HTML Sanitizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`setComments()`** method of the {{domxref("Sanitizer")}} interface sets whether comments will be allowed or removed by the sanitizer.
 

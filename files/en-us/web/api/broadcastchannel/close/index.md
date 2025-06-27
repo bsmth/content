@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/BroadcastChannel/close
 page-type: web-api-instance-method
 browser-compat: api.BroadcastChannel.close
+sidebar:
+  - apiref:
+      - BroadCastChannel API
 ---
 
-{{APIRef("BroadCastChannel API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`close()`** method of the {{domxref("BroadcastChannel")}} interface terminates the connection to
 the underlying channel, allowing the object to be garbage collected.

@@ -4,9 +4,12 @@ short-title: write()
 slug: Web/API/Clipboard/write
 page-type: web-api-instance-method
 browser-compat: api.Clipboard.write
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}} {{securecontext_header}}
+{{securecontext_header}}
 
 The **`write()`** method of the {{domxref("Clipboard")}} interface writes arbitrary {{domxref("ClipboardItem")}} data such as images and text to the clipboard, fulfilling the returned {{jsxref("Promise")}} on completion.
 This can be used to implement cut and copy functionality.

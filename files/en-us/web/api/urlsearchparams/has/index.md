@@ -4,9 +4,12 @@ short-title: has()
 slug: Web/API/URLSearchParams/has
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.has
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`has()`** method of the {{domxref("URLSearchParams")}} interface returns a boolean value that indicates whether the specified parameter is in the search parameters.
 

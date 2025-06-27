@@ -3,9 +3,10 @@ title: SVGNumber
 slug: Web/API/SVGNumber
 page-type: web-api-interface
 browser-compat: api.SVGNumber
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGNumber`** interface corresponds to the {{cssxref("&lt;number&gt;")}} basic data type.
 

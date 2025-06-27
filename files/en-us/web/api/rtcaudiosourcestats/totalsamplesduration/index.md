@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_media-source.totalSamplesDuration
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`totalSamplesDuration`** property of the {{domxref("RTCAudioSourceStats")}} dictionary represents the combined duration of all samples produced by the media source over the lifetime of this stats object, in seconds.
 It does not include samples dropped before reaching this media source. <!-- Dropped samples in `droppedSamplesDuration`; not implemented -->

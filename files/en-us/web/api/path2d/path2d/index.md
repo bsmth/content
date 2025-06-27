@@ -4,9 +4,12 @@ short-title: Path2D()
 slug: Web/API/Path2D/Path2D
 page-type: web-api-constructor
 browser-compat: api.Path2D.Path2D
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Path2D()`** constructor returns a newly instantiated
 `Path2D` object, optionally with another path as an argument (creates a

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.PresentationReceiver
+sidebar:
+  - apiref:
+      - Presentation API
 ---
 
-{{securecontext_header}}{{SeeCompatTable}}{{APIRef("Presentation API")}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`PresentationReceiver`** interface of the [Presentation API](/en-US/docs/Web/API/Presentation_API) provides a means for a receiving browsing context to access controlling browsing contexts and communicate with them.
 

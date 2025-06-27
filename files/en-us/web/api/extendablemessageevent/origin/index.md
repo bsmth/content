@@ -4,9 +4,10 @@ short-title: origin
 slug: Web/API/ExtendableMessageEvent/origin
 page-type: web-api-instance-property
 browser-compat: api.ExtendableMessageEvent.origin
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`origin`** read-only property of the
 {{domxref("ExtendableMessageEvent")}} interface returns the origin of the

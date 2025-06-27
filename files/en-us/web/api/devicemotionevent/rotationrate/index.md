@@ -4,9 +4,12 @@ short-title: rotationRate
 slug: Web/API/DeviceMotionEvent/rotationRate
 page-type: web-api-instance-property
 browser-compat: api.DeviceMotionEvent.rotationRate
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`rotationRate`** read-only property of the {{domxref("DeviceMotionEvent")}} interface returns the rate at which the device is rotating around each of its axes in degrees per
 second.

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.bgColor
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The deprecated `bgColor` property gets or sets the background color of the
 current document.

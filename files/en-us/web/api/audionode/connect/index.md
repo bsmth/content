@@ -4,9 +4,10 @@ short-title: connect()
 slug: Web/API/AudioNode/connect
 page-type: web-api-instance-method
 browser-compat: api.AudioNode.connect
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `connect()` method of the {{ domxref("AudioNode") }} interface lets
 you connect one of the node's outputs to a target, which may be either another

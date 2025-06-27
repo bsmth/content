@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/SVGTransform/type
 page-type: web-api-instance-property
 browser-compat: api.SVGTransform.type
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`type`** read-only property of the {{domxref("SVGTransform")}} interface represents the `type` of transformation applied, specified by one of the `SVG_TRANSFORM_*` constants defined on this interface.
 

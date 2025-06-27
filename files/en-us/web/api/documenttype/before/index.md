@@ -4,9 +4,10 @@ short-title: before()
 slug: Web/API/DocumentType/before
 page-type: web-api-instance-method
 browser-compat: api.DocumentType.before
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`DocumentType.before()`** method inserts a set of
 {{domxref("Node")}} objects or strings in the children list of the

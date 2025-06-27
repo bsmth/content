@@ -4,9 +4,10 @@ short-title: href
 slug: Web/API/SVGTextPathElement/href
 page-type: web-api-instance-property
 browser-compat: api.SVGTextPathElement.href
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`href`** read-only property of the {{domxref("SVGTextPathElement")}} interface reflects the {{SVGAttr("href")}} attribute (or the deprecated {{SVGAttr("xlink:href")}} attribute) of the given {{SVGElement("textPath")}} element.
 

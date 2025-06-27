@@ -4,9 +4,8 @@ short-title: toolbar
 slug: Web/API/Window/toolbar
 page-type: web-api-instance-property
 browser-compat: api.Window.toolbar
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 Returns the `toolbar` object.
 

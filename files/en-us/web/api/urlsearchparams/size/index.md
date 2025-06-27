@@ -4,9 +4,12 @@ short-title: size
 slug: Web/API/URLSearchParams/size
 page-type: web-api-instance-property
 browser-compat: api.URLSearchParams.size
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`size`** read-only property of the {{domxref("URLSearchParams")}} interface indicates the total number of search parameter entries.
 

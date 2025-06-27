@@ -4,9 +4,10 @@ short-title: takePhoto()
 slug: Web/API/ImageCapture/takePhoto
 page-type: web-api-instance-method
 browser-compat: api.ImageCapture.takePhoto
+sidebar:
+  - apiref:
+      - Image Capture API
 ---
-
-{{APIRef("Image Capture API")}}
 
 The **`takePhoto()`** method of the
 {{domxref("ImageCapture")}} interface takes a single exposure using the video capture

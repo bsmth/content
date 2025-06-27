@@ -4,9 +4,10 @@ short-title: before()
 slug: Web/API/CharacterData/before
 page-type: web-api-instance-method
 browser-compat: api.CharacterData.before
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`before()`** method of the {{domxref("CharacterData")}} interface
 inserts a set of {{domxref("Node")}} objects and strings

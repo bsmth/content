@@ -4,9 +4,10 @@ short-title: has()
 slug: Web/API/StylePropertyMapReadOnly/has
 page-type: web-api-instance-method
 browser-compat: api.StylePropertyMapReadOnly.has
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`has()`** method of the
 {{domxref("StylePropertyMapReadOnly")}} interface indicates whether the specified

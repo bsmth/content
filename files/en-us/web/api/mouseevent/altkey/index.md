@@ -4,9 +4,10 @@ short-title: altKey
 slug: Web/API/MouseEvent/altKey
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.altKey
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`MouseEvent.altKey`** read-only property is a boolean value that indicates whether the <kbd>alt</kbd> key was pressed or not when a given mouse event occurs.
 

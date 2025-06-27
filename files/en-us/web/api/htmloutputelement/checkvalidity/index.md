@@ -4,9 +4,10 @@ short-title: checkValidity()
 slug: Web/API/HTMLOutputElement/checkValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLOutputElement.checkValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`checkValidity()`** method of the {{domxref("HTMLOutputElement")}} interface checks if the element is valid, but always returns true because {{HTMLElement("output")}} elements are never candidates for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation).
 

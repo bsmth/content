@@ -4,9 +4,10 @@ short-title: insertRow()
 slug: Web/API/HTMLTableSectionElement/insertRow
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableSectionElement.insertRow
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`insertRow()`** method of the {{domxref("HTMLTableSectionElement")}} interface inserts a new row
 ({{HtmlElement("tr")}}) in the given table sectioning element ({{HTMLElement("thead")}}, {{HTMLElement("tfoot")}}, or

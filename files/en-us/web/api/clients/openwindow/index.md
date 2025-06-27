@@ -4,9 +4,10 @@ short-title: openWindow()
 slug: Web/API/Clients/openWindow
 page-type: web-api-instance-method
 browser-compat: api.Clients.openWindow
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`openWindow()`** method of the {{domxref("Clients")}}
 interface creates a new top level browsing context and loads a given URL. If the calling

@@ -6,9 +6,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.HTMLSelectedContentElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{SeeCompatTable}}{{non-standard_header}}
+{{SeeCompatTable}}{{non-standard_header}}
 
 The **`HTMLSelectedContentElement`** interface represents a {{HTMLElement("selectedcontent")}} element in the [DOM](/en-US/docs/Web/API/Document_Object_Model).
 

@@ -4,9 +4,10 @@ short-title: appendData()
 slug: Web/API/CharacterData/appendData
 page-type: web-api-instance-method
 browser-compat: api.CharacterData.appendData
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`appendData()`** method of the {{domxref("CharacterData")}} interface
 adds the provided data to the end of the node's current data.

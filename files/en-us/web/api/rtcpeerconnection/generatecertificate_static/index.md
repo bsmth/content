@@ -4,9 +4,10 @@ short-title: generateCertificate()
 slug: Web/API/RTCPeerConnection/generateCertificate_static
 page-type: web-api-static-method
 browser-compat: api.RTCPeerConnection.generateCertificate_static
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`generateCertificate()`** static function of the {{domxref("RTCPeerConnection")}} interface creates an X.509 certificate and corresponding private key, returning a promise that resolves with the new {{domxref("RTCCertificate")}} once it's generated.
 

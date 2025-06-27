@@ -4,9 +4,10 @@ short-title: remoteTimestamp
 slug: Web/API/RTCRemoteOutboundRtpStreamStats/remoteTimestamp
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_remote-outbound-rtp.remoteTimestamp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCRemoteOutboundRtpStreamStats")}} property **`remoteTimestamp`** indicates the timestamp on the remote peer at which these statistics were sent.
 This differs from `timestamp`, which indicates the time at which the statistics were generated or received locally.

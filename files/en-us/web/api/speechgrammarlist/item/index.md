@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.SpeechGrammarList.item
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
 
-{{APIRef("Web Speech API")}}{{ SeeCompatTable() }}
+{{ SeeCompatTable() }}
 
 The **`item`** getter of the {{domxref("SpeechGrammarList")}}
 interface is a standard getter — it allows individual {{domxref("SpeechGrammar")}}

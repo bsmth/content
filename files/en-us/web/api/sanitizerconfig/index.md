@@ -7,9 +7,12 @@ status:
 browser-compat:
   - api.Sanitizer.get
   - api.Sanitizer.Sanitizer
+sidebar:
+  - apiref:
+      - HTML Sanitizer API
 ---
 
-{{APIRef("HTML Sanitizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`SanitizerConfig`** dictionary of the [HTML Sanitizer API](/en-US/docs/Web/API/HTML_Sanitizer_API) represents a sanitizer configuration object.
 The configuration specifies what elements, attributes and comments are allowed or should be removed when inserting strings of HTML into an {{domxref("Element")}} or {{domxref("ShadowRoot")}}, or when parsing an HTML string into a {{domxref("Document")}}.

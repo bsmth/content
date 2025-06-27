@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.RTCStatsReport.type_candidate-pair.priority
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{deprecated_header}}{{non-standard_header}}
+{{deprecated_header}}{{non-standard_header}}
 
 The **`priority`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary reports the priority of the candidate pair as an integer value.
 

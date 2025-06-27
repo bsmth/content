@@ -4,9 +4,8 @@ short-title: stop()
 slug: Web/API/Window/stop
 page-type: web-api-instance-method
 browser-compat: api.Window.stop
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`window.stop()`** stops further resource loading in the current
 browsing context, equivalent to the stop button in the browser.

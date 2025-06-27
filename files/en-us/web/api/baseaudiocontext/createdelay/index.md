@@ -4,9 +4,10 @@ short-title: createDelay()
 slug: Web/API/BaseAudioContext/createDelay
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createDelay
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `createDelay()` method of the
 {{domxref("BaseAudioContext")}} Interface is used to create a {{domxref("DelayNode")}},

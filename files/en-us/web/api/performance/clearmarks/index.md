@@ -4,9 +4,12 @@ short-title: clearMarks()
 slug: Web/API/Performance/clearMarks
 page-type: web-api-instance-method
 browser-compat: api.Performance.clearMarks
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`clearMarks()`** method removes all or specific {{domxref("PerformanceMark")}} objects from the browser's performance timeline.
 

@@ -4,9 +4,10 @@ short-title: namedItem()
 slug: Web/API/HTMLSelectElement/namedItem
 page-type: web-api-instance-method
 browser-compat: api.HTMLSelectElement.namedItem
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLSelectElement.namedItem()`** method returns the
 {{domxref("HTMLOptionElement")}} corresponding to the {{domxref("HTMLOptionElement")}}

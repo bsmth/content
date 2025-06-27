@@ -4,9 +4,10 @@ short-title: getLocalCandidates()
 slug: Web/API/RTCIceTransport/getLocalCandidates
 page-type: web-api-instance-method
 browser-compat: api.RTCIceTransport.getLocalCandidates
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getLocalCandidates()`** method of the {{domxref("RTCIceTransport")}} interface returns an array of {{domxref("RTCIceCandidate")}} objects, one for each of the candidates that have been gathered by the local device during the current {{Glossary("ICE")}} agent session.
 

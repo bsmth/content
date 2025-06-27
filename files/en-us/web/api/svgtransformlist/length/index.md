@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/SVGTransformList/length
 page-type: web-api-instance-property
 browser-compat: api.SVGTransformList.length
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`length`** read-only property of the {{domxref("SVGTransformList")}} interface represents the number of items in the list.
 

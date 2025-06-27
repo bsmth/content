@@ -4,9 +4,10 @@ short-title: getFrequencyResponse()
 slug: Web/API/IIRFilterNode/getFrequencyResponse
 page-type: web-api-instance-method
 browser-compat: api.IIRFilterNode.getFrequencyResponse
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `getFrequencyResponse()` method of the {{ domxref("IIRFilterNode") }}
 interface takes the current filtering algorithm's settings and calculates the

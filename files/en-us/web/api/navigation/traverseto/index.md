@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Navigation.traverseTo
+sidebar:
+  - apiref:
+      - Navigation API
 ---
 
-{{APIRef("Navigation API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`traverseTo()`** method of the {{domxref("Navigation")}} interface navigates to the {{domxref("NavigationHistoryEntry")}} identified by the given {{domxref("NavigationHistoryEntry.key", "key")}}.
 

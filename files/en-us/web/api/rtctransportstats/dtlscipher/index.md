@@ -4,9 +4,10 @@ short-title: dtlsCipher
 slug: Web/API/RTCTransportStats/dtlsCipher
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_transport.dtlsCipher
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`dtlsCipher`** property of the {{domxref("RTCTransportStats")}} dictionary is a string that indicates the descriptive name of the cipher suite used for the DTLS transport.
 

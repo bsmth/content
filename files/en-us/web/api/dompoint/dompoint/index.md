@@ -4,9 +4,12 @@ short-title: DOMPoint()
 slug: Web/API/DOMPoint/DOMPoint
 page-type: web-api-constructor
 browser-compat: api.DOMPoint.DOMPoint
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMPoint()`** constructor
 creates and returns a new {{domxref("DOMPoint")}} object, given the values for some or

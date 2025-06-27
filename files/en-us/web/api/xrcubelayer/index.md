@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.XRCubeLayer
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{securecontext_header}}{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`XRCubeLayer`** interface of the [WebXR Device API](/en-US/docs/Web/API/WebXR_Device_API) is a layer that renders directly from a [cubemap](https://en.wikipedia.org/wiki/Cube_mapping) and projects it onto the inside faces of a cube.
 

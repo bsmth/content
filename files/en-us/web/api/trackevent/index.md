@@ -3,9 +3,10 @@ title: TrackEvent
 slug: Web/API/TrackEvent
 page-type: web-api-interface
 browser-compat: api.TrackEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`TrackEvent`** interface of the [HTML DOM API](/en-US/docs/Web/API/HTML_DOM_API) is used for events which represent changes to a set of available tracks on an HTML media element; these events are `addtrack` and `removetrack`.
 

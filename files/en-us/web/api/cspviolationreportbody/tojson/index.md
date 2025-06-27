@@ -4,9 +4,10 @@ short-title: toJSON()
 slug: Web/API/CSPViolationReportBody/toJSON
 page-type: web-api-instance-method
 browser-compat: api.CSPViolationReportBody.toJSON
+sidebar:
+  - apiref:
+      - Reporting API
 ---
-
-{{APIRef("Reporting API")}}
 
 The **`toJSON()`** method of the {{domxref("CSPViolationReportBody")}} interface is a _serializer_, which returns a JSON representation of the `CSPViolationReportBody` object.
 

@@ -4,9 +4,10 @@ short-title: createQueryEXT()
 slug: Web/API/EXT_disjoint_timer_query/createQueryEXT
 page-type: webgl-extension-method
 browser-compat: api.EXT_disjoint_timer_query.createQueryEXT
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`EXT_disjoint_timer_query.createQueryEXT()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) creates and initializes

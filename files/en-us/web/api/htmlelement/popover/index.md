@@ -4,9 +4,10 @@ short-title: popover
 slug: Web/API/HTMLElement/popover
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.popover
+sidebar:
+  - apiref:
+      - Popover API
 ---
-
-{{APIRef("Popover API")}}
 
 The **`popover`** property of the {{domxref("HTMLElement")}} interface gets and sets an element's popover state via JavaScript (`"auto"`, `"hint"`, or `"manual"`), and can be used for feature detection.
 

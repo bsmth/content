@@ -3,9 +3,10 @@ title: HTMLUListElement
 slug: Web/API/HTMLUListElement
 page-type: web-api-interface
 browser-compat: api.HTMLUListElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLUListElement`** interface provides special properties (beyond those defined on the regular {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating unordered list ({{HTMLElement("ul")}}) elements.
 

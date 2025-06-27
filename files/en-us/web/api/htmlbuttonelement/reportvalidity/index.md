@@ -4,9 +4,10 @@ short-title: reportValidity()
 slug: Web/API/HTMLButtonElement/reportValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLButtonElement.reportValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`reportValidity()`** method of the {{domxref("HTMLButtonElement")}} interface performs the same validity checking steps as the {{domxref("HTMLButtonElement.checkValidity", "checkValidity()")}} method. In addition, if the {{domxref("HTMLElement/invalid_event", "invalid")}} event is not canceled, the browser displays the problem to the user.
 

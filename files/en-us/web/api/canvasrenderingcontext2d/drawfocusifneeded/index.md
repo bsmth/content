@@ -4,9 +4,8 @@ short-title: drawFocusIfNeeded()
 slug: Web/API/CanvasRenderingContext2D/drawFocusIfNeeded
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.drawFocusIfNeeded
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.drawFocusIfNeeded()`**

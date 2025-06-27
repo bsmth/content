@@ -4,9 +4,12 @@ short-title: disableVertexAttribArray()
 slug: Web/API/WebGLRenderingContext/disableVertexAttribArray
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.disableVertexAttribArray
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.disableVertexAttribArray()`**
 method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) turns the generic

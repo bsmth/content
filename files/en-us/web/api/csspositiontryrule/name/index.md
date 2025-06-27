@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/CSSPositionTryRule/name
 page-type: web-api-instance-property
 browser-compat: api.CSSPositionTryRule.name
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM") }}
 
 The **`name`** read-only property of the {{domxref("CSSPositionTryRule")}} interface represents the name of the position try fallback option specified by the `@position-try` at-rule's {{cssxref("dashed-ident")}}.
 

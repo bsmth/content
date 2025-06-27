@@ -4,9 +4,10 @@ short-title: unloadEventStart
 slug: Web/API/PerformanceNavigationTiming/unloadEventStart
 page-type: web-api-instance-property
 browser-compat: api.PerformanceNavigationTiming.unloadEventStart
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`unloadEventStart`** read-only property returns a {{domxref("DOMHighResTimeStamp")}} representing the time immediately before the current document's [`unload`](/en-US/docs/Web/API/Window/unload_event) event handler starts.
 

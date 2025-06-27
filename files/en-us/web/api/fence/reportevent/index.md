@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Fence.reportEvent
+sidebar:
+  - apiref:
+      - Fenced Frame API
 ---
 
-{{SeeCompatTable}}{{APIRef("Fenced Frame API")}}
+{{SeeCompatTable}}
 
 The **`reportEvent()`** method of the
 {{domxref("Fence")}} interface triggers the submission of report data via a [beacon](/en-US/docs/Web/API/Beacon_API) to one or more specific URLs registered via the {{domxref("InterestGroupReportingScriptRunnerGlobalScope.registerAdBeacon", "registerAdBeacon()")}} method of the [Protected Audience API](https://privacysandbox.google.com/private-advertising/protected-audience), for the purpose of collecting ad auction results.

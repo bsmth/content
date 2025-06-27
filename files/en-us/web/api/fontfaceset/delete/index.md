@@ -4,9 +4,12 @@ short-title: delete()
 slug: Web/API/FontFaceSet/delete
 page-type: web-api-instance-method
 browser-compat: api.FontFaceSet.delete
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`delete()`** method of the {{domxref("FontFaceSet")}} interface removes a font from the set.
 

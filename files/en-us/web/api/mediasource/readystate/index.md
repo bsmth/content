@@ -4,9 +4,10 @@ short-title: readyState
 slug: Web/API/MediaSource/readyState
 page-type: web-api-instance-property
 browser-compat: api.MediaSource.readyState
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`readyState`** read-only property of the
 {{domxref("MediaSource")}} interface returns an enum representing the state of the

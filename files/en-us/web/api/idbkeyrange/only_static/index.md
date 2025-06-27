@@ -4,9 +4,12 @@ short-title: only()
 slug: Web/API/IDBKeyRange/only_static
 page-type: web-api-static-method
 browser-compat: api.IDBKeyRange.only_static
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`only()`** static method of the {{domxref("IDBKeyRange")}}
 interface creates a new key range containing a single value.

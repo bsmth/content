@@ -4,9 +4,12 @@ short-title: includes()
 slug: Web/API/IDBKeyRange/includes
 page-type: web-api-instance-method
 browser-compat: api.IDBKeyRange.includes
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `includes()` method of the {{domxref("IDBKeyRange")}}
 interface returns a boolean indicating whether a specified key is inside the key

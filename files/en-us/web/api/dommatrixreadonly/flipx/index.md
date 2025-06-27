@@ -4,9 +4,12 @@ short-title: flipX()
 slug: Web/API/DOMMatrixReadOnly/flipX
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.flipX
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`flipX()`** method of the {{domxref("DOMMatrixReadOnly")}} interface creates a new matrix being the result of the original matrix flipped about the x-axis. This is equivalent to multiplying the matrix by `DOMMatrix(-1, 0, 0, 1, 0, 0)`. The original matrix is not modified.
 

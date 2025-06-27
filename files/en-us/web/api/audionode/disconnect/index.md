@@ -4,9 +4,10 @@ short-title: disconnect()
 slug: Web/API/AudioNode/disconnect
 page-type: web-api-instance-method
 browser-compat: api.AudioNode.disconnect
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`disconnect()`** method of the {{ domxref("AudioNode") }} interface lets you disconnect one or more nodes from the node on which the method is called.
 

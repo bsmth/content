@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCSessionDescription/type
 page-type: web-api-instance-property
 browser-compat: api.RTCSessionDescription.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The property **`RTCSessionDescription.type`** is a read-only
 string value which describes the description's type.

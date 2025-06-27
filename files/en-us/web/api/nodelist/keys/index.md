@@ -4,9 +4,10 @@ short-title: keys()
 slug: Web/API/NodeList/keys
 page-type: web-api-instance-method
 browser-compat: api.NodeList.keys
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeList.keys()`** method returns an
 {{jsxref("Iteration_protocols",'iterator')}} allowing to go through all keys contained

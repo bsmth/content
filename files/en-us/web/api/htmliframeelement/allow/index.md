@@ -4,9 +4,10 @@ short-title: allow
 slug: Web/API/HTMLIFrameElement/allow
 page-type: web-api-instance-property
 browser-compat: api.HTMLIFrameElement.allow
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`allow`** property of the {{domxref("HTMLIFrameElement")}} interface indicates the [Permissions Policy](/en-US/docs/Web/HTTP/Guides/Permissions_Policy) specified for this `<iframe>` element. The policy defines what features are available to the `<iframe>` element (for example, access to the `microphone`, `camera`, `battery`, `web-share`, etc.) based on the origin of the request.
 

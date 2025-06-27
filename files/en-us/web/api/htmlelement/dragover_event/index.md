@@ -4,9 +4,8 @@ short-title: dragover
 slug: Web/API/HTMLElement/dragover_event
 page-type: web-api-event
 browser-compat: api.HTMLElement.dragover_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `dragover` event is fired when an element or text selection is being dragged over a valid drop target (every few hundred milliseconds).
 

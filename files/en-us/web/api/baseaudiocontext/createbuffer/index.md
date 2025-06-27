@@ -4,9 +4,10 @@ short-title: createBuffer()
 slug: Web/API/BaseAudioContext/createBuffer
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createBuffer
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createBuffer()` method of the {{ domxref("BaseAudioContext") }}
 Interface is used to create a new, empty {{ domxref("AudioBuffer") }} object, which

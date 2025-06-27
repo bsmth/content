@@ -4,9 +4,10 @@ short-title: removeCue()
 slug: Web/API/TextTrack/removeCue
 page-type: web-api-instance-method
 browser-compat: api.TextTrack.removeCue
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`removeCue()`** method of the {{domxref("TextTrack")}} interface removes a cue from the list of cues.
 

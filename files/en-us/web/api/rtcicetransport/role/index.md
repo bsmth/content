@@ -4,9 +4,10 @@ short-title: role
 slug: Web/API/RTCIceTransport/role
 page-type: web-api-instance-property
 browser-compat: api.RTCIceTransport.role
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`role`** read-only property of the {{domxref("RTCIceTransport")}} interface indicates which {{Glossary("ICE")}} role the transport is fulfilling: that of the controlling agent, or the agent that is being controlled.
 

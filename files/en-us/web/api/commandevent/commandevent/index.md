@@ -4,9 +4,10 @@ short-title: CommandEvent()
 slug: Web/API/CommandEvent/CommandEvent
 page-type: web-api-constructor
 browser-compat: api.CommandEvent.CommandEvent
+sidebar:
+  - apiref:
+      - Invoker Commands API
 ---
-
-{{APIRef("Invoker Commands API")}}
 
 The **`CommandEvent()`** constructor creates a new {{domxref("CommandEvent")}} object.
 

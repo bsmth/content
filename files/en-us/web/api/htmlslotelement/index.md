@@ -3,9 +3,10 @@ title: HTMLSlotElement
 slug: Web/API/HTMLSlotElement
 page-type: web-api-interface
 browser-compat: api.HTMLSlotElement
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef('Web Components')}}
 
 The **`HTMLSlotElement`** interface of the [Shadow DOM API](/en-US/docs/Web/API/Web_components/Using_shadow_DOM) enables access to the name and assigned nodes of an HTML {{HTMLElement("slot")}} element.
 

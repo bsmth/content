@@ -4,9 +4,12 @@ short-title: fontfaces
 slug: Web/API/FontFaceSetLoadEvent/fontfaces
 page-type: web-api-instance-property
 browser-compat: api.FontFaceSetLoadEvent.fontfaces
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`fontfaces`** read-only property of the
 {{domxref("FontFaceSetLoadEvent")}} interface returns an array of

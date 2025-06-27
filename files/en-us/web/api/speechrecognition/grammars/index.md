@@ -4,9 +4,10 @@ short-title: grammars
 slug: Web/API/SpeechRecognition/grammars
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognition.grammars
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`grammars`** property of the
 {{domxref("SpeechRecognition")}} interface returns and sets a collection of

@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/NodeList/item
 page-type: web-api-instance-method
 browser-compat: api.NodeList.item
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 Returns a node from a [`NodeList`](/en-US/docs/Web/API/NodeList) by index. This method
 doesn't throw exceptions as long as you provide arguments. A value of `null`

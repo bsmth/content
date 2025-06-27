@@ -4,9 +4,12 @@ short-title: getAll()
 slug: Web/API/URLSearchParams/getAll
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.getAll
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`getAll()`** method of the {{domxref("URLSearchParams")}}
 interface returns all the values associated with a given search parameter as an array.

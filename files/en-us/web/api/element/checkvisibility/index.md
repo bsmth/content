@@ -4,9 +4,10 @@ short-title: checkVisibility()
 slug: Web/API/Element/checkVisibility
 page-type: web-api-instance-method
 browser-compat: api.Element.checkVisibility
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`checkVisibility()`** method of the {{domxref("Element")}} interface checks whether the element is visible.
 

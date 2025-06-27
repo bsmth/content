@@ -4,9 +4,10 @@ short-title: listener
 slug: Web/API/BaseAudioContext/listener
 page-type: web-api-instance-property
 browser-compat: api.BaseAudioContext.listener
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `listener` property of the {{ domxref("BaseAudioContext") }} interface
 returns an {{ domxref("AudioListener") }} object that can then be used for

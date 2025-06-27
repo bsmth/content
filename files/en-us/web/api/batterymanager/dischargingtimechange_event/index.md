@@ -4,9 +4,12 @@ short-title: dischargingtimechange
 slug: Web/API/BatteryManager/dischargingtimechange_event
 page-type: web-api-event
 browser-compat: api.BatteryManager.dischargingtimechange_event
+sidebar:
+  - apiref:
+      - Battery API
 ---
 
-{{ApiRef("Battery API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`dischargingtimechange`** event of the {{domxref("BatteryManager")}} interface is fired when the battery {{domxref("BatteryManager.dischargingTime", "dischargingTime")}} property is updated.
 

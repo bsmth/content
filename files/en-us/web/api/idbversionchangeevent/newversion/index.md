@@ -4,9 +4,12 @@ short-title: newVersion
 slug: Web/API/IDBVersionChangeEvent/newVersion
 page-type: web-api-instance-property
 browser-compat: api.IDBVersionChangeEvent.newVersion
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`newVersion`** read-only property of the
 {{domxref("IDBVersionChangeEvent")}} interface returns the new version number of the

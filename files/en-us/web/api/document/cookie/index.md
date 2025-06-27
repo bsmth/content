@@ -4,9 +4,10 @@ short-title: cookie
 slug: Web/API/Document/cookie
 page-type: web-api-instance-property
 browser-compat: api.Document.cookie
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("Document")}} property `cookie` lets you read and write [cookies](/en-US/docs/Web/HTTP/Guides/Cookies) associated with the document.
 It serves as a getter and setter for the actual values of the cookies.

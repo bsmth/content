@@ -4,9 +4,10 @@ short-title: bufferedAmount
 slug: Web/API/RTCDataChannel/bufferedAmount
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.bufferedAmount
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only `RTCDataChannel` property
 **`bufferedAmount`** returns the number of bytes of data

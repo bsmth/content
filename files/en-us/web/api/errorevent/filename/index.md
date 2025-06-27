@@ -4,9 +4,12 @@ short-title: filename
 slug: Web/API/ErrorEvent/filename
 page-type: web-api-instance-property
 browser-compat: api.ErrorEvent.filename
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`filename`** read-only property of the {{domxref("ErrorEvent")}} interface returns a string containing the name of the script file in which the error occurred.
 

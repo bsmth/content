@@ -4,9 +4,12 @@ short-title: label
 slug: Web/API/MediaDeviceInfo/label
 page-type: web-api-instance-property
 browser-compat: api.MediaDeviceInfo.label
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`label`** read-only
 property of the {{domxref("MediaDeviceInfo")}} interface returns a

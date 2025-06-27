@@ -4,9 +4,10 @@ short-title: retransmittedBytesSent
 slug: Web/API/RTCOutboundRtpStreamStats/retransmittedBytesSent
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.retransmittedBytesSent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`retransmittedBytesSent`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary represents the total number of payload bytes retransmitted for the source associated with this stream.
 

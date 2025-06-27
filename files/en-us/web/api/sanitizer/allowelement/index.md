@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Sanitizer.allowElement
+sidebar:
+  - apiref:
+      - HTML Sanitizer API
 ---
 
-{{APIRef("HTML Sanitizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`allowElement()`** method of the {{domxref("Sanitizer")}} interface sets that the specified element is allowed in the output when the sanitizer is used.
 The element can be specified with lists of attributes that are allowed or disallowed on elements of that type.

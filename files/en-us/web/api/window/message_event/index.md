@@ -4,9 +4,8 @@ short-title: message
 slug: Web/API/Window/message_event
 page-type: web-api-event
 browser-compat: api.Window.message_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `message` event is fired on a {{domxref('Window')}} object when the window receives a message, for example from a call to [`Window.postMessage()`](/en-US/docs/Web/API/Window/postMessage) from another browsing context.
 

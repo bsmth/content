@@ -4,9 +4,10 @@ short-title: baseFrequencyY
 slug: Web/API/SVGFETurbulenceElement/baseFrequencyY
 page-type: web-api-instance-property
 browser-compat: api.SVGFETurbulenceElement.baseFrequencyY
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`baseFrequencyY`** read-only property of the {{domxref("SVGFETurbulenceElement")}} interface reflects the Y component of the {{SVGAttr("baseFrequency")}} attribute of the given {{SVGElement("feTurbulence")}} element.
 

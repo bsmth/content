@@ -4,9 +4,10 @@ short-title: r
 slug: Web/API/SVGRadialGradientElement/r
 page-type: web-api-instance-property
 browser-compat: api.SVGRadialGradientElement.r
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`r`** read-only property of the {{domxref("SVGRadialGradientElement")}} interface describes the radius of the radial gradient as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("r")}} attribute on the {{SVGElement("radialGradient")}} element.
 

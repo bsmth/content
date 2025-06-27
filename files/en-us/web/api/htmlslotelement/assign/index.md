@@ -4,9 +4,10 @@ short-title: assign()
 slug: Web/API/HTMLSlotElement/assign
 page-type: web-api-instance-method
 browser-compat: api.HTMLSlotElement.assign
+sidebar:
+  - apiref:
+      - Shadow DOM API
 ---
-
-{{APIRef("Shadow DOM API")}}
 
 The **`assign()`** method of the {{domxref("HTMLSlotElement")}} interface sets the slot's _manually assigned nodes_ to an ordered set of slottables. The manually assigned nodes set is initially empty until nodes are assigned using `assign()`.
 

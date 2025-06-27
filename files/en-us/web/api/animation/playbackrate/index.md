@@ -4,9 +4,10 @@ short-title: playbackRate
 slug: Web/API/Animation/playbackRate
 page-type: web-api-instance-property
 browser-compat: api.Animation.playbackRate
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`Animation.playbackRate`** property of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) returns or sets the playback rate of the animation.
 

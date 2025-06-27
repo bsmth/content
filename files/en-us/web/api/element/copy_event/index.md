@@ -4,9 +4,8 @@ short-title: copy
 slug: Web/API/Element/copy_event
 page-type: web-api-event
 browser-compat: api.Element.copy_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`copy`** event of the [Clipboard API](/en-US/docs/Web/API/Clipboard_API) fires when the user initiates a copy action through the browser's user interface.
 

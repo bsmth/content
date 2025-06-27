@@ -4,9 +4,10 @@ short-title: reportValidity()
 slug: Web/API/HTMLTextAreaElement/reportValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLTextAreaElement.reportValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`reportValidity()`** method of the {{domxref("HTMLTextAreaElement")}} interface performs the same validity checking steps as the {{domxref("HTMLTextAreaElement.checkValidity", "checkValidity()")}} method. In addition, if the {{domxref("HTMLElement/invalid_event", "invalid")}} event is not canceled, the browser displays the problem to the user.
 

@@ -4,9 +4,10 @@ short-title: EXT_color_buffer_float
 slug: Web/API/EXT_color_buffer_float
 page-type: webgl-extension
 browser-compat: api.EXT_color_buffer_float
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`EXT_color_buffer_float`** extension is part of [WebGL](/en-US/docs/Web/API/WebGL_API) and adds the ability to render a variety of floating point formats.
 

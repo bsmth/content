@@ -4,9 +4,12 @@ short-title: height
 slug: Web/API/GPUTexture/height
 page-type: web-api-instance-property
 browser-compat: api.GPUTexture.height
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`height`** read-only property of the
 {{domxref("GPUTexture")}} interface represents the height of the `GPUTexture`.

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.ContactAddress.toJSON
+sidebar:
+  - apiref:
+      - Contact Picker API
 ---
 
-{{securecontext_header}}{{APIRef("Contact Picker API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`toJSON()`** method of the {{domxref("ContactAddress")}} interface is a standard serializer that returns a JSON representation of the `ContactAddress` object's properties.
 

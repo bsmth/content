@@ -4,9 +4,10 @@ short-title: sessionStorage
 slug: Web/API/Window/sessionStorage
 page-type: web-api-instance-property
 browser-compat: api.Window.sessionStorage
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The read-only **`sessionStorage`** property accesses a session {{DOMxRef("Storage")}} object for the current {{glossary("origin")}}. `sessionStorage` is similar to {{DOMxRef("Window.localStorage", "localStorage")}}; the difference is that while `localStorage` is partitioned by origin only, `sessionStorage` is partitioned by both origin and browser tabs (top-level browsing contexts). The data in `sessionStorage` is only kept for the duration of the page session.
 

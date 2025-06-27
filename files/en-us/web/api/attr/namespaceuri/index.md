@@ -4,9 +4,10 @@ short-title: namespaceURI
 slug: Web/API/Attr/namespaceURI
 page-type: web-api-instance-property
 browser-compat: api.Attr.namespaceURI
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`namespaceURI`** property of the {{domxref("Attr")}} interface returns the namespace URI of the attribute,
 or `null` if the element is not in a namespace.

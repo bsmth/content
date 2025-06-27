@@ -4,9 +4,10 @@ short-title: align
 slug: Web/API/SVGPreserveAspectRatio/align
 page-type: web-api-instance-property
 browser-compat: api.SVGPreserveAspectRatio.align
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`align`** read-only property of the {{domxref("SVGPreserveAspectRatio")}} interface reflects the type of the alignment value as specified by one of the `SVG_PRESERVEASPECTRATIO_*` constants defined on this interface.
 

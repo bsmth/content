@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.KeyboardEvent.initKeyboardEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`KeyboardEvent.initKeyboardEvent()`** method initializes
 the attributes of a keyboard event object. This method was introduced in draft of DOM

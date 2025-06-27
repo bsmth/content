@@ -4,9 +4,12 @@ short-title: isTypeSupported()
 slug: Web/API/ImageDecoder/isTypeSupported_static
 page-type: web-api-static-method
 browser-compat: api.ImageDecoder.isTypeSupported_static
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`ImageDecoder.isTypeSupported()`** static method checks if a given [MIME type](/en-US/docs/Web/HTTP/Guides/MIME_types) can be decoded by the user agent.
 

@@ -4,9 +4,12 @@ short-title: stringValue
 slug: Web/API/XPathResult/stringValue
 page-type: web-api-instance-property
 browser-compat: api.XPathResult.stringValue
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
 
-{{APIRef("DOM XPath")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`stringValue`** property of the
 {{domxref("XPathResult")}} interface returns the string value of a result with

@@ -4,9 +4,12 @@ short-title: continuePrimaryKey()
 slug: Web/API/IDBCursor/continuePrimaryKey
 page-type: web-api-instance-method
 browser-compat: api.IDBCursor.continuePrimaryKey
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`continuePrimaryKey()`** method of the
 {{domxref("IDBCursor")}} interface advances the cursor to the item whose key

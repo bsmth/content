@@ -4,9 +4,10 @@ short-title: parseAll()
 slug: Web/API/CSSStyleValue/parseAll_static
 page-type: web-api-static-method
 browser-compat: api.CSSStyleValue.parseAll_static
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`parseAll()`** static method of the {{domxref("CSSStyleValue")}}
 interface sets all occurrences of a specific CSS property to the specified value and

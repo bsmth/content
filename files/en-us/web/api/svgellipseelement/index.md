@@ -3,9 +3,10 @@ title: SVGEllipseElement
 slug: Web/API/SVGEllipseElement
 page-type: web-api-interface
 browser-compat: api.SVGEllipseElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGEllipseElement`** interface provides access to the properties of {{SVGElement("ellipse")}} elements.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.AudioListener.setPosition
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{ APIRef("Web Audio API") }} {{deprecated_header}}
+{{deprecated_header}}
 
 The `setPosition()` method of the {{ domxref("AudioListener") }} Interface defines the position of the listener.
 

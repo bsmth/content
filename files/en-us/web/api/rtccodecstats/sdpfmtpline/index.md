@@ -4,9 +4,10 @@ short-title: sdpFmtpLine
 slug: Web/API/RTCCodecStats/sdpFmtpLine
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_codec.sdpFmtpLine
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`sdpFmtpLine`** property of the {{domxref("RTCCodecStats")}} dictionary is a string containing the format-specific parameters of the codec.
 

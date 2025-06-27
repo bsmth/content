@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.CSSMathSum.CSSMathSum
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
 
-{{APIRef("CSS Typed Object Model API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`CSSMathSum()`** constructor creates a
 new {{domxref("CSSMathSum")}} object which creates a new {{domxref('CSSKeywordValue')}}

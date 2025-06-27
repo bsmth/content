@@ -4,9 +4,10 @@ short-title: protocol
 slug: Web/API/RTCIceCandidate/protocol
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.protocol
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **{{domxref("RTCIceCandidate")}}** interface's read-only **`protocol`** property is a string
 which indicates whether the candidate uses {{Glossary("UDP")}} or {{Glossary("TCP")}} as its transport protocol.

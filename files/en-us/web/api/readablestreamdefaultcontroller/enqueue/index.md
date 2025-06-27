@@ -4,9 +4,12 @@ short-title: enqueue()
 slug: Web/API/ReadableStreamDefaultController/enqueue
 page-type: web-api-instance-method
 browser-compat: api.ReadableStreamDefaultController.enqueue
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`enqueue()`** method of the
 {{domxref("ReadableStreamDefaultController")}} interface enqueues a given [chunk](/en-US/docs/Web/API/Streams_API/Concepts#chunks) in the associated stream.

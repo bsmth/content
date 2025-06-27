@@ -4,9 +4,10 @@ short-title: alt
 slug: Web/API/HTMLImageElement/alt
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.alt
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLImageElement")}} property **`alt`** provides fallback (alternate) text to display when the image specified by the {{HTMLElement("img")}} element is not loaded.
 

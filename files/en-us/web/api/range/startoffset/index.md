@@ -4,9 +4,10 @@ short-title: startOffset
 slug: Web/API/Range/startOffset
 page-type: web-api-instance-property
 browser-compat: api.Range.startOffset
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.startOffset`** read-only property returns a number
 representing where in the `startContainer` the `Range` starts.

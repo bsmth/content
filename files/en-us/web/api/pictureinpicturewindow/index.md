@@ -3,9 +3,10 @@ title: PictureInPictureWindow
 slug: Web/API/PictureInPictureWindow
 page-type: web-api-interface
 browser-compat: api.PictureInPictureWindow
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The **`PictureInPictureWindow`** interface represents an object able to programmatically obtain the **`width`** and **`height`** and **`resize event`** of the floating video window.
 

@@ -4,9 +4,10 @@ short-title: media
 slug: Web/API/StyleSheet/media
 page-type: web-api-instance-property
 browser-compat: api.StyleSheet.media
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`media`** property of the {{domxref("StyleSheet")}} interface specifies the intended destination media for style information. It is a read-only, array-like `MediaList` object and can be removed with `deleteMedium()` and added with `appendMedium()`.
 

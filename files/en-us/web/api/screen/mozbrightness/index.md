@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Screen.mozBrightness
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 Indicates how bright the screen's backlight is, on a scale from 0 (very dim) to 1 (full
 brightness); this value is a double-precision float.

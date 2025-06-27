@@ -3,9 +3,10 @@ title: SVGTransformList
 slug: Web/API/SVGTransformList
 page-type: web-api-interface
 browser-compat: api.SVGTransformList
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGTransformList`** interface defines a list of {{ domxref("SVGTransform") }} objects.
 

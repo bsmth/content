@@ -4,9 +4,10 @@ short-title: crossOrigin
 slug: Web/API/HTMLLinkElement/crossOrigin
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.crossOrigin
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`crossOrigin`** property of the {{domxref("HTMLLinkElement")}} interface specifies the Cross-Origin Resource Sharing ({{Glossary("CORS")}}) setting to use when retrieving the resource.
 

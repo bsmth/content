@@ -4,9 +4,10 @@ short-title: relayProtocol
 slug: Web/API/RTCIceCandidateStats/relayProtocol
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.relayProtocol
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCIceCandidateStats")}} dictionary's
 **`relayProtocol`** property specifies the protocol being used

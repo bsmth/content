@@ -4,9 +4,12 @@ short-title: canvas
 slug: Web/API/GPUCanvasContext/canvas
 page-type: web-api-instance-property
 browser-compat: api.GPUCanvasContext.canvas
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`canvas`** read-only property of the
 {{domxref("GPUCanvasContext")}} interface returns a reference to the canvas that the context was created from.

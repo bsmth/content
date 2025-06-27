@@ -4,9 +4,12 @@ short-title: resultType
 slug: Web/API/XPathResult/resultType
 page-type: web-api-instance-property
 browser-compat: api.XPathResult.resultType
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
 
-{{APIRef("DOM XPath")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`resultType`** property of the
 {{domxref("XPathResult")}} interface represents the type of the result, as defined by

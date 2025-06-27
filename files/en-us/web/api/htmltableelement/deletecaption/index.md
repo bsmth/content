@@ -4,9 +4,10 @@ short-title: deleteCaption()
 slug: Web/API/HTMLTableElement/deleteCaption
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableElement.deleteCaption
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLTableElement.deleteCaption()`** method removes the
 {{HtmlElement("caption")}} element from a given {{HtmlElement("table")}}. If there is no

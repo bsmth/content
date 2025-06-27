@@ -4,9 +4,10 @@ short-title: pushState()
 slug: Web/API/History/pushState
 page-type: web-api-instance-method
 browser-compat: api.History.pushState
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`pushState()`** method of the {{domxref("History")}} interface adds an entry to the browser's
 session history stack.

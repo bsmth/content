@@ -4,9 +4,12 @@ short-title: toJSON()
 slug: Web/API/DOMRectReadOnly/toJSON
 page-type: web-api-instance-method
 browser-compat: api.DOMRectReadOnly.toJSON
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The {{domxref("DOMRectReadOnly")}} method `toJSON()` returns a {{Glossary("JSON")}} representation of the `DOMRectReadOnly` object.
 

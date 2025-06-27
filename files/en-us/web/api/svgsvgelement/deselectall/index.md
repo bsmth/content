@@ -4,9 +4,10 @@ short-title: deselectAll()
 slug: Web/API/SVGSVGElement/deselectAll
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.deselectAll
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `deselectAll()` method of the {{domxref("SVGSVGElement")}} interface unselects any selected objects, including any selections of text strings and type-in bars.
 

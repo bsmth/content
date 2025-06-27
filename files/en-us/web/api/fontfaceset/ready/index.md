@@ -4,9 +4,12 @@ short-title: ready
 slug: Web/API/FontFaceSet/ready
 page-type: web-api-instance-property
 browser-compat: api.FontFaceSet.ready
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `ready` read-only property of the {{domxref("FontFaceSet")}} interface returns a {{jsxref("Promise")}} that resolves to the given {{domxref("FontFaceSet")}}.
 

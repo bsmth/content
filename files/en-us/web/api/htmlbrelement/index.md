@@ -3,9 +3,10 @@ title: HTMLBRElement
 slug: Web/API/HTMLBRElement
 page-type: web-api-interface
 browser-compat: api.HTMLBRElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLBRElement`** interface represents an HTML line break element ({{htmlelement("br")}}). It inherits from {{domxref("HTMLElement")}}.
 

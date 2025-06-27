@@ -3,9 +3,12 @@ title: ServiceWorker
 slug: Web/API/ServiceWorker
 page-type: web-api-interface
 browser-compat: api.ServiceWorker
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{securecontext_header}}{{APIRef("Service Workers API")}}{{AvailableInWorkers}}
+{{securecontext_header}}{{AvailableInWorkers}}
 
 The **`ServiceWorker`** interface of the [Service Worker API](/en-US/docs/Web/API/Service_Worker_API) provides a reference to a service worker. Multiple {{glossary("browsing context", "browsing contexts")}} (e.g., pages, workers, etc.) can be associated with the same service worker, each through a unique `ServiceWorker` object.
 

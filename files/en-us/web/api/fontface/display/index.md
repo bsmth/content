@@ -4,9 +4,12 @@ short-title: display
 slug: Web/API/FontFace/display
 page-type: web-api-instance-property
 browser-compat: api.FontFace.display
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`display`** property of the {{domxref("FontFace")}} interface determines how a font face is displayed based on whether and when it is downloaded and ready to use.
 This property is equivalent to the CSS `font-display` descriptor.

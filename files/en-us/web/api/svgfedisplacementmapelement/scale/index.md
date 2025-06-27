@@ -4,9 +4,10 @@ short-title: scale
 slug: Web/API/SVGFEDisplacementMapElement/scale
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDisplacementMapElement.scale
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`scale`** read-only property of the {{domxref("SVGFEDisplacementMapElement")}} interface reflects the {{SVGAttr("scale")}} attribute of the given {{SVGElement("feDisplacementMap")}} element.
 

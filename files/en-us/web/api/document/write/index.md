@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Document.write
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{ApiRef("DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 > [!WARNING]
 > Use of the `document.write()` method is strongly discouraged.

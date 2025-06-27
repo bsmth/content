@@ -4,9 +4,10 @@ short-title: getLocalParameters()
 slug: Web/API/RTCIceTransport/getLocalParameters
 page-type: web-api-instance-method
 browser-compat: api.RTCIceTransport.getLocalParameters
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getLocalParameters()`** method of the {{domxref("RTCIceTransport")}} interface returns an {{domxref("RTCIceParameters")}} object that provides information uniquely identifying the local peer for the duration of the ICE session.
 

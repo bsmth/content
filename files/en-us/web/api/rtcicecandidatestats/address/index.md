@@ -4,9 +4,10 @@ short-title: address
 slug: Web/API/RTCIceCandidateStats/address
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.address
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`address`** property of the {{domxref("RTCIceCandidateStats")}} dictionary indicates the address of the {{Glossary("ICE")}} candidate.
 While it's preferred that the address be specified as an IPv4 or IPv6 numeric address, a fully-qualified domain name can be used as well.

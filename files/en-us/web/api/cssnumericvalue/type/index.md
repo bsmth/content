@@ -4,9 +4,10 @@ short-title: type()
 slug: Web/API/CSSNumericValue/type
 page-type: web-api-instance-method
 browser-compat: api.CSSNumericValue.type
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`type()`** method of the
 {{domxref("CSSNumericValue")}} interface returns the type of

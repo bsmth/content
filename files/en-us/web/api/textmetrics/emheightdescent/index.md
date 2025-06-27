@@ -4,9 +4,12 @@ short-title: emHeightDescent
 slug: Web/API/TextMetrics/emHeightDescent
 page-type: web-api-instance-property
 browser-compat: api.TextMetrics.emHeightDescent
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only `emHeightDescent` property of the {{domxref("TextMetrics")}} interface returns the distance from the horizontal line indicated by the {{domxref("CanvasRenderingContext2D.textBaseline")}} property to the bottom of the _em_ square in the line box, in CSS pixels.
 

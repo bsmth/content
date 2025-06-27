@@ -4,9 +4,12 @@ short-title: get()
 slug: Web/API/URLSearchParams/get
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.get
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`get()`** method of the {{domxref("URLSearchParams")}}
 interface returns the first value associated to the given search parameter.

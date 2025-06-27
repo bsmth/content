@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.BluetoothCharacteristicProperties.notify
+sidebar:
+  - apiref:
+      -
 ---
 
-{{securecontext_header}}{{APIRef("")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`notify`** read-only property of the
 {{domxref("BluetoothCharacteristicProperties")}} interface returns a

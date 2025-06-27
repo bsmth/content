@@ -4,9 +4,10 @@ short-title: observe()
 slug: Web/API/MutationObserver/observe
 page-type: web-api-instance-method
 browser-compat: api.MutationObserver.observe
+sidebar:
+  - apiref:
+      - DOM WHATWG
 ---
-
-{{APIRef("DOM WHATWG")}}
 
 The {{domxref("MutationObserver")}} method **`observe()`** configures the `MutationObserver`
 callback to begin receiving notifications of changes to the DOM that match the given options.

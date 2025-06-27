@@ -3,9 +3,10 @@ title: TimeEvent
 slug: Web/API/TimeEvent
 page-type: web-api-interface
 browser-compat: api.TimeEvent
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`TimeEvent`** interface, a part of [SVG SMIL](/en-US/docs/Web/SVG/Guides/SVG_animation_with_SMIL) animation, provides specific contextual information associated with Time events.
 

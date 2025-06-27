@@ -4,9 +4,10 @@ short-title: createSVGTransform()
 slug: Web/API/SVGSVGElement/createSVGTransform
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.createSVGTransform
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `createSVGTransform()` method of the {{domxref("SVGSVGElement")}} interface creates an {{domxref("SVGTransform")}} object outside of any document trees.
 

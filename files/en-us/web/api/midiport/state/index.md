@@ -4,9 +4,12 @@ short-title: state
 slug: Web/API/MIDIPort/state
 page-type: web-api-instance-property
 browser-compat: api.MIDIPort.state
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`state`** read-only property of the {{domxref("MIDIPort")}} interface returns the state of the port.
 

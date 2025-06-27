@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - experimental
 browser-compat: api.IdleDetector.requestPermission_static
+sidebar:
+  - apiref:
+      - Idle Detection API
 ---
 
-{{securecontext_header}}{{APIRef("Idle Detection API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`requestPermission()`** static method of the {{domxref("IdleDetector")}}
 interface returns a {{jsxref('Promise')}} that resolves with a string when the user has chosen

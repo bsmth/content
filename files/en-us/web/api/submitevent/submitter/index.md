@@ -4,9 +4,10 @@ short-title: submitter
 slug: Web/API/SubmitEvent/submitter
 page-type: web-api-instance-property
 browser-compat: api.SubmitEvent.submitter
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`submitter`** property found on
 the {{domxref("SubmitEvent")}} interface specifies the submit button or other element

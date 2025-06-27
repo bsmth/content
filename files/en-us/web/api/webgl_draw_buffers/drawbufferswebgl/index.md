@@ -4,9 +4,10 @@ short-title: drawBuffersWEBGL()
 slug: Web/API/WEBGL_draw_buffers/drawBuffersWEBGL
 page-type: webgl-extension-method
 browser-compat: api.WEBGL_draw_buffers.drawBuffersWEBGL
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`WEBGL_draw_buffers.drawBuffersWEBGL()`** method is part
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and allows you to define

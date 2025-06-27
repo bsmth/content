@@ -4,9 +4,10 @@ short-title: closedBy
 slug: Web/API/HTMLDialogElement/closedBy
 page-type: web-api-instance-property
 browser-compat: api.HTMLDialogElement.closedBy
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`closedBy`** property of the
 {{domxref("HTMLDialogElement")}} interface indicates the types of user actions that can be used to close the associated {{htmlelement("dialog")}} element. It sets or returns the dialog's [`closedby`](/en-US/docs/Web/HTML/Reference/Elements/dialog#closedby) attribute value.

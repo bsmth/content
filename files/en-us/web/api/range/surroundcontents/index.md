@@ -4,9 +4,10 @@ short-title: surroundContents()
 slug: Web/API/Range/surroundContents
 page-type: web-api-instance-method
 browser-compat: api.Range.surroundContents
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`surroundContents()`** method of the {{domxref("Range")}} interface surrounds the selected content by a provided node. It [extracts](/en-US/docs/Web/API/Range/extractContents) the contents of the range, replaces the children of `newParent` with the extracted contents, [inserts](/en-US/docs/Web/API/Range/insertNode) `newParent` at the location of the extracted contents, and makes the range select `newParent`.
 

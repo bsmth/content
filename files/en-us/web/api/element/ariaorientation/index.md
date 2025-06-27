@@ -4,9 +4,10 @@ short-title: ariaOrientation
 slug: Web/API/Element/ariaOrientation
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaOrientation
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaOrientation`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-orientation`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-orientation) attribute, which indicates whether the element's orientation is horizontal, vertical, or unknown/ambiguous.
 

@@ -4,9 +4,12 @@ short-title: sinkId
 slug: Web/API/HTMLMediaElement/sinkId
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.sinkId
+sidebar:
+  - apiref:
+      - Audio Output Devices API
 ---
 
-{{APIRef("Audio Output Devices API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`sinkId`** read-only property of the {{domxref("HTMLMediaElement")}} interface returns a string that is the unique ID of the device to be used for playing audio output.
 

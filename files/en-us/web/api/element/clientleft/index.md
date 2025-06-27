@@ -4,9 +4,10 @@ short-title: clientLeft
 slug: Web/API/Element/clientLeft
 page-type: web-api-instance-property
 browser-compat: api.Element.clientLeft
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`clientLeft`** read-only property of the {{domxref("Element")}} interface returns the width of the left border of an element in pixels. It includes the width of the vertical scrollbar if the text direction of the element is right-to-left and if there is an overflow causing a left vertical scrollbar to be rendered. `clientLeft` does not include the left margin or the left padding.
 

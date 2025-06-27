@@ -4,9 +4,8 @@ short-title: lineCap
 slug: Web/API/CanvasRenderingContext2D/lineCap
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.lineCap
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.lineCap`**

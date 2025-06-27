@@ -4,9 +4,10 @@ short-title: setStart()
 slug: Web/API/Range/setStart
 page-type: web-api-instance-method
 browser-compat: api.Range.setStart
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.setStart()`** method sets the start position of a
 {{ domxref("Range") }}.

@@ -3,9 +3,12 @@ title: AbsoluteOrientationSensor
 slug: Web/API/AbsoluteOrientationSensor
 page-type: web-api-interface
 browser-compat: api.AbsoluteOrientationSensor
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`AbsoluteOrientationSensor`** interface of the [Sensor APIs](/en-US/docs/Web/API/Sensor_APIs) describes the device's physical orientation in relation to the Earth's reference coordinate system.
 

@@ -4,9 +4,10 @@ short-title: start()
 slug: Web/API/AudioScheduledSourceNode/start
 page-type: web-api-instance-method
 browser-compat: api.AudioScheduledSourceNode.start
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `start()` method on {{domxref("AudioScheduledSourceNode")}} schedules a sound to begin playback at the specified time.
 If no time is specified, then the sound begins playing immediately.

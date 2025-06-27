@@ -4,9 +4,12 @@ short-title: canParse()
 slug: Web/API/URL/canParse_static
 page-type: web-api-static-method
 browser-compat: api.URL.canParse_static
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`URL.canParse()`** static method of the {{domxref("URL")}} interface returns a boolean indicating whether or not an absolute URL, or a relative URL combined with a base URL, are parsable and valid.
 

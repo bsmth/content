@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/HTMLImageElement/width
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.width
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`width`** property of the
 {{domxref("HTMLImageElement")}} interface indicates the width at which an image is

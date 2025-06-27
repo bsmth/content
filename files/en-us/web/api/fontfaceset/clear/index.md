@@ -4,9 +4,12 @@ short-title: clear()
 slug: Web/API/FontFaceSet/clear
 page-type: web-api-instance-method
 browser-compat: api.FontFaceSet.clear
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`clear()`** method of the {{domxref("FontFaceSet")}} interface removes all fonts added via this interface. Fonts added with the {{cssxref("@font-face")}} rule are not removed.
 

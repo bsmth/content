@@ -4,9 +4,10 @@ short-title: linearVelocity
 slug: Web/API/XRPose/linearVelocity
 page-type: web-api-instance-property
 browser-compat: api.XRPose.linearVelocity
+sidebar: apiref
 ---
 
-{{APIRef}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The `linearVelocity` read-only property of the
 {{DOMxRef("XRPose")}} interface is a {{DOMxRef("DOMPointReadOnly")}} describing

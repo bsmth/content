@@ -4,9 +4,10 @@ short-title: stalled
 slug: Web/API/HTMLMediaElement/stalled_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.stalled_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `stalled` event is fired when the user agent is trying to fetch media data, but data is unexpectedly not forthcoming.
 

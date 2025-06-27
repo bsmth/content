@@ -4,9 +4,12 @@ short-title: MessageChannel()
 slug: Web/API/MessageChannel/MessageChannel
 page-type: web-api-constructor
 browser-compat: api.MessageChannel.MessageChannel
+sidebar:
+  - apiref:
+      - Channel Messaging API
 ---
 
-{{APIRef("Channel Messaging API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`MessageChannel()`** constructor of the {{domxref("MessageChannel")}}
 interface returns a new {{domxref("MessageChannel")}} object with two new

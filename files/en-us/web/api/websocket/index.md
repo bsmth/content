@@ -3,9 +3,12 @@ title: WebSocket
 slug: Web/API/WebSocket
 page-type: web-api-interface
 browser-compat: api.WebSocket
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `WebSocket` object provides the API for creating and managing a [WebSocket](/en-US/docs/Web/API/WebSockets_API) connection to a server, as well as for sending and receiving data on the connection.
 

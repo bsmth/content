@@ -4,9 +4,10 @@ short-title: selectedOptions
 slug: Web/API/HTMLSelectElement/selectedOptions
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.selectedOptions
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **read-only** {{domxref("HTMLSelectElement")}} property
 **`selectedOptions`** contains a list of the

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.TextUpdateEvent.updateRangeEnd
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`TextUpdateEvent.updateRangeEnd`** read-only property indicates the end position of the text range that is being replaced in the {{domxref("EditContext")}} object.
 

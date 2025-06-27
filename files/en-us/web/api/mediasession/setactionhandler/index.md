@@ -4,9 +4,10 @@ short-title: setActionHandler()
 slug: Web/API/MediaSession/setActionHandler
 page-type: web-api-instance-method
 browser-compat: api.MediaSession.setActionHandler
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`setActionHandler()`** method of the {{domxref("MediaSession")}} interface sets a handler for a media session action.
 These actions let a web app receive notifications when the user engages a device's built-in physical or onscreen media controls, such as play, stop, or seek buttons.

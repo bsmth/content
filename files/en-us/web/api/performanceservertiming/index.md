@@ -3,9 +3,12 @@ title: PerformanceServerTiming
 slug: Web/API/PerformanceServerTiming
 page-type: web-api-interface
 browser-compat: api.PerformanceServerTiming
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}{{securecontext_header}}
+{{AvailableInWorkers}}{{securecontext_header}}
 
 The **`PerformanceServerTiming`** interface surfaces server metrics that are sent with the response in the {{HTTPHeader("Server-Timing")}} HTTP header.
 

@@ -4,9 +4,10 @@ short-title: getTotalLength()
 slug: Web/API/SVGPathElement/getTotalLength
 page-type: web-api-instance-method
 browser-compat: api.SVGPathElement.getTotalLength
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`getTotalLength()`** method of the {{domxref("SVGPathElement")}} interface returns the user agent's computed value for the total length of the path in user units.
 

@@ -4,9 +4,10 @@ short-title: decode()
 slug: Web/API/SVGImageElement/decode
 page-type: web-api-instance-method
 browser-compat: api.SVGImageElement.decode
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`decode()`** method of the
 {{domxref("SVGImageElement")}} interface initiates asynchronous decoding of an image,

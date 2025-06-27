@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/DOMException/name
 page-type: web-api-instance-property
 browser-compat: api.DOMException.name
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`name`** read-only property of the
 {{domxref("DOMException")}} interface returns a string that contains

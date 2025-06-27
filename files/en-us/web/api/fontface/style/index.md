@@ -4,9 +4,12 @@ short-title: style
 slug: Web/API/FontFace/style
 page-type: web-api-instance-property
 browser-compat: api.FontFace.style
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`style`** property of the {{domxref("FontFace")}} interface retrieves or sets the font's style.
 

@@ -4,9 +4,10 @@ short-title: span
 slug: Web/API/HTMLTableColElement/span
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableColElement.span
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`span`** read-only property of the {{domxref("HTMLTableColElement")}} interface represents the number of columns this {{htmlelement("col")}} or {{htmlelement("colgroup")}} must span; this lets the column occupy space across multiple columns of the table. It reflects the [`span`](/en-US/docs/Web/HTML/Reference/Elements/col#span) attribute.
 

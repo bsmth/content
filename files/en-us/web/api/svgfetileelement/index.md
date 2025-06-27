@@ -3,9 +3,10 @@ title: SVGFETileElement
 slug: Web/API/SVGFETileElement
 page-type: web-api-interface
 browser-compat: api.SVGFETileElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFETileElement`** interface corresponds to the {{SVGElement("feTile")}} element.
 

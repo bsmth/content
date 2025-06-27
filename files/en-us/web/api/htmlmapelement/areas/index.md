@@ -4,9 +4,10 @@ short-title: areas
 slug: Web/API/HTMLMapElement/areas
 page-type: web-api-instance-property
 browser-compat: api.HTMLMapElement.areas
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`areas`** read-only property of the {{domxref("HTMLMapElement")}} interface returns a collection of {{HTMLElement("area")}} elements associated with the {{HTMLElement("map")}} element.
 

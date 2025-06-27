@@ -4,9 +4,10 @@ short-title: createCaption()
 slug: Web/API/HTMLTableElement/createCaption
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableElement.createCaption
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLTableElement.createCaption()`** method returns the
 {{HtmlElement("caption")}} element associated with a given {{HtmlElement("table")}}.

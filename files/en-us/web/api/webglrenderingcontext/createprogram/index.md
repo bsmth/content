@@ -4,9 +4,12 @@ short-title: createProgram()
 slug: Web/API/WebGLRenderingContext/createProgram
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.createProgram
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.createProgram()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) creates and initializes a

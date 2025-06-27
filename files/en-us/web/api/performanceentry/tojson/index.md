@@ -4,9 +4,12 @@ short-title: toJSON()
 slug: Web/API/PerformanceEntry/toJSON
 page-type: web-api-instance-method
 browser-compat: api.PerformanceEntry.toJSON
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`toJSON()`** method is a {{Glossary("Serialization","serializer")}}; it returns a JSON representation of the {{domxref("PerformanceEntry")}} object.
 

@@ -4,9 +4,12 @@ short-title: precision
 slug: Web/API/WebGLShaderPrecisionFormat/precision
 page-type: web-api-instance-property
 browser-compat: api.WebGLShaderPrecisionFormat.precision
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`WebGLShaderPrecisionFormat.precision`** property returns the number of bits of precision that can be represented.
 

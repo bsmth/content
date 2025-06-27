@@ -4,9 +4,12 @@ short-title: defaultPolicy
 slug: Web/API/TrustedTypePolicyFactory/defaultPolicy
 page-type: web-api-instance-property
 browser-compat: api.TrustedTypePolicyFactory.defaultPolicy
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`defaultPolicy`** read-only property of the {{domxref("TrustedTypePolicyFactory")}} interface returns the default {{domxref("TrustedTypePolicy")}} or null if this is empty.
 

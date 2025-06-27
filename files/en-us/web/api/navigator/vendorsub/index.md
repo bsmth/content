@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Navigator.vendorSub
+sidebar: apiref
 ---
 
-{{ApiRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The value of the **`Navigator.vendorSub`** property is always
 the empty string, in any browser.

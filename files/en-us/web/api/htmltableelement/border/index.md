@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableElement.border
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`HTMLTableElement.border`** property represents the
 border width of the {{HtmlElement("table")}} element.

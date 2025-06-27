@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.VirtualKeyboard.geometrychange_event
+sidebar:
+  - apiref:
+      - VirtualKeyboard API
 ---
 
-{{APIRef("VirtualKeyboard API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`geometrychange`** event of the {{domxref("VirtualKeyboard")}}
 interface fires when the on-screen virtual keyboard is toggled between shown and hidden states.

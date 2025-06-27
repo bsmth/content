@@ -3,9 +3,12 @@ title: ProgressEvent
 slug: Web/API/ProgressEvent
 page-type: web-api-interface
 browser-compat: api.ProgressEvent
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ProgressEvent`** interface represents events that measure the progress of an underlying process, like an HTTP request (e.g., an `XMLHttpRequest`, or the loading of the underlying resource of an {{HTMLElement("img")}}, {{HTMLElement("audio")}}, {{HTMLElement("video")}}, {{HTMLElement("style")}} or {{HTMLElement("link")}}).
 

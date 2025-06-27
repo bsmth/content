@@ -3,9 +3,10 @@ title: CSSNamespaceRule
 slug: Web/API/CSSNamespaceRule
 page-type: web-api-interface
 browser-compat: api.CSSNamespaceRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSNamespaceRule`** interface describes an object representing a single CSS {{ cssxref("@namespace") }} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Screen.lockOrientation
+sidebar:
+  - apiref:
+      - Screen Orientation API
 ---
 
-{{APIRef("Screen Orientation API")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`lockOrientation()`** method of the {{DOMxRef("Screen")}}
 interface locks the screen into a specified orientation.

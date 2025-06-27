@@ -4,9 +4,10 @@ short-title: usernameFragment
 slug: Web/API/RTCIceParameters/usernameFragment
 page-type: web-api-instance-property
 spec-urls: https://w3c.github.io/webrtc-pc/#dom-rtciceparameters-usernamefragment
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **{{domxref("RTCIceParameters")}}** dictionary's
 **`usernameFragment`** property specifies the username fragment

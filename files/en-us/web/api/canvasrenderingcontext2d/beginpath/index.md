@@ -4,9 +4,8 @@ short-title: beginPath()
 slug: Web/API/CanvasRenderingContext2D/beginPath
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.beginPath
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.beginPath()`**

@@ -3,9 +3,10 @@ title: MediaRecorder
 slug: Web/API/MediaRecorder
 page-type: web-api-interface
 browser-compat: api.MediaRecorder
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`MediaRecorder`** interface of the [MediaStream Recording API](/en-US/docs/Web/API/MediaStream_Recording_API) provides functionality to easily record media. It is created using the {{domxref("MediaRecorder.MediaRecorder", "MediaRecorder()")}} constructor.
 

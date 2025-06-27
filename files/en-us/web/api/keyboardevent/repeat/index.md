@@ -4,9 +4,10 @@ short-title: repeat
 slug: Web/API/KeyboardEvent/repeat
 page-type: web-api-instance-property
 browser-compat: api.KeyboardEvent.repeat
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`repeat`** read-only property of the
 {{domxref("KeyboardEvent")}} interface returns a boolean value that is

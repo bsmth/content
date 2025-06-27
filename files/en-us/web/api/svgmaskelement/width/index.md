@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGMaskElement/width
 page-type: web-api-instance-property
 browser-compat: api.SVGMaskElement.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The read-only **`width`** property of the {{domxref("SVGMaskElement")}} interface returns an {{domxref("SVGAnimatedLength")}} object containing the value of the {{SVGattr("width")}} attribute of the {{SVGElement("marker")}}.
 

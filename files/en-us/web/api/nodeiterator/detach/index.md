@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.NodeIterator.detach
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`NodeIterator.detach()`** method is a no-op, kept for
 backward compatibility only.

@@ -4,9 +4,10 @@ short-title: negative
 slug: Web/API/CSSCounterStyleRule/negative
 page-type: web-api-instance-property
 browser-compat: api.CSSCounterStyleRule.negative
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`negative`** property of the {{domxref("CSSCounterStyleRule")}} interface gets and sets the value of the {{cssxref("@counter-style/negative","negative")}} descriptor. If the descriptor does not have a value set, this attribute returns an empty string.
 

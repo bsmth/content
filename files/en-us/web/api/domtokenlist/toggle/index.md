@@ -4,9 +4,10 @@ short-title: toggle()
 slug: Web/API/DOMTokenList/toggle
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.toggle
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`toggle()`** method of the {{domxref("DOMTokenList")}} interface
 removes an existing token from the list and returns `false`.

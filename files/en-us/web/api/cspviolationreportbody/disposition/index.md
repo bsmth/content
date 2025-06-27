@@ -4,9 +4,10 @@ short-title: disposition
 slug: Web/API/CSPViolationReportBody/disposition
 page-type: web-api-instance-property
 browser-compat: api.CSPViolationReportBody.disposition
+sidebar:
+  - apiref:
+      - Reporting API
 ---
-
-{{APIRef("Reporting API")}}
 
 The **`disposition`** read-only property of the {{domxref("CSPViolationReportBody")}} interface indicates whether the user agent is configured to enforce [Content Security Policy (CSP)](/en-US/docs/Web/HTTP/Guides/CSP) violations or only report them.
 

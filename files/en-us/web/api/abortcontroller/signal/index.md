@@ -4,9 +4,12 @@ short-title: signal
 slug: Web/API/AbortController/signal
 page-type: web-api-instance-property
 browser-compat: api.AbortController.signal
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`signal`** read-only property of the {{domxref("AbortController")}} interface returns an {{domxref("AbortSignal")}} object instance, which can be used to communicate with/abort an asynchronous operation as desired.
 

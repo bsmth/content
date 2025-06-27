@@ -4,9 +4,8 @@ short-title: clearRect()
 slug: Web/API/CanvasRenderingContext2D/clearRect
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.clearRect
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.clearRect()`**

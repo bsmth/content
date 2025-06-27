@@ -4,9 +4,10 @@ short-title: fullscreenerror
 slug: Web/API/Element/fullscreenerror_event
 page-type: web-api-event
 browser-compat: api.Element.fullscreenerror_event
+sidebar:
+  - apiref:
+      - Fullscreen API
 ---
-
-{{APIRef("Fullscreen API")}}
 
 The **`fullscreenerror`** event is fired when the browser cannot switch to fullscreen mode.
 

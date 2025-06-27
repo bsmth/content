@@ -4,9 +4,10 @@ short-title: roundTripTimeMeasurements
 slug: Web/API/RTCRemoteInboundRtpStreamStats/roundTripTimeMeasurements
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_remote-inbound-rtp.roundTripTimeMeasurements
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`roundTripTimeMeasurements`** property of the {{domxref("RTCRemoteInboundRtpStreamStats")}} dictionary contains a positive integer value that represents the total number valid round trip time measurements received for this [synchronizing source](/en-US/docs/Web/API/RTCRemoteInboundRtpStreamStats/ssrc).
 

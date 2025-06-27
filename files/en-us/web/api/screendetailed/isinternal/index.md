@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ScreenDetailed.isInternal
+sidebar:
+  - apiref:
+      - Window Management API
 ---
 
-{{APIRef("Window Management API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`isInternal`** read-only property of the
 {{domxref("ScreenDetailed")}} interface is a boolean indicating whether the screen is internal to the device or external. External devices are generally manufactured separately from the device they are attached to and can be connected and disconnected as needed, whereas internal screens are part of the device and not intended to be disconnected.

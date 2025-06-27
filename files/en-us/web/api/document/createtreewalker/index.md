@@ -4,9 +4,10 @@ short-title: createTreeWalker()
 slug: Web/API/Document/createTreeWalker
 page-type: web-api-instance-method
 browser-compat: api.Document.createTreeWalker
+sidebar:
+  - apiref:
+      - Document
 ---
-
-{{ApiRef("Document")}}
 
 The **`Document.createTreeWalker()`** creator method returns a newly created {{domxref("TreeWalker")}} object.
 

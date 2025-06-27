@@ -4,9 +4,10 @@ short-title: screenX
 slug: Web/API/MouseEvent/screenX
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.screenX
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`screenX`** read-only property of the {{domxref("MouseEvent")}} interface provides the horizontal coordinate (offset) of the mouse pointer in [screen coordinates](/en-US/docs/Web/CSS/CSSOM_view/Coordinate_systems#screen).
 

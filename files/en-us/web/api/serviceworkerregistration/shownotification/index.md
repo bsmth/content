@@ -4,9 +4,12 @@ short-title: showNotification()
 slug: Web/API/ServiceWorkerRegistration/showNotification
 page-type: web-api-instance-method
 browser-compat: api.ServiceWorkerRegistration.showNotification
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`showNotification()`** method of the
 {{domxref("ServiceWorkerRegistration")}} interface creates a notification on an active

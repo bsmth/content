@@ -4,9 +4,12 @@ short-title: bindTexture()
 slug: Web/API/WebGLRenderingContext/bindTexture
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.bindTexture
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.bindTexture()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) binds a given
 {{domxref("WebGLTexture")}} to a target (binding point).

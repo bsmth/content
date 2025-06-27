@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.XRSession.requestReferenceSpace
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`requestReferenceSpace()`** method of the
 {{DOMxRef("XRSession")}} interface returns a {{JSxRef("promise")}} that resolves with

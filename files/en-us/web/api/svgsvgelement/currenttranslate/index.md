@@ -4,9 +4,10 @@ short-title: currentTranslate
 slug: Web/API/SVGSVGElement/currentTranslate
 page-type: web-api-instance-property
 browser-compat: api.SVGSVGElement.currentTranslate
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`currentTranslate`** read-only property of the {{domxref("SVGSVGElement")}} interface reflects the translation factor that takes into account user "magnification" corresponding to an outermost {{SVGElement("svg")}} element.
 

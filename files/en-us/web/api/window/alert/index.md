@@ -4,9 +4,8 @@ short-title: alert()
 slug: Web/API/Window/alert
 page-type: web-api-instance-method
 browser-compat: api.Window.alert
+sidebar: apiref
 ---
-
-{{ APIRef }}
 
 `window.alert()` instructs the browser to display a dialog with an optional message, and to wait until the user dismisses the dialog.
 

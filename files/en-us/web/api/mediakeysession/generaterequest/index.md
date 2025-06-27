@@ -4,9 +4,12 @@ short-title: generateRequest()
 slug: Web/API/MediaKeySession/generateRequest
 page-type: web-api-instance-method
 browser-compat: api.MediaKeySession.generateRequest
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The `generateRequest()` method of the {{domxref('MediaKeySession')}} interface returns a {{jsxref('Promise')}} after generating a license request based on initialization data.
 

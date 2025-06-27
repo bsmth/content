@@ -4,9 +4,10 @@ short-title: soundend
 slug: Web/API/SpeechRecognition/soundend_event
 page-type: web-api-event
 browser-compat: api.SpeechRecognition.soundend_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`soundend`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) is fired when any sound — recognizable speech or not — has stopped being detected.
 

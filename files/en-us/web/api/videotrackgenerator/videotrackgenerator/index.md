@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.VideoTrackGenerator.VideoTrackGenerator
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API
 ---
 
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`VideoTrackGenerator()`** constructor creates a new {{domxref("VideoTrackGenerator")}} object which consumes a stream of media frames and exposes a {{domxref("MediaStreamTrack")}}.
 

@@ -4,9 +4,10 @@ short-title: accessKeyLabel
 slug: Web/API/HTMLElement/accessKeyLabel
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.accessKeyLabel
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLElement.accessKeyLabel`**
 read-only property returns a string containing the element's

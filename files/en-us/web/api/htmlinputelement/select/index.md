@@ -4,9 +4,10 @@ short-title: select()
 slug: Web/API/HTMLInputElement/select
 page-type: web-api-instance-method
 browser-compat: api.HTMLInputElement.select
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLInputElement.select()`** method selects all the text
 in a {{HTMLElement("textarea")}} element or in an {{HTMLElement("input")}} element

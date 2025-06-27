@@ -4,9 +4,12 @@ short-title: getCompilationInfo()
 slug: Web/API/GPUShaderModule/getCompilationInfo
 page-type: web-api-instance-method
 browser-compat: api.GPUShaderModule.getCompilationInfo
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`getCompilationInfo()`** method of the
 {{domxref("GPUShaderModule")}} interface returns a {{jsxref("Promise")}} that fulfills with a {{domxref("GPUCompilationInfo")}} object containing messages generated during the `GPUShaderModule`'s compilation.

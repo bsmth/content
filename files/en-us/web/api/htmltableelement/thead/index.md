@@ -4,9 +4,10 @@ short-title: tHead
 slug: Web/API/HTMLTableElement/tHead
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableElement.tHead
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLTableElement.tHead`** represents the
 {{HTMLElement("thead")}} element of a {{HTMLElement("table")}}. Its value will be

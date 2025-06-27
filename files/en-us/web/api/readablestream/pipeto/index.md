@@ -4,9 +4,12 @@ short-title: pipeTo()
 slug: Web/API/ReadableStream/pipeTo
 page-type: web-api-instance-method
 browser-compat: api.ReadableStream.pipeTo
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`pipeTo()`** method of the {{domxref("ReadableStream")}} interface pipes the current `ReadableStream` to a given {{domxref("WritableStream")}} and returns a {{jsxref("Promise")}} that fulfills when the piping process completes successfully, or rejects if any errors were encountered.
 

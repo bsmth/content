@@ -4,9 +4,10 @@ short-title: url
 slug: Web/API/Client/url
 page-type: web-api-instance-property
 browser-compat: api.Client.url
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`url`** read-only property of the {{domxref("Client")}}
 interface returns the URL of the current service worker client.

@@ -4,9 +4,12 @@ short-title: abort()
 slug: Web/API/AbortController/abort
 page-type: web-api-instance-method
 browser-compat: api.AbortController.abort
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`abort()`** method of the {{domxref("AbortController")}} interface aborts an asynchronous operation before it has completed.
 This is able to abort [fetch requests](/en-US/docs/Web/API/Window/fetch), the consumption of any response bodies, or streams.

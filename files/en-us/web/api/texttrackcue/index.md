@@ -3,9 +3,10 @@ title: TextTrackCue
 slug: Web/API/TextTrackCue
 page-type: web-api-interface
 browser-compat: api.TextTrackCue
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`TextTrackCue`** interface of the [WebVTT API](/en-US/docs/Web/API/WebVTT_API) is the abstract base class for the various derived cue types, such as {{domxref("VTTCue")}}; you will work with these derived types rather than the base class.
 

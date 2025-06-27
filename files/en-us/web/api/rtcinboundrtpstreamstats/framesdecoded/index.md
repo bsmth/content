@@ -4,9 +4,10 @@ short-title: framesDecoded
 slug: Web/API/RTCInboundRtpStreamStats/framesDecoded
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.framesDecoded
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`framesDecoded`** property of
 the {{domxref("RTCInboundRtpStreamStats")}} dictionary indicates the total number of

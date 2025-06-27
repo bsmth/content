@@ -4,9 +4,10 @@ short-title: text
 slug: Web/API/SpeechSynthesisUtterance/text
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisUtterance.text
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`text`** property of the
 {{domxref("SpeechSynthesisUtterance")}} interface gets and sets the text that will be synthesized when the utterance is spoken.

@@ -4,9 +4,10 @@ short-title: region
 slug: Web/API/VTTCue/region
 page-type: web-api-instance-property
 browser-compat: api.VTTCue.region
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`region`** property of the {{domxref("VTTCue")}} interface returns and sets the {{domxref("VTTRegion")}} that this cue belongs to.
 

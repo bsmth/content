@@ -4,9 +4,12 @@ short-title: ImageData()
 slug: Web/API/ImageData/ImageData
 page-type: web-api-constructor
 browser-compat: api.ImageData.ImageData
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ImageData()`** constructor returns a newly instantiated
 {{domxref('ImageData')}} object built from the typed array given and having the

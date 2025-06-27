@@ -4,9 +4,10 @@ short-title: attachShadow()
 slug: Web/API/Element/attachShadow
 page-type: web-api-instance-method
 browser-compat: api.Element.attachShadow
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef('Shadow DOM')}}
 
 The **`Element.attachShadow()`** method attaches a shadow DOM tree to the specified element and returns a reference to its {{domxref("ShadowRoot")}}.
 

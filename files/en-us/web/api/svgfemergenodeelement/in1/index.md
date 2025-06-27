@@ -4,9 +4,10 @@ short-title: in1
 slug: Web/API/SVGFEMergeNodeElement/in1
 page-type: web-api-instance-property
 browser-compat: api.SVGFEMergeNodeElement.in1
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`in1`** read-only property of the {{domxref("SVGFEMergeNodeElement")}} interface reflects the {{SVGAttr("in")}} attribute of the given {{SVGElement("feMergeNode")}} element.
 

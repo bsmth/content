@@ -4,9 +4,8 @@ short-title: beforeinstallprompt
 slug: Web/API/Window/beforeinstallprompt_event
 page-type: web-api-event
 browser-compat: api.Window.beforeinstallprompt_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`beforeinstallprompt`** event fires when the browser has detected that a website can be [installed as a Progressive Web App](/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable).
 

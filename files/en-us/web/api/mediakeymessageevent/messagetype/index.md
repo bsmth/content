@@ -4,9 +4,12 @@ short-title: messageType
 slug: Web/API/MediaKeyMessageEvent/messageType
 page-type: web-api-instance-property
 browser-compat: api.MediaKeyMessageEvent.messageType
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`MediaKeyMessageEvent.messageType`** read-only property indicates the
 type of message. It may be one of `license-request`,

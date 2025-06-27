@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/SVGTextPositioningElement/x
 page-type: web-api-instance-property
 browser-compat: api.SVGTextPositioningElement.x
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x`** read-only property of the {{domxref("SVGTextPositioningElement")}} interface describes the x-axis coordinate of the {{domxref("SVGTextElement")}} or {{domxref("SVGTSpanElement")}} as an {{domxref("SVGAnimatedLengthList")}}. It reflects the {{SVGAttr("x")}} attribute's horizontal position of the individual text glyphs in the user coordinate system.
 

@@ -7,9 +7,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.WorkletSharedStorage.context
+sidebar:
+  - apiref:
+      - Shared Storage API
 ---
 
-{{APIRef("Shared Storage API")}}{{SeeCompatTable}}{{Non-standard_Header}}
+{{SeeCompatTable}}{{Non-standard_Header}}
 
 The **`context`** read-only property of the {{domxref("WorkletSharedStorage")}} interface contains contextual data passed into the shared storage worklet from the associated browsing context via the {{domxref("FencedFrameConfig.setSharedStorageContext()")}} method.
 

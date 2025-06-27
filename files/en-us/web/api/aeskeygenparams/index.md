@@ -3,9 +3,10 @@ title: AesKeyGenParams
 slug: Web/API/AesKeyGenParams
 page-type: web-api-interface
 spec-urls: https://w3c.github.io/webcrypto/#dfn-AesKeyGenParams
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
-
-{{ APIRef("Web Crypto API") }}
 
 The **`AesKeyGenParams`** dictionary of the [Web Crypto API](/en-US/docs/Web/API/Web_Crypto_API) represents the object that should be passed as the `algorithm` parameter into {{domxref("SubtleCrypto.generateKey()")}}, when generating an AES key: that is, when the algorithm is identified as any of [AES-CBC](/en-US/docs/Web/API/SubtleCrypto/encrypt#aes-cbc), [AES-CTR](/en-US/docs/Web/API/SubtleCrypto/encrypt#aes-ctr), [AES-GCM](/en-US/docs/Web/API/SubtleCrypto/encrypt#aes-gcm), or [AES-KW](/en-US/docs/Web/API/SubtleCrypto/wrapKey#aes-kw).
 

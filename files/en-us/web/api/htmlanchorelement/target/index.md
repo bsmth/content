@@ -4,9 +4,10 @@ short-title: target
 slug: Web/API/HTMLAnchorElement/target
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.target
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`target`** property of the {{domxref("HTMLAnchorElement")}} interface is a string that indicates where to display the linked resource.
 

@@ -4,9 +4,12 @@ short-title: timeEnd()
 slug: Web/API/console/timeEnd_static
 page-type: web-api-static-method
 browser-compat: api.console.timeEnd_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.timeEnd()`** static method stops a timer that was previously started by calling {{domxref("console/time_static", "console.time()")}}.
 

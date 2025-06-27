@@ -4,9 +4,12 @@ short-title: getShaderParameter()
 slug: Web/API/WebGLRenderingContext/getShaderParameter
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getShaderParameter
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getShaderParameter()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns information about the

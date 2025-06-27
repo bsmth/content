@@ -4,9 +4,12 @@ short-title: href
 slug: Web/API/URL/href
 page-type: web-api-instance-property
 browser-compat: api.URL.href
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`href`** property of the {{domxref("URL")}} interface is
 a string containing the whole URL.

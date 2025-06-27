@@ -4,9 +4,10 @@ short-title: formAction
 slug: Web/API/HTMLInputElement/formAction
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.formAction
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`formAction`** property of the {{domxref("HTMLInputElement")}} interface is the URL of the program that is executed on the server when the form that owns this control is submitted. It reflects the value of the `<input>`'s [`formaction`](/en-US/docs/Web/HTML/Reference/Elements/input#formaction) attribute.
 

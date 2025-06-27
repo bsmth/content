@@ -4,9 +4,10 @@ short-title: dirxml()
 slug: Web/API/console/dirxml_static
 page-type: web-api-static-method
 browser-compat: api.console.dirxml_static
+sidebar:
+  - apiref:
+      - Console API
 ---
-
-{{APIRef("Console API")}}
 
 The **`console.dirxml()`** static method displays an interactive tree of the descendant elements of the specified XML/HTML element. If it is not possible to display as an element the JavaScript Object view is shown instead. The output is presented as a hierarchical listing of expandable nodes that let you see the contents of child nodes.
 

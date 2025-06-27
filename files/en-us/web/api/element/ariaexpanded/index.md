@@ -4,9 +4,10 @@ short-title: ariaExpanded
 slug: Web/API/Element/ariaExpanded
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaExpanded
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaExpanded`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-expanded`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-expanded) attribute, which indicates whether a grouping element owned or controlled by this element is expanded or collapsed.
 

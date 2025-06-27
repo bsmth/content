@@ -4,9 +4,10 @@ short-title: port
 slug: Web/API/RTCIceCandidateStats/port
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.port
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`port`** property of the {{domxref("RTCIceCandidateStats")}} dictionary specifies the network port used by the candidate.
 

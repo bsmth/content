@@ -4,9 +4,10 @@ short-title: stop()
 slug: Web/API/SpeechRecognition/stop
 page-type: web-api-instance-method
 browser-compat: api.SpeechRecognition.stop
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`stop()`** method of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) stops the speech
 recognition service from listening to incoming audio, and attempts to return a

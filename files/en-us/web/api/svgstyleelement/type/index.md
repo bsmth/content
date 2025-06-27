@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.SVGStyleElement.type
+sidebar:
+  - apiref:
+      - SVG
 ---
 
-{{APIRef("SVG")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`SVGStyleElement.type`** property returns the type of the current style.
 The value reflects the associated SVG `<style>` element's [`type`](/en-US/docs/Web/SVG/Reference/Element/style#type) attribute.

@@ -4,9 +4,10 @@ short-title: setCustomValidity()
 slug: Web/API/HTMLTextAreaElement/setCustomValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLTextAreaElement.setCustomValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`setCustomValidity()`** method of the {{DOMxRef("HTMLTextAreaElement")}} interface sets the custom validity message for the {{htmlelement("textarea")}} element. Use the empty string to indicate that the element does _not_ have a custom validity error.
 

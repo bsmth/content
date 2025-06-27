@@ -4,9 +4,12 @@ short-title: parseRequestOptionsFromJSON()
 slug: Web/API/PublicKeyCredential/parseRequestOptionsFromJSON_static
 page-type: web-api-static-method
 browser-compat: api.PublicKeyCredential.parseRequestOptionsFromJSON_static
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`parseRequestOptionsFromJSON()`** static method of the {{domxref("PublicKeyCredential")}} interface converts a {{glossary("JSON type representation")}} into a {{domxref("PublicKeyCredentialRequestOptions")}} instance.
 

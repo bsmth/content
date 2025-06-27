@@ -4,9 +4,10 @@ short-title: lengthAdjust
 slug: Web/API/SVGTextContentElement/lengthAdjust
 page-type: web-api-instance-property
 browser-compat: api.SVGTextContentElement.lengthAdjust
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`lengthAdjust`** read-only property of the {{domxref("SVGTextContentElement")}} interface reflects the {{SVGAttr("lengthAdjust")}} attribute of the given element. It takes one of the `LENGTHADJUST_*` constants defined on this interface.
 

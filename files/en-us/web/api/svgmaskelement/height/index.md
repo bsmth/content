@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGMaskElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGMaskElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The read-only **`height`** property of the {{domxref("SVGMaskElement")}} interface returns an {{domxref("SVGAnimatedLength")}} object containing the value of the {{SVGattr("height")}} attribute of the {{SVGElement("marker")}}.
 

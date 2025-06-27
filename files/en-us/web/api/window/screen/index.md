@@ -4,9 +4,10 @@ short-title: screen
 slug: Web/API/Window/screen
 page-type: web-api-instance-property
 browser-compat: api.Window.screen
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The {{DOMxRef("Window")}} property **`screen`** returns a
 reference to the screen object associated with the window. The `screen`

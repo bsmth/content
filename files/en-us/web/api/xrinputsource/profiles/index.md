@@ -4,9 +4,12 @@ short-title: profiles
 slug: Web/API/XRInputSource/profiles
 page-type: web-api-instance-property
 browser-compat: api.XRInputSource.profiles
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRInputSource")}} property **`profiles`** returns an array of strings, each describing a configuration profile for the input source. The profile strings are listed in order of specificity, with the most specific profile listed first.
 

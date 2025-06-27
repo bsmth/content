@@ -4,9 +4,12 @@ short-title: tee()
 slug: Web/API/ReadableStream/tee
 page-type: web-api-instance-method
 browser-compat: api.ReadableStream.tee
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`tee()`** method of the
 {{domxref("ReadableStream")}} interface [tees](https://streams.spec.whatwg.org/#tee-a-readable-stream) the current readable stream, returning a

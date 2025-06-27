@@ -4,9 +4,12 @@ short-title: upper
 slug: Web/API/IDBKeyRange/upper
 page-type: web-api-instance-property
 browser-compat: api.IDBKeyRange.upper
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`upper`** read-only property of the
 {{domxref("IDBKeyRange")}} interface returns the upper bound of the key range.

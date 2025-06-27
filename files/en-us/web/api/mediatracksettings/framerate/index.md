@@ -4,9 +4,10 @@ short-title: frameRate
 slug: Web/API/MediaTrackSettings/frameRate
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.frameRate_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's
 **`frameRate`** property is a double-precision floating-point

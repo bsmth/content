@@ -4,9 +4,12 @@ short-title: lineWidth()
 slug: Web/API/WebGLRenderingContext/lineWidth
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.lineWidth
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.lineWidth()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) sets the line width of rasterized
 lines.

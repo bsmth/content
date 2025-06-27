@@ -4,9 +4,10 @@ short-title: childElementCount
 slug: Web/API/DocumentFragment/childElementCount
 page-type: web-api-instance-property
 browser-compat: api.DocumentFragment.childElementCount
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`DocumentFragment.childElementCount`** read-only property
 returns the number of child elements of a `DocumentFragment`.

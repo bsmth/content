@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.PaymentAddress.addressLine
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{APIRef("Payment Request API")}}{{SecureContext_Header}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{SecureContext_Header}}{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`addressLine`** read-only
 property of the {{domxref('PaymentAddress')}} interface is an array of

@@ -4,9 +4,10 @@ short-title: y
 slug: Web/API/SVGForeignObjectElement/y
 page-type: web-api-instance-property
 browser-compat: api.SVGForeignObjectElement.y
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y`** read-only property of the {{domxref("SVGForeignObjectElement")}} interface describes the y-axis coordinate of the `<foreignObject>` element. It reflects the computed value of the {{SVGAttr("y")}} attribute on the {{SVGElement("foreignObject")}} element.
 

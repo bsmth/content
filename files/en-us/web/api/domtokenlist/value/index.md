@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/DOMTokenList/value
 page-type: web-api-instance-property
 browser-compat: api.DOMTokenList.value
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`value`** property of the {{domxref("DOMTokenList")}}
 interface is a {{Glossary("stringifier")}} that returns the value of the list serialized as a

@@ -4,9 +4,12 @@ short-title: populateMatrix()
 slug: Web/API/OrientationSensor/populateMatrix
 page-type: web-api-instance-method
 browser-compat: api.OrientationSensor.populateMatrix
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`populateMatrix()`** method of the
 {{domxref("OrientationSensor")}} interface populates the given target matrix with the

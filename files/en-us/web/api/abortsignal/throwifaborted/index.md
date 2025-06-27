@@ -4,9 +4,12 @@ short-title: throwIfAborted()
 slug: Web/API/AbortSignal/throwIfAborted
 page-type: web-api-instance-method
 browser-compat: api.AbortSignal.throwIfAborted
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`throwIfAborted()`** method throws the signal's abort {{domxref("AbortSignal.reason", "reason")}} if the signal has been aborted; otherwise it does nothing.
 

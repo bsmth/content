@@ -4,9 +4,8 @@ short-title: shadowOffsetY
 slug: Web/API/CanvasRenderingContext2D/shadowOffsetY
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.shadowOffsetY
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.shadowOffsetY`**

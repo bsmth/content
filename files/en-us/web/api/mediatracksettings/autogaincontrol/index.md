@@ -4,9 +4,10 @@ short-title: autoGainControl
 slug: Web/API/MediaTrackSettings/autoGainControl
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.autoGainControl_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's
 **`autoGainControl`** property is a Boolean value whose value

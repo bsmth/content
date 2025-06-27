@@ -4,9 +4,10 @@ short-title: deleteTHead()
 slug: Web/API/HTMLTableElement/deleteTHead
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableElement.deleteTHead
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLTableElement.deleteTHead()`** removes the
 {{HTMLElement("thead")}} element from a given {{HtmlElement("table")}}.

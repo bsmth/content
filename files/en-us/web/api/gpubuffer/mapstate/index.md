@@ -4,9 +4,12 @@ short-title: mapState
 slug: Web/API/GPUBuffer/mapState
 page-type: web-api-instance-property
 browser-compat: api.GPUBuffer.mapState
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`mapState`** read-only property of the
 {{domxref("GPUBuffer")}} interface represents the mapped state of the `GPUBuffer`.

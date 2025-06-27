@@ -3,9 +3,10 @@ title: RTCTransportStats
 slug: Web/API/RTCTransportStats
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport.type_transport
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCTransportStats`** dictionary of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) provides information about the transport ({{domxref("RTCDtlsTransport")}} and its underlying {{domxref("RTCIceTransport")}}) used by a particular candidate pair.
 

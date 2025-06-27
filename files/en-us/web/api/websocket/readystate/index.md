@@ -4,9 +4,12 @@ short-title: readyState
 slug: Web/API/WebSocket/readyState
 page-type: web-api-instance-property
 browser-compat: api.WebSocket.readyState
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebSocket.readyState`** read-only property returns the
 current state of the {{domxref("WebSocket")}} connection.

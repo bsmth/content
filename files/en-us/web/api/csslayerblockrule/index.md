@@ -3,9 +3,10 @@ title: CSSLayerBlockRule
 slug: Web/API/CSSLayerBlockRule
 page-type: web-api-interface
 browser-compat: api.CSSLayerBlockRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSLayerBlockRule`** represents a {{cssxref("@layer")}} block rule.
 

@@ -3,9 +3,10 @@ title: SVGNumberList
 slug: Web/API/SVGNumberList
 page-type: web-api-interface
 browser-compat: api.SVGNumberList
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGNumberList`** interface defines a list of numbers.
 

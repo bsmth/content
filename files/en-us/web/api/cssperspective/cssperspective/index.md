@@ -4,9 +4,10 @@ short-title: CSSPerspective()
 slug: Web/API/CSSPerspective/CSSPerspective
 page-type: web-api-constructor
 browser-compat: api.CSSPerspective.CSSPerspective
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSPerspective()`** constructor creates
 a new {{domxref("CSSPerspective")}} object representing the [perspective()](/en-US/docs/Web/CSS/transform-function/perspective) value of

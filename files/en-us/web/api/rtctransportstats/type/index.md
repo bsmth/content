@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCTransportStats/type
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_transport.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`type`** property of the {{domxref("RTCTransportStats")}} dictionary is a string with the value `"transport"`.
 

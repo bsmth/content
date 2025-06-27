@@ -4,9 +4,12 @@ short-title: userHandle
 slug: Web/API/AuthenticatorAssertionResponse/userHandle
 page-type: web-api-instance-property
 browser-compat: api.AuthenticatorAssertionResponse.userHandle
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`userHandle`** read-only property of the {{domxref("AuthenticatorAssertionResponse")}} interface is an {{jsxref("ArrayBuffer")}} object providing an opaque identifier for the given user. Such an identifier can be used by the relying party's server to link the user account with its corresponding credentials and other data.
 

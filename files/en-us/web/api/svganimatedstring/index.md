@@ -3,9 +3,10 @@ title: SVGAnimatedString
 slug: Web/API/SVGAnimatedString
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedString
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedString`** interface represents string attributes which can be animated from each SVG declaration. You need to create SVG attribute before doing anything else, everything should be declared inside this.
 

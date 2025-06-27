@@ -4,9 +4,10 @@ short-title: fractionLost
 slug: Web/API/RTCRemoteInboundRtpStreamStats/fractionLost
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_remote-inbound-rtp.fractionLost
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`fractionLost`** property of the {{domxref("RTCRemoteInboundRtpStreamStats")}} dictionary provides a value that can be used to determine the fraction of packets lost for this [synchronization source (SSRC)](/en-US/docs/Web/API/RTCRemoteInboundRtpStreamStats/ssrc) in the last reporting interval.
 

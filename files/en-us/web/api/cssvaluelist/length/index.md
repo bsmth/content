@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.CSSValueList.length
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{Deprecated_header}}
+{{Deprecated_header}}
 
 The **`length`** read-only property of the
 {{domxref("CSSValueList")}} interface represents the number of {{domxref("CSSValue")}}s

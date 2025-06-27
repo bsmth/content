@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.NDEFRecord.toRecords
+sidebar:
+  - apiref:
+      - Web NFC API
 ---
 
-{{SecureContext_Header}}{{SeeCompatTable}}{{APIRef("Web NFC API")}}
+{{SecureContext_Header}}{{SeeCompatTable}}
 
 The **`toRecords()`**
 method of the {{DOMxRef("NDEFRecord")}} interface converts

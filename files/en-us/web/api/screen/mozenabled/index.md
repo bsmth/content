@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Screen.mozEnabled
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 This Boolean attribute controls the device's screen. Setting it to `false`
 will turn off the screen.

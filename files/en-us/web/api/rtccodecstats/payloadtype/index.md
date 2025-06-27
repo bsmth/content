@@ -4,9 +4,10 @@ short-title: payloadType
 slug: Web/API/RTCCodecStats/payloadType
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_codec.payloadType
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`payloadType`** property of the {{domxref("RTCCodecStats")}} dictionary is a positive integer in the range from 0 to 127 that describes the format of the {{glossary("RTP")}} payload used in RTP encoding or decoding.
 

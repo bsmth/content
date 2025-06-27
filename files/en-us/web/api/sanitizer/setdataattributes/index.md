@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Sanitizer.setDataAttributes
+sidebar:
+  - apiref:
+      - HTML Sanitizer API
 ---
 
-{{APIRef("HTML Sanitizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`setDataAttributes()`** method of the {{domxref("Sanitizer")}} interface sets whether [data attributes](/en-US/docs/Web/HTML/Reference/Global_attributes/data-*) will be allowed or removed by the sanitizer.
 

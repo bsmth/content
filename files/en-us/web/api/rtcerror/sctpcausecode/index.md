@@ -4,9 +4,10 @@ short-title: sctpCauseCode
 slug: Web/API/RTCError/sctpCauseCode
 page-type: web-api-instance-property
 browser-compat: api.RTCError.sctpCauseCode
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`sctpCauseCode`** property in an
 {{domxref("RTCError")}} object provides the {{Glossary("SCTP")}} cause code explaining

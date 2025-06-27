@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableElement.cellPadding
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`HTMLTableElement.cellPadding`** property represents the
 padding around the individual cells of the table.

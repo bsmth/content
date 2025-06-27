@@ -7,9 +7,10 @@ status:
   - experimental
   - non-standard
 browser-compat: api.BeforeInstallPromptEvent.userChoice
+sidebar: apiref
 ---
 
-{{APIRef}}{{SeeCompatTable}}{{Non-standard_header}}
+{{SeeCompatTable}}{{Non-standard_header}}
 
 The **`userChoice`** property of the {{domxref("BeforeInstallPromptEvent")}} interface represents the installation choice that the user made, when they were prompted to install the app.
 

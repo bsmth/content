@@ -4,9 +4,12 @@ short-title: setSinkId()
 slug: Web/API/HTMLMediaElement/setSinkId
 page-type: web-api-instance-method
 browser-compat: api.HTMLMediaElement.setSinkId
+sidebar:
+  - apiref:
+      - Audio Output Devices API
 ---
 
-{{APIRef("Audio Output Devices API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`setSinkId()`** method of the {{domxref("HTMLMediaElement")}} interface sets the ID of the audio device to use for output and returns a {{jsxref("Promise")}}.
 

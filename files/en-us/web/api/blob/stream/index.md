@@ -4,9 +4,12 @@ short-title: stream()
 slug: Web/API/Blob/stream
 page-type: web-api-instance-method
 browser-compat: api.Blob.stream
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`stream()`** method of the {{domxref("Blob")}} interface returns a {{domxref("ReadableStream")}} which upon reading returns the data contained within the `Blob`.
 

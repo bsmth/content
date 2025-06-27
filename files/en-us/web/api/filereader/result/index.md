@@ -4,9 +4,12 @@ short-title: result
 slug: Web/API/FileReader/result
 page-type: web-api-instance-property
 browser-compat: api.FileReader.result
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`result`** read-only property of the {{domxref("FileReader")}} interface returns the
 file's contents. This property is only valid after the read operation is complete, and

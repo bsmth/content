@@ -4,9 +4,12 @@ short-title: copyBufferToTexture()
 slug: Web/API/GPUCommandEncoder/copyBufferToTexture
 page-type: web-api-instance-method
 browser-compat: api.GPUCommandEncoder.copyBufferToTexture
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`copyBufferToTexture()`** method of the
 {{domxref("GPUCommandEncoder")}} interface encodes a command that copies data from a {{domxref("GPUBuffer")}} to a {{domxref("GPUTexture")}}.

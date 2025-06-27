@@ -4,9 +4,10 @@ short-title: CSSVariableReferenceValue()
 slug: Web/API/CSSVariableReferenceValue/CSSVariableReferenceValue
 page-type: web-api-constructor
 browser-compat: api.CSSVariableReferenceValue.CSSVariableReferenceValue
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 Creates a new {{domxref('CSSVariableReferenceValue')}}.
 

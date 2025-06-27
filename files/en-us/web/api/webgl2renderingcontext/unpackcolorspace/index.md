@@ -4,9 +4,12 @@ short-title: unpackColorSpace
 slug: Web/API/WebGL2RenderingContext/unpackColorSpace
 page-type: web-api-instance-property
 browser-compat: api.WebGL2RenderingContext.unpackColorSpace
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.unpackColorSpace`** property specifies the color space to convert to when importing textures. Along with the default (`srgb`), the `display-p3` color space can be used.
 

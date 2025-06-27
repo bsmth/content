@@ -4,9 +4,10 @@ short-title: createReader()
 slug: Web/API/FileSystemDirectoryEntry/createReader
 page-type: web-api-instance-method
 browser-compat: api.FileSystemDirectoryEntry.createReader
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The {{domxref("FileSystemDirectoryEntry")}} interface's method
 **`createReader()`** returns a

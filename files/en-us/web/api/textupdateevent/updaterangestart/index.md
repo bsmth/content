@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.TextUpdateEvent.updateRangeStart
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`TextUpdateEvent.updateRangeStart`** read-only property indicates the start position of the text range that is being replaced in the {{domxref("EditContext")}} object.
 

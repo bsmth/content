@@ -4,9 +4,10 @@ short-title: createDocumentType()
 slug: Web/API/DOMImplementation/createDocumentType
 page-type: web-api-instance-method
 browser-compat: api.DOMImplementation.createDocumentType
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM")}}
 
 The **`DOMImplementation.createDocumentType()`** method returns
 a {{domxref("DocumentType")}} object which can either be used with

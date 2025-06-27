@@ -3,9 +3,12 @@ title: TextDecoder
 slug: Web/API/TextDecoder
 page-type: web-api-interface
 browser-compat: api.TextDecoder
+sidebar:
+  - apiref:
+      - Encoding API
 ---
 
-{{APIRef("Encoding API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`TextDecoder`** interface represents a decoder for a specific text encoding, such as `UTF-8`, `ISO-8859-2`, `KOI8-R`, `GBK`, etc. A decoder takes a stream of bytes as input and returns a JavaScript string.
 

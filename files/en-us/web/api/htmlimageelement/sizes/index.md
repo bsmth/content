@@ -4,9 +4,10 @@ short-title: sizes
 slug: Web/API/HTMLImageElement/sizes
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.sizes
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLImageElement")}} property
 **`sizes`** allows you to specify the layout width of the

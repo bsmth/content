@@ -4,9 +4,12 @@ short-title: preventDefault()
 slug: Web/API/Event/preventDefault
 page-type: web-api-instance-method
 browser-compat: api.Event.preventDefault
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`preventDefault()`** method of the {{domxref("Event")}} interface tells the {{Glossary("user agent")}} that if the event does not get explicitly handled, its default action should not be taken as it normally would be.
 

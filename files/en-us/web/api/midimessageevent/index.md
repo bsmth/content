@@ -3,9 +3,12 @@ title: MIDIMessageEvent
 slug: Web/API/MIDIMessageEvent
 page-type: web-api-interface
 browser-compat: api.MIDIMessageEvent
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`MIDIMessageEvent`** interface of the [Web MIDI API](/en-US/docs/Web/API/Web_MIDI_API) represents the event passed to the {{domxref("MIDIInput.midimessage_event","midimessage")}} event of the {{domxref("MIDIInput")}} interface. A `midimessage` event is fired every time a MIDI message is sent from a device represented by a {{domxref("MIDIInput")}}, for example when a MIDI keyboard key is pressed, a knob is tweaked, or a slider is moved.
 

@@ -4,9 +4,10 @@ short-title: images
 slug: Web/API/Document/images
 page-type: web-api-instance-property
 browser-compat: api.Document.images
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`images`** read-only property of the {{domxref("Document")}} interface returns a [collection](/en-US/docs/Web/API/HTMLCollection) of the [images](/en-US/docs/Web/API/HTMLImageElement) in the current HTML document.
 

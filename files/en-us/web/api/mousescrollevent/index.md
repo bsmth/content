@@ -6,9 +6,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.MouseScrollEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{ Non-standard_Header }}{{Deprecated_Header}}
+{{ Non-standard_Header }}{{Deprecated_Header}}
 
 The **`MouseScrollEvent`** interface represents events that occur due to the user moving a mouse wheel or similar input device.
 

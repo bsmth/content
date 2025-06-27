@@ -4,9 +4,10 @@ short-title: size
 slug: Web/API/LargestContentfulPaint/size
 page-type: web-api-instance-property
 browser-compat: api.LargestContentfulPaint.size
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`size`** read-only property of the {{domxref("LargestContentfulPaint")}} interface returns the intrinsic size of the element that is the largest contentful paint.
 

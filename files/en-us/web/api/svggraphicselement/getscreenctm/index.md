@@ -4,9 +4,10 @@ short-title: getScreenCTM()
 slug: Web/API/SVGGraphicsElement/getScreenCTM
 page-type: web-api-instance-method
 browser-compat: api.SVGGraphicsElement.getScreenCTM
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getScreenCTM()` method of the {{domxref("SVGGraphicsElement")}} interface represents the matrix that transforms the current element's coordinate system to the coordinate system of the SVG viewport for the SVG document fragment.
 

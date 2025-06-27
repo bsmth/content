@@ -4,9 +4,10 @@ short-title: toggleAttribute()
 slug: Web/API/Element/toggleAttribute
 page-type: web-api-instance-method
 browser-compat: api.Element.toggleAttribute
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`toggleAttribute()`** method of the
 {{domxref("Element")}} interface toggles a Boolean attribute (removing it if it is

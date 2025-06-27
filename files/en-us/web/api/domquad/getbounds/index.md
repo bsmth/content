@@ -4,9 +4,12 @@ short-title: getBounds()
 slug: Web/API/DOMQuad/getBounds
 page-type: web-api-instance-method
 browser-compat: api.DOMQuad.getBounds
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The {{domxref("DOMQuad")}} method
 `getBounds()` returns a {{domxref("DOMRect")}} object representing the smallest rectangle that fully contains the `DOMQuad` object.

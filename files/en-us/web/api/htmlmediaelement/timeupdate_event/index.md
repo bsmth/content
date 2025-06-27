@@ -4,9 +4,10 @@ short-title: timeupdate
 slug: Web/API/HTMLMediaElement/timeupdate_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.timeupdate_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `timeupdate` event is fired when the time indicated by the `currentTime` attribute has been updated.
 

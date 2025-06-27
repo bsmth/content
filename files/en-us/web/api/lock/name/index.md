@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/Lock/name
 page-type: web-api-instance-property
 browser-compat: api.Lock.name
+sidebar:
+  - apiref:
+      - Web Locks API
 ---
 
-{{APIRef("Web Locks API")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`name`** read-only property of
 the {{domxref("Lock")}} interface returns the _name_ passed to

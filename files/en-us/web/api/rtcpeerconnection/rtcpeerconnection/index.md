@@ -4,9 +4,10 @@ short-title: RTCPeerConnection()
 slug: Web/API/RTCPeerConnection/RTCPeerConnection
 page-type: web-api-constructor
 browser-compat: api.RTCPeerConnection.RTCPeerConnection
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCPeerConnection()`** constructor returns a newly-created {{domxref("RTCPeerConnection")}}, which represents a connection between the local device and a remote peer.
 

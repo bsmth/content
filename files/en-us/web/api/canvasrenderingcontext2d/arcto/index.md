@@ -4,9 +4,8 @@ short-title: arcTo()
 slug: Web/API/CanvasRenderingContext2D/arcTo
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.arcTo
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.arcTo()`** method of the Canvas 2D API adds a circular arc to the current sub-path, using the given control points and radius.
 The arc is automatically connected to the path's latest point with a straight line if necessary, for example if the starting point and control points are in a line.

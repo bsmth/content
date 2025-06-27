@@ -4,9 +4,10 @@ short-title: angle
 slug: Web/API/SVGTransform/angle
 page-type: web-api-instance-property
 browser-compat: api.SVGTransform.angle
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`angle`** read-only property of the {{domxref("SVGTransform")}} interface represents the angle of the transformation in degrees.
 

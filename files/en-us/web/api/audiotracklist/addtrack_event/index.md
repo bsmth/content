@@ -4,9 +4,8 @@ short-title: addtrack
 slug: Web/API/AudioTrackList/addtrack_event
 page-type: web-api-event
 browser-compat: api.AudioTrackList.addtrack_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `addtrack` event is fired when a track is added to an [`AudioTrackList`](/en-US/docs/Web/API/AudioTrackList).
 

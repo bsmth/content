@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/Selection/type
 page-type: web-api-instance-property
 browser-compat: api.Selection.type
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`type`** read-only property of the
 {{domxref("Selection")}} interface returns a string describing the

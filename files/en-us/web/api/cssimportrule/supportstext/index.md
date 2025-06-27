@@ -4,9 +4,10 @@ short-title: supportsText
 slug: Web/API/CSSImportRule/supportsText
 page-type: web-api-instance-property
 browser-compat: api.CSSImportRule.supportsText
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`supportsText`** property of the {{domxref("CSSImportRule")}} interface returns the supports condition specified by the {{cssxref("@import")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

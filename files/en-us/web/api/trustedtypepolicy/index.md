@@ -3,9 +3,12 @@ title: TrustedTypePolicy
 slug: Web/API/TrustedTypePolicy
 page-type: web-api-interface
 browser-compat: api.TrustedTypePolicy
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`TrustedTypePolicy`** interface of the {{domxref("Trusted Types API", "", "", "nocode")}} defines a group of functions which create `TrustedType` objects.
 

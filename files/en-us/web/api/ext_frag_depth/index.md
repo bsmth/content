@@ -4,9 +4,10 @@ short-title: EXT_frag_depth
 slug: Web/API/EXT_frag_depth
 page-type: webgl-extension
 browser-compat: api.EXT_frag_depth
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`EXT_frag_depth`** extension is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and enables to set a depth value of a fragment from within the fragment shader.
 

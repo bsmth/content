@@ -3,9 +3,10 @@ title: HTMLDataElement
 slug: Web/API/HTMLDataElement
 page-type: web-api-interface
 browser-compat: api.HTMLDataElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLDataElement`** interface provides special properties (beyond the regular {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating {{HTMLElement("data")}} elements.
 

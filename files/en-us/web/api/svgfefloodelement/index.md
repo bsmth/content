@@ -3,9 +3,10 @@ title: SVGFEFloodElement
 slug: Web/API/SVGFEFloodElement
 page-type: web-api-interface
 browser-compat: api.SVGFEFloodElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEFloodElement`** interface corresponds to the {{SVGElement("feFlood")}} element.
 

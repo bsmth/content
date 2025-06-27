@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/RTCVideoSourceStats/width
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_media-source.width
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`width`** property of the {{domxref("RTCVideoSourceStats")}} dictionary indicates the width, in pixels, of the last frame originating from this source.
 

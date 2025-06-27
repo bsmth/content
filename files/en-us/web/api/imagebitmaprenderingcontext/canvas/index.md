@@ -4,9 +4,12 @@ short-title: canvas
 slug: Web/API/ImageBitmapRenderingContext/canvas
 page-type: web-api-instance-property
 browser-compat: api.ImageBitmapRenderingContext.canvas
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ImageBitmapRenderingContext.canvas`** property, part of the
 [Canvas API](/en-US/docs/Web/API/Canvas_API), is a read-only reference to the

@@ -4,9 +4,8 @@ short-title: moveBy()
 slug: Web/API/Window/moveBy
 page-type: web-api-instance-method
 browser-compat: api.Window.moveBy
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`moveBy()`** method of the {{domxref("Window")}}
 interface moves the current window by a specified amount.

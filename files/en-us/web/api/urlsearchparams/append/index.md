@@ -4,9 +4,12 @@ short-title: append()
 slug: Web/API/URLSearchParams/append
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.append
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`append()`** method of the {{domxref("URLSearchParams")}}
 interface appends a specified key/value pair as a new search parameter.

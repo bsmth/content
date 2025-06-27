@@ -4,9 +4,10 @@ short-title: tagName
 slug: Web/API/Element/tagName
 page-type: web-api-instance-property
 browser-compat: api.Element.tagName
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`tagName`** read-only property
 of the {{domxref("Element")}} interface returns the tag name of the element on which

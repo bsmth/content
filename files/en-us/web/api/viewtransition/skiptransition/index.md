@@ -4,9 +4,10 @@ short-title: skipTransition()
 slug: Web/API/ViewTransition/skipTransition
 page-type: web-api-instance-method
 browser-compat: api.ViewTransition.skipTransition
+sidebar:
+  - apiref:
+      - View Transition API
 ---
-
-{{APIRef("View Transition API")}}
 
 The **`skipTransition()`** method of the
 {{domxref("ViewTransition")}} interface skips the animation part of the view transition, but doesn't skip running the associated view update.

@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.CaptureController.CaptureController
+sidebar:
+  - apiref:
+      - Screen Capture API
 ---
 
-{{APIRef("Screen Capture API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The {{domxref("CaptureController")}} constructor creates a new `CaptureController` object instance.
 

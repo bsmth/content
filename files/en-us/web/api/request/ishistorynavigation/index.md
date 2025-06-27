@@ -4,9 +4,12 @@ short-title: isHistoryNavigation
 slug: Web/API/Request/isHistoryNavigation
 page-type: web-api-instance-property
 browser-compat: api.Request.isHistoryNavigation
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`isHistoryNavigation`** read-only property of the {{domxref("Request")}} interface is a boolean indicating whether the request is a history navigation.
 

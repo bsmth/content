@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.RTCRtpTransceiver.stopped
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{deprecated_header}}
+{{deprecated_header}}
 
 > [!NOTE]
 > Instead of using this deprecated property, compare {{domxref("RTCRtpTransceiver.currentDirection", "currentDirection")}} to `"stopped"`.

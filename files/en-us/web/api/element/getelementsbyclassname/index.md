@@ -4,9 +4,10 @@ short-title: getElementsByClassName()
 slug: Web/API/Element/getElementsByClassName
 page-type: web-api-instance-method
 browser-compat: api.Element.getElementsByClassName
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("Element")}} method
 **`getElementsByClassName()`** returns a live

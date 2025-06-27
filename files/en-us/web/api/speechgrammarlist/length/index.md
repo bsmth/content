@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.SpeechGrammarList.length
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
 
-{{APIRef("Web Speech API")}}{{ SeeCompatTable() }}
+{{ SeeCompatTable() }}
 
 The **`length`** read-only property of the
 {{domxref("SpeechGrammarList")}} interface returns the number of

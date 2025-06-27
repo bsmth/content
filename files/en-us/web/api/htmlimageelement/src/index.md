@@ -4,9 +4,10 @@ short-title: src
 slug: Web/API/HTMLImageElement/src
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.src
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLImageElement")}} property
 **`src`**, which reflects the HTML [`src`](/en-US/docs/Web/HTML/Reference/Elements/img#src) attribute, specifies the image to display in the {{HTMLElement("img")}}

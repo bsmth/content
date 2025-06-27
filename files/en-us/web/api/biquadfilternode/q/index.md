@@ -4,9 +4,10 @@ short-title: Q
 slug: Web/API/BiquadFilterNode/Q
 page-type: web-api-instance-property
 browser-compat: api.BiquadFilterNode.Q
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `Q` property of the {{ domxref("BiquadFilterNode") }} interface is an [a-rate](/en-US/docs/Web/API/AudioParam#a-rate) {{domxref("AudioParam")}}, a double representing a [Q factor](https://en.wikipedia.org/wiki/Q_factor), or _quality factor_.
 

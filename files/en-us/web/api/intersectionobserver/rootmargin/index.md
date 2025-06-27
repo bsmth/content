@@ -4,9 +4,10 @@ short-title: rootMargin
 slug: Web/API/IntersectionObserver/rootMargin
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserver.rootMargin
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`rootMargin`** read-only property of the {{domxref("IntersectionObserver")}} interface is a string with syntax similar to that of the CSS {{cssxref("margin")}} property.
 

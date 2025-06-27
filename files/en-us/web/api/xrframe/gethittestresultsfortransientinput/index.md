@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.XRFrame.getHitTestResultsForTransientInput
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`getHitTestResultsForTransientInput()`** method of the {{domxref("XRFrame")}} interface returns an array of {{domxref("XRTransientInputHitTestResult")}} objects containing transient input hit test results for a given {{domxref("XRTransientInputHitTestSource")}}.
 

@@ -4,9 +4,10 @@ short-title: AudioBuffer()
 slug: Web/API/AudioBuffer/AudioBuffer
 page-type: web-api-constructor
 browser-compat: api.AudioBuffer.AudioBuffer
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`AudioBuffer`** constructor of
 the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new

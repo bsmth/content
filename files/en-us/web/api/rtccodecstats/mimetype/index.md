@@ -4,9 +4,10 @@ short-title: mimeType
 slug: Web/API/RTCCodecStats/mimeType
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_codec.mimeType
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`mimeType`** property of the {{domxref("RTCCodecStats")}} dictionary is a string containing the codec's {{glossary("MIME type")}} and subtype.
 

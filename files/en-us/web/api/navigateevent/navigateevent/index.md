@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.NavigateEvent.NavigateEvent
+sidebar:
+  - apiref:
+      - Navigation API
 ---
 
-{{APIRef("Navigation API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`NavigateEvent()`** constructor creates a new {{domxref("NavigateEvent")}} object instance.
 

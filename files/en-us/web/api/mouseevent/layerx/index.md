@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.MouseEvent.layerX
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The **`MouseEvent.layerX`** read-only property returns the
 horizontal coordinate of the event relative to the current layer.

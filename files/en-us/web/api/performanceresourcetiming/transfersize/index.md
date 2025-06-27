@@ -4,9 +4,12 @@ short-title: transferSize
 slug: Web/API/PerformanceResourceTiming/transferSize
 page-type: web-api-instance-property
 browser-compat: api.PerformanceResourceTiming.transferSize
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`transferSize`** read-only property represents the size (in octets) of the fetched resource. The size includes the response header fields plus the response payload body (as defined by [RFC7230](https://httpwg.org/specs/rfc7230.html#message.body)).
 

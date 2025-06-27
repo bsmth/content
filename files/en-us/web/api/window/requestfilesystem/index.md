@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Window.requestFileSystem
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{Deprecated_Header}}{{non-standard_header}}
+{{Deprecated_Header}}{{non-standard_header}}
 
 The non-standard {{domxref("Window")}} method
 **`requestFileSystem()`** method is a Google Chrome-specific

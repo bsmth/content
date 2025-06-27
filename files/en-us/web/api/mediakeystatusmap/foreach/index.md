@@ -4,9 +4,10 @@ short-title: forEach()
 slug: Web/API/MediaKeyStatusMap/forEach
 page-type: web-api-instance-method
 browser-compat: api.MediaKeyStatusMap.forEach
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
-
-{{APIRef("Encrypted Media Extensions")}}
 
 The **`forEach()`** method of the
 {{domxref("MediaKeyStatusMap")}} interface calls callback once for each key-value pair

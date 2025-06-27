@@ -4,9 +4,8 @@ short-title: innerHeight
 slug: Web/API/Window/innerHeight
 page-type: web-api-instance-property
 browser-compat: api.Window.innerHeight
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The read-only **`innerHeight`** property of the
 {{domxref("Window")}} interface returns the interior height of the window in pixels,

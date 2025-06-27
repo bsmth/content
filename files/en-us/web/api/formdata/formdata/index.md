@@ -4,9 +4,12 @@ short-title: FormData()
 slug: Web/API/FormData/FormData
 page-type: web-api-constructor
 browser-compat: api.FormData.FormData
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FormData()`** constructor creates a new {{domxref("FormData")}} object.
 

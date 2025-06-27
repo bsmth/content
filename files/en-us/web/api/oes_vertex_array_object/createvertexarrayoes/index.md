@@ -4,9 +4,10 @@ short-title: createVertexArrayOES()
 slug: Web/API/OES_vertex_array_object/createVertexArrayOES
 page-type: webgl-extension-method
 browser-compat: api.OES_vertex_array_object.createVertexArrayOES
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`OES_vertex_array_object.createVertexArrayOES()`** method
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) creates and initializes a

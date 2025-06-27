@@ -4,9 +4,10 @@ short-title: maxAlternatives
 slug: Web/API/SpeechRecognition/maxAlternatives
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognition.maxAlternatives
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`maxAlternatives`** property of the
 {{domxref("SpeechRecognition")}} interface sets the maximum number of

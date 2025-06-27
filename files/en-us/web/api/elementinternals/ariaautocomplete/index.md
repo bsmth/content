@@ -4,9 +4,10 @@ short-title: ariaAutoComplete
 slug: Web/API/ElementInternals/ariaAutoComplete
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaAutoComplete
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaAutoComplete`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-autocomplete`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-autocomplete) attribute, which indicates whether inputting text could trigger display of one or more predictions of the user's intended value for a combobox, searchbox, or textbox and specifies how predictions would be presented if they were made.
 

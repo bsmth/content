@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.FeaturePolicy.allowedFeatures
+sidebar:
+  - apiref:
+      - Feature Policy API
 ---
 
-{{APIRef("Feature Policy API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`allowedFeatures()`** method of
 the {{DOMxRef("FeaturePolicy")}} interface returns a list of directive names of all

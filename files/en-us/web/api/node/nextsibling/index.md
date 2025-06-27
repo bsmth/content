@@ -4,9 +4,10 @@ short-title: nextSibling
 slug: Web/API/Node/nextSibling
 page-type: web-api-instance-property
 browser-compat: api.Node.nextSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`nextSibling`** property of the {{domxref("Node")}} interface
 returns the node immediately following the specified one in their

@@ -4,9 +4,10 @@ short-title: keyText
 slug: Web/API/CSSKeyframeRule/keyText
 page-type: web-api-instance-property
 browser-compat: api.CSSKeyframeRule.keyText
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM") }}
 
 The **`keyText`** property of the {{domxref("CSSKeyframeRule")}} interface represents the keyframe selector as a comma-separated list of percentage values. The from and to keywords map to 0% and 100%, respectively.
 

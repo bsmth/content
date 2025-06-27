@@ -4,9 +4,12 @@ short-title: closed
 slug: Web/API/MediaKeySession/closed
 page-type: web-api-instance-property
 browser-compat: api.MediaKeySession.closed
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`closed`** read-only property of the {{domxref('MediaKeySession')}} interface returns a {{jsxref('Promise')}} signaling when a {{domxref('MediaKeySession')}} closes.
 This promise can only be fulfilled and is never rejected.

@@ -3,9 +3,12 @@ title: DeviceOrientationEvent
 slug: Web/API/DeviceOrientationEvent
 page-type: web-api-interface
 browser-compat: api.DeviceOrientationEvent
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{apiref("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`DeviceOrientationEvent`** interface of the {{domxref("Device Orientation Events", "", "", "nocode")}} provides web developers with information from the physical orientation of the device running the web page.
 

@@ -4,9 +4,10 @@ short-title: readyState
 slug: Web/API/HTMLMediaElement/readyState
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.readyState
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.readyState`** property indicates the
 readiness state of the media.

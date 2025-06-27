@@ -4,9 +4,10 @@ short-title: messagesSent
 slug: Web/API/RTCDataChannelStats/messagesSent
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_data-channel.messagesSent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`messagesSent`** property of the {{domxref("RTCDataChannelStats")}} dictionary returns the total number of [`message` events](/en-US/docs/Web/API/RTCDataChannel/message_event) fired for sent messages on the associated {{domxref("RTCDataChannel")}}.
 

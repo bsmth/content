@@ -4,9 +4,8 @@ short-title: storage
 slug: Web/API/Window/storage_event
 page-type: web-api-event
 browser-compat: api.Window.storage_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`storage`** event of the {{domxref("Window")}} interface fires when another document that shares the same storage area (either {{domxref("Window/localStorage", "localStorage")}} or {{domxref("Window/sessionStorage", "sessionStorage")}}) as the current window updates that storage area. The event is _not_ fired on the window that made the change.
 

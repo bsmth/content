@@ -4,9 +4,12 @@ short-title: put()
 slug: Web/API/Cache/put
 page-type: web-api-instance-method
 browser-compat: api.Cache.put
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`put()`** method of the
 {{domxref("Cache")}} interface allows key/value pairs to be added to the current

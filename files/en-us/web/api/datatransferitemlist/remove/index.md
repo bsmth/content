@@ -4,9 +4,10 @@ short-title: remove()
 slug: Web/API/DataTransferItemList/remove
 page-type: web-api-instance-method
 browser-compat: api.DataTransferItemList.remove
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransferItemList.remove()`** method removes the
 {{domxref("DataTransferItem")}} at the specified index from the list. If the index is

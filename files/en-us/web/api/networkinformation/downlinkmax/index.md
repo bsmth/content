@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NetworkInformation.downlinkMax
+sidebar:
+  - apiref:
+      - Network Information API
 ---
 
-{{APIRef("Network Information API")}}{{SeeCompatTable}} {{AvailableInWorkers}}
+{{SeeCompatTable}} {{AvailableInWorkers}}
 
 The **`downlinkMax`** read-only property of the {{domxref("NetworkInformation")}} interface returns the maximum downlink speed, in megabits per second (Mbps), for the underlying connection technology.
 

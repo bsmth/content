@@ -4,9 +4,10 @@ short-title: stop()
 slug: Web/API/AudioScheduledSourceNode/stop
 page-type: web-api-instance-method
 browser-compat: api.AudioScheduledSourceNode.stop
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `stop()` method on {{domxref("AudioScheduledSourceNode")}} schedules a
 sound to cease playback at the specified time. If no time is specified, then the sound

@@ -4,9 +4,8 @@ short-title: putImageData()
 slug: Web/API/CanvasRenderingContext2D/putImageData
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.putImageData
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.putImageData()`**
 method of the Canvas 2D API paints data from the given {{domxref("ImageData")}} object

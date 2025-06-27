@@ -4,9 +4,12 @@ short-title: methodName
 slug: Web/API/PaymentMethodChangeEvent/methodName
 page-type: web-api-instance-property
 browser-compat: api.PaymentMethodChangeEvent.methodName
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The read-only **`methodName`** property of the {{domxref("PaymentMethodChangeEvent")}} interface is a string which
 uniquely identifies the payment handler currently selected by the user. The

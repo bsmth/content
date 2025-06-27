@@ -4,9 +4,10 @@ short-title: referrerPolicy
 slug: Web/API/HTMLLinkElement/referrerPolicy
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.referrerPolicy
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`referrerPolicy`** property of the {{domxref("HTMLLinkElement")}} interface
 reflects the HTML [`referrerpolicy`](/en-US/docs/Web/HTML/Reference/Elements/link#referrerpolicy) attribute of the

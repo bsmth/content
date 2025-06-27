@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PerformanceScriptTiming.sourceFunctionName
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{SeeCompatTable}}{{APIRef("Performance API")}}
+{{SeeCompatTable}}
 
 The **`sourceFunctionName`** read-only property of the {{domxref("PerformanceScriptTiming")}} interface returns a string representing the name of the function that contributed to the long animation frame (LoAF).
 

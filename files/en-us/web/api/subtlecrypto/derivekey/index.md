@@ -4,9 +4,12 @@ short-title: deriveKey()
 slug: Web/API/SubtleCrypto/deriveKey
 page-type: web-api-instance-method
 browser-compat: api.SubtleCrypto.deriveKey
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`deriveKey()`** method of the {{domxref("SubtleCrypto")}} interface can be used to derive a secret key from a master key.
 

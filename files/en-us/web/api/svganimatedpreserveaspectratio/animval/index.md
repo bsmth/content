@@ -4,9 +4,10 @@ short-title: animVal
 slug: Web/API/SVGAnimatedPreserveAspectRatio/animVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedPreserveAspectRatio.animVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animVal`** read-only property of the {{domxref("SVGAnimatedPreserveAspectRatio")}} interface represents the value of the {{SVGAttr("preserveAspectRatio")}} attribute of an SVG element after any animations or transformations are applied.
 

@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/RTCDtlsTransport/error_event
 page-type: web-api-event
 browser-compat: api.RTCDtlsTransport.error_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 An {{domxref("RTCDtlsTransport")}} receives an `error` event when a transport-level error occurs on the {{domxref("RTCPeerConnection")}}.
 

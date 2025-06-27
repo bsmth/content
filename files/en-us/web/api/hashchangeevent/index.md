@@ -3,9 +3,10 @@ title: HashChangeEvent
 slug: Web/API/HashChangeEvent
 page-type: web-api-interface
 browser-compat: api.HashChangeEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HashChangeEvent`** interface represents events that fire when the fragment identifier of the URL has changed.
 

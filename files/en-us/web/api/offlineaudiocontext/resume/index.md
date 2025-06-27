@@ -4,9 +4,10 @@ short-title: resume()
 slug: Web/API/OfflineAudioContext/resume
 page-type: web-api-instance-method
 browser-compat: api.OfflineAudioContext.resume
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`resume()`** method of the
 {{domxref("OfflineAudioContext")}} interface resumes the progression of time in an audio

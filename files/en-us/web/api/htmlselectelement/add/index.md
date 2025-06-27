@@ -4,9 +4,10 @@ short-title: add()
 slug: Web/API/HTMLSelectElement/add
 page-type: web-api-instance-method
 browser-compat: api.HTMLSelectElement.add
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLSelectElement.add()`** method adds an element to the
 collection of `option` elements for this `select` element.

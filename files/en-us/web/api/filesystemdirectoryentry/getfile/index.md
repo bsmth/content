@@ -4,9 +4,10 @@ short-title: getFile()
 slug: Web/API/FileSystemDirectoryEntry/getFile
 page-type: web-api-instance-method
 browser-compat: api.FileSystemDirectoryEntry.getFile
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The {{domxref("FileSystemDirectoryEntry")}} interface's method
 **`getFile()`** returns a

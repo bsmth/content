@@ -4,9 +4,12 @@ short-title: has()
 slug: Web/API/FontFaceSet/has
 page-type: web-api-instance-method
 browser-compat: api.FontFaceSet.has
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`has()`** method of the {{domxref("FontFaceSet")}} interface returns a {{jsxref("Boolean")}} asserting whether an element is present with the given value.
 

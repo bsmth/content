@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NDEFReadingEvent.serialNumber
+sidebar: apiref
 ---
 
-{{securecontext_header}}{{APIRef}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`serialNumber`** property of the {{domxref("NDEFReadingEvent")}} interface returns the serial number of the device, which is used for anti-collision and identification, or an empty string if no serial number is available.
 

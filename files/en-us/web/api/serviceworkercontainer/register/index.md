@@ -4,9 +4,12 @@ short-title: register()
 slug: Web/API/ServiceWorkerContainer/register
 page-type: web-api-instance-method
 browser-compat: api.ServiceWorkerContainer.register
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`register()`** method of the {{domxref("ServiceWorkerContainer")}} interface creates or updates a {{domxref("ServiceWorkerRegistration")}} for the given scope.
 If successful, the registration associates the provided script URL to a _scope_, which is subsequently used for matching documents to a specific service worker.

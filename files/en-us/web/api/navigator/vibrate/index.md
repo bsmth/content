@@ -4,9 +4,10 @@ short-title: vibrate()
 slug: Web/API/Navigator/vibrate
 page-type: web-api-instance-method
 browser-compat: api.Navigator.vibrate
+sidebar:
+  - apiref:
+      - Vibration API
 ---
-
-{{APIRef("Vibration API")}}
 
 The **`vibrate()`** method of the {{domxref("Navigator")}} interface pulses the vibration
 hardware on the device, if such hardware exists. If the device doesn't support

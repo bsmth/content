@@ -4,9 +4,10 @@ short-title: speak()
 slug: Web/API/SpeechSynthesis/speak
 page-type: web-api-instance-method
 browser-compat: api.SpeechSynthesis.speak
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`speak()`** method of the {{domxref("SpeechSynthesis")}}
 interface adds an {{domxref("SpeechSynthesisUtterance", "utterance")}} to the utterance

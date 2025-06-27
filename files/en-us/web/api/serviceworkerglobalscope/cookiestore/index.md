@@ -4,9 +4,10 @@ short-title: cookieStore
 slug: Web/API/ServiceWorkerGlobalScope/cookieStore
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerGlobalScope.cookieStore
+sidebar:
+  - apiref:
+      - Cookie Store API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Cookie Store API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`cookieStore`** read-only property of the {{domxref("ServiceWorkerGlobalScope")}} interface returns a reference to the {{domxref("CookieStore")}} object associated with this service worker.
 

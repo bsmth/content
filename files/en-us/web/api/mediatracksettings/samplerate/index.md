@@ -4,9 +4,10 @@ short-title: sampleRate
 slug: Web/API/MediaTrackSettings/sampleRate
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.sampleRate_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's
 **`sampleRate`** property is an integer indicating how many

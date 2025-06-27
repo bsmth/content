@@ -3,9 +3,10 @@ title: SVGPolygonElement
 slug: Web/API/SVGPolygonElement
 page-type: web-api-interface
 browser-compat: api.SVGPolygonElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGPolygonElement`** interface provides access to the properties of {{SVGElement("polygon")}} elements, as well as methods to manipulate them.
 

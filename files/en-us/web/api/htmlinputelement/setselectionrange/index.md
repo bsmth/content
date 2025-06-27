@@ -4,9 +4,10 @@ short-title: setSelectionRange()
 slug: Web/API/HTMLInputElement/setSelectionRange
 page-type: web-api-instance-method
 browser-compat: api.HTMLInputElement.setSelectionRange
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLInputElement.setSelectionRange()`** method sets the start and end positions of the current text selection in an {{HTMLElement("input")}} or {{HTMLElement("textarea")}} element.
 

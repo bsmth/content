@@ -4,9 +4,10 @@ short-title: webkitdirectory
 slug: Web/API/HTMLInputElement/webkitdirectory
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.webkitdirectory
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The **`webkitdirectory`** property of the {{domxref("HTMLInputElement")}} interface reflects the [`webkitdirectory`](/en-US/docs/Web/HTML/Reference/Elements/input/file#webkitdirectory) HTML attribute, which indicates that [`<input type="file">`](/en-US/docs/Web/HTML/Reference/Elements/input/file) elements should let the user select directories instead of files.
 

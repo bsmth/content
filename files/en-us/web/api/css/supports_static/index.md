@@ -4,9 +4,10 @@ short-title: supports()
 slug: Web/API/CSS/supports_static
 page-type: web-api-static-method
 browser-compat: api.CSS.supports_static
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSS.supports()`** static method returns a boolean value
 indicating if the browser supports a given CSS feature, or not.

@@ -4,9 +4,10 @@ short-title: ownerNode
 slug: Web/API/StyleSheet/ownerNode
 page-type: web-api-instance-property
 browser-compat: api.StyleSheet.ownerNode
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`ownerNode`** property of the
 {{domxref("StyleSheet")}} interface returns the node that associates this style sheet

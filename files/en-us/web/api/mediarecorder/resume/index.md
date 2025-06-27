@@ -4,9 +4,10 @@ short-title: resume()
 slug: Web/API/MediaRecorder/resume
 page-type: web-api-instance-method
 browser-compat: api.MediaRecorder.resume
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`resume()`** method of the {{domxref("MediaRecorder")}} interface is used to resume media recording when it has been previously paused.
 

@@ -4,9 +4,12 @@ short-title: authenticatorData
 slug: Web/API/AuthenticatorAssertionResponse/authenticatorData
 page-type: web-api-instance-property
 browser-compat: api.AuthenticatorAssertionResponse.authenticatorData
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{securecontext_header}}{{APIRef("Web Authentication API")}}
+{{securecontext_header}}
 
 The **`authenticatorData`** property of the {{domxref("AuthenticatorAssertionResponse")}} interface returns an {{jsxref("ArrayBuffer")}} containing information from the authenticator such as the Relying Party ID Hash (rpIdHash), a signature counter, test of user presence, user verification flags, and any extensions processed by the authenticator.
 

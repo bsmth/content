@@ -4,9 +4,10 @@ short-title: previousElementSibling
 slug: Web/API/CharacterData/previousElementSibling
 page-type: web-api-instance-property
 browser-compat: api.CharacterData.previousElementSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`previousElementSibling`** property of the {{domxref("CharacterData")}} interface
 returns the first {{domxref("Element")}} before the current node in its parent's children list,

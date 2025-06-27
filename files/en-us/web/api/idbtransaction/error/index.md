@@ -4,9 +4,12 @@ short-title: error
 slug: Web/API/IDBTransaction/error
 page-type: web-api-instance-property
 browser-compat: api.IDBTransaction.error
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`IDBTransaction.error`** property of the {{domxref("IDBTransaction")}} interface
 returns the type of error when there is an unsuccessful transaction.

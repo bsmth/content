@@ -4,9 +4,12 @@ short-title: mark()
 slug: Web/API/Performance/mark
 page-type: web-api-instance-method
 browser-compat: api.Performance.mark
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`mark()`** method creates a named {{domxref("PerformanceMark")}} object representing a high resolution timestamp marker in the browser's performance timeline.
 

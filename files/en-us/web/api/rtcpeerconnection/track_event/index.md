@@ -4,9 +4,10 @@ short-title: track
 slug: Web/API/RTCPeerConnection/track_event
 page-type: web-api-event
 browser-compat: api.RTCPeerConnection.track_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`track`** event is sent to the `ontrack` event handler on {{domxref("RTCPeerConnection")}}s after a new track has been added to an {{domxref("RTCRtpReceiver")}} which is part of the connection.
 

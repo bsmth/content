@@ -4,9 +4,10 @@ short-title: step
 slug: Web/API/HTMLInputElement/step
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.step
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`step`** property of the {{domxref("HTMLInputElement")}} interface indicates the step by which numeric or date-time {{HTMLElement("input")}} elements can change. It reflects the element's [`step`](/en-US/docs/Web/HTML/Reference/Elements/input#step) attribute. Valid values include the string `"any"` or a string containing a positive floating point number. If the attribute is not explicitly set, the `step` property is an empty string.
 

@@ -4,9 +4,10 @@ short-title: expires
 slug: Web/API/RTCCertificate/expires
 page-type: web-api-instance-property
 browser-compat: api.RTCCertificate.expires
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`expires`** property of the {{domxref("RTCCertificate")}} interface returns the expiration date of the certificate.
 

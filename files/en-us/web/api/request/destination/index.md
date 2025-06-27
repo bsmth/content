@@ -4,9 +4,12 @@ short-title: destination
 slug: Web/API/Request/destination
 page-type: web-api-instance-property
 browser-compat: api.Request.destination
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`destination`** read-only
 property of the **{{domxref("Request")}}** interface returns a string

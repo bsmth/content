@@ -4,9 +4,10 @@ short-title: newValueSpecifiedUnits()
 slug: Web/API/SVGAngle/newValueSpecifiedUnits
 page-type: web-api-instance-method
 browser-compat: api.SVGAngle.newValueSpecifiedUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `newValueSpecifiedUnits()` method of the {{domxref("SVGAngle")}} interface sets the value to a number with an associated {{domxref("SVGAngle.unitType", "unitType")}}, thereby replacing the values for all of the attributes on the object.
 

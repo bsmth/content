@@ -4,9 +4,10 @@ short-title: defaultValue
 slug: Web/API/HTMLTextAreaElement/defaultValue
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.defaultValue
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`defaultValue`** property of the {{DOMxRef("HTMLTextAreaElement")}} interface represents the default text content of this text area. Getting and setting this value is equivalent to getting and setting {{domxref("Node.textContent", "textContent")}} on the {{htmlelement("textarea")}}.
 

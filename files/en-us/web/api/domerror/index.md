@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - deprecated
 browser-compat: api.DOMError
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`DOMError`** interface describes an error object that contains an error name.
 

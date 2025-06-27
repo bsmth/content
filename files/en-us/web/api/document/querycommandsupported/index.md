@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Document.queryCommandSupported
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{ApiRef("DOM")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`Document.queryCommandSupported()`** method reports
 whether or not the specified editor command is supported by the browser.

@@ -4,9 +4,10 @@ short-title: toString()
 slug: Web/API/Location/toString
 page-type: web-api-instance-method
 browser-compat: api.Location.toString
+sidebar:
+  - apiref:
+      - Location
 ---
-
-{{ApiRef("Location")}}
 
 The **`toString()`** {{Glossary("stringifier")}} method of the
 {{domxref("Location")}} interface returns a string containing the

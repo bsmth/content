@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.CharacterBoundsUpdateEvent.CharacterBoundsUpdateEvent
+sidebar:
+  - apiref:
+      - CharacterBoundsUpdateEvent API
 ---
 
-{{APIRef("CharacterBoundsUpdateEvent API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`CharacterBoundsUpdateEvent()`** constructor returns a new {{DOMxRef("CharacterBoundsUpdateEvent")}} object.
 

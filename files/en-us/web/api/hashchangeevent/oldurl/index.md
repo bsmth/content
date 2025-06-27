@@ -4,9 +4,10 @@ short-title: oldURL
 slug: Web/API/HashChangeEvent/oldURL
 page-type: web-api-instance-property
 browser-compat: api.HashChangeEvent.oldURL
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`oldURL`** read-only property of the
 {{domxref("HashChangeEvent")}} interface returns the previous URL from which the window

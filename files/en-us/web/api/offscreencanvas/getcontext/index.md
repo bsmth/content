@@ -4,9 +4,12 @@ short-title: getContext()
 slug: Web/API/OffscreenCanvas/getContext
 page-type: web-api-instance-method
 browser-compat: api.OffscreenCanvas.getContext
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`OffscreenCanvas.getContext()`** method returns a drawing context for an offscreen canvas, or [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null) if the context identifier is not supported, or the offscreen canvas has already been set to a different context mode.
 

@@ -3,9 +3,10 @@ title: RTCDTMFToneChangeEvent
 slug: Web/API/RTCDTMFToneChangeEvent
 page-type: web-api-interface
 browser-compat: api.RTCDTMFToneChangeEvent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCDTMFToneChangeEvent`** interface represents events sent to indicate that {{Glossary("DTMF")}} tones have started or finished playing. This interface is used by the [`tonechange`](/en-US/docs/Web/API/RTCDTMFSender/tonechange_event) event.
 

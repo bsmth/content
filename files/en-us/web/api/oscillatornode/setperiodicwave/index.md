@@ -4,9 +4,10 @@ short-title: setPeriodicWave()
 slug: Web/API/OscillatorNode/setPeriodicWave
 page-type: web-api-instance-method
 browser-compat: api.OscillatorNode.setPeriodicWave
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`setPeriodicWave()`** method of the {{domxref("OscillatorNode")}} interface is used to point to a {{domxref("PeriodicWave")}}
 defining a periodic waveform that can be used to shape the oscillator's output, when

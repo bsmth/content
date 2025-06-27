@@ -4,9 +4,10 @@ short-title: ownerSVGElement
 slug: Web/API/SVGElement/ownerSVGElement
 page-type: web-api-instance-property
 browser-compat: api.SVGElement.ownerSVGElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`ownerSVGElement`** property of the {{DOMxRef("SVGElement")}} interface reflects the nearest ancestor {{SVGElement("svg")}} element. `null` if the given element is the outermost `<svg>` element.
 

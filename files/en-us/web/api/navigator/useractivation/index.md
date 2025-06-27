@@ -4,9 +4,10 @@ short-title: userActivation
 slug: Web/API/Navigator/userActivation
 page-type: web-api-instance-property
 browser-compat: api.Navigator.userActivation
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`userActivation`** property of the {{domxref("Navigator")}} interface returns a {{domxref("UserActivation")}} object which contains information about the current window's user activation state.
 

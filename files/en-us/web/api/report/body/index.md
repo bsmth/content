@@ -4,9 +4,12 @@ short-title: body
 slug: Web/API/Report/body
 page-type: web-api-instance-property
 browser-compat: api.Report.body
+sidebar:
+  - apiref:
+      - Reporting API
 ---
 
-{{APIRef("Reporting API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`body`** read-only property of the {{domxref("Report")}}
 interface returns the body of the report, which is a `ReportBody` object

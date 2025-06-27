@@ -4,9 +4,12 @@ short-title: abort()
 slug: Web/API/FileReader/abort
 page-type: web-api-instance-method
 browser-compat: api.FileReader.abort
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`abort()`** method of the {{domxref("FileReader")}} interface aborts the read operation. Upon return,
 the {{domxref("FileReader.readyState","readyState")}} will be `DONE`.

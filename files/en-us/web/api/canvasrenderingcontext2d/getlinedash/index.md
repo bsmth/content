@@ -4,9 +4,8 @@ short-title: getLineDash()
 slug: Web/API/CanvasRenderingContext2D/getLineDash
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.getLineDash
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`getLineDash()`** method of the Canvas 2D API's
 {{domxref("CanvasRenderingContext2D")}} interface gets the current line dash pattern.

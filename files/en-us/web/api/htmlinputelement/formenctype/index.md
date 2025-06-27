@@ -4,9 +4,10 @@ short-title: formEnctype
 slug: Web/API/HTMLInputElement/formEnctype
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.formEnctype
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`formEnctype`** property of the {{domxref("HTMLInputElement")}} interface is the {{Glossary("MIME_type", "MIME type")}} of the content sent to the server when the `<input>` with the `formEnctype` is the method of form submission. It reflects the value of the `<input>`'s [`formenctype`](/en-US/docs/Web/HTML/Reference/Elements/input#formenctype) attribute.
 

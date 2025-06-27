@@ -4,9 +4,12 @@ short-title: error
 slug: Web/API/WebSocket/error_event
 page-type: web-api-event
 browser-compat: api.WebSocket.error_event
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `error` event is fired when a connection with a `WebSocket` has been closed due to an error (some data couldn't be sent for example).
 

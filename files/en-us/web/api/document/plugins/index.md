@@ -4,9 +4,10 @@ short-title: plugins
 slug: Web/API/Document/plugins
 page-type: web-api-instance-property
 browser-compat: api.Document.plugins
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`plugins`** read-only property of the
 {{domxref("Document")}} interface returns an {{domxref("HTMLCollection")}} object

@@ -4,9 +4,10 @@ short-title: responsesSent
 slug: Web/API/RTCIceCandidatePairStats/responsesSent
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.responsesSent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`responsesSent`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the total number of {{Glossary("STUN")}} connectivity check responses that have been sent so far on the connection described by this pair of candidates.
 

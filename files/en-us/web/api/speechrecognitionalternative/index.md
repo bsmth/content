@@ -3,9 +3,10 @@ title: SpeechRecognitionAlternative
 slug: Web/API/SpeechRecognitionAlternative
 page-type: web-api-interface
 browser-compat: api.SpeechRecognitionAlternative
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`SpeechRecognitionAlternative`** interface of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) represents a single word that has been recognized by the speech recognition service.
 

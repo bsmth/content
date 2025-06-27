@@ -4,9 +4,10 @@ short-title: getCueAsHTML()
 slug: Web/API/VTTCue/getCueAsHTML
 page-type: web-api-instance-method
 browser-compat: api.VTTCue.getCueAsHTML
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`getCueAsHTML()`** method of the {{domxref("VTTCue")}} interface returns a {{domxref("DocumentFragment")}} containing the cue content.
 

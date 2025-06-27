@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.EditContext.selectionStart
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`selectionStart`** read-only property of the {{domxref("EditContext")}} refers to the offset, within the editable text content, of the start of the current selection.
 

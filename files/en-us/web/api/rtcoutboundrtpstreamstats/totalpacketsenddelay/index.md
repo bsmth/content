@@ -4,9 +4,10 @@ short-title: totalPacketSendDelay
 slug: Web/API/RTCOutboundRtpStreamStats/totalPacketSendDelay
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.totalPacketSendDelay
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`totalPacketSendDelay`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary represents the total time in seconds that packets have spent buffered locally before being transmitted.
 

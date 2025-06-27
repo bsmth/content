@@ -4,9 +4,12 @@ short-title: domainLookupStart
 slug: Web/API/PerformanceResourceTiming/domainLookupStart
 page-type: web-api-instance-property
 browser-compat: api.PerformanceResourceTiming.domainLookupStart
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`domainLookupStart`** read-only property returns the {{domxref("DOMHighResTimeStamp","timestamp")}} immediately before the browser starts the domain name lookup for the resource.
 

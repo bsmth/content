@@ -4,9 +4,12 @@ short-title: CSSSkewY()
 slug: Web/API/CSSSkewY/CSSSkewY
 page-type: web-api-constructor
 browser-compat: api.CSSSkewY.CSSSkewY
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
 
-{{APIRef("CSS Typed OM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`CSSSkewY()`** constructor creates a new
 {{domxref("CSSSkewY")}} object which represents the

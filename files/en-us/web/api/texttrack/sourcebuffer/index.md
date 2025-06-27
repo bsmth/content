@@ -4,9 +4,10 @@ short-title: sourceBuffer
 slug: Web/API/TextTrack/sourceBuffer
 page-type: web-api-instance-property
 browser-compat: api.TextTrack.sourceBuffer
+sidebar:
+  - apiref:
+      - Media Source Extensions
 ---
-
-{{APIRef("Media Source Extensions")}}
 
 The read-only **`sourceBuffer`** property of the {{domxref("TextTrack")}} interface returns the
 {{domxref("SourceBuffer")}} that created the track, or null if the track was not

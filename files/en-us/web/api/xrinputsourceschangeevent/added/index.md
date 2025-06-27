@@ -4,9 +4,12 @@ short-title: added
 slug: Web/API/XRInputSourcesChangeEvent/added
 page-type: web-api-instance-property
 browser-compat: api.XRInputSourcesChangeEvent.added
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRInputSourcesChangeEvent")}}
 property `added` is a list of zero or

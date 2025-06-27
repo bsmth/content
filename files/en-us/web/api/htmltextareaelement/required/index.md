@@ -4,9 +4,10 @@ short-title: required
 slug: Web/API/HTMLTextAreaElement/required
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.required
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`required`** property of the {{DOMxRef("HTMLTextAreaElement")}} interface specifies that the user must fill in a value before submitting a form. It reflects the {{htmlelement("textarea")}} element's [`required`](/en-US/docs/Web/HTML/Reference/Elements/textarea#required) attribute.
 

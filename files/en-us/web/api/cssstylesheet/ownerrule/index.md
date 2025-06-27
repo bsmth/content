@@ -4,9 +4,10 @@ short-title: ownerRule
 slug: Web/API/CSSStyleSheet/ownerRule
 page-type: web-api-instance-property
 browser-compat: api.CSSStyleSheet.ownerRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only {{domxref("CSSStyleSheet")}} property
 **`ownerRule`** returns the {{domxref("CSSImportRule")}}

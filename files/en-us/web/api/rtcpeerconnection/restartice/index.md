@@ -4,9 +4,10 @@ short-title: restartIce()
 slug: Web/API/RTCPeerConnection/restartIce
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.restartIce
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`restartIce()`** method of the {{domxref("RTCPeerConnection")}} interface allows a web application to request that {{Glossary("ICE")}} candidate gathering be redone on both ends of the connection.
 This simplifies the process by allowing the same method to be used by either the caller or the receiver to trigger an ICE restart.

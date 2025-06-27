@@ -4,9 +4,10 @@ short-title: systemLanguage
 slug: Web/API/SVGAnimationElement/systemLanguage
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimationElement.systemLanguage
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`systemLanguage`** read-only property of the {{domxref("SVGAnimationElement")}} interface reflects the {{SVGAttr("systemLanguage")}} attribute of the given element.
 

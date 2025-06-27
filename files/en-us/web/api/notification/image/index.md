@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Notification.image
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{SecureContext_Header}}{{SeeCompatTable}} {{AvailableInWorkers}}
+{{SecureContext_Header}}{{SeeCompatTable}} {{AvailableInWorkers}}
 
 The **`image`** read-only property of the
 {{domxref("Notification")}} interface contains the URL of an image to be displayed as

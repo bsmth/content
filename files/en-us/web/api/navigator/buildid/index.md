@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.Navigator.buildID
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{ApiRef("HTML DOM")}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 Returns the build identifier of the browser. In modern browsers this property now returns a fixed timestamp as a privacy measure, e.g., `20181001000000` in Firefox 64 onwards.
 

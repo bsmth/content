@@ -4,9 +4,10 @@ short-title: postMessage()
 slug: Web/API/Window/postMessage
 page-type: web-api-instance-method
 browser-compat: api.Window.postMessage
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`window.postMessage()`** method safely enables cross-origin communication between {{domxref("Window")}} objects; _e.g.,_ between a page and a pop-up that it spawned, or between a page and an iframe embedded within it.
 

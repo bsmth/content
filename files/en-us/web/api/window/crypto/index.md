@@ -4,9 +4,10 @@ short-title: crypto
 slug: Web/API/Window/crypto
 page-type: web-api-instance-property
 browser-compat: api.crypto
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
-
-{{APIRef("Web Crypto API")}}
 
 The **`crypto`** read-only property of the {{domxref("Window")}} interface returns the {{domxref("Crypto")}} object for this window's scope. This object gives web pages access to certain cryptographic related services.
 

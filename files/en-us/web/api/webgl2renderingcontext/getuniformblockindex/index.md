@@ -4,9 +4,12 @@ short-title: getUniformBlockIndex()
 slug: Web/API/WebGL2RenderingContext/getUniformBlockIndex
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.getUniformBlockIndex
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.getUniformBlockIndex()`** method
 of the [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) retrieves the index of

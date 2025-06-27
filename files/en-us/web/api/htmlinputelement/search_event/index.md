@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - non-standard
 browser-compat: api.HTMLInputElement.search_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{non-standard_header}}
+{{non-standard_header}}
 
 The **`search`** event is fired when a search is initiated using an {{HTMLElement("input")}} element of `type="search"`.
 

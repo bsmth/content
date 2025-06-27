@@ -4,9 +4,10 @@ short-title: PannerNode()
 slug: Web/API/PannerNode/PannerNode
 page-type: web-api-constructor
 browser-compat: api.PannerNode.PannerNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`PannerNode()`** constructor of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new {{domxref("PannerNode")}} object instance.
 

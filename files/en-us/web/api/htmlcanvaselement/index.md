@@ -3,9 +3,10 @@ title: HTMLCanvasElement
 slug: Web/API/HTMLCanvasElement
 page-type: web-api-interface
 browser-compat: api.HTMLCanvasElement
+sidebar:
+  - apiref:
+      - Canvas API
 ---
-
-{{APIRef("Canvas API")}}
 
 The **`HTMLCanvasElement`** interface provides properties and methods for manipulating the layout and presentation of {{HtmlElement("canvas")}} elements. The `HTMLCanvasElement` interface also inherits the properties and methods of the {{domxref("HTMLElement")}} interface.
 

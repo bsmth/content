@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.PresentationConnectionAvailableEvent
+sidebar:
+  - apiref:
+      - Presentation API
 ---
 
-{{SeeCompatTable}}{{securecontext_header}}{{APIRef("Presentation API")}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`PresentationConnectionAvailableEvent`** interface of the [Presentation API](/en-US/docs/Web/API/Presentation_API) is fired on a {{domxref("PresentationRequest")}} when a connection associated with the object is created.
 

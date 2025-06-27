@@ -4,9 +4,10 @@ short-title: baseVal
 slug: Web/API/SVGAnimatedBoolean/baseVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedBoolean.baseVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`baseVal`** property of the {{domxref("SVGAnimatedBoolean")}} interface is the value of the associated animatable boolean SVG attribute in its base (none-animated) state. It reflects the value of the associated animatable boolean attribute when no animations are applied.
 

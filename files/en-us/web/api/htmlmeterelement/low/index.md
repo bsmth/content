@@ -4,9 +4,10 @@ short-title: low
 slug: Web/API/HTMLMeterElement/low
 page-type: web-api-instance-property
 browser-compat: api.HTMLMeterElement.low
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`low`** property of the {{DOMxRef("HTMLMeterElement")}} interface represents the low boundary of the {{htmlelement("meter")}} element as a floating-point number. It reflects the element's [`low`](/en-US/docs/Web/HTML/Reference/Elements/meter#low) attribute, or the value of `min` if not defined. The value of `low` is clamped by the `min` and `max` values.
 

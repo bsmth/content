@@ -4,9 +4,10 @@ short-title: elementsFromPoint()
 slug: Web/API/Document/elementsFromPoint
 page-type: web-api-instance-method
 browser-compat: api.Document.elementsFromPoint
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`elementsFromPoint()`** method
 of the {{domxref("Document")}} interface returns an array of all elements

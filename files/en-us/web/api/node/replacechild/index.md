@@ -4,9 +4,10 @@ short-title: replaceChild()
 slug: Web/API/Node/replaceChild
 page-type: web-api-instance-method
 browser-compat: api.Node.replaceChild
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`replaceChild()`** method of the {{domxref("Node")}} interface replaces a child node within the given (parent) node.
 

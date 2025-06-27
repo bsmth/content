@@ -4,9 +4,12 @@ short-title: locked
 slug: Web/API/ReadableStream/locked
 page-type: web-api-instance-property
 browser-compat: api.ReadableStream.locked
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`locked`** read-only property of the {{domxref("ReadableStream")}} interface returns whether or not the readable stream is locked to a reader.
 

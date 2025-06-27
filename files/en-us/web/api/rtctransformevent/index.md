@@ -3,9 +3,10 @@ title: RTCTransformEvent
 slug: Web/API/RTCTransformEvent
 page-type: web-api-interface
 browser-compat: api.RTCTransformEvent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCTransformEvent`** of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) represent an event that is fired in a dedicated worker when an encoded frame has been queued for processing by a [WebRTC Encoded Transform](/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms).
 

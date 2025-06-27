@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - experimental
 browser-compat: api.RestrictionTarget.fromElement_static
+sidebar:
+  - apiref:
+      - Screen Capture API
 ---
 
-{{APIRef("Screen Capture API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`fromElement()`** static method of the {{domxref("RestrictionTarget")}} interface returns a {{domxref("RestrictionTarget")}} instance that can be used to restrict a captured video track to a specified DOM element (plus its descendants).
 

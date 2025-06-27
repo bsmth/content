@@ -4,9 +4,10 @@ short-title: validity
 slug: Web/API/HTMLOutputElement/validity
 page-type: web-api-instance-property
 browser-compat: api.HTMLOutputElement.validity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validity`** read-only property of the {{domxref("HTMLOutputElement")}} interface returns a {{domxref("ValidityState")}} object that represents the validity states this element is in. Although {{HTMLElement("output")}} elements are never candidates for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation), the validity state may still be invalid if a custom validity message has been set.
 

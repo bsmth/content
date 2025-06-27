@@ -4,9 +4,10 @@ short-title: consolidate()
 slug: Web/API/SVGTransformList/consolidate
 page-type: web-api-instance-method
 browser-compat: api.SVGTransformList.consolidate
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `consolidate()` method of the {{domxref("SVGTransformList")}} interface consolidates the list of separate {{domxref("SVGTransform")}} objects by multiplying the equivalent transformation matrices together to result in a list consisting of a single `SVGTransform` object of type `SVG_TRANSFORM_MATRIX`.
 

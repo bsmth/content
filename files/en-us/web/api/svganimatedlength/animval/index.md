@@ -4,9 +4,10 @@ short-title: animVal
 slug: Web/API/SVGAnimatedLength/animVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedLength.animVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animVal`** property of the {{domxref("SVGAnimatedLength")}} interface contains the current value of an SVG enumeration. If there is no animation, it is the same value as the {{domxref("SVGAnimatedLength.baseVal", "baseVal")}}.
 

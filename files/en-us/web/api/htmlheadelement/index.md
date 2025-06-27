@@ -3,9 +3,10 @@ title: HTMLHeadElement
 slug: Web/API/HTMLHeadElement
 page-type: web-api-interface
 browser-compat: api.HTMLHeadElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLHeadElement`** interface contains the descriptive information, or metadata, for a document. This object inherits all of the properties and methods described in the {{domxref("HTMLElement")}} interface.
 

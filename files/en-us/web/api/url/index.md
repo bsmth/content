@@ -3,9 +3,12 @@ title: URL
 slug: Web/API/URL
 page-type: web-api-interface
 browser-compat: api.URL
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`URL`** interface is used to parse, construct, normalize, and encode {{glossary("URL", "URLs")}}. It works by providing properties which allow you to easily read and modify the components of a URL.
 

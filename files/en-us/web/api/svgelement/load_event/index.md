@@ -4,9 +4,10 @@ short-title: load
 slug: Web/API/SVGElement/load_event
 page-type: web-api-event
 browser-compat: api.SVGElement.load_event
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `load` event fires on an `SVGElement` when it is loaded in the browser, e.g., in the DOM in the case of an embedded `<svg>`. It is basically the same as the standard `load` DOM event.
 

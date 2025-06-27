@@ -4,9 +4,8 @@ short-title: transform()
 slug: Web/API/CanvasRenderingContext2D/transform
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.transform
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.transform()`**

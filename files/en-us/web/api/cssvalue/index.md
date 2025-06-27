@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - deprecated
 browser-compat: api.CSSValue
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`CSSValue`** interface represents the current computed value of a CSS property.
 

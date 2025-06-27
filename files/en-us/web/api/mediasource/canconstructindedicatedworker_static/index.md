@@ -4,9 +4,10 @@ short-title: canConstructInDedicatedWorker
 slug: Web/API/MediaSource/canConstructInDedicatedWorker_static
 page-type: web-api-static-property
 browser-compat: api.MediaSource.canConstructInDedicatedWorker_static
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`canConstructInDedicatedWorker`** static property of the {{domxref("MediaSource")}} interface returns `true` if `MediaSource` worker support is implemented, providing a low-latency feature detection mechanism.
 

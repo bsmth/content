@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Attr.specified
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Deprecated_header}}
+{{Deprecated_header}}
 
 The read-only **`specified`** property of the {{domxref("Attr")}} interface always returns `true`.
 

@@ -3,9 +3,10 @@ title: OfflineAudioCompletionEvent
 slug: Web/API/OfflineAudioCompletionEvent
 page-type: web-api-interface
 browser-compat: api.OfflineAudioCompletionEvent
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) `OfflineAudioCompletionEvent` interface represents events that occur when the processing of an {{domxref("OfflineAudioContext")}} is terminated. The {{domxref("OfflineAudioContext/complete_event", "complete")}} event uses this interface.
 

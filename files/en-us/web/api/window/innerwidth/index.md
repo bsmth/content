@@ -4,9 +4,8 @@ short-title: innerWidth
 slug: Web/API/Window/innerWidth
 page-type: web-api-instance-property
 browser-compat: api.Window.innerWidth
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The read-only {{domxref("Window")}} property **`innerWidth`** returns the interior width of the window in pixels (that is, the width of the window's {{Glossary("layout viewport")}}). That includes the width of the vertical scroll bar, if one is present.
 

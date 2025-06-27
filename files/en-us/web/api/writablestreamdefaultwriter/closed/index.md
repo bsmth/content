@@ -4,9 +4,12 @@ short-title: closed
 slug: Web/API/WritableStreamDefaultWriter/closed
 page-type: web-api-instance-property
 browser-compat: api.WritableStreamDefaultWriter.closed
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`closed`** read-only property of the
 {{domxref("WritableStreamDefaultWriter")}} interface returns a

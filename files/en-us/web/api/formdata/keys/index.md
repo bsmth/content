@@ -4,9 +4,12 @@ short-title: keys()
 slug: Web/API/FormData/keys
 page-type: web-api-instance-method
 browser-compat: api.FormData.keys
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FormData.keys()`** method returns an [iterator](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) which iterates through all keys contained in the {{domxref("FormData")}}. The keys are strings.
 

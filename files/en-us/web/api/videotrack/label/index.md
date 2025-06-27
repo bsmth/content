@@ -4,9 +4,10 @@ short-title: label
 slug: Web/API/VideoTrack/label
 page-type: web-api-instance-property
 browser-compat: api.VideoTrack.label
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **{{domxref("VideoTrack")}}**
 property **`label`** returns a string specifying the video

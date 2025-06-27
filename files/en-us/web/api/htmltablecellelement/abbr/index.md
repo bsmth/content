@@ -4,9 +4,10 @@ short-title: abbr
 slug: Web/API/HTMLTableCellElement/abbr
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableCellElement.abbr
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`abbr`** property of the {{domxref("HTMLTableCellElement")}} interface
 indicates an abbreviation associated with the cell. If the cell does not represent a header cell {{HTMLElement("th")}}, it is ignored.

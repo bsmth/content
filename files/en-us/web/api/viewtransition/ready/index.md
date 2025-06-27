@@ -4,9 +4,10 @@ short-title: ready
 slug: Web/API/ViewTransition/ready
 page-type: web-api-instance-property
 browser-compat: api.ViewTransition.ready
+sidebar:
+  - apiref:
+      - View Transition API
 ---
-
-{{APIRef("View Transition API")}}
 
 The **`ready`** read-only property of the
 {{domxref("ViewTransition")}} interface is a {{jsxref("Promise")}} that fulfills once the pseudo-element tree is created and the transition animation is about to start.

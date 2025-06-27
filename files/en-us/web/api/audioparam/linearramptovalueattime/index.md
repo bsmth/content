@@ -4,9 +4,10 @@ short-title: linearRampToValueAtTime()
 slug: Web/API/AudioParam/linearRampToValueAtTime
 page-type: web-api-instance-method
 browser-compat: api.AudioParam.linearRampToValueAtTime
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `linearRampToValueAtTime()` method of the {{ domxref("AudioParam") }}
 Interface schedules a gradual linear change in the value of the

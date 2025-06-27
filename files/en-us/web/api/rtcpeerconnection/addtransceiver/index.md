@@ -4,9 +4,10 @@ short-title: addTransceiver()
 slug: Web/API/RTCPeerConnection/addTransceiver
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.addTransceiver
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`addTransceiver()`** method of the {{domxref("RTCPeerConnection")}} interface creates a new {{domxref("RTCRtpTransceiver")}} and adds it to the set of transceivers associated with the `RTCPeerConnection`.
 Each transceiver represents a bidirectional stream, with both an {{domxref("RTCRtpSender")}} and an {{domxref("RTCRtpReceiver")}} associated with it.

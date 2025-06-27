@@ -4,9 +4,12 @@ short-title: flush()
 slug: Web/API/FileSystemSyncAccessHandle/flush
 page-type: web-api-instance-method
 browser-compat: api.FileSystemSyncAccessHandle.flush
+sidebar:
+  - apiref:
+      - File System API")}}{{AvailableInWorkers("dedicated
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers("dedicated")}}
+{{securecontext_header}}
 
 The **`flush()`** method of the
 {{domxref("FileSystemSyncAccessHandle")}} interface persists any changes made to the file associated with the handle via the {{domxref('FileSystemSyncAccessHandle.write', 'write()')}} method to disk.

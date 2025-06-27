@@ -4,9 +4,12 @@ short-title: forEach()
 slug: Web/API/URLSearchParams/forEach
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.forEach
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`forEach()`** method of the
 {{domxref("URLSearchParams")}} interface allows iteration through all values contained

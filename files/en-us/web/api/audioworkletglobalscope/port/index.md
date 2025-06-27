@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.AudioWorkletGlobalScope.port
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`port`** read-only property of the {{domxref("AudioWorkletGlobalScope")}} interface returns a {{domxref("MessagePort")}} object that can be used to send and receive messages between the main thread and the associated {{domxref("AudioWorklet")}}.
 

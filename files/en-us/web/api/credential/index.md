@@ -3,9 +3,12 @@ title: Credential
 slug: Web/API/Credential
 page-type: web-api-interface
 browser-compat: api.Credential
+sidebar:
+  - apiref:
+      - Credential Management API
 ---
 
-{{APIRef("Credential Management API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`Credential`** interface of the [Credential Management API](/en-US/docs/Web/API/Credential_Management_API) provides information about an entity (usually a user) normally as a prerequisite to a trust decision.
 

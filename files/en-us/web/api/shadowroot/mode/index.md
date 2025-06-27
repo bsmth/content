@@ -4,9 +4,10 @@ short-title: mode
 slug: Web/API/ShadowRoot/mode
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.mode
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The **`mode`** read-only property of the {{domxref("ShadowRoot")}} specifies its mode — either `open` or `closed`.
 This defines whether or not the shadow root's internal features are accessible from JavaScript.

@@ -4,9 +4,10 @@ short-title: supports()
 slug: Web/API/HTMLScriptElement/supports_static
 page-type: web-api-static-method
 browser-compat: api.HTMLScriptElement.supports_static
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`supports()`** static method of the {{domxref("HTMLScriptElement")}} interface provides a simple and consistent method to feature-detect what types of scripts are supported by the user agent.
 

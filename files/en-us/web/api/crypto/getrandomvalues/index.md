@@ -4,9 +4,12 @@ short-title: getRandomValues()
 slug: Web/API/Crypto/getRandomValues
 page-type: web-api-instance-method
 browser-compat: api.Crypto.getRandomValues
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Crypto.getRandomValues()`** method lets you get cryptographically strong random values.
 The array given as the parameter is filled with random numbers (random in its cryptographic meaning).

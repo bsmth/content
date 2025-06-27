@@ -4,9 +4,10 @@ short-title: formTarget
 slug: Web/API/HTMLButtonElement/formTarget
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.formTarget
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`formTarget`** property of the {{domxref("HTMLButtonElement")}} interface is the tab, window, or iframe where the response of the submitted {{HtmlElement("form")}} is to be displayed. It reflects the value of the {{HTMLElement("button")}} element's [`formtarget`](/en-US/docs/Web/HTML/Reference/Elements/button#formtarget) attribute.
 

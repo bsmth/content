@@ -4,9 +4,12 @@ short-title: toString()
 slug: Web/API/URL/toString
 page-type: web-api-instance-method
 browser-compat: api.URL.toString
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`toString()`** method of the {{domxref("URL")}} interface returns a
 string containing the whole URL. It is effectively a read-only version

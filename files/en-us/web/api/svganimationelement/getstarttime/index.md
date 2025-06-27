@@ -4,9 +4,10 @@ short-title: getStartTime()
 slug: Web/API/SVGAnimationElement/getStartTime
 page-type: web-api-instance-method
 browser-compat: api.SVGAnimationElement.getStartTime
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The {{domxref("SVGAnimationElement")}} method `getStartTime()` returns a float representing the start time, in seconds, for this animation element's current interval, if it exists, regardless of whether the interval has begun yet.
 

@@ -4,9 +4,12 @@ short-title: deleteRenderbuffer()
 slug: Web/API/WebGLRenderingContext/deleteRenderbuffer
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.deleteRenderbuffer
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.deleteRenderbuffer()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) deletes a given

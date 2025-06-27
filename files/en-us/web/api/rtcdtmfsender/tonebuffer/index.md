@@ -4,9 +4,10 @@ short-title: toneBuffer
 slug: Web/API/RTCDTMFSender/toneBuffer
 page-type: web-api-instance-property
 browser-compat: api.RTCDTMFSender.toneBuffer
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCDTMFSender")}} interface's toneBuffer property returns a string
 containing a list of the {{Glossary("DTMF")}} tones currently queued for sending to the

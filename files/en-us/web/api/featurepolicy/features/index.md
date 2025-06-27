@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.FeaturePolicy.features
+sidebar:
+  - apiref:
+      - Feature Policy API
 ---
 
-{{APIRef("Feature Policy API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`features()`** method of the
 {{DOMxRef("FeaturePolicy")}} interface returns a list of names of all features

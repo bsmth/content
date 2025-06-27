@@ -4,9 +4,10 @@ short-title: positionX
 slug: Web/API/PannerNode/positionX
 page-type: web-api-instance-property
 browser-compat: api.PannerNode.positionX
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`positionX`** property of the {{ domxref("PannerNode")}} interface specifies the X coordinate of the audio source's position in 3D Cartesian
 coordinates, corresponding to the _horizontal_ axis (left-right).

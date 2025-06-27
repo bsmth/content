@@ -4,9 +4,10 @@ short-title: shadowRootDelegatesFocus
 slug: Web/API/HTMLTemplateElement/shadowRootDelegatesFocus
 page-type: web-api-instance-property
 browser-compat: api.HTMLTemplateElement.shadowRootDelegatesFocus
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`shadowRootDelegatesFocus`** property of the {{domxref("HTMLTemplateElement")}} interface reflects the value of the [`shadowrootdelegatesfocus`](/en-US/docs/Web/HTML/Reference/Elements/template#shadowrootdelegatesfocus) attribute of the associated [`<template>`](/en-US/docs/Web/HTML/Reference/Elements/template) element.
 

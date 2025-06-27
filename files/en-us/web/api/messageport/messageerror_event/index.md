@@ -4,9 +4,12 @@ short-title: messageerror
 slug: Web/API/MessagePort/messageerror_event
 page-type: web-api-event
 browser-compat: api.MessagePort.messageerror_event
+sidebar:
+  - apiref:
+      - Channel Messaging API
 ---
 
-{{APIRef("Channel Messaging API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`messageerror`** event is fired on a {{domxref('MessagePort')}} object when it receives a message that can't be deserialized.
 

@@ -3,9 +3,12 @@ title: MessagePort
 slug: Web/API/MessagePort
 page-type: web-api-interface
 browser-compat: api.MessagePort
+sidebar:
+  - apiref:
+      - Channel Messaging API
 ---
 
-{{APIRef("Channel Messaging API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`MessagePort`** interface of the [Channel Messaging API](/en-US/docs/Web/API/Channel_Messaging_API) represents one of the two ports of a {{domxref("MessageChannel")}}, allowing messages to be sent from one port and listening out for them arriving at the other.
 

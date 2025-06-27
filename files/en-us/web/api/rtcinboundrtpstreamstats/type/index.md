@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCInboundRtpStreamStats/type
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`type`** property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary is a string with the value `"inbound-rtp"`.
 

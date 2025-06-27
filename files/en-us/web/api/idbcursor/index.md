@@ -3,9 +3,12 @@ title: IDBCursor
 slug: Web/API/IDBCursor
 page-type: web-api-interface
 browser-compat: api.IDBCursor
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 > [!NOTE]
 > Not to be confused with {{domxref("IDBCursorWithValue")}} which is just an **`IDBCursor`** interface with an additional **`value`** property.

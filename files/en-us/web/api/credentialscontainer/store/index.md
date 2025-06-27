@@ -4,9 +4,12 @@ short-title: store()
 slug: Web/API/CredentialsContainer/store
 page-type: web-api-instance-method
 browser-compat: api.CredentialsContainer.store
+sidebar:
+  - apiref:
+      - Credential Management API
 ---
 
-{{APIRef("Credential Management API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`store()`** method of the
 {{domxref("CredentialsContainer")}} stores a set of credentials for the user inside a

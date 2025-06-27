@@ -4,9 +4,10 @@ short-title: cssText
 slug: Web/API/CSSStyleDeclaration/cssText
 page-type: web-api-instance-property
 browser-compat: api.CSSStyleDeclaration.cssText
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`cssText`** property of the {{domxref("CSSStyleDeclaration")}} interface returns or sets the text of the element's **inline** style declaration only.
 

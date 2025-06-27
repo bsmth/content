@@ -4,9 +4,12 @@ short-title: blob()
 slug: Web/API/Request/blob
 page-type: web-api-instance-method
 browser-compat: api.Request.blob
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`blob()`** method of the {{domxref("Request")}} interface
 reads the request body and returns it as a promise that resolves with a {{domxref("Blob")}}.

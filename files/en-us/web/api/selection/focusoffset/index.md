@@ -4,9 +4,10 @@ short-title: focusOffset
 slug: Web/API/Selection/focusOffset
 page-type: web-api-instance-property
 browser-compat: api.Selection.focusOffset
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.focusOffset`** read-only property returns the
 number of characters that the selection's focus is offset within the

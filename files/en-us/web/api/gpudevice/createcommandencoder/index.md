@@ -4,9 +4,12 @@ short-title: createCommandEncoder()
 slug: Web/API/GPUDevice/createCommandEncoder
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.createCommandEncoder
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createCommandEncoder()`** method of the
 {{domxref("GPUDevice")}} interface creates a {{domxref("GPUCommandEncoder")}}, used to encode commands to be issued to the GPU.

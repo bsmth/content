@@ -3,9 +3,10 @@ title: Comment
 slug: Web/API/Comment
 page-type: web-api-interface
 browser-compat: api.Comment
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Comment`** interface represents textual notations within markup; although it is generally not visually shown, such comments are available to be read in the source view.
 

@@ -4,9 +4,12 @@ short-title: matrixTransform()
 slug: Web/API/DOMPointReadOnly/matrixTransform
 page-type: web-api-instance-method
 browser-compat: api.DOMPointReadOnly.matrixTransform
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`matrixTransform()`** method of the {{domxref("DOMPointReadOnly")}} interface applies a matrix transform specified as an object to the DOMPointReadOnly object, creating and returning a new `DOMPointReadOnly` object. Neither the matrix nor the point are altered.
 

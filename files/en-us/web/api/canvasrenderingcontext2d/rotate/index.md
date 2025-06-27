@@ -4,9 +4,8 @@ short-title: rotate()
 slug: Web/API/CanvasRenderingContext2D/rotate
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.rotate
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.rotate()`**

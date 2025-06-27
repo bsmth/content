@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/SVGFEColorMatrixElement/type
 page-type: web-api-instance-property
 browser-compat: api.SVGFEColorMatrixElement.type
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`type`** read-only property of the {{domxref("SVGFEColorMatrixElement")}} interface reflects the {{SVGAttr("type")}} attribute of the given element. It takes one of the `SVG_FECOLORMATRIX_TYPE_*` constants defined on this interface.
 

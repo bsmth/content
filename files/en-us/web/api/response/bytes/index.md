@@ -4,9 +4,12 @@ short-title: bytes()
 slug: Web/API/Response/bytes
 page-type: web-api-instance-method
 browser-compat: api.Response.bytes
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`bytes()`** method of the {{domxref("Response")}} interface takes a {{domxref("Response")}} stream and reads it to completion.
 It returns a promise that resolves with a {{jsxref("Uint8Array")}}.

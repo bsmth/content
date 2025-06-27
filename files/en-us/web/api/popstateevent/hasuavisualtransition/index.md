@@ -4,9 +4,10 @@ short-title: hasUAVisualTransition
 slug: Web/API/PopStateEvent/hasUAVisualTransition
 page-type: web-api-instance-property
 browser-compat: api.PopStateEvent.hasUAVisualTransition
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`hasUAVisualTransition`** read-only property of the {{domxref("PopStateEvent")}} interface returns `true` if the user agent performed a visual transition for this navigation before dispatching this event, or `false` otherwise.
 

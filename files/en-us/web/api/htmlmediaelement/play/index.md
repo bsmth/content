@@ -4,9 +4,10 @@ short-title: play()
 slug: Web/API/HTMLMediaElement/play
 page-type: web-api-instance-method
 browser-compat: api.HTMLMediaElement.play
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLMediaElement")}}
 **`play()`** method attempts to begin playback of the media.

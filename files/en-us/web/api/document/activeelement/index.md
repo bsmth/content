@@ -4,9 +4,10 @@ short-title: activeElement
 slug: Web/API/Document/activeElement
 page-type: web-api-instance-property
 browser-compat: api.Document.activeElement
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`activeElement`** read-only property of the {{domxref("Document")}} interface returns the {{domxref("Element")}} within the DOM that is receiving keyboard events such as {{domxref("Element/keydown_event", "keydown")}} and {{domxref("Element/keyup_event", "keyup")}}. This is usually analogous to the focused element.
 

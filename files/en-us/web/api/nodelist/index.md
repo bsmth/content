@@ -3,9 +3,10 @@ title: NodeList
 slug: Web/API/NodeList
 page-type: web-api-interface
 browser-compat: api.NodeList
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 **`NodeList`** objects are collections of [nodes](/en-US/docs/Web/API/Node), usually returned by properties such as {{domxref("Node.childNodes")}} and methods such as {{domxref("document.querySelectorAll()")}}.
 

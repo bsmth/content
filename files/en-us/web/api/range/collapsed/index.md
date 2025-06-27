@@ -4,9 +4,10 @@ short-title: collapsed
 slug: Web/API/Range/collapsed
 page-type: web-api-instance-property
 browser-compat: api.Range.collapsed
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`Range.collapsed`** read-only property returns a
 boolean flag indicating whether the start and end points of the

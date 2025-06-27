@@ -4,9 +4,12 @@ short-title: y
 slug: Web/API/Gyroscope/y
 page-type: web-api-instance-property
 browser-compat: api.Gyroscope.y
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`y`** read-only property of the {{domxref("Gyroscope")}} interface returns a number specifying the angular velocity of the device along its y-axis.
 

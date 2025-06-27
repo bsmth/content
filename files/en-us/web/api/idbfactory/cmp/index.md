@@ -4,9 +4,12 @@ short-title: cmp()
 slug: Web/API/IDBFactory/cmp
 page-type: web-api-instance-method
 browser-compat: api.IDBFactory.cmp
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`cmp()`** method of the {{domxref("IDBFactory")}}
 interface compares two values as keys to determine equality and ordering for IndexedDB

@@ -4,9 +4,12 @@ short-title: isContextLost()
 slug: Web/API/WebGLRenderingContext/isContextLost
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.isContextLost
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The
 **`WebGLRenderingContext.isContextLost()`** method returns a

@@ -4,9 +4,10 @@ short-title: implementation
 slug: Web/API/Document/implementation
 page-type: web-api-instance-property
 browser-compat: api.Document.implementation
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Document.implementation`** property returns a
 {{domxref("DOMImplementation")}} object associated with the current document.

@@ -4,9 +4,10 @@ short-title: setLocalDescription()
 slug: Web/API/RTCPeerConnection/setLocalDescription
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.setLocalDescription
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`setLocalDescription()`** method of the {{domxref("RTCPeerConnection")}} interface changes the local description associated with the connection.
 This description specifies the properties of the local end of the connection, including the media format.

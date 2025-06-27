@@ -3,9 +3,12 @@ title: GPUCommandEncoder
 slug: Web/API/GPUCommandEncoder
 page-type: web-api-interface
 browser-compat: api.GPUCommandEncoder
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUCommandEncoder`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} represents an encoder that collects a sequence of GPU commands to be issued to the GPU.
 

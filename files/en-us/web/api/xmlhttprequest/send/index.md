@@ -4,9 +4,10 @@ short-title: send()
 slug: Web/API/XMLHttpRequest/send
 page-type: web-api-instance-method
 browser-compat: api.XMLHttpRequest.send
+sidebar:
+  - apiref:
+      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service")}}
 
 The {{domxref("XMLHttpRequest")}} method
 **`send()`** sends the request to the server.

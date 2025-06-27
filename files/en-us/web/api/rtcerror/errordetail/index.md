@@ -4,9 +4,10 @@ short-title: errorDetail
 slug: Web/API/RTCError/errorDetail
 page-type: web-api-instance-property
 browser-compat: api.RTCError.errorDetail
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCError")}} interface's read-only
 **`errorDetail`** property is a string indicating the [WebRTC](/en-US/docs/Web/API/WebRTC_API)-specific error code that occurred.

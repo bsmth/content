@@ -4,9 +4,10 @@ short-title: getRootNode()
 slug: Web/API/Node/getRootNode
 page-type: web-api-instance-method
 browser-compat: api.Node.getRootNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`getRootNode()`** method of the {{domxref("Node")}} interface
 returns the context object's root,

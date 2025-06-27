@@ -4,9 +4,12 @@ short-title: lost
 slug: Web/API/GPUDevice/lost
 page-type: web-api-instance-property
 browser-compat: api.GPUDevice.lost
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`lost`** read-only property of the
 {{domxref("GPUDevice")}} interface contains a {{jsxref("Promise")}} that remains pending throughout the device's lifetime and resolves with a {{domxref("GPUDeviceLostInfo")}} object when the device is lost.

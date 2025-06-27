@@ -3,9 +3,10 @@ title: KeyframeEffect
 slug: Web/API/KeyframeEffect
 page-type: web-api-interface
 browser-compat: api.KeyframeEffect
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`KeyframeEffect`** interface of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) lets us create sets of animatable properties and values, called **keyframes.** These can then be played using the {{domxref("Animation.Animation", "Animation()")}} constructor.
 

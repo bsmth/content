@@ -4,9 +4,12 @@ short-title: canvas
 slug: Web/API/WebGLRenderingContext/canvas
 page-type: web-api-instance-property
 browser-compat: api.WebGLRenderingContext.canvas
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.canvas`** property is a read-only
 reference to the {{domxref("HTMLCanvasElement")}} or {{domxref("OffscreenCanvas")}}

@@ -3,9 +3,10 @@ title: CSSAnimation
 slug: Web/API/CSSAnimation
 page-type: web-api-interface
 browser-compat: api.CSSAnimation
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`CSSAnimation`** interface of the {{domxref('Web Animations API','','',' ')}} represents an {{domxref("Animation")}} object.
 

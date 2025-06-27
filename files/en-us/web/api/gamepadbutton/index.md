@@ -3,9 +3,12 @@ title: GamepadButton
 slug: Web/API/GamepadButton
 page-type: web-api-interface
 browser-compat: api.GamepadButton
+sidebar:
+  - apiref:
+      - Gamepad API
 ---
 
-{{APIRef("Gamepad API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`GamepadButton`** interface defines an individual button of a gamepad or other controller, allowing access to the current state of different types of buttons available on the control device.
 

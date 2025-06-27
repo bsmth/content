@@ -4,9 +4,10 @@ short-title: pictureInPictureElement
 slug: Web/API/ShadowRoot/pictureInPictureElement
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.pictureInPictureElement
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The **`pictureInPictureElement`** read-only property of the
 {{domxref("ShadowRoot")}} interface returns the {{domxref("Element")}} that is currently being

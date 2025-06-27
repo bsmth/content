@@ -4,9 +4,10 @@ short-title: crossOrigin
 slug: Web/API/SVGImageElement/crossOrigin
 page-type: web-api-instance-property
 browser-compat: api.SVGImageElement.crossOrigin
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`crossOrigin`** property of the {{domxref("SVGImageElement")}} interface is a string which specifies the Cross-Origin Resource Sharing ({{Glossary("CORS")}}) setting to use when retrieving the image. It reflects the {{SVGAttr("crossorigin")}} content attribute of the given {{SVGElement("image")}} element.
 

@@ -3,9 +3,12 @@ title: PaymentRequestUpdateEvent
 slug: Web/API/PaymentRequestUpdateEvent
 page-type: web-api-interface
 browser-compat: api.PaymentRequestUpdateEvent
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`PaymentRequestUpdateEvent`** interface is used for events sent to a {{domxref("PaymentRequest")}} instance when changes are made to shipping-related information for a pending {{domxref("PaymentRequest")}}. Those events are:
 

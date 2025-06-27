@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PerformanceLongAnimationFrameTiming.scripts
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{SeeCompatTable}}{{APIRef("Performance API")}}
+{{SeeCompatTable}}
 
 The **`scripts`** read-only property of the {{domxref("PerformanceLongAnimationFrameTiming")}} interface returns an array of {{domxref("PerformanceScriptTiming")}} objects.
 

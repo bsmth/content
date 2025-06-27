@@ -4,9 +4,10 @@ short-title: add()
 slug: Web/API/DataTransferItemList/add
 page-type: web-api-instance-method
 browser-compat: api.DataTransferItemList.add
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransferItemList.add()`** method creates a new
 {{domxref("DataTransferItem")}} using the specified data and adds it to the drag data

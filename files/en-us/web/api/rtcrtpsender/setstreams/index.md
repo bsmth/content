@@ -4,9 +4,10 @@ short-title: setStreams()
 slug: Web/API/RTCRtpSender/setStreams
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpSender.setStreams
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCRtpSender")}} method **`setStreams()`** associates the sender's {{domxref("RTCRtpSender.track", "track")}} with the specified {{domxref("MediaStream")}} objects.
 

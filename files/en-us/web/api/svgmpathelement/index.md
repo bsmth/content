@@ -3,9 +3,10 @@ title: SVGMPathElement
 slug: Web/API/SVGMPathElement
 page-type: web-api-interface
 browser-compat: api.SVGMPathElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGMPathElement`** interface corresponds to the {{SVGElement("mpath")}} element.
 

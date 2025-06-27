@@ -4,9 +4,10 @@ short-title: exitFullscreen()
 slug: Web/API/Document/exitFullscreen
 page-type: web-api-instance-method
 browser-compat: api.Document.exitFullscreen
+sidebar:
+  - apiref:
+      - Fullscreen API
 ---
-
-{{ApiRef("Fullscreen API")}}
 
 The {{domxref("Document")}} method
 **`exitFullscreen()`** requests that the element on this

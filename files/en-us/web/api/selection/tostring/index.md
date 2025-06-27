@@ -4,9 +4,10 @@ short-title: toString()
 slug: Web/API/Selection/toString
 page-type: web-api-instance-method
 browser-compat: api.Selection.toString
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.toString()`** method returns a string
 currently being represented by the selection object, i.e., the currently selected text.

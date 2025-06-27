@@ -4,9 +4,10 @@ short-title: unlock()
 slug: Web/API/ScreenOrientation/unlock
 page-type: web-api-instance-method
 browser-compat: api.ScreenOrientation.unlock
+sidebar:
+  - apiref:
+      - Screen Orientation
 ---
-
-{{APIRef("Screen Orientation")}}
 
 The **`unlock()`** method of the
 {{domxref("ScreenOrientation")}} interface unlocks the orientation of the containing

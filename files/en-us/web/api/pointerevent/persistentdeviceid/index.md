@@ -4,9 +4,10 @@ short-title: persistentDeviceId
 slug: Web/API/PointerEvent/persistentDeviceId
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.persistentDeviceId
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`persistentDeviceId`** read-only property of the
 {{domxref("PointerEvent")}} interface is a unique identifier for the pointing device generating the `PointerEvent`. This provides a secure, reliable way to identify multiple pointing devices (such as pens) interacting with the screen simultaneously.

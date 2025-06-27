@@ -4,9 +4,10 @@ short-title: rows
 slug: Web/API/HTMLTableSectionElement/rows
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableSectionElement.rows
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`rows`** read-only property of the {{domxref("HTMLTableSectionElement")}} interface returns a live {{domxref("HTMLCollection")}} containing the rows in the section. The `HTMLCollection` is live and is automatically updated when rows are added or removed.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Summarizer.summarize
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`summarize()`** method of the {{domxref("Summarizer")}} interface generates a new summary string.
 

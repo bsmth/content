@@ -4,9 +4,12 @@ short-title: forEach()
 slug: Web/API/FontFaceSet/forEach
 page-type: web-api-instance-method
 browser-compat: api.FontFaceSet.forEach
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`forEach()`** method of the {{domxref("FontFaceSet")}} interface executes a provided function for each value in the `FontFaceSet` object.
 

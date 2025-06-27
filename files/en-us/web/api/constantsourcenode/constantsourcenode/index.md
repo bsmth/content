@@ -4,9 +4,10 @@ short-title: ConstantSourceNode()
 slug: Web/API/ConstantSourceNode/ConstantSourceNode
 page-type: web-api-constructor
 browser-compat: api.ConstantSourceNode.ConstantSourceNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`ConstantSourceNode()`** constructor creates a new
 {{domxref("ConstantSourceNode")}} object instance, representing an audio source which

@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/ReadableStreamDefaultController/close
 page-type: web-api-instance-method
 browser-compat: api.ReadableStreamDefaultController.close
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`close()`** method of the {{domxref("ReadableStreamDefaultController")}} interface closes the associated stream.
 

@@ -6,9 +6,10 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.CanMakePaymentEvent.CanMakePaymentEvent
+sidebar:
+  - apiref:
+      - Payment Handler API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Payment Handler API")}}{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`CanMakePaymentEvent()`** constructor creates a new {{domxref("CanMakePaymentEvent")}} object instance.
 

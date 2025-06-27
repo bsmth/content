@@ -3,9 +3,10 @@ title: SpeechRecognition
 slug: Web/API/SpeechRecognition
 page-type: web-api-interface
 browser-compat: api.SpeechRecognition
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`SpeechRecognition`** interface of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) is the controller interface for the recognition service; this also handles the {{domxref("SpeechRecognitionEvent")}} sent from the recognition service.
 

@@ -4,9 +4,12 @@ short-title: commit()
 slug: Web/API/IDBTransaction/commit
 page-type: web-api-instance-method
 browser-compat: api.IDBTransaction.commit
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`commit()`** method of the {{domxref("IDBTransaction")}} interface commits the transaction if it is called on an active transaction.
 

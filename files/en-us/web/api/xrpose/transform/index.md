@@ -4,9 +4,12 @@ short-title: transform
 slug: Web/API/XRPose/transform
 page-type: web-api-instance-property
 browser-compat: api.XRPose.transform
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_header}}
+{{SecureContext_header}}
 
 The `transform` read-only attribute of the
 {{DOMxRef("XRPose")}} interface is a {{DOMxRef("XRRigidTransform")}} object providing

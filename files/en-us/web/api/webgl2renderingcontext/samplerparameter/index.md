@@ -4,9 +4,12 @@ short-title: samplerParameter[if]()
 slug: Web/API/WebGL2RenderingContext/samplerParameter
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.samplerParameteri
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.samplerParameter[if]()`** methods
 of the [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) set

@@ -4,9 +4,10 @@ short-title: crossOrigin
 slug: Web/API/HTMLImageElement/crossOrigin
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.crossOrigin
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLImageElement")}}
 interface's **`crossOrigin`** attribute is a string which

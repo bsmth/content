@@ -4,9 +4,12 @@ short-title: x
 slug: Web/API/DOMRect/x
 page-type: web-api-instance-property
 browser-compat: api.DOMRect.x
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`x`** property of the {{domxref("DOMRect")}} interface represents the x-coordinate of the rectangle, which is the horizontal distance between the viewport's left edge and the rectangle's origin.
 

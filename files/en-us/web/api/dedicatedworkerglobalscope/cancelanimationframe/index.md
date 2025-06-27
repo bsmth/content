@@ -4,9 +4,10 @@ short-title: cancelAnimationFrame()
 slug: Web/API/DedicatedWorkerGlobalScope/cancelAnimationFrame
 page-type: web-api-instance-method
 browser-compat: api.DedicatedWorkerGlobalScope.cancelAnimationFrame
+sidebar: apiref
 ---
 
-{{APIRef}}{{AvailableInWorkers("dedicated")}}
+{{AvailableInWorkers("dedicated")}}
 
 The **`cancelAnimationFrame()`** method of the {{domxref("DedicatedWorkerGlobalScope")}} interface cancels an animation frame request previously scheduled through a call to {{domxref("DedicatedWorkerGlobalScope.requestAnimationFrame()", "requestAnimationFrame()")}}.
 

@@ -4,9 +4,10 @@ short-title: ownerElement
 slug: Web/API/Attr/ownerElement
 page-type: web-api-instance-property
 browser-compat: api.Attr.ownerElement
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`ownerElement`** property of the {{domxref("Attr")}} interface returns the {{domxref("Element")}} the attribute belongs to.
 

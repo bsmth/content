@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.CSSStyleDeclaration.getPropertyCSSValue
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{ APIRef("CSSOM") }} {{deprecated_header}}
+{{deprecated_header}}
 
 The **CSSStyleDeclaration.getPropertyCSSValue()**
 method interface returns a {{domxref('CSSValue')}} containing the CSS value for a

@@ -4,9 +4,8 @@ short-title: createImageData()
 slug: Web/API/CanvasRenderingContext2D/createImageData
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.createImageData
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.createImageData()`** method of
 the Canvas 2D API creates a new, blank {{domxref("ImageData")}} object with the

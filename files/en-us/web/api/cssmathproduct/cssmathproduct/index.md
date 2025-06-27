@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.CSSMathProduct.CSSMathProduct
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
 
-{{APIRef("CSS Typed Object Model API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`CSSMathProduct()`** constructor creates
 a new {{domxref("CSSMathProduct")}} object which creates a new

@@ -3,9 +3,10 @@ title: RTCPeerConnectionIceEvent
 slug: Web/API/RTCPeerConnectionIceEvent
 page-type: web-api-interface
 browser-compat: api.RTCPeerConnectionIceEvent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCPeerConnectionIceEvent`** interface represents events that occur in relation to {{Glossary("ICE")}} candidates with the target, usually an {{domxref("RTCPeerConnection")}}.
 

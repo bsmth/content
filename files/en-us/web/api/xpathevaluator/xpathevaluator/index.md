@@ -4,9 +4,10 @@ short-title: XPathEvaluator()
 slug: Web/API/XPathEvaluator/XPathEvaluator
 page-type: web-api-constructor
 browser-compat: api.XPathEvaluator.XPathEvaluator
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
-
-{{APIRef('DOM XPath')}}
 
 The **`XPathEvaluator()`** constructor creates a new {{domxref("XPathEvaluator")}}.
 

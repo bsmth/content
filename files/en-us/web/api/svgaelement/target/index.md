@@ -4,9 +4,10 @@ short-title: target
 slug: Web/API/SVGAElement/target
 page-type: web-api-instance-property
 browser-compat: api.SVGAElement.target
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAElement.target`** read-only property of {{domxref("SVGAElement")}} returns an {{domxref("SVGAnimatedString")}} object that specifies the portion of a target window, frame, pane into which a document is to be opened when a link is activated.
 

@@ -4,9 +4,10 @@ short-title: fullscreenElement
 slug: Web/API/ShadowRoot/fullscreenElement
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.fullscreenElement
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The **`fullscreenElement`** read-only property of the
 {{domxref("ShadowRoot")}} interface returns the element within the shadow tree that is currently displayed in full screen.

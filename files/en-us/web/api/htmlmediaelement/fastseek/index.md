@@ -4,9 +4,10 @@ short-title: fastSeek()
 slug: Web/API/HTMLMediaElement/fastSeek
 page-type: web-api-instance-method
 browser-compat: api.HTMLMediaElement.fastSeek
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.fastSeek()`** method quickly seeks the
 media to the new time with precision tradeoff.

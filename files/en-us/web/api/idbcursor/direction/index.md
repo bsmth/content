@@ -4,9 +4,12 @@ short-title: direction
 slug: Web/API/IDBCursor/direction
 page-type: web-api-instance-property
 browser-compat: api.IDBCursor.direction
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`direction`** read-only property of the
 {{domxref("IDBCursor")}} interface is a string that returns the

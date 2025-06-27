@@ -4,9 +4,12 @@ short-title: write()
 slug: Web/API/WritableStreamDefaultWriter/write
 page-type: web-api-instance-method
 browser-compat: api.WritableStreamDefaultWriter.write
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`write()`** method of the
 {{domxref("WritableStreamDefaultWriter")}} interface writes a passed chunk of data to a

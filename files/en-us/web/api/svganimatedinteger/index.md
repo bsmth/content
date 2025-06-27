@@ -3,9 +3,10 @@ title: SVGAnimatedInteger
 slug: Web/API/SVGAnimatedInteger
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedInteger
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedInteger`** interface is used for attributes of basic type [\<integer>](/en-US/docs/Web/SVG/Guides/Content_type#integer) which can be animated.
 

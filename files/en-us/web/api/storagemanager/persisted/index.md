@@ -4,9 +4,12 @@ short-title: persisted()
 slug: Web/API/StorageManager/persisted
 page-type: web-api-instance-method
 browser-compat: api.StorageManager.persisted
+sidebar:
+  - apiref:
+      - Storage
 ---
 
-{{securecontext_header}}{{APIRef("Storage")}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`persisted()`** method of the {{domxref("StorageManager")}} interface returns a {{jsxref('Promise')}} that resolves to `true` if your site's storage bucket is persistent.
 

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.WebTransportSendStream
+sidebar:
+  - apiref:
+      - WebTransport API
 ---
 
-{{APIRef("WebTransport API")}}{{SeeCompatTable}}{{securecontext_header}} {{AvailableInWorkers}}
+{{SeeCompatTable}}{{securecontext_header}} {{AvailableInWorkers}}
 
 The `WebTransportSendStream` interface of the {{domxref("WebTransport API", "WebTransport API", "", "nocode")}} is a specialized {{domxref("WritableStream")}} that is used to send outbound data in both unidirectional or bidirectional {{domxref("WebTransport")}} streams.
 

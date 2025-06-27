@@ -4,9 +4,10 @@ short-title: sampleRate
 slug: Web/API/AudioWorkletGlobalScope/sampleRate
 page-type: web-api-instance-property
 browser-compat: api.AudioWorkletGlobalScope.sampleRate
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The read-only **`sampleRate`** property of the {{domxref("AudioWorkletGlobalScope")}} interface returns a float that represents the sample rate of the associated {{domxref("BaseAudioContext")}} the worklet belongs to.
 

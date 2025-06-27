@@ -4,9 +4,12 @@ short-title: getActiveAttrib()
 slug: Web/API/WebGLRenderingContext/getActiveAttrib
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getActiveAttrib
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getActiveAttrib()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) returns a

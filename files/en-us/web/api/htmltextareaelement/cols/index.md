@@ -4,9 +4,10 @@ short-title: cols
 slug: Web/API/HTMLTextAreaElement/cols
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.cols
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`cols`** property of the {{DOMxRef("HTMLTextAreaElement")}} interface is a positive integer representing the visible width of the multi-line text control, in average character widths. It reflects the `<textarea>` element's [`cols`](/en-US/docs/Web/HTML/Reference/Elements/textarea#cols) attribute.
 

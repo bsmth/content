@@ -4,9 +4,10 @@ short-title: OfflineAudioContext()
 slug: Web/API/OfflineAudioContext/OfflineAudioContext
 page-type: web-api-constructor
 browser-compat: api.OfflineAudioContext.OfflineAudioContext
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The
 **`OfflineAudioContext()`** constructor—part of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API)—creates and returns a new

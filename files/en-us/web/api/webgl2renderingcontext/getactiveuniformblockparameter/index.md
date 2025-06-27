@@ -4,9 +4,12 @@ short-title: getActiveUniformBlockParameter()
 slug: Web/API/WebGL2RenderingContext/getActiveUniformBlockParameter
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.getActiveUniformBlockParameter
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The
 **`WebGL2RenderingContext.getActiveUniformBlockParameter()`**

@@ -3,9 +3,10 @@ title: TextTrackList
 slug: Web/API/TextTrackList
 page-type: web-api-interface
 browser-compat: api.TextTrackList
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`TextTrackList`** interface is used to represent a list of the text tracks defined for the associated video or audio element, with each track represented by a separate {{domxref("textTrack")}} object in the list.
 

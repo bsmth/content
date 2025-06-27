@@ -4,9 +4,10 @@ short-title: orderY
 slug: Web/API/SVGFEConvolveMatrixElement/orderY
 page-type: web-api-instance-property
 browser-compat: api.SVGFEConvolveMatrixElement.orderY
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`orderY`** read-only property of the {{domxref("SVGFEConvolveMatrixElement")}} interface reflects the {{SVGAttr("order")}} attribute of the given {{SVGElement("feConvolveMatrix")}} element.
 

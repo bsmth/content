@@ -4,9 +4,10 @@ short-title: label
 slug: Web/API/HTMLOptionElement/label
 page-type: web-api-instance-property
 browser-compat: api.HTMLOptionElement.label
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`label`** property of the {{domxref("HTMLOptionElement")}} represents the text displayed for an option in a {{htmlelement("select")}} element or as part of a list of suggestions in a {{htmlelement("datalist")}} element. It reflects the {{htmlelement("option")}} element's [`label`](/en-US/docs/Web/HTML/Reference/Elements/option#label) attribute.
 

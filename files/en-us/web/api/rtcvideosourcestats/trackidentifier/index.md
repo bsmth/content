@@ -4,9 +4,10 @@ short-title: trackIdentifier
 slug: Web/API/RTCVideoSourceStats/trackIdentifier
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_media-source.trackIdentifier
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`trackIdentifier`** property of the {{domxref("RTCVideoSourceStats")}} dictionary contains the `id` attribute of the associated [`MediaStreamTrack`](/en-US/docs/Web/API/MediaStreamTrack).
 

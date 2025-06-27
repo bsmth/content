@@ -4,9 +4,10 @@ short-title: go()
 slug: Web/API/History/go
 page-type: web-api-instance-method
 browser-compat: api.History.go
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`go()`** method of the {{domxref("History")}} interface loads a specific page from the
 session history. You can use it to move forwards and backwards through the history

@@ -4,9 +4,10 @@ short-title: CSSTransformValue()
 slug: Web/API/CSSTransformValue/CSSTransformValue
 page-type: web-api-constructor
 browser-compat: api.CSSTransformValue.CSSTransformValue
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSTransformValue()`** constructor
 creates a new {{domxref("CSSTransformValue")}} object which represents a list of

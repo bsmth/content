@@ -4,9 +4,12 @@ short-title: get()
 slug: Web/API/FormData/get
 page-type: web-api-instance-method
 browser-compat: api.FormData.get
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`get()`** method of the {{domxref("FormData")}} interface
 returns the first value associated with a given key from within a `FormData`

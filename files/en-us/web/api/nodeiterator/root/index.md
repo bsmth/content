@@ -4,9 +4,10 @@ short-title: root
 slug: Web/API/NodeIterator/root
 page-type: web-api-instance-property
 browser-compat: api.NodeIterator.root
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeIterator.root`** read-only property represents the
 {{DOMxref("Node")}} that is the root of what the {{DOMxref("NodeIterator")}}

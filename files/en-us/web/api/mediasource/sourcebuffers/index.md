@@ -4,9 +4,10 @@ short-title: sourceBuffers
 slug: Web/API/MediaSource/sourceBuffers
 page-type: web-api-instance-property
 browser-compat: api.MediaSource.sourceBuffers
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`sourceBuffers`** read-only property of the
 {{domxref("MediaSource")}} interface returns a {{domxref("SourceBufferList")}} object

@@ -4,9 +4,12 @@ short-title: renderbufferStorageMultisample()
 slug: Web/API/WebGL2RenderingContext/renderbufferStorageMultisample
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.renderbufferStorageMultisample
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The
 **`WebGL2RenderingContext.renderbufferStorageMultisample()`**

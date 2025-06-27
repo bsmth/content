@@ -4,9 +4,8 @@ short-title: lineTo()
 slug: Web/API/CanvasRenderingContext2D/lineTo
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.lineTo
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The {{domxref("CanvasRenderingContext2D")}} method
 **`lineTo()`**, part of the Canvas 2D API, adds a straight line

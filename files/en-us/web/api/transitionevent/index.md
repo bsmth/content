@@ -3,9 +3,10 @@ title: TransitionEvent
 slug: Web/API/TransitionEvent
 page-type: web-api-interface
 browser-compat: api.TransitionEvent
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`TransitionEvent`** interface represents events providing information related to [transitions](/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions).
 

@@ -3,9 +3,10 @@ title: HTMLTextAreaElement
 slug: Web/API/HTMLTextAreaElement
 page-type: web-api-interface
 browser-compat: api.HTMLTextAreaElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLTextAreaElement`** interface provides properties and methods for manipulating the layout and presentation of {{HTMLElement("textarea")}} elements.
 

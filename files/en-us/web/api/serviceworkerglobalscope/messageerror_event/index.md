@@ -4,9 +4,10 @@ short-title: messageerror
 slug: Web/API/ServiceWorkerGlobalScope/messageerror_event
 page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.messageerror_event
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`messageerror`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface occurs when incoming messages can't be deserialized.
 

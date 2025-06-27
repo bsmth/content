@@ -4,9 +4,10 @@ short-title: setAttribute()
 slug: Web/API/Element/setAttribute
 page-type: web-api-instance-method
 browser-compat: api.Element.setAttribute
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`setAttribute()`** method of the {{domxref("Element")}} interface sets the value of an attribute on the specified element. If the attribute already exists, the value is updated; otherwise a new attribute is added with the specified name and value.
 

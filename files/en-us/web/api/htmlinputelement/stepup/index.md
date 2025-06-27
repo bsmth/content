@@ -4,9 +4,10 @@ short-title: stepUp()
 slug: Web/API/HTMLInputElement/stepUp
 page-type: web-api-instance-method
 browser-compat: api.HTMLInputElement.stepUp
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLInputElement.stepUp()`** method increments the value
 of a numeric type of {{HTMLElement("input")}} element by the value of the

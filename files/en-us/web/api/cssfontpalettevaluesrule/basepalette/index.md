@@ -4,9 +4,10 @@ short-title: basePalette
 slug: Web/API/CSSFontPaletteValuesRule/basePalette
 page-type: web-api-instance-property
 browser-compat: api.CSSFontPaletteValuesRule.basePalette
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`basePalette`** property of the {{domxref("CSSFontPaletteValuesRule")}} interface indicates the base palette associated with the rule.
 

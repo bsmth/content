@@ -4,9 +4,10 @@ short-title: noiseSuppression
 slug: Web/API/MediaTrackSettings/noiseSuppression
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.noiseSuppression_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's
 **`noiseSuppression`** property is a Boolean value whose value

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.CSSStyleSheet.removeRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The obsolete {{domxref("CSSStyleSheet")}} method
 **`removeRule()`** removes a rule from the stylesheet

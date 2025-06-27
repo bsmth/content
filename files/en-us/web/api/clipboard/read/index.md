@@ -4,9 +4,12 @@ short-title: read()
 slug: Web/API/Clipboard/read
 page-type: web-api-instance-method
 browser-compat: api.Clipboard.read
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}} {{securecontext_header}}
+{{securecontext_header}}
 
 The **`read()`** method of the {{domxref("Clipboard")}} interface requests a copy of the clipboard's contents, fulfilling the returned {{jsxref("Promise")}} with the data.
 

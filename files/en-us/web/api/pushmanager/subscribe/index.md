@@ -4,9 +4,12 @@ short-title: subscribe()
 slug: Web/API/PushManager/subscribe
 page-type: web-api-instance-method
 browser-compat: api.PushManager.subscribe
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{ApiRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`subscribe()`** method of the {{domxref("PushManager")}}
 interface subscribes to a push service.

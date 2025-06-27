@@ -4,9 +4,10 @@ short-title: setDragImage()
 slug: Web/API/DataTransfer/setDragImage
 page-type: web-api-instance-method
 browser-compat: api.DataTransfer.setDragImage
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 When a drag occurs, a translucent image is generated from the drag target (the element
 the {{domxref("HTMLElement/dragstart_event", "dragstart")}} event is fired at), and follows the mouse pointer during the

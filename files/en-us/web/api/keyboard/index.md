@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.Keyboard
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{SeeCompatTable}}{{APIRef("Keyboard API")}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`Keyboard`** interface of the {{domxref("Keyboard API", "", "", "nocode")}} provides functions that retrieve keyboard layout maps and toggle capturing of key presses from the physical keyboard.
 

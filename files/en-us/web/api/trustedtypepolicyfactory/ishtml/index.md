@@ -4,9 +4,12 @@ short-title: isHTML()
 slug: Web/API/TrustedTypePolicyFactory/isHTML
 page-type: web-api-instance-method
 browser-compat: api.TrustedTypePolicyFactory.isHTML
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`isHTML()`** method of the {{domxref("TrustedTypePolicyFactory")}} interface returns true if it is passed a valid {{domxref("TrustedHTML")}} object.
 

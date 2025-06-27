@@ -3,9 +3,12 @@ title: Crypto
 slug: Web/API/Crypto
 page-type: web-api-interface
 browser-compat: api.Crypto
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Crypto`** interface represents basic cryptography features available in the current context.
 It allows access to a cryptographically strong random number generator and to cryptographic primitives.

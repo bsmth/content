@@ -4,9 +4,10 @@ short-title: rejectionhandled
 slug: Web/API/Window/rejectionhandled_event
 page-type: web-api-event
 browser-compat: api.Window.rejectionhandled_event
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`rejectionhandled`** event is sent to the script's global scope (usually {{domxref("window")}} but also {{domxref("Worker")}}) whenever a rejected JavaScript {{jsxref("Promise")}} is handled late, i.e., when a handler is attached to the promise after its rejection had caused an {{domxref("Window.unhandledrejection_event", "unhandledrejection")}} event.
 

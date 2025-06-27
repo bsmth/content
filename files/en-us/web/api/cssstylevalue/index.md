@@ -3,9 +3,10 @@ title: CSSStyleValue
 slug: Web/API/CSSStyleValue
 page-type: web-api-interface
 browser-compat: api.CSSStyleValue
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSStyleValue`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model#css_typed_object_model) is the base class of all CSS values accessible through the Typed OM API. An instance of this class may be used anywhere a string is expected.
 

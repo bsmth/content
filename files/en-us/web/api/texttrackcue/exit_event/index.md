@@ -4,9 +4,10 @@ short-title: exit
 slug: Web/API/TextTrackCue/exit_event
 page-type: web-api-event
 browser-compat: api.TextTrackCue.exit_event
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`exit`** event fires when a cue stops being active.
 

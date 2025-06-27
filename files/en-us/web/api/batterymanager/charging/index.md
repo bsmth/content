@@ -4,9 +4,12 @@ short-title: charging
 slug: Web/API/BatteryManager/charging
 page-type: web-api-instance-property
 browser-compat: api.BatteryManager.charging
+sidebar:
+  - apiref:
+      - Battery API
 ---
 
-{{ApiRef("Battery API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`charging`** read-only property of the {{domxref("BatteryManager")}} interface is a Boolean value indicating whether or not the device's battery is currently being charged. When its value changes, the {{domxref("BatteryManager/chargingchange_event", "chargingchange")}} event is fired.
 

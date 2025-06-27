@@ -4,9 +4,10 @@ short-title: shadowRootClonable
 slug: Web/API/HTMLTemplateElement/shadowRootClonable
 page-type: web-api-instance-property
 browser-compat: api.HTMLTemplateElement.shadowRootClonable
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`shadowRootClonable`** property reflects the value of the [`shadowrootclonable`](/en-US/docs/Web/HTML/Reference/Elements/template#shadowrootclonable) attribute of the associated [`<template>`](/en-US/docs/Web/HTML/Reference/Elements/template) element.
 

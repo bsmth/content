@@ -4,9 +4,12 @@ short-title: source
 slug: Web/API/MessageEvent/source
 page-type: web-api-instance-property
 browser-compat: api.MessageEvent.source
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`source`** read-only property of the
 {{domxref("MessageEvent")}} interface is a `MessageEventSource` (which can be

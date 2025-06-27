@@ -4,9 +4,12 @@ short-title: getVertexAttribOffset()
 slug: Web/API/WebGLRenderingContext/getVertexAttribOffset
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getVertexAttribOffset
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getVertexAttribOffset()`** method
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns the address of a

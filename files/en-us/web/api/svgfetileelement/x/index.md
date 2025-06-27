@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/SVGFETileElement/x
 page-type: web-api-instance-property
 browser-compat: api.SVGFETileElement.x
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x`** read-only property of the {{domxref("SVGFETileElement")}} interface describes the horizontal coordinate of the position of an SVG filter primitive as an {{domxref("SVGAnimatedLength")}}.
 

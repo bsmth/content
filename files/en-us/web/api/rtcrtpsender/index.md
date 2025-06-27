@@ -3,9 +3,10 @@ title: RTCRtpSender
 slug: Web/API/RTCRtpSender
 page-type: web-api-interface
 browser-compat: api.RTCRtpSender
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCRtpSender`** interface provides the ability to control and obtain details about how a particular {{domxref("MediaStreamTrack")}} is encoded and sent to a remote peer.
 

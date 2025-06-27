@@ -3,9 +3,10 @@ title: CSSMathNegate
 slug: Web/API/CSSMathNegate
 page-type: web-api-interface
 browser-compat: api.CSSMathNegate
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSMathNegate`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model) negates the value passed into it. It inherits properties and methods from its parent {{domxref('CSSNumericValue')}}.
 

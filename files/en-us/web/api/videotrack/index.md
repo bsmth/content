@@ -3,9 +3,10 @@ title: VideoTrack
 slug: Web/API/VideoTrack
 page-type: web-api-interface
 browser-compat: api.VideoTrack
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`VideoTrack`** interface represents a single video track from a {{HTMLElement("video")}} element.
 

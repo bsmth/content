@@ -4,9 +4,10 @@ short-title: loadEventStart
 slug: Web/API/PerformanceNavigationTiming/loadEventStart
 page-type: web-api-instance-property
 browser-compat: api.PerformanceNavigationTiming.loadEventStart
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`loadEventStart`** read-only property returns a {{domxref("DOMHighResTimeStamp")}} representing the time immediately before the current document's [`load`](/en-US/docs/Web/API/Window/load_event) event handler starts.
 

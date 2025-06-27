@@ -3,9 +3,12 @@ title: WebGLProgram
 slug: Web/API/WebGLProgram
 page-type: web-api-interface
 browser-compat: api.WebGLProgram
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLProgram`** is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and is a combination of two compiled {{domxref("WebGLShader")}}s consisting of a vertex shader and a fragment shader (both written in GLSL).
 

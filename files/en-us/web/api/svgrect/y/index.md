@@ -4,9 +4,10 @@ short-title: y
 slug: Web/API/SVGRect/y
 page-type: web-api-instance-property
 browser-compat: api.SVGRect.y
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y`** property of the {{domxref("SVGRect")}} interface is an alias for the {{DOMXref("DOMRect.y")}} property. It describes the vertical coordinate of the position of the element. It reflects the SVG element's {{SVGattr("y")}} attribute and the CSS {{cssxref("y")}} property.
 

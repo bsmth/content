@@ -4,9 +4,12 @@ short-title: z
 slug: Web/API/DeviceMotionEventAcceleration/z
 page-type: web-api-instance-property
 browser-compat: api.DeviceMotionEventAcceleration.z
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`z`** read-only property of the {{domxref("DeviceMotionEventAcceleration")}} interface indicates the amount of acceleration that occurred along the Z
 axis in a [`DeviceMotionEventAcceleration`](/en-US/docs/Web/API/DeviceMotionEventAcceleration)

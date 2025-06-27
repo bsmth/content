@@ -4,9 +4,10 @@ short-title: OVR_multiview2
 slug: Web/API/OVR_multiview2
 page-type: webgl-extension
 browser-compat: api.OVR_multiview2
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The `OVR_multiview2` extension is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and adds support for rendering into multiple views simultaneously. This especially useful for virtual reality (VR) and WebXR.
 

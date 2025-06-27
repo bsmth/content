@@ -4,9 +4,12 @@ short-title: scale3dSelf()
 slug: Web/API/DOMMatrix/scale3dSelf
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.scale3dSelf
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`scale3dSelf()`** method of the {{domxref("DOMMatrix")}} interface is a mutable transformation method that modifies a matrix by applying a specified scaling factor to all three axes, centered on the given origin, with a default origin of `(0, 0, 0)`, returning the 3D-scaled matrix.
 

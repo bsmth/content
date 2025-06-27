@@ -4,9 +4,10 @@ short-title: boundingClientRect
 slug: Web/API/IntersectionObserverEntry/boundingClientRect
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserverEntry.boundingClientRect
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`boundingClientRect`** read-only property of the {{domxref("IntersectionObserverEntry")}} interface returns a {{domxref("DOMRectReadOnly")}} which in essence describes a rectangle describing the smallest rectangle that contains the entire target element.
 

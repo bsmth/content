@@ -4,9 +4,10 @@ short-title: component
 slug: Web/API/RTCIceTransport/component
 page-type: web-api-instance-property
 browser-compat: api.RTCIceTransport.component
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`component`** read-only property of the {{domxref("RTCIceTransport")}} interface specifies whether the object is serving to transport {{Glossary("RTP")}} or {{Glossary("RTCP")}}.
 

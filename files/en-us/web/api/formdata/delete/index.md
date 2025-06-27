@@ -4,9 +4,12 @@ short-title: delete()
 slug: Web/API/FormData/delete
 page-type: web-api-instance-method
 browser-compat: api.FormData.delete
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`delete()`** method of the {{domxref("FormData")}} interface deletes a key and its value(s) from a `FormData` object.
 

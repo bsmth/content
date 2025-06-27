@@ -4,9 +4,10 @@ short-title: nackCount
 slug: Web/API/RTCOutboundRtpStreamStats/nackCount
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.nackCount
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`nackCount`** property of the
 {{domxref("RTCOutboundRtpStreamStats")}} dictionary is a numeric value indicating the

@@ -4,9 +4,12 @@ short-title: XRRigidTransform()
 slug: Web/API/XRRigidTransform/XRRigidTransform
 page-type: web-api-constructor
 browser-compat: api.XRRigidTransform.XRRigidTransform
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The
 **`XRRigidTransform()`** constructor creates

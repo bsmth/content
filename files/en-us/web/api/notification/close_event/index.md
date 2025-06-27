@@ -4,9 +4,12 @@ short-title: close
 slug: Web/API/Notification/close_event
 page-type: web-api-event
 browser-compat: api.Notification.close_event
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`close`** event of the {{domxref("Notification")}} interface fires when a {{domxref("Notification")}} is closed.
 

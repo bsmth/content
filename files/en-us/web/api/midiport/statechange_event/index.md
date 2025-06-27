@@ -4,9 +4,12 @@ short-title: statechange
 slug: Web/API/MIDIPort/statechange_event
 page-type: web-api-event
 browser-compat: api.MIDIPort.statechange_event
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`statechange`** event of the {{domxref("MIDIPort")}} interface is fired when a port changes from open to closed, or closed to open.
 

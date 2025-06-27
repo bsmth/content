@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLObjectElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLObjectElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`name`** property of the
 {{domxref("HTMLObjectElement")}} interface returns a string that

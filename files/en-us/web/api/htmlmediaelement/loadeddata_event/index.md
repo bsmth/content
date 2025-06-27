@@ -4,9 +4,10 @@ short-title: loadeddata
 slug: Web/API/HTMLMediaElement/loadeddata_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.loadeddata_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The **`loadeddata`** event is fired when the frame at the current playback position of the media has finished loading; often the first frame.
 

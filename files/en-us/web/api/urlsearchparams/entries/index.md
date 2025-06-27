@@ -4,9 +4,12 @@ short-title: entries()
 slug: Web/API/URLSearchParams/entries
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.entries
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`entries()`** method of the
 {{domxref("URLSearchParams")}} interface returns an

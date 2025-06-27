@@ -4,9 +4,12 @@ short-title: applicationServerKey
 slug: Web/API/PushSubscriptionOptions/applicationServerKey
 page-type: web-api-instance-property
 browser-compat: api.PushSubscriptionOptions.applicationServerKey
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`applicationServerKey`** read-only property of the {{domxref("PushSubscriptionOptions")}} interface contains the public key used by the push server.
 

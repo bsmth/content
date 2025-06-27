@@ -4,9 +4,10 @@ short-title: namedItem()
 slug: Web/API/HTMLFormControlsCollection/namedItem
 page-type: web-api-instance-method
 browser-compat: api.HTMLFormControlsCollection.namedItem
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormControlsCollection.namedItem()`** method returns
 the {{domxref("RadioNodeList")}} or the {{domxref("Element")}} in the collection whose

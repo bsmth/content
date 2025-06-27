@@ -3,9 +3,12 @@ title: OrientationSensor
 slug: Web/API/OrientationSensor
 page-type: web-api-interface
 browser-compat: api.OrientationSensor
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`OrientationSensor`** interface of the [Sensor APIs](/en-US/docs/Web/API/Sensor_APIs) is the base class for orientation sensors. This interface cannot be used directly. Instead it provides properties and methods accessed by interfaces that inherit from it.
 

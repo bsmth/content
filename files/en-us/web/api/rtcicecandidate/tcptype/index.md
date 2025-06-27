@@ -4,9 +4,10 @@ short-title: tcpType
 slug: Web/API/RTCIceCandidate/tcpType
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.tcpType
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **{{domxref("RTCIceCandidate")}}** interface's read-only **`tcpType`** property is included on TCP candidates to provide additional details about the candidate type.
 

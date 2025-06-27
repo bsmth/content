@@ -4,9 +4,12 @@ short-title: destroy()
 slug: Web/API/GPUBuffer/destroy
 page-type: web-api-instance-method
 browser-compat: api.GPUBuffer.destroy
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`destroy()`** method of the
 {{domxref("GPUBuffer")}} interface destroys the `GPUBuffer`.

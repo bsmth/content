@@ -4,9 +4,10 @@ short-title: willValidate
 slug: Web/API/HTMLObjectElement/willValidate
 page-type: web-api-instance-property
 browser-compat: api.HTMLObjectElement.willValidate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`willValidate`** read-only property of the {{domxref("HTMLObjectElement")}} interface returns `false`, because {{HTMLElement("object")}} elements are not candidates for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation).
 

@@ -3,9 +3,10 @@ title: CSSRuleList
 slug: Web/API/CSSRuleList
 page-type: web-api-interface
 browser-compat: api.CSSRuleList
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 A `CSSRuleList` represents an ordered collection of read-only {{domxref("CSSRule")}} objects.
 

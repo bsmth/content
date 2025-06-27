@@ -4,9 +4,10 @@ short-title: pressure
 slug: Web/API/PointerEvent/pressure
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.pressure
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`pressure`** read-only property of the
 {{domxref("PointerEvent")}} interface indicates the normalized pressure of the pointer

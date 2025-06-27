@@ -4,9 +4,10 @@ short-title: role
 slug: Web/API/Element/role
 page-type: web-api-instance-property
 browser-compat: api.Element.role
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`role`** property of the {{domxref("Element")}} interface returns the explicitly set [WAI-ARIA role](/en-US/docs/Web/Accessibility/ARIA/Reference/Roles) for the element.
 

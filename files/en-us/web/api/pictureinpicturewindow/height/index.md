@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/PictureInPictureWindow/height
 page-type: web-api-instance-property
 browser-compat: api.PictureInPictureWindow.height
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The read-only **`height`** property of the {{domxref("PictureInPictureWindow")}} interface returns the height of the floating video window in pixels.
 

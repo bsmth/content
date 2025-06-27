@@ -4,9 +4,10 @@ short-title: getCurrentTime()
 slug: Web/API/SVGSVGElement/getCurrentTime
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.getCurrentTime
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getCurrentTime()` method of the {{domxref("SVGSVGElement")}} interface returns the current time in seconds relative to the start time for the current SVG document fragment.
 

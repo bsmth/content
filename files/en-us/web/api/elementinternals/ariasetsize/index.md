@@ -4,9 +4,10 @@ short-title: ariaSetSize
 slug: Web/API/ElementInternals/ariaSetSize
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaSetSize
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaSetSize`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-setsize`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-setsize) attribute, which defines the number of items in the current set of listitems or treeitems.
 

@@ -4,9 +4,10 @@ short-title: viewBox
 slug: Web/API/SVGMarkerElement/viewBox
 page-type: web-api-instance-property
 browser-compat: api.SVGMarkerElement.viewBox
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`viewBox`** read-only property of the {{domxref("SVGMarkerElement")}} interface returns an {{domxref("SVGAnimatedRect")}} object which contains the values set by the {{SVGattr("viewBox")}} attribute on the {{SVGElement("marker")}}.
 

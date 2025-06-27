@@ -4,9 +4,12 @@ short-title: drawArrays()
 slug: Web/API/WebGLRenderingContext/drawArrays
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.drawArrays
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.drawArrays()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) renders primitives from array data.
 

@@ -4,9 +4,12 @@ short-title: isTrusted
 slug: Web/API/Event/isTrusted
 page-type: web-api-instance-property
 browser-compat: api.Event.isTrusted
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`isTrusted`** read-only property of the
 {{domxref("Event")}} interface is a boolean value that is `true`

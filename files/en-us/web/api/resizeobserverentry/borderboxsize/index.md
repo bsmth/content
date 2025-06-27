@@ -4,9 +4,10 @@ short-title: borderBoxSize
 slug: Web/API/ResizeObserverEntry/borderBoxSize
 page-type: web-api-instance-property
 browser-compat: api.ResizeObserverEntry.borderBoxSize
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`borderBoxSize`** read-only property of
 the {{domxref("ResizeObserverEntry")}} interface returns an array containing the new

@@ -4,9 +4,10 @@ short-title: divisor
 slug: Web/API/SVGFEConvolveMatrixElement/divisor
 page-type: web-api-instance-property
 browser-compat: api.SVGFEConvolveMatrixElement.divisor
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`divisor`** read-only property of the {{domxref("SVGFEConvolveMatrixElement")}} interface reflects the {{SVGAttr("divisor")}} attribute of the given {{SVGElement("feConvolveMatrix")}} element.
 

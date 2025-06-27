@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.Window.find
+sidebar: apiref
 ---
 
-{{ApiRef}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 > [!NOTE]
 > Support for `Window.find()` might change in future

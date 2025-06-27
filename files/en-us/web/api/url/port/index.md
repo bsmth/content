@@ -4,9 +4,12 @@ short-title: port
 slug: Web/API/URL/port
 page-type: web-api-instance-property
 browser-compat: api.URL.port
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`port`** property of the {{domxref("URL")}} interface is a string containing the port number of the URL. If the port is the default for the protocol (`80` for `ws:` and `http:`, `443` for `wss:` and `https:`, and `21` for `ftp:`), this property contains an empty string, `""`.
 

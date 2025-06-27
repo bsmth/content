@@ -4,9 +4,10 @@ short-title: is2D
 slug: Web/API/CSSTransformComponent/is2D
 page-type: web-api-instance-property
 browser-compat: api.CSSTransformComponent.is2D
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`is2D`** read-only property of the {{domxref("CSSTransformComponent")}} interface indicates where the transform is 2D or 3D.
 

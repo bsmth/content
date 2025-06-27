@@ -4,9 +4,10 @@ short-title: firstChild
 slug: Web/API/Node/firstChild
 page-type: web-api-instance-property
 browser-compat: api.Node.firstChild
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`firstChild`** property of the {{domxref("Node")}} interface
 returns the node's first child in the tree,

@@ -4,9 +4,10 @@ short-title: framesPerSecond
 slug: Web/API/RTCVideoSourceStats/framesPerSecond
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_media-source.framesPerSecond
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`framesPerSecond`** property of the {{domxref("RTCVideoSourceStats")}} dictionary indicates the number of frames originating from this video source in the last second.
 

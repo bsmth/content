@@ -4,9 +4,10 @@ short-title: localId
 slug: Web/API/RTCRemoteInboundRtpStreamStats/localId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_remote-inbound-rtp.localId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCRemoteInboundRtpStreamStats")}} dictionary's **`localId`** property is a string that can be used to identify the {{domxref("RTCOutboundRtpStreamStats")}} object whose {{domxref("RTCOutboundRtpStreamStats.remoteId", "remoteId")}} matches this value.
 

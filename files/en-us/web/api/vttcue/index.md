@@ -3,9 +3,10 @@ title: VTTCue
 slug: Web/API/VTTCue
 page-type: web-api-interface
 browser-compat: api.VTTCue
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The `VTTCue` interface of the [WebVTT API](/en-US/docs/Web/API/WebVTT_API) represents a cue that can be added to the text track associated with a particular video (or other media).
 

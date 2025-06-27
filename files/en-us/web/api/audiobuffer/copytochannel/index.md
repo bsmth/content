@@ -4,9 +4,10 @@ short-title: copyToChannel()
 slug: Web/API/AudioBuffer/copyToChannel
 page-type: web-api-instance-method
 browser-compat: api.AudioBuffer.copyToChannel
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `copyToChannel()` method of the {{ domxref("AudioBuffer") }} interface copies
 the samples to the specified channel of the `AudioBuffer`, from the source array.

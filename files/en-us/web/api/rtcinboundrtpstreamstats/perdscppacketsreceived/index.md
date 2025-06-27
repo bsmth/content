@@ -4,9 +4,10 @@ short-title: perDscpPacketsReceived
 slug: Web/API/RTCInboundRtpStreamStats/perDscpPacketsReceived
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.perDscpPacketsReceived
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`perDscpPacketsReceived`**
 property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary is a record

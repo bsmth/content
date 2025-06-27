@@ -4,9 +4,10 @@ short-title: rotate
 slug: Web/API/SVGTextPositioningElement/rotate
 page-type: web-api-instance-property
 browser-compat: api.SVGTextPositioningElement.rotate
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`rotate`** read-only property of the {{domxref("SVGTextPositioningElement")}} interface reflects the rotation of individual text glyphs, as specified by the {{SVGAttr("rotate")}} attribute of the given element.
 

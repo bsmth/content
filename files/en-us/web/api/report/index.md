@@ -3,9 +3,12 @@ title: Report
 slug: Web/API/Report
 page-type: web-api-interface
 browser-compat: api.Report
+sidebar:
+  - apiref:
+      - Reporting API
 ---
 
-{{APIRef("Reporting API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `Report` interface of the [Reporting API](/en-US/docs/Web/API/Reporting_API) represents a single report.
 

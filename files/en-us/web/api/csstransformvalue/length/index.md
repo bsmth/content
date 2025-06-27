@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/CSSTransformValue/length
 page-type: web-api-instance-property
 browser-compat: api.CSSTransformValue.length
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The read-only **`length`** property of the
 {{domxref("CSSTransformValue")}} interface returns the number of transform components in

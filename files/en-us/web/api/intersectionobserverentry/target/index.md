@@ -4,9 +4,10 @@ short-title: target
 slug: Web/API/IntersectionObserverEntry/target
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserverEntry.target
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`target`** read-only property of the {{domxref("IntersectionObserverEntry")}} interface indicates which targeted {{domxref("Element")}} has changed its amount of intersection with the intersection root.
 

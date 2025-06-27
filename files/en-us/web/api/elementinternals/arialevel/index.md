@@ -4,9 +4,10 @@ short-title: ariaLevel
 slug: Web/API/ElementInternals/ariaLevel
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaLevel
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaLevel`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-level`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-level) attribute, which defines the hierarchical level of an element within a structure.
 

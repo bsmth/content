@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGSVGElement/width
 page-type: web-api-instance-property
 browser-compat: api.SVGSVGElement.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`width`** read-only property of the {{domxref("SVGSVGElement")}} interface describes the horizontal size of element as an {{domxref("SVGAnimatedLength")}}. It reflects the {{SVGElement("svg")}} element's {{SVGAttr("width")}} attribute, which may not be the SVG's rendered width.
 

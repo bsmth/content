@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Document.prerendering
+sidebar:
+  - apiref:
+      - Speculation Rules API
 ---
 
-{{ APIRef("Speculation Rules API") }}{{seecompattable}}
+{{seecompattable}}
 
 The **`prerendering`** read-only property of the {{domxref("Document")}} interface returns `true` if the document is currently in the process of prerendering, as initiated via the [Speculation Rules API](/en-US/docs/Web/API/Speculation_Rules_API).
 

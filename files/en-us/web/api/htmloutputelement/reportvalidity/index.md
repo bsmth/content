@@ -4,9 +4,10 @@ short-title: reportValidity()
 slug: Web/API/HTMLOutputElement/reportValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLOutputElement.reportValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`reportValidity()`** method of the {{domxref("HTMLOutputElement")}} interface performs the same validity checking steps as the {{domxref("HTMLOutputElement.checkValidity", "checkValidity()")}} method. It always returns true because {{HTMLElement("output")}} elements are never candidates for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation).
 

@@ -4,9 +4,8 @@ short-title: hashchange
 slug: Web/API/Window/hashchange_event
 page-type: web-api-event
 browser-compat: api.Window.hashchange_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`hashchange`** event is fired when the fragment identifier of the URL has changed (the part of the URL beginning with and following the `#` symbol).
 

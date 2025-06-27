@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.FontData.family
+sidebar:
+  - apiref:
+      - Local Font Access API
 ---
 
-{{APIRef("Local Font Access API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`family`** read-only property of the {{domxref("FontData")}} interface returns the family of the font face.
 

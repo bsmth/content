@@ -4,9 +4,10 @@ short-title: Touch()
 slug: Web/API/Touch/Touch
 page-type: web-api-constructor
 browser-compat: api.Touch.Touch
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{APIRef("Touch Events")}}
 
 The **`Touch()`** constructor creates a new {{domxref("Touch")}} object.
 

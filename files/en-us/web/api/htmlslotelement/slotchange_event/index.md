@@ -4,9 +4,8 @@ short-title: slotchange
 slug: Web/API/HTMLSlotElement/slotchange_event
 page-type: web-api-event
 browser-compat: api.HTMLSlotElement.slotchange_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`slotchange`** event is fired on an {{DOMxRef("HTMLSlotElement")}} instance ({{HTMLElement("slot")}} element) when the node(s) contained in that slot change.
 

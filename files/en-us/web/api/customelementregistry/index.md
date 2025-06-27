@@ -3,9 +3,10 @@ title: CustomElementRegistry
 slug: Web/API/CustomElementRegistry
 page-type: web-api-interface
 browser-compat: api.CustomElementRegistry
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`CustomElementRegistry`** interface provides methods for registering custom elements and querying registered elements. To get an instance of it, use the {{domxref("window.customElements")}} property.
 

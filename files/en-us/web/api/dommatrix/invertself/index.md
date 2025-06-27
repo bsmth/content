@@ -4,9 +4,12 @@ short-title: invertSelf()
 slug: Web/API/DOMMatrix/invertSelf
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.invertSelf
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`invertSelf()`** method of the {{domxref("DOMMatrix")}} interface inverts the original matrix. If the matrix cannot be inverted, the new matrix's components are all set to `NaN` and its {{domxref("DOMMatrixReadonly.is2D", "is2D")}} property is set to `false`.
 

@@ -4,9 +4,10 @@ short-title: isConnected
 slug: Web/API/Node/isConnected
 page-type: web-api-instance-property
 browser-compat: api.Node.isConnected
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`isConnected`** property of the {{domxref("Node")}} interface
 returns a boolean indicating whether the node is connected

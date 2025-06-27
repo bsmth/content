@@ -4,9 +4,12 @@ short-title: destroy()
 slug: Web/API/GPUDevice/destroy
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.destroy
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`destroy()`** method of the
 {{domxref("GPUDevice")}} interface destroys the device, preventing further operations on it.

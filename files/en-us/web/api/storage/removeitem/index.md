@@ -4,9 +4,10 @@ short-title: removeItem()
 slug: Web/API/Storage/removeItem
 page-type: web-api-instance-method
 browser-compat: api.Storage.removeItem
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`removeItem()`** method of the {{domxref("Storage")}}
 interface, when passed a key name, will remove that key from the given

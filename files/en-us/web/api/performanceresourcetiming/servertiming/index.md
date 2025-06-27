@@ -4,9 +4,12 @@ short-title: serverTiming
 slug: Web/API/PerformanceResourceTiming/serverTiming
 page-type: web-api-instance-property
 browser-compat: api.PerformanceResourceTiming.serverTiming
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}{{securecontext_header}}
+{{AvailableInWorkers}}{{securecontext_header}}
 
 The **`serverTiming`** read-only property returns an array of {{domxref("PerformanceServerTiming")}} entries containing server timing metrics.
 

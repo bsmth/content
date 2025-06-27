@@ -4,9 +4,10 @@ short-title: contentEditable
 slug: Web/API/HTMLElement/contentEditable
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.contentEditable
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`contentEditable`** property of
 the {{domxref("HTMLElement")}} interface specifies whether or not the element is

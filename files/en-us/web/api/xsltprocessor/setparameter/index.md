@@ -4,9 +4,10 @@ short-title: setParameter()
 slug: Web/API/XSLTProcessor/setParameter
 page-type: web-api-instance-method
 browser-compat: api.XSLTProcessor.setParameter
+sidebar:
+  - apiref:
+      - XSLT
 ---
-
-{{APIRef("XSLT")}}
 
 The `setParameter()` method of the {{domxref("XSLTProcessor")}} interface sets the value of a parameter (`<xsl:param>`) in the stylesheet imported in the processor.
 

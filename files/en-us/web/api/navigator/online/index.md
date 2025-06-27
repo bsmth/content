@@ -4,9 +4,10 @@ short-title: onLine
 slug: Web/API/Navigator/onLine
 page-type: web-api-instance-property
 browser-compat: api.Navigator.onLine
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`onLine`** property of the {{domxref("Navigator")}} interface returns whether the device is connected to the network, with `true` meaning online and `false` meaning offline. The property's value changes after the browser checks its network connection, usually when the user follows links or when a script requests a remote page. For example, the property should return `false` when users click links soon after they lose internet connection. When its value changes, an [`online`](/en-US/docs/Web/API/Window/online_event) or [`offline`](/en-US/docs/Web/API/Window/offline_event) event is fired on the `window`.
 

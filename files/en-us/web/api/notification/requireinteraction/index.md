@@ -4,9 +4,12 @@ short-title: requireInteraction
 slug: Web/API/Notification/requireInteraction
 page-type: web-api-instance-property
 browser-compat: api.Notification.requireInteraction
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`requireInteraction`** read-only property of the {{domxref("Notification")}} interface returns a boolean value indicating that a notification should remain active until the user clicks or dismisses it, rather than closing automatically.
 

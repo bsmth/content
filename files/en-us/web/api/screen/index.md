@@ -3,9 +3,10 @@ title: Screen
 slug: Web/API/Screen
 page-type: web-api-interface
 browser-compat: api.Screen
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The `Screen` interface represents a screen, usually the one on which the current window is being rendered, and is obtained using {{DOMxRef("window.screen")}}.
 

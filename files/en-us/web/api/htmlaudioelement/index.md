@@ -3,9 +3,10 @@ title: HTMLAudioElement
 slug: Web/API/HTMLAudioElement
 page-type: web-api-interface
 browser-compat: api.HTMLAudioElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLAudioElement`** interface provides access to the properties of {{HTMLElement("audio")}} elements, as well as methods to manipulate them.
 

@@ -4,9 +4,10 @@ short-title: prefix
 slug: Web/API/Attr/prefix
 page-type: web-api-instance-property
 browser-compat: api.Attr.prefix
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`prefix`** property of the {{domxref("Attr")}} returns the namespace prefix of the attribute, or `null` if no prefix is specified.
 

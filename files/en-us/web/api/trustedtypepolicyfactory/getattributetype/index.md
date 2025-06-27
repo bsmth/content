@@ -4,9 +4,12 @@ short-title: getAttributeType()
 slug: Web/API/TrustedTypePolicyFactory/getAttributeType
 page-type: web-api-instance-method
 browser-compat: api.TrustedTypePolicyFactory.getAttributeType
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`getAttributeType()`** method of the {{domxref("TrustedTypePolicyFactory")}} interface allows web developers to check if a Trusted Type is required for an element, and if so which Trusted Type is used.
 

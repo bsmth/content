@@ -4,9 +4,12 @@ short-title: getClientExtensionResults()
 slug: Web/API/PublicKeyCredential/getClientExtensionResults
 page-type: web-api-instance-method
 browser-compat: api.PublicKeyCredential.getClientExtensionResults
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`getClientExtensionResults()`** method of the {{domxref("PublicKeyCredential")}} interface returns a map between the identifiers of extensions requested during credential creation or authentication, and their results after processing by the user agent.
 

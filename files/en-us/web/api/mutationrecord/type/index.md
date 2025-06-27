@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/MutationRecord/type
 page-type: web-api-instance-property
 browser-compat: api.MutationRecord.type
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("MutationRecord")}} read-only property **`type`** is the type of the {{domxref("MutationRecord")}} observed by a {{domxref("MutationObserver")}}.
 

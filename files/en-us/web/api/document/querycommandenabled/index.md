@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Document.queryCommandEnabled
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{ApiRef("DOM")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`Document.queryCommandEnabled()`** method reports whether
 or not the specified editor command is enabled by the browser.

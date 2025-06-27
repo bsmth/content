@@ -4,9 +4,10 @@ short-title: controls
 slug: Web/API/HTMLMediaElement/controls
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.controls
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.controls`** property reflects the
 [`controls`](/en-US/docs/Web/HTML/Reference/Elements/video#controls) HTML attribute, which controls whether user

@@ -4,9 +4,10 @@ short-title: offsetLeft
 slug: Web/API/HTMLElement/offsetLeft
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.offsetLeft
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`offsetLeft`** read-only property of the {{domxref("HTMLElement")}} interface returns the number of pixels that the _upper left corner_ of the current element is offset to the left within the {{domxref("HTMLElement.offsetParent")}} node.
 

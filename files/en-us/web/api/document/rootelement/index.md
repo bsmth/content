@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.rootElement
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{ApiRef("DOM")}}{{Deprecated_header}}
+{{Deprecated_header}}
 
 **`Document.rootElement`** returns the {{domxref("Element")}}
 that is the root element of the {{domxref("document")}} if it is an

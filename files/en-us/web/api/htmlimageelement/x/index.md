@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/HTMLImageElement/x
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.x
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only {{domxref("HTMLImageElement")}} property
 **`x`** indicates the x-coordinate of the

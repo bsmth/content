@@ -4,9 +4,10 @@ short-title: endQueryEXT()
 slug: Web/API/EXT_disjoint_timer_query/endQueryEXT
 page-type: webgl-extension-method
 browser-compat: api.EXT_disjoint_timer_query.endQueryEXT
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`EXT_disjoint_timer_query.endQueryEXT()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) ends a timer query.

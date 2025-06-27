@@ -7,9 +7,10 @@ status:
   - experimental
   - non-standard
 browser-compat: api.BeforeInstallPromptEvent.BeforeInstallPromptEvent
+sidebar: apiref
 ---
 
-{{APIRef}}{{SeeCompatTable}}{{Non-standard_header}}
+{{SeeCompatTable}}{{Non-standard_header}}
 
 The **`BeforeInstallPromptEvent()`** constructor creates a new {{domxref("BeforeInstallPromptEvent")}} object.
 

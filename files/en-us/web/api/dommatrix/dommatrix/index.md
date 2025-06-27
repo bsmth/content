@@ -4,9 +4,12 @@ short-title: DOMMatrix()
 slug: Web/API/DOMMatrix/DOMMatrix
 page-type: web-api-constructor
 browser-compat: api.DOMMatrix.DOMMatrix
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMMatrix`** constructor creates a new
 {{domxref("DOMMatrix")}} object which represents 4x4 matrices, suitable for 2D and 3D

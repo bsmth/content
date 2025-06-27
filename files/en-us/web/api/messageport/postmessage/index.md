@@ -4,9 +4,12 @@ short-title: postMessage()
 slug: Web/API/MessagePort/postMessage
 page-type: web-api-instance-method
 browser-compat: api.MessagePort.postMessage
+sidebar:
+  - apiref:
+      - Channel Messaging API
 ---
 
-{{APIRef("Channel Messaging API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`postMessage()`** method of the
 {{domxref("MessagePort")}} interface sends a message from the port, and optionally,

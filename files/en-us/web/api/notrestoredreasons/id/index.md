@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NotRestoredReasons.id
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`id`** read-only property of the
 {{domxref("NotRestoredReasons")}} interface returns a string representing the `id` attribute value of the {{htmlelement("iframe")}} the document is contained in (for example `<iframe id="foo" src="...">`).

@@ -4,9 +4,10 @@ short-title: mul()
 slug: Web/API/CSSNumericValue/mul
 page-type: web-api-instance-method
 browser-compat: api.CSSNumericValue.mul
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`mul()`** method of the
 {{domxref("CSSNumericValue")}} interface multiplies the `CSSNumericValue` by

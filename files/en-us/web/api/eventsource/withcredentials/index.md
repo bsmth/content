@@ -4,9 +4,12 @@ short-title: withCredentials
 slug: Web/API/EventSource/withCredentials
 page-type: web-api-instance-property
 browser-compat: api.EventSource.withCredentials
+sidebar:
+  - apiref:
+      - Server Sent Events
 ---
 
-{{APIRef("Server Sent Events")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`withCredentials`** read-only property of the
 {{domxref("EventSource")}} interface returns a boolean value indicating whether

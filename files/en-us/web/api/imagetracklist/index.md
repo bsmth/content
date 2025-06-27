@@ -3,9 +3,10 @@ title: ImageTrackList
 slug: Web/API/ImageTrackList
 page-type: web-api-interface
 browser-compat: api.ImageTrackList
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`ImageTrackList`** interface of the {{domxref('WebCodecs API','','','true')}} represents a list of image tracks.
 

@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.CSSPseudoElement.type
+sidebar: apiref
 ---
 
-{{APIRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`type`** read-only property of the
 {{DOMxRef('CSSPseudoElement')}} interface returns the type of the pseudo-element as a

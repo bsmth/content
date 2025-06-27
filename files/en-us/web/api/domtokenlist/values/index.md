@@ -4,9 +4,10 @@ short-title: values()
 slug: Web/API/DOMTokenList/values
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.values
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`values()`** method of the {{domxref("DOMTokenList")}} interface
 returns an {{jsxref("Iteration_protocols",'iterator')}}

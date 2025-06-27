@@ -4,9 +4,10 @@ short-title: parse()
 slug: Web/API/CSSStyleValue/parse_static
 page-type: web-api-static-method
 browser-compat: api.CSSStyleValue.parse_static
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`parse()`** static method of the {{domxref("CSSStyleValue")}}
 interface sets a specific CSS property to the specified values and returns the first

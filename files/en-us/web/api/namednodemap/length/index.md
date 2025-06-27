@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/NamedNodeMap/length
 page-type: web-api-instance-property
 browser-compat: api.NamedNodeMap.length
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`length`** property of the {{domxref("NamedNodeMap")}} interface
 is the number of objects stored in the map.

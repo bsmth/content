@@ -4,9 +4,12 @@ short-title: data
 slug: Web/API/ImageData/data
 page-type: web-api-instance-property
 browser-compat: api.ImageData.data
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The readonly **`ImageData.data`** property returns a
 {{jsxref("Uint8ClampedArray")}} that contains the {{domxref("ImageData")}} object's

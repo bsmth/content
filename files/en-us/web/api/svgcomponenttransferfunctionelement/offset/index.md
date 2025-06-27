@@ -4,9 +4,10 @@ short-title: offset
 slug: Web/API/SVGComponentTransferFunctionElement/offset
 page-type: web-api-instance-property
 browser-compat: api.SVGComponentTransferFunctionElement.offset
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`offset`** read-only property of the {{domxref("SVGComponentTransferFunctionElement")}} interface reflects the {{SVGAttr("offset")}} attribute of the given element.
 

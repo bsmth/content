@@ -7,9 +7,12 @@ status:
   - experimental
 browser-compat: api.KeyboardLayoutMap.get
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.get
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{APIRef("Keyboard API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`get()`** method of the
 {{domxref('KeyboardLayoutMap')}} interface returns the element with the given

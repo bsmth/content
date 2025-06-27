@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/OfflineAudioContext/length
 page-type: web-api-instance-property
 browser-compat: api.OfflineAudioContext.length
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`length`** property of the
 {{domxref("OfflineAudioContext")}} interface returns an integer representing the size of

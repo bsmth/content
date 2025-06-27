@@ -4,9 +4,8 @@ short-title: dragenter
 slug: Web/API/HTMLElement/dragenter_event
 page-type: web-api-event
 browser-compat: api.HTMLElement.dragenter_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `dragenter` event is fired when a dragged element or text selection enters a valid drop target. The target object is the _immediate user selection_ (the element directly indicated by the user as the drop target), or the {{HTMLElement("body")}} element.
 

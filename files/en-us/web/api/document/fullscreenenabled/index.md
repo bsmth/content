@@ -4,9 +4,10 @@ short-title: fullscreenEnabled
 slug: Web/API/Document/fullscreenEnabled
 page-type: web-api-instance-property
 browser-compat: api.Document.fullscreenEnabled
+sidebar:
+  - apiref:
+      - Fullscreen API
 ---
-
-{{APIRef("Fullscreen API")}}
 
 The read-only **`fullscreenEnabled`**
 property on the {{domxref("Document")}} interface indicates whether or not fullscreen

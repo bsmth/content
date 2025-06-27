@@ -4,9 +4,12 @@ short-title: keyPath
 slug: Web/API/IDBIndex/keyPath
 page-type: web-api-instance-property
 browser-compat: api.IDBIndex.keyPath
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`keyPath`** property of the {{domxref("IDBIndex")}}
 interface returns the [key path](/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology#key_path) of the current index. If null, this index is not auto-populated.

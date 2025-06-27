@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Window.captureEvents
+sidebar: apiref
 ---
 
-{{APIRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`Window.captureEvents()`** method does nothing.
 

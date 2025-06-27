@@ -4,9 +4,10 @@ short-title: minValue
 slug: Web/API/AudioParam/minValue
 page-type: web-api-instance-property
 browser-compat: api.AudioParam.minValue
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`minValue`**
 read-only property of the {{domxref("AudioParam")}} interface represents the minimum

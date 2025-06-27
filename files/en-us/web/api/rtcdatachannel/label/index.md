@@ -4,9 +4,10 @@ short-title: label
 slug: Web/API/RTCDataChannel/label
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.label
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only `RTCDataChannel` property **`label`**
 returns a string containing a name describing the data channel. These

@@ -4,9 +4,10 @@ short-title: altKey
 slug: Web/API/KeyboardEvent/altKey
 page-type: web-api-instance-property
 browser-compat: api.KeyboardEvent.altKey
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`KeyboardEvent.altKey`** read-only property is a
 boolean value that indicates if the <kbd>alt</kbd> key (<kbd>Option</kbd> or <kbd>⌥</kbd> on macOS) was pressed (`true`) or not (`false`) when

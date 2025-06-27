@@ -4,9 +4,12 @@ short-title: skewY()
 slug: Web/API/DOMMatrixReadOnly/skewY
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.skewY
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `skewY()` method of the {{domxref("DOMMatrixReadOnly")}} interface returns a new {{domxref("DOMMatrix")}} created by applying the specified skew transformation to the source matrix along its y-axis. The original matrix is not modified.
 

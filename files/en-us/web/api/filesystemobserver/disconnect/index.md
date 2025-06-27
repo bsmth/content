@@ -7,9 +7,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.FileSystemObserver.disconnect
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{SeeCompatTable}}{{non-standard_header}}
+{{securecontext_header}}{{SeeCompatTable}}{{non-standard_header}}
 
 The **`disconnect()`** method of the
 {{domxref("FileSystemObserver")}} interface stops the observer observing the file system.

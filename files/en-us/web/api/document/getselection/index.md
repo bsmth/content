@@ -4,9 +4,10 @@ short-title: getSelection()
 slug: Web/API/Document/getSelection
 page-type: web-api-instance-method
 browser-compat: api.Document.getSelection
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`getSelection()`** method of the {{DOMxRef("Document")}} interface returns the {{DOMxRef("Selection")}} object associated with this document, representing the range of text selected by the user, or the current position of the caret.
 

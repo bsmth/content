@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XRCPUDepthInformation.data
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The _read-only_ **`data`** property of the {{DOMxRef("XRCPUDepthInformation")}} interface is an {{jsxref("ArrayBuffer")}} containing depth-buffer information in raw format.
 

@@ -4,9 +4,12 @@ short-title: getCapabilities()
 slug: Web/API/InputDeviceInfo/getCapabilities
 page-type: web-api-instance-method
 browser-compat: api.InputDeviceInfo.getCapabilities
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`getCapabilities()`** method of the {{domxref("InputDeviceInfo")}} interface returns a `MediaTrackCapabilities` object describing the primary audio or video track of the device's {{domxref("MediaStream")}}.
 

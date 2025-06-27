@@ -4,9 +4,10 @@ short-title: title
 slug: Web/API/HTMLElement/title
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.title
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLElement.title`** property
 represents the title of the element: the text usually displayed in a 'tooltip' popup

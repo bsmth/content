@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/HTMLLIElement/value
 page-type: web-api-instance-property
 browser-compat: api.HTMLLIElement.value
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`value`** property of the {{domxref("HTMLLIElement")}} interface indicates the ordinal position of the _list element_ inside a given {{HTMLElement("ol")}}. It can be smaller than `0`. If the {{HTMLElement("li")}} element is not a child of an {{HTMLElement("ol")}} element, the property has no meaning.
 

@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.Window.scrollByPages
+sidebar: apiref
 ---
 
-{{APIRef}} {{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`Window.scrollByPages()`** method scrolls the current
 document by the specified number of pages.

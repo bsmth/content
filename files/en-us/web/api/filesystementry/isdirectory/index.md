@@ -4,9 +4,10 @@ short-title: isDirectory
 slug: Web/API/FileSystemEntry/isDirectory
 page-type: web-api-instance-property
 browser-compat: api.FileSystemEntry.isDirectory
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The read-only **`isDirectory`**
 property of the {{domxref("FileSystemEntry")}} interface is `true` if the

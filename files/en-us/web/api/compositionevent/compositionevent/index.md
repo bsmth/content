@@ -4,9 +4,10 @@ short-title: CompositionEvent()
 slug: Web/API/CompositionEvent/CompositionEvent
 page-type: web-api-constructor
 browser-compat: api.CompositionEvent.CompositionEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`CompositionEvent()`** constructor creates a new {{domxref("CompositionEvent")}} object.
 

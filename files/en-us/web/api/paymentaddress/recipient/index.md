@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.PaymentAddress.recipient
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{APIRef("Payment Request API")}}{{SecureContext_Header}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{SecureContext_Header}}{{Deprecated_Header}}{{Non-standard_Header}}
 
 The read-only **`recipient`** property of the
 {{domxref('PaymentAddress')}} interface returns a string containing the name of the

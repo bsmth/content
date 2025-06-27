@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/DataTransferItem/type
 page-type: web-api-instance-property
 browser-compat: api.DataTransferItem.type
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The read-only **`DataTransferItem.type`** property returns the type (format) of the {{domxref("DataTransferItem")}} object representing the drag data item.
 The `type` is a Unicode string generally given by a MIME type, although a MIME type is not required.

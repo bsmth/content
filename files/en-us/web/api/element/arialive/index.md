@@ -4,9 +4,10 @@ short-title: ariaLive
 slug: Web/API/Element/ariaLive
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaLive
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaLive`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-live`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-live) attribute, which indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the [live region](/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions).
 

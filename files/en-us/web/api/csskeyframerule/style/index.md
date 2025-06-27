@@ -4,9 +4,10 @@ short-title: style
 slug: Web/API/CSSKeyframeRule/style
 page-type: web-api-instance-property
 browser-compat: api.CSSKeyframeRule.style
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The read-only **`CSSKeyframeRule.style`** property is the {{ domxref("CSSStyleDeclaration") }} interface for the declaration block of the {{ domxref("CSSKeyframeRule") }}.
 

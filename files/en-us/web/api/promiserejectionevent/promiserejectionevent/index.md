@@ -4,9 +4,12 @@ short-title: PromiseRejectionEvent()
 slug: Web/API/PromiseRejectionEvent/PromiseRejectionEvent
 page-type: web-api-constructor
 browser-compat: api.PromiseRejectionEvent.PromiseRejectionEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`PromiseRejectionEvent()`**
 constructor returns a new {{domxref("PromiseRejectionEvent")}} object, which

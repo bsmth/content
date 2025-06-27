@@ -4,9 +4,10 @@ short-title: writable
 slug: Web/API/RTCRtpScriptTransformer/writable
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpScriptTransformer.writable
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`writable`** read-only property of the {{domxref("RTCRtpScriptTransformer")}} interface returns a {{domxref("WritableStream")}} instance that can be used as a sink for encoded media frames enqueued on the corresponding {{domxref("RTCRtpScriptTransformer.readable")}}.
 

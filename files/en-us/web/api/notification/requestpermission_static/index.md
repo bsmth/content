@@ -4,9 +4,12 @@ short-title: requestPermission()
 slug: Web/API/Notification/requestPermission_static
 page-type: web-api-static-method
 browser-compat: api.Notification.requestPermission_static
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`requestPermission()`** static method of the {{domxref("Notification")}} interface requests permission from the user for the current origin to display notifications.
 

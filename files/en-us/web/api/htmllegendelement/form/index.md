@@ -4,9 +4,10 @@ short-title: form
 slug: Web/API/HTMLLegendElement/form
 page-type: web-api-instance-property
 browser-compat: api.HTMLLegendElement.form
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`form`** read-only property of the {{domxref("HTMLLegendElement")}} interface returns an {{domxref("HTMLFormElement")}} object that owns the {{domxref("HTMLFieldSetElement")}} associated with this {{htmlelement("legend")}}, or `null` if this legend is not associated with a {{htmlelement("fieldset")}} owned by a form.
 

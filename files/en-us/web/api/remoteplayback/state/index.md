@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/RemotePlayback/state
 page-type: web-api-instance-property
 browser-compat: api.RemotePlayback.state
+sidebar:
+  - apiref:
+      - Remote Playback API
 ---
-
-{{APIRef("Remote Playback API")}}
 
 The **`state`** read-only property of the {{domxref("RemotePlayback")}} interface returns the current state of the `RemotePlayback` connection.
 

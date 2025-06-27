@@ -4,9 +4,10 @@ short-title: pointerType
 slug: Web/API/PointerEvent/pointerType
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.pointerType
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`pointerType`** read-only property of the
 {{domxref("PointerEvent")}} interface indicates the device type (mouse, pen, or touch)

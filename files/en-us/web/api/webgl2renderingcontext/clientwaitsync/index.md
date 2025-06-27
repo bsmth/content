@@ -4,9 +4,12 @@ short-title: clientWaitSync()
 slug: Web/API/WebGL2RenderingContext/clientWaitSync
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.clientWaitSync
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.clientWaitSync()`** method of the
 [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) blocks and waits for a

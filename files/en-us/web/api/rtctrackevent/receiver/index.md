@@ -4,9 +4,10 @@ short-title: receiver
 slug: Web/API/RTCTrackEvent/receiver
 page-type: web-api-instance-property
 browser-compat: api.RTCTrackEvent.receiver
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`receiver`** property
 of the {{domxref("RTCTrackEvent")}} interface indicates the

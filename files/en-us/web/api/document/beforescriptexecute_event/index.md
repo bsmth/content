@@ -7,9 +7,10 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Document.beforescriptexecute_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{non-standard_header}}{{deprecated_header}}
+{{non-standard_header}}{{deprecated_header}}
 
 The `beforescriptexecute` event fires when a static {{HTMLElement("script")}} is about to start executing. It does not fire if the element is added dynamically, such as with {{domxref("Node.appendChild()", "appendChild()")}}.
 

@@ -3,9 +3,10 @@ title: ResizeObserverEntry
 slug: Web/API/ResizeObserverEntry
 page-type: web-api-interface
 browser-compat: api.ResizeObserverEntry
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`ResizeObserverEntry`** interface represents the object passed to the {{domxref('ResizeObserver.ResizeObserver','ResizeObserver()')}} constructor's callback function, which allows you to access the new dimensions of the {{domxref("Element")}} or {{domxref("SVGElement")}} being observed.
 

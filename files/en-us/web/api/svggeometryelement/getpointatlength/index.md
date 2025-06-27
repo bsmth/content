@@ -4,9 +4,10 @@ short-title: getPointAtLength()
 slug: Web/API/SVGGeometryElement/getPointAtLength
 page-type: web-api-instance-method
 browser-compat: api.SVGGeometryElement.getPointAtLength
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The
 **`SVGGeometryElement.getPointAtLength()`** method returns the

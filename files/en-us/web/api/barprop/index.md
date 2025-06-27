@@ -3,9 +3,10 @@ title: BarProp
 slug: Web/API/BarProp
 page-type: web-api-interface
 browser-compat: api.BarProp
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`BarProp`** interface of the [Document Object Model](/en-US/docs/Web/API/Document_Object_Model) represents the web browser user interface elements that are exposed to scripts in web pages. Each of the following interface elements are represented by a `BarProp` object.
 

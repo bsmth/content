@@ -3,9 +3,10 @@ title: SVGAnimatedRect
 slug: Web/API/SVGAnimatedRect
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedRect
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedRect`** interface represents an {{domxref("SVGRect")}} attribute that can be animated.
 

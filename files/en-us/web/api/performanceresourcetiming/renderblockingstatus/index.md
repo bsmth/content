@@ -4,9 +4,12 @@ short-title: renderBlockingStatus
 slug: Web/API/PerformanceResourceTiming/renderBlockingStatus
 page-type: web-api-instance-property
 browser-compat: api.PerformanceResourceTiming.renderBlockingStatus
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`renderBlockingStatus`** read-only property returns the render-blocking status of the resource.
 

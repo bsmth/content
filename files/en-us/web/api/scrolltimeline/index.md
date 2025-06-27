@@ -3,9 +3,10 @@ title: ScrollTimeline
 slug: Web/API/ScrollTimeline
 page-type: web-api-interface
 browser-compat: api.ScrollTimeline
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`ScrollTimeline`** interface of the {{domxref("Web Animations API", "Web Animations API", "", "nocode")}} represents a scroll progress timeline (see [CSS scroll-driven animations](/en-US/docs/Web/CSS/CSS_scroll-driven_animations) for more details).
 

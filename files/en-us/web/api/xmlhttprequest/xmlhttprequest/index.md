@@ -4,9 +4,10 @@ short-title: XMLHttpRequest()
 slug: Web/API/XMLHttpRequest/XMLHttpRequest
 page-type: web-api-constructor
 browser-compat: api.XMLHttpRequest.XMLHttpRequest
+sidebar:
+  - apiref:
+      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`XMLHttpRequest()`** constructor
 creates a new {{domxref("XMLHttpRequest")}}.

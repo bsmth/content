@@ -4,9 +4,10 @@ short-title: unhandledrejection
 slug: Web/API/Window/unhandledrejection_event
 page-type: web-api-event
 browser-compat: api.Window.unhandledrejection_event
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`unhandledrejection`** event is sent to the global scope of a script when a JavaScript {{jsxref("Promise")}} that has no rejection handler is rejected; typically, this is the {{domxref("window")}}, but may also be a {{domxref("Worker")}}.
 

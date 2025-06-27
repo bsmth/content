@@ -4,9 +4,12 @@ short-title: gamma
 slug: Web/API/DeviceMotionEventRotationRate/gamma
 page-type: web-api-instance-property
 browser-compat: api.DeviceMotionEventRotationRate.gamma
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`gamma`** read-only property of the {{domxref("DeviceMotionEventRotationRate")}} interface indicates the rate of rotation around the Y axis, in degrees per second.
 

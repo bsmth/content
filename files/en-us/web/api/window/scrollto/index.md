@@ -4,9 +4,8 @@ short-title: scrollTo()
 slug: Web/API/Window/scrollTo
 page-type: web-api-instance-method
 browser-compat: api.Window.scrollTo
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 **`Window.scrollTo()`** scrolls to a particular set of
 coordinates in the document.

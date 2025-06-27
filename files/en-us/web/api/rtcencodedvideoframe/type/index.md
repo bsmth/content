@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCEncodedVideoFrame/type
 page-type: web-api-instance-property
 browser-compat: api.RTCEncodedVideoFrame.type
+sidebar:
+  - apiref:
+      - WebRTC")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebRTC")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`type`** read-only property of the {{domxref("RTCEncodedVideoFrame")}} interface indicates whether this frame is a key frame, delta frame, or empty frame.
 

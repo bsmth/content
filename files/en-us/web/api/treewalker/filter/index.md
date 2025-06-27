@@ -4,9 +4,10 @@ short-title: filter
 slug: Web/API/TreeWalker/filter
 page-type: web-api-instance-property
 browser-compat: api.TreeWalker.filter
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.filter`** read-only property returns the `NodeFilter`
 associated with the {{domxref("TreeWalker")}}.

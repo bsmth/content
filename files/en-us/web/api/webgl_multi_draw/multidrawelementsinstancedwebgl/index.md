@@ -4,9 +4,10 @@ short-title: multiDrawElementsInstancedWEBGL()
 slug: Web/API/WEBGL_multi_draw/multiDrawElementsInstancedWEBGL
 page-type: webgl-extension-method
 browser-compat: api.WEBGL_multi_draw.multiDrawElementsInstancedWEBGL
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`WEBGL_multi_draw.multiDrawElementsInstancedWEBGL()`** method of
 the

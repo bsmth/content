@@ -4,9 +4,8 @@ short-title: compositionstart
 slug: Web/API/Element/compositionstart_event
 page-type: web-api-event
 browser-compat: api.Element.compositionstart_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`compositionstart`** event is fired when a text composition system such as an {{glossary("input method editor")}} starts a new composition session.
 

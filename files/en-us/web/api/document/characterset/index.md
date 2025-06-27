@@ -4,9 +4,10 @@ short-title: characterSet
 slug: Web/API/Document/characterSet
 page-type: web-api-instance-property
 browser-compat: api.Document.characterSet
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Document.characterSet`**
 read-only property returns the [character encoding](/en-US/docs/Glossary/Character_encoding) of the

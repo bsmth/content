@@ -4,9 +4,10 @@ short-title: jointName
 slug: Web/API/XRJointSpace/jointName
 page-type: web-api-instance-property
 browser-compat: api.XRJointSpace.jointName
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
-
-{{APIRef("WebXR Device API")}}
 
 The read-only **`jointName`** property of the {{domxref("XRJointSpace")}} interface contains the name of the joint it tracks.
 

@@ -4,9 +4,10 @@ short-title: preloadResponse
 slug: Web/API/FetchEvent/preloadResponse
 page-type: web-api-instance-property
 browser-compat: api.FetchEvent.preloadResponse
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`preloadResponse`** read-only property of the {{domxref("FetchEvent")}} interface returns a {{jsxref("Promise")}} that resolves to the navigation preload {{domxref("Response")}} if [navigation preload](/en-US/docs/Web/API/NavigationPreloadManager) was triggered, or `undefined` otherwise.
 

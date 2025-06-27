@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGFEConvolveMatrixElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGFEConvolveMatrixElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** read-only property of the {{domxref("SVGFEConvolveMatrixElement")}} interface describes the vertical size of an SVG filter primitive as a {{domxref("SVGAnimatedLength")}}.
 

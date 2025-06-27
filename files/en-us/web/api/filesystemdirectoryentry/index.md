@@ -3,9 +3,10 @@ title: FileSystemDirectoryEntry
 slug: Web/API/FileSystemDirectoryEntry
 page-type: web-api-interface
 browser-compat: api.FileSystemDirectoryEntry
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The **`FileSystemDirectoryEntry`** interface of the [File and Directory Entries API](/en-US/docs/Web/API/File_and_Directory_Entries_API) represents a directory in a file system. It provides methods which make it possible to access and manipulate the files in a directory, as well as to access the entries within the directory.
 

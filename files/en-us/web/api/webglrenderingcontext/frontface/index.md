@@ -4,9 +4,12 @@ short-title: frontFace()
 slug: Web/API/WebGLRenderingContext/frontFace
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.frontFace
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.frontFace()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) specifies whether polygons are
 front- or back-facing by setting a winding orientation.

@@ -4,9 +4,8 @@ short-title: afterprint
 slug: Web/API/Window/afterprint_event
 page-type: web-api-event
 browser-compat: api.Window.afterprint_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`afterprint`** event is fired after the associated document has started printing or the print preview has been closed.
 

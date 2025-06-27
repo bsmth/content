@@ -4,9 +4,10 @@ short-title: datachannel
 slug: Web/API/RTCPeerConnection/datachannel_event
 page-type: web-api-event
 browser-compat: api.RTCPeerConnection.datachannel_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 A **`datachannel`** event is sent to an {{domxref("RTCPeerConnection")}} instance when an {{domxref("RTCDataChannel")}} has been added to the connection, as a result of the remote peer calling {{domxref("RTCPeerConnection.createDataChannel()")}}.
 

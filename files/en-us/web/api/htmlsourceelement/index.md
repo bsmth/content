@@ -3,9 +3,10 @@ title: HTMLSourceElement
 slug: Web/API/HTMLSourceElement
 page-type: web-api-interface
 browser-compat: api.HTMLSourceElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLSourceElement`** interface provides special properties (beyond the regular {{domxref("HTMLElement")}} object interface it also has available to it by inheritance) for manipulating {{htmlelement("source")}} elements.
 

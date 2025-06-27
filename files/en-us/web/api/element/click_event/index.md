@@ -4,9 +4,8 @@ short-title: click
 slug: Web/API/Element/click_event
 page-type: web-api-event
 browser-compat: api.Element.click_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 An element receives a **`click`** event when any of the following occurs:
 

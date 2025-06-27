@@ -3,9 +3,10 @@ title: CaretPosition
 slug: Web/API/CaretPosition
 page-type: web-api-interface
 browser-compat: api.CaretPosition
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The `CaretPosition` interface represents the caret position, an indicator for the text insertion point.
 You can get a `CaretPosition` using the {{domxref("Document.caretPositionFromPoint()")}} method.

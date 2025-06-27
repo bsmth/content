@@ -5,9 +5,10 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.BackgroundFetchUpdateUIEvent
+sidebar:
+  - apiref:
+      - Background Fetch API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Background Fetch API")}}{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`BackgroundFetchUpdateUIEvent`** interface of the {{domxref('Background Fetch API','','',' ')}} is an event type for the {{domxref("ServiceWorkerGlobalScope.backgroundfetchsuccess_event", "backgroundfetchsuccess")}} and {{domxref("ServiceWorkerGlobalScope.backgroundfetchfail_event", "backgroundfetchfail")}} events, and provides a method for updating the title and icon of the app to inform a user of the success or failure of a background fetch.
 

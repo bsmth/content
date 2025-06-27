@@ -4,9 +4,10 @@ short-title: kind
 slug: Web/API/RTCAudioSourceStats/kind
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_media-source.kind
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`kind`** property of the {{domxref("RTCAudioSourceStats")}} dictionary is a string with the value `audio`.
 

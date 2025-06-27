@@ -4,9 +4,10 @@ short-title: radiusY
 slug: Web/API/SVGFEMorphologyElement/radiusY
 page-type: web-api-instance-property
 browser-compat: api.SVGFEMorphologyElement.radiusY
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`radiusY`** read-only property of the {{domxref("SVGFEMorphologyElement")}} interface reflects the Y component of the {{SVGAttr("radius")}} attribute of the given {{SVGElement("feMorphology")}} element.
 

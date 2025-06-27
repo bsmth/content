@@ -3,9 +3,10 @@ title: InstallEvent
 slug: Web/API/InstallEvent
 page-type: web-api-interface
 browser-compat: api.InstallEvent
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
-
-{{APIRef("Service Workers API")}}
 
 The parameter passed into an {{DOMxRef("ServiceWorkerGlobalScope.install_event", "install")}} event handler function, the `InstallEvent` interface represents an install action that is dispatched on the {{domxref("ServiceWorkerGlobalScope")}} of a {{domxref("ServiceWorker")}}. As a child of {{domxref("ExtendableEvent")}}, it ensures that functional events such as {{domxref("FetchEvent")}} are not dispatched during installation.
 

@@ -4,9 +4,10 @@ short-title: meetOrSlice
 slug: Web/API/SVGPreserveAspectRatio/meetOrSlice
 page-type: web-api-instance-property
 browser-compat: api.SVGPreserveAspectRatio.meetOrSlice
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`meetOrSlice`** read-only property of the {{domxref("SVGPreserveAspectRatio")}} interface reflects the type of the meet-or-slice value as specified by one of the `SVG_MEETORSLICE_*` constants defined on this interface.
 

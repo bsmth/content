@@ -3,9 +3,10 @@ title: HTMLLabelElement
 slug: Web/API/HTMLLabelElement
 page-type: web-api-interface
 browser-compat: api.HTMLLabelElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLLabelElement`** interface gives access to properties specific to {{HTMLElement("label")}} elements. It inherits methods and properties from the base {{domxref("HTMLElement")}} interface.
 

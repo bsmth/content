@@ -4,9 +4,10 @@ short-title: operator
 slug: Web/API/SVGFEMorphologyElement/operator
 page-type: web-api-instance-property
 browser-compat: api.SVGFEMorphologyElement.operator
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`operator`** read-only property of the {{domxref("SVGFEMorphologyElement")}} interface reflects the {{SVGAttr("operator")}} attribute of the given {{SVGElement("feMorphology")}} element. It takes one of the `SVG_MORPHOLOGY_OPERATOR_*` constants defined on this interface.
 

@@ -4,9 +4,10 @@ short-title: ResizeObserver()
 slug: Web/API/ResizeObserver/ResizeObserver
 page-type: web-api-constructor
 browser-compat: api.ResizeObserver.ResizeObserver
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`ResizeObserver`** constructor creates a
 new {{domxref("ResizeObserver")}} object, which can be used to report changes to the

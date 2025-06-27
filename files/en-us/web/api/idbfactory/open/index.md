@@ -4,9 +4,12 @@ short-title: open()
 slug: Web/API/IDBFactory/open
 page-type: web-api-instance-method
 browser-compat: api.IDBFactory.open
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`open()`** method of the {{domxref("IDBFactory")}} interface requests opening a [connection to a database](/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology#database_connection).
 

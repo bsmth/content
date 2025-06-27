@@ -4,9 +4,10 @@ short-title: animVal
 slug: Web/API/SVGAnimatedNumber/animVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedNumber.animVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animVal`** read-only property of the {{domxref("SVGAnimatedNumber")}} interface represents the animated value of an SVG element's numeric attribute.
 

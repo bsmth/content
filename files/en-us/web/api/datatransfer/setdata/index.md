@@ -4,9 +4,10 @@ short-title: setData()
 slug: Web/API/DataTransfer/setData
 page-type: web-api-instance-method
 browser-compat: api.DataTransfer.setData
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransfer.setData()`** method sets the drag
 operation's [drag data](/en-US/docs/Web/API/DataTransfer) to the specified data and type. If

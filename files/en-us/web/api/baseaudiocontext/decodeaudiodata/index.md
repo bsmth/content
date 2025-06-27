@@ -4,9 +4,10 @@ short-title: decodeAudioData()
 slug: Web/API/BaseAudioContext/decodeAudioData
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.decodeAudioData
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `decodeAudioData()` method of the {{ domxref("BaseAudioContext") }}
 Interface is used to asynchronously decode audio file data contained in an

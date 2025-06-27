@@ -4,9 +4,12 @@ short-title: timeStamp
 slug: Web/API/Event/timeStamp
 page-type: web-api-instance-property
 browser-compat: api.Event.timeStamp
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`timeStamp`** read-only property of the {{domxref("Event")}} interface returns the time (in milliseconds) at which the event was created.
 

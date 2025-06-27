@@ -4,9 +4,10 @@ short-title: getOutputTimestamp()
 slug: Web/API/AudioContext/getOutputTimestamp
 page-type: web-api-instance-method
 browser-compat: api.AudioContext.getOutputTimestamp
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The
 **`getOutputTimestamp()`** method of the

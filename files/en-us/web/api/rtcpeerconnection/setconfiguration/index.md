@@ -4,9 +4,10 @@ short-title: setConfiguration()
 slug: Web/API/RTCPeerConnection/setConfiguration
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.setConfiguration
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`setConfiguration()`** method of the {{domxref("RTCPeerConnection")}} interface sets the current configuration of the connection based on the values included in the specified object.
 This lets you change the ICE servers used by the connection and which transport policies to use.

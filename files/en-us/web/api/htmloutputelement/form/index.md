@@ -4,9 +4,10 @@ short-title: form
 slug: Web/API/HTMLOutputElement/form
 page-type: web-api-instance-property
 browser-compat: api.HTMLOutputElement.form
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`form`** read-only property of the {{domxref("HTMLOutputElement")}} interface returns an {{domxref("HTMLFormElement")}} object that owns this {{htmlelement("output")}}, or `null` if this output is not owned by any form.
 

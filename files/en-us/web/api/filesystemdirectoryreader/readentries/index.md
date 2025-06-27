@@ -4,9 +4,10 @@ short-title: readEntries()
 slug: Web/API/FileSystemDirectoryReader/readEntries
 page-type: web-api-instance-method
 browser-compat: api.FileSystemDirectoryReader.readEntries
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The {{domxref("FileSystemDirectoryReader")}} interface's **`readEntries()`** method retrieves the directory entries
 within the directory being read and delivers them in an array to a provided callback function.

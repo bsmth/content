@@ -4,9 +4,10 @@ short-title: readable
 slug: Web/API/RTCRtpScriptTransformer/readable
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpScriptTransformer.readable
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`readable`** read-only property of the {{domxref("RTCRtpScriptTransformer")}} interface returns a {{domxref("ReadableStream")}} instance is a source for encoded media frames.
 

@@ -4,9 +4,10 @@ short-title: values()
 slug: Web/API/NodeList/values
 page-type: web-api-instance-method
 browser-compat: api.NodeList.values
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeList.values()`** method returns an
 {{jsxref("Iteration_protocols",'iterator')}} allowing to go through all values contained

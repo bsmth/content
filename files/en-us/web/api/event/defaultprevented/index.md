@@ -4,9 +4,12 @@ short-title: defaultPrevented
 slug: Web/API/Event/defaultPrevented
 page-type: web-api-instance-property
 browser-compat: api.Event.defaultPrevented
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`defaultPrevented`** read-only property of the {{domxref("Event")}} interface returns a boolean value indicating whether or not the call to {{ domxref("Event.preventDefault()") }} canceled the event.
 

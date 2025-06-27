@@ -3,9 +3,10 @@ title: StereoPannerNode
 slug: Web/API/StereoPannerNode
 page-type: web-api-interface
 browser-compat: api.StereoPannerNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `StereoPannerNode` interface of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) represents a simple stereo panner node that can be used to pan an audio stream left or right. It is an {{domxref("AudioNode")}} audio-processing module that positions an incoming audio stream in a stereo image using a low-cost equal-power [panning algorithm](https://webaudio.github.io/web-audio-api/#panning-algorithm).
 

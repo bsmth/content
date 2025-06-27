@@ -4,9 +4,12 @@ short-title: port
 slug: Web/API/MIDIConnectionEvent/port
 page-type: web-api-instance-property
 browser-compat: api.MIDIConnectionEvent.port
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`port`** read-only property of the {{domxref("MIDIConnectionEvent")}} interface returns the port that has been disconnected or connected.
 

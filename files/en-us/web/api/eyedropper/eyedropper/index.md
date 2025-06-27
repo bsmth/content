@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.EyeDropper.EyeDropper
+sidebar:
+  - apiref:
+      - EyeDropper API
 ---
 
-{{securecontext_header}}{{APIRef("EyeDropper API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`EyeDropper()`** constructor returns a new {{DOMxRef("EyeDropper")}} object.
 

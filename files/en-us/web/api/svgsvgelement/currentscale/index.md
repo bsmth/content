@@ -4,9 +4,10 @@ short-title: currentScale
 slug: Web/API/SVGSVGElement/currentScale
 page-type: web-api-instance-property
 browser-compat: api.SVGSVGElement.currentScale
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`currentScale`** property of the {{domxref("SVGSVGElement")}} interface reflects the current scale factor relative to the initial view to take into account user magnification and panning operations on the outermost {{SVGElement("svg")}} element.
 

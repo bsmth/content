@@ -3,9 +3,12 @@ title: InputDeviceInfo
 slug: Web/API/InputDeviceInfo
 page-type: web-api-interface
 browser-compat: api.InputDeviceInfo
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`InputDeviceInfo`** interface of the {{domxref("Media Capture and Streams API", "", "", "nocode")}} gives access to the capabilities of the input device that it represents.
 

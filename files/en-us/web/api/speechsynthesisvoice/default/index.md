@@ -4,9 +4,10 @@ short-title: default
 slug: Web/API/SpeechSynthesisVoice/default
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisVoice.default
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`default`** read-only property of the
 {{domxref("SpeechSynthesisVoice")}} interface returns a boolean value

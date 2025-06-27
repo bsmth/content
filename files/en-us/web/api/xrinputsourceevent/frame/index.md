@@ -4,9 +4,12 @@ short-title: frame
 slug: Web/API/XRInputSourceEvent/frame
 page-type: web-api-instance-property
 browser-compat: api.XRInputSourceEvent.frame
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRInputSourceEvent")}} property
 **`frame`** specifies an {{domxref("XRFrame")}} object

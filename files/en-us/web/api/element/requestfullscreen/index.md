@@ -4,9 +4,10 @@ short-title: requestFullscreen()
 slug: Web/API/Element/requestFullscreen
 page-type: web-api-instance-method
 browser-compat: api.Element.requestFullscreen
+sidebar:
+  - apiref:
+      - Fullscreen API
 ---
-
-{{APIRef("Fullscreen API")}}
 
 The **`Element.requestFullscreen()`**
 method issues an asynchronous request to make the element be displayed in fullscreen

@@ -3,9 +3,12 @@ title: SubtleCrypto
 slug: Web/API/SubtleCrypto
 page-type: web-api-interface
 browser-compat: api.SubtleCrypto
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`SubtleCrypto`** interface of the [Web Crypto API](/en-US/docs/Web/API/Web_Crypto_API) provides a number of low-level cryptographic functions.
 

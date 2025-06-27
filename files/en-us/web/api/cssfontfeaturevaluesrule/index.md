@@ -3,9 +3,10 @@ title: CSSFontFeatureValuesRule
 slug: Web/API/CSSFontFeatureValuesRule
 page-type: web-api-interface
 browser-compat: api.CSSFontFeatureValuesRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSFontFeatureValuesRule`** interface represents an {{cssxref("@font-feature-values")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule), letting developers assign for each font face a common name to specify features indices to be used in {{cssxref("font-variant-alternates")}}.
 

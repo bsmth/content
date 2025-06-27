@@ -3,9 +3,10 @@ title: SVGTransform
 slug: Web/API/SVGTransform
 page-type: web-api-interface
 browser-compat: api.SVGTransform
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGTransform`** interface reflects one of the component transformations within an {{ domxref("SVGTransformList") }}; thus, an `SVGTransform` object corresponds to a single component (e.g., `scale(…)` or `matrix(…)`) within a {{ SVGAttr("transform") }} attribute.
 

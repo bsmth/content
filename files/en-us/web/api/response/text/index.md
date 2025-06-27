@@ -4,9 +4,12 @@ short-title: text()
 slug: Web/API/Response/text
 page-type: web-api-instance-method
 browser-compat: api.Response.text
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`text()`** method of the {{domxref("Response")}} interface takes a {{domxref("Response")}} stream and reads it to completion.
 It returns a promise that resolves with a {{jsxref("String")}}.

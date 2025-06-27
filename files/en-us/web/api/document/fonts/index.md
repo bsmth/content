@@ -4,9 +4,10 @@ short-title: fonts
 slug: Web/API/Document/fonts
 page-type: web-api-instance-property
 browser-compat: api.Document.fonts
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`fonts`** property of the {{domxref("Document")}} interface returns the {{domxref("FontFaceSet")}} interface of the document.
 

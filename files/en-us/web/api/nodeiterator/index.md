@@ -3,9 +3,10 @@ title: NodeIterator
 slug: Web/API/NodeIterator
 page-type: web-api-interface
 browser-compat: api.NodeIterator
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeIterator`** interface represents an iterator to traverse nodes of a DOM subtree in document order.
 

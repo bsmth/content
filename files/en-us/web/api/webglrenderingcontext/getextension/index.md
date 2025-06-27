@@ -4,9 +4,12 @@ short-title: getExtension()
 slug: Web/API/WebGLRenderingContext/getExtension
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getExtension
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getExtension()`** method enables a
 [WebGL](/en-US/docs/Web/API/WebGL_API) extension.

@@ -4,9 +4,10 @@ short-title: rows
 slug: Web/API/HTMLTableElement/rows
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableElement.rows
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only {{domxref("HTMLTableElement")}}
 property **`rows`** returns a live

@@ -4,9 +4,10 @@ short-title: revokeObjectURL()
 slug: Web/API/StorageAccessHandle/revokeObjectURL
 page-type: web-api-instance-method
 browser-compat: api.StorageAccessHandle.revokeObjectURL
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 > [!NOTE]
 > See {{domxref("URL.revokeObjectURL_static", "revokeObjectURL()")}} to understand usage.

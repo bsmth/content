@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCPeerConnectionStats/type
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_peer-connection.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`type`** property of the {{domxref("RTCPeerConnectionStats")}} dictionary is a string with the value `"peer-connection"`.
 

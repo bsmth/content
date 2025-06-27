@@ -4,9 +4,10 @@ short-title: MediaMetadata()
 slug: Web/API/MediaMetadata/MediaMetadata
 page-type: web-api-constructor
 browser-compat: api.MediaMetadata.MediaMetadata
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`MediaMetadata()`** constructor creates a new
 {{domxref("MediaMetadata")}} object.

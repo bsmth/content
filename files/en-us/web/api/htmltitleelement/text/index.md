@@ -4,9 +4,10 @@ short-title: text
 slug: Web/API/HTMLTitleElement/text
 page-type: web-api-instance-property
 browser-compat: api.HTMLTitleElement.text
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`text`** property of the {{domxref("HTMLTitleElement")}} interface represents the child text content of the document's title as a string. It contains the {{HTMLelement("title")}} element's content as text; if HTML tags are included within the `<title>` element, they are included as part of the string value rather than being parsed as HTML.
 

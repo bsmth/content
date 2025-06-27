@@ -4,9 +4,12 @@ short-title: kind
 slug: Web/API/FileSystemHandle/kind
 page-type: web-api-instance-property
 browser-compat: api.FileSystemHandle.kind
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers}}
+{{securecontext_header}}{{AvailableInWorkers}}
 
 The **`kind`** read-only property of the
 {{domxref("FileSystemHandle")}} interface returns the type of entry. This is

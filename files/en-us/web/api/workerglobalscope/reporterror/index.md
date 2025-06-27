@@ -4,9 +4,10 @@ short-title: reportError()
 slug: Web/API/WorkerGlobalScope/reportError
 page-type: web-api-instance-method
 browser-compat: api.reportError
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("worker")}}
 
 The **`reportError()`** method of the {{DOMxRef("WorkerGlobalScope")}} interface may be used to report errors to the console or event handlers of global scopes, emulating an uncaught JavaScript exception.
 

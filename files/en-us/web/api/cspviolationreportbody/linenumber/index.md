@@ -4,9 +4,10 @@ short-title: lineNumber
 slug: Web/API/CSPViolationReportBody/lineNumber
 page-type: web-api-instance-property
 browser-compat: api.CSPViolationReportBody.lineNumber
+sidebar:
+  - apiref:
+      - Reporting API
 ---
-
-{{APIRef("Reporting API")}}
 
 The **`lineNumber`** read-only property of the {{domxref("CSPViolationReportBody")}} interface indicates the line number in the source file that triggered the [Content Security Policy (CSP)](/en-US/docs/Web/HTTP/Guides/CSP) violation.
 

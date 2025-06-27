@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.WindowControlsOverlay.visible
+sidebar:
+  - apiref:
+      - Window Controls Overlay API
 ---
 
-{{APIRef("Window Controls Overlay API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`visible`** read-only property of the {{domxref("WindowControlsOverlay")}} interface returns a {{Glossary("Boolean")}} that indicates whether the window controls overlay is visible or not.
 

@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/File/name
 page-type: web-api-instance-property
 browser-compat: api.File.name
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`name`** read-only property of the {{domxref("File")}} interface returns the name of the file represented by a {{domxref("File")}} object. For security
 reasons, the path is excluded from this property.

@@ -4,9 +4,10 @@ short-title: StaticRange()
 slug: Web/API/StaticRange/StaticRange
 page-type: web-api-constructor
 browser-compat: api.StaticRange.StaticRange
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`StaticRange()`** constructor
 creates a new {{domxref("StaticRange")}} object representing a span of content within

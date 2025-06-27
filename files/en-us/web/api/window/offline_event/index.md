@@ -4,9 +4,8 @@ short-title: offline
 slug: Web/API/Window/offline_event
 page-type: web-api-event
 browser-compat: api.Window.offline_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`offline`** event of the {{domxref("Window")}} interface is fired when the browser has lost access to the network and the value of {{domxref("Navigator.onLine")}} switches to `false`.
 

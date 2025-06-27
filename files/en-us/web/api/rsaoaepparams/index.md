@@ -3,9 +3,10 @@ title: RsaOaepParams
 slug: Web/API/RsaOaepParams
 page-type: web-api-interface
 spec-urls: https://w3c.github.io/webcrypto/#dfn-RsaOaepParams
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
-
-{{ APIRef("Web Crypto API") }}
 
 The **`RsaOaepParams`** dictionary of the [Web Crypto API](/en-US/docs/Web/API/Web_Crypto_API) represents the object that should be passed as the `algorithm` parameter into {{domxref("SubtleCrypto.encrypt()")}}, {{domxref("SubtleCrypto.decrypt()")}}, {{domxref("SubtleCrypto.wrapKey()")}}, or {{domxref("SubtleCrypto.unwrapKey()")}}, when using the [RSA_OAEP](/en-US/docs/Web/API/SubtleCrypto/encrypt#rsa-oaep) algorithm.
 

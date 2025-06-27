@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.Profiler.Profiler
+sidebar:
+  - apiref:
+      - JS Self-Profiling API
 ---
 
-{{APIRef("JS Self-Profiling API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Profiler()`** constructor creates a new {{domxref("Profiler")}} object.
 

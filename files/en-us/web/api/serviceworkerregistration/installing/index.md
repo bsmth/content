@@ -4,9 +4,12 @@ short-title: installing
 slug: Web/API/ServiceWorkerRegistration/installing
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerRegistration.installing
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`installing`** read-only property of the
 {{domxref("ServiceWorkerRegistration")}} interface returns a service worker whose

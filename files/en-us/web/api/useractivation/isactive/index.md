@@ -4,9 +4,10 @@ short-title: isActive
 slug: Web/API/UserActivation/isActive
 page-type: web-api-instance-property
 browser-compat: api.UserActivation.isActive
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`isActive`** property of the {{domxref("UserActivation")}} interface indicates whether the current window has {{Glossary("transient activation", "transient user activation")}}.
 

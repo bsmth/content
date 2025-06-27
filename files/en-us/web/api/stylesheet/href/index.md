@@ -4,9 +4,10 @@ short-title: href
 slug: Web/API/StyleSheet/href
 page-type: web-api-instance-property
 browser-compat: api.StyleSheet.href
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`href`** property of the {{domxref("StyleSheet")}}
 interface returns the location of the style sheet.

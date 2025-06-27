@@ -4,9 +4,12 @@ short-title: icon
 slug: Web/API/Notification/icon
 page-type: web-api-instance-property
 browser-compat: api.Notification.icon
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`icon`** read-only property of the
 {{domxref("Notification")}} interface contains the URL of an icon to be displayed as

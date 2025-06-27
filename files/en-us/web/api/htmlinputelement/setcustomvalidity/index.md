@@ -4,9 +4,10 @@ short-title: setCustomValidity()
 slug: Web/API/HTMLInputElement/setCustomValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLInputElement.setCustomValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLInputElement.setCustomValidity()`** method sets a custom validity message for the element.
 

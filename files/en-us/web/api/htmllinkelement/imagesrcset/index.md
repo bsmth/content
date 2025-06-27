@@ -4,9 +4,10 @@ short-title: imageSrcset
 slug: Web/API/HTMLLinkElement/imageSrcset
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.imageSrcset
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`imageSrcset`** property of the {{domxref("HTMLLinkElement")}} interface is a string which identifies one or more comma-separated **image candidate strings**. This property reflects the value of the {{htmlelement("link")}} element's [`imagesrcset`](/en-US/docs/Web/HTML/Reference/Elements/link#imagesrcset) attribute. This property can retrieved or set the `imagesrcset` attribute value.
 

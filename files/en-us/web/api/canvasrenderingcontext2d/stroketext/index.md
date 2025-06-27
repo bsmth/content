@@ -4,9 +4,8 @@ short-title: strokeText()
 slug: Web/API/CanvasRenderingContext2D/strokeText
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.strokeText
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The {{domxref("CanvasRenderingContext2D")}} method
 **`strokeText()`**, part of the Canvas 2D API, strokes — that

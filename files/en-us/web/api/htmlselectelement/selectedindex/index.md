@@ -4,9 +4,10 @@ short-title: selectedIndex
 slug: Web/API/HTMLSelectElement/selectedIndex
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.selectedIndex
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`selectedIndex`** property of the {{DOMxRef("HTMLSelectElement")}} interface is the numeric index of the first selected {{HTMLElement("option")}} element in a {{HTMLElement("select")}} element, if any, or `−1` if no `<option>` is selected. Setting this property selects the option at that index and deselects all other options, while setting it to `-1` deselects any currently selected options.
 

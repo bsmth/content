@@ -4,9 +4,12 @@ short-title: read()
 slug: Web/API/FileSystemSyncAccessHandle/read
 page-type: web-api-instance-method
 browser-compat: api.FileSystemSyncAccessHandle.read
+sidebar:
+  - apiref:
+      - File System API")}}{{AvailableInWorkers("dedicated
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers("dedicated")}}
+{{securecontext_header}}
 
 The **`read()`** method of the
 {{domxref("FileSystemSyncAccessHandle")}} interface reads the content of the file associated with the handle into a specified buffer, optionally at a given offset.

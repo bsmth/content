@@ -4,9 +4,10 @@ short-title: outerText
 slug: Web/API/HTMLElement/outerText
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.outerText
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`outerText`** property of the {{domxref("HTMLElement")}} interface returns the same value as {{domxref("HTMLElement.innerText")}}.
 When used as a setter it replaces the whole current node with the given text (this differs from `innerText`, which replaces the content _inside_ the current node).

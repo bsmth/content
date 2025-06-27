@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.WindowControlsOverlay.getTitlebarAreaRect
+sidebar:
+  - apiref:
+      - Window Controls Overlay API
 ---
 
-{{APIRef("Window Controls Overlay API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`getTitlebarAreaRect()`** method of the {{domxref('WindowControlsOverlay')}} interface queries the current geometry of the title bar area of the Progressive Web App window.
 

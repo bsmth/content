@@ -4,9 +4,12 @@ short-title: loading
 slug: Web/API/FontFaceSet/loading_event
 page-type: web-api-event
 browser-compat: api.FontFaceSet.loading_event
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `loading` event fires when the document begins loading fonts.
 

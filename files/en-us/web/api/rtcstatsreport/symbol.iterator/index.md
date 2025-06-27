@@ -4,9 +4,10 @@ short-title: "[Symbol.iterator]"
 slug: Web/API/RTCStatsReport/Symbol.iterator
 page-type: web-api-instance-method
 browser-compat: api.RTCStatsReport.@@iterator
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`[Symbol.iterator]()`** method of the {{domxref("RTCStatsReport")}} interface implements the [iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) and allows statistics reports to be consumed by most syntaxes expecting iterables, such as the [spread syntax](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) and {{jsxref("Statements/for...of", "for...of")}} loops.
 It returns an [iterator object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator) that yields the key-value pairs of the report in insertion order.

@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - non-standard
 browser-compat: api.Element.gesturechange_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`gesturechange`** event is fired when digits move during a touch gesture.
 

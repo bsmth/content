@@ -4,9 +4,8 @@ short-title: mouseover
 slug: Web/API/Element/mouseover_event
 page-type: web-api-event
 browser-compat: api.Element.mouseover_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`mouseover`** event is fired at an {{domxref("Element")}} when a pointing device (such as a mouse or trackpad) is used to move the cursor onto the element or one of its child elements.
 

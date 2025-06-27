@@ -4,9 +4,10 @@ short-title: createStereoPanner()
 slug: Web/API/BaseAudioContext/createStereoPanner
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createStereoPanner
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createStereoPanner()` method of the {{ domxref("BaseAudioContext") }} interface creates a {{ domxref("StereoPannerNode") }}, which can be used to apply
 stereo panning to an audio source.

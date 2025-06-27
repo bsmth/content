@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.MediaStreamTrack.applyConstraints.suppressLocalAudioPlayback_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The {{domxref("MediaTrackSupportedConstraints")}} dictionary's **`suppressLocalAudioPlayback`** property indicates whether or not the {{domxref("MediaTrackConstraints.suppressLocalAudioPlayback", "suppressLocalAudioPlayback")}} constraint is supported by the user agent and the device on which the content is being used.
 

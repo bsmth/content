@@ -4,9 +4,12 @@ short-title: x
 slug: Web/API/DOMPointReadOnly/x
 page-type: web-api-instance-property
 browser-compat: api.DOMPointReadOnly.x
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMPointReadOnly`** interface's
 **`x`** property holds the horizontal coordinate, x, for a

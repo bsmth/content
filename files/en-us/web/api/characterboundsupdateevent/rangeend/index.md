@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.CharacterBoundsUpdateEvent.rangeEnd
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`CharacterBoundsUpdateEvent.rangeEnd`** read-only property represents the offset of the last character within the editable text region for which the operating system needs the bounds.
 

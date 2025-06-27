@@ -4,9 +4,12 @@ short-title: status
 slug: Web/API/FontFace/status
 page-type: web-api-instance-property
 browser-compat: api.FontFace.status
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`status`** read-only property of the {{domxref("FontFace")}} interface returns an enumerated value indicating the status of the font, one of `"unloaded"`, `"loading"`, `"loaded"`, or `"error"`.
 

@@ -4,9 +4,10 @@ short-title: ariaRowCount
 slug: Web/API/ElementInternals/ariaRowCount
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaRowCount
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaRowCount`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-rowcount`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-rowcount) attribute, which defines the total number of rows in a table, grid, or treegrid.
 

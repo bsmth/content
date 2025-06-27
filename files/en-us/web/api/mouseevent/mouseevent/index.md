@@ -4,9 +4,10 @@ short-title: MouseEvent()
 slug: Web/API/MouseEvent/MouseEvent
 page-type: web-api-constructor
 browser-compat: api.MouseEvent.MouseEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`MouseEvent()`** constructor creates a new {{domxref("MouseEvent")}} object.
 

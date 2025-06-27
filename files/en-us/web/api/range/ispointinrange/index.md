@@ -4,9 +4,10 @@ short-title: isPointInRange()
 slug: Web/API/Range/isPointInRange
 page-type: web-api-instance-method
 browser-compat: api.Range.isPointInRange
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`isPointInRange()`** method of the {{domxref("Range")}} interface determines whether a specified point is within the {{domxref("Range")}}. The point is specified by a reference node and an offset within that node. It is equivalent to calling {{domxref("Range.comparePoint()")}} and checking if the result is `0`.
 

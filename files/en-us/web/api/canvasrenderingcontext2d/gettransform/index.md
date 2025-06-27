@@ -4,9 +4,8 @@ short-title: getTransform()
 slug: Web/API/CanvasRenderingContext2D/getTransform
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.getTransform
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.getTransform()`** method of the Canvas 2D API retrieves the current transformation matrix being applied to the context.
 

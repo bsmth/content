@@ -4,9 +4,12 @@ short-title: attachShader()
 slug: Web/API/WebGLRenderingContext/attachShader
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.attachShader
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **WebGLRenderingContext.attachShader()** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) attaches either a fragment or
 vertex {{domxref("WebGLShader")}} to a {{domxref("WebGLProgram")}}.

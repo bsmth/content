@@ -3,9 +3,12 @@ title: GPUQueue
 slug: Web/API/GPUQueue
 page-type: web-api-interface
 browser-compat: api.GPUQueue
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUQueue`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} controls execution of encoded commands on the GPU.
 

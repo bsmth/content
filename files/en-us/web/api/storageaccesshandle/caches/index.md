@@ -4,9 +4,10 @@ short-title: caches
 slug: Web/API/StorageAccessHandle/caches
 page-type: web-api-instance-property
 browser-compat: api.StorageAccessHandle.caches
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 The **`caches`** property of the {{domxref("StorageAccessHandle")}} interface returns an unpartitioned {{domxref("CacheStorage")}} object if access was granted, and throws a `SecurityError` {{DOMxRef("DOMException")}} otherwise.
 

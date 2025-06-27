@@ -4,9 +4,12 @@ short-title: composedPath()
 slug: Web/API/Event/composedPath
 page-type: web-api-instance-method
 browser-compat: api.Event.composedPath
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
 
-{{APIRef("Shadow DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`composedPath()`** method of the {{domxref("Event")}}
 interface returns the event's path which is an array of the objects on which listeners

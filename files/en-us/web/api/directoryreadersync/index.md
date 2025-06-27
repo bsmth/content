@@ -6,9 +6,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.DirectoryReaderSync
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
 
-{{APIRef("File and Directory Entries API")}}{{Non-standard_Header}}{{Deprecated_Header}}
+{{Non-standard_Header}}{{Deprecated_Header}}
 
 The `DirectoryReaderSync` interface lets you read the entries in a directory.
 

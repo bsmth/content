@@ -4,9 +4,12 @@ short-title: loaded
 slug: Web/API/FontFace/loaded
 page-type: web-api-instance-property
 browser-compat: api.FontFace.loaded
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`loaded`** read-only property of the {{domxref("FontFace")}} interface returns a {{jsxref('Promise')}} that resolves with the current `FontFace` object when the font specified in the object's constructor is done loading or rejects with a `SyntaxError`.
 

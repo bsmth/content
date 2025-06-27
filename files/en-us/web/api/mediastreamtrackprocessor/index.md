@@ -3,9 +3,10 @@ title: MediaStreamTrackProcessor
 slug: Web/API/MediaStreamTrackProcessor
 page-type: web-api-interface
 browser-compat: api.MediaStreamTrackProcessor
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API")}}{{AvailableInWorkers("dedicated
 ---
-
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}{{AvailableInWorkers("dedicated")}}
 
 > [!WARNING]
 > Browsers differ on which global context they expose this interface in (e.g., only window in some browsers and only dedicated worker in others), making them incompatible. Keep this in mind when comparing support.

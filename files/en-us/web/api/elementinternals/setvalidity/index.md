@@ -4,9 +4,10 @@ short-title: setValidity()
 slug: Web/API/ElementInternals/setValidity
 page-type: web-api-instance-method
 browser-compat: api.ElementInternals.setValidity
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`setValidity()`** method of the {{domxref("ElementInternals")}} interface sets the validity of the element.
 

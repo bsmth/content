@@ -4,9 +4,10 @@ short-title: getEndPositionOfChar()
 slug: Web/API/SVGTextContentElement/getEndPositionOfChar
 page-type: web-api-instance-method
 browser-compat: api.SVGTextContentElement.getEndPositionOfChar
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getEndPositionOfChar()` method of the {{domxref("SVGTextContentElement")}} interface returns the trailing position of a typographic character after text layout has been performed.
 

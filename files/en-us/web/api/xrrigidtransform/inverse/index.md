@@ -4,9 +4,12 @@ short-title: inverse
 slug: Web/API/XRRigidTransform/inverse
 page-type: web-api-instance-property
 browser-compat: api.XRRigidTransform.inverse
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only **`inverse`** property
 of the {{domxref("XRRigidTransform")}} interface returns another

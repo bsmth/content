@@ -3,9 +3,10 @@ title: SVGTextPathElement
 slug: Web/API/SVGTextPathElement
 page-type: web-api-interface
 browser-compat: api.SVGTextPathElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGTextPathElement`** interface corresponds to the {{SVGElement("textPath")}} element.
 

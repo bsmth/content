@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.HTMLIFrameElement.featurePolicy
+sidebar:
+  - apiref:
+      - Feature Policy API
 ---
 
-{{APIRef("Feature Policy API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`featurePolicy`** read-only
 property of the {{DOMxRef("HTMLIFrameElement")}} interface returns the

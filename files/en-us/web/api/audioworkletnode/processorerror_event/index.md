@@ -4,9 +4,12 @@ short-title: processorerror
 slug: Web/API/AudioWorkletNode/processorerror_event
 page-type: web-api-event
 browser-compat: api.AudioWorkletNode.processorerror_event
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{ APIRef("Web Audio API") }}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The `processorerror` event fires when the underlying {{domxref("AudioWorkletProcessor")}} behind the node throws an exception in its constructor, the {{domxref("AudioWorkletProcessor.process", "process")}} method, or any user-defined class method.
 

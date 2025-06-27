@@ -4,9 +4,12 @@ short-title: dir()
 slug: Web/API/console/dir_static
 page-type: web-api-static-method
 browser-compat: api.console.dir_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.dir()`** static method displays a list of the properties of the specified JavaScript object. In browser consoles, the output is presented as a hierarchical listing with disclosure triangles that let you see the contents of child objects.
 

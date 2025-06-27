@@ -4,9 +4,10 @@ short-title: currentFrame
 slug: Web/API/AudioWorkletGlobalScope/currentFrame
 page-type: web-api-instance-property
 browser-compat: api.AudioWorkletGlobalScope.currentFrame
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The read-only **`currentFrame`** property of the {{domxref("AudioWorkletGlobalScope")}} interface returns an integer that represents the ever-increasing current sample-frame of the audio block being processed. It is incremented by 128 (the size of a render quantum) after the processing of each audio block.
 

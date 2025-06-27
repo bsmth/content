@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.AudioContext.setSinkId
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`setSinkId()`** method of the {{domxref("AudioContext")}} interface sets the output audio device for the `AudioContext`. If a sink ID is not explicitly set, the default system audio output device will be used.
 

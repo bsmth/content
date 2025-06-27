@@ -4,9 +4,10 @@ short-title: ariaDisabled
 slug: Web/API/Element/ariaDisabled
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaDisabled
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaDisabled`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-disabled`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-disabled) attribute, which indicates that the element is perceivable but disabled, so it is not editable or otherwise operable.
 

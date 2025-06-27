@@ -4,9 +4,10 @@ short-title: elements
 slug: Web/API/HTMLFieldSetElement/elements
 page-type: web-api-instance-property
 browser-compat: api.HTMLFieldSetElement.elements
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`elements`** read-only property of the {{domxref("HTMLFieldSetElement")}} interface returns an {{domxref("HTMLCollection")}} object containing all form control elements ({{htmlelement("button")}}, {{htmlelement("fieldset")}}, {{htmlelement("input")}}, {{htmlelement("object")}}, {{htmlelement("output")}}, {{htmlelement("select")}}, and {{htmlelement("textarea")}}) that are descendants of this field set.
 

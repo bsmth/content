@@ -4,9 +4,10 @@ short-title: cookieEnabled
 slug: Web/API/Navigator/cookieEnabled
 page-type: web-api-instance-property
 browser-compat: api.Navigator.cookieEnabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 `navigator.cookieEnabled` returns a Boolean value that indicates whether cookies are enabled or not.
 

@@ -4,9 +4,8 @@ short-title: reset
 slug: Web/API/HTMLFormElement/reset_event
 page-type: web-api-event
 browser-compat: api.HTMLFormElement.reset_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`reset`** event fires when a {{HTMLElement("form")}} is reset.
 

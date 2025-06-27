@@ -4,9 +4,12 @@ short-title: EventSource()
 slug: Web/API/EventSource/EventSource
 page-type: web-api-constructor
 browser-compat: api.EventSource.EventSource
+sidebar:
+  - apiref:
+      - Server Sent Events
 ---
 
-{{APIRef("Server Sent Events")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`EventSource()`**
 constructor returns a newly-created {{domxref("EventSource")}}, which represents a

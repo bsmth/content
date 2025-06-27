@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.AudioSinkInfo
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`AudioSinkInfo`** interface of the {{domxref("Web Audio API", "Web Audio API", "", "nocode")}} represents information describing an {{domxref("AudioContext")}}'s sink ID, retrieved via {{domxref("AudioContext.sinkId")}}.
 

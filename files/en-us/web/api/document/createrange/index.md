@@ -4,9 +4,10 @@ short-title: createRange()
 slug: Web/API/Document/createRange
 page-type: web-api-instance-method
 browser-compat: api.Document.createRange
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Document.createRange()`** method returns a new
 {{domxref("Range")}} object.

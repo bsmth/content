@@ -4,9 +4,10 @@ short-title: CSSUnitValue()
 slug: Web/API/CSSUnitValue/CSSUnitValue
 page-type: web-api-constructor
 browser-compat: api.CSSUnitValue.CSSUnitValue
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSUnitValue()`** constructor creates a
 new {{domxref("CSSUnitValue")}} object which returns a new {{domxref('CSSUnitValue')}}

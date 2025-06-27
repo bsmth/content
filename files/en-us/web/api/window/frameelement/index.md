@@ -4,9 +4,8 @@ short-title: frameElement
 slug: Web/API/Window/frameElement
 page-type: web-api-instance-property
 browser-compat: api.Window.frameElement
+sidebar: apiref
 ---
-
-{{ApiRef}}
 
 The **`Window.frameElement`** property
 returns the element (such as {{HTMLElement("iframe")}} or {{HTMLElement("object")}})

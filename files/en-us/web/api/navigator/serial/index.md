@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Navigator.serial
+sidebar:
+  - apiref:
+      - Web Serial API
 ---
 
-{{APIRef("Web Serial API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`serial`** read-only property of the {{domxref("Navigator")}} interface returns a {{domxref("Serial")}} object which represents the entry point into the [Web Serial API](/en-US/docs/Web/API/Web_Serial_API).
 

@@ -3,9 +3,10 @@ title: DocumentType
 slug: Web/API/DocumentType
 page-type: web-api-interface
 browser-compat: api.DocumentType
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`DocumentType`** interface represents a {{domxref("Node")}} containing a doctype.
 

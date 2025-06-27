@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/MIDIPort/name
 page-type: web-api-instance-property
 browser-compat: api.MIDIPort.name
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`name`** read-only property of the {{domxref("MIDIPort")}} interface returns the system name of the port.
 

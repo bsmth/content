@@ -4,9 +4,10 @@ short-title: loadTime
 slug: Web/API/LargestContentfulPaint/loadTime
 page-type: web-api-instance-property
 browser-compat: api.LargestContentfulPaint.loadTime
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`loadTime`** read-only property of the {{domxref("LargestContentfulPaint")}} interface returns the time that the element was loaded.
 

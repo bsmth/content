@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/SpeechSynthesisUtterance/error_event
 page-type: web-api-event
 browser-compat: api.SpeechSynthesisUtterance.error_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`error`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) {{domxref("SpeechSynthesisUtterance")}} object is fired when an error occurs that prevents the utterance from being successfully spoken.
 

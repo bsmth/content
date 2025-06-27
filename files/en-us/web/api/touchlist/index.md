@@ -3,9 +3,10 @@ title: TouchList
 slug: Web/API/TouchList
 page-type: web-api-interface
 browser-compat: api.TouchList
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{APIRef("Touch Events")}}
 
 The **`TouchList`** interface represents a list of contact points on a touch surface. For example, if the user has three fingers on the touch surface (such as a screen or trackpad), the corresponding `TouchList` object would have one {{domxref("Touch")}} object for each finger, for a total of three entries.
 

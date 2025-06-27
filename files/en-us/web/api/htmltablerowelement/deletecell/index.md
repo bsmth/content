@@ -4,9 +4,10 @@ short-title: deleteCell()
 slug: Web/API/HTMLTableRowElement/deleteCell
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableRowElement.deleteCell
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`deleteCell()`** method of the {{domxref("HTMLTableRowElement")}} interface removes a
 specific row cell from a given {{htmlelement("tr")}}.

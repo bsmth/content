@@ -4,9 +4,10 @@ short-title: canplay
 slug: Web/API/HTMLMediaElement/canplay_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.canplay_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `canplay` event is fired when the user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content.
 

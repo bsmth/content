@@ -4,9 +4,10 @@ short-title: atob()
 slug: Web/API/Window/atob
 page-type: web-api-instance-method
 browser-compat: api.atob
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`atob()`** method of the {{domxref("Window")}} interface decodes a
 string of data which has been encoded using {{glossary("Base64")}} encoding. You can use

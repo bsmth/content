@@ -3,9 +3,10 @@ title: AnimationPlaybackEvent
 slug: Web/API/AnimationPlaybackEvent
 page-type: web-api-interface
 browser-compat: api.AnimationPlaybackEvent
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The AnimationPlaybackEvent interface of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) represents animation events.
 

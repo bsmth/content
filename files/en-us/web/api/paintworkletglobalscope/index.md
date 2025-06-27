@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.PaintWorkletGlobalScope
+sidebar:
+  - apiref:
+      - CSS Painting API
 ---
 
-{{APIRef("CSS Painting API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`PaintWorkletGlobalScope`** interface of the [CSS Painting API](/en-US/docs/Web/API/CSS_Painting_API) represents the global object available inside a paint {{domxref("Worklet")}}.
 

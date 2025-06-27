@@ -4,9 +4,10 @@ short-title: volume
 slug: Web/API/HTMLMediaElement/volume
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.volume
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.volume`** property sets the volume at
 which the media will be played.

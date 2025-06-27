@@ -4,9 +4,10 @@ short-title: integrity
 slug: Web/API/HTMLLinkElement/integrity
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.integrity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`integrity`** property of the {{domxref("HTMLLinkElement")}} interface is a string containing inline metadata that a browser can use to verify that a fetched resource has been delivered without unexpected manipulation.
 

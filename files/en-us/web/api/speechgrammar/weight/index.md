@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.SpeechGrammar.weight
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
 
-{{APIRef("Web Speech API")}}{{deprecated_header}}{{non-standard_header}}
+{{deprecated_header}}{{non-standard_header}}
 
 The optional **`weight`** property of the
 {{domxref("SpeechGrammar")}} interface sets and returns the weight of the

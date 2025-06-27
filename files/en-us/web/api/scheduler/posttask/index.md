@@ -4,9 +4,12 @@ short-title: postTask()
 slug: Web/API/Scheduler/postTask
 page-type: web-api-instance-method
 browser-compat: api.Scheduler.postTask
+sidebar:
+  - apiref:
+      - Prioritized Task Scheduling API
 ---
 
-{{APIRef("Prioritized Task Scheduling API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`postTask()`** method of the {{domxref("Scheduler")}} interface is used for adding tasks to be [scheduled](/en-US/docs/Web/API/Prioritized_Task_Scheduling_API) according to their [priority](/en-US/docs/Web/API/Prioritized_Task_Scheduling_API#task_priorities).
 

@@ -4,9 +4,8 @@ short-title: strokeRect()
 slug: Web/API/CanvasRenderingContext2D/strokeRect
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.strokeRect
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.strokeRect()`**

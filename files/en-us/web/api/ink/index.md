@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.Ink
+sidebar:
+  - apiref:
+      - Ink API
 ---
 
-{{APIRef("Ink API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Ink`** interface of the [Ink API](/en-US/docs/Web/API/Ink_API) provides access to {{domxref("DelegatedInkTrailPresenter")}} objects for the application to use to render ink strokes.
 

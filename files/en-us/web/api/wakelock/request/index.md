@@ -4,9 +4,12 @@ short-title: request()
 slug: Web/API/WakeLock/request
 page-type: web-api-instance-method
 browser-compat: api.WakeLock.request
+sidebar:
+  - apiref:
+      - Screen Wake Lock API
 ---
 
-{{APIRef("Screen Wake Lock API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`request()`** method of the {{domxref("WakeLock")}} interface returns a {{jsxref("Promise")}} that fulfills with a {{domxref("WakeLockSentinel")}} object if the system screen wake lock is granted.
 

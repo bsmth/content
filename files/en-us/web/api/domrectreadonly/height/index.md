@@ -4,9 +4,12 @@ short-title: height
 slug: Web/API/DOMRectReadOnly/height
 page-type: web-api-instance-property
 browser-compat: api.DOMRectReadOnly.height
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`height`** read-only property of the **`DOMRectReadOnly`** interface represents the height of the `DOMRect`.
 

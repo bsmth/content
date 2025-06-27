@@ -4,9 +4,10 @@ short-title: hash
 slug: Web/API/Location/hash
 page-type: web-api-instance-property
 browser-compat: api.Location.hash
+sidebar:
+  - apiref:
+      - Location
 ---
-
-{{ APIRef("Location") }}
 
 The **`hash`** property of the {{domxref("Location")}} interface is a string containing a `"#"` followed by the fragment identifier of the location URL. If the URL does not have a fragment identifier, this property contains an empty string, `""`.
 

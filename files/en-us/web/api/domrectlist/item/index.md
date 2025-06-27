@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/DOMRectList/item
 page-type: web-api-instance-method
 browser-compat: api.DOMRectList.item
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
-
-{{APIRef("Geometry Interfaces")}}
 
 The {{domxref("DOMRectList")}} method
 `item()` returns the {{domxref("DOMRect")}} at the specified index within the list, or `null` if the index is out of range.

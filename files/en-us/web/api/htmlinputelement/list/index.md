@@ -4,9 +4,10 @@ short-title: list
 slug: Web/API/HTMLInputElement/list
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.list
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`list`** read-only property of the {{domxref("HTMLInputElement")}} interface returns the {{domxref("HTMLDataListElement")}} pointed to by the [`list`](/en-US/docs/Web/HTML/Reference/Elements/input#list) attribute of the element, or `null` if the `list` attribute is not defined or the `list` attribute's value is not associated with any `<datalist>` in the same tree.
 

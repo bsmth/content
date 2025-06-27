@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/SVGMaskElement/x
 page-type: web-api-instance-property
 browser-compat: api.SVGMaskElement.x
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The read-only **`x`** property of the {{domxref("SVGMaskElement")}} interface returns an {{domxref("SVGAnimatedLength")}} object containing the value of the {{SVGattr("x")}} attribute of the {{SVGElement("mask")}}. It represents the x-axis coordinate of the _top-left_ corner of the masking area.
 

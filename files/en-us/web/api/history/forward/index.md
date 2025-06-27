@@ -4,9 +4,10 @@ short-title: forward()
 slug: Web/API/History/forward
 page-type: web-api-instance-method
 browser-compat: api.History.forward
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`forward()`** method of the {{domxref("History")}} interface causes the browser to move
 forward one page in the session history. It has the same effect as calling

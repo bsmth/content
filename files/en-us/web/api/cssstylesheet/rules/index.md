@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.CSSStyleSheet.rules
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 **`rules`** is a _deprecated_
 _legacy property_ of the {{domxref("CSSStyleSheet")}} interface. Functionally

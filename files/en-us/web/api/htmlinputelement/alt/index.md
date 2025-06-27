@@ -4,9 +4,10 @@ short-title: alt
 slug: Web/API/HTMLInputElement/alt
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.alt
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`alt`** property of the {{DOMxRef("HTMLInputElement")}} interface defines the textual label for the button for users and user agents who cannot use the image. It reflects the {{htmlelement("input")}} element's [`alt`](/en-US/docs/Web/HTML/Reference/Elements/input#alt) attribute.
 

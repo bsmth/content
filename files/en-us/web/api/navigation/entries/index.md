@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Navigation.entries
+sidebar:
+  - apiref:
+      - Navigation API
 ---
 
-{{APIRef("Navigation API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`entries()`** method of the
 {{domxref("Navigation")}} interface returns an array of {{domxref("NavigationHistoryEntry")}} objects representing all existing history entries.

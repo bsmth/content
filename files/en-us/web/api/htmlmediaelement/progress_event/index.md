@@ -4,9 +4,8 @@ short-title: progress
 slug: Web/API/HTMLMediaElement/progress_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.progress_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`progress`** event is fired periodically as the browser loads a resource.
 

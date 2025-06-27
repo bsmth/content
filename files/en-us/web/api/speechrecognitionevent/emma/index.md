@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.SpeechRecognitionEvent.emma
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
 
-{{APIRef("Web Speech API")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`emma`** read-only property of the
 {{domxref("SpeechRecognitionEvent")}} interface returns an Extensible

@@ -4,9 +4,12 @@ short-title: enqueue()
 slug: Web/API/ReadableByteStreamController/enqueue
 page-type: web-api-instance-method
 browser-compat: api.ReadableByteStreamController.enqueue
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`enqueue()`** method of the {{domxref("ReadableByteStreamController")}} interface enqueues a given chunk on the associated readable byte stream (the chunk is copied into the stream's internal queues).
 

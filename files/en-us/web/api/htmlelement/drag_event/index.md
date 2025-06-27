@@ -4,9 +4,8 @@ short-title: drag
 slug: Web/API/HTMLElement/drag_event
 page-type: web-api-event
 browser-compat: api.HTMLElement.drag_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `drag` event is fired every few hundred milliseconds as an element or text selection is being dragged by the user.
 

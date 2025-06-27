@@ -3,9 +3,10 @@ title: RTCIceCandidateStats
 slug: Web/API/RTCIceCandidateStats
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport.type_local-candidate
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCIceCandidateStats`** dictionary of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) is used to report statistics related to an {{domxref("RTCIceCandidate")}}.
 

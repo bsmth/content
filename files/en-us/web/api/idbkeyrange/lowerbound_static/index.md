@@ -4,9 +4,12 @@ short-title: lowerBound()
 slug: Web/API/IDBKeyRange/lowerBound_static
 page-type: web-api-static-method
 browser-compat: api.IDBKeyRange.lowerBound_static
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`lowerBound()`** static method of the
 {{domxref("IDBKeyRange")}} interface creates a new key range with only a lower bound.

@@ -4,9 +4,12 @@ short-title: PaymentMethodChangeEvent()
 slug: Web/API/PaymentMethodChangeEvent/PaymentMethodChangeEvent
 page-type: web-api-constructor
 browser-compat: api.PaymentMethodChangeEvent.PaymentMethodChangeEvent
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`PaymentMethodChangeEvent()`**
 constructor creates a new {{domxref("PaymentMethodChangeEvent")}} object providing

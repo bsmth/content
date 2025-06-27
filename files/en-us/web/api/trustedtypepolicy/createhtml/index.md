@@ -4,9 +4,12 @@ short-title: createHTML()
 slug: Web/API/TrustedTypePolicy/createHTML
 page-type: web-api-instance-method
 browser-compat: api.TrustedTypePolicy.createHTML
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`createHTML()`** method of the {{domxref("TrustedTypePolicy")}} interface creates a {{domxref("TrustedHTML")}} object using a policy created by {{domxref("TrustedTypePolicyFactory.createPolicy()")}}.
 

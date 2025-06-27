@@ -4,9 +4,10 @@ short-title: k3
 slug: Web/API/SVGFECompositeElement/k3
 page-type: web-api-instance-property
 browser-compat: api.SVGFECompositeElement.k3
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`k3`** read-only property of the {{domxref("SVGFECompositeElement")}} interface reflects the {{SVGAttr("k3")}} attribute of the given {{SVGElement("feComposite")}} element.
 

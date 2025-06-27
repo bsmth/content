@@ -4,9 +4,12 @@ short-title: port1
 slug: Web/API/MessageChannel/port1
 page-type: web-api-instance-property
 browser-compat: api.MessageChannel.port1
+sidebar:
+  - apiref:
+      - Channel Messaging API
 ---
 
-{{APIRef("Channel Messaging API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`port1`** read-only property of the
 {{domxref("MessageChannel")}} interface returns the first port of the message channel —

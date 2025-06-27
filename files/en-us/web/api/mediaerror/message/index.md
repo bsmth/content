@@ -4,9 +4,10 @@ short-title: message
 slug: Web/API/MediaError/message
 page-type: web-api-instance-property
 browser-compat: api.MediaError.message
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only property **`MediaError.message`** returns a
 human-readable string offering specific

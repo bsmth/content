@@ -4,9 +4,12 @@ short-title: emHeightAscent
 slug: Web/API/TextMetrics/emHeightAscent
 page-type: web-api-instance-property
 browser-compat: api.TextMetrics.emHeightAscent
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only `emHeightAscent` property of the {{domxref("TextMetrics")}} interface returns the distance from the horizontal line indicated by the {{domxref("CanvasRenderingContext2D.textBaseline")}} property to the top of the _em_ square in the line box, in CSS pixels.
 

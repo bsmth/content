@@ -4,9 +4,10 @@ short-title: cancel()
 slug: Web/API/SpeechSynthesis/cancel
 page-type: web-api-instance-method
 browser-compat: api.SpeechSynthesis.cancel
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`cancel()`** method of the {{domxref("SpeechSynthesis")}}
 interface removes all utterances from the utterance queue.

@@ -4,9 +4,12 @@ short-title: sampleCount
 slug: Web/API/GPUTexture/sampleCount
 page-type: web-api-instance-property
 browser-compat: api.GPUTexture.sampleCount
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`sampleCount`** read-only property of the
 {{domxref("GPUTexture")}} interface represents the sample count of the `GPUTexture`.

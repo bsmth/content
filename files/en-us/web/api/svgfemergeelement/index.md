@@ -3,9 +3,10 @@ title: SVGFEMergeElement
 slug: Web/API/SVGFEMergeElement
 page-type: web-api-interface
 browser-compat: api.SVGFEMergeElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEMergeElement`** interface corresponds to the {{SVGElement("feMerge")}} element.
 

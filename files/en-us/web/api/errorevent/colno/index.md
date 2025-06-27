@@ -4,9 +4,12 @@ short-title: colno
 slug: Web/API/ErrorEvent/colno
 page-type: web-api-instance-property
 browser-compat: api.ErrorEvent.colno
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`colno`** read-only property of the {{domxref("ErrorEvent")}} interface returns an integer containing the column number of the script file on which the error occurred.
 

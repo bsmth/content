@@ -4,9 +4,10 @@ short-title: appendChild()
 slug: Web/API/Node/appendChild
 page-type: web-api-instance-method
 browser-compat: api.Node.appendChild
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`appendChild()`** method of the {{domxref("Node")}} interface adds a node to the end of the list of children of a specified parent node.
 

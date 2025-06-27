@@ -4,9 +4,10 @@ short-title: sender
 slug: Web/API/RTCRtpTransceiver/sender
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpTransceiver.sender
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`sender`** property
 of WebRTC's {{domxref("RTCRtpTransceiver")}} interface indicates the

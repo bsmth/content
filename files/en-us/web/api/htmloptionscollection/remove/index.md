@@ -4,9 +4,10 @@ short-title: remove()
 slug: Web/API/HTMLOptionsCollection/remove
 page-type: web-api-instance-method
 browser-compat: api.HTMLOptionsCollection.remove
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`remove()`** method of the {{DOMxRef("HTMLOptionsCollection")}} interface removes the {{HTMLelement("option")}} element specified by the index from this collection.
 

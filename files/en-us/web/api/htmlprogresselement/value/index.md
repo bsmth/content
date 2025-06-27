@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/HTMLProgressElement/value
 page-type: web-api-instance-property
 browser-compat: api.HTMLProgressElement.value
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`value`** property of the {{DOMxRef("HTMLProgressElement")}} interface represents the current progress of the {{HTMLElement("progress")}} element.
 

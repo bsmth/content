@@ -4,9 +4,10 @@ short-title: tonechange
 slug: Web/API/RTCDTMFSender/tonechange_event
 page-type: web-api-event
 browser-compat: api.RTCDTMFSender.tonechange_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`tonechange`** event is sent to an {{domxref("RTCDTMFSender")}} by the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) to indicate when {{Glossary("DTMF")}} tones previously queued for sending (by calling {{domxref("RTCDTMFSender.insertDTMF()")}}) begin and end.
 

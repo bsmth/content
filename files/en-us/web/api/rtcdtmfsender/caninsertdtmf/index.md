@@ -4,9 +4,10 @@ short-title: canInsertDTMF
 slug: Web/API/RTCDTMFSender/canInsertDTMF
 page-type: web-api-instance-property
 browser-compat: api.RTCDTMFSender.canInsertDTMF
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`canInsertDTMF`** read-only property of the {{domxref("RTCDTMFSender")}} interface returns a boolean value which indicates whether the `RTCDTMFSender` is capable of sending DTMF tones over the {{domxref("RTCPeerConnection")}}.
 

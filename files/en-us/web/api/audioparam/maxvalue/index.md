@@ -4,9 +4,10 @@ short-title: maxValue
 slug: Web/API/AudioParam/maxValue
 page-type: web-api-instance-property
 browser-compat: api.AudioParam.maxValue
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`maxValue`**
 read-only property of the {{domxref("AudioParam")}} interface represents the maximum

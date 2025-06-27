@@ -4,9 +4,10 @@ short-title: clone()
 slug: Web/API/MediaStreamTrack/clone
 page-type: web-api-instance-method
 browser-compat: api.MediaStreamTrack.clone
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`clone()`** method of the {{domxref("MediaStreamTrack")}}
 interface creates a duplicate of the `MediaStreamTrack`. This new

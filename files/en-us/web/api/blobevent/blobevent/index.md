@@ -4,9 +4,10 @@ short-title: BlobEvent()
 slug: Web/API/BlobEvent/BlobEvent
 page-type: web-api-constructor
 browser-compat: api.BlobEvent.BlobEvent
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`BlobEvent()`** constructor returns a newly created
 {{domxref("BlobEvent")}} object with an associated {{domxref("Blob")}}.

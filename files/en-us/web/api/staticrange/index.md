@@ -3,9 +3,10 @@ title: StaticRange
 slug: Web/API/StaticRange
 page-type: web-api-interface
 browser-compat: api.StaticRange
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The [DOM](/en-US/docs/Web/API/Document_Object_Model) **`StaticRange`** interface extends {{domxref("AbstractRange")}} to provide a method to specify a range of content in the DOM whose contents don't update to reflect changes which occur within the DOM tree.
 

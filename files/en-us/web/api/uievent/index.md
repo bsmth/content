@@ -3,9 +3,10 @@ title: UIEvent
 slug: Web/API/UIEvent
 page-type: web-api-interface
 browser-compat: api.UIEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`UIEvent`** interface represents simple user interface events. It is part of the [UI Events](/en-US/docs/Web/API/UI_Events) API, which includes various event types and interfaces related to user interactions.
 

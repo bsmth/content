@@ -3,9 +3,10 @@ title: WaveShaperNode
 slug: Web/API/WaveShaperNode
 page-type: web-api-interface
 browser-compat: api.WaveShaperNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`WaveShaperNode`** interface represents a non-linear distorter.
 

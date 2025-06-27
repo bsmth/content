@@ -4,9 +4,12 @@ short-title: getGamepads()
 slug: Web/API/Navigator/getGamepads
 page-type: web-api-instance-method
 browser-compat: api.Navigator.getGamepads
+sidebar:
+  - apiref:
+      - Gamepad API
 ---
 
-{{APIRef("Gamepad API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`Navigator.getGamepads()`** method returns an array of
 {{domxref("Gamepad")}} objects, one for each gamepad connected to the device.

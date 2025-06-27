@@ -4,9 +4,10 @@ short-title: insertRule()
 slug: Web/API/CSSGroupingRule/insertRule
 page-type: web-api-instance-method
 browser-compat: api.CSSGroupingRule.insertRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`insertRule()`** method of the
 {{domxref("CSSGroupingRule")}} interface adds a new CSS rule to a list of CSS rules.

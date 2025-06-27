@@ -3,9 +3,12 @@ title: PublicKeyCredentialRequestOptions
 slug: Web/API/PublicKeyCredentialRequestOptions
 page-type: web-api-interface
 spec-urls: https://w3c.github.io/webauthn/#dictdef-publickeycredentialrequestoptions
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`PublicKeyCredentialRequestOptions`** dictionary represents the object passed to {{domxref("CredentialsContainer.get()")}} as the value of the `publicKey` option.
 

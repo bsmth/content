@@ -4,9 +4,12 @@ short-title: getPublicKeyAlgorithm()
 slug: Web/API/AuthenticatorAttestationResponse/getPublicKeyAlgorithm
 page-type: web-api-instance-method
 browser-compat: api.AuthenticatorAttestationResponse.getPublicKeyAlgorithm
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`getPublicKeyAlgorithm()`** method of the {{domxref("AuthenticatorAttestationResponse")}} interface returns a number that is equal to a [COSE Algorithm Identifier](https://www.iana.org/assignments/cose/cose.xhtml#algorithms), representing the cryptographic algorithm used for the new credential.
 

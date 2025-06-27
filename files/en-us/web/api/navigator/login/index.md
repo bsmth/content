@@ -4,9 +4,12 @@ short-title: login
 slug: Web/API/Navigator/login
 page-type: web-api-instance-property
 browser-compat: api.Navigator.login
+sidebar:
+  - apiref:
+      - FedCM API
 ---
 
-{{securecontext_header}}{{APIRef("FedCM API")}}
+{{securecontext_header}}
 
 The **`login`** read-only property of the {{domxref("Navigator")}} interface provides access to the browser's {{domxref("NavigatorLogin")}} object, which a federated identity provider (IdP) can use to set its login status when a user signs into or out of the IdP.
 

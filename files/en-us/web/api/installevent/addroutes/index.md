@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.InstallEvent.addRoutes
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`addRoutes()`** method of the {{domxref("InstallEvent")}} interface specifies one or more static routes, which define rules for fetching specified resources that will be used even before service worker startup. This allows you to, for example, bypass a service worker in cases where you always want to fetch a resource from the network or a browser {{domxref("Cache")}}, and avoids the performance overhead of unnecessary service worker cycles.
 

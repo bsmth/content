@@ -4,9 +4,10 @@ short-title: z
 slug: Web/API/CSSRotate/z
 page-type: web-api-instance-property
 browser-compat: api.CSSRotate.z
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`z`** property of the
 {{domxref("CSSRotate")}} interface representing the z-component of the translating

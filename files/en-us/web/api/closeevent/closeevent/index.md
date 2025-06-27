@@ -4,9 +4,12 @@ short-title: CloseEvent()
 slug: Web/API/CloseEvent/CloseEvent
 page-type: web-api-constructor
 browser-compat: api.CloseEvent.CloseEvent
+sidebar:
+  - apiref:
+      - Websockets API
 ---
 
-{{APIRef("Websockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`CloseEvent()`** constructor creates a new {{domxref("CloseEvent")}} object.
 

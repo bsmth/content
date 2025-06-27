@@ -4,9 +4,12 @@ short-title: getType()
 slug: Web/API/ClipboardItem/getType
 page-type: web-api-instance-method
 browser-compat: api.ClipboardItem.getType
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}} {{securecontext_header}}
+{{securecontext_header}}
 
 The **`getType()`** method of the {{domxref("ClipboardItem")}} interface returns a {{jsxref("Promise")}} that resolves with a {{domxref("Blob")}} of the requested {{Glossary("MIME type")}} or an error if the MIME type is not found.
 

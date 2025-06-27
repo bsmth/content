@@ -4,9 +4,10 @@ short-title: track
 slug: Web/API/MediaStreamTrackEvent/track
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrackEvent.track
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`track`** read-only property of the {{domxref("MediaStreamTrackEvent")}} interface returns the {{domxref("MediaStreamTrack")}} associated with this event.
 

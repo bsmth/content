@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.PaintWorkletGlobalScope.registerPaint
+sidebar:
+  - apiref:
+      - CSS Painting API
 ---
 
-{{APIRef("CSS Painting API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`registerPaint()`** method of the
 {{domxref("PaintWorkletGlobalScope")}} interface registers a class to programmatically generate an

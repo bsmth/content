@@ -4,9 +4,10 @@ short-title: priority
 slug: Web/API/RTCIceCandidateStats/priority
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.priority
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`priority`** property of the {{domxref("RTCIceCandidateStats")}} dictionary is a positive integer value indicating the priority (or desirability) of the described candidate.
 

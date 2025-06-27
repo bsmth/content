@@ -4,9 +4,10 @@ short-title: createNodeIterator()
 slug: Web/API/Document/createNodeIterator
 page-type: web-api-instance-method
 browser-compat: api.Document.createNodeIterator
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Document.createNodeIterator()`** method returns a new [`NodeIterator`](/en-US/docs/Web/API/NodeIterator) object.
 

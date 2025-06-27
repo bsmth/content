@@ -4,9 +4,8 @@ short-title: src
 slug: Web/API/HTMLIFrameElement/src
 page-type: web-api-instance-property
 browser-compat: api.HTMLIFrameElement.src
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`HTMLIFrameElement.src`**
 A string that reflects the [`src`](/en-US/docs/Web/HTML/Reference/Elements/iframe#src) HTML attribute, containing the address of the content to be embedded.

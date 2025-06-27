@@ -4,9 +4,10 @@ short-title: nextSibling()
 slug: Web/API/TreeWalker/nextSibling
 page-type: web-api-instance-method
 browser-compat: api.TreeWalker.nextSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.nextSibling()`** method moves the current
 {{domxref("Node")}} to its next sibling, if any, and returns the found sibling. If there

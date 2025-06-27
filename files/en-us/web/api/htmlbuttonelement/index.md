@@ -3,9 +3,10 @@ title: HTMLButtonElement
 slug: Web/API/HTMLButtonElement
 page-type: web-api-interface
 browser-compat: api.HTMLButtonElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLButtonElement`** interface provides properties and methods (beyond the regular {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating {{HTMLElement("button")}} elements.
 

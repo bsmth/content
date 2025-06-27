@@ -4,9 +4,12 @@ short-title: workerStart
 slug: Web/API/PerformanceResourceTiming/workerStart
 page-type: web-api-instance-property
 browser-compat: api.PerformanceResourceTiming.workerStart
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`workerStart`** read-only property of the {{domxref("PerformanceResourceTiming")}} interface returns a
 {{domxref("DOMHighResTimeStamp")}} immediately before dispatching the {{domxref("FetchEvent")}} if a Service Worker thread is already running, or immediately before starting the Service Worker thread if it is not already running. If the resource is not intercepted by a Service Worker the property will always return 0.

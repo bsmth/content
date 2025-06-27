@@ -4,9 +4,10 @@ short-title: defaultSelected
 slug: Web/API/HTMLOptionElement/defaultSelected
 page-type: web-api-instance-property
 browser-compat: api.HTMLOptionElement.defaultSelected
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`defaultSelected`** property of the {{DOMxRef("HTMLOptionElement")}} interface specifies the default selected state of the element. This property reflects the {{htmlelement("option")}} element's [`selected`](/en-US/docs/Web/HTML/Reference/Elements/option#selected) attribute. The presence of the `selected` attribute sets the `defaultSelected` property to `true`.
 

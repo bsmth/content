@@ -4,9 +4,10 @@ short-title: variable
 slug: Web/API/CSSVariableReferenceValue/variable
 page-type: web-api-instance-property
 browser-compat: api.CSSVariableReferenceValue.variable
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`variable`** property of the
 {{domxref("CSSVariableReferenceValue")}} interface returns the [custom property name](/en-US/docs/Web/CSS/--*) of the

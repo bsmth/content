@@ -3,9 +3,10 @@ title: PasswordCredentialInit
 slug: Web/API/PasswordCredentialInit
 page-type: web-api-interface
 spec-urls: https://w3c.github.io/webappsec-credential-management/#typedefdef-passwordcredentialinit
+sidebar:
+  - apiref:
+      - Credential Management API
 ---
-
-{{APIRef("Credential Management API")}}
 
 The **`PasswordCredentialInit`** dictionary represents the object passed to {{domxref("CredentialsContainer.create()")}} as the value of the `password` option, when creating a password credential.
 

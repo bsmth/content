@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.PerformanceNavigation.redirectCount
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The legacy
 **`PerformanceNavigation.redirectCount`**

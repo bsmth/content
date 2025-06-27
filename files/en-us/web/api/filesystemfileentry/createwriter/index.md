@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.FileSystemFileEntry.createWriter
+sidebar:
+  - apiref:
+      - File and Directories Entries API
 ---
 
-{{APIRef("File and Directories Entries API")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The {{domxref("FileSystemFileEntry")}} interface's method
 **`createWriter()`** returns a {{domxref("FileWriter")}} object

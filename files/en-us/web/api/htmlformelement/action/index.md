@@ -4,9 +4,10 @@ short-title: action
 slug: Web/API/HTMLFormElement/action
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.action
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormElement.action`** property represents the action
 of the {{HTMLElement("form")}} element.

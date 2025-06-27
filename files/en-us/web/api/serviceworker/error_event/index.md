@@ -4,9 +4,12 @@ short-title: error
 slug: Web/API/ServiceWorker/error_event
 page-type: web-api-event
 browser-compat: api.ServiceWorker.error_event
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The `error` event fires whenever an error occurs in the service worker.
 

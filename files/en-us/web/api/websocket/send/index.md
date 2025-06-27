@@ -4,9 +4,12 @@ short-title: send()
 slug: Web/API/WebSocket/send
 page-type: web-api-instance-method
 browser-compat: api.WebSocket.send
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebSocket.send()`** method enqueues the specified data
 to be transmitted to the server over the WebSocket connection, increasing the value of

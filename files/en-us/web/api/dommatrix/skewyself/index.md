@@ -4,9 +4,12 @@ short-title: skewYSelf()
 slug: Web/API/DOMMatrix/skewYSelf
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.skewYSelf
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `skewYSelf()` method of the {{domxref("DOMMatrix")}} interface is a mutable transformation method that modifies a matrix. It skews the source matrix by applying the specified skew transformation along the Y-axis and returns the skewed matrix.
 

@@ -3,9 +3,10 @@ title: XMLHttpRequestEventTarget
 slug: Web/API/XMLHttpRequestEventTarget
 page-type: web-api-interface
 browser-compat: api.XMLHttpRequestEventTarget
+sidebar:
+  - apiref:
+      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service")}}
 
 `XMLHttpRequestEventTarget` is the interface that describes the event handlers shared on {{domxref("XMLHttpRequest")}} and {{domxref("XMLHttpRequestUpload")}}.
 

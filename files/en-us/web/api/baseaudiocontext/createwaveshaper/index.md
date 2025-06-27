@@ -4,9 +4,10 @@ short-title: createWaveShaper()
 slug: Web/API/BaseAudioContext/createWaveShaper
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createWaveShaper
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createWaveShaper()` method of the {{ domxref("BaseAudioContext") }}
 interface creates a {{ domxref("WaveShaperNode") }}, which represents a non-linear

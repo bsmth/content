@@ -4,9 +4,10 @@ short-title: binaryType
 slug: Web/API/RTCDataChannel/binaryType
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.binaryType
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The property **`binaryType`** on the
 {{domxref("RTCDataChannel")}} interface is a string which specifies

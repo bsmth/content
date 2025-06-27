@@ -4,9 +4,10 @@ short-title: getFloatFrequencyData()
 slug: Web/API/AnalyserNode/getFloatFrequencyData
 page-type: web-api-instance-method
 browser-compat: api.AnalyserNode.getFloatFrequencyData
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`getFloatFrequencyData()`** method of the {{domxref("AnalyserNode")}} Interface copies the current frequency data into a {{jsxref("Float32Array")}} array passed into it.
 

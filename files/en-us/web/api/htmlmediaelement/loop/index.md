@@ -4,9 +4,10 @@ short-title: loop
 slug: Web/API/HTMLMediaElement/loop
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.loop
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.loop`** property reflects the [`loop`](/en-US/docs/Web/HTML/Reference/Elements/video#loop) HTML attribute, which controls whether the media element should start over when it reaches the end.
 

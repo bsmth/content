@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.PositionSensorVRDevice.getImmediateState
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{deprecated_header}}{{APIRef("WebVR API")}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`getImmediateState()`** method of the {{domxref("VRDisplay")}} interface returns the current instantaneous position sensor state. This is intended to only be used rarely, for certain special uses, for example sampling the immediate position of a hand orientation sensor — or at least it will be, in the future.
 

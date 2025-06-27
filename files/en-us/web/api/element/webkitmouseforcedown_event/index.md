@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - non-standard
 browser-compat: api.Element.webkitmouseforcedown_event
+sidebar:
+  - apiref:
+      - Force Touch Events
 ---
 
-{{APIRef("Force Touch Events")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 After a {{domxref("Element.mousedown_event", "mousedown")}} event has been fired at the element, if and when sufficient pressure has been applied to the mouse or trackpad button to qualify as a "force click," Safari begins sending **`webkitmouseforcedown`** events to the element.
 

@@ -4,9 +4,10 @@ short-title: candidate
 slug: Web/API/RTCIceCandidate/candidate
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.candidate
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only property **`candidate`** on the {{domxref("RTCIceCandidate")}} interface returns a string describing the candidate in detail.
 Most of the other properties of `RTCIceCandidate` are actually extracted from this string.

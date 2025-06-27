@@ -3,9 +3,10 @@ title: SVGFEColorMatrixElement
 slug: Web/API/SVGFEColorMatrixElement
 page-type: web-api-interface
 browser-compat: api.SVGFEColorMatrixElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEColorMatrixElement`** interface corresponds to the {{SVGElement("feColorMatrix")}} element.
 

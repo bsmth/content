@@ -4,9 +4,10 @@ short-title: username
 slug: Web/API/HTMLAnchorElement/username
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.username
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`username`** property of the {{domxref("HTMLAnchorElement")}} interface is a string containing the username component of the `<a>` element's `href`. If the URL does not have a username, this property contains an empty string, `""`.
 

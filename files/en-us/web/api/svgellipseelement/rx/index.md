@@ -4,9 +4,10 @@ short-title: rx
 slug: Web/API/SVGEllipseElement/rx
 page-type: web-api-instance-property
 browser-compat: api.SVGEllipseElement.rx
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`rx`** read-only property of the {{domxref("SVGEllipseElement")}} interface describes the x-axis radius of the ellipse as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("rx")}} attribute on the {{SVGElement("ellipse")}} element.
 

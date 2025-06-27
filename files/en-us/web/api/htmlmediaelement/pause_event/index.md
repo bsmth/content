@@ -4,9 +4,10 @@ short-title: pause
 slug: Web/API/HTMLMediaElement/pause_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.pause_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `pause` event is sent when a request to pause an activity is handled and the activity has entered its paused state, most commonly after the media has been paused through a call to the element's {{domxref("HTMLMediaElement.pause", "pause()")}} method.
 

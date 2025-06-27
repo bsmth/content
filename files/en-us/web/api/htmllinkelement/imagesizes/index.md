@@ -4,9 +4,10 @@ short-title: imageSizes
 slug: Web/API/HTMLLinkElement/imageSizes
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.imageSizes
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`imageSizes`** property of the {{domxref("HTMLLinkElement")}} interface indicates the size and conditions for the preloaded images defined by the {{domxref("HTMLLinkElement.imageSrcset", "imageSrcset")}} property. It reflects the value of the {{htmlelement("link")}} element's [`imagesizes`](/en-US/docs/Web/HTML/Reference/Elements/link#imagesizes) attribute. This property can retrieve or set the `imagesizes` attribute value.
 

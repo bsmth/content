@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/RTCDataChannelStats/type
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_data-channel.type
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`type`** property of the {{domxref("RTCDataChannelStats")}} dictionary is a string with the value `"data-channel"`.
 

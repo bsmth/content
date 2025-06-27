@@ -4,9 +4,10 @@ short-title: sdpMLineIndex
 slug: Web/API/RTCIceCandidate/sdpMLineIndex
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.sdpMLineIndex
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`sdpMLineIndex`** property on the {{domxref("RTCIceCandidate")}} interface
 is a zero-based index of the m-line describing the media associated with the candidate.

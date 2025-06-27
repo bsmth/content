@@ -3,9 +3,12 @@ title: GPUBuffer
 slug: Web/API/GPUBuffer
 page-type: web-api-interface
 browser-compat: api.GPUBuffer
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUBuffer`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} represents a block of memory that can be used to store raw data to use in GPU operations.
 

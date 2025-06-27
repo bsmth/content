@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.XRDepthInformation
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}} {{secureContext_header}}{{SeeCompatTable}}
+{{secureContext_header}}{{SeeCompatTable}}
 
 The **`XRDepthInformation`** interface contains information about the distance from the user's device to the real-world geometry in the user's environment.
 

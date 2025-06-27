@@ -4,9 +4,10 @@ short-title: enter
 slug: Web/API/TextTrackCue/enter_event
 page-type: web-api-event
 browser-compat: api.TextTrackCue.enter_event
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`enter`** event fires when a cue becomes active. In the case of subtitles or a caption this is when it displays over the media.
 

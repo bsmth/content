@@ -3,9 +3,10 @@ title: SVGTextContentElement
 slug: Web/API/SVGTextContentElement
 page-type: web-api-interface
 browser-compat: api.SVGTextContentElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGTextContentElement`** interface is implemented by elements that support rendering child text content. It is inherited by various text-related interfaces, such as {{domxref("SVGTextElement")}}, {{domxref("SVGTSpanElement")}}, and {{domxref("SVGTextPathElement")}}.
 

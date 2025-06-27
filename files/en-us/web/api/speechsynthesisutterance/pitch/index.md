@@ -4,9 +4,10 @@ short-title: pitch
 slug: Web/API/SpeechSynthesisUtterance/pitch
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisUtterance.pitch
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`pitch`** property of the {{domxref("SpeechSynthesisUtterance")}} interface gets and sets the pitch at which the utterance will be spoken at.
 

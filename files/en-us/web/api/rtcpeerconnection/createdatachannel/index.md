@@ -4,9 +4,10 @@ short-title: createDataChannel()
 slug: Web/API/RTCPeerConnection/createDataChannel
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.createDataChannel
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`createDataChannel()`** method of the {{domxref("RTCPeerConnection")}} interface creates a new channel linked with the remote peer, over which any kind of data may be transmitted.
 This can be useful for back-channel content, such as images, file transfer, text chat, game update packets, and so forth.

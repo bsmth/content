@@ -4,9 +4,10 @@ short-title: matches()
 slug: Web/API/Element/matches
 page-type: web-api-instance-method
 browser-compat: api.Element.matches
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`matches()`** method of the {{domxref("Element")}} interface tests whether the element would be selected by the specified [CSS selector](/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors).
 

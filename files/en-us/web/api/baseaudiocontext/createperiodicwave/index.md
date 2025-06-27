@@ -4,9 +4,10 @@ short-title: createPeriodicWave()
 slug: Web/API/BaseAudioContext/createPeriodicWave
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createPeriodicWave
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createPeriodicWave()` method of the {{ domxref("BaseAudioContext") }} interface is used to create a {{domxref("PeriodicWave")}}. This wave is used to define a periodic waveform that can be used to shape the output of an {{ domxref("OscillatorNode") }}.
 

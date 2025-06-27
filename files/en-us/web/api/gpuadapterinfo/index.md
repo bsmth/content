@@ -3,9 +3,12 @@ title: GPUAdapterInfo
 slug: Web/API/GPUAdapterInfo
 page-type: web-api-interface
 browser-compat: api.GPUAdapterInfo
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUAdapterInfo`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} contains identifying information about a {{domxref("GPUAdapter")}}.
 

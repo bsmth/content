@@ -3,9 +3,10 @@ title: SpeechRecognitionResultList
 slug: Web/API/SpeechRecognitionResultList
 page-type: web-api-interface
 browser-compat: api.SpeechRecognitionResultList
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`SpeechRecognitionResultList`** interface of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) represents a list of {{domxref("SpeechRecognitionResult")}} objects, or a single one if results are being captured in {{domxref("SpeechRecognition.continuous","non-continuous")}} mode.
 

@@ -4,9 +4,10 @@ short-title: inherits
 slug: Web/API/CSSPropertyRule/inherits
 page-type: web-api-instance-property
 browser-compat: api.CSSPropertyRule.inherits
+sidebar:
+  - apiref:
+      - CSS Properties and Values API
 ---
-
-{{APIRef("CSS Properties and Values API")}}
 
 The read-only **`inherits`** property of the {{domxref("CSSPropertyRule")}} interface returns the inherit flag of the custom property registration represented by the {{cssxref("@property")}} rule, a boolean describing whether or not the property inherits by default.
 

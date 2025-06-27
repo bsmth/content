@@ -4,9 +4,12 @@ short-title: attestationObject
 slug: Web/API/AuthenticatorAttestationResponse/attestationObject
 page-type: web-api-instance-property
 browser-compat: api.AuthenticatorAttestationResponse.attestationObject
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`attestationObject`** property of the
 {{domxref("AuthenticatorAttestationResponse")}} interface returns an

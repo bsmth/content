@@ -4,9 +4,8 @@ short-title: selectionchange
 slug: Web/API/HTMLTextAreaElement/selectionchange_event
 page-type: web-api-event
 browser-compat: api.HTMLTextAreaElement.selectionchange_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`selectionchange`** event of the [Selection API](/en-US/docs/Web/API/Selection) is fired when the text selection within a {{HTMLElement("textarea")}} element is changed.
 This includes both changes in the selected range of characters, or if the caret moves.

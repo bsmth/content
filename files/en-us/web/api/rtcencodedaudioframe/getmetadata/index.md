@@ -4,9 +4,10 @@ short-title: getMetadata()
 slug: Web/API/RTCEncodedAudioFrame/getMetadata
 page-type: web-api-instance-method
 browser-compat: api.RTCEncodedAudioFrame.getMetadata
+sidebar:
+  - apiref:
+      - WebRTC")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebRTC")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`getMetadata()`** method of the {{domxref("RTCEncodedAudioFrame")}} interface returns an object containing the metadata associated with the frame.
 

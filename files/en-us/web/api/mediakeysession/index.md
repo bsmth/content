@@ -3,9 +3,12 @@ title: MediaKeySession
 slug: Web/API/MediaKeySession
 page-type: web-api-interface
 browser-compat: api.MediaKeySession
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`MediaKeySession`** interface of the [Encrypted Media Extensions API](/en-US/docs/Web/API/Encrypted_Media_Extensions_API) represents a context for message exchange with a content decryption module (CDM).
 

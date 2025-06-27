@@ -4,9 +4,10 @@ short-title: x2
 slug: Web/API/SVGLinearGradientElement/x2
 page-type: web-api-instance-property
 browser-compat: api.SVGLinearGradientElement.x2
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x2`** read-only property of the {{domxref("SVGLinearGradientElement")}} interface describes the x-axis coordinate of the start point of the gradient as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("x2")}} attribute on the {{SVGElement("linearGradient")}} element.
 

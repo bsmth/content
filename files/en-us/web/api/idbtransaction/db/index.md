@@ -4,9 +4,12 @@ short-title: db
 slug: Web/API/IDBTransaction/db
 page-type: web-api-instance-property
 browser-compat: api.IDBTransaction.db
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`db`** read-only property of the {{domxref("IDBTransaction")}} interface returns the database connection
 with which this transaction is associated.

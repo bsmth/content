@@ -4,9 +4,12 @@ short-title: toJSON()
 slug: Web/API/PaymentResponse/toJSON
 page-type: web-api-instance-method
 browser-compat: api.PaymentResponse.toJSON
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{SecureContext_Header}}{{APIRef("Payment Request API")}}
+{{SecureContext_Header}}
 
 The **`toJSON()`** method of the {{domxref("PaymentResponse")}} interface is a {{Glossary("Serialization","serializer")}}; it returns a JSON representation of the {{domxref("PaymentResponse")}} object.
 

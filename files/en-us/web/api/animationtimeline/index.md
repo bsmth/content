@@ -3,9 +3,10 @@ title: AnimationTimeline
 slug: Web/API/AnimationTimeline
 page-type: web-api-interface
 browser-compat: api.AnimationTimeline
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The `AnimationTimeline` interface of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) represents the timeline of an animation. This interface exists to define timeline features, inherited by other timeline types:
 

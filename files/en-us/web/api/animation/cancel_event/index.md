@@ -4,9 +4,10 @@ short-title: cancel
 slug: Web/API/Animation/cancel_event
 page-type: web-api-event
 browser-compat: api.Animation.cancel_event
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`cancel`** event of the {{domxref("Animation")}} interface is fired when the {{domxref("Animation.cancel()")}} method is called or when the animation enters the `"idle"` play state from another state, such as when the animation is removed from an element before it finishes playing.
 

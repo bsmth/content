@@ -4,9 +4,12 @@ short-title: stencilFunc()
 slug: Web/API/WebGLRenderingContext/stencilFunc
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.stencilFunc
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.stencilFunc()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) sets the front and back function
 and reference value for stencil testing.

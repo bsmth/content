@@ -4,9 +4,10 @@ short-title: createTBody()
 slug: Web/API/HTMLTableElement/createTBody
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableElement.createTBody
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`createTBody()`** method of
 {{domxref("HTMLTableElement")}} objects creates and returns a new

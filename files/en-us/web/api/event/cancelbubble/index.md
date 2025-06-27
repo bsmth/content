@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Event.cancelBubble
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Deprecated_Header}}{{AvailableInWorkers}}
+{{Deprecated_Header}}{{AvailableInWorkers}}
 
 The **`cancelBubble`** property of the {{domxref("Event")}}
 interface is deprecated. Use {{domxref("Event.stopPropagation()")}} instead.

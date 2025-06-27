@@ -3,9 +3,10 @@ title: HTMLVideoElement
 slug: Web/API/HTMLVideoElement
 page-type: web-api-interface
 browser-compat: api.HTMLVideoElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 Implemented by the {{HTMLElement("video")}} element, the **`HTMLVideoElement`** interface provides special properties and methods for manipulating video objects. It also inherits properties and methods of {{domxref("HTMLMediaElement")}} and {{domxref("HTMLElement")}}.
 

@@ -4,9 +4,8 @@ short-title: direction
 slug: Web/API/CanvasRenderingContext2D/direction
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.direction
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.direction`**

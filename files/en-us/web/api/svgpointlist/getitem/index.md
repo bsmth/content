@@ -4,9 +4,10 @@ short-title: getItem()
 slug: Web/API/SVGPointList/getItem
 page-type: web-api-instance-method
 browser-compat: api.SVGPointList.getItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`getItem()`** method of the {{domxref("SVGPointList")}} interface gets one item from the list at the specified index.
 

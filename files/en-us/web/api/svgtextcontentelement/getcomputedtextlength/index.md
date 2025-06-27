@@ -4,9 +4,10 @@ short-title: getComputedTextLength()
 slug: Web/API/SVGTextContentElement/getComputedTextLength
 page-type: web-api-instance-method
 browser-compat: api.SVGTextContentElement.getComputedTextLength
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getComputedTextLength()` method of the {{domxref("SVGTextContentElement")}} interface represents the computed length for the text within the element.
 

@@ -4,9 +4,10 @@ short-title: totalEncodeTime
 slug: Web/API/RTCOutboundRtpStreamStats/totalEncodeTime
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.totalEncodeTime
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`totalEncodeTime`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary represents the total number of seconds spent encoding the {{domxref("RTCOutboundRtpStreamStats/framesEncoded","framesEncoded")}} frames for this stream ({{domxref("RTCRtpSender")}}).
 

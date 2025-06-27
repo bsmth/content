@@ -4,9 +4,12 @@ short-title: stop()
 slug: Web/API/Sensor/stop
 page-type: web-api-instance-method
 browser-compat: api.Sensor.stop
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`stop()`** method of the {{domxref("Sensor")}} interface deactivates the current sensor.
 

@@ -4,9 +4,10 @@ short-title: localCertificateId
 slug: Web/API/RTCTransportStats/localCertificateId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_transport.localCertificateId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`localCertificateId`** property of the {{domxref("RTCTransportStats")}} dictionary is a string that indicates the id of the local certificate used by this {{domxref("RTCIceTransport")}}.
 

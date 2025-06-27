@@ -3,9 +3,10 @@ title: Attr
 slug: Web/API/Attr
 page-type: web-api-interface
 browser-compat: api.Attr
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Attr`** interface represents one of an element's attributes as an object. In most situations, you will directly retrieve the attribute value as a string (e.g., {{domxref("Element.getAttribute()")}}), but some cases may require interacting with `Attr` instances (e.g., {{domxref("Element.getAttributeNode()")}}).
 

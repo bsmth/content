@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLImageElement.longDesc
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The _deprecated_ property **`longDesc`** on
 the {{domxref("HTMLImageElement")}} interface specifies the URL of a text or HTML file

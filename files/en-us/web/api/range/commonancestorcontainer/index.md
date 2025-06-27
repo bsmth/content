@@ -4,9 +4,10 @@ short-title: commonAncestorContainer
 slug: Web/API/Range/commonAncestorContainer
 page-type: web-api-instance-property
 browser-compat: api.Range.commonAncestorContainer
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.commonAncestorContainer`** read-only property
 returns the deepest — or furthest down the document tree — {{domxref("Node")}} that

@@ -4,9 +4,10 @@ short-title: setTranslate()
 slug: Web/API/SVGTransform/setTranslate
 page-type: web-api-instance-method
 browser-compat: api.SVGTransform.setTranslate
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `setTranslate()` method of the {{domxref("SVGTransform")}} interface sets the transform type to `SVG_TRANSFORM_TRANSLATE`, with parameters `tx` and `ty` defining the translation amounts.
 

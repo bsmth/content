@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/CSSStyleDeclaration/item
 page-type: web-api-instance-method
 browser-compat: api.CSSStyleDeclaration.item
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The `CSSStyleDeclaration.item()`
 method interface returns a CSS property name from a {{domxref('CSSStyleDeclaration')}}

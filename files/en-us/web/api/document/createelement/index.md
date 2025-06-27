@@ -4,9 +4,10 @@ short-title: createElement()
 slug: Web/API/Document/createElement
 page-type: web-api-instance-method
 browser-compat: api.Document.createElement
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 In an [HTML](/en-US/docs/Web/HTML) document, the **`document.createElement()`** method creates the HTML element specified by `localName`, or an {{domxref("HTMLUnknownElement")}} if `localName` isn't recognized.
 

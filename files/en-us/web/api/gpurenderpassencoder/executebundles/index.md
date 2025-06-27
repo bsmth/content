@@ -4,9 +4,12 @@ short-title: executeBundles()
 slug: Web/API/GPURenderPassEncoder/executeBundles
 page-type: web-api-instance-method
 browser-compat: api.GPURenderPassEncoder.executeBundles
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`executeBundles()`** method of the
 {{domxref("GPURenderPassEncoder")}} interface executes commands previously recorded into the referenced {{domxref("GPURenderBundle")}}s, as part of this render pass.

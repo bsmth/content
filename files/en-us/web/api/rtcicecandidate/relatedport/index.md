@@ -4,9 +4,10 @@ short-title: relatedPort
 slug: Web/API/RTCIceCandidate/relatedPort
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.relatedPort
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **{{domxref("RTCIceCandidate")}}** interface's read-only **`relatedPort`** property indicates the port number of reflexive or relay candidates.
 

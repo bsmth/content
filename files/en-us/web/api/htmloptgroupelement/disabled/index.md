@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/HTMLOptGroupElement/disabled
 page-type: web-api-instance-property
 browser-compat: api.HTMLOptGroupElement.disabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`disabled`** property of the {{domxref("HTMLOptGroupElement")}} interface is a boolean value that reflects the {{htmlelement("optgroup")}} element's [`disabled`](/en-US/docs/Web/HTML/Reference/Elements/optgroup#disabled) attribute, which indicates whether the control is disabled.
 

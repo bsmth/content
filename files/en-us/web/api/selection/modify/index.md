@@ -4,9 +4,10 @@ short-title: modify()
 slug: Web/API/Selection/modify
 page-type: web-api-instance-method
 browser-compat: api.Selection.modify
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Selection.modify()`** method applies a change to the
 current selection or cursor position, using simple textual commands.

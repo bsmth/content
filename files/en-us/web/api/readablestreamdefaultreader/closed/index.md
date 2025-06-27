@@ -4,9 +4,12 @@ short-title: closed
 slug: Web/API/ReadableStreamDefaultReader/closed
 page-type: web-api-instance-property
 browser-compat: api.ReadableStreamDefaultReader.closed
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`closed`** read-only property of the
 {{domxref("ReadableStreamDefaultReader")}} interface returns a

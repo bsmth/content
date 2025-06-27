@@ -4,9 +4,10 @@ short-title: requestsReceived
 slug: Web/API/RTCIceCandidatePairStats/requestsReceived
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.requestsReceived
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`requestsReceived`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the total number of {{Glossary("STUN")}} connectivity check requests that have been received so far on the connection described by this pairing of candidates.
 

@@ -4,9 +4,10 @@ short-title: enabled
 slug: Web/API/AudioTrack/enabled
 page-type: web-api-instance-property
 browser-compat: api.AudioTrack.enabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **{{domxref("AudioTrack")}}** property
 **`enabled`** specifies whether or not the described audio

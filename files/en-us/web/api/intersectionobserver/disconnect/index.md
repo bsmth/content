@@ -4,9 +4,10 @@ short-title: disconnect()
 slug: Web/API/IntersectionObserver/disconnect
 page-type: web-api-instance-method
 browser-compat: api.IntersectionObserver.disconnect
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`disconnect()`** method of the {{domxref("IntersectionObserver")}} interface stops the observer watching all of its target elements for visibility changes.
 

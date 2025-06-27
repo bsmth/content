@@ -4,9 +4,10 @@ short-title: removeNamedItemNS()
 slug: Web/API/NamedNodeMap/removeNamedItemNS
 page-type: web-api-instance-method
 browser-compat: api.NamedNodeMap.removeNamedItemNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`removeNamedItemNS()`** method of the {{domxref("NamedNodeMap")}} interface
 removes the {{domxref("Attr")}} corresponding to the given namespace and local name from the map.

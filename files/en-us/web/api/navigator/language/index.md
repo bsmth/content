@@ -4,9 +4,10 @@ short-title: language
 slug: Web/API/Navigator/language
 page-type: web-api-instance-property
 browser-compat: api.Navigator.language
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`Navigator.language`** read-only property returns a string representing the preferred language of the user, usually the language of the browser UI.
 

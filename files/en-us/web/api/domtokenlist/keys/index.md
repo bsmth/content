@@ -4,9 +4,10 @@ short-title: keys()
 slug: Web/API/DOMTokenList/keys
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.keys
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`keys()`** method of the {{domxref("DOMTokenList")}} interface
 returns an {{jsxref("Iteration_protocols",'iterator',"",1)}} allowing to go through all keys contained in this object.

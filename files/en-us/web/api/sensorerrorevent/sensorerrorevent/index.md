@@ -4,9 +4,12 @@ short-title: SensorErrorEvent()
 slug: Web/API/SensorErrorEvent/SensorErrorEvent
 page-type: web-api-constructor
 browser-compat: api.SensorErrorEvent.SensorErrorEvent
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`SensorErrorEvent()`** constructor
 creates a new {{domxref("SensorErrorEvent")}} object which provides information about

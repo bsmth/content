@@ -4,9 +4,12 @@ short-title: usage
 slug: Web/API/GPUTexture/usage
 page-type: web-api-instance-property
 browser-compat: api.GPUTexture.usage
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`usage`** read-only property of the
 {{domxref("GPUTexture")}} interface is the {{glossary("bitwise flags")}} representing the allowed usages of the `GPUTexture`.

@@ -4,9 +4,8 @@ short-title: arc()
 slug: Web/API/CanvasRenderingContext2D/arc
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.arc
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.arc()`**

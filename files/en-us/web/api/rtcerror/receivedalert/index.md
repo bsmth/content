@@ -4,9 +4,10 @@ short-title: receivedAlert
 slug: Web/API/RTCError/receivedAlert
 page-type: web-api-instance-property
 browser-compat: api.RTCError.receivedAlert
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCError")}} read-only property
 **`receivedAlert`** specifies the fatal {{Glossary("DTLS")}}

@@ -4,9 +4,12 @@ short-title: end()
 slug: Web/API/GPURenderPassEncoder/end
 page-type: web-api-instance-method
 browser-compat: api.GPURenderPassEncoder.end
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`end()`** method of the
 {{domxref("GPURenderPassEncoder")}} interface completes recording of the current render pass command sequence.

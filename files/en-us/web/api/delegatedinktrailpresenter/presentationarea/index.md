@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.DelegatedInkTrailPresenter.presentationArea
+sidebar:
+  - apiref:
+      - Ink API
 ---
 
-{{APIRef("Ink API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`presentationArea`** read-only property of the {{domxref("DelegatedInkTrailPresenter")}} interface returns the {{domxref("Element")}} inside which rendering of ink strokes is confined.
 

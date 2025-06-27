@@ -3,9 +3,10 @@ title: RTCRemoteOutboundRtpStreamStats
 slug: Web/API/RTCRemoteOutboundRtpStreamStats
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport.type_remote-outbound-rtp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCRemoteOutboundRtpStreamStats`** dictionary of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) is used to report statistics from a remote endpoint about its outbound RTP stream.
 This will correspond to an inbound stream that is currently being received by the local {{domxref("RTCPeerConnection")}} object.

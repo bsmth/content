@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.AudioListener.setOrientation
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{ APIRef("Web Audio API") }}{{deprecated_header}}
+{{deprecated_header}}
 
 The `setOrientation()` method of the {{ domxref("AudioListener") }} interface defines the orientation of the listener.
 

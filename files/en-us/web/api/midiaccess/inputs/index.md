@@ -4,9 +4,12 @@ short-title: inputs
 slug: Web/API/MIDIAccess/inputs
 page-type: web-api-instance-property
 browser-compat: api.MIDIAccess.inputs
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`inputs`** read-only property of the {{domxref("MIDIAccess")}} interface provides access to any available MIDI input ports.
 

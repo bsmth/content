@@ -4,9 +4,10 @@ short-title: baseVal
 slug: Web/API/SVGAnimatedNumberList/baseVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedNumberList.baseVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`baseVal`** read-only property of the {{domxref("SVGAnimatedNumberList")}} interface represents the base (non-animated) value of an animatable attribute that accepts a list of [`<number>`](/en-US/docs/Web/SVG/Guides/Content_type#number) values.
 

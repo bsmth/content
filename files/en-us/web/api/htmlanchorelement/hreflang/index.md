@@ -4,9 +4,10 @@ short-title: hreflang
 slug: Web/API/HTMLAnchorElement/hreflang
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.hreflang
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`hreflang`** property of the {{domxref("HTMLAnchorElement")}} interface is a string that is the language of the linked resource.
 

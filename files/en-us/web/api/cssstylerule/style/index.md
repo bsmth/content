@@ -4,9 +4,10 @@ short-title: style
 slug: Web/API/CSSStyleRule/style
 page-type: web-api-instance-property
 browser-compat: api.CSSStyleRule.style
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The read-only **`style`** property is the {{ domxref("CSSStyleDeclaration") }} interface for the declaration block of the {{ DOMXref("CSSStyleRule") }}.
 

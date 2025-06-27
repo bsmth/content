@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BarcodeDetector.detect
+sidebar:
+  - apiref:
+      - Barcode Detector API
 ---
 
-{{securecontext_header}}{{APIRef("Barcode Detector API")}}{{AvailableInWorkers}}{{SeeCompatTable}}
+{{securecontext_header}}{{AvailableInWorkers}}{{SeeCompatTable}}
 
 The **`detect()`** method of the
 {{domxref("BarcodeDetector")}} interface returns a {{jsxref('Promise')}} which fulfills

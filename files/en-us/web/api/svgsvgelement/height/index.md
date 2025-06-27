@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGSVGElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGSVGElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** read-only property of the {{domxref("SVGSVGElement")}} interface describes the vertical size of element as an {{domxref("SVGAnimatedLength")}}. It reflects the {{SVGElement("svg")}} element's {{SVGAttr("height")}} attribute, which may not be the SVG's rendered height.
 

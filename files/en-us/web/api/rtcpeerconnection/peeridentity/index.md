@@ -4,9 +4,10 @@ short-title: peerIdentity
 slug: Web/API/RTCPeerConnection/peerIdentity
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.peerIdentity
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`peerIdentity`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns a JavaScript {{jsxref("Promise")}} that resolves to an {{domxref("RTCIdentityAssertion")}} which contains a string identifying the remote peer.
 Once this promise resolves successfully, the resulting identity is the **target peer identity** and cannot change for the duration of the connection.

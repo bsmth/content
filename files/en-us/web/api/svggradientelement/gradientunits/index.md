@@ -4,9 +4,10 @@ short-title: gradientUnits
 slug: Web/API/SVGGradientElement/gradientUnits
 page-type: web-api-instance-property
 browser-compat: api.SVGGradientElement.gradientUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`gradientUnits`** read-only property of the {{domxref("SVGGradientElement")}} interface reflects the {{SVGAttr("gradientUnits")}} attribute of the given element. It takes one of the `SVG_UNIT_TYPE_*` constants defined in {{domxref("SVGUnitTypes")}}.
 

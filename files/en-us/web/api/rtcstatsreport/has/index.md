@@ -4,9 +4,10 @@ short-title: has()
 slug: Web/API/RTCStatsReport/has
 page-type: web-api-instance-method
 browser-compat: api.RTCStatsReport.has
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`has()`** method of the {{domxref("RTCStatsReport")}} interface returns a boolean indicating whether a report contains a statistics dictionary with the specified id.
 

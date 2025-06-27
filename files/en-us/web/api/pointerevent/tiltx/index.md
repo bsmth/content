@@ -4,9 +4,10 @@ short-title: tiltX
 slug: Web/API/PointerEvent/tiltX
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.tiltX
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`tiltX`** read-only property of the {{domxref("PointerEvent")}} interface is the angle (in degrees) between the _Y-Z plane_ of the pointer and the screen.
 This property is typically only useful for a pen/stylus pointer type.

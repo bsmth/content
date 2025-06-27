@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/GPUDeviceLostInfo/message
 page-type: web-api-instance-property
 browser-compat: api.GPUDeviceLostInfo.message
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`message`** read-only property of the
 {{domxref("GPUDeviceLostInfo")}} interface provides a human-readable message that explains why the device was lost.

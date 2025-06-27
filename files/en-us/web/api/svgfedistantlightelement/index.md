@@ -3,9 +3,10 @@ title: SVGFEDistantLightElement
 slug: Web/API/SVGFEDistantLightElement
 page-type: web-api-interface
 browser-compat: api.SVGFEDistantLightElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEDistantLightElement`** interface corresponds to the {{SVGElement("feDistantLight")}} element.
 

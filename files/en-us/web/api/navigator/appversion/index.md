@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Navigator.appVersion
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 Returns either `"4.0"` or a string representing version information about
 the browser.

@@ -3,9 +3,10 @@ title: AudioNode
 slug: Web/API/AudioNode
 page-type: web-api-interface
 browser-compat: api.AudioNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`AudioNode`** interface is a generic interface for representing an audio processing module.
 

@@ -4,9 +4,12 @@ short-title: EventTarget()
 slug: Web/API/EventTarget/EventTarget
 page-type: web-api-constructor
 browser-compat: api.EventTarget.EventTarget
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`EventTarget()`** constructor creates a new {{domxref("EventTarget")}} object instance.
 

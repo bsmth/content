@@ -4,9 +4,12 @@ short-title: searchParams
 slug: Web/API/URL/searchParams
 page-type: web-api-instance-property
 browser-compat: api.URL.searchParams
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`searchParams`** read-only property of the
 {{domxref("URL")}} interface returns a {{domxref("URLSearchParams")}} object allowing

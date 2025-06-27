@@ -4,9 +4,12 @@ short-title: unregisterProtocolHandler()
 slug: Web/API/Navigator/unregisterProtocolHandler
 page-type: web-api-instance-method
 browser-compat: api.Navigator.unregisterProtocolHandler
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **{{domxref("Navigator")}}** method **`unregisterProtocolHandler()`** removes a protocol handler for a given URL [scheme](#permitted_schemes).
 

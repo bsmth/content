@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/BaseAudioContext/state
 page-type: web-api-instance-property
 browser-compat: api.BaseAudioContext.state
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `state` read-only property of the {{ domxref("BaseAudioContext") }}
 interface returns the current state of the `AudioContext`.

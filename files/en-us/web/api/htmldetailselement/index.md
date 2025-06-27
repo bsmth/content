@@ -5,9 +5,10 @@ page-type: web-api-interface
 browser-compat:
   - api.HTMLDetailsElement
   - api.HTMLElement.toggle_event.details_elements
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLDetailsElement`** interface provides special properties (beyond the regular {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating {{HTMLElement("details")}} elements.
 

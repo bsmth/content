@@ -4,9 +4,10 @@ short-title: PushEvent()
 slug: Web/API/PushEvent/PushEvent
 page-type: web-api-constructor
 browser-compat: api.PushEvent.PushEvent
+sidebar:
+  - apiref:
+      - Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`PushEvent()`** constructor creates a new
 {{domxref("PushEvent")}} object. Note that this constructor is exposed only to a

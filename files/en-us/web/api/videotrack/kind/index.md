@@ -4,9 +4,10 @@ short-title: kind
 slug: Web/API/VideoTrack/kind
 page-type: web-api-instance-property
 browser-compat: api.VideoTrack.kind
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`kind`** property contains a
 string indicating the category of video contained in the

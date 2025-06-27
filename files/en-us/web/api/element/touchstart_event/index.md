@@ -4,9 +4,8 @@ short-title: touchstart
 slug: Web/API/Element/touchstart_event
 page-type: web-api-event
 browser-compat: api.Element.touchstart_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `touchstart` event is fired when one or more touch points are placed on the touch surface.
 

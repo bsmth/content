@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/RTCIceCandidatePairStats/state
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.state
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`state`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the state of the [checklist](#ice_check_lists) of which the candidate pair is a member.
 

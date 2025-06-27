@@ -4,9 +4,10 @@ short-title: as
 slug: Web/API/HTMLLinkElement/as
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.as
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`as`** property of the {{domxref("HTMLLinkElement")}} interface returns a string representing the type of content to be preloaded by a link element.
 

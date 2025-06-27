@@ -4,9 +4,10 @@ short-title: clear()
 slug: Web/API/console/clear_static
 page-type: web-api-static-method
 browser-compat: api.console.clear_static
+sidebar:
+  - apiref:
+      - Console API
 ---
-
-{{APIRef("Console API")}}
 
 The **`console.clear()`** static method clears the console if possible.
 

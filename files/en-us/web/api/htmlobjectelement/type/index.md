@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLObjectElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLObjectElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`type`** property of the
 {{domxref("HTMLObjectElement")}} interface returns a string that

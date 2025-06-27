@@ -3,9 +3,10 @@ title: SVGSwitchElement
 slug: Web/API/SVGSwitchElement
 page-type: web-api-interface
 browser-compat: api.SVGSwitchElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGSwitchElement`** interface corresponds to the {{SVGElement("switch")}} element.
 

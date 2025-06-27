@@ -4,9 +4,10 @@ short-title: findRule()
 slug: Web/API/CSSKeyframesRule/findRule
 page-type: web-api-instance-method
 browser-compat: api.CSSKeyframesRule.findRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM") }}
 
 The **`findRule()`** method of the {{domxref("CSSKeyframeRule")}} interface finds the {{domxref("CSSKeyFrameRule")}} that matches the specified keyframe selector.
 

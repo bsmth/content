@@ -4,9 +4,10 @@ short-title: add()
 slug: Web/API/HTMLOptionsCollection/add
 page-type: web-api-instance-method
 browser-compat: api.HTMLOptionsCollection.add
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`add()`** method of the {{DOMxRef("HTMLOptionsCollection")}} interface adds an {{domxref("HTMLOptionElement")}} or {{domxref("HTMLOptGroupElement")}} to this `HTMLOptionsCollection`.
 

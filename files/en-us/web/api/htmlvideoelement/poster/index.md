@@ -4,9 +4,10 @@ short-title: poster
 slug: Web/API/HTMLVideoElement/poster
 page-type: web-api-instance-property
 browser-compat: api.HTMLVideoElement.poster
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`poster`** property of the {{domxref("HTMLVideoElement")}} interface is a string that reflects the URL for an image to be shown while no video data is available. If the property does not represent a valid URL, no poster frame will be shown.
 

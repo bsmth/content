@@ -4,9 +4,10 @@ short-title: validationMessage
 slug: Web/API/HTMLObjectElement/validationMessage
 page-type: web-api-instance-property
 browser-compat: api.HTMLObjectElement.validationMessage
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validationMessage`** read-only property
 of the {{domxref("HTMLObjectElement")}} interface returns a string

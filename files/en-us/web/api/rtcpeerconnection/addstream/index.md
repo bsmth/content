@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.RTCPeerConnection.addStream
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{Deprecated_Header}}{{non-standard_header}}
+{{Deprecated_Header}}{{non-standard_header}}
 
 The **`addStream()`** method of the {{domxref("RTCPeerConnection")}} interface adds a {{domxref("MediaStream")}} as a local source of audio or video.
 Instead of using this obsolete method, you should instead use {{domxref("RTCPeerConnection.addTrack", "addTrack()")}} once for each track you wish to send to the remote peer.

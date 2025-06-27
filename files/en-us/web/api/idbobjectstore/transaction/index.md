@@ -4,9 +4,12 @@ short-title: transaction
 slug: Web/API/IDBObjectStore/transaction
 page-type: web-api-instance-property
 browser-compat: api.IDBObjectStore.transaction
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`transaction`** read-only property of the
 {{domxref("IDBObjectStore")}} interface returns the transaction object to which this

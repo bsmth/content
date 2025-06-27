@@ -4,9 +4,10 @@ short-title: valueAsNumber
 slug: Web/API/HTMLInputElement/valueAsNumber
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.valueAsNumber
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`valueAsNumber`** property of the {{DOMxRef("HTMLInputElement")}} interface represents the current value of the {{htmlelement("input")}} element as a number or `NaN` if converting to a numeric value is not possible.
 

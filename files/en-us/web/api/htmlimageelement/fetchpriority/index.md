@@ -4,9 +4,10 @@ short-title: fetchPriority
 slug: Web/API/HTMLImageElement/fetchPriority
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.fetchPriority
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`fetchPriority`** property of the {{domxref("HTMLImageElement")}} interface represents a hint to the browser indicating how it should prioritize fetching a particular image relative to other images.
 It reflects the [`fetchpriority`](/en-US/docs/Web/HTML/Reference/Elements/img#fetchpriority) attribute of the corresponding {{htmlelement("img")}} element.

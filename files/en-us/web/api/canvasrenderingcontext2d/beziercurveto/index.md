@@ -4,9 +4,8 @@ short-title: bezierCurveTo()
 slug: Web/API/CanvasRenderingContext2D/bezierCurveTo
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.bezierCurveTo
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.bezierCurveTo()`**

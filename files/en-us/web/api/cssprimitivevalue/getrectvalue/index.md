@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.CSSPrimitiveValue.getRectValue
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`getRectValue()`** method of the
 {{domxref("CSSPrimitiveValue")}} interface is used to get a rect value. If this CSS

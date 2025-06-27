@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableRowElement.vAlign
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`vAlign`** property of the {{domxref("HTMLTableRowElement")}} interface is a string indicating how to vertically align text in a {{htmlelement("tr")}} table row. Individual cells can override it.
 

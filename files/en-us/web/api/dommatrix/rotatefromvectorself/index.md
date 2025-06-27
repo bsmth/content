@@ -4,9 +4,12 @@ short-title: rotateFromVectorSelf()
 slug: Web/API/DOMMatrix/rotateFromVectorSelf
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.rotateFromVectorSelf
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `rotateFromVectorSelf()` method of the {{domxref("DOMMatrix")}} interface is a mutable transformation method that modifies a matrix by rotating the matrix by the angle between the specified vector and `(1, 0)`. The rotation angle is determined by the angle between the vector `(1,0)T` and `(x,y)T` in the clockwise direction, or `(+/-)arctan(y/x)`. If `x` and `y` are both `0`, the angle is specified as `0`, and the matrix is not altered.
 

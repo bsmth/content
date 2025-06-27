@@ -4,9 +4,10 @@ short-title: rate
 slug: Web/API/SpeechSynthesisUtterance/rate
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisUtterance.rate
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`rate`** property of the {{domxref("SpeechSynthesisUtterance")}} interface gets and sets the speed at which the utterance will be spoken at.
 

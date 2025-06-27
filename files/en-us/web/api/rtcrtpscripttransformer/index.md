@@ -3,9 +3,10 @@ title: RTCRtpScriptTransformer
 slug: Web/API/RTCRtpScriptTransformer
 page-type: web-api-interface
 browser-compat: api.RTCRtpScriptTransformer
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCRtpScriptTransformer`** interface of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) provides a worker-side [Stream API](/en-US/docs/Web/API/Streams_API) interface that a [WebRTC Encoded Transform](/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms) can use to modify encoded media frames in the incoming and outgoing WebRTC pipelines.
 

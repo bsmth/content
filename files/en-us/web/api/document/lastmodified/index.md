@@ -4,9 +4,10 @@ short-title: lastModified
 slug: Web/API/Document/lastModified
 page-type: web-api-instance-property
 browser-compat: api.Document.lastModified
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`lastModified`** property of the {{domxref("Document")}}
 interface returns a string containing the date and local time on which the current document

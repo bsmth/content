@@ -4,9 +4,10 @@ short-title: data
 slug: Web/API/HTMLObjectElement/data
 page-type: web-api-instance-property
 browser-compat: api.HTMLObjectElement.data
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`data`** property of the
 {{domxref("HTMLObjectElement")}} interface returns a string that

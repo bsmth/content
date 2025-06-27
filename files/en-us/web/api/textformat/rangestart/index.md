@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.TextFormat.rangeStart
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`rangeStart`** property of the {{domxref("TextFormat")}} interface indicates the start position of the text range that needs to be formatted with the given text format.
 

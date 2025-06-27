@@ -4,9 +4,10 @@ short-title: spacing
 slug: Web/API/SVGTextPathElement/spacing
 page-type: web-api-instance-property
 browser-compat: api.SVGTextPathElement.spacing
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`spacing`** read-only property of the {{domxref("SVGTextPathElement")}} interface reflects the {{SVGAttr("spacing")}} attribute of the given {{SVGElement("textPath")}} element. It takes one of the [`TEXTPATH_SPACINGTYPE_*` constants](/en-US/docs/Web/API/SVGTextPathElement#static_properties) defined on this interface.
 

@@ -4,9 +4,10 @@ short-title: focus()
 slug: Web/API/MathMLElement/focus
 page-type: web-api-instance-method
 browser-compat: api.MathMLElement.focus
+sidebar:
+  - apiref:
+      - MathML
 ---
-
-{{APIRef("MathML")}}
 
 The **`focus()`** method of the {{domxref("MathMLElement")}} interface sets focus on the specified MathML element, if it can be focused. The focused element is the element that will receive keyboard and similar events by default.
 

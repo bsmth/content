@@ -4,9 +4,10 @@ short-title: getPredictedEvents()
 slug: Web/API/PointerEvent/getPredictedEvents
 page-type: web-api-instance-method
 browser-compat: api.PointerEvent.getPredictedEvents
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{APIRef("Pointer Events")}}
 
 The **`getPredictedEvents()`** method of the {{domxref("PointerEvent")}} interface returns a sequence of `PointerEvent` instances that are estimated future pointer positions.
 How the predicted positions are calculated depends on the user agent, but they are based on past points, current velocity, and trajectory.

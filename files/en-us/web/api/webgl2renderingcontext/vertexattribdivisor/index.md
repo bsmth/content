@@ -4,9 +4,12 @@ short-title: vertexAttribDivisor()
 slug: Web/API/WebGL2RenderingContext/vertexAttribDivisor
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.vertexAttribDivisor
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.vertexAttribDivisor()`** method
 of the [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) modifies the rate at

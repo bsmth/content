@@ -3,9 +3,10 @@ title: RTCOutboundRtpStreamStats
 slug: Web/API/RTCOutboundRtpStreamStats
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport.type_outbound-rtp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCOutboundRtpStreamStats`** dictionary of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) is used to report metrics and statistics related to an outbound {{Glossary("RTP")}} stream being sent by an {{domxref("RTCRtpSender")}}.
 

@@ -3,9 +3,10 @@ title: MathMLElement
 slug: Web/API/MathMLElement
 page-type: web-api-interface
 browser-compat: api.MathMLElement
+sidebar:
+  - apiref:
+      - MathML
 ---
-
-{{APIRef("MathML")}}
 
 The **`MathMLElement`** interface represents any [MathML](/en-US/docs/Web/MathML) element.
 

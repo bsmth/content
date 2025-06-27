@@ -4,9 +4,12 @@ short-title: DOMException()
 slug: Web/API/DOMException/DOMException
 page-type: web-api-constructor
 browser-compat: api.DOMException.DOMException
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMException()`** constructor returns a
 {{domxref("DOMException")}} object with a specified message and name.

@@ -4,9 +4,10 @@ short-title: insertBefore()
 slug: Web/API/Node/insertBefore
 page-type: web-api-instance-method
 browser-compat: api.Node.insertBefore
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`insertBefore()`** method of the {{domxref("Node")}} interface
 inserts a node before a _reference node_ as a child of a specified _parent node_.

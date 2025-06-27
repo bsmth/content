@@ -4,9 +4,10 @@ short-title: OES_element_index_uint
 slug: Web/API/OES_element_index_uint
 page-type: webgl-extension
 browser-compat: api.OES_element_index_uint
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`OES_element_index_uint`** extension is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and adds support for `gl.UNSIGNED_INT` types to {{domxref("WebGLRenderingContext.drawElements()")}}.
 

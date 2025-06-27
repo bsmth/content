@@ -4,9 +4,10 @@ short-title: containsNode()
 slug: Web/API/Selection/containsNode
 page-type: web-api-instance-method
 browser-compat: api.Selection.containsNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.containsNode()`** method indicates whether a
 specified node is part of the selection.

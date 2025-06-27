@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_transport.iceRole
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`iceRole`** property of the {{domxref("RTCTransportStats")}} dictionary is a string that indicates the ICE role that the transport is fulfilling: that of the controlling agent, or the agent that is being controlled.
 

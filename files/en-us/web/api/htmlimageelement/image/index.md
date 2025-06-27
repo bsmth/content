@@ -4,9 +4,10 @@ short-title: Image()
 slug: Web/API/HTMLImageElement/Image
 page-type: web-api-constructor
 browser-compat: api.HTMLImageElement.Image
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`Image()`**
 constructor creates a new {{DOMxRef("HTMLImageElement")}} instance. It is functionally

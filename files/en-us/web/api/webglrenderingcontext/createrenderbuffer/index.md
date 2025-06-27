@@ -4,9 +4,12 @@ short-title: createRenderbuffer()
 slug: Web/API/WebGLRenderingContext/createRenderbuffer
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.createRenderbuffer
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.createRenderbuffer()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) creates and initializes a

@@ -4,9 +4,10 @@ short-title: in1
 slug: Web/API/SVGFEColorMatrixElement/in1
 page-type: web-api-instance-property
 browser-compat: api.SVGFEColorMatrixElement.in1
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`in1`** read-only property of the {{domxref("SVGFEColorMatrixElement")}} interface reflects the {{SVGAttr("in")}} attribute of the given element.
 

@@ -3,9 +3,10 @@ title: TextTrackCueList
 slug: Web/API/TextTrackCueList
 page-type: web-api-interface
 browser-compat: api.TextTrackCueList
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`TextTrackCueList`** interface of the [WebVTT API](/en-US/docs/Web/API/WebVTT_API) is an array-like object that represents a dynamically updating list of {{domxref("TextTrackCue")}} objects.
 

@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - experimental
 spec-urls: https://webaudio.github.io/web-audio-api/#process
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`process()`**
 method of an {{domxref("AudioWorkletProcessor")}}-derived class implements the audio

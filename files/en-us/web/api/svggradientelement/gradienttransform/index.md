@@ -4,9 +4,10 @@ short-title: gradientTransform
 slug: Web/API/SVGGradientElement/gradientTransform
 page-type: web-api-instance-property
 browser-compat: api.SVGGradientElement.gradientTransform
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`gradientTransform`** read-only property of the {{domxref("SVGGradientElement")}} interface reflects the {{SVGAttr("gradientTransform")}} attribute of the given element.
 

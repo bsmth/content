@@ -4,9 +4,10 @@ short-title: defaultPlaybackRate
 slug: Web/API/HTMLMediaElement/defaultPlaybackRate
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.defaultPlaybackRate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.defaultPlaybackRate`** property indicates the default playback rate for the media.
 

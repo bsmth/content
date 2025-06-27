@@ -3,9 +3,10 @@ title: DOMHighResTimeStamp
 slug: Web/API/DOMHighResTimeStamp
 page-type: web-api-interface
 spec-urls: https://w3c.github.io/hr-time/#dom-domhighrestimestamp
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`DOMHighResTimeStamp`** type is a `double` and is used to store a time value in milliseconds.
 

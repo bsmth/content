@@ -4,9 +4,10 @@ short-title: visibilityState
 slug: Web/API/Document/visibilityState
 page-type: web-api-instance-property
 browser-compat: api.Document.visibilityState
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Document.visibilityState`**
 read-only property returns the visibility of the document. It can be used to check whether the document is in the background or in a minimized window, or is otherwise not visible to the user.

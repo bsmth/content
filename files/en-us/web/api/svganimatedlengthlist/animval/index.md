@@ -4,9 +4,10 @@ short-title: animVal
 slug: Web/API/SVGAnimatedLengthList/animVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedLengthList.animVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animVal`** read-only property of the {{domxref("SVGAnimatedLengthList")}} interface represents the animated value of an attribute that accepts a list of [`<length>`](/en-US/docs/Web/SVG/Guides/Content_type#length), [`<percentage>`](/en-US/docs/Web/SVG/Guides/Content_type#percentage), or [`<number>`](/en-US/docs/Web/SVG/Guides/Content_type#number) values.
 

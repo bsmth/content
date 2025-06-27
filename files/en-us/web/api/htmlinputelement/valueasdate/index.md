@@ -4,9 +4,10 @@ short-title: valueAsDate
 slug: Web/API/HTMLInputElement/valueAsDate
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.valueAsDate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`valueAsDate`** property of the {{DOMxRef("HTMLInputElement")}} interface represents the current value of the {{htmlelement("input")}} element as a {{jsxref("Date")}}, or `null` if conversion is not possible.
 

@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.Document.prerenderingchange_event
+sidebar:
+  - apiref:
+      - Speculation Rules API
 ---
 
-{{ APIRef("Speculation Rules API") }}{{seecompattable}}
+{{seecompattable}}
 
 The **`prerenderingchange`** event is fired on a prerendered document when it is activated (i.e., the user views the page).
 

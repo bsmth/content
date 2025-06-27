@@ -4,9 +4,10 @@ short-title: createSVGTransformFromMatrix()
 slug: Web/API/SVGSVGElement/createSVGTransformFromMatrix
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.createSVGTransformFromMatrix
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `createSVGTransformFromMatrix()` method of the {{domxref("SVGSVGElement")}} interface creates an {{domxref("SVGTransform")}} object outside of any document trees, based on the given {{domxref("DOMMatrix")}} object.
 

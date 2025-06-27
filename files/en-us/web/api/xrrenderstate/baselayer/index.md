@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XRRenderState.baseLayer
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The read-only **`baseLayer`** property of the
 {{domxref("XRRenderState")}} interface returns the {{domxref("XRWebGLLayer")}} instance

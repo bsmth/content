@@ -4,9 +4,12 @@ short-title: show()
 slug: Web/API/PaymentRequest/show
 page-type: web-api-instance-method
 browser-compat: api.PaymentRequest.show
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **{{domxref('PaymentRequest')}}** interface's
 **`show()`** method instructs the user agent to begin the

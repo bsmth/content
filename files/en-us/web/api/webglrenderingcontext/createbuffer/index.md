@@ -4,9 +4,12 @@ short-title: createBuffer()
 slug: Web/API/WebGLRenderingContext/createBuffer
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.createBuffer
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.createBuffer()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) creates and initializes a
 {{domxref("WebGLBuffer")}} storing data such as vertices or colors.

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.MediaMetadata.chapterInfo
+sidebar:
+  - apiref:
+      - Media Session API
 ---
 
-{{APIRef("Media Session API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`chapterInfo`** read-only property of the {{domxref("MediaMetadata")}} interface returns an array of chapter information metadata associated with playing media, represented by {{domxref("ChapterInformation")}} object instances.
 

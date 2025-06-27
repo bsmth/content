@@ -4,9 +4,10 @@ short-title: pseudoElement
 slug: Web/API/AnimationEvent/pseudoElement
 page-type: web-api-instance-property
 browser-compat: api.AnimationEvent.pseudoElement
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`AnimationEvent.pseudoElement`** read-only property is a
 string, starting with `'::'`, containing the name of the [pseudo-element](/en-US/docs/Web/CSS/Pseudo-elements) the animation runs on.

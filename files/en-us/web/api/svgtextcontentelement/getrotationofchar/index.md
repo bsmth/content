@@ -4,9 +4,10 @@ short-title: getRotationOfChar()
 slug: Web/API/SVGTextContentElement/getRotationOfChar
 page-type: web-api-instance-method
 browser-compat: api.SVGTextContentElement.getRotationOfChar
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getRotationOfChar()` method of the {{domxref("SVGTextContentElement")}} interface the represents the rotation of a typographic character.
 

@@ -4,9 +4,10 @@ short-title: creationTime
 slug: Web/API/VideoPlaybackQuality/creationTime
 page-type: web-api-instance-property
 browser-compat: api.VideoPlaybackQuality.creationTime
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`creationTime`** property on the
 {{domxref("VideoPlaybackQuality")}} interface reports the number of milliseconds since

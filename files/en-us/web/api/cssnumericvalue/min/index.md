@@ -4,9 +4,10 @@ short-title: min()
 slug: Web/API/CSSNumericValue/min
 page-type: web-api-instance-method
 browser-compat: api.CSSNumericValue.min
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`min()`** method of the
 {{domxref("CSSNumericValue")}} interface returns the lowest value from among those

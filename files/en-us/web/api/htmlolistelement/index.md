@@ -3,9 +3,10 @@ title: HTMLOListElement
 slug: Web/API/HTMLOListElement
 page-type: web-api-interface
 browser-compat: api.HTMLOListElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLOListElement`** interface provides special properties (beyond those defined on the regular {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating ordered list elements.
 

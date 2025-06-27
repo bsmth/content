@@ -4,9 +4,12 @@ short-title: redirect
 slug: Web/API/Request/redirect
 page-type: web-api-instance-property
 browser-compat: api.Request.redirect
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`redirect`** read-only property of the {{domxref("Request")}} interface contains the mode for how redirects are handled.
 

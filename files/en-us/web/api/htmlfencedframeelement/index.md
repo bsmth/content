@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.HTMLFencedFrameElement
+sidebar:
+  - apiref:
+      - Fenced Frame API
 ---
 
-{{SeeCompatTable}}{{APIRef("Fenced Frame API")}}
+{{SeeCompatTable}}
 
 The **`HTMLFencedFrameElement`** interface represents a {{htmlelement("fencedframe")}} element in JavaScript and provides configuration properties.
 

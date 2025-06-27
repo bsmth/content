@@ -3,9 +3,10 @@ title: CSSTransition
 slug: Web/API/CSSTransition
 page-type: web-api-interface
 browser-compat: api.CSSTransition
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`CSSTransition`** interface of the {{domxref('Web Animations API','','',' ')}} represents an {{domxref("Animation")}} object used for a [CSS Transition](/en-US/docs/Web/CSS/CSS_transitions).
 

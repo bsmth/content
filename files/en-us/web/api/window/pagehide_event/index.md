@@ -4,9 +4,10 @@ short-title: pagehide
 slug: Web/API/Window/pagehide_event
 page-type: web-api-event
 browser-compat: api.Window.pagehide_event
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`pagehide`** event is sent to a {{domxref("Window")}} when the browser hides the current page in the process of presenting a different page from the session's history.
 

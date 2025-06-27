@@ -4,9 +4,10 @@ short-title: getAnimations()
 slug: Web/API/Document/getAnimations
 page-type: web-api-instance-method
 browser-compat: api.Document.getAnimations
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The `getAnimations()` method of the {{domxref("Document")}} interface
 returns an array of all {{domxref("Animation")}} objects currently in effect whose

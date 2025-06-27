@@ -3,9 +3,10 @@ title: IdleDeadline
 slug: Web/API/IdleDeadline
 page-type: web-api-interface
 browser-compat: api.IdleDeadline
+sidebar:
+  - apiref:
+      - Background Tasks
 ---
-
-{{APIRef("Background Tasks")}}
 
 The `IdleDeadline` interface is used as the data type of the input parameter to idle callbacks established by calling {{domxref("Window.requestIdleCallback()")}}. It offers a method, {{domxref("IdleDeadline.timeRemaining", "timeRemaining()")}}, which lets you determine how much longer the user agent estimates it will remain idle and a property, {{domxref("IdleDeadline.didTimeout", "didTimeout")}}, which lets you determine if your callback is executing because its timeout duration expired.
 

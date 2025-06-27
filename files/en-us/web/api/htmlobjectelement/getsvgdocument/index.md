@@ -4,9 +4,10 @@ short-title: getSVGDocument()
 slug: Web/API/HTMLObjectElement/getSVGDocument
 page-type: web-api-instance-method
 browser-compat: api.HTMLObjectElement.getSVGDocument
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`getSVGDocument()`** method of the {{domxref("HTMLObjectElement")}} interface returns the {{domxref("Document")}} object of the embedded SVG.
 

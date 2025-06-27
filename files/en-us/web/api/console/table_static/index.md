@@ -4,9 +4,12 @@ short-title: table()
 slug: Web/API/console/table_static
 page-type: web-api-static-method
 browser-compat: api.console.table_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.table()`** static method displays tabular data as a table.
 

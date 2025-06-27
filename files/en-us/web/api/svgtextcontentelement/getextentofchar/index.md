@@ -4,9 +4,10 @@ short-title: getExtentOfChar()
 slug: Web/API/SVGTextContentElement/getExtentOfChar
 page-type: web-api-instance-method
 browser-compat: api.SVGTextContentElement.getExtentOfChar
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getExtentOfChar()` method of the {{domxref("SVGTextContentElement")}} interface the represents computed tight bounding box of the glyph cell that corresponds to a given typographic character.
 

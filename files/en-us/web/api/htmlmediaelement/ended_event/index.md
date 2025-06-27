@@ -4,9 +4,10 @@ short-title: ended
 slug: Web/API/HTMLMediaElement/ended_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.ended_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `ended` event is fired when playback or streaming has stopped because the end of the media was reached or because no further data is available.
 

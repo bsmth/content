@@ -4,9 +4,8 @@ short-title: change
 slug: Web/API/TextTrackList/change_event
 page-type: web-api-event
 browser-compat: api.TextTrackList.change_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`change`** event is fired when a text track is made active or inactive, or a {{domxref('TextTrackList')}} is otherwise changed.
 

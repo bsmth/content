@@ -4,9 +4,12 @@ short-title: GPUUncapturedErrorEvent()
 slug: Web/API/GPUUncapturedErrorEvent/GPUUncapturedErrorEvent
 page-type: web-api-constructor
 browser-compat: api.GPUUncapturedErrorEvent.GPUUncapturedErrorEvent
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUUncapturedErrorEvent()`** constructor creates a new
 {{domxref("GPUUncapturedErrorEvent")}} object instance.

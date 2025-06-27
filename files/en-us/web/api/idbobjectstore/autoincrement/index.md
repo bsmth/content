@@ -4,9 +4,12 @@ short-title: autoIncrement
 slug: Web/API/IDBObjectStore/autoIncrement
 page-type: web-api-instance-property
 browser-compat: api.IDBObjectStore.autoIncrement
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`autoIncrement`** read-only property of the
 {{domxref("IDBObjectStore")}} interface returns the value of the auto increment flag

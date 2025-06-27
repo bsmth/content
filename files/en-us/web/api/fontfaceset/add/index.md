@@ -4,9 +4,12 @@ short-title: add()
 slug: Web/API/FontFaceSet/add
 page-type: web-api-instance-method
 browser-compat: api.FontFaceSet.add
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`add()`** method of the {{domxref("FontFaceSet")}} interface adds a new font to the set.
 

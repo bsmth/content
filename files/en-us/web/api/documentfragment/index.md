@@ -3,9 +3,10 @@ title: DocumentFragment
 slug: Web/API/DocumentFragment
 page-type: web-api-interface
 browser-compat: api.DocumentFragment
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`DocumentFragment`** interface represents a minimal document object that has no parent.
 

@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.FileReaderSync.readAsBinaryString
+sidebar:
+  - apiref:
+      - File API")}}{{deprecated_header}} {{AvailableInWorkers("worker_except_service
 ---
-
-{{APIRef("File API")}}{{deprecated_header}} {{AvailableInWorkers("worker_except_service")}}
 
 > [!NOTE]
 > This method is deprecated in favor of {{DOMxRef("FileReaderSync.readAsArrayBuffer","readAsArrayBuffer()")}}.

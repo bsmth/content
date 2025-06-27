@@ -4,9 +4,12 @@ short-title: ErrorEvent()
 slug: Web/API/ErrorEvent/ErrorEvent
 page-type: web-api-constructor
 browser-compat: api.ErrorEvent.ErrorEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ErrorEvent()`** constructor creates a new {{domxref("ErrorEvent")}} object.
 

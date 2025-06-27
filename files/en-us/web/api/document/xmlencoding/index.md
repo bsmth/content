@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.xmlEncoding
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 Returns the encoding as determined by the XML declaration. Should be `null` if unspecified or unknown.
 

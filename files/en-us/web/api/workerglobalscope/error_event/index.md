@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/WorkerGlobalScope/error_event
 page-type: web-api-event
 browser-compat: api.WorkerGlobalScope.error_event
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("worker")}}
 
 The **`error`** event of the {{domxref("WorkerGlobalScope")}} interface fires when an error occurs in the worker.
 

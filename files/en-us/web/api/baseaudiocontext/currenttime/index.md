@@ -4,9 +4,10 @@ short-title: currentTime
 slug: Web/API/BaseAudioContext/currentTime
 page-type: web-api-instance-property
 browser-compat: api.BaseAudioContext.currentTime
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `currentTime` read-only property of the {{ domxref("BaseAudioContext") }}
 interface returns a double representing an ever-increasing hardware timestamp in seconds that

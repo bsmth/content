@@ -4,9 +4,10 @@ short-title: availableOutgoingBitrate
 slug: Web/API/RTCIceCandidatePairStats/availableOutgoingBitrate
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.availableOutgoingBitrate
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`availableOutgoingBitrate`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the available outbound capacity of the network connection represented by the candidate pair.
 The higher the value, the more bandwidth you can assume is available for outgoing data.

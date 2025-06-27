@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/HTMLInputElement/disabled
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.disabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLInputElement.disabled`** property is a boolean value that reflects the [`disabled`](/en-US/docs/Web/HTML/Reference/Elements/input#disabled) HTML attribute, which indicates whether the control is disabled. If it is disabled, it does not accept clicks. A disabled element is unusable and un-clickable.
 

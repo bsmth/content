@@ -3,9 +3,10 @@ title: CustomStateSet
 slug: Web/API/CustomStateSet
 page-type: web-api-interface
 browser-compat: api.CustomStateSet
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`CustomStateSet`** interface of the [Document Object Model](/en-US/docs/Web/API/Document_Object_Model) stores a list of states for an [autonomous custom element](/en-US/docs/Web/API/Web_components/Using_custom_elements#types_of_custom_element), and allows states to be added and removed from the set.
 

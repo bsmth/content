@@ -4,9 +4,12 @@ short-title: formData()
 slug: Web/API/Response/formData
 page-type: web-api-instance-method
 browser-compat: api.Response.formData
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`formData()`** method of the {{domxref("Response")}} interface
 takes a {{domxref("Response")}} stream and reads it to completion. It returns a promise

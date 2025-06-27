@@ -4,9 +4,12 @@ short-title: getContextAttributes()
 slug: Web/API/WebGLRenderingContext/getContextAttributes
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getContextAttributes
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getContextAttributes()`** method
 returns a `WebGLContextAttributes` object that contains the actual context

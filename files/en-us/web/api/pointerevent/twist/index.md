@@ -4,9 +4,10 @@ short-title: twist
 slug: Web/API/PointerEvent/twist
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.twist
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`twist`** read-only property of the
 {{domxref("PointerEvent")}} interface represents the clockwise rotation of the pointer

@@ -4,9 +4,10 @@ short-title: cx
 slug: Web/API/SVGEllipseElement/cx
 page-type: web-api-instance-property
 browser-compat: api.SVGEllipseElement.cx
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`cx`** read-only property of the {{domxref("SVGEllipseElement")}} interface describes the x-axis coordinate of the center of the ellipse as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("cx")}} attribute on the {{SVGElement("ellipse")}} element.
 

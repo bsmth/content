@@ -6,9 +6,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.MediaStreamTrackGenerator
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API
 ---
 
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}{{SeeCompatTable}}{{Non-standard_Header}}
+{{SeeCompatTable}}{{Non-standard_Header}}
 
 > [!NOTE]
 > Consider using {{domxref("VideoTrackGenerator")}} instead.

@@ -4,9 +4,10 @@ short-title: updatePlaybackRate()
 slug: Web/API/Animation/updatePlaybackRate
 page-type: web-api-instance-method
 browser-compat: api.Animation.updatePlaybackRate
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`updatePlaybackRate()`** method of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API)'s
 {{domxref("Animation")}} Interface sets the speed of an animation after first

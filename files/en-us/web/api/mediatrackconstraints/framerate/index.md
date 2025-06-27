@@ -4,9 +4,10 @@ short-title: frameRate
 slug: Web/API/MediaTrackConstraints/frameRate
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.frameRate_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackConstraints")}} dictionary's
 **`frameRate`** property is a [`ConstrainDouble`](/en-US/docs/Web/API/MediaTrackConstraints#constraindouble)

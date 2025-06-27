@@ -3,9 +3,12 @@ title: WebGLShader
 slug: Web/API/WebGLShader
 page-type: web-api-interface
 browser-compat: api.WebGLShader
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **WebGLShader** is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and can either be a vertex or a fragment shader. A {{domxref("WebGLProgram")}} requires both types of shaders.
 

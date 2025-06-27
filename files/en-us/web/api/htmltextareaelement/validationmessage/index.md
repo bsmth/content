@@ -4,9 +4,10 @@ short-title: validationMessage
 slug: Web/API/HTMLTextAreaElement/validationMessage
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.validationMessage
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validationMessage`** read-only property of the {{domxref("HTMLTextAreaElement")}} interface returns a string representing a localized message that describes the validation constraints that the {{htmlelement("textarea")}} control does not satisfy (if any). This is the empty string if the control is not a candidate for constraint validation ({{domxref("HTMLTextAreaElement.willValidate")}} is `false`), or it satisfies its constraints.
 

@@ -4,9 +4,12 @@ short-title: size()
 slug: Web/API/CountQueuingStrategy/size
 page-type: web-api-instance-method
 browser-compat: api.CountQueuingStrategy.size
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`size()`** method of the
 {{domxref("CountQueuingStrategy")}} interface always returns `1`, so that the

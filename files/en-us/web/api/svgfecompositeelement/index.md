@@ -3,9 +3,10 @@ title: SVGFECompositeElement
 slug: Web/API/SVGFECompositeElement
 page-type: web-api-interface
 browser-compat: api.SVGFECompositeElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFECompositeElement`** interface corresponds to the {{SVGElement("feComposite")}} element.
 

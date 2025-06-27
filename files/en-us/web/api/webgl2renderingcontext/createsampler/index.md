@@ -4,9 +4,12 @@ short-title: createSampler()
 slug: Web/API/WebGL2RenderingContext/createSampler
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.createSampler
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.createSampler()`** method of the
 [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) creates and initializes

@@ -4,9 +4,12 @@ short-title: popDebugGroup()
 slug: Web/API/GPURenderBundleEncoder/popDebugGroup
 page-type: web-api-instance-method
 browser-compat: api.GPURenderBundleEncoder.popDebugGroup
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`popDebugGroup()`** method of the
 {{domxref("GPURenderBundleEncoder")}} interface ends a render bundle debug group, which is begun with a {{domxref("GPURenderBundleEncoder.pushDebugGroup", "pushDebugGroup()")}} call.

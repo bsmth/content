@@ -4,9 +4,10 @@ short-title: unobserve()
 slug: Web/API/ResizeObserver/unobserve
 page-type: web-api-instance-method
 browser-compat: api.ResizeObserver.unobserve
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`unobserve()`** method of the
 {{domxref("ResizeObserver")}} interface ends the observing of a specified

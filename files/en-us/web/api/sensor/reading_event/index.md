@@ -4,9 +4,12 @@ short-title: reading
 slug: Web/API/Sensor/reading_event
 page-type: web-api-event
 browser-compat: api.Sensor.reading_event
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`reading`** event is fired when a new reading is available on a sensor.
 

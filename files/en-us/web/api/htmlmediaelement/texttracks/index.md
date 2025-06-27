@@ -4,9 +4,10 @@ short-title: textTracks
 slug: Web/API/HTMLMediaElement/textTracks
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.textTracks
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`textTracks`**
 property on {{DOMxRef("HTMLMediaElement")}} objects returns a

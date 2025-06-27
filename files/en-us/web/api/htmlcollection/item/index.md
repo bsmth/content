@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/HTMLCollection/item
 page-type: web-api-instance-method
 browser-compat: api.HTMLCollection.item
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLCollection")}} method `item()`
 returns the element located at the specified offset into the collection.

@@ -3,9 +3,12 @@ title: RelativeOrientationSensor
 slug: Web/API/RelativeOrientationSensor
 page-type: web-api-interface
 browser-compat: api.RelativeOrientationSensor
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`RelativeOrientationSensor`** interface of the [Sensor APIs](/en-US/docs/Web/API/Sensor_APIs) describes the device's physical orientation without regard to the Earth's reference coordinate system.
 

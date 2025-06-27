@@ -4,9 +4,10 @@ short-title: speaking
 slug: Web/API/SpeechSynthesis/speaking
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesis.speaking
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`speaking`** read-only property of the
 {{domxref("SpeechSynthesis")}} interface is a boolean value that returns

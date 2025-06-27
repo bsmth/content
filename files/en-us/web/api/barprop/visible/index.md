@@ -4,9 +4,10 @@ short-title: visible
 slug: Web/API/BarProp/visible
 page-type: web-api-instance-property
 browser-compat: api.BarProp.visible
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`visible`** read-only property of the {{domxref("BarProp")}} interface returns `true` if the user interface element it represents is visible.
 

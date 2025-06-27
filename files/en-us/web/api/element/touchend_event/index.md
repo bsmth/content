@@ -4,9 +4,8 @@ short-title: touchend
 slug: Web/API/Element/touchend_event
 page-type: web-api-event
 browser-compat: api.Element.touchend_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `touchend` event fires when one or more touch points are removed from the touch surface. Remember that it is possible to get a [`touchcancel`](/en-US/docs/Web/API/Element/touchcancel_event) event instead.
 

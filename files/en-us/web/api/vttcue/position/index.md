@@ -4,9 +4,10 @@ short-title: position
 slug: Web/API/VTTCue/position
 page-type: web-api-instance-property
 browser-compat: api.VTTCue.position
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`position`** property of the {{domxref("VTTCue")}} interface represents the indentation of the cue within the line.
 

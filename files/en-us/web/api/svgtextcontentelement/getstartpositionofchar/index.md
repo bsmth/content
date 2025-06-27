@@ -4,9 +4,10 @@ short-title: getStartPositionOfChar()
 slug: Web/API/SVGTextContentElement/getStartPositionOfChar
 page-type: web-api-instance-method
 browser-compat: api.SVGTextContentElement.getStartPositionOfChar
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getStartPositionOfChar()` method of the {{domxref("SVGTextContentElement")}} interface returns the position of a typographic character after text layout has been performed.
 

@@ -4,9 +4,10 @@ short-title: insertRow()
 slug: Web/API/HTMLTableElement/insertRow
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableElement.insertRow
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`insertRow()`** method of the {{domxref("HTMLTableElement")}} interface inserts a new row
 ({{HtmlElement("tr")}}) in a given {{HtmlElement("table")}}, and returns a reference to

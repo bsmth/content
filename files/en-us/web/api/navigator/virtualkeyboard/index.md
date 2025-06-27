@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Navigator.virtualKeyboard
+sidebar:
+  - apiref:
+      - VirtualKeyboard
 ---
 
-{{APIRef("VirtualKeyboard")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`virtualKeyboard`** read-only property
 of the {{domxref("navigator")}} interface returns a reference to the {{domxref("VirtualKeyboard")}} instance object.

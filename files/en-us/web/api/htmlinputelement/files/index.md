@@ -4,9 +4,10 @@ short-title: files
 slug: Web/API/HTMLInputElement/files
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.files
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The **`HTMLInputElement.files`** property allows you to access the {{domxref("FileList")}} selected with the [`<input type="file">`](/en-US/docs/Web/HTML/Reference/Elements/input/file) element.
 

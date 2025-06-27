@@ -3,9 +3,10 @@ title: MediaStreamTrackAudioSourceNode
 slug: Web/API/MediaStreamTrackAudioSourceNode
 page-type: web-api-interface
 browser-compat: api.MediaStreamTrackAudioSourceNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`MediaStreamTrackAudioSourceNode`** interface is a type of {{domxref("AudioNode")}} which represents a source of audio data taken from a specific {{domxref("MediaStreamTrack")}} obtained through the [WebRTC](/en-US/docs/Web/API/WebRTC_API) or [Media Capture and Streams](/en-US/docs/Web/API/Media_Capture_and_Streams_API) APIs.
 

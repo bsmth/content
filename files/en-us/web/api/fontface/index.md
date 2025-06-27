@@ -3,9 +3,12 @@ title: FontFace
 slug: Web/API/FontFace
 page-type: web-api-interface
 browser-compat: api.FontFace
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FontFace`** interface of the [CSS Font Loading API](/en-US/docs/Web/API/CSS_Font_Loading_API) represents a single usable font face.
 

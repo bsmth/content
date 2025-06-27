@@ -4,9 +4,10 @@ short-title: URL
 slug: Web/API/Document/URL
 page-type: web-api-instance-property
 browser-compat: api.Document.URL
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`URL`** read-only property of the {{domxref("Document")}}
 interface returns the document location as a string.

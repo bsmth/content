@@ -4,9 +4,10 @@ short-title: insertItemBefore()
 slug: Web/API/SVGStringList/insertItemBefore
 page-type: web-api-instance-method
 browser-compat: api.SVGStringList.insertItemBefore
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`insertItemBefore()`** method of the {{domxref("SVGStringList")}} interface inserts a new item into the list at the specified position. The first item is indexed 0. The inserted item is the item itself and not a copy.
 

@@ -4,9 +4,10 @@ short-title: pictureInPictureElement
 slug: Web/API/Document/pictureInPictureElement
 page-type: web-api-instance-property
 browser-compat: api.Document.pictureInPictureElement
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The read-only **`pictureInPictureElement`** property of the {{domxref("Document")}}
 interface returns the {{ domxref("Element") }} that is currently being

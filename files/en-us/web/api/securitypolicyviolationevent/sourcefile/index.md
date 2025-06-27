@@ -4,9 +4,12 @@ short-title: sourceFile
 slug: Web/API/SecurityPolicyViolationEvent/sourceFile
 page-type: web-api-instance-property
 browser-compat: api.SecurityPolicyViolationEvent.sourceFile
+sidebar:
+  - apiref:
+      - Reporting API
 ---
 
-{{APIRef("Reporting API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`sourceFile`** read-only property of the {{domxref("SecurityPolicyViolationEvent")}} interface is a string representing the URL of the script in which the [Content Security Policy (CSP)](/en-US/docs/Web/HTTP/Guides/CSP) violation occurred.
 

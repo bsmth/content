@@ -4,9 +4,10 @@ short-title: clipPathUnits
 slug: Web/API/SVGClipPathElement/clipPathUnits
 page-type: web-api-instance-property
 browser-compat: api.SVGClipPathElement.clipPathUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The read-only **`clipPathUnits`** property of the {{domxref("SVGClipPathElement")}} interface reflects the {{SVGAttr("clipPathUnits")}} attribute of a {{SVGElement("clipPath")}} element which defines the coordinate system to use for the content of the element.
 

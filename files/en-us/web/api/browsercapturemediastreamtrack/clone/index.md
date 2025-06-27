@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BrowserCaptureMediaStreamTrack.clone
+sidebar:
+  - apiref:
+      - Screen Capture API
 ---
 
-{{APIRef("Screen Capture API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`clone()`** method of the {{domxref("BrowserCaptureMediaStreamTrack")}} interface returns a clone of the original `BrowserCaptureMediaStreamTrack`.
 

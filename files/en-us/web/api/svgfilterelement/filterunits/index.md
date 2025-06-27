@@ -4,9 +4,10 @@ short-title: filterUnits
 slug: Web/API/SVGFilterElement/filterUnits
 page-type: web-api-instance-property
 browser-compat: api.SVGFilterElement.filterUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`filterUnits`** read-only property of the {{domxref("SVGFilterElement")}} interface reflects the {{SVGAttr("filterUnits")}} attribute of the given {{SVGElement("filter")}} element. It takes one of the `SVG_UNIT_TYPE_*` constants defined in {{domxref("SVGUnitTypes")}}.
 

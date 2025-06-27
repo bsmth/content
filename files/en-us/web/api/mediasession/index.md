@@ -3,9 +3,10 @@ title: MediaSession
 slug: Web/API/MediaSession
 page-type: web-api-interface
 browser-compat: api.MediaSession
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`MediaSession`** interface of the {{domxref("Media Session API", "", "", "nocode")}} allows a web page to provide custom behaviors for standard media playback interactions, and to report metadata that can be sent by the user agent to the device or operating system for presentation in standardized user interface elements.
 

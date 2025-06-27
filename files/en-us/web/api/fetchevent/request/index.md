@@ -4,9 +4,10 @@ short-title: request
 slug: Web/API/FetchEvent/request
 page-type: web-api-instance-property
 browser-compat: api.FetchEvent.request
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`request`** read-only property of the
 {{domxref("FetchEvent")}} interface returns the {{domxref("Request")}} that triggered

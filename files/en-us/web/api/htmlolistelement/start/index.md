@@ -4,9 +4,10 @@ short-title: start
 slug: Web/API/HTMLOListElement/start
 page-type: web-api-instance-property
 browser-compat: api.HTMLOListElement.start
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`start`** property of the {{domxref("HTMLOListElement")}} interface indicates starting value of the ordered list, with default value of 1.
 

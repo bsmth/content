@@ -4,9 +4,10 @@ short-title: data
 slug: Web/API/BlobEvent/data
 page-type: web-api-instance-property
 browser-compat: api.BlobEvent.data
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`data`** read-only property of the {{domxref("BlobEvent")}} interface represents a {{domxref("Blob")}} associated with the event.
 

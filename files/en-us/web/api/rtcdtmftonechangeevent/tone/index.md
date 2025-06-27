@@ -4,9 +4,10 @@ short-title: tone
 slug: Web/API/RTCDTMFToneChangeEvent/tone
 page-type: web-api-instance-property
 browser-compat: api.RTCDTMFToneChangeEvent.tone
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only property **`RTCDTMFToneChangeEvent.tone`**
 returns the DTMF character which has just begun to play, or an empty string

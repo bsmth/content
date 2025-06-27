@@ -4,9 +4,8 @@ short-title: restore()
 slug: Web/API/CanvasRenderingContext2D/restore
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.restore
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.restore()`**

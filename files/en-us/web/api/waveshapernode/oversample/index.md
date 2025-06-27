@@ -4,9 +4,10 @@ short-title: oversample
 slug: Web/API/WaveShaperNode/oversample
 page-type: web-api-instance-property
 browser-compat: api.WaveShaperNode.oversample
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `oversample` property of the {{ domxref("WaveShaperNode") }} interface is an enumerated value indicating if oversampling must be used. Oversampling is a technique for creating more samples (up-sampling) before applying a distortion effect to the audio signal.
 

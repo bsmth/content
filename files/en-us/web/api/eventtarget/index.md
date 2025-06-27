@@ -3,9 +3,12 @@ title: EventTarget
 slug: Web/API/EventTarget
 page-type: web-api-interface
 browser-compat: api.EventTarget
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`EventTarget`** interface is implemented by objects that can receive events and may have listeners for them.
 In other words, any target of events implements the three methods associated with this interface.

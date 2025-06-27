@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/EncodedVideoChunk/type
 page-type: web-api-instance-property
 browser-compat: api.EncodedVideoChunk.type
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`type`** read-only property of the {{domxref("EncodedVideoChunk")}} interface returns a value indicating whether the video chunk is a key chunk, which does not rely on other frames for decoding.
 

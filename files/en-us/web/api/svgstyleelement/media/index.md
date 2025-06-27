@@ -4,9 +4,10 @@ short-title: media
 slug: Web/API/SVGStyleElement/media
 page-type: web-api-instance-property
 browser-compat: api.SVGStyleElement.media
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGStyleElement.media`** property is a media query string corresponding to the [`media`](/en-US/docs/Web/SVG/Reference/Element/style#media) attribute of the given SVG style element.
 

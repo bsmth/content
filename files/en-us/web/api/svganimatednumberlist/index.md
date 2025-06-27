@@ -3,9 +3,10 @@ title: SVGAnimatedNumberList
 slug: Web/API/SVGAnimatedNumberList
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedNumberList
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedNumberList`** interface represents a list of attributes of type [\<number>](/en-US/docs/Web/SVG/Guides/Content_type#number) which can be animated.
 

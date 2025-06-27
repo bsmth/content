@@ -7,9 +7,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.MediaStreamTrackGenerator.MediaStreamTrackGenerator
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API
 ---
 
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}{{SeeCompatTable}}{{Non-standard_Header}}
+{{SeeCompatTable}}{{Non-standard_Header}}
 
 The **`MediaStreamTrackGenerator()`** constructor creates a new {{domxref("MediaStreamTrackGenerator")}} object which consumes a stream of media frames and exposes a {{domxref("MediaStreamTrack")}}.
 

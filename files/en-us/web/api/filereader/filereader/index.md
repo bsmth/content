@@ -4,9 +4,12 @@ short-title: FileReader()
 slug: Web/API/FileReader/FileReader
 page-type: web-api-constructor
 browser-compat: api.FileReader.FileReader
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FileReader()`** constructor creates a new `FileReader`.
 

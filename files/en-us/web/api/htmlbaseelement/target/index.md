@@ -4,9 +4,10 @@ short-title: target
 slug: Web/API/HTMLBaseElement/target
 page-type: web-api-instance-property
 browser-compat: api.HTMLBaseElement.target
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The `target` property of the {{domxref("HTMLBaseElement")}} interface is a string that represents the default target tab to show the resulting output for hyperlinks and form elements.
 

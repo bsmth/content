@@ -4,9 +4,12 @@ short-title: binaryType
 slug: Web/API/WebSocket/binaryType
 page-type: web-api-instance-property
 browser-compat: api.WebSocket.binaryType
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebSocket.binaryType`** property controls the type of
 binary data being received over the WebSocket connection.

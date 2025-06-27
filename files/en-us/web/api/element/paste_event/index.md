@@ -4,9 +4,8 @@ short-title: paste
 slug: Web/API/Element/paste_event
 page-type: web-api-event
 browser-compat: api.Element.paste_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`paste`** event of the [Clipboard API](/en-US/docs/Web/API/Clipboard_API) is fired when the user has initiated a "paste" action through the browser's user interface.
 

@@ -4,9 +4,10 @@ short-title: echoCancellation
 slug: Web/API/MediaTrackConstraints/echoCancellation
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.echoCancellation_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackConstraints")}} dictionary's
 **`echoCancellation`** property is a

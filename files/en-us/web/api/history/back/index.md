@@ -4,9 +4,10 @@ short-title: back()
 slug: Web/API/History/back
 page-type: web-api-instance-method
 browser-compat: api.History.back
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`back()`** method of the {{domxref("History")}} interface causes
 the browser to move back one page in the session history.

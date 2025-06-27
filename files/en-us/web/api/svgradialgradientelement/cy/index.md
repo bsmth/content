@@ -4,9 +4,10 @@ short-title: cy
 slug: Web/API/SVGRadialGradientElement/cy
 page-type: web-api-instance-property
 browser-compat: api.SVGRadialGradientElement.cy
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`cy`** read-only property of the {{domxref("SVGRadialGradientElement")}} interface describes the y-axis coordinate of the center of the radial gradient as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("cy")}} attribute on the {{SVGElement("radialGradient")}} element.
 

@@ -4,9 +4,10 @@ short-title: replace()
 slug: Web/API/Location/replace
 page-type: web-api-instance-method
 browser-compat: api.Location.replace
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`replace()`** method of the {{DOMXref("Location")}}
 interface replaces the current resource with the one at the provided URL. The difference

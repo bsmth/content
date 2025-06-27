@@ -6,9 +6,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.MutationEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{Deprecated_Header}}{{non-standard_header}}
+{{Deprecated_Header}}{{non-standard_header}}
 
 The **`MutationEvent`** interface provides event properties that are specific to modifications to the Document Object Model (DOM) hierarchy and nodes.
 

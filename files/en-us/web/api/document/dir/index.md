@@ -4,9 +4,10 @@ short-title: dir
 slug: Web/API/Document/dir
 page-type: web-api-instance-property
 browser-compat: api.Document.dir
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`Document.dir`** property is a string
 representing the directionality of the text of the document, whether left to right

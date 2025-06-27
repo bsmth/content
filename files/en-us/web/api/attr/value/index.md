@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/Attr/value
 page-type: web-api-instance-property
 browser-compat: api.Attr.value
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`value`** property of the {{domxref("Attr")}} interface contains the value of the attribute.
 

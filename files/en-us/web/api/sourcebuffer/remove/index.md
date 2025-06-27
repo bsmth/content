@@ -4,9 +4,10 @@ short-title: remove()
 slug: Web/API/SourceBuffer/remove
 page-type: web-api-instance-method
 browser-compat: api.SourceBuffer.remove
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`remove()`** method of the {{domxref("SourceBuffer")}}
 interface removes media segments within a specific time range from the

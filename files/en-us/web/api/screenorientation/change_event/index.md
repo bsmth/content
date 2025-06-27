@@ -4,9 +4,10 @@ short-title: change
 slug: Web/API/ScreenOrientation/change_event
 page-type: web-api-event
 browser-compat: api.ScreenOrientation.change_event
+sidebar:
+  - apiref:
+      - Screen Orientation API
 ---
-
-{{APIRef("Screen Orientation API")}}
 
 The **`change`** event of the {{domxref("ScreenOrientation")}} interface fires when the orientation of the screen has changed, for example when a user rotates their mobile phone.
 

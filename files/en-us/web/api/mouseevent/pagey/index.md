@@ -4,9 +4,10 @@ short-title: pageY
 slug: Web/API/MouseEvent/pageY
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.pageY
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`pageY`** read-only property of the {{domxref("MouseEvent")}} interface returns the Y (vertical) coordinate (in pixels) at which the mouse was clicked, relative to the top edge of the entire document.
 This includes any portion of the document not currently visible.

@@ -4,9 +4,12 @@ short-title: readText()
 slug: Web/API/Clipboard/readText
 page-type: web-api-instance-method
 browser-compat: api.Clipboard.readText
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}} {{securecontext_header}}
+{{securecontext_header}}
 
 The **`readText()`** method of the {{domxref("Clipboard")}} interface returns a {{jsxref("Promise")}} which fulfills with a copy of the textual contents of the system clipboard.
 

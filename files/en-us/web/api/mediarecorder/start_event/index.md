@@ -4,9 +4,10 @@ short-title: start
 slug: Web/API/MediaRecorder/start_event
 page-type: web-api-event
 browser-compat: api.MediaRecorder.start_event
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`start`** event of the {{domxref("MediaRecorder")}} interface is fired when
 {{domxref("MediaRecorder.start()")}} is called. At this point, the data

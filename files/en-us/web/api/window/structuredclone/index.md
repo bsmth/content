@@ -4,9 +4,10 @@ short-title: structuredClone()
 slug: Web/API/Window/structuredClone
 page-type: web-api-instance-method
 browser-compat: api.structuredClone
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`structuredClone()`** method of the {{domxref("Window")}} interface creates a [deep clone](/en-US/docs/Glossary/Deep_copy) of a given value using the [structured clone algorithm](/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm).
 

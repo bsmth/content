@@ -4,9 +4,10 @@ short-title: totalVideoFrames
 slug: Web/API/VideoPlaybackQuality/totalVideoFrames
 page-type: web-api-instance-property
 browser-compat: api.VideoPlaybackQuality.totalVideoFrames
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("VideoPlaybackQuality")}} interface's
 **`totalVideoFrames`** read-only property returns the total

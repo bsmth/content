@@ -4,9 +4,10 @@ short-title: initData
 slug: Web/API/MediaEncryptedEvent/initData
 page-type: web-api-instance-property
 browser-compat: api.MediaEncryptedEvent.initData
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
-
-{{APIRef("Encrypted Media Extensions")}}
 
 The read-only **`initData`** property of the {{domxref("MediaKeyMessageEvent")}} returns the initialization data contained in this event, if any.
 

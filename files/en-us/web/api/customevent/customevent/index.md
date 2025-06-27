@@ -4,9 +4,12 @@ short-title: CustomEvent()
 slug: Web/API/CustomEvent/CustomEvent
 page-type: web-api-constructor
 browser-compat: api.CustomEvent.CustomEvent
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`CustomEvent()`** constructor creates a new {{domxref("CustomEvent")}} object.
 

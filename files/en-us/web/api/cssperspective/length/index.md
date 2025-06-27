@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/CSSPerspective/length
 page-type: web-api-instance-property
 browser-compat: api.CSSPerspective.length
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`length`** property of the
 {{domxref("CSSPerspective")}} interface sets the distance from z=0.

@@ -4,9 +4,10 @@ short-title: disablePictureInPicture
 slug: Web/API/HTMLVideoElement/disablePictureInPicture
 page-type: web-api-instance-property
 browser-compat: api.HTMLVideoElement.disablePictureInPicture
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The {{domxref("HTMLVideoElement")}} **`disablePictureInPicture`** property reflects the HTML attribute indicating whether the picture-in-picture feature is disabled for the current element.
 

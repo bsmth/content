@@ -4,9 +4,12 @@ short-title: longitude
 slug: Web/API/GeolocationCoordinates/longitude
 page-type: web-api-instance-property
 browser-compat: api.GeolocationCoordinates.longitude
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`longitude`** read-only property of the {{domxref("GeolocationCoordinates")}} interface is a number which represents the longitude of a geographical position, specified in decimal degrees.
 Together with a timestamp, given as {{Glossary("Unix time")}} in milliseconds, indicating a time of measurement, the `GeolocationCoordinates` object is part of the {{domxref("GeolocationPosition")}} interface, which is the object type returned by Geolocation API functions that obtain and return a geographical position.

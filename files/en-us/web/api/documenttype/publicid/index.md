@@ -4,9 +4,10 @@ short-title: publicId
 slug: Web/API/DocumentType/publicId
 page-type: web-api-instance-property
 browser-compat: api.DocumentType.publicId
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`publicId`** property of the {{domxref("DocumentType")}} returns a formal identifier of the document.
 

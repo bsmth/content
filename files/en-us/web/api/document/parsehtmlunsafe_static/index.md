@@ -4,9 +4,10 @@ short-title: parseHTMLUnsafe()
 slug: Web/API/Document/parseHTMLUnsafe_static
 page-type: web-api-static-method
 browser-compat: api.Document.parseHTMLUnsafe_static
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`parseHTMLUnsafe()`** static method of the {{domxref("Document")}} object is used to parse an HTML input, optionally filtering unwanted HTML elements and attributes, in order to create a new {{domxref("Document")}} instance.
 

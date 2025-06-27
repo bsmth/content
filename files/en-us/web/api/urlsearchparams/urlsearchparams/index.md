@@ -4,9 +4,12 @@ short-title: URLSearchParams()
 slug: Web/API/URLSearchParams/URLSearchParams
 page-type: web-api-constructor
 browser-compat: api.URLSearchParams.URLSearchParams
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`URLSearchParams()`** constructor creates and returns a
 new {{domxref("URLSearchParams")}} object.

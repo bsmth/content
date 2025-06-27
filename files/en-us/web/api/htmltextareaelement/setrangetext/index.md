@@ -4,9 +4,10 @@ short-title: setRangeText()
 slug: Web/API/HTMLTextAreaElement/setRangeText
 page-type: web-api-instance-method
 browser-compat: api.HTMLTextAreaElement.setRangeText
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`setRangeText()`** method of the {{domxref("HTMLTextAreaElement")}} interface replaces a
 range of text in a {{HTMLElement("textarea")}} element with new text passed as the argument.

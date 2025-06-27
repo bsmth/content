@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/HTMLSelectElement/disabled
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.disabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLSelectElement.disabled`** property is a boolean value that reflects the
 [`disabled`](/en-US/docs/Web/HTML/Reference/Elements/select#disabled)

@@ -3,9 +3,10 @@ title: PopStateEvent
 slug: Web/API/PopStateEvent
 page-type: web-api-interface
 browser-compat: api.PopStateEvent
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 **`PopStateEvent`** is an interface for the {{domxref("Window/popstate_event", "popstate")}} event.
 

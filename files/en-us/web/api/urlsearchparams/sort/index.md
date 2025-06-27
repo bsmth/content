@@ -4,9 +4,12 @@ short-title: sort()
 slug: Web/API/URLSearchParams/sort
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.sort
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`URLSearchParams.sort()`** method sorts all key/value
 pairs contained in this object in place and returns `undefined`. Key/value pairs are sorted by the values of the {{glossary("UTF-16", "UTF-16 code units")}} of the keys. This method uses a stable sorting

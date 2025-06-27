@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/WritableStreamDefaultWriter/close
 page-type: web-api-instance-method
 browser-compat: api.WritableStreamDefaultWriter.close
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`close()`** method of the
 {{domxref("WritableStreamDefaultWriter")}} interface closes the associated writable

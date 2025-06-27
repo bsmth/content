@@ -4,9 +4,10 @@ short-title: maxDistance
 slug: Web/API/PannerNode/maxDistance
 page-type: web-api-instance-property
 browser-compat: api.PannerNode.maxDistance
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `maxDistance` property of the {{ domxref("PannerNode") }} interface is a double value representing the maximum distance between the audio source and the listener, after which the volume is not reduced any further. This value is used only by the `linear` distance model.
 

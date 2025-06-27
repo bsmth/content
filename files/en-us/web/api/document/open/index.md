@@ -4,9 +4,10 @@ short-title: open()
 slug: Web/API/Document/open
 page-type: web-api-instance-method
 browser-compat: api.Document.open
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Document.open()`** method opens a document for
 {{domxref("Document.write", "writing", "", "1")}}.

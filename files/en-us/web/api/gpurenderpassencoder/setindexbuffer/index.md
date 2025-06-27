@@ -4,9 +4,12 @@ short-title: setIndexBuffer()
 slug: Web/API/GPURenderPassEncoder/setIndexBuffer
 page-type: web-api-instance-method
 browser-compat: api.GPURenderPassEncoder.setIndexBuffer
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`setIndexBuffer()`** method of the
 {{domxref("GPURenderPassEncoder")}} interface sets the current {{domxref("GPUBuffer")}} that will provide index data for subsequent drawing commands.

@@ -4,9 +4,12 @@ short-title: entries()
 slug: Web/API/Headers/entries
 page-type: web-api-instance-method
 browser-compat: api.Headers.entries
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Headers.entries()`** method returns an
 {{jsxref("Iteration_protocols",'iterator')}} allowing to go through all key/value pairs

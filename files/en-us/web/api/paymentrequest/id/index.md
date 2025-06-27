@@ -4,9 +4,12 @@ short-title: id
 slug: Web/API/PaymentRequest/id
 page-type: web-api-instance-property
 browser-compat: api.PaymentRequest.id
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`id`** read-only attribute of the
 {{domxref("PaymentRequest")}} interface returns a unique identifier for a particular

@@ -4,9 +4,12 @@ short-title: bodyUsed
 slug: Web/API/Response/bodyUsed
 page-type: web-api-instance-property
 browser-compat: api.Response.bodyUsed
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`bodyUsed`** read-only property of the {{domxref("Response")}} interface is a boolean value that indicates whether the body has been read yet.
 

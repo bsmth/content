@@ -3,9 +3,12 @@ title: PushSubscriptionOptions
 slug: Web/API/PushSubscriptionOptions
 page-type: web-api-interface
 browser-compat: api.PushSubscriptionOptions
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`PushSubscriptionOptions`** interface of the {{domxref('Push API','','',' ')}} represents the options associated with a push subscription.
 

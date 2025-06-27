@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.SpeechGrammarList.SpeechGrammarList
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
 
-{{APIRef("Web Speech API")}}{{ SeeCompatTable() }}
+{{ SeeCompatTable() }}
 
 The **`SpeechGrammarList()`** constructor creates a new
 `SpeechGrammarList` object instance.

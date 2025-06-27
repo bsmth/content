@@ -3,9 +3,10 @@ title: HTMLTableColElement
 slug: Web/API/HTMLTableColElement
 page-type: web-api-interface
 browser-compat: api.HTMLTableColElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLTableColElement`** interface provides properties for manipulating single or grouped table column elements.
 

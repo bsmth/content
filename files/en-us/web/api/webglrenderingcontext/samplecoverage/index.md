@@ -4,9 +4,12 @@ short-title: sampleCoverage()
 slug: Web/API/WebGLRenderingContext/sampleCoverage
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.sampleCoverage
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.sampleCoverage()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) specifies multi-sample coverage

@@ -4,9 +4,10 @@ short-title: dx
 slug: Web/API/SVGFEOffsetElement/dx
 page-type: web-api-instance-property
 browser-compat: api.SVGFEOffsetElement.dx
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`dx`** read-only property of the {{domxref("SVGFEOffsetElement")}} interface reflects the {{SVGAttr("dx")}} attribute of the given {{SVGElement("feOffset")}} element.
 

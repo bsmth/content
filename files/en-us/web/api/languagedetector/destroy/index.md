@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.LanguageDetector.destroy
+sidebar:
+  - apiref:
+      - Translator and Language Detector APIs
 ---
 
-{{APIRef("Translator and Language Detector APIs")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`destroy()`** method of the {{domxref("LanguageDetector")}} interface destroys the `LanguageDetector` instance it is called on. It makes sense to destroy these objects if they are no longer going to be used, as they tie up significant resources in their handling.
 

@@ -4,9 +4,10 @@ short-title: timeRemaining()
 slug: Web/API/IdleDeadline/timeRemaining
 page-type: web-api-instance-method
 browser-compat: api.IdleDeadline.timeRemaining
+sidebar:
+  - apiref:
+      - Background Tasks
 ---
-
-{{APIRef("Background Tasks")}}
 
 The **`timeRemaining()`** method
 on the {{domxref("IdleDeadline")}} interface returns the estimated number of

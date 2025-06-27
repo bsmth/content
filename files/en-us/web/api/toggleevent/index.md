@@ -3,9 +3,10 @@ title: ToggleEvent
 slug: Web/API/ToggleEvent
 page-type: web-api-interface
 browser-compat: api.ToggleEvent
+sidebar:
+  - apiref:
+      - Popover API
 ---
-
-{{APIRef("Popover API")}}
 
 The **`ToggleEvent`** interface represents an event notifying the user an Element's state has changed.
 

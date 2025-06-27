@@ -7,9 +7,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.FileSystemObserver.FileSystemObserver
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{APIRef("File System API")}}{{SeeCompatTable}}{{non-standard_header}}
+{{SeeCompatTable}}{{non-standard_header}}
 
 The **`FileSystemObserver()`** constructor creates a new {{domxref("FileSystemObserver")}} object instance.
 

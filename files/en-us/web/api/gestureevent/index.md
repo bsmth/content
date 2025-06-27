@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - non-standard
 browser-compat: api.GestureEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`GestureEvent`** is a proprietary interface specific to WebKit which gives information regarding multi-touch gestures. Events using this interface include {{domxref("Element/gesturestart_event", "gesturestart")}}, {{domxref("Element/gesturechange_event", "gesturechange")}}, and {{domxref("Element/gestureend_event", "gestureend")}}.
 

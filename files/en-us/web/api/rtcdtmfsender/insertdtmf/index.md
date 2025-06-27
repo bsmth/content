@@ -4,9 +4,10 @@ short-title: insertDTMF()
 slug: Web/API/RTCDTMFSender/insertDTMF
 page-type: web-api-instance-method
 browser-compat: api.RTCDTMFSender.insertDTMF
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`insertDTMF()`** method of the {{domxref("RTCDTMFSender")}} interface sends {{Glossary("DTMF")}} tones to the remote peer over the {{domxref("RTCPeerConnection")}}.
 

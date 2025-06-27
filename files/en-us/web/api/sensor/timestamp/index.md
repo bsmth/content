@@ -4,9 +4,12 @@ short-title: timestamp
 slug: Web/API/Sensor/timestamp
 page-type: web-api-instance-property
 browser-compat: api.Sensor.timestamp
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`timestamp`** read-only property
 of the {{domxref("Sensor")}} interface returns the timestamp of the latest sensor

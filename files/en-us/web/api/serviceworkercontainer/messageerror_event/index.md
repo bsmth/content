@@ -4,9 +4,12 @@ short-title: messageerror
 slug: Web/API/ServiceWorkerContainer/messageerror_event
 page-type: web-api-event
 browser-compat: api.ServiceWorkerContainer.messageerror_event
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`messageerror`** event is fired to the {{domxref("ServiceWorkerContainer")}} when an incoming message sent to the associated worker can't be deserialized.
 

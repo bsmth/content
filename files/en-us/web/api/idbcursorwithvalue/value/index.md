@@ -4,9 +4,12 @@ short-title: value
 slug: Web/API/IDBCursorWithValue/value
 page-type: web-api-instance-property
 browser-compat: api.IDBCursorWithValue.value
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`value`** read-only property of the
 {{domxref("IDBCursorWithValue")}} interface returns the value of the current cursor,

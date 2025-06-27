@@ -4,9 +4,10 @@ short-title: cloneContents()
 slug: Web/API/Range/cloneContents
 page-type: web-api-instance-method
 browser-compat: api.Range.cloneContents
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`cloneContents()`** method of the {{domxref("Range")}} interface copies the selected {{ domxref("Node") }} children of the range's {{domxref("Range/commonAncestorContainer", "commonAncestorContainer")}} and puts them in a new {{domxref("DocumentFragment")}} object.
 

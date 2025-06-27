@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.FontData.fullName
+sidebar:
+  - apiref:
+      - Local Font Access API
 ---
 
-{{APIRef("Local Font Access API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`fullName`** read-only property of the {{domxref("FontData")}} interface returns the full name of the font face. This is usually a human-readable name used to identify the font, e.g., "Optima Bold".
 

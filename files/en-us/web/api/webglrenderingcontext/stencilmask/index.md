@@ -4,9 +4,12 @@ short-title: stencilMask()
 slug: Web/API/WebGLRenderingContext/stencilMask
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.stencilMask
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.stencilMask()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) controls enabling and disabling of
 both the front and back writing of individual bits in the stencil planes.

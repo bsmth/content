@@ -4,9 +4,10 @@ short-title: singleNodeValue
 slug: Web/API/XPathResult/singleNodeValue
 page-type: web-api-instance-property
 browser-compat: api.XPathResult.singleNodeValue
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
-
-{{APIRef("DOM XPath")}}
 
 The read-only **`singleNodeValue`** property of the
 {{domxref("XPathResult")}} interface returns a {{domxref("Node")}} value or

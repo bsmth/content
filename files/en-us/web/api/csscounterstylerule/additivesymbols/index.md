@@ -4,9 +4,10 @@ short-title: additiveSymbols
 slug: Web/API/CSSCounterStyleRule/additiveSymbols
 page-type: web-api-instance-property
 browser-compat: api.CSSCounterStyleRule.additiveSymbols
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`additiveSymbols`** property of the {{domxref("CSSCounterStyleRule")}} interface gets and sets the value of the {{cssxref("@counter-style/additive-symbols","additive-symbols")}} descriptor. If the descriptor does not have a value set, this attribute returns an empty string.
 

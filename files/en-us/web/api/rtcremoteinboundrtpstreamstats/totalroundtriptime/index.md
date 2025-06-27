@@ -4,9 +4,10 @@ short-title: totalRoundTripTime
 slug: Web/API/RTCRemoteInboundRtpStreamStats/totalRoundTripTime
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_remote-inbound-rtp.totalRoundTripTime
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`totalRoundTripTime`** property of the {{domxref("RTCRemoteInboundRtpStreamStats")}} dictionary indicates the cumulative number sum of all round trip time (RTT) measurements since the beginning of the session, in seconds.
 

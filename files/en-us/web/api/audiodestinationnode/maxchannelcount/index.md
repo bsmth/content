@@ -4,9 +4,10 @@ short-title: maxChannelCount
 slug: Web/API/AudioDestinationNode/maxChannelCount
 page-type: web-api-instance-property
 browser-compat: api.AudioDestinationNode.maxChannelCount
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `maxChannelCount` property of the {{ domxref("AudioDestinationNode") }} interface is an `unsigned long` defining the maximum amount of channels that the physical device can handle.
 

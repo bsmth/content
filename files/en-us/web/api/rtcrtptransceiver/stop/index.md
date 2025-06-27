@@ -4,9 +4,10 @@ short-title: stop()
 slug: Web/API/RTCRtpTransceiver/stop
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpTransceiver.stop
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`stop()`** method in the {{domxref("RTCRtpTransceiver")}} interface permanently stops the transceiver by stopping both the associated {{domxref("RTCRtpSender")}} and
 {{domxref("RTCRtpReceiver")}}.

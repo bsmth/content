@@ -4,9 +4,10 @@ short-title: transitionProperty
 slug: Web/API/CSSTransition/transitionProperty
 page-type: web-api-instance-property
 browser-compat: api.CSSTransition.transitionProperty
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`transitionProperty`** property of the
 {{domxref("CSSTransition")}} interface returns the **expanded transition property

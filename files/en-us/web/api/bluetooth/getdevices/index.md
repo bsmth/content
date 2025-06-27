@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Bluetooth.getDevices
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
 
-{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`getDevices()`** method of the {{DOMxRef("Bluetooth")}} interface returns an array containing the Bluetooth devices that this origin is allowed to access — including those that are out of range and powered off.
 

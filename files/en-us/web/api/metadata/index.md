@@ -6,9 +6,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.Metadata
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
 
-{{APIRef("File and Directory Entries API")}}{{Non-standard_Header}}{{SeeCompatTable}}
+{{Non-standard_Header}}{{SeeCompatTable}}
 
 The **`Metadata`** interface contains information about a file system entry. This metadata includes the file's size and modification date and time.
 

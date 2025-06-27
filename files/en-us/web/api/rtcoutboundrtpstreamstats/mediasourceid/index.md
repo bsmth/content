@@ -4,9 +4,10 @@ short-title: mediaSourceId
 slug: Web/API/RTCOutboundRtpStreamStats/mediaSourceId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.mediaSourceId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`mediaSourceId`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary represents the ID of the statistics object of the track currently attached to the sender of this stream.
 

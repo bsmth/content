@@ -4,9 +4,8 @@ short-title: measureText()
 slug: Web/API/CanvasRenderingContext2D/measureText
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.measureText
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 `CanvasRenderingContext2D.measureText()`

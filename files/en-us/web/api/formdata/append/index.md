@@ -4,9 +4,12 @@ short-title: append()
 slug: Web/API/FormData/append
 page-type: web-api-instance-method
 browser-compat: api.FormData.append
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`append()`** method of the {{domxref("FormData")}} interface appends a new value onto an existing key inside a `FormData` object, or adds the key if it does not already exist.
 

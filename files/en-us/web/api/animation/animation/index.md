@@ -4,9 +4,10 @@ short-title: Animation()
 slug: Web/API/Animation/Animation
 page-type: web-api-constructor
 browser-compat: api.Animation.Animation
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`Animation()`** constructor of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) returns a new `Animation` object instance.
 

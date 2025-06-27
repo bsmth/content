@@ -3,9 +3,12 @@ title: PerformanceObserver
 slug: Web/API/PerformanceObserver
 page-type: web-api-interface
 browser-compat: api.PerformanceObserver
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`PerformanceObserver`** interface is used to observe performance measurement events and be notified of new {{domxref("PerformanceEntry","performance entries", '', 'true')}} as they are recorded in the browser's _performance timeline_.
 

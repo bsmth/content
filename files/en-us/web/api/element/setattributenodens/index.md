@@ -4,9 +4,10 @@ short-title: setAttributeNodeNS()
 slug: Web/API/Element/setAttributeNodeNS
 page-type: web-api-instance-method
 browser-compat: api.Element.setAttributeNodeNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`setAttributeNodeNS()`** method of the {{domxref("Element")}} interface adds a new namespaced {{domxref("Attr")}} node to an element.
 

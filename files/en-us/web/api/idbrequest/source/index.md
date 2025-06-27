@@ -4,9 +4,12 @@ short-title: source
 slug: Web/API/IDBRequest/source
 page-type: web-api-instance-property
 browser-compat: api.IDBRequest.source
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`source`** read-only property of the
 {{domxref("IDBRequest")}} interface returns the source of the request, such as an

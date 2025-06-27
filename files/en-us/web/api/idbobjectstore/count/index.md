@@ -4,9 +4,12 @@ short-title: count()
 slug: Web/API/IDBObjectStore/count
 page-type: web-api-instance-method
 browser-compat: api.IDBObjectStore.count
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`count()`** method of the {{domxref("IDBObjectStore")}}
 interface returns an {{domxref("IDBRequest")}} object, and, in a separate thread,

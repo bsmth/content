@@ -4,9 +4,10 @@ short-title: remove()
 slug: Web/API/Element/remove
 page-type: web-api-instance-method
 browser-compat: api.Element.remove
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.remove()`** method removes the element from the DOM.
 

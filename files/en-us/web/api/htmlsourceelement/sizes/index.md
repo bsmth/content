@@ -4,9 +4,10 @@ short-title: sizes
 slug: Web/API/HTMLSourceElement/sizes
 page-type: web-api-instance-property
 browser-compat: api.HTMLSourceElement.sizes
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`sizes`** property of the {{domxref("HTMLSourceElement")}} interface is a string representing a list of one or more sizes, representing sizes between breakpoints, to which the resource applies.
 

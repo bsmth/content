@@ -4,9 +4,10 @@ short-title: validationMessage
 slug: Web/API/HTMLOutputElement/validationMessage
 page-type: web-api-instance-property
 browser-compat: api.HTMLOutputElement.validationMessage
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validationMessage`** read-only property of the {{domxref("HTMLOutputElement")}} interface returns a string representing a localized message that describes the validation constraints that the {{htmlelement("output")}} control does not satisfy (if any). This is the empty string as `<output>` elements are not candidates for constraint validation ({{domxref("HTMLOutputElement.willValidate")}} is `false`).
 

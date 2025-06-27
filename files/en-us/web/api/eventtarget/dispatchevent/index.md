@@ -4,9 +4,12 @@ short-title: dispatchEvent()
 slug: Web/API/EventTarget/dispatchEvent
 page-type: web-api-instance-method
 browser-compat: api.EventTarget.dispatchEvent
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`dispatchEvent()`** method of the {{domxref("EventTarget")}} sends an {{domxref("Event")}} to the object, (synchronously) invoking the affected
 event listeners in the appropriate order. The normal event processing

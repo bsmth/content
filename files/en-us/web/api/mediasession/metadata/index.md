@@ -4,9 +4,10 @@ short-title: metadata
 slug: Web/API/MediaSession/metadata
 page-type: web-api-instance-property
 browser-compat: api.MediaSession.metadata
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`metadata`** property of the {{domxref("MediaSession")}}
 interface contains a {{domxref("MediaMetadata")}} object providing descriptive

@@ -4,9 +4,10 @@ short-title: validationMessage
 slug: Web/API/HTMLSelectElement/validationMessage
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.validationMessage
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validationMessage`** read-only property of the {{domxref("HTMLSelectElement")}} interface returns a string representing a localized message that describes the validation constraints that the {{htmlelement("select")}} control does not satisfy (if any). This is the empty string if the control is not a candidate for constraint validation ({{domxref("HTMLSelectElement.willValidate")}} is `false`), or it satisfies its constraints.
 

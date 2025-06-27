@@ -3,9 +3,10 @@ title: CSSUnitValue
 slug: Web/API/CSSUnitValue
 page-type: web-api-interface
 browser-compat: api.CSSUnitValue
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSUnitValue`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model#css_typed_object_model) represents values that contain a single unit type. For example, "42px" would be represented by a `CSSNumericValue`.
 

@@ -4,9 +4,10 @@ short-title: adoptedStyleSheets
 slug: Web/API/ShadowRoot/adoptedStyleSheets
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.adoptedStyleSheets
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`adoptedStyleSheets`** property of the {{domxref("ShadowRoot")}} interface sets an array of constructed stylesheets to be used by the shadow DOM subtree.
 

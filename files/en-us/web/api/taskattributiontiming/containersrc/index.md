@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.TaskAttributionTiming.containerSrc
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`containerSrc`** read-only property of the {{domxref("TaskAttributionTiming")}} interface returns the container's `src`
 attribute. A container is the iframe, embed or object etc. that is being implicated, on the whole, for a long task.

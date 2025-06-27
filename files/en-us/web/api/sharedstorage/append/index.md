@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.SharedStorage.append
+sidebar:
+  - apiref:
+      - Shared Storage API
 ---
 
-{{APIRef("Shared Storage API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`append()`** method of the {{domxref("SharedStorage")}} interface appends a string to the value of an existing key-value pair in the current origin's shared storage.
 

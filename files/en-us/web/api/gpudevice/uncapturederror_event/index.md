@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.GPUDevice.uncapturederror_event
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`uncapturederror`** event of the {{domxref("GPUDevice")}} interface is fired when an error is thrown that has not been observed by a GPU error scope, to provide a way to report unexpected errors.
 

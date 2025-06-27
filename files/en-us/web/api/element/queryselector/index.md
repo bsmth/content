@@ -4,9 +4,10 @@ short-title: querySelector()
 slug: Web/API/Element/querySelector
 page-type: web-api-instance-method
 browser-compat: api.Element.querySelector
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`querySelector()`** method of the {{domxref("Element")}}
 interface returns the first element that is a descendant of the element on which it is

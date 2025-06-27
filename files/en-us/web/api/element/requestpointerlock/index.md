@@ -4,9 +4,10 @@ short-title: requestPointerLock()
 slug: Web/API/Element/requestPointerLock
 page-type: web-api-instance-method
 browser-compat: api.Element.requestPointerLock
+sidebar:
+  - apiref:
+      - Pointer Lock API
 ---
-
-{{APIRef("Pointer Lock API")}}
 
 The **`requestPointerLock()`** method of the {{domxref("Element")}} interface lets you asynchronously ask for the pointer to be locked on the given element.
 

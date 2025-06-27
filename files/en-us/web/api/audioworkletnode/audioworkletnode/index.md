@@ -4,9 +4,12 @@ short-title: AudioWorkletNode()
 slug: Web/API/AudioWorkletNode/AudioWorkletNode
 page-type: web-api-constructor
 browser-compat: api.AudioWorkletNode.AudioWorkletNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`AudioWorkletNode()`**
 constructor creates a new {{domxref("AudioWorkletNode")}} object, which represents an

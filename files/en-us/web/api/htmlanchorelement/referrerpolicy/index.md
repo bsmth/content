@@ -4,9 +4,8 @@ short-title: referrerPolicy
 slug: Web/API/HTMLAnchorElement/referrerPolicy
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.referrerPolicy
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`HTMLAnchorElement.referrerPolicy`**

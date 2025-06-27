@@ -3,9 +3,12 @@ title: ReadableStreamDefaultController
 slug: Web/API/ReadableStreamDefaultController
 page-type: web-api-interface
 browser-compat: api.ReadableStreamDefaultController
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ReadableStreamDefaultController`** interface of the [Streams API](/en-US/docs/Web/API/Streams_API) represents a controller allowing control of a {{domxref("ReadableStream")}}'s state and internal queue. Default controllers are for streams that are not byte streams.
 

@@ -4,9 +4,8 @@ short-title: personalbar
 slug: Web/API/Window/personalbar
 page-type: web-api-instance-property
 browser-compat: api.Window.personalbar
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 Returns the `personalbar` object.
 

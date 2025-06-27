@@ -4,9 +4,10 @@ short-title: port
 slug: Web/API/RTCIceCandidate/port
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.port
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **{{domxref("RTCIceCandidate")}}** interface's read-only **`port`** property contains the port
 number on the device at the address given by {{domxref("RTCIceCandidate.address")}} at which the candidate's peer can be reached.

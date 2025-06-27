@@ -4,9 +4,10 @@ short-title: data
 slug: Web/API/InputEvent/data
 page-type: web-api-instance-property
 browser-compat: api.InputEvent.data
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`data`** read-only property of the
 {{domxref("InputEvent")}} interface returns a string with inserted

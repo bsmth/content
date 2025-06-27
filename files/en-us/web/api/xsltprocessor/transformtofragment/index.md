@@ -4,9 +4,10 @@ short-title: transformToFragment()
 slug: Web/API/XSLTProcessor/transformToFragment
 page-type: web-api-instance-method
 browser-compat: api.XSLTProcessor.transformToFragment
+sidebar:
+  - apiref:
+      - XSLT
 ---
-
-{{APIRef("XSLT")}}
 
 The `transformToFragment()` method of the {{domxref("XSLTProcessor")}} interface transforms a provided {{DOMxRef("Node")}} source to a {{domxref("DocumentFragment")}} using the XSLT stylesheet associated with the `XSLTProcessor`.
 

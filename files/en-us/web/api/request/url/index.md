@@ -4,9 +4,12 @@ short-title: url
 slug: Web/API/Request/url
 page-type: web-api-instance-property
 browser-compat: api.Request.url
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`url`** read-only property of the {{domxref("Request")}}
 interface contains the URL of the request.

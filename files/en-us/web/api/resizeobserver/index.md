@@ -3,9 +3,10 @@ title: ResizeObserver
 slug: Web/API/ResizeObserver
 page-type: web-api-interface
 browser-compat: api.ResizeObserver
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`ResizeObserver`** interface reports changes to the dimensions of an {{domxref('Element')}}'s content or border box, or the bounding box of an {{domxref('SVGElement')}}.
 

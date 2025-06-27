@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 spec-urls: https://webaudio.github.io/web-audio-api/#audioworkletprocess-callback-parameters
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The read-only **`parameterDescriptors`** property of an {{domxref("AudioWorkletProcessor")}}-derived class is a _static getter_,
 which returns an iterable of {{domxref("AudioParamDescriptor")}}-based objects.

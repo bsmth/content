@@ -4,9 +4,12 @@ short-title: json()
 slug: Web/API/Response/json
 page-type: web-api-instance-method
 browser-compat: api.Response.json
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`json()`** method of the {{DOMxRef("Response")}} interface takes
 a {{DOMxRef("Response")}} stream and reads it to completion. It returns a promise which

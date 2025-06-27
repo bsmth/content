@@ -4,9 +4,10 @@ short-title: getRemoteParameters()
 slug: Web/API/RTCIceTransport/getRemoteParameters
 page-type: web-api-instance-method
 browser-compat: api.RTCIceTransport.getRemoteParameters
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getRemoteParameters()`** method of the {{domxref("RTCIceTransport")}} interface returns an {{domxref("RTCIceParameters")}} object that provides information uniquely identifying the remote peer for the duration of the ICE session.
 

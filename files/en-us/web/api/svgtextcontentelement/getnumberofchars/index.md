@@ -4,9 +4,10 @@ short-title: getNumberOfChars()
 slug: Web/API/SVGTextContentElement/getNumberOfChars
 page-type: web-api-instance-method
 browser-compat: api.SVGTextContentElement.getNumberOfChars
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getNumberOfChars()` method of the {{domxref("SVGTextContentElement")}} interface represents the total number of addressable characters available for rendering within the current element, regardless of whether they will be rendered.
 

@@ -4,9 +4,10 @@ short-title: nonce
 slug: Web/API/HTMLElement/nonce
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.nonce
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`nonce`** property of the {{DOMxRef("HTMLElement")}} interface returns the cryptographic number used once that is used by [Content Security Policy](/en-US/docs/Web/HTTP/Guides/CSP) to determine whether a given fetch will be allowed to proceed.
 

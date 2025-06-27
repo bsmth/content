@@ -4,9 +4,10 @@ short-title: scrollingElement
 slug: Web/API/Document/scrollingElement
 page-type: web-api-instance-property
 browser-compat: api.Document.scrollingElement
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`scrollingElement`** read-only property of the
 {{domxref("Document")}} interface returns a reference to the {{domxref("Element")}} that

@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/PictureInPictureWindow/width
 page-type: web-api-instance-property
 browser-compat: api.PictureInPictureWindow.width
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The read-only **`width`** property of the {{domxref("PictureInPictureWindow")}} interface returns the width of the floating video window in pixels.
 

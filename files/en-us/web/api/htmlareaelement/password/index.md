@@ -4,9 +4,10 @@ short-title: password
 slug: Web/API/HTMLAreaElement/password
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.password
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`password`** property of the {{domxref("HTMLAreaElement")}} interface is a string containing the password component of the `<area>` element's `href`. If the URL does not have a password, this property contains an empty string, `""`.
 

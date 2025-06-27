@@ -4,9 +4,10 @@ short-title: StorageEvent()
 slug: Web/API/StorageEvent/StorageEvent
 page-type: web-api-constructor
 browser-compat: api.StorageEvent.StorageEvent
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{ApiRef("Web Storage API")}}
 
 The **`StorageEvent()`** constructor creates a new {{domxref("StorageEvent")}} object.
 

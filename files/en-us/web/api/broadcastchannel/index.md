@@ -3,9 +3,12 @@ title: BroadcastChannel
 slug: Web/API/BroadcastChannel
 page-type: web-api-interface
 browser-compat: api.BroadcastChannel
+sidebar:
+  - apiref:
+      - Broadcast Channel API
 ---
 
-{{APIRef("Broadcast Channel API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`BroadcastChannel`** interface represents a named channel that any {{glossary("browsing context")}} of a given {{glossary("origin")}} can subscribe to. It allows communication between different documents (in different windows, tabs, frames or iframes) of the same origin. Messages are broadcasted via a {{domxref("BroadcastChannel/message_event", "message")}} event fired at all `BroadcastChannel` objects listening to the channel, except the object that sent the message.
 

@@ -3,9 +3,10 @@ title: SVGFEConvolveMatrixElement
 slug: Web/API/SVGFEConvolveMatrixElement
 page-type: web-api-interface
 browser-compat: api.SVGFEConvolveMatrixElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEConvolveMatrixElement`** interface corresponds to the {{SVGElement("feConvolveMatrix")}} element.
 

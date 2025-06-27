@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NotRestoredReasons.url
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`url`** read-only property of the
 {{domxref("NotRestoredReasons")}} interface returns a string representing the URL of the navigated page or {{htmlelement("iframe")}}.

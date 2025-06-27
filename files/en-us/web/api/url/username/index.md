@@ -4,9 +4,12 @@ short-title: username
 slug: Web/API/URL/username
 page-type: web-api-instance-property
 browser-compat: api.URL.username
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`username`** property of the {{domxref("URL")}} interface is a string containing the username component of the URL. If the URL does not have a username, this property contains an empty string, `""`.
 

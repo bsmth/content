@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - deprecated
 browser-compat: api.PerformanceNavigation
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The legacy **`PerformanceNavigation`** interface represents information about how the navigation to the current document was done.
 

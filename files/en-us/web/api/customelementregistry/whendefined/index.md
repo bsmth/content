@@ -4,9 +4,10 @@ short-title: whenDefined()
 slug: Web/API/CustomElementRegistry/whenDefined
 page-type: web-api-instance-method
 browser-compat: api.CustomElementRegistry.whenDefined
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`whenDefined()`** method of the
 {{domxref("CustomElementRegistry")}} interface returns a {{jsxref("Promise")}} that

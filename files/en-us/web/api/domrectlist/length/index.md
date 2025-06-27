@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/DOMRectList/length
 page-type: web-api-instance-property
 browser-compat: api.DOMRectList.length
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
-
-{{APIRef("Geometry Interfaces")}}
 
 The read-only **`length`** property of the {{domxref("DOMRectList")}} interface returns the number of {{domxref("DOMRect")}} objects in the list.
 

@@ -4,9 +4,10 @@ short-title: numberOfOutputs
 slug: Web/API/AudioNode/numberOfOutputs
 page-type: web-api-instance-property
 browser-compat: api.AudioNode.numberOfOutputs
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `numberOfOutputs` property of
 the {{ domxref("AudioNode") }} interface returns the number of outputs coming out of

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Animation.overallProgress
+sidebar:
+  - apiref:
+      - Web Animations
 ---
 
-{{APIRef("Web Animations")}}{{seecompattable}}
+{{seecompattable}}
 
 The **`overallProgress`** read-only property of the {{domxref("Animation")}} interface returns a number between `0` and `1` indicating the animation's overall progress towards its finished state. This is the overall progress across all of the animation's iterations, not each individual iteration.
 

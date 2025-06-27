@@ -4,9 +4,10 @@ short-title: sheet
 slug: Web/API/HTMLStyleElement/sheet
 page-type: web-api-instance-property
 browser-compat: api.HTMLStyleElement.sheet
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`sheet`** property of the {{domxref("HTMLStyleElement")}} interface
 contains the stylesheet associated with that element.

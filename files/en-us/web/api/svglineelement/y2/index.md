@@ -4,9 +4,10 @@ short-title: y2
 slug: Web/API/SVGLineElement/y2
 page-type: web-api-instance-property
 browser-compat: api.SVGLineElement.y2
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y2`** read-only property of the {{domxref("SVGLineElement")}} interface describes the v-axis coordinate value of the end of a line as an {{domxref("SVGAnimatedLength")}}. It reflects the {{SVGElement("line")}} element's {{SVGAttr("y2")}} geometric attribute.
 

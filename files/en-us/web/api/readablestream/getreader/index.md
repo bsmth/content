@@ -4,9 +4,12 @@ short-title: getReader()
 slug: Web/API/ReadableStream/getReader
 page-type: web-api-instance-method
 browser-compat: api.ReadableStream.getReader
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`getReader()`** method of the {{domxref("ReadableStream")}} interface creates a reader and locks the stream to it.
 While the stream is locked, no other reader can be acquired until this one is released.

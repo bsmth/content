@@ -4,9 +4,10 @@ short-title: cssText
 slug: Web/API/CSSRule/cssText
 page-type: web-api-instance-property
 browser-compat: api.CSSRule.cssText
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM") }}
 
 The **`cssText`** property of the {{domxref("CSSRule")}}
 interface returns the actual text of a {{domxref("CSSStyleSheet")}} style-rule.

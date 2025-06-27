@@ -4,9 +4,10 @@ short-title: rowIndex
 slug: Web/API/HTMLTableRowElement/rowIndex
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableRowElement.rowIndex
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`rowIndex`** read-only property of the {{domxref("HTMLTableRowElement")}} interface
 represents the position of a row within the whole {{HtmlElement("table")}}.

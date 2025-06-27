@@ -4,9 +4,10 @@ short-title: disableiOES()
 slug: Web/API/OES_draw_buffers_indexed/disableiOES
 page-type: web-api-instance-method
 browser-compat: api.OES_draw_buffers_indexed.disableiOES
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The `disableiOES()` method of the {{DOMxRef("OES_draw_buffers_indexed")}} WebGL extension enables blending for a particular draw buffer.
 

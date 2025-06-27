@@ -4,9 +4,12 @@ short-title: translate()
 slug: Web/API/DOMMatrixReadOnly/translate
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.translate
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `translate()` method of the {{domxref("DOMMatrixReadOnly")}} interface
 creates a new matrix being the result of the original matrix with a translation applied.

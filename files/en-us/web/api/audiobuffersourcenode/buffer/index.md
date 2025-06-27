@@ -4,9 +4,10 @@ short-title: buffer
 slug: Web/API/AudioBufferSourceNode/buffer
 page-type: web-api-instance-property
 browser-compat: api.AudioBufferSourceNode.buffer
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`buffer`** property of the {{domxref("AudioBufferSourceNode")}} interface provides the ability to play back audio using an {{domxref("AudioBuffer")}} as the source of the sound data.
 

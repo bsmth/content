@@ -4,9 +4,10 @@ short-title: addIceCandidate()
 slug: Web/API/RTCPeerConnection/addIceCandidate
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.addIceCandidate
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`addIceCandidate()`** method of the {{domxref("RTCPeerConnection")}} interface adds a new remote candidate to the connection's remote description, which describes the state of the remote end of the connection.
 

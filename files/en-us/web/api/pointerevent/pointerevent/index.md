@@ -4,9 +4,10 @@ short-title: PointerEvent()
 slug: Web/API/PointerEvent/PointerEvent
 page-type: web-api-constructor
 browser-compat: api.PointerEvent.PointerEvent
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{APIRef("Pointer Events")}}
 
 The **`PointerEvent()`** constructor creates a new synthetic
 and untrusted {{domxref("PointerEvent")}} object instance.

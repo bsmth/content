@@ -4,9 +4,10 @@ short-title: mediaCapabilities
 slug: Web/API/WorkerNavigator/mediaCapabilities
 page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.mediaCapabilities
+sidebar:
+  - apiref:
+      - Media Capabilities API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Media Capabilities API")}}{{AvailableInWorkers("worker")}}
 
 The read-only **`mediaCapabilities`** property of the {{domxref("WorkerNavigator")}} interface references a {{domxref("MediaCapabilities")}} object that can expose information about the decoding and encoding capabilities for a given format and output capabilities (as defined by the [Media Capabilities API](/en-US/docs/Web/API/Media_Capabilities_API)).
 

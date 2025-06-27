@@ -4,9 +4,12 @@ short-title: primaryKey
 slug: Web/API/IDBCursor/primaryKey
 page-type: web-api-instance-property
 browser-compat: api.IDBCursor.primaryKey
+sidebar:
+  - apiref:
+      - IDBCursor
 ---
 
-{{APIRef("IDBCursor")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`primaryKey`** read-only property of the
 {{domxref("IDBCursor")}} interface returns the cursor's current effective key. If the

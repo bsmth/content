@@ -4,9 +4,10 @@ short-title: whatToShow
 slug: Web/API/NodeIterator/whatToShow
 page-type: web-api-instance-property
 browser-compat: api.NodeIterator.whatToShow
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeIterator.whatToShow`** read-only property represents
 an `unsigned integer` representing a bitmask signifying what types of nodes

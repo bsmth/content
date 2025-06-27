@@ -4,9 +4,12 @@ short-title: send()
 slug: Web/API/MIDIOutput/send
 page-type: web-api-instance-method
 browser-compat: api.MIDIOutput.send
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`send()`** method of the {{domxref("MIDIOutput")}} interface queues messages for the corresponding MIDI port. The message can be sent immediately, or with an optional timestamp to delay sending.
 

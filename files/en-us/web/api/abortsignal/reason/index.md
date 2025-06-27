@@ -4,9 +4,12 @@ short-title: reason
 slug: Web/API/AbortSignal/reason
 page-type: web-api-instance-property
 browser-compat: api.AbortSignal.reason
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`reason`** read-only property returns a JavaScript value that indicates the abort reason.
 

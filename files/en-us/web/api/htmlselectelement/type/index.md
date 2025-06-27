@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLSelectElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLSelectElement.type`**
 read-only property returns the form control's `type`.

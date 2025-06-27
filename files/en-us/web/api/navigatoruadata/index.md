@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.NavigatorUAData
+sidebar:
+  - apiref:
+      - User-Agent Client Hints API
 ---
 
-{{APIRef("User-Agent Client Hints API")}}{{SeeCompatTable}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{AvailableInWorkers}}
 
 The **`NavigatorUAData`** interface of the {{domxref("User-Agent Client Hints API", "", "", "nocode")}} returns information about the browser and operating system of a user.
 

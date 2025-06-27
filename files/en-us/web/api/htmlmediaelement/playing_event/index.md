@@ -4,9 +4,10 @@ short-title: playing
 slug: Web/API/HTMLMediaElement/playing_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.playing_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `playing` event is fired after playback is first started, and whenever it is restarted. For example it is fired when playback resumes after having been paused or delayed due to lack of data.
 

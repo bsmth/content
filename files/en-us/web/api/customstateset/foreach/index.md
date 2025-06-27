@@ -4,9 +4,10 @@ short-title: forEach()
 slug: Web/API/CustomStateSet/forEach
 page-type: web-api-instance-method
 browser-compat: api.CustomStateSet.forEach
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`forEach()`** method of the {{domxref("CustomStateSet")}} interface executes a provided function for each value in the `CustomStateSet` object.
 

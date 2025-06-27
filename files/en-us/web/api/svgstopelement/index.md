@@ -3,9 +3,10 @@ title: SVGStopElement
 slug: Web/API/SVGStopElement
 page-type: web-api-interface
 browser-compat: api.SVGStopElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGStopElement`** interface corresponds to the {{SVGElement("stop")}} element.
 

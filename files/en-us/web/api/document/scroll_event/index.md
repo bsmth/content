@@ -4,9 +4,8 @@ short-title: scroll
 slug: Web/API/Document/scroll_event
 page-type: web-api-event
 browser-compat: api.Document.scroll_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`scroll`** event fires when the document view has been scrolled.
 To detect when scrolling has completed, see the {{domxref("Document/scrollend_event", "scrollend")}} event of `Document`.

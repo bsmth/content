@@ -4,9 +4,10 @@ short-title: parentRule
 slug: Web/API/CSSStyleDeclaration/parentRule
 page-type: web-api-instance-property
 browser-compat: api.CSSStyleDeclaration.parentRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **CSSStyleDeclaration.parentRule** read-only
 property returns a {{domxref('CSSRule')}} that is the parent of this style

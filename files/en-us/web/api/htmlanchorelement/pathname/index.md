@@ -4,9 +4,10 @@ short-title: pathname
 slug: Web/API/HTMLAnchorElement/pathname
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.pathname
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`HTMLAnchorElement.pathname`** property is a
 string containing an initial `'/'` followed by the path of

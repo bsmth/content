@@ -4,9 +4,10 @@ short-title: getBBox()
 slug: Web/API/SVGGraphicsElement/getBBox
 page-type: web-api-instance-method
 browser-compat: api.SVGGraphicsElement.getBBox
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGGraphicsElement.getBBox()`** method allows us to determine
 the coordinates of the smallest rectangle in which the object fits. The coordinates

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_outbound-rtp.scalabilityMode
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`scalabilityMode`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary represents the scalability mode for the RTP stream, if one has been configured.
 If not configured, the property is undefined.

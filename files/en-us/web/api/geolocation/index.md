@@ -3,9 +3,12 @@ title: Geolocation
 slug: Web/API/Geolocation
 page-type: web-api-interface
 browser-compat: api.Geolocation
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`Geolocation`** interface represents an object able to obtain the position of the device programmatically. It gives Web content access to the location of the device. This allows a website or app to offer customized results based on the user's location.
 

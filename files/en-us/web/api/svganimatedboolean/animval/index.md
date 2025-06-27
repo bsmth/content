@@ -4,9 +4,10 @@ short-title: animVal
 slug: Web/API/SVGAnimatedBoolean/animVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedBoolean.animVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animVal`** read-only property of the {{domxref("SVGAnimatedBoolean")}} interface represents the current animated value of the associated animatable boolean SVG attribute. If the attribute is not animated, `animVal` is the same as {{domxref("SVGAnimatedBoolean.baseVal")}}.
 

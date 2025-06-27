@@ -4,9 +4,12 @@ short-title: usb
 slug: Web/API/Navigator/usb
 page-type: web-api-instance-property
 browser-compat: api.Navigator.usb
+sidebar:
+  - apiref:
+      - WebUSB API
 ---
 
-{{APIRef("WebUSB API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`usb`** read-only property of the {{domxref("Navigator")}} interface returns a {{domxref("USB")}} object for the current document, providing access to [WebUSB API](/en-US/docs/Web/API/WebUSB_API) functionality.
 

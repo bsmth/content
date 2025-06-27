@@ -4,9 +4,10 @@ short-title: clear()
 slug: Web/API/SVGLengthList/clear
 page-type: web-api-instance-method
 browser-compat: api.SVGLengthList.clear
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`clear()`** method of the {{domxref("SVGLengthList")}} interface clears all existing items from the list, with the result being an empty list.
 

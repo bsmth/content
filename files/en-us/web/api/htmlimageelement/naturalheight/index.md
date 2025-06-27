@@ -4,9 +4,10 @@ short-title: naturalHeight
 slug: Web/API/HTMLImageElement/naturalHeight
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.naturalHeight
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLImageElement")}} interface's
 **`naturalHeight`** property is a read-only value which

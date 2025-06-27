@@ -4,9 +4,12 @@ short-title: AbsoluteOrientationSensor()
 slug: Web/API/AbsoluteOrientationSensor/AbsoluteOrientationSensor
 page-type: web-api-constructor
 browser-compat: api.AbsoluteOrientationSensor.AbsoluteOrientationSensor
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`AbsoluteOrientationSensor()`** constructor creates a new {{domxref("AbsoluteOrientationSensor")}} object which describes the device's physical orientation in relation to the Earth's reference coordinate system.
 

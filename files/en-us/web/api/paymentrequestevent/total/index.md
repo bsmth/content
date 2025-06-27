@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PaymentRequestEvent.total
+sidebar:
+  - apiref:
+      - Payment Handler API")}}{{AvailableInWorkers("service
 ---
 
-{{SeeCompatTable}}{{APIRef("Payment Handler API")}}{{AvailableInWorkers("service")}}
+{{SeeCompatTable}}
 
 The **`total`** read-only property of the {{domxref("PaymentRequestEvent")}} interface returns a
 `PaymentCurrencyAmount` object containing the total amount being requested for payment.

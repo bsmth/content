@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/WebSocket/message_event
 page-type: web-api-event
 browser-compat: api.WebSocket.message_event
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `message` event is fired when data is received through a `WebSocket`.
 

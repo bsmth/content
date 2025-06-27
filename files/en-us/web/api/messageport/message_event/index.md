@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/MessagePort/message_event
 page-type: web-api-event
 browser-compat: api.MessagePort.message_event
+sidebar:
+  - apiref:
+      - Channel Messaging API
 ---
 
-{{APIRef("Channel Messaging API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`message`** event is fired on a {{domxref('MessagePort')}} object when a message arrives on that channel.
 

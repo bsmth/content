@@ -4,9 +4,10 @@ short-title: observe()
 slug: Web/API/IntersectionObserver/observe
 page-type: web-api-instance-method
 browser-compat: api.IntersectionObserver.observe
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`observe()`** method of the {{domxref("IntersectionObserver")}} interface adds an element to the set of target elements being watched by the `IntersectionObserver`.
 One observer has one set of thresholds and one root, but can watch multiple target elements for visibility changes in keeping with those.

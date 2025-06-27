@@ -4,9 +4,10 @@ short-title: currentTime
 slug: Web/API/AudioWorkletGlobalScope/currentTime
 page-type: web-api-instance-property
 browser-compat: api.AudioWorkletGlobalScope.currentTime
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The read-only **`currentTime`** property of the {{domxref("AudioWorkletGlobalScope")}} interface returns a double that represents the ever-increasing context time of the audio block being processed. It is equal to the {{domxref("BaseAudioContext.currentTime", "currentTime")}} property of the {{domxref("BaseAudioContext")}} the worklet belongs to.
 

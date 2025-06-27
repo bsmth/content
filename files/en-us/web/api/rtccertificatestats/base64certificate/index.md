@@ -4,9 +4,10 @@ short-title: base64Certificate
 slug: Web/API/RTCCertificateStats/base64Certificate
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_certificate.base64Certificate
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`base64Certificate`** property of the {{domxref("RTCCertificateStats")}} dictionary is a string containing the base-64 representation of the DER-encoded certificate.
 

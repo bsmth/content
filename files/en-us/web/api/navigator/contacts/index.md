@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Navigator.contacts
+sidebar:
+  - apiref:
+      - Contact Picker API
 ---
 
-{{APIRef("Contact Picker API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`contacts`** read-only property of the
 {{domxref("Navigator")}} interface returns a {{domxref('ContactsManager')}} interface

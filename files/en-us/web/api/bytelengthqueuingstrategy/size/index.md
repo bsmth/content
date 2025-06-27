@@ -4,9 +4,12 @@ short-title: size()
 slug: Web/API/ByteLengthQueuingStrategy/size
 page-type: web-api-instance-method
 browser-compat: api.ByteLengthQueuingStrategy.size
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`size()`** method of the
 {{domxref("ByteLengthQueuingStrategy")}} interface returns the given chunk's

@@ -4,9 +4,12 @@ short-title: click
 slug: Web/API/Notification/click_event
 page-type: web-api-event
 browser-compat: api.Notification.click_event
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`click`** event of the {{domxref("Notification")}}
 interface fires when the user clicks on displayed {{domxref("Notification")}}.

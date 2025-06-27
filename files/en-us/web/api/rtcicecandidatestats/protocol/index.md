@@ -4,9 +4,10 @@ short-title: protocol
 slug: Web/API/RTCIceCandidateStats/protocol
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.protocol
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`protocol`** property of the {{domxref("RTCIceCandidateStats")}} dictionary indicates the protocol the specified candidate would use for communication with the remote peer.
 

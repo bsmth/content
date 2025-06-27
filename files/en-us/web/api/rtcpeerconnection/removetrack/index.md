@@ -4,9 +4,10 @@ short-title: removeTrack()
 slug: Web/API/RTCPeerConnection/removeTrack
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.removeTrack
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`removeTrack()`** method of the {{domxref("RTCPeerConnection")}} interface tells the local end of the connection to stop sending media from the specified track, without actually removing the corresponding {{domxref("RTCRtpSender")}} from the list of senders as reported by {{domxref("RTCPeerConnection.getSenders()")}}.
 If the track is already stopped, or is not in the connection's senders list, this method has no effect.

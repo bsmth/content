@@ -3,9 +3,10 @@ title: StyleSheet
 slug: Web/API/StyleSheet
 page-type: web-api-interface
 browser-compat: api.StyleSheet
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 An object implementing the `StyleSheet` interface represents a single style sheet. CSS style sheets will further implement the more specialized {{domxref("CSSStyleSheet")}} interface.
 

@@ -4,9 +4,12 @@ short-title: getClientCapabilities()
 slug: Web/API/PublicKeyCredential/getClientCapabilities_static
 page-type: web-api-static-method
 browser-compat: api.PublicKeyCredential.getClientCapabilities_static
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`getClientCapabilities()`** static method of the {{domxref("PublicKeyCredential")}} interface returns a {{jsxref("Promise")}} that resolves with an object that can be used to check whether or not particular WebAuthn client capabilities and [extensions](/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions) are supported.
 

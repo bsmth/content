@@ -4,9 +4,10 @@ short-title: hardwareConcurrency
 slug: Web/API/WorkerNavigator/hardwareConcurrency
 page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.hardwareConcurrency
+sidebar:
+  - apiref:
+      - HTML DOM")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("HTML DOM")}}{{AvailableInWorkers("worker")}}
 
 The **`navigator.hardwareConcurrency`** read-only property
 returns the number of logical processors available to run threads on the user's

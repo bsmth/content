@@ -4,9 +4,10 @@ short-title: line
 slug: Web/API/VTTCue/line
 page-type: web-api-instance-property
 browser-compat: api.VTTCue.line
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`line`** property of the {{domxref("VTTCue")}} interface represents the cue line of this WebVTT cue.
 

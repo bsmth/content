@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PaymentManager.userHint
+sidebar:
+  - apiref:
+      - Payment Handler API
 ---
 
-{{APIRef("Payment Handler API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`userHint`** property of the {{domxref("PaymentManager")}} interface provides a hint for the browser to display along with the payment app's name and icon in the Payment Handler UI.
 

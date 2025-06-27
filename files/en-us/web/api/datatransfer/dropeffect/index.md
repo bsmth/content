@@ -4,9 +4,10 @@ short-title: dropEffect
 slug: Web/API/DataTransfer/dropEffect
 page-type: web-api-instance-property
 browser-compat: api.DataTransfer.dropEffect
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransfer.dropEffect`** property controls the
 feedback (typically visual) the user is given during a drag and drop operation. It will

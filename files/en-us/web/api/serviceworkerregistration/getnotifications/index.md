@@ -4,9 +4,12 @@ short-title: getNotifications()
 slug: Web/API/ServiceWorkerRegistration/getNotifications
 page-type: web-api-instance-method
 browser-compat: api.ServiceWorkerRegistration.getNotifications
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`getNotifications()`** method of
 the {{domxref("ServiceWorkerRegistration")}} interface returns a list of the

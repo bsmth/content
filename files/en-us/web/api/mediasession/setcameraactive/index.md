@@ -4,9 +4,10 @@ short-title: setCameraActive()
 slug: Web/API/MediaSession/setCameraActive
 page-type: web-api-instance-method
 browser-compat: api.MediaSession.setCameraActive
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`setCameraActive()`** method of the {{domxref("MediaSession")}} interface is used to indicate to the user agent whether the user's camera is considered to be active.
 

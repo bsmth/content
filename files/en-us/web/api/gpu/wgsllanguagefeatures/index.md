@@ -4,9 +4,12 @@ short-title: wgslLanguageFeatures
 slug: Web/API/GPU/wgslLanguageFeatures
 page-type: web-api-instance-property
 browser-compat: api.GPU.wgslLanguageFeatures
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`wgslLanguageFeatures`** read-only property of the
 {{domxref("GPU")}} interface returns a {{domxref("WGSLLanguageFeatures")}} object that reports the [WGSL language extensions](https://gpuweb.github.io/gpuweb/wgsl/#language-extension) supported by the WebGPU implementation.

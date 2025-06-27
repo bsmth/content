@@ -4,9 +4,10 @@ short-title: pageX
 slug: Web/API/Touch/pageX
 page-type: web-api-instance-property
 browser-compat: api.Touch.pageX
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The **`Touch.pageX`** read-only property returns the X
 coordinate of the touch point relative to the viewport, including any scroll offset.

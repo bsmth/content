@@ -4,9 +4,12 @@ short-title: estimate()
 slug: Web/API/StorageManager/estimate
 page-type: web-api-instance-method
 browser-compat: api.StorageManager.estimate
+sidebar:
+  - apiref:
+      - Storage
 ---
 
-{{securecontext_header}}{{APIRef("Storage")}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`estimate()`** method of the {{domxref("StorageManager")}} interface asks the Storage Manager for how much storage the current [origin](/en-US/docs/Glossary/Same-origin_policy) takes up (`usage`), and how much space is available (`quota`).
 

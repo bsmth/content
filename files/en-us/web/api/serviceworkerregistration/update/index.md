@@ -4,9 +4,12 @@ short-title: update()
 slug: Web/API/ServiceWorkerRegistration/update
 page-type: web-api-instance-method
 browser-compat: api.ServiceWorkerRegistration.update
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`update()`** method of the
 {{domxref("ServiceWorkerRegistration")}} interface attempts to update the service

@@ -4,9 +4,12 @@ short-title: linkProgram()
 slug: Web/API/WebGLRenderingContext/linkProgram
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.linkProgram
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The {{domxref("WebGLRenderingContext")}} interface's
 **`linkProgram()`** method links a given

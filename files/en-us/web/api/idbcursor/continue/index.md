@@ -4,9 +4,12 @@ short-title: continue()
 slug: Web/API/IDBCursor/continue
 page-type: web-api-instance-method
 browser-compat: api.IDBCursor.continue
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`continue()`** method of the {{domxref("IDBCursor")}}
 interface advances the cursor to the next position along its direction, to the item

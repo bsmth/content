@@ -3,9 +3,10 @@ title: SVGAnimateTransformElement
 slug: Web/API/SVGAnimateTransformElement
 page-type: web-api-interface
 browser-compat: api.SVGAnimateTransformElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `SVGAnimateTransformElement` interface corresponds to the {{SVGElement("animateTransform")}} element.
 

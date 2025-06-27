@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_candidate-pair.consentRequestsSent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`consentRequestsSent`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the total number of consent requests sent on this candidate pair.
 

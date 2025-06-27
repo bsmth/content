@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/HTMLOptionElement/value
 page-type: web-api-instance-property
 browser-compat: api.HTMLOptionElement.value
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`value`** property of the {{DOMxRef("HTMLOptionElement")}} interface represents the value of the {{htmlelement("option")}} element as a string, or the empty string if no value is set. It reflects the element's [`value`](/en-US/docs/Web/HTML/Reference/Elements/option#value) attribute, if present. Otherwise, it returns or sets the contents of the element, similar to the {{domxref("Node.textContent","textContent")}} property.
 

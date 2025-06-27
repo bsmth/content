@@ -6,9 +6,12 @@ page-type: web-api-static-property
 status:
   - experimental
 browser-compat: api.CSS.paintWorklet_static
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The static, read-only **`paintWorklet`** property of the {{DOMxRef("CSS")}} interface provides access to the
 paint [worklet](/en-US/docs/Web/API/Worklet), which programmatically generates an image where a CSS

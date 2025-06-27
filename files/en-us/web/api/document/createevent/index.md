@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Document.createEvent
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 > [!WARNING]
 > Many methods used with `createEvent`, such as `initCustomEvent`, are deprecated.

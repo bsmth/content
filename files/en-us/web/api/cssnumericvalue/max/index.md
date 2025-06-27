@@ -4,9 +4,10 @@ short-title: max()
 slug: Web/API/CSSNumericValue/max
 page-type: web-api-instance-method
 browser-compat: api.CSSNumericValue.max
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`max()`** method of the
 {{domxref("CSSNumericValue")}} interface returns the highest value from among the values

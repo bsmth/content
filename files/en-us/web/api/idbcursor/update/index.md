@@ -4,9 +4,12 @@ short-title: update()
 slug: Web/API/IDBCursor/update
 page-type: web-api-instance-method
 browser-compat: api.IDBCursor.update
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`update()`** method of the {{domxref("IDBCursor")}}
 interface returns an {{domxref("IDBRequest")}} object, and, in a separate thread,

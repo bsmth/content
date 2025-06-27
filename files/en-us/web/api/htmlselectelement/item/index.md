@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/HTMLSelectElement/item
 page-type: web-api-instance-method
 browser-compat: api.HTMLSelectElement.item
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLSelectElement.item()`** method returns the
 {{domxref("Element")}} corresponding to the {{domxref("HTMLOptionElement")}} whose

@@ -4,9 +4,12 @@ short-title: width
 slug: Web/API/DOMRect/width
 page-type: web-api-instance-property
 browser-compat: api.DOMRect.width
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`width`** property of the {{domxref("DOMRect")}} interface represents the width of the rectangle. The value can be negative.
 

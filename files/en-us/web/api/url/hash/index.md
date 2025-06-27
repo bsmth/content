@@ -4,9 +4,12 @@ short-title: hash
 slug: Web/API/URL/hash
 page-type: web-api-instance-property
 browser-compat: api.URL.hash
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ APIRef("URL API") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`hash`** property of the {{domxref("URL")}} interface is a string containing a `"#"` followed by the fragment identifier of the URL. If the URL does not have a fragment identifier, this property contains an empty string, `""`.
 

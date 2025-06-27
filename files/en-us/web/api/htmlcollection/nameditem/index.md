@@ -4,9 +4,10 @@ short-title: namedItem()
 slug: Web/API/HTMLCollection/namedItem
 page-type: web-api-instance-method
 browser-compat: api.HTMLCollection.namedItem
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`namedItem()`** method of the {{domxref("HTMLCollection")}} interface returns
 the first {{domxref("Element")}} in the collection whose `id` or `name` attribute match the specified name, or `null` if no element matches.

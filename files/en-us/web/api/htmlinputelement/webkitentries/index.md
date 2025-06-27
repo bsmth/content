@@ -4,9 +4,10 @@ short-title: webkitEntries
 slug: Web/API/HTMLInputElement/webkitEntries
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.webkitEntries
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The read-only **`webkitEntries`**
 property of the {{domxref("HTMLInputElement")}} interface contains an array of file

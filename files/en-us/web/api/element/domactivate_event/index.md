@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - deprecated
 browser-compat: api.Element.DOMActivate_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`DOMActivate`** event is fired at an element when it becomes active, such as when it is clicked on using the mouse or a keypress is used to navigate to it.
 

@@ -4,9 +4,12 @@ short-title: presentationStyle
 slug: Web/API/ClipboardItem/presentationStyle
 page-type: web-api-instance-property
 browser-compat: api.ClipboardItem.presentationStyle
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}} {{securecontext_header}}
+{{securecontext_header}}
 
 The read-only **`presentationStyle`** property of the {{domxref("ClipboardItem")}} interface returns a string indicating how an item should be presented.
 

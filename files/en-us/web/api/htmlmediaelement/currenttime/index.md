@@ -4,9 +4,10 @@ short-title: currentTime
 slug: Web/API/HTMLMediaElement/currentTime
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.currentTime
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLMediaElement")}} interface's
 **`currentTime`** property specifies the current playback time

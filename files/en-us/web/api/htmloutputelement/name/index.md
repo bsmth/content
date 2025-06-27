@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLOutputElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLOutputElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`name`** property of the {{domxref("HTMLOutputElement")}} interface indicates the name of the {{HTMLElement("output")}} element. It reflects the element's [`name`](/en-US/docs/Web/HTML/Reference/Elements/output#name) attribute.
 

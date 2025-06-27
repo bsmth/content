@@ -6,9 +6,10 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.DevicePosture.change_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`change`** event of the {{domxref("DevicePosture")}} interface fires when the device's posture changes, for example when a foldable device goes from `folded` to `continuous` posture.
 

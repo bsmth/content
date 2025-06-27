@@ -4,9 +4,10 @@ short-title: optimum
 slug: Web/API/HTMLMeterElement/optimum
 page-type: web-api-instance-property
 browser-compat: api.HTMLMeterElement.optimum
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`optimum`** property of the {{DOMxRef("HTMLMeterElement")}} interface represents the optimum boundary of the {{htmlelement("meter")}} element as a floating-point number. It reflects the element's [`optimum`](/en-US/docs/Web/HTML/Reference/Elements/meter#optimum) attribute, or the midpoint between `min` and `max` values if not defined. The value of `optimum` is clamped by the `min` and `max` values.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.DelegatedInkTrailPresenter.updateInkTrailStartPoint
+sidebar:
+  - apiref:
+      - Ink API
 ---
 
-{{APIRef("Ink API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`updateInkTrailStartPoint()`** method of the {{domxref("DelegatedInkTrailPresenter")}} interface indicates which {{domxref("PointerEvent")}} was used as the last rendering point for the current frame, allowing the OS-level compositor to render a delegated ink trail ahead of the next pointer event being dispatched.
 

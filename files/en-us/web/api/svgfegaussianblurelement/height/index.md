@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGFEGaussianBlurElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGFEGaussianBlurElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** read-only property of the {{domxref("SVGFEGaussianBlurElement")}} interface describes the vertical size of an SVG filter primitive as a {{domxref("SVGAnimatedLength")}}.
 

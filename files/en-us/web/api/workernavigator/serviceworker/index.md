@@ -4,9 +4,12 @@ short-title: serviceWorker
 slug: Web/API/WorkerNavigator/serviceWorker
 page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.serviceWorker
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("worker
 ---
 
-{{securecontext_header}}{{APIRef("Service Workers API")}}{{AvailableInWorkers("worker")}}
+{{securecontext_header}}
 
 The **`serviceWorker`** read-only property of the {{domxref("WorkerNavigator")}} interface returns the {{domxref("ServiceWorkerContainer")}} object for the [associated document](https://html.spec.whatwg.org/multipage/browsers.html#concept-document-window), which provides access to registration, removal, upgrade, and communication with the {{domxref("ServiceWorker")}}.
 

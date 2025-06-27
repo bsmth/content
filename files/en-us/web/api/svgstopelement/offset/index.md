@@ -4,9 +4,10 @@ short-title: offset
 slug: Web/API/SVGStopElement/offset
 page-type: web-api-instance-property
 browser-compat: api.SVGStopElement.offset
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`offset`** read-only property of the {{domxref("SVGStopElement")}} interface reflects the {{SVGAttr("offset")}} attribute of the given {{SVGElement("stop")}} element.
 

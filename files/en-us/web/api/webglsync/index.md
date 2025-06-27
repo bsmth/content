@@ -3,9 +3,12 @@ title: WebGLSync
 slug: Web/API/WebGLSync
 page-type: web-api-interface
 browser-compat: api.WebGLSync
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLSync`** interface is part of the [WebGL 2](/en-US/docs/Web/API/WebGL_API) API and is used to synchronize activities between the GPU and the application.
 

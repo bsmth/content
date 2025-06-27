@@ -4,9 +4,10 @@ short-title: inputMode
 slug: Web/API/HTMLElement/inputMode
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.inputMode
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The {{domxref("HTMLElement")}} property **`inputMode`** reflects the value of the element's [`inputmode`](/en-US/docs/Web/HTML/Reference/Global_attributes/inputmode) attribute.
 

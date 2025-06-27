@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/RTCDataChannelStats/state
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_data-channel.state
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`state`** property of the `RTCDataChannelStats` dictionary returns a string that indicates the {{domxref("RTCDataChannel.readyState","readyState")}} of the data channel's underlying data connection: `connecting`, `open`, `closing` or `closed`.
 

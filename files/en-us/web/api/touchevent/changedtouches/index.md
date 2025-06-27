@@ -4,9 +4,10 @@ short-title: changedTouches
 slug: Web/API/TouchEvent/changedTouches
 page-type: web-api-instance-property
 browser-compat: api.TouchEvent.changedTouches
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The **`changedTouches`** read-only property is a {{ domxref("TouchList") }} whose touch points ({{domxref("Touch")}} objects) varies depending on the event type, as follows:
 

@@ -4,9 +4,10 @@ short-title: postMessage()
 slug: Web/API/Worker/postMessage
 page-type: web-api-instance-method
 browser-compat: api.Worker.postMessage
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`postMessage()`** method of the {{domxref("Worker")}} interface sends a message to the worker. The first parameter is the data to send to the worker. The data may be any JavaScript object that can be handled by the [structured clone algorithm](/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm).
 

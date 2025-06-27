@@ -4,9 +4,12 @@ short-title: statechange
 slug: Web/API/MIDIAccess/statechange_event
 page-type: web-api-event
 browser-compat: api.MIDIAccess.statechange_event
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`statechange`** event of the {{domxref("MIDIAccess")}} interface is fired when a new MIDI port is added or when an existing port changes state.
 

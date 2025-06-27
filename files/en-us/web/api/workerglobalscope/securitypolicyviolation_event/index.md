@@ -4,9 +4,10 @@ short-title: securitypolicyviolation
 slug: Web/API/WorkerGlobalScope/securitypolicyviolation_event
 page-type: web-api-event
 browser-compat: api.WorkerGlobalScope.securitypolicyviolation_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{AvailableInWorkers("worker")}}
+{{AvailableInWorkers("worker")}}
 
 The **`securitypolicyviolation`** event is fired when a [Content Security Policy](/en-US/docs/Web/HTTP/Guides/CSP) is violated in a worker.
 

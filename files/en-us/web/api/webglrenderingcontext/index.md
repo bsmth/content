@@ -3,9 +3,12 @@ title: WebGLRenderingContext
 slug: Web/API/WebGLRenderingContext
 page-type: web-api-interface
 browser-compat: api.WebGLRenderingContext
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext`** interface provides an interface to the OpenGL ES 2.0 graphics rendering context for the drawing surface of an HTML {{HTMLElement("canvas")}} element.
 

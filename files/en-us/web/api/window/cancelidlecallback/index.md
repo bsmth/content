@@ -4,9 +4,8 @@ short-title: cancelIdleCallback()
 slug: Web/API/Window/cancelIdleCallback
 page-type: web-api-instance-method
 browser-compat: api.Window.cancelIdleCallback
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`window.cancelIdleCallback()`** method cancels a callback
 previously scheduled with {{domxref("window.requestIdleCallback()")}}.

@@ -4,9 +4,12 @@ short-title: PerformanceObserver()
 slug: Web/API/PerformanceObserver/PerformanceObserver
 page-type: web-api-constructor
 browser-compat: api.PerformanceObserver.PerformanceObserver
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`PerformanceObserver()`** constructor creates a new {{domxref("PerformanceObserver")}} object with the given observer `callback`. The observer callback is invoked when {{domxref("PerformanceEntry","performance entry events", '', 'true')}} are recorded for the {{domxref("PerformanceEntry.entryType","entry types",'','true')}} that have been registered, via the {{domxref("PerformanceObserver.observe","observe()")}} method.
 

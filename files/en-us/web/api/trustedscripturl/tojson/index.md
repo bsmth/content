@@ -4,9 +4,12 @@ short-title: toJSON()
 slug: Web/API/TrustedScriptURL/toJSON
 page-type: web-api-instance-method
 browser-compat: api.TrustedScriptURL.toJSON
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`toJSON()`** method of the {{domxref("TrustedScriptURL")}} interface returns a JSON representation of the stored data.
 

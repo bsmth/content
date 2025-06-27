@@ -4,9 +4,12 @@ short-title: openKeyCursor()
 slug: Web/API/IDBIndex/openKeyCursor
 page-type: web-api-instance-method
 browser-compat: api.IDBIndex.openKeyCursor
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`openKeyCursor()`** method of the
 {{domxref("IDBIndex")}} interface returns an {{domxref("IDBRequest")}} object, and, in

@@ -4,9 +4,10 @@ short-title: exponent
 slug: Web/API/SVGComponentTransferFunctionElement/exponent
 page-type: web-api-instance-property
 browser-compat: api.SVGComponentTransferFunctionElement.exponent
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`exponent`** read-only property of the {{domxref("SVGComponentTransferFunctionElement")}} interface reflects the {{SVGAttr("exponent")}} attribute of the given element.
 

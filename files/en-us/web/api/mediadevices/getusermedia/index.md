@@ -4,9 +4,12 @@ short-title: getUserMedia()
 slug: Web/API/MediaDevices/getUserMedia
 page-type: web-api-instance-method
 browser-compat: api.MediaDevices.getUserMedia
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{securecontext_header}}{{APIRef("Media Capture and Streams")}}
+{{securecontext_header}}
 
 The **`getUserMedia()`** method of the {{domxref("MediaDevices")}} interface prompts the user for permission to use a media input which produces a {{domxref("MediaStream")}} with tracks containing the requested types of media.
 

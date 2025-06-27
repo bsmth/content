@@ -4,9 +4,10 @@ short-title: reversed
 slug: Web/API/HTMLOListElement/reversed
 page-type: web-api-instance-property
 browser-compat: api.HTMLOListElement.reversed
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`reversed`** property of the {{domxref("HTMLOListElement")}} interface indicates order of a list.
 

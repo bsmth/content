@@ -4,9 +4,12 @@ short-title: types
 slug: Web/API/ClipboardItem/types
 page-type: web-api-instance-property
 browser-compat: api.ClipboardItem.types
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}} {{securecontext_header}}
+{{securecontext_header}}
 
 The read-only **`types`** property of the {{domxref("ClipboardItem")}} interface returns an {{jsxref("Array")}} of {{Glossary("MIME type", 'MIME types')}} available within the {{domxref("ClipboardItem")}}.
 

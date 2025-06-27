@@ -4,9 +4,10 @@ short-title: createExpression()
 slug: Web/API/XPathEvaluator/createExpression
 page-type: web-api-instance-method
 browser-compat: api.XPathEvaluator.createExpression
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
-
-{{APIRef("DOM XPath")}}
 
 This method compiles an {{domxref("XPathExpression")}} which can then be used for
 (repeated) evaluations of the {{Glossary("XPath")}} expression.

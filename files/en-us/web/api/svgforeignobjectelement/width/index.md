@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGForeignObjectElement/width
 page-type: web-api-instance-property
 browser-compat: api.SVGForeignObjectElement.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`width`** read-only property of the {{domxref("SVGForeignObjectElement")}} interface describes the width of the `<foreignObject>` element. It reflects the computed value of the {{SVGAttr("width")}} attribute on the {{SVGElement("foreignObject")}} element.
 

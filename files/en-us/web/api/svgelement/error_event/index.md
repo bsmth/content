@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/SVGElement/error_event
 page-type: web-api-event
 browser-compat: api.SVGElement.error_event
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `error` event is fired when an SVG element does not load properly or when an error occurs during script execution.
 

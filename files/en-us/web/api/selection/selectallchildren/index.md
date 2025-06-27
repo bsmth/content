@@ -4,9 +4,10 @@ short-title: selectAllChildren()
 slug: Web/API/Selection/selectAllChildren
 page-type: web-api-instance-method
 browser-compat: api.Selection.selectAllChildren
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.selectAllChildren()`** method adds all the
 children of the specified node to the selection. Previous selection is lost.

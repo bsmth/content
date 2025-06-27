@@ -4,9 +4,10 @@ short-title: deleteTFoot()
 slug: Web/API/HTMLTableElement/deleteTFoot
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableElement.deleteTFoot
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLTableElement.deleteTFoot()`** method removes the
 {{HTMLElement("tfoot")}} element from a given {{HtmlElement("table")}}.

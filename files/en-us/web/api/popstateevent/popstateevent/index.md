@@ -4,9 +4,10 @@ short-title: PopStateEvent()
 slug: Web/API/PopStateEvent/PopStateEvent
 page-type: web-api-constructor
 browser-compat: api.PopStateEvent.PopStateEvent
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`PopStateEvent()`** constructor creates a new {{domxref("PopStateEvent")}} object.
 

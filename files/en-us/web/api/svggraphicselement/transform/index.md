@@ -4,9 +4,10 @@ short-title: transform
 slug: Web/API/SVGGraphicsElement/transform
 page-type: web-api-instance-property
 browser-compat: api.SVGGraphicsElement.transform
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`transform`** read-only property of the {{domxref("SVGGraphicsElement")}} interface reflects the computed value of the transform property and its corresponding {{SVGAttr("transform")}} attribute of the given element.
 

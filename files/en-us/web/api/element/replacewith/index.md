@@ -4,9 +4,10 @@ short-title: replaceWith()
 slug: Web/API/Element/replaceWith
 page-type: web-api-instance-method
 browser-compat: api.Element.replaceWith
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.replaceWith()`** method replaces this
 `Element` in the children list of its parent with a set of

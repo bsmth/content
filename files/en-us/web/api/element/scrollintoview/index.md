@@ -4,9 +4,10 @@ short-title: scrollIntoView()
 slug: Web/API/Element/scrollIntoView
 page-type: web-api-instance-method
 browser-compat: api.Element.scrollIntoView
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("Element")}} interface's
 **`scrollIntoView()`** method scrolls the element's ancestor

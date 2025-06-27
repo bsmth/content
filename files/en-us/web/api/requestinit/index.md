@@ -3,9 +3,10 @@ title: RequestInit
 slug: Web/API/RequestInit
 page-type: web-api-interface
 spec-urls: https://fetch.spec.whatwg.org/#requestinit
+sidebar:
+  - apiref:
+      - Fetch API
 ---
-
-{{APIRef("Fetch API")}}
 
 The **`RequestInit`** dictionary of the [Fetch API](/en-US/docs/Web/API/Fetch_API) represents the set of options that can be used to configure a [fetch request](/en-US/docs/Web/API/Window/fetch).
 

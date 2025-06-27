@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_outbound-rtp.qualityLimitationReason
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`qualityLimitationReason`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary is a string indicating the reason why the media quality in the stream is currently being reduced by the codec during encoding, or `none` if no quality reduction is being performed.
 

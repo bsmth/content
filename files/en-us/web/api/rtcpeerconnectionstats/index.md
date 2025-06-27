@@ -3,9 +3,10 @@ title: RTCPeerConnectionStats
 slug: Web/API/RTCPeerConnectionStats
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport.type_peer-connection
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCPeerConnectionStats`** dictionary of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) provides information about the high level peer connection ({{domxref("RTCPeerConnection")}}).
 

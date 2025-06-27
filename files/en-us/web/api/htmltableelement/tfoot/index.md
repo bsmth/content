@@ -4,9 +4,10 @@ short-title: tFoot
 slug: Web/API/HTMLTableElement/tFoot
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableElement.tFoot
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLTableElement.tFoot`** property represents the
 {{HTMLElement("tfoot")}} element of a {{HTMLElement("table")}}. Its value will be

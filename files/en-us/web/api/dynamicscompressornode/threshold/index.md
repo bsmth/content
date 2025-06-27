@@ -4,9 +4,10 @@ short-title: threshold
 slug: Web/API/DynamicsCompressorNode/threshold
 page-type: web-api-instance-property
 browser-compat: api.DynamicsCompressorNode.threshold
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `threshold` property of the {{ domxref("DynamicsCompressorNode") }} interface is a [k-rate](/en-US/docs/Web/API/AudioParam#k-rate) {{domxref("AudioParam")}} representing the decibel value above which the compression will start taking effect.
 

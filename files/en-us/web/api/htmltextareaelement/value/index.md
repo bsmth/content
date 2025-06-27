@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/HTMLTextAreaElement/value
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.value
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`value`** property of the {{DOMxRef("HTMLTextAreaElement")}} interface represents the value of the {{htmlelement("textarea")}} element as a string, which is an empty string if the widget contains no content. It returns or sets the raw value contained in the control.
 

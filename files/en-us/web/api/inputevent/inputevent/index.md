@@ -4,9 +4,10 @@ short-title: InputEvent()
 slug: Web/API/InputEvent/InputEvent
 page-type: web-api-constructor
 browser-compat: api.InputEvent.InputEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`InputEvent()`** constructor creates a new {{domxref("InputEvent")}} object.
 

@@ -4,9 +4,10 @@ short-title: cues
 slug: Web/API/TextTrack/cues
 page-type: web-api-instance-property
 browser-compat: api.TextTrack.cues
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`cues`** read-only property of the {{domxref("TextTrack")}} interface returns a {{domxref("TextTrackCueList")}} object containing all of the track's cues.
 

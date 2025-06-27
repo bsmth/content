@@ -4,9 +4,12 @@ short-title: releaseLock()
 slug: Web/API/ReadableStreamBYOBReader/releaseLock
 page-type: web-api-instance-method
 browser-compat: api.ReadableStreamBYOBReader.releaseLock
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`releaseLock()`** method of the {{domxref("ReadableStreamBYOBReader")}} interface releases the reader's lock on the stream.
 After the lock is released, the reader is no longer active.

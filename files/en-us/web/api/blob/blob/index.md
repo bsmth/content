@@ -4,9 +4,12 @@ short-title: Blob()
 slug: Web/API/Blob/Blob
 page-type: web-api-constructor
 browser-compat: api.Blob.Blob
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Blob()`** constructor returns a
 new {{domxref("Blob")}} object. The content of the blob consists of the concatenation

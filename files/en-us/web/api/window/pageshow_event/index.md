@@ -4,9 +4,10 @@ short-title: pageshow
 slug: Web/API/Window/pageshow_event
 page-type: web-api-event
 browser-compat: api.Window.pageshow_event
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`pageshow`** event is sent to a {{domxref("Window")}} when the browser displays the window's document due to navigation.
 

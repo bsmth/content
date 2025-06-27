@@ -4,9 +4,8 @@ short-title: removetrack
 slug: Web/API/AudioTrackList/removetrack_event
 page-type: web-api-event
 browser-compat: api.AudioTrackList.removetrack_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `removetrack` event is fired when a track is removed from an [`AudioTrackList`](/en-US/docs/Web/API/AudioTrackList).
 

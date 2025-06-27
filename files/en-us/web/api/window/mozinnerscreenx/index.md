@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.Window.mozInnerScreenX
+sidebar: apiref
 ---
 
-{{APIRef}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 Gets the X coordinate of the top-left corner of the window's viewport, in screen
 coordinates.

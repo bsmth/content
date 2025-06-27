@@ -4,9 +4,10 @@ short-title: entries()
 slug: Web/API/DOMTokenList/entries
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.entries
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`entries()`** method of the {{domxref("DOMTokenList")}} interface
 returns an {{jsxref("Iteration_protocols",'iterator')}} allowing you

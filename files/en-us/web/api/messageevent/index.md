@@ -3,9 +3,12 @@ title: MessageEvent
 slug: Web/API/MessageEvent
 page-type: web-api-interface
 browser-compat: api.MessageEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`MessageEvent`** interface represents a message received by a target object.
 

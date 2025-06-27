@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.Window.sizeToContent
+sidebar: apiref
 ---
 
-{{APIRef}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The **`Window.sizeToContent()`** method sizes the window
 according to its content. In order for it to work, the DOM content should be loaded when

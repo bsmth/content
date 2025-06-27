@@ -4,9 +4,10 @@ short-title: direction
 slug: Web/API/Selection/direction
 page-type: web-api-instance-property
 browser-compat: api.Selection.direction
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`direction`** read-only property of the {{domxref("Selection")}} interface is a string that provides the direction of the current selection.
 

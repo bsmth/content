@@ -4,9 +4,12 @@ short-title: origin
 slug: Web/API/MessageEvent/origin
 page-type: web-api-instance-property
 browser-compat: api.MessageEvent.origin
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`origin`** read-only property of the
 {{domxref("MessageEvent")}} interface is a string representing the

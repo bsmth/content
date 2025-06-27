@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.PresentationConnectionCloseEvent
+sidebar:
+  - apiref:
+      - Presentation API
 ---
 
-{{SeeCompatTable}}{{securecontext_header}}{{APIRef("Presentation API")}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`PresentationConnectionCloseEvent`** interface of the [Presentation API](/en-US/docs/Web/API/Presentation_API) is fired on a {{domxref("PresentationConnection")}} when it is closed.
 

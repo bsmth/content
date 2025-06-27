@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XRRenderState.layers
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The read-only **`layers`** property of the {{domxref("XRRenderState")}} interface is an ordered array containing {{domxref("XRLayer")}} objects that are displayed by the XR compositor.
 

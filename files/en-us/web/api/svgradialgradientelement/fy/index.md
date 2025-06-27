@@ -4,9 +4,10 @@ short-title: fy
 slug: Web/API/SVGRadialGradientElement/fy
 page-type: web-api-instance-property
 browser-compat: api.SVGRadialGradientElement.fy
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`fy`** read-only property of the {{domxref("SVGRadialGradientElement")}} interface describes the y-axis coordinate of the focal point of the radial gradient as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("fy")}} attribute on the {{SVGElement("radialGradient")}} element.
 

@@ -4,9 +4,10 @@ short-title: radius
 slug: Web/API/XRJointPose/radius
 page-type: web-api-instance-property
 browser-compat: api.XRJointPose.radius
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
-
-{{APIRef("WebXR Device API")}}
 
 The read-only **`radius`** property of the {{domxref("XRJointPose")}} interface indicates the radius (distance from skin) for a joint.
 

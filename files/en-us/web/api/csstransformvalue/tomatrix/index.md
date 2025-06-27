@@ -4,9 +4,10 @@ short-title: toMatrix()
 slug: Web/API/CSSTransformValue/toMatrix
 page-type: web-api-instance-method
 browser-compat: api.CSSTransformValue.toMatrix
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`toMatrix()`** method of the
 {{domxref("CSSTransformValue")}} interface returns a {{domxref('DOMMatrix')}} object.

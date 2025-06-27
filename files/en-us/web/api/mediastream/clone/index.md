@@ -4,9 +4,10 @@ short-title: clone()
 slug: Web/API/MediaStream/clone
 page-type: web-api-instance-method
 browser-compat: api.MediaStream.clone
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`clone()`** method of the {{domxref("MediaStream")}}
 interface creates a duplicate of the `MediaStream`. This new

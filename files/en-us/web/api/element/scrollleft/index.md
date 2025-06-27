@@ -4,9 +4,10 @@ short-title: scrollLeft
 slug: Web/API/Element/scrollLeft
 page-type: web-api-instance-property
 browser-compat: api.Element.scrollLeft
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`scrollLeft`** property of the {{domxref("Element")}} interface gets or sets the number of pixels by which an element's content is scrolled from its left edge. This value is subpixel precise in modern browsers, meaning that it isn't necessarily a whole number.
 

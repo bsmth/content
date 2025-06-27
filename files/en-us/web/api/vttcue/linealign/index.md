@@ -4,9 +4,10 @@ short-title: lineAlign
 slug: Web/API/VTTCue/lineAlign
 page-type: web-api-instance-property
 browser-compat: api.VTTCue.lineAlign
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`lineAlign`** property of the {{domxref("VTTCue")}} interface represents the alignment of this VTT cue.
 

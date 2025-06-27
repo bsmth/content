@@ -4,9 +4,10 @@ short-title: offsetHeight
 slug: Web/API/HTMLElement/offsetHeight
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.offsetHeight
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`offsetHeight`** read-only property of the {{domxref("HTMLElement")}} interface returns the height of an element, including vertical padding and borders, as an integer.
 

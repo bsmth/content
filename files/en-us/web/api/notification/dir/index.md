@@ -4,9 +4,12 @@ short-title: dir
 slug: Web/API/Notification/dir
 page-type: web-api-instance-property
 browser-compat: api.Notification.dir
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`dir`** read-only property of the {{domxref("Notification")}} interface indicates the text direction of the notification, as specified in the `dir` option of the {{domxref("Notification.Notification","Notification()")}} constructor.
 

@@ -4,9 +4,8 @@ short-title: removetrack
 slug: Web/API/TextTrackList/removetrack_event
 page-type: web-api-event
 browser-compat: api.TextTrackList.removetrack_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`removetrack`** event is fired when a track is removed from a [`TextTrackList`](/en-US/docs/Web/API/TextTrackList).
 

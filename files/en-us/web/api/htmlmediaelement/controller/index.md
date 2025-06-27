@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.HTMLMediaElement.controller
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`HTMLMediaElement.controller`** property represents the media controller assigned to the element.
 

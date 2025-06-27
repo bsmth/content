@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.DocumentPictureInPictureEvent.DocumentPictureInPictureEvent
+sidebar:
+  - apiref:
+      - Document Picture-in-Picture API
 ---
 
-{{APIRef("Document Picture-in-Picture API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`DocumentPictureInPictureEvent()`** constructor creates a new
 {{domxref("DocumentPictureInPictureEvent")}} object instance.

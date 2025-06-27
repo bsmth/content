@@ -3,9 +3,12 @@ title: CompressionStream
 slug: Web/API/CompressionStream
 page-type: web-api-interface
 browser-compat: api.CompressionStream
+sidebar:
+  - apiref:
+      - Compression Streams API
 ---
 
-{{APIRef("Compression Streams API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`CompressionStream`** interface of the {{domxref('Compression Streams API','','',' ')}} is an API for compressing a stream of data.
 

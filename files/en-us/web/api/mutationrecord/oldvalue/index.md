@@ -4,9 +4,10 @@ short-title: oldValue
 slug: Web/API/MutationRecord/oldValue
 page-type: web-api-instance-property
 browser-compat: api.MutationRecord.oldValue
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("MutationRecord")}} read-only property **`oldValue`** contains the character data or attribute value of an observed node before it was changed.
 

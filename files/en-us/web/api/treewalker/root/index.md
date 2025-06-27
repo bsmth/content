@@ -4,9 +4,10 @@ short-title: root
 slug: Web/API/TreeWalker/root
 page-type: web-api-instance-property
 browser-compat: api.TreeWalker.root
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.root`** read-only property returns the root {{domxref("Node")}} that the {{domxref("TreeWalker")}} traverses.
 

@@ -3,9 +3,10 @@ title: CSSMathMin
 slug: Web/API/CSSMathMin
 page-type: web-api-interface
 browser-compat: api.CSSMathMin
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSMathMin`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model) represents the CSS {{CSSXref('min','min()')}} function. It inherits properties and methods from its parent {{domxref('CSSNumericValue')}}.
 

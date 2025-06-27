@@ -4,9 +4,10 @@ short-title: isIntersecting
 slug: Web/API/IntersectionObserverEntry/isIntersecting
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserverEntry.isIntersecting
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`isIntersecting`** read-only property of the {{domxref("IntersectionObserverEntry")}} interface is a Boolean value which is `true` if the target element intersects with the intersection observer's root.
 

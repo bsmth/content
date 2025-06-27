@@ -4,9 +4,10 @@ short-title: prompt()
 slug: Web/API/RemotePlayback/prompt
 page-type: web-api-instance-method
 browser-compat: api.RemotePlayback.prompt
+sidebar:
+  - apiref:
+      - Remote Playback API
 ---
-
-{{APIRef("Remote Playback API")}}
 
 The **`prompt()`** method of the {{domxref("RemotePlayback")}} interface prompts the user to select an available remote playback device and give permission for the current media to be played using that device.
 

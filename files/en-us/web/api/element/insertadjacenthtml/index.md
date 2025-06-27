@@ -4,9 +4,10 @@ short-title: insertAdjacentHTML()
 slug: Web/API/Element/insertAdjacentHTML
 page-type: web-api-instance-method
 browser-compat: api.Element.insertAdjacentHTML
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`insertAdjacentHTML()`** method of the
 {{domxref("Element")}} interface parses the specified text as HTML or XML and inserts

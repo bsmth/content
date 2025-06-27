@@ -4,9 +4,10 @@ short-title: sessionStorage
 slug: Web/API/StorageAccessHandle/sessionStorage
 page-type: web-api-instance-property
 browser-compat: api.StorageAccessHandle.sessionStorage
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 The **`sessionStorage`** property of the {{domxref("StorageAccessHandle")}} interface returns an unpartitioned session {{domxref("Storage")}} object if access was granted, and throws a `SecurityError` {{DOMxRef("DOMException")}} otherwise.
 

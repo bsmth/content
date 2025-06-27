@@ -4,9 +4,12 @@ short-title: locked
 slug: Web/API/WritableStream/locked
 page-type: web-api-instance-property
 browser-compat: api.WritableStream.locked
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`locked`** read-only property of the {{domxref("WritableStream")}} interface returns a boolean indicating whether the `WritableStream` is locked to a writer.
 

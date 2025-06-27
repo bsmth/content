@@ -4,9 +4,10 @@ short-title: preserveAspectRatio
 slug: Web/API/SVGFEImageElement/preserveAspectRatio
 page-type: web-api-instance-property
 browser-compat: api.SVGFEImageElement.preserveAspectRatio
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`preserveAspectRatio`** read-only property of the {{domxref("SVGFEImageElement")}} interface reflects the {{SVGAttr("preserveAspectRatio")}} attribute of the given {{SVGElement("feImage")}} element.
 

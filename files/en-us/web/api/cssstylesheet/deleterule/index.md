@@ -4,9 +4,10 @@ short-title: deleteRule()
 slug: Web/API/CSSStyleSheet/deleteRule
 page-type: web-api-instance-method
 browser-compat: api.CSSStyleSheet.deleteRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The {{domxref("CSSStyleSheet")}} method
 **`deleteRule()`** removes a rule from the stylesheet

@@ -4,9 +4,10 @@ short-title: clientY
 slug: Web/API/Touch/clientY
 page-type: web-api-instance-property
 browser-compat: api.Touch.clientY
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The **`Touch.clientY`** read-only property returns the Y
 coordinate of the touch point relative to the browser's viewport, not including any

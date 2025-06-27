@@ -4,9 +4,10 @@ short-title: ariaBrailleRoleDescription
 slug: Web/API/Element/ariaBrailleRoleDescription
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaBrailleRoleDescription
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaBrailleRoleDescription`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-brailleroledescription`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-brailleroledescription) attribute, which defines the ARIA braille role description of the element.
 

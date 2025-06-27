@@ -4,9 +4,12 @@ short-title: URL()
 slug: Web/API/URL/URL
 page-type: web-api-constructor
 browser-compat: api.URL.URL
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`URL()`** constructor returns a newly created {{domxref("URL")}} object representing the URL defined by the parameters.
 

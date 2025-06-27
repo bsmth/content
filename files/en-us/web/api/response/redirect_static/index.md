@@ -4,9 +4,12 @@ short-title: redirect()
 slug: Web/API/Response/redirect_static
 page-type: web-api-static-method
 browser-compat: api.Response.redirect_static
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`redirect()`** static method of the {{domxref("Response")}} interface returns a `Response` resulting in a redirect to the specified URL.
 

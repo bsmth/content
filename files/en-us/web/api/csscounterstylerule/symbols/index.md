@@ -4,9 +4,10 @@ short-title: symbols
 slug: Web/API/CSSCounterStyleRule/symbols
 page-type: web-api-instance-property
 browser-compat: api.CSSCounterStyleRule.symbols
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`symbols`** property of the {{domxref("CSSCounterStyleRule")}} interface gets and sets the value of the {{cssxref("@counter-style/symbols","symbols")}} descriptor. If the descriptor does not have a value set, this attribute returns an empty string.
 

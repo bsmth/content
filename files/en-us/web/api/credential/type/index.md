@@ -4,9 +4,12 @@ short-title: type
 slug: Web/API/Credential/type
 page-type: web-api-instance-property
 browser-compat: api.Credential.type
+sidebar:
+  - apiref:
+      - Credential Management API
 ---
 
-{{APIRef("Credential Management API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`type`** read-only property of the {{domxref("Credential")}} interface returns a string containing the credential's type. Valid values are `password`, `federated`, `public-key`, `identity` and `otp`.
 

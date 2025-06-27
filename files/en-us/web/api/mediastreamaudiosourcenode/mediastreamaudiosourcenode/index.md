@@ -4,9 +4,10 @@ short-title: MediaStreamAudioSourceNode()
 slug: Web/API/MediaStreamAudioSourceNode/MediaStreamAudioSourceNode
 page-type: web-api-constructor
 browser-compat: api.MediaStreamAudioSourceNode.MediaStreamAudioSourceNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The [Web Audio API](/en-US/docs/Web/API/Web_Audio_API)'s **`MediaStreamAudioSourceNode()`** constructor
 creates and returns a new {{domxref("MediaStreamAudioSourceNode")}} object which uses

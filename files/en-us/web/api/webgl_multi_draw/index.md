@@ -4,9 +4,10 @@ short-title: WEBGL_multi_draw
 slug: Web/API/WEBGL_multi_draw
 page-type: webgl-extension
 browser-compat: api.WEBGL_multi_draw
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`WEBGL_multi_draw`** extension is part of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) and allows to render more

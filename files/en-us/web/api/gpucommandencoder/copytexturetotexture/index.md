@@ -4,9 +4,12 @@ short-title: copyTextureToTexture()
 slug: Web/API/GPUCommandEncoder/copyTextureToTexture
 page-type: web-api-instance-method
 browser-compat: api.GPUCommandEncoder.copyTextureToTexture
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`copyTextureToTexture()`** method of the
 {{domxref("GPUCommandEncoder")}} interface encodes a command that copies data from one {{domxref("GPUTexture")}} to another.

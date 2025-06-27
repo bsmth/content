@@ -4,9 +4,12 @@ short-title: permission
 slug: Web/API/Notification/permission_static
 page-type: web-api-static-property
 browser-compat: api.Notification.permission_static
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`permission`** read-only static property of the {{domxref("Notification")}}
 interface indicates the current permission granted by the user for the current origin to

@@ -4,9 +4,10 @@ short-title: href
 slug: Web/API/HTMLAnchorElement/href
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.href
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`HTMLAnchorElement.href`** property is a
 {{Glossary("stringifier")}} that returns a string containing the whole URL, and allows

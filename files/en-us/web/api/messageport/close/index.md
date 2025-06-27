@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/MessagePort/close
 page-type: web-api-instance-method
 browser-compat: api.MessagePort.close
+sidebar:
+  - apiref:
+      - Channel Messaging API
 ---
 
-{{APIRef("Channel Messaging API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`close()`** method of the {{domxref("MessagePort")}}
 interface disconnects the port, so it is no longer active. This stops the flow of

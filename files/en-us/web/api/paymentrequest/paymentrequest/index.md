@@ -4,9 +4,12 @@ short-title: PaymentRequest()
 slug: Web/API/PaymentRequest/PaymentRequest
 page-type: web-api-constructor
 browser-compat: api.PaymentRequest.PaymentRequest
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`PaymentRequest()`** constructor
 creates a new {{domxref("PaymentRequest")}} object which will be used to handle the

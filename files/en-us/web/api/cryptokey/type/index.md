@@ -4,9 +4,12 @@ short-title: type
 slug: Web/API/CryptoKey/type
 page-type: web-api-instance-property
 browser-compat: api.CryptoKey.type
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The read-only **`type`** property of the {{DOMxRef("CryptoKey")}} interface indicates which kind of key is represented by the object. It can have the following values:
 

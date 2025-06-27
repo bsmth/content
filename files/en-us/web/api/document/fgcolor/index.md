@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.fgColor
+sidebar: apiref
 ---
 
-{{ApiRef}}{{Deprecated_header}}
+{{Deprecated_header}}
 
 **`fgColor`** gets/sets the foreground color, or text color, of
 the current document.

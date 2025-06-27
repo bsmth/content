@@ -4,9 +4,10 @@ short-title: createChannelSplitter()
 slug: Web/API/BaseAudioContext/createChannelSplitter
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createChannelSplitter
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createChannelSplitter()` method of the {{domxref("BaseAudioContext")}} Interface is used to create a {{domxref("ChannelSplitterNode")}},
 which is used to access the individual channels of an audio stream and process them separately.

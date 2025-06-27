@@ -4,9 +4,10 @@ short-title: skipped
 slug: Web/API/ContentVisibilityAutoStateChangeEvent/skipped
 page-type: web-api-instance-property
 browser-compat: api.ContentVisibilityAutoStateChangeEvent.skipped
+sidebar:
+  - apiref:
+      - CSS Containment
 ---
-
-{{APIRef("CSS Containment")}}
 
 The `skipped` read-only property of the {{ domxref("ContentVisibilityAutoStateChangeEvent") }} interface returns `true` if the user agent [skips the element's contents](/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment#skips_its_contents), or `false` otherwise.
 

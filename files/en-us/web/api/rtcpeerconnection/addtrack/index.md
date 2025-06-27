@@ -4,9 +4,10 @@ short-title: addTrack()
 slug: Web/API/RTCPeerConnection/addTrack
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.addTrack
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`addTrack()`** method of the {{domxref("RTCPeerConnection")}} interface adds a new media track to the set of tracks which will be transmitted to the other peer.
 

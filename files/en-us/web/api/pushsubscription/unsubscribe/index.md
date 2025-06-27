@@ -4,9 +4,12 @@ short-title: unsubscribe()
 slug: Web/API/PushSubscription/unsubscribe
 page-type: web-api-instance-method
 browser-compat: api.PushSubscription.unsubscribe
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The `unsubscribe()` method of the {{domxref("PushSubscription")}} interface
 returns a {{jsxref("Promise")}} that resolves to a boolean value when the

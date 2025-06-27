@@ -4,9 +4,10 @@ short-title: open
 slug: Web/API/HTMLDetailsElement/open
 page-type: web-api-instance-property
 browser-compat: api.HTMLDetailsElement.open
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`open`** property of the
 {{domxref("HTMLDetailsElement")}} interface is a boolean value reflecting the

@@ -4,9 +4,12 @@ short-title: beginRenderPass()
 slug: Web/API/GPUCommandEncoder/beginRenderPass
 page-type: web-api-instance-method
 browser-compat: api.GPUCommandEncoder.beginRenderPass
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`beginRenderPass()`** method of the
 {{domxref("GPUCommandEncoder")}} interface starts encoding a render pass, returning a {{domxref("GPURenderPassEncoder")}} that can be used to control rendering.

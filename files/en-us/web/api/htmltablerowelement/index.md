@@ -3,9 +3,10 @@ title: HTMLTableRowElement
 slug: Web/API/HTMLTableRowElement
 page-type: web-api-interface
 browser-compat: api.HTMLTableRowElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLTableRowElement`** interface provides special properties and methods (beyond the {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating the layout and presentation of rows in an HTML table.
 

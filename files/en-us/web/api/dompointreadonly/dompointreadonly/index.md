@@ -4,9 +4,12 @@ short-title: DOMPointReadOnly()
 slug: Web/API/DOMPointReadOnly/DOMPointReadOnly
 page-type: web-api-constructor
 browser-compat: api.DOMPointReadOnly.DOMPointReadOnly
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMPointReadOnly()`**
 constructor returns a new {{domxref("DOMPointReadOnly")}} object representing a point

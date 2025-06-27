@@ -4,9 +4,10 @@ short-title: defaultValue
 slug: Web/API/HTMLInputElement/defaultValue
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.defaultValue
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`defaultValue`** property of the {{domxref("HTMLInputElement")}} interface indicates the original (or default) value of the {{HTMLElement("input")}} element. It reflects the element's [`value`](/en-US/docs/Web/HTML/Reference/Elements/input#value) attribute.
 

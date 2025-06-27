@@ -4,9 +4,10 @@ short-title: loopStart
 slug: Web/API/AudioBufferSourceNode/loopStart
 page-type: web-api-instance-property
 browser-compat: api.AudioBufferSourceNode.loopStart
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`loopStart`** property of the {{domxref("AudioBufferSourceNode")}} interface is a floating-point value indicating, in seconds, where in the {{domxref("AudioBuffer")}} the restart of the play must happen.
 

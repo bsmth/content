@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.Element.scrollLeftMax
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`Element.scrollLeftMax`** read-only property returns a
 number representing the maximum left scroll offset possible for the

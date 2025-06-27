@@ -4,9 +4,12 @@ short-title: statusText
 slug: Web/API/Response/statusText
 page-type: web-api-instance-property
 browser-compat: api.Response.statusText
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`statusText`** read-only property of the {{domxref("Response")}} interface contains the status message corresponding to the HTTP status code in {{domxref("Response.status")}}.
 

@@ -4,9 +4,10 @@ short-title: beginElement()
 slug: Web/API/SVGAnimationElement/beginElement
 page-type: web-api-instance-method
 browser-compat: api.SVGAnimationElement.beginElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The {{domxref("SVGAnimationElement")}} method `beginElement()` creates a begin instance time for the current time. The new instance time is added to the begin instance times list. The behavior of this method is equivalent to `beginElementAt(0)`.
 

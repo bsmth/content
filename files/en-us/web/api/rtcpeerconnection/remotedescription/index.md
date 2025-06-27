@@ -4,9 +4,10 @@ short-title: remoteDescription
 slug: Web/API/RTCPeerConnection/remoteDescription
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.remoteDescription
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`remoteDescription`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns a {{domxref("RTCSessionDescription")}} describing the session (which includes configuration and media information) for the remote end of the connection.
 If this hasn't been set yet, this is `null`.

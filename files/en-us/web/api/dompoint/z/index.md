@@ -4,9 +4,12 @@ short-title: z
 slug: Web/API/DOMPoint/z
 page-type: web-api-instance-property
 browser-compat: api.DOMPoint.z
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMPoint`** interface's
 **`z`** property specifies the depth coordinate of a point in

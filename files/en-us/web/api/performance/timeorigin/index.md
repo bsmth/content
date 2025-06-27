@@ -4,9 +4,12 @@ short-title: timeOrigin
 slug: Web/API/Performance/timeOrigin
 page-type: web-api-instance-property
 browser-compat: api.Performance.timeOrigin
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`timeOrigin`** read-only property of the {{domxref("Performance")}} interface returns the high resolution timestamp that is used as the baseline for performance-related timestamps.
 

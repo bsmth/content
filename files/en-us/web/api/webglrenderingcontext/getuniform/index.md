@@ -4,9 +4,12 @@ short-title: getUniform()
 slug: Web/API/WebGLRenderingContext/getUniform
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getUniform
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getUniform()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns the value of a uniform
 variable at a given location.

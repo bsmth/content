@@ -4,9 +4,12 @@ short-title: values()
 slug: Web/API/URLSearchParams/values
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.values
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`values()`** method of the {{domxref("URLsearchParams")}}
 interface returns an {{jsxref("Iteration_protocols",'iterator')}} allowing iteration

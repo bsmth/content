@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.GPUDevice.adapterInfo
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`adapterInfo`** read-only property of the
 {{domxref("GPUDevice")}} interface returns a {{domxref("GPUAdapterInfo")}} object containing identifying information about the device's originating adapter.

@@ -4,9 +4,10 @@ short-title: toString()
 slug: Web/API/DOMMatrixReadOnly/toString
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.toString
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`toString()`** {{Glossary("stringifier")}} of the {{domxref("DOMMatrixReadOnly")}} interface returns the value of the matrix as a string in the form of a `matrix()` or `matrix3d()` CSS [transform function](/en-US/docs/Web/CSS/transform-function); comma-separated lists of 6 or 16 coordinate values, prepended by `"matrix(` or `"matrix3d(` respectively, appended by `)"`.
 

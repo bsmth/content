@@ -3,9 +3,10 @@ title: SVGAnimatedPreserveAspectRatio
 slug: Web/API/SVGAnimatedPreserveAspectRatio
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedPreserveAspectRatio
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedPreserveAspectRatio`** interface represents attributes of type {{ domxref("SVGPreserveAspectRatio") }} which can be animated.
 

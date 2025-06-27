@@ -4,9 +4,12 @@ short-title: delete()
 slug: Web/API/Headers/delete
 page-type: web-api-instance-method
 browser-compat: api.Headers.delete
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`delete()`** method of the {{domxref("Headers")}}
 interface deletes a header from the current `Headers` object.

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.WebTransportSendStream.sendOrder
+sidebar:
+  - apiref:
+      - WebTransport API
 ---
 
-{{APIRef("WebTransport API")}}{{SeeCompatTable}}{{securecontext_header}} {{AvailableInWorkers}}
+{{SeeCompatTable}}{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`sendOrder`** property of the {{domxref("WebTransportSendStream")}} interface indicates the send priority of this stream relative to other streams for which the value has been set.
 

@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/HTMLEmbedElement/height
 page-type: web-api-instance-property
 browser-compat: api.HTMLEmbedElement.height
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`height`** property of the {{domxref("HTMLEmbedElement")}} interface returns a string that reflects the `height` attribute of the {{HTMLElement("embed")}} element, indicating the displayed height of the resource in CSS pixels.
 

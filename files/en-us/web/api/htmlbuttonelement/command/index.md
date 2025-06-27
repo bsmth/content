@@ -4,9 +4,10 @@ short-title: command
 slug: Web/API/HTMLButtonElement/command
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.command
+sidebar:
+  - apiref:
+      - Invoker Commands API
 ---
-
-{{APIRef("Invoker Commands API")}}
 
 The **`command`** property of the {{domxref("HTMLButtonElement")}} interface gets and sets the action to be performed on an element being controlled by this button. For this to have an effect, [`commandfor`](/en-US/docs/Web/HTML/Reference/Elements/button#commandfor) must be set.
 

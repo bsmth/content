@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/HTMLVideoElement/width
 page-type: web-api-instance-property
 browser-compat: api.HTMLVideoElement.width
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`width`** property of the {{domxref("HTMLVideoElement")}} interface returns an integer that reflects the `width` attribute of the {{HTMLElement("video")}} element, specifying the displayed width of the resource in CSS pixels.
 

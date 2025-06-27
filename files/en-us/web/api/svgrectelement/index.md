@@ -3,9 +3,10 @@ title: SVGRectElement
 slug: Web/API/SVGRectElement
 page-type: web-api-interface
 browser-compat: api.SVGRectElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `SVGRectElement` interface provides access to the properties of {{SVGElement("rect")}} elements, as well as methods to manipulate them.
 

@@ -3,9 +3,10 @@ title: SVGFEComponentTransferElement
 slug: Web/API/SVGFEComponentTransferElement
 page-type: web-api-interface
 browser-compat: api.SVGFEComponentTransferElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEComponentTransferElement`** interface corresponds to the {{SVGElement("feComponentTransfer")}} element.
 

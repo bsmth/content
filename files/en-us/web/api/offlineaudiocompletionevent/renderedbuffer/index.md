@@ -4,9 +4,10 @@ short-title: renderedBuffer
 slug: Web/API/OfflineAudioCompletionEvent/renderedBuffer
 page-type: web-api-instance-property
 browser-compat: api.OfflineAudioCompletionEvent.renderedBuffer
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`renderedBuffer`** read-only property of the
 {{domxref("OfflineAudioCompletionEvent")}} interface is an {{domxref("AudioBuffer")}}

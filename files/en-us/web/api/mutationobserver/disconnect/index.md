@@ -4,9 +4,10 @@ short-title: disconnect()
 slug: Web/API/MutationObserver/disconnect
 page-type: web-api-instance-method
 browser-compat: api.MutationObserver.disconnect
+sidebar:
+  - apiref:
+      - DOM WHATWG
 ---
-
-{{APIRef("DOM WHATWG")}}
 
 The {{domxref("MutationObserver")}} method
 **`disconnect()`** tells the observer to stop watching for

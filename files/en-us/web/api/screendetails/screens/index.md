@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ScreenDetails.screens
+sidebar:
+  - apiref:
+      - Window Management API
 ---
 
-{{APIRef("Window Management API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`screens`** read-only property of the
 {{domxref("ScreenDetails")}} interface contains an array of {{domxref("ScreenDetailed")}} objects, each one representing detailed information about one specific screen available to the user's device.

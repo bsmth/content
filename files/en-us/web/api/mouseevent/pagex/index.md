@@ -4,9 +4,10 @@ short-title: pageX
 slug: Web/API/MouseEvent/pageX
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.pageX
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`pageX`** read-only property of the {{domxref("MouseEvent")}} interface returns the X (horizontal) coordinate (in pixels) at which the mouse was clicked, relative to the left edge of the entire document.
 This includes any portion of the document not currently visible.

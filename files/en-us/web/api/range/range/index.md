@@ -4,9 +4,10 @@ short-title: Range()
 slug: Web/API/Range/Range
 page-type: web-api-constructor
 browser-compat: api.Range.Range
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`Range()`** constructor returns a newly created
 {{domxref("Range")}} object whose start and end is the global {{domxref("Document")}}

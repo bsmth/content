@@ -4,9 +4,10 @@ short-title: replaceWith()
 slug: Web/API/DocumentType/replaceWith
 page-type: web-api-instance-method
 browser-compat: api.DocumentType.replaceWith
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`DocumentType.replaceWith()`** method replaces the document type with a set of given nodes.
 

@@ -4,9 +4,10 @@ short-title: conditionText
 slug: Web/API/CSSConditionRule/conditionText
 page-type: web-api-instance-property
 browser-compat: api.CSSConditionRule.conditionText
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The read-only **`conditionText`** property of
 the {{domxref("CSSConditionRule")}} interface returns or sets the text of the CSS

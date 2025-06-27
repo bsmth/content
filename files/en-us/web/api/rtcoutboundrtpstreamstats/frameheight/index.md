@@ -4,9 +4,10 @@ short-title: frameHeight
 slug: Web/API/RTCOutboundRtpStreamStats/frameHeight
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.frameHeight
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`frameHeight`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary is a positive integer that indicates the height of the last encoded frame, in pixels.
 

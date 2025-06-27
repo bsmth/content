@@ -3,9 +3,10 @@ title: CSSNumericArray
 slug: Web/API/CSSNumericArray
 page-type: web-api-interface
 browser-compat: api.CSSNumericArray
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSNumericArray`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model) contains a list of {{domxref("CSSNumericValue")}} objects.
 

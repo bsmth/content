@@ -4,9 +4,10 @@ short-title: getCTM()
 slug: Web/API/SVGGraphicsElement/getCTM
 page-type: web-api-instance-method
 browser-compat: api.SVGGraphicsElement.getCTM
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getCTM()` method of the {{domxref("SVGGraphicsElement")}} interface represents the matrix that transforms the current element's coordinate system to its SVG viewport's coordinate system.
 

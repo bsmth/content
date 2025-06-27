@@ -4,9 +4,10 @@ short-title: notificationclose
 slug: Web/API/ServiceWorkerGlobalScope/notificationclose_event
 page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.notificationclose_event
+sidebar:
+  - apiref:
+      - Web Notifications")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Web Notifications")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`notificationclose`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface fires when a user closes a displayed notification spawned by {{domxref("ServiceWorkerRegistration.showNotification()")}}.
 

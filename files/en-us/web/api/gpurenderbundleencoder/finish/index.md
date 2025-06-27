@@ -4,9 +4,12 @@ short-title: finish()
 slug: Web/API/GPURenderBundleEncoder/finish
 page-type: web-api-instance-method
 browser-compat: api.GPURenderBundleEncoder.finish
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`finish()`** method of the
 {{domxref("GPURenderBundleEncoder")}} interface completes recording of the current render bundle command sequence, returning a {{domxref("GPURenderBundle")}} object that can be passed into a {{domxref("GPURenderPassEncoder.executeBundles()")}} call to execute those commands in a specific render pass.

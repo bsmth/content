@@ -4,9 +4,12 @@ short-title: deviceorientation
 slug: Web/API/Window/deviceorientation_event
 page-type: web-api-event
 browser-compat: api.Window.deviceorientation_event
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`deviceorientation`** event is fired when fresh data is available from an orientation sensor about the current orientation of the device as compared to the Earth coordinate frame. This data is gathered from a magnetometer inside the device.
 

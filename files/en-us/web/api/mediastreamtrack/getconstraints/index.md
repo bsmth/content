@@ -4,9 +4,10 @@ short-title: getConstraints()
 slug: Web/API/MediaStreamTrack/getConstraints
 page-type: web-api-instance-method
 browser-compat: api.MediaStreamTrack.getConstraints
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`getConstraints()`** method of
 the {{domxref("MediaStreamTrack")}} interface returns a

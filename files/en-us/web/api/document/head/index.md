@@ -4,9 +4,10 @@ short-title: head
 slug: Web/API/Document/head
 page-type: web-api-instance-property
 browser-compat: api.Document.head
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`head`** read-only property of
 the {{domxref("Document")}} interface returns the {{HTMLElement("head")}} element of

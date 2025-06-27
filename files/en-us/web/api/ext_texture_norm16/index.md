@@ -4,9 +4,10 @@ short-title: EXT_texture_norm16
 slug: Web/API/EXT_texture_norm16
 page-type: webgl-extension
 browser-compat: api.EXT_texture_norm16
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`EXT_texture_norm16`** extension is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and provides a set of new 16-bit signed normalized and unsigned normalized formats (fixed-point texture, renderbuffer and texture buffer).
 

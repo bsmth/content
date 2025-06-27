@@ -4,9 +4,10 @@ short-title: isVertexArrayOES()
 slug: Web/API/OES_vertex_array_object/isVertexArrayOES
 page-type: webgl-extension-method
 browser-compat: api.OES_vertex_array_object.isVertexArrayOES
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`OES_vertex_array_object.isVertexArrayOES()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns `true` if

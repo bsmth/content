@@ -4,9 +4,10 @@ short-title: className
 slug: Web/API/Element/className
 page-type: web-api-instance-property
 browser-compat: api.Element.className
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`className`** property of the
 {{domxref("Element")}} interface gets and sets the value of the [`class` attribute](/en-US/docs/Web/HTML/Reference/Global_attributes/class)

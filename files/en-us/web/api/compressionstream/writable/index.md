@@ -4,9 +4,12 @@ short-title: writable
 slug: Web/API/CompressionStream/writable
 page-type: web-api-instance-property
 browser-compat: api.CompressionStream.writable
+sidebar:
+  - apiref:
+      - Compression Streams API
 ---
 
-{{APIRef("Compression Streams API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`writable`** read-only property of the {{domxref("CompressionStream")}} interface returns a {{domxref("WritableStream")}}.
 

@@ -4,9 +4,10 @@ short-title: src
 slug: Web/API/HTMLMediaElement/src
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.src
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.src`** property reflects the value of
 the HTML media element's `src` attribute, which indicates the URL of a media

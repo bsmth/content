@@ -4,9 +4,10 @@ short-title: fetchPriority
 slug: Web/API/HTMLLinkElement/fetchPriority
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.fetchPriority
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`fetchPriority`** property of the {{domxref("HTMLLinkElement")}} interface represents a hint to the browser indicating how it should prioritize fetching a particular resource relative to other resources of the same type.
 It reflects the [`fetchpriority`](/en-US/docs/Web/HTML/Reference/Elements/link#fetchpriority) attribute of the corresponding {{htmlelement("link")}} element.

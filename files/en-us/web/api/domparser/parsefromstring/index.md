@@ -4,9 +4,10 @@ short-title: parseFromString()
 slug: Web/API/DOMParser/parseFromString
 page-type: web-api-instance-method
 browser-compat: api.DOMParser.parseFromString
+sidebar:
+  - apiref:
+      - DOMParser
 ---
-
-{{APIRef("DOMParser")}}
 
 The **`parseFromString()`** method of the {{domxref("DOMParser")}} interface parses a string containing either HTML or XML, returning an {{domxref("HTMLDocument")}} or an {{domxref("XMLDocument")}}.
 

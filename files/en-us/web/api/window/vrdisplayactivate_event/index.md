@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Window.vrdisplayactivate_event
+sidebar:
+  - apiref:
+      - Window
 ---
 
-{{APIRef("Window")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`vrdisplayactivate`** event of the [WebVR API](/en-US/docs/Web/API/WebVR_API) is fired when a VR display is able to be presented to, for example if an HMD has been moved to bring it out of standby, or woken up by being put on.
 

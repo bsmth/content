@@ -4,9 +4,10 @@ short-title: viewBox
 slug: Web/API/SVGViewElement/viewBox
 page-type: web-api-instance-property
 browser-compat: api.SVGViewElement.viewBox
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`viewBox`** read-only property of the {{domxref("SVGViewElement")}} interface reflects the {{SVGAttr("viewBox")}} attribute of the given {{SVGElement("view")}} element. It represents the `x`, `y`, `width`, and `height` values defining the area to be used for the `view`'s `viewBox`.
 

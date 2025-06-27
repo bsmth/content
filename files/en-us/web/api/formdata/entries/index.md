@@ -4,9 +4,12 @@ short-title: entries()
 slug: Web/API/FormData/entries
 page-type: web-api-instance-method
 browser-compat: api.FormData.entries
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FormData.entries()`** method returns an [iterator](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) which iterates through all key/value pairs contained in the {{domxref("FormData")}}. The key of each pair is a string, and the value is either a string or a {{domxref("Blob")}}.
 

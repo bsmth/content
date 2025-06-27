@@ -4,9 +4,12 @@ short-title: MessageEvent()
 slug: Web/API/MessageEvent/MessageEvent
 page-type: web-api-constructor
 browser-compat: api.MessageEvent.MessageEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`MessageEvent()`** constructor creates a new {{domxref("MessageEvent")}} object.
 

@@ -4,9 +4,10 @@ short-title: isPrimary
 slug: Web/API/PointerEvent/isPrimary
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.isPrimary
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`isPrimary`** read-only property of the
 {{domxref("PointerEvent")}} interface indicates whether or not the pointer device that

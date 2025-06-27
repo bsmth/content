@@ -4,9 +4,10 @@ short-title: ariaRowSpan
 slug: Web/API/ElementInternals/ariaRowSpan
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaRowSpan
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaRowSpan`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-rowspan`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-rowspan) attribute, which defines the number of rows spanned by a cell or gridcell within a table, grid, or treegrid.
 

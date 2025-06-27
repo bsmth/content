@@ -4,9 +4,8 @@ short-title: scrollbars
 slug: Web/API/Window/scrollbars
 page-type: web-api-instance-property
 browser-compat: api.Window.scrollbars
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 Returns the `scrollbars` object.
 

@@ -4,9 +4,10 @@ short-title: unitType
 slug: Web/API/SVGAngle/unitType
 page-type: web-api-instance-property
 browser-compat: api.SVGAngle.unitType
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`unitType`** property of the {{domxref("SVGAngle")}} interface is one of the [unit type constants](/en-US/docs/Web/API/SVGAngle#static_properties) and represents the units in which this angle's value is expressed.
 

@@ -4,9 +4,10 @@ short-title: target
 slug: Web/API/PerformanceEventTiming/target
 page-type: web-api-instance-property
 browser-compat: api.PerformanceEventTiming.target
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The read-only **`target`** property returns the associated event's last [`target`](/en-US/docs/Web/API/Event/target) which is the node onto which the event was last dispatched.
 

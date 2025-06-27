@@ -4,9 +4,12 @@ short-title: expiration
 slug: Web/API/MediaKeySession/expiration
 page-type: web-api-instance-property
 browser-compat: api.MediaKeySession.expiration
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`expiration`** read-only property of the {{domxref('MediaKeySession')}} interface returns the time after which the keys in the current session can no longer be used to decrypt media data, or NaN if no such time exists.
 

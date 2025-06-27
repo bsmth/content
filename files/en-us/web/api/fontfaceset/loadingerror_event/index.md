@@ -4,9 +4,12 @@ short-title: loadingerror
 slug: Web/API/FontFaceSet/loadingerror_event
 page-type: web-api-event
 browser-compat: api.FontFaceSet.loadingerror_event
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `loadingerror` event fires when fonts have finished loading, but some or all fonts have failed to load.
 

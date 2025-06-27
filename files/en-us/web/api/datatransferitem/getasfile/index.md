@@ -4,9 +4,10 @@ short-title: getAsFile()
 slug: Web/API/DataTransferItem/getAsFile
 page-type: web-api-instance-method
 browser-compat: api.DataTransferItem.getAsFile
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 If the item is a file, the **`DataTransferItem.getAsFile()`** method returns the drag data item's {{domxref("File")}} object.
 If the item is not a file, this method returns `null`.

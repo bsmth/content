@@ -4,9 +4,10 @@ short-title: fullPath
 slug: Web/API/FileSystemEntry/fullPath
 page-type: web-api-instance-property
 browser-compat: api.FileSystemEntry.fullPath
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The read-only **`fullPath`** property
 of the {{domxref("FileSystemEntry")}} interface returns a string

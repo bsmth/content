@@ -3,9 +3,10 @@ title: RTCPeerConnection
 slug: Web/API/RTCPeerConnection
 page-type: web-api-interface
 browser-compat: api.RTCPeerConnection
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef('WebRTC')}}
 
 The **`RTCPeerConnection`** interface represents a WebRTC connection between the local computer and a remote peer.
 It provides methods to connect to a remote peer, maintain and monitor the connection, and close the connection once it's no longer needed.

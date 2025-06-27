@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.InputDeviceCapabilities.firesTouchEvents
+sidebar:
+  - apiref:
+      - Input Device Capabilities API
 ---
 
-{{APIRef("Input Device Capabilities API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`firesTouchEvents`** read-only property of the {{domxref("InputDeviceCapabilities")}} interface returns a boolean value that indicates whether the device dispatches touch events.
 

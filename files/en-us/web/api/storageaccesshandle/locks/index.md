@@ -4,9 +4,10 @@ short-title: locks
 slug: Web/API/StorageAccessHandle/locks
 page-type: web-api-instance-property
 browser-compat: api.StorageAccessHandle.locks
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 The **`locks`** property of the {{domxref("StorageAccessHandle")}} interface returns an unpartitioned session {{domxref("LockManager")}} object if access was granted, and throws a `SecurityError` {{DOMxRef("DOMException")}} otherwise.
 

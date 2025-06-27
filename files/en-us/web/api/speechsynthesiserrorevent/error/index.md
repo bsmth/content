@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/SpeechSynthesisErrorEvent/error
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisErrorEvent.error
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`error`** property of the
 {{domxref("SpeechSynthesisErrorEvent")}} interface returns an error code indicating what has gone wrong with a speech synthesis attempt.

@@ -4,9 +4,10 @@ short-title: currentTime
 slug: Web/API/Animation/currentTime
 page-type: web-api-instance-property
 browser-compat: api.Animation.currentTime
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`Animation.currentTime`** property of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) returns and sets the current time value of the animation in milliseconds, whether running or paused.
 

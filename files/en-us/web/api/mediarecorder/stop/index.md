@@ -4,9 +4,10 @@ short-title: stop()
 slug: Web/API/MediaRecorder/stop
 page-type: web-api-instance-method
 browser-compat: api.MediaRecorder.stop
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`stop()`** method of the {{domxref("MediaRecorder")}} interface is
 used to stop media capture.

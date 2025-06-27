@@ -4,9 +4,10 @@ short-title: getContributingSources()
 slug: Web/API/RTCRtpReceiver/getContributingSources
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpReceiver.getContributingSources
+sidebar:
+  - apiref:
+      - WebRTC API
 ---
-
-{{APIRef("WebRTC API")}}
 
 The **`getContributingSources()`** method of the {{domxref("RTCRtpReceiver")}} interface returns an array of objects, each corresponding to one CSRC (contributing source) identifier received by the current `RTCRtpReceiver` in the last ten seconds.
 

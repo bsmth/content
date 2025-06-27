@@ -4,9 +4,12 @@ short-title: lastEventId
 slug: Web/API/MessageEvent/lastEventId
 page-type: web-api-instance-property
 browser-compat: api.MessageEvent.lastEventId
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`lastEventId`** read-only property of the
 {{domxref("MessageEvent")}} interface is a string representing a

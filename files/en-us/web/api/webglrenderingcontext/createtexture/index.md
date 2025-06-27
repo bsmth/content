@@ -4,9 +4,12 @@ short-title: createTexture()
 slug: Web/API/WebGLRenderingContext/createTexture
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.createTexture
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.createTexture()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) creates and initializes a

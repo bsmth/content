@@ -5,9 +5,10 @@ slug: Web/API/Highlight/entries
 page-type: web-api-instance-method
 browser-compat: api.Highlight.entries
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.entries
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`entries()`** method of the {{domxref("Highlight")}} interface returns a new [Iterator](/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators) object that contains an array of `[range, range]` for each {{domxref("Range")}} object in the `Highlight` object, in insertion order.
 

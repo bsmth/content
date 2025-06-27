@@ -4,9 +4,10 @@ short-title: scrollX
 slug: Web/API/Window/scrollX
 page-type: web-api-instance-property
 browser-compat: api.Window.scrollX
+sidebar:
+  - apiref:
+      - CSSOM View
 ---
-
-{{ APIRef("CSSOM View") }}
 
 The read-only **`scrollX`** property of the {{domxref("Window")}} interface returns the number of pixels by which the document is currently scrolled horizontally. This value is subpixel precise in modern browsers, meaning that it isn't necessarily a whole number. You can get the number of pixels the document is scrolled vertically from the {{domxref("Window.scrollY", "scrollY")}} property.
 

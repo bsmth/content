@@ -4,9 +4,10 @@ short-title: totalRoundTripTime
 slug: Web/API/RTCIceCandidatePairStats/totalRoundTripTime
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.totalRoundTripTime
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`totalRoundTripTime`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the total time that has elapsed between sending {{Glossary("STUN")}} requests and receiving the responses, for all such requests that have been made so far on the pair of candidates described by this `RTCIceCandidatePairStats` object.
 

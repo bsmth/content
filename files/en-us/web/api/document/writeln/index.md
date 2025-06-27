@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Document.writeln
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{ ApiRef("DOM") }}{{deprecated_header}}
+{{deprecated_header}}
 
 > [!WARNING]
 > This API parses its input as HTML, writing the result into the DOM.

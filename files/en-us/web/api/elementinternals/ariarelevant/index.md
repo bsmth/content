@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.ElementInternals.ariaRelevant
+sidebar:
+  - apiref:
+      - Web Components
 ---
 
-{{APIRef("Web Components")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`ariaRelevant`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-relevant`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-relevant) attribute, which indicates what notifications the user agent will trigger when the accessibility tree within a live region is modified. This is used to describe what changes in an `aria-live` region are relevant and should be announced.
 

@@ -4,9 +4,10 @@ short-title: deltaX
 slug: Web/API/WheelEvent/deltaX
 page-type: web-api-instance-property
 browser-compat: api.WheelEvent.deltaX
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`WheelEvent.deltaX`** read-only property is a
 `double` representing the horizontal scroll amount in the

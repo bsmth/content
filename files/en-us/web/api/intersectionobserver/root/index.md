@@ -4,9 +4,10 @@ short-title: root
 slug: Web/API/IntersectionObserver/root
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserver.root
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`root`** read-only property of the {{domxref("IntersectionObserver")}} interface identifies the {{domxref("Element")}} or {{domxref("Document")}} whose bounds are treated as the {{Glossary("bounding box")}} of the {{Glossary("viewport")}} for the element which is the observer's target.
 

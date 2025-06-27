@@ -4,9 +4,12 @@ short-title: has()
 slug: Web/API/Headers/has
 page-type: web-api-instance-method
 browser-compat: api.Headers.has
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`has()`** method of the {{domxref("Headers")}} interface
 returns a boolean stating whether a `Headers` object contains a certain

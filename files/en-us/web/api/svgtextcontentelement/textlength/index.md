@@ -4,9 +4,10 @@ short-title: textLength
 slug: Web/API/SVGTextContentElement/textLength
 page-type: web-api-instance-property
 browser-compat: api.SVGTextContentElement.textLength
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`textLength`** read-only property of the {{domxref("SVGTextContentElement")}} interface reflects the {{SVGAttr("textLength")}} attribute of the given element.
 

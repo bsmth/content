@@ -4,9 +4,10 @@ short-title: getModifierState()
 slug: Web/API/MouseEvent/getModifierState
 page-type: web-api-instance-method
 browser-compat: api.MouseEvent.getModifierState
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`MouseEvent.getModifierState()`** method returns the current state of the specified modifier key: `true` if the modifier is active (i.e., the modifier key is pressed or locked), otherwise, `false`.
 

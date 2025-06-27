@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.VRDisplayCapabilities.hasOrientation
+sidebar:
+  - apiref:
+      - WebVR API
 ---
 
-{{APIRef("WebVR API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`hasOrientation`** read-only property of the {{domxref("VRDisplayCapabilities")}} interface returns `true` if the VR display can track and return orientation information.
 

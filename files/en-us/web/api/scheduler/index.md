@@ -3,9 +3,12 @@ title: Scheduler
 slug: Web/API/Scheduler
 page-type: web-api-interface
 browser-compat: api.Scheduler
+sidebar:
+  - apiref:
+      - Prioritized Task Scheduling API
 ---
 
-{{APIRef("Prioritized Task Scheduling API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Scheduler`** interface of the [Prioritized Task Scheduling API](/en-US/docs/Web/API/Prioritized_Task_Scheduling_API) provides methods for scheduling prioritized tasks.
 

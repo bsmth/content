@@ -4,9 +4,10 @@ short-title: setValueAtTime()
 slug: Web/API/AudioParam/setValueAtTime
 page-type: web-api-instance-method
 browser-compat: api.AudioParam.setValueAtTime
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `setValueAtTime()` method of the
 {{domxref("AudioParam")}} interface schedules an instant change to the

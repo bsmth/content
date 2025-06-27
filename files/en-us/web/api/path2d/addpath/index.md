@@ -4,9 +4,12 @@ short-title: addPath()
 slug: Web/API/Path2D/addPath
 page-type: web-api-instance-method
 browser-compat: api.Path2D.addPath
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Path2D.addPath()`** method
 of the Canvas 2D API adds one {{domxref("Path2D")}} object to another

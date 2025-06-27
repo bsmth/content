@@ -4,9 +4,10 @@ short-title: offsetTop
 slug: Web/API/HTMLElement/offsetTop
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.offsetTop
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`offsetTop`** read-only property of the {{domxref("HTMLElement")}} interface returns the distance from the outer border of the current element (including its margin) to the top padding edge of the {{domxref("HTMLelement.offsetParent","offsetParent")}}, the _closest positioned_ ancestor element.
 

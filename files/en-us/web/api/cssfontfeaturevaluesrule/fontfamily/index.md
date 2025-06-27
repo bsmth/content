@@ -4,9 +4,10 @@ short-title: fontFamily
 slug: Web/API/CSSFontFeatureValuesRule/fontFamily
 page-type: web-api-instance-property
 browser-compat: api.CSSFontFeatureValuesRule.fontFamily
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`fontFamily`** property of the {{domxref("CSSConditionRule")}} interface represents the name of the font family it applies to.
 

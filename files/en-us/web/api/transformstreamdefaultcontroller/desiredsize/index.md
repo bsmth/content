@@ -4,9 +4,12 @@ short-title: desiredSize
 slug: Web/API/TransformStreamDefaultController/desiredSize
 page-type: web-api-instance-property
 browser-compat: api.TransformStreamDefaultController.desiredSize
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`desiredSize`** read-only property of the {{domxref("TransformStreamDefaultController")}} interface returns the desired size to fill the queue of the associated {{domxref("ReadableStream")}}.
 

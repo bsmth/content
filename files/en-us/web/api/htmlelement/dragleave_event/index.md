@@ -4,9 +4,8 @@ short-title: dragleave
 slug: Web/API/HTMLElement/dragleave_event
 page-type: web-api-event
 browser-compat: api.HTMLElement.dragleave_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `dragleave` event is fired when a dragged element or text selection leaves a valid drop target.
 

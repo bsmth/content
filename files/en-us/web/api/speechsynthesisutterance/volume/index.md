@@ -4,9 +4,10 @@ short-title: volume
 slug: Web/API/SpeechSynthesisUtterance/volume
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisUtterance.volume
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`volume`** property of the {{domxref("SpeechSynthesisUtterance")}} interface gets and sets the volume that the utterance will be spoken at.
 

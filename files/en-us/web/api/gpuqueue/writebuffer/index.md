@@ -4,9 +4,12 @@ short-title: writeBuffer()
 slug: Web/API/GPUQueue/writeBuffer
 page-type: web-api-instance-method
 browser-compat: api.GPUQueue.writeBuffer
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`writeBuffer()`** method of the
 {{domxref("GPUQueue")}} interface writes a provided data source into a given {{domxref("GPUBuffer")}}.

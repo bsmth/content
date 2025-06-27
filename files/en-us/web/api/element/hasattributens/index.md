@@ -4,9 +4,10 @@ short-title: hasAttributeNS()
 slug: Web/API/Element/hasAttributeNS
 page-type: web-api-instance-method
 browser-compat: api.Element.hasAttributeNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`hasAttributeNS()`** method of the {{domxref("Element")}} interface returns a boolean value indicating whether the current element has the specified attribute with the specified namespace.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableElement.cellSpacing
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 While you should instead use the CSS
 {{cssxref("border-spacing")}} property, the obsolete {{domxref("HTMLTableElement")}}

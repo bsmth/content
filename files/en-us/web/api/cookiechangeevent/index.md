@@ -3,9 +3,12 @@ title: CookieChangeEvent
 slug: Web/API/CookieChangeEvent
 page-type: web-api-interface
 browser-compat: api.CookieChangeEvent
+sidebar:
+  - apiref:
+      - Cookie Store API
 ---
 
-{{securecontext_header}}{{APIRef("Cookie Store API")}}
+{{securecontext_header}}
 
 The **`CookieChangeEvent`** interface of the {{domxref("Cookie Store API", "", "", "nocode")}} is the event type of the {{domxref("CookieStore/change_event", "change")}} event fired at a {{domxref("CookieStore")}} when any cookies are created or deleted.
 

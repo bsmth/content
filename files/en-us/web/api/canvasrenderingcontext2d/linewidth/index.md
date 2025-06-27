@@ -4,9 +4,8 @@ short-title: lineWidth
 slug: Web/API/CanvasRenderingContext2D/lineWidth
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.lineWidth
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.lineWidth`**

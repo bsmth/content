@@ -4,9 +4,12 @@ short-title: keyPath
 slug: Web/API/IDBObjectStore/keyPath
 page-type: web-api-instance-property
 browser-compat: api.IDBObjectStore.keyPath
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`keyPath`** read-only property of the
 {{domxref("IDBObjectStore")}} interface returns the [key path](/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology#key_path) of this object store.

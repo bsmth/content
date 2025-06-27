@@ -4,9 +4,12 @@ short-title: writeText()
 slug: Web/API/Clipboard/writeText
 page-type: web-api-instance-method
 browser-compat: api.Clipboard.writeText
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}} {{securecontext_header}}
+{{securecontext_header}}
 
 The **`writeText()`** method of the {{domxref("Clipboard")}} interface writes the specified text to the system clipboard, returning a {{jsxref("Promise")}} that is resolved once the system clipboard has been updated.
 

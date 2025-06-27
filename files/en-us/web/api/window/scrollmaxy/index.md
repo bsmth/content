@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.Window.scrollMaxY
+sidebar: apiref
 ---
 
-{{APIRef}} {{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`Window.scrollMaxY`** read-only property returns the
 maximum number of pixels that the document can be scrolled vertically.

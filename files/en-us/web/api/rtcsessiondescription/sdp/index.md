@@ -4,9 +4,10 @@ short-title: sdp
 slug: Web/API/RTCSessionDescription/sdp
 page-type: web-api-instance-property
 browser-compat: api.RTCSessionDescription.sdp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The property **`RTCSessionDescription.sdp`** is a read-only
 string containing the {{Glossary("SDP")}} which describes the session.

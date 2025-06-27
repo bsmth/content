@@ -4,9 +4,10 @@ short-title: numberOfItems
 slug: Web/API/SVGTransformList/numberOfItems
 page-type: web-api-instance-property
 browser-compat: api.SVGTransformList.numberOfItems
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`numberOfItems`** read-only property of the {{domxref("SVGTransformList")}} interface represents the number of items in the list.
 

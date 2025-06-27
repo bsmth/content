@@ -4,9 +4,12 @@ short-title: multiEntry
 slug: Web/API/IDBIndex/multiEntry
 page-type: web-api-instance-property
 browser-compat: api.IDBIndex.multiEntry
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`multiEntry`** read-only property of the
 {{domxref("IDBIndex")}} interface returns a boolean value that affects how the index

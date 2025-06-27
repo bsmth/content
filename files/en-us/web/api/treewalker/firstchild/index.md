@@ -4,9 +4,10 @@ short-title: firstChild()
 slug: Web/API/TreeWalker/firstChild
 page-type: web-api-instance-method
 browser-compat: api.TreeWalker.firstChild
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.firstChild()`** method moves the current
 {{domxref("Node")}} to the first _visible_ child of the current node, and returns

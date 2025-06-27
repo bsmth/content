@@ -4,9 +4,12 @@ short-title: decode()
 slug: Web/API/TextDecoder/decode
 page-type: web-api-instance-method
 browser-compat: api.TextDecoder.decode
+sidebar:
+  - apiref:
+      - Encoding API
 ---
 
-{{APIRef("Encoding API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`TextDecoder.decode()`** method returns a string containing text decoded from the buffer passed as a parameter.
 

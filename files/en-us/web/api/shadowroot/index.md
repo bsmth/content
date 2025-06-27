@@ -3,9 +3,10 @@ title: ShadowRoot
 slug: Web/API/ShadowRoot
 page-type: web-api-interface
 browser-compat: api.ShadowRoot
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef('Shadow DOM')}}
 
 The **`ShadowRoot`** interface of the [Shadow DOM API](/en-US/docs/Web/API/Web_components/Using_shadow_DOM) is the root node of a DOM subtree that is rendered separately from a document's main DOM tree.
 

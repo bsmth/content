@@ -4,9 +4,10 @@ short-title: nextNode()
 slug: Web/API/TreeWalker/nextNode
 page-type: web-api-instance-method
 browser-compat: api.TreeWalker.nextNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.nextNode()`** method moves the current
 {{domxref("Node")}} to the next _visible_ node in the document order, and returns

@@ -4,9 +4,10 @@ short-title: text
 slug: Web/API/HTMLAnchorElement/text
 page-type: web-api-instance-property
 browser-compat: api.HTMLAnchorElement.text
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`text`** property of the {{domxref("HTMLAnchorElement")}} represents the text inside the element.
 This property represents the same information as {{domxref("Node.textContent")}}.

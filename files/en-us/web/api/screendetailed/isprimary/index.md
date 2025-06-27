@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ScreenDetailed.isPrimary
+sidebar:
+  - apiref:
+      - Window Management API
 ---
 
-{{APIRef("Window Management API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`isPrimary`** read-only property of the
 {{domxref("ScreenDetailed")}} interface is a boolean indicating whether the screen is set as the operating system (OS) primary screen or not.

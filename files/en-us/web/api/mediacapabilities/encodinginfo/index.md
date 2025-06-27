@@ -4,9 +4,12 @@ short-title: encodingInfo()
 slug: Web/API/MediaCapabilities/encodingInfo
 page-type: web-api-instance-method
 browser-compat: api.MediaCapabilities.encodingInfo
+sidebar:
+  - apiref:
+      - Media Capabilities API
 ---
 
-{{APIRef("Media Capabilities API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`encodingInfo()`** method of the {{domxref("MediaCapabilities")}} interface returns a promise that fulfills with the tested media configuration's capabilities for encoding media.
 This contains the three boolean properties `supported`, `smooth`, and `powerefficient`, which describe how compatible the device is with the type of media.

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.FontData.blob
+sidebar:
+  - apiref:
+      - Local Font Access API
 ---
 
-{{APIRef("Local Font Access API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`blob()`** method of the {{domxref("FontData")}} interface returns a {{jsxref("Promise")}} that fulfills with a {{domxref("Blob")}} containing the raw bytes of the underlying font file.
 

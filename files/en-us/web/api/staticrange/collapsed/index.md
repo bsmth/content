@@ -4,9 +4,10 @@ short-title: collapsed
 slug: Web/API/StaticRange/collapsed
 page-type: web-api-instance-property
 browser-compat: api.StaticRange.collapsed
+sidebar:
+  - apiref:
+      - DOM WHATWG
 ---
-
-{{APIRef("DOM WHATWG")}}
 
 The **`collapsed`** read-only property
 of the {{domxref("StaticRange")}} interface returns `true` if the range's

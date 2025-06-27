@@ -4,9 +4,10 @@ short-title: setIdentityProvider()
 slug: Web/API/RTCPeerConnection/setIdentityProvider
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.setIdentityProvider
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`setIdentityProvider()`** method of the {{domxref("RTCPeerConnection")}} interface sets the Identity Provider (IdP) to the triplet given in parameter: its name, the protocol used to communicate with it (optional) and an optional username.
 The IdP will be used only when an assertion is needed.

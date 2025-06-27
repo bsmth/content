@@ -4,9 +4,10 @@ short-title: getAudioTracks()
 slug: Web/API/MediaStream/getAudioTracks
 page-type: web-api-instance-method
 browser-compat: api.MediaStream.getAudioTracks
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`getAudioTracks()`** method of the
 {{domxref("MediaStream")}} interface returns a sequence that represents all the

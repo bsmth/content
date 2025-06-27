@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLFormElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormElement.name`** property represents the name of
 the current {{HtmlElement("form")}} element as a string.

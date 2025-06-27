@@ -4,9 +4,10 @@ short-title: disabled
 slug: Web/API/HTMLOptionElement/disabled
 page-type: web-api-instance-property
 browser-compat: api.HTMLOptionElement.disabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`disabled`** property of the {{domxref("HTMLOptionElement")}} is a boolean value that indicates whether the {{htmlelement("option")}} element is unavailable to be selected. The property reflects the value of the [`disabled`](/en-US/docs/Web/HTML/Reference/Elements/option#disabled) HTML attribute.
 

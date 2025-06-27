@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Summarizer.measureInputUsage
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`measureInputUsage()`** method of the {{domxref("Summarizer")}} interface reports how much {{domxref("Summarizer.inputQuota", "inputQuota")}} would be used by a summarize operation for a given text input.
 

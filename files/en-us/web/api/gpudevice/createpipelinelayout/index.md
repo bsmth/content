@@ -4,9 +4,12 @@ short-title: createPipelineLayout()
 slug: Web/API/GPUDevice/createPipelineLayout
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.createPipelineLayout
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createPipelineLayout()`** method of the
 {{domxref("GPUDevice")}} interface creates a {{domxref("GPUPipelineLayout")}} that defines the {{domxref("GPUBindGroupLayout")}}s used by a pipeline. {{domxref("GPUBindGroup")}}s used with the pipeline during command encoding must have compatible {{domxref("GPUBindGroupLayout")}}s.

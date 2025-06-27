@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.CompositionEvent.locale
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{deprecated_header}}{{APIRef("UI Events")}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`locale`** read-only property of the
 {{domxref("CompositionEvent")}} interface returns the locale of current input method

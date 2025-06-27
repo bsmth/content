@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.WorkerNavigator.platform
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{ APIRef("HTML DOM") }} {{Deprecated_Header}}{{AvailableInWorkers("worker")}}
+{{Deprecated_Header}}{{AvailableInWorkers("worker")}}
 
 Returns a string representing the platform of the browser. The specification allows
 browsers to always return the empty string, so don't rely on this property to get a

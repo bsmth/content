@@ -4,9 +4,12 @@ short-title: responseStatus
 slug: Web/API/PerformanceResourceTiming/responseStatus
 page-type: web-api-instance-property
 browser-compat: api.PerformanceResourceTiming.responseStatus
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`responseStatus`** read-only property represents the HTTP response status code returned when fetching the resource.
 

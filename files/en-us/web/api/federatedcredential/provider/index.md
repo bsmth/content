@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.FederatedCredential.provider
+sidebar:
+  - apiref:
+      - Credential Management API
 ---
 
-{{SeeCompatTable}}{{APIRef("Credential Management API")}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`provider`** property of the
 {{domxref("FederatedCredential")}} interface returns a string

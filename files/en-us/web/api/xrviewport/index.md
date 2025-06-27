@@ -3,9 +3,12 @@ title: XRViewport
 slug: Web/API/XRViewport
 page-type: web-api-interface
 browser-compat: api.XRViewport
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The WebXR Device API's **`XRViewport`** interface provides properties used to describe the size and position of the current viewport within the {{domxref("XRWebGLLayer")}} being used to render the 3D scene.
 

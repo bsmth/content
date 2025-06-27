@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.LanguageDetector.measureInputUsage
+sidebar:
+  - apiref:
+      - Translator and Language Detector APIs
 ---
 
-{{APIRef("Translator and Language Detector APIs")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`measureInputUsage()`** method of the {{domxref("LanguageDetector")}} interface reports how much input quota would be used by a language detection operation for a given text input.
 

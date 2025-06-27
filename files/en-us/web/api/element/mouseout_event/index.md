@@ -4,9 +4,8 @@ short-title: mouseout
 slug: Web/API/Element/mouseout_event
 page-type: web-api-event
 browser-compat: api.Element.mouseout_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`mouseout`** event is fired at an {{domxref("Element")}} when a pointing device (usually a mouse) is used to move the cursor so that it is no longer contained within the element or one of its children.
 

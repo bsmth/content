@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/IDBIndex/name
 page-type: web-api-instance-property
 browser-compat: api.IDBIndex.name
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`name`** property of the {{domxref("IDBIndex")}}
 interface contains a string which names the index.

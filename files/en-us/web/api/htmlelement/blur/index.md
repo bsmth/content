@@ -4,9 +4,10 @@ short-title: blur()
 slug: Web/API/HTMLElement/blur
 page-type: web-api-instance-method
 browser-compat: api.HTMLElement.blur
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLElement.blur()`** method removes keyboard focus from the current element.
 

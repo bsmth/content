@@ -4,9 +4,10 @@ short-title: maxTouchPoints
 slug: Web/API/Navigator/maxTouchPoints
 page-type: web-api-instance-property
 browser-compat: api.Navigator.maxTouchPoints
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`maxTouchPoints`** read-only property of the
 {{domxref("Navigator")}} interface returns the maximum number of simultaneous touch

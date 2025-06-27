@@ -4,9 +4,8 @@ short-title: gamepaddisconnected
 slug: Web/API/Window/gamepaddisconnected_event
 page-type: web-api-event
 browser-compat: api.Window.gamepaddisconnected_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `gamepaddisconnected` event is fired when the browser detects that a gamepad has been disconnected.
 

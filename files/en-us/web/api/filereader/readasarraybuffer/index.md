@@ -4,9 +4,12 @@ short-title: readAsArrayBuffer()
 slug: Web/API/FileReader/readAsArrayBuffer
 page-type: web-api-instance-method
 browser-compat: api.FileReader.readAsArrayBuffer
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`readAsArrayBuffer()`** method of the {{domxref("FileReader")}} interface is used to start reading the
 contents of a specified {{domxref("Blob")}} or {{domxref("File")}}. When the read

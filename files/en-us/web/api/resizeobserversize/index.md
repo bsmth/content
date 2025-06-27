@@ -3,9 +3,10 @@ title: ResizeObserverSize
 slug: Web/API/ResizeObserverSize
 page-type: web-api-interface
 browser-compat: api.ResizeObserverSize
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`ResizeObserverSize`** interface of the [Resize Observer API](/en-US/docs/Web/API/Resize_Observer_API) is used by the {{domxref("ResizeObserverEntry")}} interface to access the box sizing properties of the element being observed.
 

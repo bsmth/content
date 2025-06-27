@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 browser-compat:
   - api.WebGLRenderingContext.texParameterf
   - api.WebGLRenderingContext.texParameteri
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.texParameter[fi]()`** methods of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) set texture parameters.

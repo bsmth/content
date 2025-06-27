@@ -4,9 +4,12 @@ short-title: framebufferTexture2D()
 slug: Web/API/WebGLRenderingContext/framebufferTexture2D
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.framebufferTexture2D
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.framebufferTexture2D()`** method
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) attaches a texture to a

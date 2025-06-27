@@ -4,9 +4,10 @@ short-title: CSSScale()
 slug: Web/API/CSSScale/CSSScale
 page-type: web-api-constructor
 browser-compat: api.CSSScale.CSSScale
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSScale()`** constructor creates a new
 {{domxref("CSSScale")}} object representing the [scale()](/en-US/docs/Web/CSS/transform-function/scale) and [scale3d()](/en-US/docs/Web/CSS/transform-function/scale3d) values of the

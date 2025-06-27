@@ -4,9 +4,12 @@ short-title: uniformMatrix[234]fv()
 slug: Web/API/WebGLRenderingContext/uniformMatrix
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.uniformMatrix2fv
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.uniformMatrix[234]fv()`** methods
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) specify matrix values for

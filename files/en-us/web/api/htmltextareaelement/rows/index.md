@@ -4,9 +4,10 @@ short-title: rows
 slug: Web/API/HTMLTextAreaElement/rows
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.rows
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`rows`** property of the {{DOMxRef("HTMLTextAreaElement")}} interface is a positive integer representing the visible text lines of the text control. It reflects the `<textarea>` element's [`rows`](/en-US/docs/Web/HTML/Reference/Elements/textarea#rows) attribute.
 

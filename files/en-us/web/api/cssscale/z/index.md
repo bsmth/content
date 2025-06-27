@@ -4,9 +4,10 @@ short-title: z
 slug: Web/API/CSSScale/z
 page-type: web-api-instance-property
 browser-compat: api.CSSScale.z
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`z`** property of the
 {{domxref("CSSScale")}} interface representing the z-component of the translating

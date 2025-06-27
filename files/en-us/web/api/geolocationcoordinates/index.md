@@ -3,9 +3,12 @@ title: GeolocationCoordinates
 slug: Web/API/GeolocationCoordinates
 page-type: web-api-interface
 browser-compat: api.GeolocationCoordinates
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`GeolocationCoordinates`** interface represents the position and altitude of the device on Earth, as well as the accuracy with which these properties are calculated.
 The geographic position information is provided in terms of World Geodetic System coordinates (WGS84).

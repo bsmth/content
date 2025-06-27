@@ -3,9 +3,10 @@ title: RTCIceTransport
 slug: Web/API/RTCIceTransport
 page-type: web-api-interface
 browser-compat: api.RTCIceTransport
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCIceTransport`** interface provides access to information about the {{Glossary("ICE")}} transport layer over which the data is being sent and received.
 This is particularly useful if you need to access state information about the connection.

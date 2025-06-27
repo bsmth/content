@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BackgroundFetchManager.fetch
+sidebar:
+  - apiref:
+      - Background Fetch API
 ---
 
-{{APIRef("Background Fetch API")}}{{SeeCompatTable}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{AvailableInWorkers}}
 
 The **`fetch()`** method of the {{domxref("BackgroundFetchManager")}} interface initiates a background fetch operation, given one or more URLs or {{domxref("Request")}} objects.
 

@@ -4,9 +4,12 @@ short-title: ready
 slug: Web/API/ServiceWorkerContainer/ready
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerContainer.ready
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`ready`** read-only property of
 the {{domxref("ServiceWorkerContainer")}} interface provides a way of delaying code

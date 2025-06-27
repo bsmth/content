@@ -4,9 +4,10 @@ short-title: key
 slug: Web/API/KeyboardEvent/key
 page-type: web-api-instance-property
 browser-compat: api.KeyboardEvent.key
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The {{domxref("KeyboardEvent")}} interface's **`key`** read-only property returns the value of the key pressed by the user, taking into consideration the state of modifier keys such as <kbd>Shift</kbd> as well as the keyboard locale and layout.
 

@@ -4,9 +4,10 @@ short-title: smoothingTimeConstant
 slug: Web/API/AnalyserNode/smoothingTimeConstant
 page-type: web-api-instance-property
 browser-compat: api.AnalyserNode.smoothingTimeConstant
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`smoothingTimeConstant`** property of the {{ domxref("AnalyserNode") }} interface is a double value representing the averaging constant with the last analysis frame. It's basically an average between the current buffer and the last buffer the `AnalyserNode` processed, and results in a much smoother set of value changes over time.
 

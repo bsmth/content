@@ -4,9 +4,12 @@ short-title: createBuffer()
 slug: Web/API/GPUDevice/createBuffer
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.createBuffer
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createBuffer()`** method of the
 {{domxref("GPUDevice")}} interface creates a {{domxref("GPUBuffer")}} in which to store raw data to use in GPU operations.

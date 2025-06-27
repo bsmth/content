@@ -4,9 +4,10 @@ short-title: y2
 slug: Web/API/SVGLinearGradientElement/y2
 page-type: web-api-instance-property
 browser-compat: api.SVGLinearGradientElement.y2
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y2`** read-only property of the {{domxref("SVGLinearGradientElement")}} interface describes the y-axis coordinate of the start point of the gradient as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("y2")}} attribute on the {{SVGElement("linearGradient")}} element.
 

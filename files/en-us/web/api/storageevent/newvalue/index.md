@@ -4,9 +4,10 @@ short-title: newValue
 slug: Web/API/StorageEvent/newValue
 page-type: web-api-instance-property
 browser-compat: api.StorageEvent.newValue
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`newValue`** property of the {{domxref("StorageEvent")}} interface returns the new value of the storage item whose value was changed.
 

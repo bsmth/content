@@ -4,9 +4,10 @@ short-title: createConvolver()
 slug: Web/API/BaseAudioContext/createConvolver
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createConvolver
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createConvolver()` method of the {{ domxref("BaseAudioContext") }}
 interface creates a {{ domxref("ConvolverNode") }}, which is commonly used to apply

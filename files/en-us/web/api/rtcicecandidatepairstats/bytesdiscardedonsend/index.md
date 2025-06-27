@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_candidate-pair.bytesDiscardedOnSend
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`bytesDiscardedOnSend`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the total number of bytes discarded due to socket errors.
 

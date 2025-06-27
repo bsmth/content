@@ -3,9 +3,10 @@ title: IntersectionObserverEntry
 slug: Web/API/IntersectionObserverEntry
 page-type: web-api-interface
 browser-compat: api.IntersectionObserverEntry
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`IntersectionObserverEntry`** interface of the [Intersection Observer API](/en-US/docs/Web/API/Intersection_Observer_API) describes the intersection between the target element and its root container at a specific moment of transition.
 

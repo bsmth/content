@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Summarizer.expectedInputLanguages
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`expectedInputLanguages`** read-only property of the {{domxref("Summarizer")}} interface returns the languages the `Summarizer` should support.
 

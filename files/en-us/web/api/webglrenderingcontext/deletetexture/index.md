@@ -4,9 +4,12 @@ short-title: deleteTexture()
 slug: Web/API/WebGLRenderingContext/deleteTexture
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.deleteTexture
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.deleteTexture()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) deletes a given

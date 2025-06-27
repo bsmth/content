@@ -4,9 +4,12 @@ short-title: alphabeticBaseline
 slug: Web/API/TextMetrics/alphabeticBaseline
 page-type: web-api-instance-property
 browser-compat: api.TextMetrics.alphabeticBaseline
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only `alphabeticBaseline` property of the {{domxref("TextMetrics")}} interface is a `double` giving the distance from the horizontal line indicated by the {{domxref("CanvasRenderingContext2D.textBaseline")}} property to the alphabetic baseline of the line box, in CSS pixels.
 

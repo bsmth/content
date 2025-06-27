@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLFieldSetElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLFieldSetElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`type`** read-only property of the {{domxref("HTMLFieldSetElement")}} interface returns the string `"fieldset"`.
 

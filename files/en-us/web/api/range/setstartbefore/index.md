@@ -4,9 +4,10 @@ short-title: setStartBefore()
 slug: Web/API/Range/setStartBefore
 page-type: web-api-instance-method
 browser-compat: api.Range.setStartBefore
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.setStartBefore()`** method sets the start position
 of a {{domxref("Range")}} relative to another {{domxref("Node")}}. The parent

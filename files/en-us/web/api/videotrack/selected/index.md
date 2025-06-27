@@ -4,9 +4,10 @@ short-title: selected
 slug: Web/API/VideoTrack/selected
 page-type: web-api-instance-property
 browser-compat: api.VideoTrack.selected
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **{{domxref("VideoTrack")}}** property
 **`selected`** controls whether or not a particular video

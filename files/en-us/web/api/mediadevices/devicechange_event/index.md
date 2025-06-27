@@ -4,9 +4,12 @@ short-title: devicechange
 slug: Web/API/MediaDevices/devicechange_event
 page-type: web-api-event
 browser-compat: api.MediaDevices.devicechange_event
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`devicechange`** event is sent to a {{domxref("MediaDevices")}} instance whenever a media device such as a camera, microphone, or speaker is connected to or removed from the system.
 

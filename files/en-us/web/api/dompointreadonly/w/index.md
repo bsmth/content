@@ -4,9 +4,12 @@ short-title: w
 slug: Web/API/DOMPointReadOnly/w
 page-type: web-api-instance-property
 browser-compat: api.DOMPointReadOnly.w
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMPointReadOnly`** interface's
 **`w`** property holds the point's perspective value,

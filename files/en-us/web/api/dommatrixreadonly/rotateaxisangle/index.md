@@ -4,9 +4,12 @@ short-title: rotateAxisAngle()
 slug: Web/API/DOMMatrixReadOnly/rotateAxisAngle
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.rotateAxisAngle
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `rotateAxisAngle()` method of the {{domxref("DOMMatrixReadOnly")}} interface returns a new {{domxref("DOMMatrix")}} created by rotating the source matrix by the given vector and angle. The original matrix is not altered.
 

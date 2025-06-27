@@ -3,9 +3,12 @@ title: PerformanceEntry
 slug: Web/API/PerformanceEntry
 page-type: web-api-interface
 browser-compat: api.PerformanceEntry
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`PerformanceEntry`** object encapsulates a single performance metric that is part of the browser's performance timeline.
 

@@ -4,9 +4,10 @@ short-title: content
 slug: Web/API/HTMLTemplateElement/content
 page-type: web-api-instance-property
 browser-compat: api.HTMLTemplateElement.content
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`HTMLTemplateElement.content`** property returns a
 `<template>` element's template contents (a

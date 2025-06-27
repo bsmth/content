@@ -4,9 +4,12 @@ short-title: vertexAttribPointer()
 slug: Web/API/WebGLRenderingContext/vertexAttribPointer
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.vertexAttribPointer
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The
 **`WebGLRenderingContext.vertexAttribPointer()`** method of the

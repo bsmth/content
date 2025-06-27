@@ -4,9 +4,12 @@ short-title: lowerOpen
 slug: Web/API/IDBKeyRange/lowerOpen
 page-type: web-api-instance-property
 browser-compat: api.IDBKeyRange.lowerOpen
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`lowerOpen`** read-only property of the
 {{domxref("IDBKeyRange")}} interface returns a boolean indicating whether the

@@ -4,9 +4,10 @@ short-title: complete
 slug: Web/API/HTMLImageElement/complete
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.complete
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only {{domxref("HTMLImageElement")}} interface's
 **`complete`** attribute is a Boolean value which indicates

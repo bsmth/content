@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.vlinkColor
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`Document.vlinkColor`** property gets/sets the color of
 links that the user has visited in the document.

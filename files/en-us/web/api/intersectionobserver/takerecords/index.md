@@ -4,9 +4,10 @@ short-title: takeRecords()
 slug: Web/API/IntersectionObserver/takeRecords
 page-type: web-api-instance-method
 browser-compat: api.IntersectionObserver.takeRecords
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`takeRecords()`** method of the {{domxref("IntersectionObserver")}} interface returns an array of {{domxref("IntersectionObserverEntry")}} objects, one for each targeted element which has experienced an intersection change since the last time the intersections were checked, either explicitly through a call to this method or implicitly by an automatic call to the observer's callback.
 

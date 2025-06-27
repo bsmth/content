@@ -4,9 +4,12 @@ short-title: upperBound()
 slug: Web/API/IDBKeyRange/upperBound_static
 page-type: web-api-static-method
 browser-compat: api.IDBKeyRange.upperBound_static
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`upperBound()`** static method of the
 {{domxref("IDBKeyRange")}} interface creates a new upper-bound key range. By default,

@@ -4,9 +4,10 @@ short-title: connect
 slug: Web/API/SharedWorkerGlobalScope/connect_event
 page-type: web-api-event
 browser-compat: api.SharedWorkerGlobalScope.connect_event
+sidebar:
+  - apiref:
+      - Web Workers API
 ---
-
-{{APIRef("Web Workers API")}}
 
 The **`connect`** event is fired in shared workers at their {{domxref("SharedWorkerGlobalScope")}} when a new client connects.
 

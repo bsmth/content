@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.SnapEvent.snapTargetBlock
+sidebar:
+  - apiref:
+      - Snap Events
 ---
 
-{{APIRef("Snap Events")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`snapTargetBlock`** read-only property of the
 {{domxref("SnapEvent")}} interface returns a reference to the element snapped to in the block direction when the event fired.

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.linkColor
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}} {{Deprecated_header}}
+{{Deprecated_header}}
 
 The **`Document.linkColor`** property gets/sets the color of
 links within the document.

@@ -4,9 +4,10 @@ short-title: spellcheck
 slug: Web/API/HTMLElement/spellcheck
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.spellcheck
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`spellcheck`** property of the {{domxref("HTMLElement")}} interface represents a boolean value that controls the [spell-checking](/en-US/docs/Web/HTML/Reference/Global_attributes/spellcheck) hint. It is available on all HTML elements, though it doesn't affect all of them.
 

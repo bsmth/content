@@ -4,9 +4,10 @@ short-title: codedRect
 slug: Web/API/VideoFrame/codedRect
 page-type: web-api-instance-property
 browser-compat: api.VideoFrame.codedRect
+sidebar:
+  - apiref:
+      - Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`codedRect`** property of the {{domxref("VideoFrame")}} interface returns a {{domxref("DOMRectReadOnly")}} with the width and height matching {{domxref("VideoFrame.codedWidth")}} and {{domxref("VideoFrame.codedHeight")}}.
 

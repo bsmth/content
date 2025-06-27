@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.TextEvent.data
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`data`** read-only property of the {{domxref("TextEvent")}} interface returns the last character added to the input element.
 

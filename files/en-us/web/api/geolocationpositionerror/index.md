@@ -3,9 +3,12 @@ title: GeolocationPositionError
 slug: Web/API/GeolocationPositionError
 page-type: web-api-interface
 browser-compat: api.GeolocationPositionError
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`GeolocationPositionError`** interface represents the reason of an error occurring when using the geolocating device.
 

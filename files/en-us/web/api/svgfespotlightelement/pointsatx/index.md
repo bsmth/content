@@ -4,9 +4,10 @@ short-title: pointsAtX
 slug: Web/API/SVGFESpotLightElement/pointsAtX
 page-type: web-api-instance-property
 browser-compat: api.SVGFESpotLightElement.pointsAtX
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`pointsAtX`** read-only property of the {{domxref("SVGFESpotLightElement")}} interface reflects the {{SVGAttr("pointsAtX")}} attribute of the given {{SVGElement("feSpotLight")}} element.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XRWebGLSubImage.colorTextureWidth
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The read-only **`colorTextureWidth`** property of the {{domxref("XRWebGLSubImage")}} interface is a number representing the width in pixels of the GL attachment.
 

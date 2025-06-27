@@ -4,9 +4,10 @@ short-title: ancestorOrigins
 slug: Web/API/Location/ancestorOrigins
 page-type: web-api-instance-property
 browser-compat: api.Location.ancestorOrigins
+sidebar:
+  - apiref:
+      - Location
 ---
-
-{{APIRef("Location")}}
 
 The **`ancestorOrigins`** read-only
 property of the {{domxref("Location")}} interface is a static

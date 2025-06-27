@@ -4,9 +4,10 @@ short-title: MediaSource()
 slug: Web/API/MediaSource/MediaSource
 page-type: web-api-constructor
 browser-compat: api.MediaSource.MediaSource
+sidebar:
+  - apiref:
+      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`MediaSource()`** constructor of the
 {{domxref("MediaSource")}} interface constructs and returns a new

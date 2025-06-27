@@ -4,9 +4,10 @@ short-title: track
 slug: Web/API/RTCTrackEvent/track
 page-type: web-api-instance-property
 browser-compat: api.RTCTrackEvent.track
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The [WebRTC API](/en-US/docs/Web/API/WebRTC_API)
 interface {{domxref("RTCTrackEvent")}}'s read-only **`track`**

@@ -4,9 +4,12 @@ short-title: readyState
 slug: Web/API/EventSource/readyState
 page-type: web-api-instance-property
 browser-compat: api.EventSource.readyState
+sidebar:
+  - apiref:
+      - Server Sent Events
 ---
 
-{{APIRef("Server Sent Events")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`readyState`** read-only property of the
 {{domxref("EventSource")}} interface returns a number representing the state of the

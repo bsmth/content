@@ -4,9 +4,10 @@ short-title: media
 slug: Web/API/MediaQueryListEvent/media
 page-type: web-api-instance-property
 browser-compat: api.MediaQueryListEvent.media
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`media`** read-only property of the
 {{DOMxRef("MediaQueryListEvent")}} interface is a string representing

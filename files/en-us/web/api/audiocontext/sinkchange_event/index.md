@@ -6,9 +6,12 @@ page-type: web-api-event
 status:
   - experimental
 browser-compat: api.AudioContext.sinkchange_event
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`sinkchange`** event of the {{domxref("AudioContext")}} interface is fired when the output audio device (and therefore, the {{domxref("AudioContext.sinkId")}}) has changed.
 

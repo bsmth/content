@@ -3,9 +3,10 @@ title: DOMParser
 slug: Web/API/DOMParser
 page-type: web-api-interface
 browser-compat: api.DOMParser
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`DOMParser`** interface provides
 the ability to parse {{Glossary("XML")}} or {{Glossary("HTML")}} source code from a

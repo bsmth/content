@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XREquirectLayer.transform
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`transform`** property of the {{domxref("XREquirectLayer")}} interface represents the offset and orientation relative to the layer's {{domxref("XREquirectLayer.space", "space")}}.
 

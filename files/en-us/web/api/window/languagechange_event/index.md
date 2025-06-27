@@ -4,9 +4,8 @@ short-title: languagechange
 slug: Web/API/Window/languagechange_event
 page-type: web-api-event
 browser-compat: api.Window.languagechange_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`languagechange`** event is fired at the global scope object when the user's preferred language changes.
 

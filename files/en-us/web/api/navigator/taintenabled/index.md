@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Navigator.taintEnabled
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{deprecated_header}}
+{{deprecated_header}}
 
 The **`Navigator.taintEnabled()`** method always returns
 `false`.

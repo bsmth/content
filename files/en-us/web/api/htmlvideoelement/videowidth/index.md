@@ -4,9 +4,10 @@ short-title: videoWidth
 slug: Web/API/HTMLVideoElement/videoWidth
 page-type: web-api-instance-property
 browser-compat: api.HTMLVideoElement.videoWidth
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLVideoElement")}} interface's read-only **`videoWidth`** property indicates the [intrinsic width](/en-US/docs/Web/API/HTMLVideoElement/videoHeight#about_intrinsic_width_and_height) of the video, expressed in CSS pixels.
 In simple terms, this is the width of the media in its natural size.

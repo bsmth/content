@@ -3,9 +3,10 @@ title: DOMTokenList
 slug: Web/API/DOMTokenList
 page-type: web-api-interface
 browser-compat: api.DOMTokenList
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`DOMTokenList`** interface represents a set of space-separated tokens. Such a set is returned by {{domxref("Element.classList")}} or {{domxref("HTMLLinkElement.relList")}}, and many others.
 

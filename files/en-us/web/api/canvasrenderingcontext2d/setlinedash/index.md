@@ -4,9 +4,8 @@ short-title: setLineDash()
 slug: Web/API/CanvasRenderingContext2D/setLineDash
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.setLineDash
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`setLineDash()`** method of the Canvas 2D API's
 {{domxref("CanvasRenderingContext2D")}} interface sets the line dash pattern used when

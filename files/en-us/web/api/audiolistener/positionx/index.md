@@ -4,9 +4,10 @@ short-title: positionX
 slug: Web/API/AudioListener/positionX
 page-type: web-api-instance-property
 browser-compat: api.AudioListener.positionX
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `positionX` read-only property of the {{ domxref("AudioListener") }} interface is an {{domxref("AudioParam")}} representing the x position of the listener in 3D cartesian space.
 

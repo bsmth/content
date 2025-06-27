@@ -5,9 +5,10 @@ slug: Web/API/Highlight/forEach
 page-type: web-api-instance-method
 browser-compat: api.Highlight.forEach
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.foreach
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`forEach()`** method of the {{domxref("Highlight")}} interface executes a provided function once for each {{domxref("Range")}} object in the `Highlight` object, in insertion order.
 

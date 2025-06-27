@@ -4,9 +4,10 @@ short-title: finished
 slug: Web/API/ViewTransition/finished
 page-type: web-api-instance-property
 browser-compat: api.ViewTransition.finished
+sidebar:
+  - apiref:
+      - View Transition API
 ---
-
-{{APIRef("View Transition API")}}
 
 The **`finished`** read-only property of the
 {{domxref("ViewTransition")}} interface is a {{jsxref("Promise")}} that fulfills once the transition animation is finished, and the new page view is visible and interactive to the user.

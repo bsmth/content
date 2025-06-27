@@ -3,9 +3,10 @@ title: CSSTransformComponent
 slug: Web/API/CSSTransformComponent
 page-type: web-api-interface
 browser-compat: api.CSSTransformComponent
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSTransformComponent`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model) is part of the {{domxref('CSSTransformValue')}} interface.
 

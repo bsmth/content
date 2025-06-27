@@ -4,9 +4,12 @@ short-title: info
 slug: Web/API/GPUAdapter/info
 page-type: web-api-instance-property
 browser-compat: api.GPUAdapter.info
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`info`** read-only property of the
 {{domxref("GPUAdapter")}} interface returns a {{domxref("GPUAdapterInfo")}} object containing identifying information about the adapter.

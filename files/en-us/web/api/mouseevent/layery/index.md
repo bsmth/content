@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.MouseEvent.layerY
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The **`MouseEvent.layerY`** read-only property returns the
 vertical coordinate of the event relative to the current layer.

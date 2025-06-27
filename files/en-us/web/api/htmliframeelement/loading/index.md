@@ -4,9 +4,10 @@ short-title: loading
 slug: Web/API/HTMLIFrameElement/loading
 page-type: web-api-instance-property
 browser-compat: api.HTMLIFrameElement.loading
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`loading`** property of the {{domxref("HTMLIFrameElement")}} interface is a string that provides a hint to the {{Glossary("user agent")}} indicating whether the [iframe](/en-US/docs/Web/HTML/Reference/Elements/iframe) should be loaded immediately on page load, or only when it is needed.
 

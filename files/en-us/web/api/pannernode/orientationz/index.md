@@ -4,9 +4,10 @@ short-title: orientationZ
 slug: Web/API/PannerNode/orientationZ
 page-type: web-api-instance-property
 browser-compat: api.PannerNode.orientationZ
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`orientationZ`** property of the {{ domxref("PannerNode") }} interface
 indicates the Z (depth) component of the direction the audio source is facing, in 3D Cartesian coordinate space.

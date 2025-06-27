@@ -4,9 +4,10 @@ short-title: media
 slug: Web/API/HTMLMetaElement/media
 page-type: web-api-instance-property
 browser-compat: api.HTMLMetaElement.media
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMetaElement.media`** property enables specifying the media for `theme-color` metadata.
 

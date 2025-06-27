@@ -3,9 +3,10 @@ title: VideoTrackList
 slug: Web/API/VideoTrackList
 page-type: web-api-interface
 browser-compat: api.VideoTrackList
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`VideoTrackList`** interface is used to represent a list of the video tracks contained within a {{HTMLElement("video")}} element, with each track represented by a separate {{domxref("VideoTrack")}} object in the list.
 

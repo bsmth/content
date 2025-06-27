@@ -4,9 +4,10 @@ short-title: kind
 slug: Web/API/MediaStreamTrack/kind
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.kind
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`kind`** read-only property of the {{domxref("MediaStreamTrack")}} interface returns a string set to `"audio"` if the track is an audio track and to `"video"` if it is a video track.
 It doesn't change if the track is disassociated from its source.

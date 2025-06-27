@@ -4,9 +4,12 @@ short-title: label
 slug: Web/API/GPURenderBundle/label
 page-type: web-api-instance-property
 browser-compat: api.GPURenderBundle.label
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`label`** read-only property of the
 {{domxref("GPURenderBundle")}} interface is a string providing a label that can be used to identify the object, for example in {{domxref("GPUError")}} messages or console warnings.

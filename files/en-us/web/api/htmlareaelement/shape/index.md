@@ -4,9 +4,10 @@ short-title: shape
 slug: Web/API/HTMLAreaElement/shape
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.shape
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`shape`** property of the {{DOMxRef("HTMLAreaElement")}} interface specifies the shape of an image map area. It reflects the {{htmlelement("area")}} element's [`shape`](/en-US/docs/Web/HTML/Reference/Elements/area#shape) attribute.
 

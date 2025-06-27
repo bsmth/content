@@ -4,9 +4,12 @@ short-title: popDebugGroup()
 slug: Web/API/GPUCommandEncoder/popDebugGroup
 page-type: web-api-instance-method
 browser-compat: api.GPUCommandEncoder.popDebugGroup
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`popDebugGroup()`** method of the
 {{domxref("GPUCommandEncoder")}} interface ends a debug group, which is begun with a {{domxref("GPUCommandEncoder.pushDebugGroup", "pushDebugGroup()")}} call.

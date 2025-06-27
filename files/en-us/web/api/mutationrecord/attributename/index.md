@@ -4,9 +4,10 @@ short-title: attributeName
 slug: Web/API/MutationRecord/attributeName
 page-type: web-api-instance-property
 browser-compat: api.MutationRecord.attributeName
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("MutationRecord")}} read-only property **`attributeName`** contains the name of a changed attribute belonging to a node that is observed by a {{domxref("MutationObserver")}}.
 

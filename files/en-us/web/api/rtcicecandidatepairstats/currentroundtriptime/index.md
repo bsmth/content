@@ -4,9 +4,10 @@ short-title: currentRoundTripTime
 slug: Web/API/RTCIceCandidatePairStats/currentRoundTripTime
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.currentRoundTripTime
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`currentRoundTripTime`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the number of seconds it takes for data to be sent by this peer to the remote peer and back over the connection described by this pair of {{Glossary("ICE")}} candidates.
 

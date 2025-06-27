@@ -4,9 +4,10 @@ short-title: src
 slug: Web/API/HTMLTrackElement/src
 page-type: web-api-instance-property
 browser-compat: api.HTMLTrackElement.src
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`src`** property of the {{domxref("HTMLTrackElement")}} interface reflects the value of
 the {{HTMLElement("track")}} element's [`src`](/en-US/docs/Web/HTML/Reference/Elements/track#src) attribute, which

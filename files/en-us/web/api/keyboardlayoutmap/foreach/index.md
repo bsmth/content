@@ -7,9 +7,12 @@ status:
   - experimental
 browser-compat: api.KeyboardLayoutMap.forEach
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.foreach
+sidebar:
+  - apiref:
+      - Keyboard API
 ---
 
-{{APIRef("Keyboard API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`forEach()`** method of the
 {{domxref('KeyboardLayoutMap')}} interface executes a provided function once for

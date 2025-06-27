@@ -4,9 +4,8 @@ short-title: beforeprint
 slug: Web/API/Window/beforeprint_event
 page-type: web-api-event
 browser-compat: api.Window.beforeprint_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`beforeprint`** event is fired when the associated document is about to be printed or previewed for printing.
 

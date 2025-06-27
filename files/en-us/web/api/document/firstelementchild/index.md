@@ -4,9 +4,10 @@ short-title: firstElementChild
 slug: Web/API/Document/firstElementChild
 page-type: web-api-instance-property
 browser-compat: api.Document.firstElementChild
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`Document.firstElementChild`** read-only property
 returns the document's first child {{domxref("Element")}}, or `null` if there

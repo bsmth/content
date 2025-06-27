@@ -4,9 +4,12 @@ short-title: groupCollapsed()
 slug: Web/API/console/groupCollapsed_static
 page-type: web-api-static-method
 browser-compat: api.console.groupCollapsed_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.groupCollapsed()`** static method creates a new inline group in the console. Unlike {{domxref("console/group_static", "console.group()")}}, however, the new group is created collapsed. The user will need to use the disclosure button next to it to expand it, revealing the entries created in the group.
 

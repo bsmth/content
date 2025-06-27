@@ -4,9 +4,10 @@ short-title: adoptedStyleSheets
 slug: Web/API/Document/adoptedStyleSheets
 page-type: web-api-instance-property
 browser-compat: api.Document.adoptedStyleSheets
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`adoptedStyleSheets`** property of the {{domxref("Document")}} interface is used for setting an array of constructed stylesheets to be used by the document.
 

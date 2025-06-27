@@ -3,9 +3,10 @@ title: RTCIceCandidatePair
 slug: Web/API/RTCIceCandidatePair
 page-type: web-api-interface
 browser-compat: api.RTCIceCandidatePair
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCIceCandidatePair`** dictionary describes a pair of ICE candidates which together comprise a description of a viable connection between two WebRTC endpoints. It is used as the return value from {{domxref("RTCIceTransport.getSelectedCandidatePair()")}} to identify the currently-selected candidate pair identified by the ICE agent.
 

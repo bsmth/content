@@ -3,9 +3,12 @@ title: AuthenticatorAssertionResponse
 slug: Web/API/AuthenticatorAssertionResponse
 page-type: web-api-interface
 browser-compat: api.AuthenticatorAssertionResponse
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`AuthenticatorAssertionResponse`** interface of the [Web Authentication API](/en-US/docs/Web/API/Web_Authentication_API) contains a [digital signature](/en-US/docs/Glossary/Signature/Security) from the private key of a particular WebAuthn credential. The relying party's server can verify this signature to authenticate a user, for example when they sign in.
 

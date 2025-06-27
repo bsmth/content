@@ -4,9 +4,10 @@ short-title: kernelUnitLengthX
 slug: Web/API/SVGFESpecularLightingElement/kernelUnitLengthX
 page-type: web-api-instance-property
 browser-compat: api.SVGFESpecularLightingElement.kernelUnitLengthX
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`kernelUnitLengthX`** read-only property of the {{domxref("SVGFESpecularLightingElement")}} interface reflects the x value of the {{SVGAttr("kernelUnitLength")}} attribute of the given {{SVGElement("feSpecularLighting")}} element.
 

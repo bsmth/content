@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/SVGPointList/length
 page-type: web-api-instance-property
 browser-compat: api.SVGPointList.length
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`length`** read-only property of the {{domxref("SVGPointList")}} interface returns the number of items in the list.
 

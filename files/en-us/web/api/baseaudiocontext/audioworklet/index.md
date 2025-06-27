@@ -4,9 +4,12 @@ short-title: audioWorklet
 slug: Web/API/BaseAudioContext/audioWorklet
 page-type: web-api-instance-property
 browser-compat: api.BaseAudioContext.audioWorklet
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{ APIRef("Web Audio API") }}{{securecontext_header}}
+{{securecontext_header}}
 
 The `audioWorklet` read-only property of the
 {{domxref("BaseAudioContext")}} interface returns an instance of

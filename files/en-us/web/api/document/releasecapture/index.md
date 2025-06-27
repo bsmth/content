@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.Document.releaseCapture
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{ApiRef("DOM")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`releaseCapture()`** method releases mouse capture if
 it's currently enabled on an element within this document.

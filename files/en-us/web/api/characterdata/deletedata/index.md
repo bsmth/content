@@ -4,9 +4,10 @@ short-title: deleteData()
 slug: Web/API/CharacterData/deleteData
 page-type: web-api-instance-method
 browser-compat: api.CharacterData.deleteData
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`deleteData()`** method of the {{domxref("CharacterData")}} interface
 removes all or part of the data from this `CharacterData` node.

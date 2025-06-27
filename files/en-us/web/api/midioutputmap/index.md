@@ -3,9 +3,12 @@ title: MIDIOutputMap
 slug: Web/API/MIDIOutputMap
 page-type: web-api-interface
 browser-compat: api.MIDIOutputMap
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{APIRef("Web MIDI API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`MIDIOutputMap`** read-only interface of the [Web MIDI API](/en-US/docs/Web/API/Web_MIDI_API) provides the set of MIDI output ports that are currently available.
 

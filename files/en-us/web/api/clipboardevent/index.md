@@ -3,9 +3,10 @@ title: ClipboardEvent
 slug: Web/API/ClipboardEvent
 page-type: web-api-interface
 browser-compat: api.ClipboardEvent
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
-
-{{APIRef("Clipboard API")}}
 
 The **`ClipboardEvent`** interface of the [Clipboard API](/en-US/docs/Web/API/Clipboard_API) represents events providing information related to modification of the clipboard, that is {{domxref("Element/cut_event", "cut")}}, {{domxref("Element/copy_event", "copy")}}, and {{domxref("Element/paste_event", "paste")}} events.
 

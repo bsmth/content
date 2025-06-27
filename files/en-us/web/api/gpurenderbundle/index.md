@@ -3,9 +3,12 @@ title: GPURenderBundle
 slug: Web/API/GPURenderBundle
 page-type: web-api-interface
 browser-compat: api.GPURenderBundle
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPURenderBundle`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} represents a container for pre-recorded bundles of commands.
 

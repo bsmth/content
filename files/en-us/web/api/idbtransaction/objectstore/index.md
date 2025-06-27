@@ -4,9 +4,12 @@ short-title: objectStore()
 slug: Web/API/IDBTransaction/objectStore
 page-type: web-api-instance-method
 browser-compat: api.IDBTransaction.objectStore
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`objectStore()`** method of the
 {{domxref("IDBTransaction")}} interface returns an object store that has already been

@@ -4,9 +4,10 @@ short-title: averageRtcpInterval
 slug: Web/API/RTCInboundRtpStreamStats/averageRtcpInterval
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.averageRtcpInterval
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`averageRtcpInterval`** property
 of the {{domxref("RTCInboundRtpStreamStats")}} dictionary is a floating-point value

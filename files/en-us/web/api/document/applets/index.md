@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Document.applets
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`applets`** property of the {{domxref("Document")}} returns an empty {{domxref("HTMLCollection")}}. This property is kept only for compatibility reasons; in older versions of browsers, it returned a list of the applets within a document.
 

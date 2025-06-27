@@ -4,9 +4,12 @@ short-title: orientation
 slug: Web/API/XRRigidTransform/orientation
 page-type: web-api-instance-property
 browser-compat: api.XRRigidTransform.orientation
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRRigidTransform")}} property
 **`orientation`** is a {{domxref("DOMPointReadOnly")}}

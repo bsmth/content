@@ -3,9 +3,10 @@ title: UserActivation
 slug: Web/API/UserActivation
 page-type: web-api-interface
 browser-compat: api.UserActivation
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`UserActivation`** interface provides information about whether a user is currently interacting with the page, or has completed an interaction since page load.
 

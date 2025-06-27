@@ -3,9 +3,10 @@ title: HTMLProgressElement
 slug: Web/API/HTMLProgressElement
 page-type: web-api-interface
 browser-compat: api.HTMLProgressElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLProgressElement`** interface provides special properties and methods (beyond the regular {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating the layout and presentation of {{HTMLElement("progress")}} elements.
 

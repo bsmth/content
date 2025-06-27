@@ -4,9 +4,10 @@ short-title: get()
 slug: Web/API/CustomElementRegistry/get
 page-type: web-api-instance-method
 browser-compat: api.CustomElementRegistry.get
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`get()`** method of the
 {{domxref("CustomElementRegistry")}} interface returns the constructor for a

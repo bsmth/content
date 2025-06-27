@@ -6,9 +6,10 @@ browser-compat:
   - api.HTMLDialogElement
   - api.HTMLElement.beforetoggle_event.dialog_elements
   - api.HTMLElement.toggle_event.dialog_elements
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLDialogElement`** interface provides methods to manipulate {{HTMLElement("dialog")}} elements. It inherits properties and methods from the {{domxref("HTMLElement")}} interface.
 

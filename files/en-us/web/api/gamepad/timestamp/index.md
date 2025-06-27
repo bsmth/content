@@ -4,9 +4,12 @@ short-title: timestamp
 slug: Web/API/Gamepad/timestamp
 page-type: web-api-instance-property
 browser-compat: api.Gamepad.timestamp
+sidebar:
+  - apiref:
+      - Gamepad API
 ---
 
-{{APIRef("Gamepad API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`Gamepad.timestamp`** property of the
 {{domxref("Gamepad")}} interface returns a {{domxref("DOMHighResTimeStamp")}}

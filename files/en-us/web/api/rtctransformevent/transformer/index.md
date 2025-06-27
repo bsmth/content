@@ -4,9 +4,10 @@ short-title: transformer
 slug: Web/API/RTCTransformEvent/transformer
 page-type: web-api-instance-property
 browser-compat: api.RTCTransformEvent.transformer
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`transformer`** property of the {{domxref("RTCTransformEvent")}} interface returns the {{domxref("RTCRtpScriptTransformer")}} associated with the event.
 

@@ -4,9 +4,10 @@ short-title: local
 slug: Web/API/RTCIceCandidatePair/local
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidatePair.local
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`local`** property of the **{{domxref("RTCIceCandidatePair")}}** dictionary specifies the {{domxref("RTCIceCandidate")}} which describes the configuration of the local end of a viable WebRTC connection.
 

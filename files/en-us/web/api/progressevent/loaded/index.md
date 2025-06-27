@@ -4,9 +4,12 @@ short-title: loaded
 slug: Web/API/ProgressEvent/loaded
 page-type: web-api-instance-property
 browser-compat: api.ProgressEvent.loaded
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ProgressEvent.loaded`** read-only property is a number indicating the size of the data already transmitted or processed.
 The progress ratio can be calculated by dividing the value of this property by {{domxref("ProgressEvent.total")}}.

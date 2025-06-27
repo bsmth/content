@@ -4,9 +4,12 @@ short-title: insertDebugMarker()
 slug: Web/API/GPUCommandEncoder/insertDebugMarker
 page-type: web-api-instance-method
 browser-compat: api.GPUCommandEncoder.insertDebugMarker
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`insertDebugMarker()`** method of the
 {{domxref("GPUCommandEncoder")}} interface marks a specific point in a series of encoded commands with a label.

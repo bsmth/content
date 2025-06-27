@@ -4,9 +4,10 @@ short-title: postMessage()
 slug: Web/API/DedicatedWorkerGlobalScope/postMessage
 page-type: web-api-instance-method
 browser-compat: api.DedicatedWorkerGlobalScope.postMessage
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("dedicated
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("dedicated")}}
 
 The **`postMessage()`** method of the {{domxref("DedicatedWorkerGlobalScope")}} interface sends a message to the main thread that spawned it.
 

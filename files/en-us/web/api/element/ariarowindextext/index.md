@@ -3,9 +3,10 @@ title: Element.ariaRowIndexText
 slug: Web/API/Element/ariaRowIndexText
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaRowIndexText
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaRowIndexText`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-rowindextext`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-rowindextext) attribute, which defines a human readable text alternative of aria-rowindex.
 

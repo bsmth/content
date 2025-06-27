@@ -4,9 +4,8 @@ short-title: appinstalled
 slug: Web/API/Window/appinstalled_event
 page-type: web-api-event
 browser-compat: api.Window.appinstalled_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`appinstalled`** event of the [Web Manifest API](/en-US/docs/Web/Progressive_web_apps/Manifest) is fired when the browser has successfully installed a page as an application.
 

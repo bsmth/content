@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.Window.scrollByLines
+sidebar: apiref
 ---
 
-{{APIRef}} {{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`Window.scrollByLines()`** method scrolls the document by
 the specified number of lines.

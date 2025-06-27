@@ -4,9 +4,10 @@ short-title: dataTransfer
 slug: Web/API/InputEvent/dataTransfer
 page-type: web-api-instance-property
 browser-compat: api.InputEvent.dataTransfer
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`dataTransfer`** read-only property of the
 {{domxref("InputEvent")}} interface returns a {{domxref("DataTransfer")}} object

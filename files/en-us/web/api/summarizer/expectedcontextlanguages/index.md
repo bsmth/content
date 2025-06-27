@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Summarizer.expectedContextLanguages
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`expectedContextLanguages`** read-only property of the {{domxref("Summarizer")}} interface returns the languages the context strings should be written in.
 

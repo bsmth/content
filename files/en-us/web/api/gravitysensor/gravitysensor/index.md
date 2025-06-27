@@ -4,9 +4,12 @@ short-title: GravitySensor()
 slug: Web/API/GravitySensor/GravitySensor
 page-type: web-api-constructor
 browser-compat: api.GravitySensor.GravitySensor
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`GravitySensor()`**
 constructor creates a new {{domxref("GravitySensor")}} object which

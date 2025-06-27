@@ -3,9 +3,10 @@ title: AudioBufferSourceNode
 slug: Web/API/AudioBufferSourceNode
 page-type: web-api-interface
 browser-compat: api.AudioBufferSourceNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`AudioBufferSourceNode`** interface is an {{domxref("AudioScheduledSourceNode")}} which represents an audio source consisting of in-memory audio data, stored in an {{domxref("AudioBuffer")}}.
 

@@ -4,9 +4,10 @@ short-title: sampleSize
 slug: Web/API/MediaTrackSupportedConstraints/sampleSize
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.sampleSize_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSupportedConstraints")}} dictionary's
 **`sampleSize`** property is a read-only Boolean value which is

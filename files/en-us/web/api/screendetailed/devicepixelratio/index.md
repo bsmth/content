@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ScreenDetailed.devicePixelRatio
+sidebar:
+  - apiref:
+      - Window Management API
 ---
 
-{{APIRef("Window Management API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`devicePixelRatio`** read-only property of the
 {{domxref("ScreenDetailed")}} interface is a number representing the screen's {{glossary("device pixel")}} ratio.

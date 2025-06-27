@@ -4,9 +4,10 @@ short-title: selectNode()
 slug: Web/API/Range/selectNode
 page-type: web-api-instance-method
 browser-compat: api.Range.selectNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.selectNode()`** method sets the
 {{domxref("Range")}} to contain the {{domxref("Node")}} and its contents. The parent

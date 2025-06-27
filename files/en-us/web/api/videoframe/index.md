@@ -3,9 +3,10 @@ title: VideoFrame
 slug: Web/API/VideoFrame
 page-type: web-api-interface
 browser-compat: api.VideoFrame
+sidebar:
+  - apiref:
+      - Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`VideoFrame`** interface of the [Web Codecs API](/en-US/docs/Web/API/WebCodecs_API) represents a frame of a video.
 

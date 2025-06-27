@@ -4,9 +4,8 @@ short-title: auxclick
 slug: Web/API/Element/auxclick_event
 page-type: web-api-event
 browser-compat: api.Element.auxclick_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`auxclick`** event is fired at an {{domxref("Element")}} when a non-primary pointing device button (any mouse button other than the primary—usually leftmost—button) has been pressed and released both within the same element.
 

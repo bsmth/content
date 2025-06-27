@@ -3,9 +3,10 @@ title: MediaElementAudioSourceNode
 slug: Web/API/MediaElementAudioSourceNode
 page-type: web-api-interface
 browser-compat: api.MediaElementAudioSourceNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `MediaElementAudioSourceNode` interface represents an audio source consisting of an HTML {{ htmlelement("audio") }} or {{ htmlelement("video") }} element. It is an {{domxref("AudioNode")}} that acts as an audio source.
 

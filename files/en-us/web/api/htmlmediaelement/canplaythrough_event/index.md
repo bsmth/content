@@ -4,9 +4,10 @@ short-title: canplaythrough
 slug: Web/API/HTMLMediaElement/canplaythrough_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.canplaythrough_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `canplaythrough` event is fired when the user agent can play the media, and estimates that enough data has been loaded to play the media up to its end without having to stop for further buffering of content.
 

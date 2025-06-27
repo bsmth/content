@@ -4,9 +4,10 @@ short-title: attributeStyleMap
 slug: Web/API/MathMLElement/attributeStyleMap
 page-type: web-api-instance-property
 browser-compat: api.MathMLElement.attributeStyleMap
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`attributeStyleMap`** read-only property of the {{domxref("MathMLElement")}} interface returns a live {{domxref("StylePropertyMap")}} object that contains a list of style properties of the element that are defined in the element's inline `style` attribute, or assigned using the {{domxref("MathMLElement.style", "style")}} property of the {{domxref("MathMLElement")}} interface via script.
 

@@ -4,9 +4,12 @@ short-title: uniform[1234][uif][v]()
 slug: Web/API/WebGL2RenderingContext/uniform
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.uniform1ui
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.uniform[1234][uif][v]()`**
 methods of the [WebGL API](/en-US/docs/Web/API/WebGL_API) specify values of

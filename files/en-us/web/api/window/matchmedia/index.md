@@ -4,9 +4,8 @@ short-title: matchMedia()
 slug: Web/API/Window/matchMedia
 page-type: web-api-instance-method
 browser-compat: api.Window.matchMedia
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The {{domxref("Window")}} interface's **`matchMedia()`** method
 returns a new {{domxref("MediaQueryList")}} object that can then be used to determine if

@@ -3,9 +3,10 @@ title: HTMLUnknownElement
 slug: Web/API/HTMLUnknownElement
 page-type: web-api-interface
 browser-compat: api.HTMLUnknownElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLUnknownElement`** interface represents an invalid HTML element and derives from the {{DOMxRef("HTMLElement")}} interface, but without implementing any additional properties or methods.
 

@@ -6,9 +6,12 @@ page-type: web-api-static-property
 status:
   - experimental
 browser-compat: api.PressureObserver.knownSources_static
+sidebar:
+  - apiref:
+      - Compute Pressure API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_service
 ---
 
-{{APIRef("Compute Pressure API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_service")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The static **`knownSources`** read-only property of the {{domxref("PressureObserver")}} interface returns an array of the {{domxref("PressureRecord.source","source")}} values supported by the user agent in alphabetical order.
 

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.LaunchQueue
+sidebar:
+  - apiref:
+      - Launch Handler API
 ---
 
-{{APIRef("Launch Handler API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`LaunchQueue`** interface of the {{domxref("Launch Handler API", "Launch Handler API", "", "nocode")}} is available via the {{domxref("Window.launchQueue")}} property. When a [progressive web app](/en-US/docs/Web/Progressive_web_apps) (PWA) is launched with a [`launch_handler`](/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/launch_handler) `client_mode` value of `focus-existing`, `navigate-new`, or `navigate-existing`, `LaunchQueue` provides access to functionality that allows custom launch navigation handling to be implemented in the PWA. This functionality is controlled by the properties of the {{domxref("LaunchParams")}} object passed into the {{domxref("LaunchQueue.setConsumer", "setConsumer()")}} callback function.
 

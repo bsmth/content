@@ -4,9 +4,10 @@ short-title: show()
 slug: Web/API/HTMLDialogElement/show
 page-type: web-api-instance-method
 browser-compat: api.HTMLDialogElement.show
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`show()`** method of the {{domxref("HTMLDialogElement")}}
 interface displays the dialog modelessly, i.e., still allowing interaction with content

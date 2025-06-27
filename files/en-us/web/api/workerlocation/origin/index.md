@@ -4,9 +4,10 @@ short-title: origin
 slug: Web/API/WorkerLocation/origin
 page-type: web-api-instance-property
 browser-compat: api.WorkerLocation.origin
+sidebar:
+  - apiref:
+      - WorkerLocation")}}{{AvailableInWorkers("worker
 ---
-
-{{ApiRef("WorkerLocation")}}{{AvailableInWorkers("worker")}}
 
 The **`origin`** property of a {{domxref("WorkerLocation")}} object returns the worker's {{domxref("URL.origin", "origin")}}.
 

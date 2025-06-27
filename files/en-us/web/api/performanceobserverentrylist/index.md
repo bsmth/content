@@ -3,9 +3,12 @@ title: PerformanceObserverEntryList
 slug: Web/API/PerformanceObserverEntryList
 page-type: web-api-interface
 browser-compat: api.PerformanceObserverEntryList
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`PerformanceObserverEntryList`** interface is a list of {{domxref("PerformanceEntry","performance events", '', 'true')}} that were explicitly observed via the {{domxref("PerformanceObserver.observe","observe()")}} method.
 

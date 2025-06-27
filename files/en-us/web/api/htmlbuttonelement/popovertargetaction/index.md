@@ -4,9 +4,10 @@ short-title: popoverTargetAction
 slug: Web/API/HTMLButtonElement/popoverTargetAction
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.popoverTargetAction
+sidebar:
+  - apiref:
+      - Popover API
 ---
-
-{{APIRef("Popover API")}}
 
 The **`popoverTargetAction`** property of the {{domxref("HTMLButtonElement")}} interface gets and sets the action to be performed (`"hide"`, `"show"`, or `"toggle"`) on a popover element being controlled by a button.
 

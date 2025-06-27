@@ -4,9 +4,10 @@ short-title: addRange()
 slug: Web/API/Selection/addRange
 page-type: web-api-instance-method
 browser-compat: api.Selection.addRange
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.addRange()`** method adds a
 {{domxref("Range")}} to a {{domxref("Selection")}}.

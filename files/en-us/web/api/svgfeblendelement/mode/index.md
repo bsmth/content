@@ -4,9 +4,10 @@ short-title: mode
 slug: Web/API/SVGFEBlendElement/mode
 page-type: web-api-instance-property
 browser-compat: api.SVGFEBlendElement.mode
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`mode`** read-only property of the {{domxref("SVGFEBlendElement")}} interface reflects the {{SVGAttr("mode")}} attribute of the given element. It takes one of the `SVG_FEBLEND_MODE_*` constants defined on this interface.
 

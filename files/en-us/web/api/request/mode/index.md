@@ -4,9 +4,12 @@ short-title: mode
 slug: Web/API/Request/mode
 page-type: web-api-instance-property
 browser-compat: api.Request.mode
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`mode`** read-only property of the {{domxref("Request")}}
 interface contains the mode of the request (e.g., `cors`,

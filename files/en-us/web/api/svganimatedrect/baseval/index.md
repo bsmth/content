@@ -4,9 +4,10 @@ short-title: baseVal
 slug: Web/API/SVGAnimatedRect/baseVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedRect.baseVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`baseVal`** read-only property of the {{domxref("SVGAnimatedRect")}} interface represents the current non-animated value of the `viewBox` attribute of an SVG element.
 

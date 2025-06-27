@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Element.setCapture
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{Deprecated_Header}}{{non-standard_header}}{{ APIRef("DOM") }}
+{{Deprecated_Header}}{{non-standard_header}}
 
 Call this method during the handling of a mousedown event to retarget all mouse events
 to this element until the mouse button is released or {{domxref("document.releaseCapture()")}} is called.

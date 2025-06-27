@@ -4,9 +4,10 @@ short-title: collapseToEnd()
 slug: Web/API/Selection/collapseToEnd
 page-type: web-api-instance-method
 browser-compat: api.Selection.collapseToEnd
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.collapseToEnd()`** method collapses the
 selection to the end of the last range in the selection. If the content of the selection

@@ -4,9 +4,10 @@ short-title: initialize()
 slug: Web/API/SVGTransformList/initialize
 page-type: web-api-instance-method
 browser-compat: api.SVGTransformList.initialize
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `initialize()` method of the {{domxref("SVGTransformList")}} interface clears all existing current items from the list and re-initializes the list to hold the single item specified by the parameter.
 

@@ -4,9 +4,12 @@ short-title: Notification()
 slug: Web/API/Notification/Notification
 page-type: web-api-constructor
 browser-compat: api.Notification.Notification
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`Notification()`** constructor creates a new
 {{domxref("Notification")}} object instance, which represents a user notification.

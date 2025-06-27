@@ -4,9 +4,10 @@ short-title: indeterminate
 slug: Web/API/HTMLInputElement/indeterminate
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.indeterminate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`indeterminate`** property of the {{domxref("HTMLInputElement")}} interface returns a boolean value that indicates whether the checkbox is in the _indeterminate_ state. For example, a "select all/deselect all" checkbox may be in the indeterminate state when some but not all of its sub-controls are checked. The `indeterminate` state can only be set via JavaScript and is only relevant to [`checkbox`](/en-US/docs/Web/HTML/Reference/Elements/input/checkbox) controls.
 

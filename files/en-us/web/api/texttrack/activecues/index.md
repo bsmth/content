@@ -4,9 +4,10 @@ short-title: activeCues
 slug: Web/API/TextTrack/activeCues
 page-type: web-api-instance-property
 browser-compat: api.TextTrack.activeCues
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`activeCues`** read-only property of the {{domxref("TextTrack")}} interface returns a {{domxref("TextTrackCueList")}} object listing the currently active cues.
 

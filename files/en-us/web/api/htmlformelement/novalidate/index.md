@@ -4,9 +4,10 @@ short-title: noValidate
 slug: Web/API/HTMLFormElement/noValidate
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.noValidate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`noValidate`** property of the {{domxref("HTMLFormElement")}} interface is a boolean value indicating if the {{htmlelement("form")}} will bypass [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation) when submitted. It reflects the `<form>` element's [`novalidate`](/en-US/docs/Web/HTML/Reference/Elements/form#novalidate) attribute; if the attribute present, the value is `true`.
 

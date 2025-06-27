@@ -4,9 +4,8 @@ short-title: abort
 slug: Web/API/HTMLMediaElement/abort_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.abort_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`abort`** event is fired when the resource was not fully loaded, but not as the result of an error.
 

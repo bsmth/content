@@ -4,9 +4,10 @@ short-title: formData
 slug: Web/API/FormDataEvent/formData
 page-type: web-api-instance-property
 browser-compat: api.FormDataEvent.formData
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The `formData` read-only property of the {{domxref("FormDataEvent")}}
 interface contains the {{domxref("FormData")}} object representing the data contained in

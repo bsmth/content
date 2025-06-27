@@ -4,9 +4,10 @@ short-title: replaceChildren()
 slug: Web/API/DocumentFragment/replaceChildren
 page-type: web-api-instance-method
 browser-compat: api.DocumentFragment.replaceChildren
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`DocumentFragment.replaceChildren()`** method replaces the
 existing children of a `DocumentFragment` with a specified new set of children. These

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableColElement.ch
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`ch`** property of the {{domxref("HTMLTableColElement")}} interface does nothing. It reflects the `char` attribute of the {{HTMLElement("col")}} element.
 

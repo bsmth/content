@@ -4,9 +4,10 @@ short-title: y
 slug: Web/API/SVGSVGElement/y
 page-type: web-api-instance-property
 browser-compat: api.SVGSVGElement.y
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y`** read-only property of the {{domxref("SVGSVGElement")}} interface describes the vertical coordinate of the position of that SVG as an {{domxref("SVGAnimatedLength")}}. When an {{SVGElement("svg")}} is nested within another `<svg>`, the vertical coordinate is a length in the user coordinate system that is the given distance from the origin of the user coordinate system along the y-axis. Its syntax is the same as that for [`<length>`](/en-US/docs/Web/SVG/Guides/Content_type#length).
 

@@ -4,9 +4,10 @@ short-title: spreadMethod
 slug: Web/API/SVGGradientElement/spreadMethod
 page-type: web-api-instance-property
 browser-compat: api.SVGGradientElement.spreadMethod
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`spreadMethod`** read-only property of the {{domxref("SVGGradientElement")}} interface reflects the {{SVGAttr("spreadMethod")}} attribute of the given element. It takes one of the `SVG_SPREADMETHOD_*` constants defined on this interface.
 

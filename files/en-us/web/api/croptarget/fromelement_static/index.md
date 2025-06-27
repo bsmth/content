@@ -6,9 +6,12 @@ page-type: web-api-static-method
 status:
   - experimental
 browser-compat: api.CropTarget.fromElement_static
+sidebar:
+  - apiref:
+      - Screen Capture API
 ---
 
-{{APIRef("Screen Capture API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`fromElement()`** static method of the {{domxref("CropTarget")}} interface returns a `CropTarget` instance that can be used to crop a captured video track to the area in which a specified element is rendered.
 

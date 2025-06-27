@@ -4,9 +4,10 @@ short-title: selectedIndex
 slug: Web/API/VideoTrackList/selectedIndex
 page-type: web-api-instance-property
 browser-compat: api.VideoTrackList.selectedIndex
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **{{domxref("VideoTrackList")}}**
 property **`selectedIndex`** returns the index of the

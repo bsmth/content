@@ -4,9 +4,8 @@ short-title: fillRect()
 slug: Web/API/CanvasRenderingContext2D/fillRect
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.fillRect
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.fillRect()`**

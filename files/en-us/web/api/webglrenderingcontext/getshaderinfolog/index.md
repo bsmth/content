@@ -4,9 +4,12 @@ short-title: getShaderInfoLog()
 slug: Web/API/WebGLRenderingContext/getShaderInfoLog
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getShaderInfoLog
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **WebGLRenderingContext.getShaderInfoLog** returns the information log
 for the specified {{domxref("WebGLShader")}} object. It contains warnings, debugging and

@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/SpeechSynthesisVoice/name
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisVoice.name
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`name`** read-only property of the
 {{domxref("SpeechSynthesisVoice")}} interface returns a human-readable name that

@@ -4,9 +4,10 @@ short-title: pan
 slug: Web/API/StereoPannerNode/pan
 page-type: web-api-instance-property
 browser-compat: api.StereoPannerNode.pan
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `pan` property of the {{ domxref("StereoPannerNode") }} interface is an [a-rate](/en-US/docs/Web/API/AudioParam#a-rate) {{domxref("AudioParam")}} representing the amount of panning to apply. The value can range between `-1` (full left pan) and `1` (full right pan).
 

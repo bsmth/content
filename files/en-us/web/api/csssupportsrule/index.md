@@ -3,9 +3,10 @@ title: CSSSupportsRule
 slug: Web/API/CSSSupportsRule
 page-type: web-api-interface
 browser-compat: api.CSSSupportsRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSSupportsRule`** interface represents a single CSS {{cssxref("@supports")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

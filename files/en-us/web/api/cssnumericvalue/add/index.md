@@ -4,9 +4,10 @@ short-title: add()
 slug: Web/API/CSSNumericValue/add
 page-type: web-api-instance-method
 browser-compat: api.CSSNumericValue.add
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`add()`** method of the
 {{domxref("CSSNumericValue")}} interface adds a supplied number to the

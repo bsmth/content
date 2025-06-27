@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Ink.requestPresenter
+sidebar:
+  - apiref:
+      - Ink API
 ---
 
-{{APIRef("Ink API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`requestPresenter()`** method of the {{domxref("Ink")}} interface returns a {{jsxref("Promise")}} that fulfills with a {{domxref("DelegatedInkTrailPresenter")}} object to handle rendering strokes.
 

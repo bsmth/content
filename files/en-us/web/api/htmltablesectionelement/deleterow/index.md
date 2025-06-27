@@ -4,9 +4,10 @@ short-title: deleteRow()
 slug: Web/API/HTMLTableSectionElement/deleteRow
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableSectionElement.deleteRow
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`deleteRow()`** method of the {{domxref("HTMLTableSectionElement")}} interface removes a
 specific row ({{HtmlElement("tr")}}) from a given {{HtmlElement("section")}}.

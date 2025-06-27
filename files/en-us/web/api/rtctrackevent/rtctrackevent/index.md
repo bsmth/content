@@ -4,9 +4,10 @@ short-title: RTCTrackEvent()
 slug: Web/API/RTCTrackEvent/RTCTrackEvent
 page-type: web-api-constructor
 browser-compat: api.RTCTrackEvent.RTCTrackEvent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCTrackEvent()`** constructor creates and returns a new {{domxref("RTCTrackEvent")}} object,
 configured to describe the track which has been added to the {{domxref("RTCPeerConnection")}}.

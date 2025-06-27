@@ -3,9 +3,12 @@ title: Worklet
 slug: Web/API/Worklet
 page-type: web-api-interface
 browser-compat: api.Worklet
+sidebar:
+  - apiref:
+      - Worklets
 ---
 
-{{APIRef("Worklets")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`Worklet`** interface is a lightweight version of [Web Workers](/en-US/docs/Web/API/Web_Workers_API) and gives developers access to low-level parts of the rendering pipeline.
 

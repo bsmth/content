@@ -4,9 +4,12 @@ short-title: keystatuseschange
 slug: Web/API/MediaKeySession/keystatuseschange_event
 page-type: web-api-event
 browser-compat: api.MediaKeySession.keystatuseschange_event
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`keystatuseschange`** event of the {{domxref("MediaKeySession")}} API fires when there has been a change in the keys or their statuses within a session.
 

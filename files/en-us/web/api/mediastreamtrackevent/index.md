@@ -3,9 +3,10 @@ title: MediaStreamTrackEvent
 slug: Web/API/MediaStreamTrackEvent
 page-type: web-api-interface
 browser-compat: api.MediaStreamTrackEvent
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`MediaStreamTrackEvent`** interface of the {{domxref("Media Capture and Streams API", "", "", "nocode")}} represents events which indicate that a {{domxref("MediaStream")}} has had tracks added to or removed from the stream through calls to [Media Capture and Streams API](/en-US/docs/Web/API/Media_Capture_and_Streams_API) methods. These events are sent to the stream when these changes occur.
 

@@ -4,9 +4,10 @@ short-title: sizes
 slug: Web/API/HTMLLinkElement/sizes
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.sizes
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`sizes`** read-only property of the {{domxref("HTMLLinkElement")}} interfaces defines the sizes of the icons for visual media contained in the resource. It reflects the {{HTMLElement("link")}} element's [`sizes`](/en-US/docs/Web/HTML/Reference/Elements/link#sizes) attribute, which takes a list of space-separated sizes, each in the format `<width in pixels>x<height in pixels>`, or the keyword `any`.
 

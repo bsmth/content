@@ -3,9 +3,10 @@ title: AudioContext
 slug: Web/API/AudioContext
 page-type: web-api-interface
 browser-compat: api.AudioContext
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `AudioContext` interface represents an audio-processing graph built from audio modules linked together, each represented by an {{domxref("AudioNode")}}.
 

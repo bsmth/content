@@ -4,9 +4,10 @@ short-title: currentSrc
 slug: Web/API/HTMLImageElement/currentSrc
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.currentSrc
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only {{domxref("HTMLImageElement")}} property
 **`currentSrc`** indicates the URL of the image which is

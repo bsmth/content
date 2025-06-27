@@ -4,9 +4,10 @@ short-title: setProperty()
 slug: Web/API/CSSStyleDeclaration/setProperty
 page-type: web-api-instance-method
 browser-compat: api.CSSStyleDeclaration.setProperty
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The
 **`CSSStyleDeclaration.setProperty()`** method interface sets

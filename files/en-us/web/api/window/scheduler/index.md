@@ -4,9 +4,10 @@ short-title: scheduler
 slug: Web/API/Window/scheduler
 page-type: web-api-instance-property
 browser-compat: api.scheduler
+sidebar:
+  - apiref:
+      - Prioritized Task Scheduling API
 ---
-
-{{APIRef("Prioritized Task Scheduling API")}}
 
 The **`scheduler`** read-only property of the {{domxref("Window")}} interface is the entry point for using the [Prioritized Task Scheduling API](/en-US/docs/Web/API/Prioritized_Task_Scheduling_API).
 

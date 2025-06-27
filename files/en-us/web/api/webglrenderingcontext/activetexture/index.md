@@ -4,9 +4,12 @@ short-title: activeTexture()
 slug: Web/API/WebGLRenderingContext/activeTexture
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.activeTexture
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.activeTexture()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) specifies which texture unit to

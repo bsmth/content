@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/SVGForeignObjectElement/x
 page-type: web-api-instance-property
 browser-compat: api.SVGForeignObjectElement.x
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x`** read-only property of the {{domxref("SVGForeignObjectElement")}} interface describes the x-axis coordinate of the `<foreignObject>` element. It reflects the computed value of the {{SVGAttr("x")}} attribute on the {{SVGElement("foreignObject")}} element.
 

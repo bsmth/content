@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.FileSystemEntry.remove
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
 
-{{APIRef("File and Directory Entries API")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The {{domxref("FileSystemEntry")}} interface's method
 **`remove()`** deletes the file

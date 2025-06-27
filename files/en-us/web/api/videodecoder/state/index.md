@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/VideoDecoder/state
 page-type: web-api-instance-property
 browser-compat: api.VideoDecoder.state
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`state`** property of the {{domxref("VideoDecoder")}} interface returns the current state of the underlying codec.
 

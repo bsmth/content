@@ -4,9 +4,12 @@ short-title: releaseLock()
 slug: Web/API/ReadableStreamDefaultReader/releaseLock
 page-type: web-api-instance-method
 browser-compat: api.ReadableStreamDefaultReader.releaseLock
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`releaseLock()`** method of the {{domxref("ReadableStreamDefaultReader")}} interface releases the reader's lock on the stream.
 

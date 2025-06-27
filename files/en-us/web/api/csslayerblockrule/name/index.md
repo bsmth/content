@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/CSSLayerBlockRule/name
 page-type: web-api-instance-property
 browser-compat: api.CSSLayerBlockRule.name
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`name`** property of the {{domxref("CSSLayerBlockRule")}} interface represents the name of the associated cascade layer.
 

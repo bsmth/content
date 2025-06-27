@@ -4,9 +4,10 @@ short-title: setEnd()
 slug: Web/API/Range/setEnd
 page-type: web-api-instance-method
 browser-compat: api.Range.setEnd
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.setEnd()`** method sets the end position of a {{domxref("Range")}} to be located at the given offset into the specified node. Setting
 the end point above (higher in the document) than the start point will result in a

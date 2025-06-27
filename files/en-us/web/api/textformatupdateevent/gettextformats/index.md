@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.TextFormatUpdateEvent.getTextFormats
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`getTextFormats()`** method of the {{domxref("TextFormatUpdateEvent")}} interface returns an {{jsxref("Array")}} of {{domxref("TextFormat")}} objects that represent the formats that an {{glossary("Input Method Editor")}} (IME) window wants to apply to the text being composed.
 

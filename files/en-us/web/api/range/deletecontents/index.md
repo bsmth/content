@@ -4,9 +4,10 @@ short-title: deleteContents()
 slug: Web/API/Range/deleteContents
 page-type: web-api-instance-method
 browser-compat: api.Range.deleteContents
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.deleteContents()`** method removes all completely-selected {{ domxref("Node", "nodes", "", "nocode") }} within this range from the document. For the partially selected nodes at the start or end of the range, only the selected portion of the text is deleted, while the node itself remains intact. Afterwards, the range is collapsed to the end of the last selected node.
 

@@ -4,9 +4,10 @@ short-title: MediaEncryptedEvent()
 slug: Web/API/MediaEncryptedEvent/MediaEncryptedEvent
 page-type: web-api-constructor
 browser-compat: api.MediaEncryptedEvent.MediaEncryptedEvent
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
-
-{{APIRef("Encrypted Media Extensions")}}
 
 The **`MediaEncryptedEvent`** constructor creates a new {{domxref("MediaEncryptedEvent")}} object.
 

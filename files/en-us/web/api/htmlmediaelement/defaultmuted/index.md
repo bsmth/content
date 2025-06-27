@@ -4,9 +4,10 @@ short-title: defaultMuted
 slug: Web/API/HTMLMediaElement/defaultMuted
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.defaultMuted
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.defaultMuted`** property reflects the [`muted`](/en-US/docs/Web/HTML/Reference/Elements/video#muted) HTML attribute, which indicates whether the media element's audio output should be muted by default. This property has no dynamic effect. To mute and unmute the audio output, use the {{domxref("HTMLMediaElement.muted", "muted")}} property.
 

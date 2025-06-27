@@ -5,9 +5,10 @@ slug: Web/API/Highlight/keys
 page-type: web-api-instance-method
 browser-compat: api.Highlight.keys
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.keys
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`keys()`** method of the {{domxref("Highlight")}} interface is an alias for the {{domxref("Highlight.values()", "values()")}} method.
 

@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.RTCStatsReport.type_candidate-pair.readable
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`readable`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary reports whether or not the connection described by the candidate pair has received at least one valid incoming ICE request.
 

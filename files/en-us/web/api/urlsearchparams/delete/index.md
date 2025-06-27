@@ -4,9 +4,12 @@ short-title: delete()
 slug: Web/API/URLSearchParams/delete
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.delete
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`delete()`** method of the {{domxref("URLSearchParams")}} interface deletes specified parameters and their associated value(s) from the list of all search parameters.
 

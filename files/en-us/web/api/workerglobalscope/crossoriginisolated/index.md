@@ -4,9 +4,10 @@ short-title: crossOriginIsolated
 slug: Web/API/WorkerGlobalScope/crossOriginIsolated
 page-type: web-api-instance-property
 browser-compat: api.crossOriginIsolated
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("worker")}}
 
 The **`crossOriginIsolated`** read-only property of the {{domxref("WorkerGlobalScope")}} interface returns a boolean value that indicates whether the document is cross-origin isolated.
 

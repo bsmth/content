@@ -4,9 +4,12 @@ short-title: truncate()
 slug: Web/API/FileSystemWritableFileStream/truncate
 page-type: web-api-instance-method
 browser-compat: api.FileSystemWritableFileStream.truncate
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers}}
+{{securecontext_header}}{{AvailableInWorkers}}
 
 The **`truncate()`** method of the {{domxref("FileSystemWritableFileStream")}} interface resizes the file associated with the stream to the specified size in bytes.
 

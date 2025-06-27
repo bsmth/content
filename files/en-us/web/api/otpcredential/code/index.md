@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.OTPCredential.code
+sidebar:
+  - apiref:
+      - WebOTP API
 ---
 
-{{SecureContext_Header}}{{APIRef("WebOTP API")}}{{SeeCompatTable}}
+{{SecureContext_Header}}{{SeeCompatTable}}
 
 The **`code`** read-only property of the {{domxref("OTPCredential")}} interface contains the one-time password (OTP).
 

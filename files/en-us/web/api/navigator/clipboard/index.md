@@ -4,9 +4,12 @@ short-title: clipboard
 slug: Web/API/Navigator/clipboard
 page-type: web-api-instance-property
 browser-compat: api.Navigator.clipboard
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}} {{securecontext_header}}
+{{securecontext_header}}
 
 The **`clipboard`** read-only property of the {{domxref("Navigator")}} interface returns a {{domxref("Clipboard")}} object used to read and write the clipboard's contents.
 

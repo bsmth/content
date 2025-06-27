@@ -4,9 +4,10 @@ short-title: attributes
 slug: Web/API/Element/attributes
 page-type: web-api-instance-property
 browser-compat: api.Element.attributes
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`Element.attributes`** property returns a live collection
 of all attribute nodes registered to the specified node. It is a

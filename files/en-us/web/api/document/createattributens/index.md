@@ -4,9 +4,10 @@ short-title: createAttributeNS()
 slug: Web/API/Document/createAttributeNS
 page-type: web-api-instance-method
 browser-compat: api.Document.createAttributeNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Document.createAttributeNS()`** method creates a new attribute node
 with the specified namespace URI and qualified name, and returns it.

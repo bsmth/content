@@ -4,9 +4,10 @@ short-title: rejectionhandled
 slug: Web/API/WorkerGlobalScope/rejectionhandled_event
 page-type: web-api-event
 browser-compat: api.WorkerGlobalScope.rejectionhandled_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{AvailableInWorkers("worker")}}
+{{AvailableInWorkers("worker")}}
 
 The **`rejectionhandled`** event is sent to the script's global scope (typically {{domxref("WorkerGlobalScope")}}) whenever a rejected {{jsxref("Promise")}} is handled late, i.e., when a handler is attached to the promise after its rejection had caused an {{domxref("WorkerGlobalScope.unhandledrejection_event", "unhandledrejection")}} event.
 

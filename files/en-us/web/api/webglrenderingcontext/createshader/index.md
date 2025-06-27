@@ -4,9 +4,12 @@ short-title: createShader()
 slug: Web/API/WebGLRenderingContext/createShader
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.createShader
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The {{domxref("WebGLRenderingContext")}}
 method **`createShader()`** of the [WebGL API](/en-US/docs/Web/API/WebGL_API) creates a

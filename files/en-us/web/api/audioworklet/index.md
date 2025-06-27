@@ -3,9 +3,12 @@ title: AudioWorklet
 slug: Web/API/AudioWorklet
 page-type: web-api-interface
 browser-compat: api.AudioWorklet
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`AudioWorklet`** interface of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) is used to supply custom audio processing scripts that execute in a separate thread to provide very low latency audio processing.
 

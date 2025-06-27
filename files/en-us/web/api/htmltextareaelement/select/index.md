@@ -4,9 +4,10 @@ short-title: select()
 slug: Web/API/HTMLTextAreaElement/select
 page-type: web-api-instance-method
 browser-compat: api.HTMLTextAreaElement.select
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`select()`** method of the {{domxref("HTMLTextAreaElement")}} interface selects the entire contents of the {{htmlelement("textarea")}} element. In addition, the {{domxref("HTMLTextAreaElement.select_event", "select")}} event is fired. The `select()` method does not take any parameters and does not return a value.
 

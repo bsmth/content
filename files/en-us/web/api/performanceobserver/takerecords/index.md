@@ -4,9 +4,12 @@ short-title: takeRecords()
 slug: Web/API/PerformanceObserver/takeRecords
 page-type: web-api-instance-method
 browser-compat: api.PerformanceObserver.takeRecords
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`takeRecords()`** method of the {{domxref('PerformanceObserver')}} interface returns the current list of {{domxref("PerformanceEntry")}} objects stored in the performance observer, emptying it out.
 

@@ -4,9 +4,10 @@ short-title: hasBeenActive
 slug: Web/API/UserActivation/hasBeenActive
 page-type: web-api-instance-property
 browser-compat: api.UserActivation.hasBeenActive
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`hasBeenActive`** property of the {{domxref("UserActivation")}} interface indicates whether the current window has {{Glossary("sticky activation","sticky user activation")}}.
 

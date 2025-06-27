@@ -4,9 +4,10 @@ short-title: target
 slug: Web/API/ResizeObserverEntry/target
 page-type: web-api-instance-property
 browser-compat: api.ResizeObserverEntry.target
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The **`target`** read-only property of the
 {{domxref("ResizeObserverEntry")}} interface returns a reference to the

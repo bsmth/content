@@ -4,9 +4,10 @@ short-title: lastChild()
 slug: Web/API/TreeWalker/lastChild
 page-type: web-api-instance-method
 browser-compat: api.TreeWalker.lastChild
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.lastChild()`** method moves the current
 {{domxref("Node")}} to the last _visible_ child of the current node, and returns

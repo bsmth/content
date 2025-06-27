@@ -4,9 +4,10 @@ short-title: SharedWorker()
 slug: Web/API/StorageAccessHandle/SharedWorker
 page-type: web-api-instance-method
 browser-compat: api.StorageAccessHandle.SharedWorker
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 > [!NOTE]
 > See {{domxref("SharedWorker.SharedWorker", "SharedWorker()")}} to understand usage.

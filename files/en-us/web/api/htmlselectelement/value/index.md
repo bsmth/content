@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/HTMLSelectElement/value
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.value
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLSelectElement.value`** property contains the value of the first selected {{htmlelement("option")}} element associated with this {{htmlelement("select")}} element.
 

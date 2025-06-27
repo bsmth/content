@@ -4,9 +4,10 @@ short-title: voiceschanged
 slug: Web/API/SpeechSynthesis/voiceschanged_event
 page-type: web-api-event
 browser-compat: api.SpeechSynthesis.voiceschanged_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`voiceschanged`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) is fired when the list of {{domxref("SpeechSynthesisVoice")}} objects that would be returned by the {{domxref("SpeechSynthesis.getVoices()")}} method has changed (when the `voiceschanged` event fires.)
 

@@ -4,9 +4,12 @@ short-title: offset
 slug: Web/API/GPUCompilationMessage/offset
 page-type: web-api-instance-property
 browser-compat: api.GPUCompilationMessage.offset
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`offset`** read-only property of the
 {{domxref("GPUCompilationMessage")}} interface is a number representing the offset from the start of the shader code to the exact point, or the start of the relevant substring, that the message corresponds to.

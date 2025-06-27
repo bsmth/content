@@ -3,9 +3,10 @@ title: HTMLMetaElement
 slug: Web/API/HTMLMetaElement
 page-type: web-api-interface
 browser-compat: api.HTMLMetaElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLMetaElement`** interface contains descriptive metadata about a document provided in HTML as [`<meta>`](/en-US/docs/Web/HTML/Reference/Elements/meta) elements.
 This interface inherits all of the properties and methods described in the {{domxref("HTMLElement")}} interface.

@@ -4,9 +4,10 @@ short-title: url
 slug: Web/API/StorageEvent/url
 page-type: web-api-instance-property
 browser-compat: api.StorageEvent.url
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`url`** property of the {{domxref("StorageEvent")}} interface returns the URL of the document whose storage changed.
 

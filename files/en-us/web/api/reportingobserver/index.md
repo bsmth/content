@@ -3,9 +3,12 @@ title: ReportingObserver
 slug: Web/API/ReportingObserver
 page-type: web-api-interface
 browser-compat: api.ReportingObserver
+sidebar:
+  - apiref:
+      - Reporting API
 ---
 
-{{APIRef("Reporting API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `ReportingObserver` interface of the [Reporting API](/en-US/docs/Web/API/Reporting_API) allows you to collect and access reports.
 

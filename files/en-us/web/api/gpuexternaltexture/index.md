@@ -3,9 +3,12 @@ title: GPUExternalTexture
 slug: Web/API/GPUExternalTexture
 page-type: web-api-interface
 browser-compat: api.GPUExternalTexture
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUExternalTexture`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} represents a wrapper object containing an {{domxref("HTMLVideoElement")}} snapshot that can be used as a texture in GPU rendering operations.
 

@@ -4,9 +4,10 @@ short-title: getAnimations()
 slug: Web/API/ShadowRoot/getAnimations
 page-type: web-api-instance-method
 browser-compat: api.ShadowRoot.getAnimations
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`getAnimations()`** method of the {{domxref("ShadowRoot")}} interface
 returns an array of all {{domxref("Animation")}} objects currently in effect whose

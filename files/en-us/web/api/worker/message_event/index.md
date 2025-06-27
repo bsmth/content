@@ -4,9 +4,10 @@ short-title: message
 slug: Web/API/Worker/message_event
 page-type: web-api-event
 browser-compat: api.Worker.message_event
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The `message` event is fired on a {{domxref('Worker')}} object when the worker's parent receives a message from its worker (i.e., when the worker sends a message using [`DedicatedWorkerGlobalScope.postMessage()`](/en-US/docs/Web/API/DedicatedWorkerGlobalScope/postMessage)).
 

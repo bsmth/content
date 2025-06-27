@@ -4,9 +4,10 @@ short-title: setCodecPreferences()
 slug: Web/API/RTCRtpTransceiver/setCodecPreferences
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpTransceiver.setCodecPreferences
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`setCodecPreferences()`** method of the {{domxref("RTCRtpTransceiver")}} interface is used to set the codecs that the transceiver allows for decoding _received_ data, in order of decreasing preference.
 

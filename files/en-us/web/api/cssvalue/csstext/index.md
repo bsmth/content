@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.CSSValue.cssText
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{Deprecated_header}}
+{{Deprecated_header}}
 
 The **`cssText`** property of the {{domxref("CSSValue")}}
 interface represents the current computed CSS property value.

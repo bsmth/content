@@ -4,9 +4,12 @@ short-title: observe()
 slug: Web/API/PerformanceObserver/observe
 page-type: web-api-instance-method
 browser-compat: api.PerformanceObserver.observe
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`observe()`** method of the **{{domxref("PerformanceObserver")}}** interface is used to specify the set of performance entry types to observe.
 

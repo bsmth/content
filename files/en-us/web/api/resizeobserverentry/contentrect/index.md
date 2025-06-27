@@ -4,9 +4,10 @@ short-title: contentRect
 slug: Web/API/ResizeObserverEntry/contentRect
 page-type: web-api-instance-property
 browser-compat: api.ResizeObserverEntry.contentRect
+sidebar:
+  - apiref:
+      - Resize Observer API
 ---
-
-{{APIRef("Resize Observer API")}}
 
 The `contentRect` read-only property of the
 {{domxref("ResizeObserverEntry")}} interface returns a {{domxref('DOMRectReadOnly')}}

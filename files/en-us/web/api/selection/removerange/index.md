@@ -4,9 +4,10 @@ short-title: removeRange()
 slug: Web/API/Selection/removeRange
 page-type: web-api-instance-method
 browser-compat: api.Selection.removeRange
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.removeRange()`** method removes a range from a
 selection.

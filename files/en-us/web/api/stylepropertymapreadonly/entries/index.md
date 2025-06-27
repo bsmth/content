@@ -4,9 +4,10 @@ short-title: entries()
 slug: Web/API/StylePropertyMapReadOnly/entries
 page-type: web-api-instance-method
 browser-compat: api.StylePropertyMapReadOnly.entries
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`StylePropertyMapReadOnly.entries()`** method returns an
 array of a given object's own enumerable property `[key, value]` pairs, in

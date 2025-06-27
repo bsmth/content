@@ -4,9 +4,12 @@ short-title: getProgramInfoLog()
 slug: Web/API/WebGLRenderingContext/getProgramInfoLog
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getProgramInfoLog
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **WebGLRenderingContext.getProgramInfoLog** returns the information
 log for the specified {{domxref("WebGLProgram")}} object. It contains errors that

@@ -4,9 +4,12 @@ short-title: delete()
 slug: Web/API/IDBCursor/delete
 page-type: web-api-instance-method
 browser-compat: api.IDBCursor.delete
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{APIRef("IndexedDB")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`delete()`** method of the {{domxref("IDBCursor")}}
 interface returns an {{domxref("IDBRequest")}} object, and, in a separate thread,

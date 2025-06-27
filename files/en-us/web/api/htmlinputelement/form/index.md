@@ -4,9 +4,10 @@ short-title: form
 slug: Web/API/HTMLInputElement/form
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.form
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`form`** read-only property of the {{domxref("HTMLInputElement")}} interface returns an {{domxref("HTMLFormElement")}} object that owns this {{HTMLElement("input")}}, or `null` if this input is not owned by any form.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NotRestoredReasons.name
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`name`** read-only property of the
 {{domxref("NotRestoredReasons")}} interface returns a string representing the `name` attribute value of the {{htmlelement("iframe")}} the document is contained in (for example `<iframe name="bar" src="...">`).

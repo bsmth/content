@@ -3,9 +3,10 @@ title: SharedWorker
 slug: Web/API/SharedWorker
 page-type: web-api-interface
 browser-compat: api.SharedWorker
+sidebar:
+  - apiref:
+      - Web Workers API
 ---
-
-{{APIRef("Web Workers API")}}
 
 The **`SharedWorker`** interface represents a specific kind of worker that can be _accessed_ from several browsing contexts, such as several windows, iframes or even workers. They implement an interface different than dedicated workers and have a different global scope, {{domxref("SharedWorkerGlobalScope")}}.
 

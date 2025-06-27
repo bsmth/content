@@ -4,9 +4,12 @@ short-title: state
 slug: Web/API/ServiceWorker/state
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorker.state
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`state`** read-only property of the
 {{domxref("ServiceWorker")}} interface returns a string representing the current state

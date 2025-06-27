@@ -4,9 +4,8 @@ short-title: screenTop
 slug: Web/API/Window/screenTop
 page-type: web-api-instance-property
 browser-compat: api.Window.screenTop
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.screenTop`** read-only property returns the
 vertical distance, in CSS pixels, from the top border of the user's browser viewport to

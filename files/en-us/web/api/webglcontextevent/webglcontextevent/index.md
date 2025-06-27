@@ -4,9 +4,12 @@ short-title: WebGLContextEvent()
 slug: Web/API/WebGLContextEvent/WebGLContextEvent
 page-type: web-api-constructor
 browser-compat: api.WebGLContextEvent.WebGLContextEvent
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLContextEvent()`** constructor creates a new {{domxref("WebGLContextEvent")}} object.
 

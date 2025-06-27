@@ -4,9 +4,10 @@ short-title: appendItem()
 slug: Web/API/SVGTransformList/appendItem
 page-type: web-api-instance-method
 browser-compat: api.SVGTransformList.appendItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `appendItem()` method of the {{domxref("SVGTransformList")}} interface inserts a new item at the end of the list.
 

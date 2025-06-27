@@ -4,9 +4,10 @@ short-title: OscillatorNode()
 slug: Web/API/OscillatorNode/OscillatorNode
 page-type: web-api-constructor
 browser-compat: api.OscillatorNode.OscillatorNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`OscillatorNode()`** constructor of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new
 {{domxref("OscillatorNode")}} object which is an {{domxref("AudioNode")}} that

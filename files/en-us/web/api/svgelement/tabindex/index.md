@@ -4,9 +4,10 @@ short-title: tabIndex
 slug: Web/API/SVGElement/tabIndex
 page-type: web-api-instance-property
 browser-compat: api.SVGElement.tabIndex
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`tabIndex`** property of the {{DOMxRef("SVGElement")}} interface represents the tab order of the current SVG element.
 

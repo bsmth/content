@@ -4,9 +4,10 @@ short-title: blocked
 slug: Web/API/IDBOpenDBRequest/blocked_event
 page-type: web-api-event
 browser-compat: api.IDBOpenDBRequest.blocked_event
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{APIRef("IndexedDB")}}
 
 The `blocked` handler is executed when an open connection to a database is blocking a `versionchange` transaction on the same database.
 

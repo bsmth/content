@@ -4,9 +4,10 @@ short-title: CSSMatrixComponent()
 slug: Web/API/CSSMatrixComponent/CSSMatrixComponent
 page-type: web-api-constructor
 browser-compat: api.CSSMatrixComponent.CSSMatrixComponent
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSMatrixComponent()`** constructor
 creates a new {{domxref("CSSMatrixComponent")}} object representing the [matrix()](/en-US/docs/Web/CSS/transform-function/matrix) and [matrix3d()](/en-US/docs/Web/CSS/transform-function/matrix3d) values of the

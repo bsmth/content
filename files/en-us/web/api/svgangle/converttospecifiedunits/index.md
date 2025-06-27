@@ -4,9 +4,10 @@ short-title: convertToSpecifiedUnits()
 slug: Web/API/SVGAngle/convertToSpecifiedUnits
 page-type: web-api-instance-method
 browser-compat: api.SVGAngle.convertToSpecifiedUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `convertToSpecifiedUnits()` method of the {{domxref("SVGAngle")}} interface allows you to convert the angle's value to the specified unit type.
 

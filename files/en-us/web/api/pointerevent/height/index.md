@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/PointerEvent/height
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.height
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`height`** read-only property of the
 {{domxref("PointerEvent")}} interface represents the height of the pointer's contact

@@ -3,9 +3,12 @@ title: AuthenticatorAttestationResponse
 slug: Web/API/AuthenticatorAttestationResponse
 page-type: web-api-interface
 browser-compat: api.AuthenticatorAttestationResponse
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`AuthenticatorAttestationResponse`** interface of the [Web Authentication API](/en-US/docs/Web/API/Web_Authentication_API) is the result of a WebAuthn credential registration. It contains information about the credential that the server needs to perform WebAuthn assertions, such as its credential ID and public key.
 

@@ -3,9 +3,10 @@ title: SpeechSynthesis
 slug: Web/API/SpeechSynthesis
 page-type: web-api-interface
 browser-compat: api.SpeechSynthesis
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`SpeechSynthesis`** interface of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) is the controller interface for the speech service; this can be used to retrieve information about the synthesis voices available on the device, start and pause speech, and other commands besides.
 

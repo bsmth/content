@@ -3,9 +3,12 @@ title: TextMetrics
 slug: Web/API/TextMetrics
 page-type: web-api-interface
 browser-compat: api.TextMetrics
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`TextMetrics`** interface represents the dimensions of a piece of text in the canvas; a `TextMetrics` instance can be retrieved using the {{domxref("CanvasRenderingContext2D.measureText()")}} method.
 

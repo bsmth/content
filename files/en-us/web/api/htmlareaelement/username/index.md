@@ -4,9 +4,10 @@ short-title: username
 slug: Web/API/HTMLAreaElement/username
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.username
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`username`** property of the {{domxref("HTMLAreaElement")}} interface is a string containing the username component of the `<area>` element's `href`. If the URL does not have a username, this property contains an empty string, `""`.
 

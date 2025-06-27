@@ -4,9 +4,10 @@ short-title: MutationObserver()
 slug: Web/API/MutationObserver/MutationObserver
 page-type: web-api-constructor
 browser-compat: api.MutationObserver.MutationObserver
+sidebar:
+  - apiref:
+      - DOM WHATWG
 ---
-
-{{APIRef("DOM WHATWG")}}
 
 The DOM **`MutationObserver()`**
 constructor — part of the {{domxref("MutationObserver")}} interface — creates and

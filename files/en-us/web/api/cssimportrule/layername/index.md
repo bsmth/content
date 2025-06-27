@@ -4,9 +4,10 @@ short-title: layerName
 slug: Web/API/CSSImportRule/layerName
 page-type: web-api-instance-property
 browser-compat: api.CSSImportRule.layerName
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`layerName`** property of the {{domxref("CSSImportRule")}} interface returns the name of the cascade layer created by the {{cssxref("@import")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

@@ -4,9 +4,10 @@ short-title: vertical
 slug: Web/API/VTTCue/vertical
 page-type: web-api-instance-property
 browser-compat: api.VTTCue.vertical
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`vertical`** property of the {{domxref("VTTCue")}} interface is a string representing the cue's writing direction.
 

@@ -4,9 +4,8 @@ short-title: createRadialGradient()
 slug: Web/API/CanvasRenderingContext2D/createRadialGradient
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.createRadialGradient
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.createRadialGradient()`**

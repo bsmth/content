@@ -3,9 +3,10 @@ title: HTMLTemplateElement
 slug: Web/API/HTMLTemplateElement
 page-type: web-api-interface
 browser-compat: api.HTMLTemplateElement
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`HTMLTemplateElement`** interface enables access to the contents of an HTML {{HTMLElement("template")}} element.
 

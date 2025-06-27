@@ -4,9 +4,10 @@ short-title: closest()
 slug: Web/API/Element/closest
 page-type: web-api-instance-method
 browser-compat: api.Element.closest
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef('DOM')}}
 
 The **`closest()`** method of the {{domxref("Element")}} interface traverses the element and its parents (heading toward the document root) until it finds a node that matches the specified [CSS selector](/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors).
 

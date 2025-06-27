@@ -3,9 +3,10 @@ title: WheelEvent
 slug: Web/API/WheelEvent
 page-type: web-api-interface
 browser-compat: api.WheelEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`WheelEvent`** interface represents events that occur due to the user moving a mouse wheel or similar input device.
 

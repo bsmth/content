@@ -4,9 +4,10 @@ short-title: animVal
 slug: Web/API/SVGAnimatedTransformList/animVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedTransformList.animVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animVal`** read-only property of the {{domxref("SVGAnimatedTransformList")}} interface represents the animated value of the `transform` attribute of an SVG element.
 

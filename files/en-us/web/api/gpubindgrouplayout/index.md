@@ -3,9 +3,12 @@ title: GPUBindGroupLayout
 slug: Web/API/GPUBindGroupLayout
 page-type: web-api-interface
 browser-compat: api.GPUBindGroupLayout
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUBindGroupLayout`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} defines the structure and purpose of related GPU resources such as buffers that will be used in a pipeline, and is used as a template when creating {{domxref("GPUBindGroup")}}s.
 

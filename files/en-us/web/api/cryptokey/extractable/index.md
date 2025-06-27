@@ -4,9 +4,12 @@ short-title: extractable
 slug: Web/API/CryptoKey/extractable
 page-type: web-api-instance-property
 browser-compat: api.CryptoKey.extractable
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The read-only **`extractable`** property of the {{DOMxRef("CryptoKey")}} interface indicates whether or not the key may be extracted using [`SubtleCrypto.exportKey()`](/en-US/docs/Web/API/SubtleCrypto/exportKey) or [`SubtleCrypto.wrapKey()`](/en-US/docs/Web/API/SubtleCrypto/wrapKey).
 

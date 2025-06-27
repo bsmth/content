@@ -4,9 +4,10 @@ short-title: values()
 slug: Web/API/RTCStatsReport/values
 page-type: web-api-instance-method
 browser-compat: api.RTCStatsReport.values
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`values()`** method of the {{domxref("RTCStatsReport")}} interface returns a new _[iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator)_ object that can be used to iterate through the values for each element in the `RTCStatsReport` object, in insertion order.
 

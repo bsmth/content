@@ -3,9 +3,10 @@ title: StylePropertyMap
 slug: Web/API/StylePropertyMap
 page-type: web-api-interface
 browser-compat: api.StylePropertyMap
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`StylePropertyMap`** interface of the [CSS Typed Object Model API](/en-US/docs/Web/API/CSS_Object_Model#css_typed_object_model) provides a representation of a CSS declaration block that is an alternative to {{DOMxRef("CSSStyleDeclaration")}}.
 

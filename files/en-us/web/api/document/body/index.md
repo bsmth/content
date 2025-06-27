@@ -4,9 +4,10 @@ short-title: body
 slug: Web/API/Document/body
 page-type: web-api-instance-property
 browser-compat: api.Document.body
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Document.body`** property represents the
 {{HTMLElement("body")}} or {{HTMLElement("frameset")}} node of the current document, or

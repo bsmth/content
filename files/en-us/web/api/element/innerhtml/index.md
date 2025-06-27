@@ -4,9 +4,10 @@ short-title: innerHTML
 slug: Web/API/Element/innerHTML
 page-type: web-api-instance-property
 browser-compat: api.Element.innerHTML
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`innerHTML`** property of the {{domxref("Element")}} interface gets or sets the HTML or XML markup contained within the element.
 

@@ -4,9 +4,10 @@ short-title: close()
 slug: Web/API/RTCPeerConnection/close
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.close
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`close()`** method of the {{domxref("RTCPeerConnection")}} interface closes the current peer connection.
 

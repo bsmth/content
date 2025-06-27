@@ -4,9 +4,12 @@ short-title: FontFaceSetLoadEvent()
 slug: Web/API/FontFaceSetLoadEvent/FontFaceSetLoadEvent
 page-type: web-api-constructor
 browser-compat: api.FontFaceSetLoadEvent.FontFaceSetLoadEvent
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`FontFaceSetLoadEvent()`** constructor creates a new
 {{domxref("FontFaceSetLoadEvent")}} object which is fired whenever a

@@ -4,9 +4,10 @@ short-title: clientWidth
 slug: Web/API/Element/clientWidth
 page-type: web-api-instance-property
 browser-compat: api.Element.clientWidth
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`clientWidth`** read-only property of the {{domxref("Element")}} interface is zero for inline elements and elements with no CSS; otherwise, it's the inner width of an element in pixels. It includes padding but excludes borders, margins, and vertical scrollbars (if present).
 

@@ -4,9 +4,10 @@ short-title: in2
 slug: Web/API/SVGFECompositeElement/in2
 page-type: web-api-instance-property
 browser-compat: api.SVGFECompositeElement.in2
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`in2`** read-only property of the {{domxref("SVGFECompositeElement")}} interface reflects the {{SVGAttr("in2")}} attribute of the given {{SVGElement("feComposite")}} element.
 

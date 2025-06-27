@@ -4,9 +4,12 @@ short-title: getAttachedShaders()
 slug: Web/API/WebGLRenderingContext/getAttachedShaders
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getAttachedShaders
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getAttachedShaders()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns a list of

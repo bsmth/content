@@ -4,9 +4,10 @@ short-title: ariaErrorMessageElements
 slug: Web/API/ElementInternals/ariaErrorMessageElements
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaErrorMessageElements
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaErrorMessageElements`** property of the {{domxref("ElementInternals")}} interface is an array containing the element (or elements) that provide an error message for the element it is applied to.
 

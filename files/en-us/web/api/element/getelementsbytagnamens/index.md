@@ -4,9 +4,10 @@ short-title: getElementsByTagNameNS()
 slug: Web/API/Element/getElementsByTagNameNS
 page-type: web-api-instance-method
 browser-compat: api.Element.getElementsByTagNameNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.getElementsByTagNameNS()`** method returns a
 live {{domxref("HTMLCollection")}} of elements with the given tag name belonging to the

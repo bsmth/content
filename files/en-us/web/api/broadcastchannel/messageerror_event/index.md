@@ -4,9 +4,12 @@ short-title: messageerror
 slug: Web/API/BroadcastChannel/messageerror_event
 page-type: web-api-event
 browser-compat: api.BroadcastChannel.messageerror_event
+sidebar:
+  - apiref:
+      - BroadCastChannel API
 ---
 
-{{APIRef("BroadCastChannel API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`messageerror`** event of the {{domxref("BroadcastChannel")}} interface fires when a message that can't be deserialized arrives on the channel.
 

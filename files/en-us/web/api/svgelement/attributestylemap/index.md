@@ -4,9 +4,10 @@ short-title: attributeStyleMap
 slug: Web/API/SVGElement/attributeStyleMap
 page-type: web-api-instance-property
 browser-compat: api.SVGElement.attributeStyleMap
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`attributeStyleMap`** read-only property of the {{domxref("SVGElement")}} interface returns a live {{domxref("StylePropertyMap")}} object that contains a list of style properties of the element that are defined in the element's inline `style` attribute, or assigned using the {{domxref("SVGElement.style", "style")}} property of the {{domxref("SVGElement")}} interface via script.
 

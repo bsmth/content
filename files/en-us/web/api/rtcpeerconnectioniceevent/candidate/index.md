@@ -4,9 +4,10 @@ short-title: candidate
 slug: Web/API/RTCPeerConnectionIceEvent/candidate
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnectionIceEvent.candidate
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`candidate`** property
 of the {{domxref("RTCPeerConnectionIceEvent")}} interface returns the

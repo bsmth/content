@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/ImageBitmap/close
 page-type: web-api-instance-method
 browser-compat: api.ImageBitmap.close
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ImageBitmap.close()`**
 method disposes of all graphical resources associated with an `ImageBitmap`.

@@ -4,9 +4,10 @@ short-title: replaceData()
 slug: Web/API/CharacterData/replaceData
 page-type: web-api-instance-method
 browser-compat: api.CharacterData.replaceData
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`replaceData()`** method of the {{domxref("CharacterData")}} interface removes a certain number of characters of the existing text in a given `CharacterData` node and replaces those characters with the text provided.
 

@@ -4,9 +4,10 @@ short-title: mode
 slug: Web/API/TextTrack/mode
 page-type: web-api-instance-property
 browser-compat: api.TextTrack.mode
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The {{domxref("TextTrack")}} interface's
 **`mode`** property is a string specifying and controlling the

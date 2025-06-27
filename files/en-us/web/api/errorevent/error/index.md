@@ -4,9 +4,12 @@ short-title: error
 slug: Web/API/ErrorEvent/error
 page-type: web-api-instance-property
 browser-compat: api.ErrorEvent.error
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`error`** read-only property of the {{domxref("ErrorEvent")}} interface returns a JavaScript value, such as an {{jsxref("Error")}} or {{domxref("DOMException")}}, representing the error associated with this event.
 

@@ -4,9 +4,12 @@ short-title: scaleSelf()
 slug: Web/API/DOMMatrix/scaleSelf
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.scaleSelf
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`scaleSelf()`** method of the {{domxref("DOMMatrix")}} interface is a mutable transformation method that modifies a matrix by applying a specified scaling factor, centered on the given origin, with a default origin of `(0, 0)`, returning the scaled matrix.
 

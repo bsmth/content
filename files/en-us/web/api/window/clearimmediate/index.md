@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Window.clearImmediate
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}} {{deprecated_header}}{{non-standard_header}}
+{{deprecated_header}}{{non-standard_header}}
 
 This method clears the action specified by {{DOMxRef("window.setImmediate")}}.
 

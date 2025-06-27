@@ -4,9 +4,12 @@ short-title: createComputePipelineAsync()
 slug: Web/API/GPUDevice/createComputePipelineAsync
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.createComputePipelineAsync
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createComputePipelineAsync()`** method of the
 {{domxref("GPUDevice")}} interface returns a {{jsxref("Promise")}} that fulfills with a {{domxref("GPUComputePipeline")}}, which can control the compute shader stage and be used in a {{domxref("GPUComputePassEncoder")}}, once the pipeline can be used without any stalling.

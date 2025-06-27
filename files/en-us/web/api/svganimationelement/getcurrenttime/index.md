@@ -4,9 +4,10 @@ short-title: getCurrentTime()
 slug: Web/API/SVGAnimationElement/getCurrentTime
 page-type: web-api-instance-method
 browser-compat: api.SVGAnimationElement.getCurrentTime
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The {{domxref("SVGAnimationElement")}} method `getCurrentTime()` returns a float representing the current time in seconds relative to time zero for the given time container.
 

@@ -4,9 +4,12 @@ short-title: RelativeOrientationSensor()
 slug: Web/API/RelativeOrientationSensor/RelativeOrientationSensor
 page-type: web-api-constructor
 browser-compat: api.RelativeOrientationSensor.RelativeOrientationSensor
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`RelativeOrientationSensor()`**
 constructor creates a new {{domxref("RelativeOrientationSensor")}} object which

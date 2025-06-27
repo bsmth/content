@@ -4,9 +4,10 @@ short-title: importNode()
 slug: Web/API/Document/importNode
 page-type: web-api-instance-method
 browser-compat: api.Document.importNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("Document")}} object's **`importNode()`** method creates a copy of a
 {{domxref("Node")}} or {{domxref("DocumentFragment")}} from another document, to be

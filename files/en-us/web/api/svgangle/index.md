@@ -3,9 +3,10 @@ title: SVGAngle
 slug: Web/API/SVGAngle
 page-type: web-api-interface
 browser-compat: api.SVGAngle
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `SVGAngle` interface is used to represent a value that can be an {{cssxref("&lt;angle&gt;")}} or {{cssxref("&lt;number&gt;")}} value.
 

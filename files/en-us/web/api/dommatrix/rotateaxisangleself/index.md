@@ -4,9 +4,12 @@ short-title: rotateAxisAngleSelf()
 slug: Web/API/DOMMatrix/rotateAxisAngleSelf
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.rotateAxisAngleSelf
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `rotateAxisAngleSelf()` method of the {{domxref("DOMMatrix")}} interface is a transformation method that rotates the source matrix by the given vector and angle, returning the altered matrix.
 

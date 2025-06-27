@@ -4,9 +4,12 @@ short-title: truncate()
 slug: Web/API/FileSystemSyncAccessHandle/truncate
 page-type: web-api-instance-method
 browser-compat: api.FileSystemSyncAccessHandle.truncate
+sidebar:
+  - apiref:
+      - File System API")}}{{AvailableInWorkers("dedicated
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers("dedicated")}}
+{{securecontext_header}}
 
 The **`truncate()`** method of the
 {{domxref("FileSystemSyncAccessHandle")}} interface resizes the file associated with the handle to a specified number of bytes.

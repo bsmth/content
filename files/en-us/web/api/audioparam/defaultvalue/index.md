@@ -4,9 +4,10 @@ short-title: defaultValue
 slug: Web/API/AudioParam/defaultValue
 page-type: web-api-instance-property
 browser-compat: api.AudioParam.defaultValue
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`defaultValue`**
 read-only property of the {{ domxref("AudioParam") }} interface represents the initial

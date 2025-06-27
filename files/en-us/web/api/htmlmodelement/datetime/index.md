@@ -4,9 +4,10 @@ short-title: dateTime
 slug: Web/API/HTMLModElement/dateTime
 page-type: web-api-instance-property
 browser-compat: api.HTMLModElement.dateTime
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`dateTime`** property of the {{domxref("HTMLModElement")}} interface is a string containing a machine-readable date with an optional time value. It reflects the [`datetime`](/en-US/docs/Web/HTML/Reference/Elements/time#datetime) HTML attribute of the {{HTMLElement("del")}} and {{HTMLElement("ins")}} elements.
 

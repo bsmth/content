@@ -4,9 +4,10 @@ short-title: patternUnits
 slug: Web/API/SVGPatternElement/patternUnits
 page-type: web-api-instance-property
 browser-compat: api.SVGPatternElement.patternUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`patternUnits`** read-only property of the {{domxref("SVGPatternElement")}} interface reflects the {{SVGAttr("patternUnits")}} attribute of the given {{SVGElement("pattern")}} element. It specifies the coordinate system for the pattern content and takes one of the constants defined in {{domxref("SVGUnitTypes")}}.
 

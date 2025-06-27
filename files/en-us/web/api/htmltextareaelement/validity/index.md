@@ -4,9 +4,10 @@ short-title: validity
 slug: Web/API/HTMLTextAreaElement/validity
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.validity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`validity`** read-only property of the {{domxref("HTMLTextAreaElement")}} interface returns a {{domxref("ValidityState")}} object that represents the validity states this element is in.
 

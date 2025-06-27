@@ -4,9 +4,10 @@ short-title: parentElement
 slug: Web/API/Node/parentElement
 page-type: web-api-instance-property
 browser-compat: api.Node.parentElement
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`parentElement`** property of {{domxref("Node")}} interface
 returns the DOM node's parent {{DOMxRef("Element")}}, or `null` if the node either has no

@@ -4,9 +4,10 @@ short-title: hostname
 slug: Web/API/HTMLAreaElement/hostname
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.hostname
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`hostname`** property of the {{domxref("HTMLAreaElement")}} interface is a string containing either the {{glossary("domain name")}} or {{glossary("IP address")}} of the `<area>` element's URL. If the URL does not have a hostname, this property contains an empty string, `""`. IPv4 and IPv6 addresses are normalized, such as stripping leading zeros, and domain names are converted to [IDN](https://en.wikipedia.org/wiki/Internationalized_domain_name).
 

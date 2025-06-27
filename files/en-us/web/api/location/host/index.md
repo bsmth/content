@@ -4,9 +4,10 @@ short-title: host
 slug: Web/API/Location/host
 page-type: web-api-instance-property
 browser-compat: api.Location.host
+sidebar:
+  - apiref:
+      - Location
 ---
-
-{{ApiRef("Location")}}
 
 The **`host`** property of the {{domxref("Location")}} interface is a string containing the host, which is the {{domxref("Location.hostname", "hostname")}}, and then, if the {{glossary("port")}} of the URL is nonempty, a `":"`, followed by the {{domxref("Location.port", "port")}} of the URL. If the URL does not have a `hostname`, this property contains an empty string, `""`.
 

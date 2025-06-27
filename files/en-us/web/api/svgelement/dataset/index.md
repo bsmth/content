@@ -4,9 +4,10 @@ short-title: dataset
 slug: Web/API/SVGElement/dataset
 page-type: web-api-instance-property
 browser-compat: api.SVGElement.dataset
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`dataset`** read-only property of the {{DOMxRef("SVGElement")}} interface provides read/write access to [custom data attributes](/en-US/docs/Web/SVG/Reference/Attribute/data-*) (`data-*`) on elements. It exposes a map of strings ({{domxref("DOMStringMap")}}) with an entry for each `data-*` attribute.
 

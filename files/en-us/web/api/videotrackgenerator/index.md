@@ -5,9 +5,10 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.VideoTrackGenerator
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API")}}{{SeeCompatTable}}{{AvailableInWorkers("dedicated
 ---
-
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}{{SeeCompatTable}}{{AvailableInWorkers("dedicated")}}
 
 The **`VideoTrackGenerator`** interface of the [Insertable Streams for MediaStreamTrack API](/en-US/docs/Web/API/Insertable_Streams_for_MediaStreamTrack_API) has a {{domxref("WritableStream")}} property that acts as a {{domxref("MediaStreamTrack")}} source, by consuming a stream of {{domxref("VideoFrame")}}s as input.
 

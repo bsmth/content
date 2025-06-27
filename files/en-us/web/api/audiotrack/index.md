@@ -3,9 +3,10 @@ title: AudioTrack
 slug: Web/API/AudioTrack
 page-type: web-api-interface
 browser-compat: api.AudioTrack
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`AudioTrack`** interface represents a single audio track from one of the HTML media elements, {{HTMLElement("audio")}} or {{HTMLElement("video")}}.
 

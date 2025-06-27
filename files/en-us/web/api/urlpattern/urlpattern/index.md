@@ -4,9 +4,12 @@ short-title: URLPattern()
 slug: Web/API/URLPattern/URLPattern
 page-type: web-api-constructor
 browser-compat: api.URLPattern.URLPattern
+sidebar:
+  - apiref:
+      - URLPattern API
 ---
 
-{{APIRef("URLPattern API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`URLPattern()`** constructor returns a new {{domxref("URLPattern")}}
 object representing the url pattern defined by the parameters.

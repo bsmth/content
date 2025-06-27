@@ -4,9 +4,10 @@ short-title: y
 slug: Web/API/SVGFETileElement/y
 page-type: web-api-instance-property
 browser-compat: api.SVGFETileElement.y
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y`** read-only property of the {{domxref("SVGFETileElement")}} interface describes the vertical coordinate of the position of an SVG filter primitive as an {{domxref("SVGAnimatedLength")}}.
 

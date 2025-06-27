@@ -4,9 +4,10 @@ short-title: fetchPriority
 slug: Web/API/HTMLScriptElement/fetchPriority
 page-type: web-api-instance-property
 browser-compat: api.HTMLScriptElement.fetchPriority
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`fetchPriority`** property of the {{domxref("HTMLScriptElement")}} interface represents a hint to the browser indicating how it should prioritize fetching an external script relative to other external scripts.
 It reflects the [`fetchpriority`](/en-US/docs/Web/HTML/Reference/Elements/script#fetchpriority) attribute of the {{HTMLElement("script")}} element.

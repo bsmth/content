@@ -4,9 +4,10 @@ short-title: getChannelData()
 slug: Web/API/AudioBuffer/getChannelData
 page-type: web-api-instance-method
 browser-compat: api.AudioBuffer.getChannelData
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`getChannelData()`** method of the {{ domxref("AudioBuffer") }} Interface returns a {{jsxref("Float32Array")}} containing the PCM data associated with the channel, defined by the channel parameter (with 0 representing the first channel).
 

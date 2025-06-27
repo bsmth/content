@@ -3,9 +3,10 @@ title: RTCIceCandidatePairStats
 slug: Web/API/RTCIceCandidatePairStats
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport.type_candidate-pair
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCIceCandidatePairStats`** dictionary of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) is used to report statistics that provide insight into the quality and performance of an {{domxref("RTCPeerConnection")}} while connected and configured as described by the specified pair of {{Glossary("ICE")}} candidates.
 

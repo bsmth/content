@@ -4,9 +4,10 @@ short-title: dirName
 slug: Web/API/HTMLTextAreaElement/dirName
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.dirName
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`dirName`** property of the {{domxref("HTMLTextAreaElement")}} interface is the directionality of the element. It reflects the value of the {{htmlelement("textarea")}} element's [`dirName`](/en-US/docs/Web/HTML/Reference/Attributes/dirname) attribute. This property can be retrieved or set.
 

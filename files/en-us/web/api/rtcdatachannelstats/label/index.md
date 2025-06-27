@@ -4,9 +4,10 @@ short-title: label
 slug: Web/API/RTCDataChannelStats/label
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_data-channel.label
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`label`** property of the {{domxref("RTCDataChannelStats")}} dictionary returns the {{domxref("RTCDataChannel.label", "label")}} of the associated data channel.
 

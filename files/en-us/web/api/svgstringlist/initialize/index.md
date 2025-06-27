@@ -4,9 +4,10 @@ short-title: initialize()
 slug: Web/API/SVGStringList/initialize
 page-type: web-api-instance-method
 browser-compat: api.SVGStringList.initialize
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`initialize()`** method of the {{domxref("SVGStringList")}} interface clears all existing items from the list and re-initializes the list to hold the single item specified by the parameter. If the inserted item is already in a list, it is removed from its previous list before it is inserted into this list. The inserted item is the item itself and not a copy. The return value is the item inserted into the list.
 

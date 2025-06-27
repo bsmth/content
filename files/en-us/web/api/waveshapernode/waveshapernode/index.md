@@ -4,9 +4,10 @@ short-title: WaveShaperNode()
 slug: Web/API/WaveShaperNode/WaveShaperNode
 page-type: web-api-constructor
 browser-compat: api.WaveShaperNode.WaveShaperNode
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`WaveShaperNode()`** constructor
 of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) creates a new

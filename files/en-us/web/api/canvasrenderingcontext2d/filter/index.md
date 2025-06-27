@@ -4,9 +4,8 @@ short-title: filter
 slug: Web/API/CanvasRenderingContext2D/filter
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.filter
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.filter`**

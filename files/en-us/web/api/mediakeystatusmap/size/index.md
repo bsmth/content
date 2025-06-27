@@ -4,9 +4,12 @@ short-title: size
 slug: Web/API/MediaKeyStatusMap/size
 page-type: web-api-instance-property
 browser-compat: api.MediaKeyStatusMap.size
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`size`** read-only property of
 the {{domxref("MediaKeyStatusMap")}} interface returns the number of key/value paIrs

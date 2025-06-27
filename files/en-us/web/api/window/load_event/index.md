@@ -4,9 +4,8 @@ short-title: load
 slug: Web/API/Window/load_event
 page-type: web-api-event
 browser-compat: api.Window.load_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`load`** event is fired when the whole page has loaded, including all dependent resources such as stylesheets, scripts, iframes, and images, except those that are [loaded lazily](/en-US/docs/Web/Performance/Guides/Lazy_loading#images_and_iframes).
 This is in contrast to {{domxref("Document/DOMContentLoaded_event", "DOMContentLoaded")}}, which is fired as soon as the page DOM has been loaded, without waiting for resources to finish loading.

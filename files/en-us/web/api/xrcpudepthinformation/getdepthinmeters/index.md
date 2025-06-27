@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.XRCPUDepthInformation.getDepthInMeters
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`getDepthInMeters()`** method of the {{DOMxRef("XRCPUDepthInformation")}} interface returns the depth in meters at (x, y) in normalized view coordinates (origin in the top left corner).
 

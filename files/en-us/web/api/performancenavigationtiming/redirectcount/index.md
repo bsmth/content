@@ -4,9 +4,10 @@ short-title: redirectCount
 slug: Web/API/PerformanceNavigationTiming/redirectCount
 page-type: web-api-instance-property
 browser-compat: api.PerformanceNavigationTiming.redirectCount
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`redirectCount`** read-only property returns a number representing the number of redirects since the last non-redirect navigation in the current browsing context.
 

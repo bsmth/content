@@ -4,9 +4,12 @@ short-title: mode
 slug: Web/API/IDBTransaction/mode
 page-type: web-api-instance-property
 browser-compat: api.IDBTransaction.mode
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`mode`** read-only property of the
 {{domxref("IDBTransaction")}} interface returns the current mode for accessing the

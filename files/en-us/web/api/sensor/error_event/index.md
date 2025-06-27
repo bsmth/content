@@ -4,9 +4,12 @@ short-title: error
 slug: Web/API/Sensor/error_event
 page-type: web-api-event
 browser-compat: api.Sensor.error_event
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{securecontext_header}}
 
 The **`error`** event is fired when an exception occurs on a sensor.
 

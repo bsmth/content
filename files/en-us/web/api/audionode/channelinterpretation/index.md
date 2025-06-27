@@ -4,9 +4,10 @@ short-title: channelInterpretation
 slug: Web/API/AudioNode/channelInterpretation
 page-type: web-api-instance-property
 browser-compat: api.AudioNode.channelInterpretation
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`channelInterpretation`** property of the {{domxref("AudioNode")}} interface represents an enumerated value describing how input channels are mapped to output channels when the number of inputs/outputs is different. For example, this setting defines how a mono input will be up-mixed to a stereo or 5.1 channel output, or how a quad channel input will be down-mixed to a stereo or mono output.
 

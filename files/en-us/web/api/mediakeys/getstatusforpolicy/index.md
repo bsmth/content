@@ -4,9 +4,12 @@ short-title: getStatusForPolicy()
 slug: Web/API/MediaKeys/getStatusForPolicy
 page-type: web-api-instance-method
 browser-compat: api.MediaKeys.getStatusForPolicy
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The `getStatusForPolicy()` method of the {{domxref("MediaKeys")}} interface is used to check whether the Content Decryption Module (CDM) would allow the presentation of encrypted media data using the keys, based on the specified policy requirements.
 

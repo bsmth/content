@@ -4,9 +4,12 @@ short-title: permissionState()
 slug: Web/API/PushManager/permissionState
 page-type: web-api-instance-method
 browser-compat: api.PushManager.permissionState
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{ApiRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`permissionState()`** method of the
 {{domxref("PushManager")}} interface returns a {{jsxref("Promise")}} that resolves to a

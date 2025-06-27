@@ -4,9 +4,12 @@ short-title: index
 slug: Web/API/Gamepad/index
 page-type: web-api-instance-property
 browser-compat: api.Gamepad.index
+sidebar:
+  - apiref:
+      - Gamepad API
 ---
 
-{{APIRef("Gamepad API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`Gamepad.index`** property of the {{domxref("Gamepad") }}
 interface returns an integer that is auto-incremented to be unique for each device

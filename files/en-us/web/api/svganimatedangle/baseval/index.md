@@ -4,9 +4,10 @@ short-title: baseVal
 slug: Web/API/SVGAnimatedAngle/baseVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedAngle.baseVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`baseVal`** read-only property of the {{domxref("SVGAnimatedAngle")}} interface represents the base (non-animated) value of the associated [`<angle>`](/en-US/docs/Web/SVG/Guides/Content_type#angle) on an SVG element. This property is used to retrieve the static value of the `<angle>`, unaffected by any ongoing animations.
 

@@ -4,9 +4,10 @@ short-title: takeRecords()
 slug: Web/API/MutationObserver/takeRecords
 page-type: web-api-instance-method
 browser-compat: api.MutationObserver.takeRecords
+sidebar:
+  - apiref:
+      - DOM WHATWG
 ---
-
-{{APIRef("DOM WHATWG")}}
 
 The {{domxref("MutationObserver")}} method
 **`takeRecords()`** returns a list of all matching DOM changes

@@ -4,9 +4,12 @@ short-title: rotateSelf()
 slug: Web/API/DOMMatrix/rotateSelf
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.rotateSelf
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `rotateSelf()` method of the {{domxref("DOMMatrix")}} interface is a mutable transformation method that modifies a matrix. It rotates the source matrix around each of its axes by the specified number of degrees and returns the rotated matrix.
 

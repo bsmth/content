@@ -4,9 +4,10 @@ short-title: normalize()
 slug: Web/API/Node/normalize
 page-type: web-api-instance-method
 browser-compat: api.Node.normalize
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`normalize()`** method of the {{domxref("Node")}} interface puts the specified node
 and all of its sub-tree into a _normalized_ form.

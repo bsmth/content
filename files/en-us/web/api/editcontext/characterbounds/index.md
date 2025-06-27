@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.EditContext.characterBounds
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`characterBounds()`** method of the {{domxref("EditContext")}} interface returns an {{jsxref("Array")}} containing the list of bounding rectangles for the characters in the `EditContext` object.
 

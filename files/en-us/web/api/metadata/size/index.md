@@ -7,9 +7,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.Metadata.size
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
 
-{{APIRef("File and Directory Entries API")}}{{Non-standard_header}}{{SeeCompatTable}}
+{{Non-standard_header}}{{SeeCompatTable}}
 
 The read-only **`size`** property of
 the {{domxref("Metadata")}} interface specifies the size, in bytes, of the referenced

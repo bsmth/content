@@ -4,9 +4,10 @@ short-title: sourceBuffer
 slug: Web/API/AudioTrack/sourceBuffer
 page-type: web-api-instance-property
 browser-compat: api.AudioTrack.sourceBuffer
+sidebar:
+  - apiref:
+      - Media Source Extensions
 ---
-
-{{APIRef("Media Source Extensions")}}
 
 The read-only **{{domxref("AudioTrack")}}**
 property **`sourceBuffer`** returns the

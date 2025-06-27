@@ -4,9 +4,12 @@ short-title: change
 slug: Web/API/PermissionStatus/change_event
 page-type: web-api-event
 browser-compat: api.PermissionStatus.change_event
+sidebar:
+  - apiref:
+      - Permissions API
 ---
 
-{{APIRef("Permissions API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`change`** event of the {{domxref("PermissionStatus")}} interface fires whenever the {{domxref("PermissionStatus.state")}} property changes.
 

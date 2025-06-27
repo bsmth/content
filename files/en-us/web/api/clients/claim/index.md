@@ -4,9 +4,10 @@ short-title: claim()
 slug: Web/API/Clients/claim
 page-type: web-api-instance-method
 browser-compat: api.Clients.claim
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`claim()`** method of the {{domxref("Clients")}} interface allows an active service worker to set itself as the {{domxref("ServiceWorkerContainer.controller", "controller")}} for all clients within its {{domxref("ServiceWorkerRegistration.scope", "scope")}}.
 This triggers a `controllerchange` event on {{domxref("ServiceWorkerContainer","navigator.serviceWorker")}} in any clients that become controlled by this service worker.

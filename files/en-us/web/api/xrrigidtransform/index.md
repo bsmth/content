@@ -3,9 +3,12 @@ title: XRRigidTransform
 slug: Web/API/XRRigidTransform
 page-type: web-api-interface
 browser-compat: api.XRRigidTransform
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`XRRigidTransform`** is a [WebXR API](/en-US/docs/Web/API/WebXR_Device_API) interface that represents the 3D geometric transform described by a position and orientation.
 

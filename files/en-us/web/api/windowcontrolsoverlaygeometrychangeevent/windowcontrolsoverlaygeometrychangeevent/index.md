@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.WindowControlsOverlayGeometryChangeEvent.WindowControlsOverlayGeometryChangeEvent
+sidebar:
+  - apiref:
+      - Window Controls Overlay API
 ---
 
-{{APIRef("Window Controls Overlay API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`WindowControlsOverlayGeometryChangeEvent()`** constructor returns a new {{domxref("WindowControlsOverlayGeometryChangeEvent")}} object, representing the current geometry of a desktop Progressive Web App's title bar area.
 

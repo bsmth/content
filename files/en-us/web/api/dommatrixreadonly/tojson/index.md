@@ -4,9 +4,10 @@ short-title: toJSON()
 slug: Web/API/DOMMatrixReadOnly/toJSON
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.toJSON
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`toJSON()`** method of the {{domxref("DOMMatrixReadOnly")}} interface creates and returns a {{jsxref("JSON")}} object. The JSON object includes the 2D matrix elements `a` through `f`, the 16 elements of the 4X4 3D matrix, `m[1-4][1-4]`, the boolean {{domxref("DOMMatrixReadOnly.is2D", "is2D")}} property, and the boolean {{domxref("DOMMatrixReadOnly.isIdentity", "isIdentity")}} property.
 

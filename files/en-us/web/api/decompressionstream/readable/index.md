@@ -4,9 +4,12 @@ short-title: readable
 slug: Web/API/DecompressionStream/readable
 page-type: web-api-instance-property
 browser-compat: api.DecompressionStream.readable
+sidebar:
+  - apiref:
+      - Compression Streams API
 ---
 
-{{APIRef("Compression Streams API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`readable`** read-only property of the {{domxref("DecompressionStream")}} interface returns a {{domxref("ReadableStream")}}.
 

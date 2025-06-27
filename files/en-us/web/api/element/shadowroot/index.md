@@ -4,9 +4,10 @@ short-title: shadowRoot
 slug: Web/API/Element/shadowRoot
 page-type: web-api-instance-property
 browser-compat: api.Element.shadowRoot
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The `Element.shadowRoot` read-only property
 represents the shadow root hosted by the element.

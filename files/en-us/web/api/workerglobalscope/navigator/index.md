@@ -4,9 +4,10 @@ short-title: navigator
 slug: Web/API/WorkerGlobalScope/navigator
 page-type: web-api-instance-property
 browser-compat: api.WorkerGlobalScope.navigator
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("worker")}}
 
 The **`navigator`** read-only property of the {{domxref("WorkerGlobalScope")}} interface returns the {{domxref("WorkerNavigator")}} associated with the worker. It is a specific navigator object, mostly a subset of the {{domxref("Navigator")}} for browsing scopes, but adapted to workers.
 

@@ -4,9 +4,10 @@ short-title: createContextualFragment()
 slug: Web/API/Range/createContextualFragment
 page-type: web-api-instance-method
 browser-compat: api.Range.createContextualFragment
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.createContextualFragment()`** method returns a
 {{domxref("DocumentFragment")}} by invoking the HTML fragment parsing algorithm or the

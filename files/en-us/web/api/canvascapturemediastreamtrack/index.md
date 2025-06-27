@@ -3,9 +3,10 @@ title: CanvasCaptureMediaStreamTrack
 slug: Web/API/CanvasCaptureMediaStreamTrack
 page-type: web-api-interface
 browser-compat: api.CanvasCaptureMediaStreamTrack
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`CanvasCaptureMediaStreamTrack`** interface of the {{domxref("Media Capture and Streams API", "", "", "nocode")}} represents the video track contained in a {{domxref("MediaStream")}} being generated from a {{HTMLElement("canvas")}} following a call to {{domxref("HTMLCanvasElement.captureStream()")}}.
 

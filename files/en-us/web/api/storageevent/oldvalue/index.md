@@ -4,9 +4,10 @@ short-title: oldValue
 slug: Web/API/StorageEvent/oldValue
 page-type: web-api-instance-property
 browser-compat: api.StorageEvent.oldValue
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`oldValue`** property of the {{domxref("StorageEvent")}} interface returns the original value of the storage item whose value changed.
 

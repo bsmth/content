@@ -4,9 +4,12 @@ short-title: polygonOffset()
 slug: Web/API/WebGLRenderingContext/polygonOffset
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.polygonOffset
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.polygonOffset()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) specifies the scale factors and

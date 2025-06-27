@@ -4,9 +4,10 @@ short-title: doctype
 slug: Web/API/Document/doctype
 page-type: web-api-instance-property
 browser-compat: api.Document.doctype
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`doctype`** read-only property of the {{domxref("Document")}} interface is a {{domxref("DocumentType")}} object representing the {{glossary("Doctype", "Document Type Declaration (DTD)")}} associated with the current document.
 

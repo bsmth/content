@@ -4,9 +4,10 @@ short-title: foundation
 slug: Web/API/RTCIceCandidate/foundation
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.foundation
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`foundation`** read-only property of the {{domxref("RTCIceCandidate")}} interface is a string that allows correlation of candidates from a common network path on multiple {{domxref("RTCIceTransport")}} objects.
 

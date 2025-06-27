@@ -3,9 +3,10 @@ title: SVGScriptElement
 slug: Web/API/SVGScriptElement
 page-type: web-api-interface
 browser-compat: api.SVGScriptElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGScriptElement`** interface corresponds to the SVG {{SVGElement("script")}} element.
 

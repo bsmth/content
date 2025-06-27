@@ -4,9 +4,10 @@ short-title: toString()
 slug: Web/API/Range/toString
 page-type: web-api-instance-method
 browser-compat: api.Range.toString
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.toString()`** method is a {{Glossary("stringifier")}} returning
 the text of the {{domxref("Range")}}.

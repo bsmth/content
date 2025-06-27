@@ -4,9 +4,12 @@ short-title: bindBufferRange()
 slug: Web/API/WebGL2RenderingContext/bindBufferRange
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.bindBufferRange
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.bindBufferRange()`** method of
 the [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) binds a range of a given

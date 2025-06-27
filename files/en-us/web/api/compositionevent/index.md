@@ -3,9 +3,10 @@ title: CompositionEvent
 slug: Web/API/CompositionEvent
 page-type: web-api-interface
 browser-compat: api.CompositionEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The DOM **`CompositionEvent`** represents events that occur due to the user indirectly entering text.
 

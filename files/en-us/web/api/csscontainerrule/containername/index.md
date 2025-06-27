@@ -4,9 +4,10 @@ short-title: containerName
 slug: Web/API/CSSContainerRule/containerName
 page-type: web-api-instance-property
 browser-compat: api.CSSContainerRule.containerName
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The read-only **`containerName`** property of the {{domxref("CSSContainerRule")}} interface represents the container name of the associated CSS {{cssxref("@container")}} at-rule.
 

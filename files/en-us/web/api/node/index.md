@@ -3,9 +3,10 @@ title: Node
 slug: Web/API/Node
 page-type: web-api-interface
 browser-compat: api.Node
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{Glossary("DOM")}} **`Node`** interface is an abstract base
 class upon which many other DOM API objects are based, thus letting those object types

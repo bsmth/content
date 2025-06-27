@@ -6,9 +6,10 @@ page-type: web-api-instance-property
 status:
   - non-standard
 browser-compat: api.Window.fullScreen
+sidebar: apiref
 ---
 
-{{APIRef}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The **`fullScreen`** property of the `Window`
 interface indicates whether the window is displayed in full screen mode or not.

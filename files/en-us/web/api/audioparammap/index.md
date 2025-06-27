@@ -3,9 +3,10 @@ title: AudioParamMap
 slug: Web/API/AudioParamMap
 page-type: web-api-interface
 browser-compat: api.AudioParamMap
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`AudioParamMap`** interface of the [Web Audio API](/en-US/docs/Web/API/Web_Audio_API) represents an iterable and read-only set of multiple audio parameters.
 

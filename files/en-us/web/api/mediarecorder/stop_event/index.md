@@ -4,9 +4,10 @@ short-title: stop
 slug: Web/API/MediaRecorder/stop_event
 page-type: web-api-event
 browser-compat: api.MediaRecorder.stop_event
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`stop`** event of the {{domxref("MediaRecorder")}} interface is fired when
 {{domxref("MediaRecorder.stop()")}} is called, or when the media stream being

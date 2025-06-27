@@ -4,9 +4,10 @@ short-title: updateTiming()
 slug: Web/API/AnimationEffect/updateTiming
 page-type: web-api-instance-method
 browser-compat: api.AnimationEffect.updateTiming
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The `updateTiming()` method of the {{domxref("AnimationEffect")}} interface updates the specified timing properties for an animation effect.
 

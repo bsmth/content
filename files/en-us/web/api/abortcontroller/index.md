@@ -3,9 +3,12 @@ title: AbortController
 slug: Web/API/AbortController
 page-type: web-api-interface
 browser-compat: api.AbortController
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`AbortController`** interface represents a controller object that allows you to abort one or more Web requests as and when desired.
 

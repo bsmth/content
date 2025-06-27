@@ -4,9 +4,8 @@ short-title: contextrestored
 slug: Web/API/HTMLCanvasElement/contextrestored_event
 page-type: web-api-event
 browser-compat: api.HTMLCanvasElement.contextrestored_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`contextrestored`** event of the [Canvas API](/en-US/docs/Web/API/Canvas_API) is fired if the user agent restores the backing storage for a [`CanvasRenderingContext2D`](/en-US/docs/Web/API/CanvasRenderingContext2D).
 

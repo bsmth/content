@@ -4,9 +4,10 @@ short-title: PageTransitionEvent()
 slug: Web/API/PageTransitionEvent/PageTransitionEvent
 page-type: web-api-constructor
 browser-compat: api.PageTransitionEvent.PageTransitionEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`PageTransitionEvent()`** constructor creates a new {{domxref("PageTransitionEvent")}} object, that is used by the {{domxref("Window/pageshow_event", "pageshow")}} or {{domxref("Window/pagehide_event", "pagehide")}} events, fired at the {{domxref("window")}} object when a page is loaded or unloaded.
 

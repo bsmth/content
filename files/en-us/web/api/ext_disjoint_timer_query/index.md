@@ -4,9 +4,10 @@ short-title: EXT_disjoint_timer_query
 slug: Web/API/EXT_disjoint_timer_query
 page-type: webgl-extension
 browser-compat: api.EXT_disjoint_timer_query
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **EXT_disjoint_timer_query** extension is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and provides a way to measure the duration of a set of GL commands, without stalling the rendering pipeline.
 

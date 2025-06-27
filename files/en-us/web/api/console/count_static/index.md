@@ -4,9 +4,12 @@ short-title: count()
 slug: Web/API/console/count_static
 page-type: web-api-static-method
 browser-compat: api.console.count_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.count()`** static method logs the number of times that this particular call to `count()` has been called.
 

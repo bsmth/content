@@ -4,9 +4,10 @@ short-title: copyFromChannel()
 slug: Web/API/AudioBuffer/copyFromChannel
 page-type: web-api-instance-method
 browser-compat: api.AudioBuffer.copyFromChannel
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The
 **`copyFromChannel()`** method of the

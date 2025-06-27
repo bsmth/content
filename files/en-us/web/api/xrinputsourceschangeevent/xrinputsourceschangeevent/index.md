@@ -4,9 +4,12 @@ short-title: XRInputSourcesChangeEvent()
 slug: Web/API/XRInputSourcesChangeEvent/XRInputSourcesChangeEvent
 page-type: web-api-constructor
 browser-compat: api.XRInputSourcesChangeEvent.XRInputSourcesChangeEvent
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`XRInputSourcesChangeEvent()`**
 constructor creates and returns a new {{domxref("XRInputSourcesChangeEvent")}} object,

@@ -4,9 +4,12 @@ short-title: ideographicBaseline
 slug: Web/API/TextMetrics/ideographicBaseline
 page-type: web-api-instance-property
 browser-compat: api.TextMetrics.ideographicBaseline
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only `ideographicBaseline` property of the {{domxref("TextMetrics")}} interface is a `double` giving the distance from the horizontal line indicated by the {{domxref("CanvasRenderingContext2D.textBaseline")}} property to the ideographic baseline of the line box, in CSS pixels.
 

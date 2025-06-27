@@ -4,9 +4,10 @@ short-title: oldState
 slug: Web/API/ToggleEvent/oldState
 page-type: web-api-instance-property
 browser-compat: api.ToggleEvent.oldState
+sidebar:
+  - apiref:
+      - Popover API
 ---
-
-{{APIRef("Popover API")}}
 
 The **`oldState`** read-only property of the {{domxref("ToggleEvent")}} interface is a string representing the state the element is transitioning from.
 

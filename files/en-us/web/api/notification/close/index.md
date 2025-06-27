@@ -4,9 +4,12 @@ short-title: close()
 slug: Web/API/Notification/close
 page-type: web-api-instance-method
 browser-compat: api.Notification.close
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`close()`** method of the {{domxref("Notification")}} interface is used to
 close/remove a previously displayed notification.

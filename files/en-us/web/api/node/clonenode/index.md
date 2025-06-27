@@ -4,9 +4,10 @@ short-title: cloneNode()
 slug: Web/API/Node/cloneNode
 page-type: web-api-instance-method
 browser-compat: api.Node.cloneNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`cloneNode()`** method of the {{domxref("Node")}} interface
 returns a duplicate of the node on which this method was called.

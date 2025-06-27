@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Sanitizer.get
+sidebar:
+  - apiref:
+      - HTML Sanitizer API
 ---
 
-{{APIRef("HTML Sanitizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`get()`** method of the {{domxref("Sanitizer")}} interface returns a {{domxref('SanitizerConfig')}} dictionary instance that represents the current `Sanitizer` configuration.
 

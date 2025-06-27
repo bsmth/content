@@ -4,9 +4,12 @@ short-title: hangingBaseline
 slug: Web/API/TextMetrics/hangingBaseline
 page-type: web-api-instance-property
 browser-compat: api.TextMetrics.hangingBaseline
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only `hangingBaseline` property of the {{domxref("TextMetrics")}} interface is a `double` giving the distance from the horizontal line indicated by the {{domxref("CanvasRenderingContext2D.textBaseline")}} property to the hanging baseline of the line box, in CSS pixels.
 

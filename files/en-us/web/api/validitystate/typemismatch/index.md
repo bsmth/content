@@ -4,9 +4,10 @@ short-title: typeMismatch
 slug: Web/API/ValidityState/typeMismatch
 page-type: web-api-instance-property
 browser-compat: api.ValidityState.typeMismatch
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`typeMismatch`** property of the [`ValidityState`](/en-US/docs/Web/API/ValidityState) interface indicates if the value of an {{HTMLElement("input")}}, after having been edited by the user, does not conform to the constraints set by the element's [`type`](/en-US/docs/Web/HTML/Reference/Elements/input#input_types) attribute.
 

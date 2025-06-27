@@ -4,9 +4,10 @@ short-title: required
 slug: Web/API/HTMLInputElement/required
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.required
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`required`** property of the {{DOMxRef("HTMLInputElement")}} interface specifies that the user must fill in a value before submitting a form. It reflects the {{htmlelement("input")}} element's [`required`](/en-US/docs/Web/HTML/Reference/Elements/input#required) attribute.
 

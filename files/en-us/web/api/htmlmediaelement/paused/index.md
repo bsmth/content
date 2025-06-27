@@ -4,9 +4,10 @@ short-title: paused
 slug: Web/API/HTMLMediaElement/paused
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.paused
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`HTMLMediaElement.paused`** property
 tells whether the media element is paused.

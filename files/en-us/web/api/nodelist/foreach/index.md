@@ -4,9 +4,10 @@ short-title: forEach()
 slug: Web/API/NodeList/forEach
 page-type: web-api-instance-method
 browser-compat: api.NodeList.forEach
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`forEach()`** method of the {{domxref("NodeList")}}
 interface calls the callback given in parameter once for each value pair in the list, in

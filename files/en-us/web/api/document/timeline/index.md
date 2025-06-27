@@ -4,9 +4,10 @@ short-title: timeline
 slug: Web/API/Document/timeline
 page-type: web-api-instance-property
 browser-compat: api.Document.timeline
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The `timeline` readonly property of the {{domxref("Document")}} interface represents the default timeline of the current document. This timeline is a special instance of {{domxref("DocumentTimeline")}}.
 

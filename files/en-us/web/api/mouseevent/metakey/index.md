@@ -4,9 +4,10 @@ short-title: metaKey
 slug: Web/API/MouseEvent/metaKey
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.metaKey
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`MouseEvent.metaKey`** read-only property is a boolean value that indicates whether the <kbd>meta</kbd> key was pressed or not when a given mouse event occurs.
 

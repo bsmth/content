@@ -4,9 +4,8 @@ short-title: keyup
 slug: Web/API/Element/keyup_event
 page-type: web-api-event
 browser-compat: api.Element.keyup_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`keyup`** event is fired when a key is released.
 

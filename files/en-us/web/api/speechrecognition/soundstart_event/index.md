@@ -4,9 +4,10 @@ short-title: soundstart
 slug: Web/API/SpeechRecognition/soundstart_event
 page-type: web-api-event
 browser-compat: api.SpeechRecognition.soundstart_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`soundstart`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) is fired when any sound — recognizable speech or not — has been detected.
 

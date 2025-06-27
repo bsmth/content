@@ -4,9 +4,10 @@ short-title: ownerDocument
 slug: Web/API/Node/ownerDocument
 page-type: web-api-instance-property
 browser-compat: api.Node.ownerDocument
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`ownerDocument`** property of the {{domxref("Node")}} interface
 returns the top-level document object of the node.

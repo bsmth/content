@@ -4,9 +4,10 @@ short-title: textContent
 slug: Web/API/Node/textContent
 page-type: web-api-instance-property
 browser-compat: api.Node.textContent
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`textContent`** property of the {{domxref("Node")}}
 interface represents the text content of the node and its descendants.

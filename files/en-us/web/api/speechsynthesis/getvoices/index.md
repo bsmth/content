@@ -4,9 +4,10 @@ short-title: getVoices()
 slug: Web/API/SpeechSynthesis/getVoices
 page-type: web-api-instance-method
 browser-compat: api.SpeechSynthesis.getVoices
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`getVoices()`** method of the
 {{domxref("SpeechSynthesis")}} interface returns a list of

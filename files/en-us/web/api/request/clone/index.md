@@ -4,9 +4,12 @@ short-title: clone()
 slug: Web/API/Request/clone
 page-type: web-api-instance-method
 browser-compat: api.Request.clone
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`clone()`** method of the {{domxref("Request")}} interface creates a copy of the current `Request` object.
 

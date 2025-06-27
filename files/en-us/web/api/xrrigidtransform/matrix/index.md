@@ -4,9 +4,12 @@ short-title: matrix
 slug: Web/API/XRRigidTransform/matrix
 page-type: web-api-instance-property
 browser-compat: api.XRRigidTransform.matrix
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRRigidTransform")}} property **`matrix`** returns the transform matrix represented by the object. The returned matrix can then be premultiplied with a column vector to rotate the vector by the 3D rotation specified by the {{domxref("XRRigidTransform.orientation", "orientation")}}, then translate it by the {{domxref("XRRigidTransform.position", "position")}}.
 

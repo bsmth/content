@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/SVGUseElement/x
 page-type: web-api-instance-property
 browser-compat: api.SVGUseElement.x
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x`** read-only property of the {{domxref("SVGUseElement")}} interface describes the x-axis coordinate of the start point of the referenced element as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("x")}} attribute on the {{SVGElement("use")}} element.
 

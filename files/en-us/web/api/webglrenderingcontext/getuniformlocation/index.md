@@ -4,9 +4,12 @@ short-title: getUniformLocation()
 slug: Web/API/WebGLRenderingContext/getUniformLocation
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getUniformLocation
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 Part of the [WebGL API](/en-US/docs/Web/API/WebGL_API), the {{domxref("WebGLRenderingContext")}} method
 **`getUniformLocation()`** returns the location of a

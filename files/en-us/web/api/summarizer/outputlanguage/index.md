@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Summarizer.outputLanguage
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`outputLanguage`** read-only property of the {{domxref("Summarizer")}} interface returns the language the summary should be generated in.
 

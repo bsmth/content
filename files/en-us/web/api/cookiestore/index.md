@@ -3,9 +3,12 @@ title: CookieStore
 slug: Web/API/CookieStore
 page-type: web-api-interface
 browser-compat: api.CookieStore
+sidebar:
+  - apiref:
+      - Cookie Store API")}}{{AvailableInWorkers("window_and_service
 ---
 
-{{securecontext_header}}{{APIRef("Cookie Store API")}}{{AvailableInWorkers("window_and_service")}}
+{{securecontext_header}}
 
 The **`CookieStore`** interface of the {{domxref("Cookie Store API", "", "", "nocode")}} provides methods for getting and setting cookies asynchronously from either a page or a service worker.
 

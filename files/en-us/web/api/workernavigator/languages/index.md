@@ -4,9 +4,10 @@ short-title: languages
 slug: Web/API/WorkerNavigator/languages
 page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.languages
+sidebar:
+  - apiref:
+      - HTML DOM")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("HTML DOM")}}{{AvailableInWorkers("worker")}}
 
 The **`WorkerNavigator.languages`** read-only property
 returns an array of strings representing the user's preferred

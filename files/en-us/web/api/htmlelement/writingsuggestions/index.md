@@ -4,9 +4,10 @@ short-title: writingSuggestions
 slug: Web/API/HTMLElement/writingSuggestions
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.writingSuggestions
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`writingSuggestions`** property of the {{domxref("HTMLElement")}} interface is a string indicating if browser-provided writing suggestions should be enabled under the scope of the element or not.
 

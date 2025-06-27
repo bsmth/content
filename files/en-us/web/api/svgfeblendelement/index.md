@@ -3,9 +3,10 @@ title: SVGFEBlendElement
 slug: Web/API/SVGFEBlendElement
 page-type: web-api-interface
 browser-compat: api.SVGFEBlendElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEBlendElement`** interface corresponds to the {{SVGElement("feBlend")}} element.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.FontData.postscriptName
+sidebar:
+  - apiref:
+      - Local Font Access API
 ---
 
-{{APIRef("Local Font Access API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`postscriptName`** read-only property of the {{domxref("FontData")}} interface returns the PostScript name of the font face.
 

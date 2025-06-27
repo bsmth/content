@@ -4,9 +4,10 @@ short-title: registration
 slug: Web/API/ServiceWorkerGlobalScope/registration
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerGlobalScope.registration
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`registration`** read-only property of the {{domxref("ServiceWorkerGlobalScope")}} interface returns a reference to the {{domxref("ServiceWorkerRegistration")}} object, which represents the service worker's registration.
 

@@ -4,9 +4,10 @@ short-title: forEach()
 slug: Web/API/CSSUnparsedValue/forEach
 page-type: web-api-instance-method
 browser-compat: api.CSSUnparsedValue.forEach
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSUnparsedValue.forEach()`** method
 executes a provided function once for each element of the

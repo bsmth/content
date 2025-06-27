@@ -3,9 +3,10 @@ title: SVGFEFuncRElement
 slug: Web/API/SVGFEFuncRElement
 page-type: web-api-interface
 browser-compat: api.SVGFEFuncRElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGFEFuncRElement`** interface corresponds to the {{SVGElement("feFuncR")}} element.
 

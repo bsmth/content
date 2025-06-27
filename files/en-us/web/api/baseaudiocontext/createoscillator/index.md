@@ -4,9 +4,10 @@ short-title: createOscillator()
 slug: Web/API/BaseAudioContext/createOscillator
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createOscillator
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `createOscillator()` method of the {{domxref("BaseAudioContext")}}
 interface creates an {{domxref("OscillatorNode")}}, a source representing a periodic

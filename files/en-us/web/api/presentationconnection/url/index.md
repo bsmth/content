@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PresentationConnection.url
+sidebar:
+  - apiref:
+      - Presentation API
 ---
 
-{{SeeCompatTable}}{{APIRef("Presentation API")}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`url`** read-only property of the
 {{domxref("PresentationConnection")}} interface returns the URL used to create or

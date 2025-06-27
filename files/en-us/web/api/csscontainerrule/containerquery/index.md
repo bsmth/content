@@ -4,9 +4,10 @@ short-title: containerQuery
 slug: Web/API/CSSContainerRule/containerQuery
 page-type: web-api-instance-property
 browser-compat: api.CSSContainerRule.containerQuery
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The read-only **`containerQuery`** property of the {{domxref("CSSContainerRule")}} interface returns a string representing the container conditions that are evaluated when the container changes size in order to determine if the styles in the associated {{cssxref("@container")}} are applied.
 

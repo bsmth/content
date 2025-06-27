@@ -3,9 +3,12 @@ title: ImageData
 slug: Web/API/ImageData
 page-type: web-api-interface
 browser-compat: api.ImageData
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ImageData`** interface represents the underlying pixel data of an area of a {{HTMLElement("canvas")}} element.
 

@@ -4,9 +4,10 @@ short-title: framebufferTextureMultiviewOVR()
 slug: Web/API/OVR_multiview2/framebufferTextureMultiviewOVR
 page-type: webgl-extension-method
 browser-compat: api.OVR_multiview2.framebufferTextureMultiviewOVR
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`OVR_multiview2.framebufferTextureMultiviewOVR()`**
 method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) attaches a multiview

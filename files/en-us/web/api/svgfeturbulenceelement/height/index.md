@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGFETurbulenceElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGFETurbulenceElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** read-only property of the {{domxref("SVGFETurbulenceElement")}} interface describes the vertical size of an SVG filter primitive as a {{domxref("SVGAnimatedLength")}}.
 

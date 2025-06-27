@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.XRSubImage
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}} {{secureContext_header}}{{SeeCompatTable}}
+{{secureContext_header}}{{SeeCompatTable}}
 
 The **`XRSubImage`** interface of the [WebXR Device API](/en-US/docs/Web/API/WebXR_Device_API) represents what viewport of the GPU texture to use for rendering.
 

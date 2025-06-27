@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.Window.getDefaultComputedStyle
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The **`getDefaultComputedStyle()`** method gives the default [computed values](/en-US/docs/Web/CSS/CSS_cascade/Value_processing#computed_value) of all the CSS
 properties of an element, ignoring author styling. That is, only user-agent and user

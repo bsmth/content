@@ -4,9 +4,10 @@ short-title: beginElementAt()
 slug: Web/API/SVGAnimationElement/beginElementAt
 page-type: web-api-instance-method
 browser-compat: api.SVGAnimationElement.beginElementAt
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The {{domxref("SVGAnimationElement")}} method `beginElementAt()` creates a begin instance time for the current time plus the specified offset. The new instance time is added to the begin instance times list.
 

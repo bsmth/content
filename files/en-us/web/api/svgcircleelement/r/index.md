@@ -4,9 +4,10 @@ short-title: r
 slug: Web/API/SVGCircleElement/r
 page-type: web-api-instance-property
 browser-compat: api.SVGCircleElement.r
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`r`** read-only property of the {{domxref("SVGCircleElement")}} interface reflects the {{SVGAttr("r")}} attribute of a {{SVGElement("circle")}} element and by that defines the radius of the circle.
 

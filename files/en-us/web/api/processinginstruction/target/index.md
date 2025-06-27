@@ -4,9 +4,10 @@ short-title: target
 slug: Web/API/ProcessingInstruction/target
 page-type: web-api-instance-property
 browser-compat: api.ProcessingInstruction.target
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The read-only **`target`** property of the {{domxref("ProcessingInstruction")}} interface
 represent the application to which the `ProcessingInstruction` is targeted.

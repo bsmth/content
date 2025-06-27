@@ -4,9 +4,10 @@ short-title: whatToShow
 slug: Web/API/TreeWalker/whatToShow
 page-type: web-api-instance-property
 browser-compat: api.TreeWalker.whatToShow
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.whatToShow`** read-only property returns a
 bitmask that indicates the types of

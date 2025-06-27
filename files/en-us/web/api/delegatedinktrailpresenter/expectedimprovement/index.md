@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.DelegatedInkTrailPresenter.expectedImprovement
+sidebar:
+  - apiref:
+      - Ink API
 ---
 
-{{APIRef("Ink API")}}{{Deprecated_header}}{{Non-Standard_Header}}
+{{Deprecated_header}}{{Non-Standard_Header}}
 
 The **`expectedImprovement`** read-only property of the {{domxref("DelegatedInkTrailPresenter")}} interface returns a value, in milliseconds, indicating the latency improvement that can be expected using this presenter.
 

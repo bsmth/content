@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/CSSUnitValue/value
 page-type: web-api-instance-property
 browser-compat: api.CSSUnitValue.value
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`CSSUnitValue.value`** property of the
 {{domxref("CSSUnitValue")}} interface returns a double indicating the number of units.

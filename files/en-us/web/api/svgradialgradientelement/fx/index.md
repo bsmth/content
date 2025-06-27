@@ -4,9 +4,10 @@ short-title: fx
 slug: Web/API/SVGRadialGradientElement/fx
 page-type: web-api-instance-property
 browser-compat: api.SVGRadialGradientElement.fx
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`fx`** read-only property of the {{domxref("SVGRadialGradientElement")}} interface describes the x-axis coordinate of the focal point of the radial gradient as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("fx")}} attribute on the {{SVGElement("radialGradient")}} element.
 

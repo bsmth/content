@@ -4,9 +4,10 @@ short-title: resume
 slug: Web/API/SpeechSynthesisUtterance/resume_event
 page-type: web-api-event
 browser-compat: api.SpeechSynthesisUtterance.resume_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`resume`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) {{domxref("SpeechSynthesisUtterance")}} object is fired when a paused utterance is resumed.
 

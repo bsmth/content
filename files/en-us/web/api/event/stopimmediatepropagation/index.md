@@ -4,9 +4,12 @@ short-title: stopImmediatePropagation()
 slug: Web/API/Event/stopImmediatePropagation
 page-type: web-api-instance-method
 browser-compat: api.Event.stopImmediatePropagation
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`stopImmediatePropagation()`** method of the
 {{domxref("Event")}} interface prevents other listeners of the same event from being called.

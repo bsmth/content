@@ -4,9 +4,12 @@ short-title: scale3d()
 slug: Web/API/DOMMatrixReadOnly/scale3d
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.scale3d
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`scale3d()`** method of the {{domxref("DOMMatrixReadOnly")}} interface creates a new matrix which is the result of a 3D scale transform being applied
 to the matrix. It returns a new {{domxref("DOMMatrix")}} created by scaling the source 3d matrix by the given scale factor centered on the origin point specified by the origin parameters, with a default origin of `(0, 0, 0)`. The original matrix is not modified.

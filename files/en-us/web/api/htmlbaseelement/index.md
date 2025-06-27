@@ -3,9 +3,10 @@ title: HTMLBaseElement
 slug: Web/API/HTMLBaseElement
 page-type: web-api-interface
 browser-compat: api.HTMLBaseElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLBaseElement`** interface contains the base URI for a document. This object inherits all of the properties and methods as described in the {{domxref("HTMLElement")}} interface.
 

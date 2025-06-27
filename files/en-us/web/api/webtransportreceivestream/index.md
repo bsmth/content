@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.WebTransportReceiveStream
+sidebar:
+  - apiref:
+      - WebTransport API
 ---
 
-{{APIRef("WebTransport API")}}{{SeeCompatTable}}{{securecontext_header}} {{AvailableInWorkers}}
+{{SeeCompatTable}}{{securecontext_header}} {{AvailableInWorkers}}
 
 The `WebTransportReceiveStream` interface of the {{domxref("WebTransport API", "WebTransport API", "", "nocode")}} is a {{domxref("ReadableStream")}} that can be used to read from an incoming unidirectional or bidirectional {{domxref("WebTransport")}} stream.
 

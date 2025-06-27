@@ -4,9 +4,10 @@ short-title: getPhotoCapabilities()
 slug: Web/API/ImageCapture/getPhotoCapabilities
 page-type: web-api-instance-method
 browser-compat: api.ImageCapture.getPhotoCapabilities
+sidebar:
+  - apiref:
+      - Image Capture API
 ---
-
-{{APIRef("Image Capture API")}}
 
 The **`getPhotoCapabilities()`**
 method of the {{domxref("ImageCapture")}} interface returns a {{jsxref("Promise")}}

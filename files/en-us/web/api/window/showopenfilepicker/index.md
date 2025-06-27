@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Window.showOpenFilePicker
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{APIRef("File System API")}}{{SecureContext_Header}}{{SeeCompatTable}}
+{{SecureContext_Header}}{{SeeCompatTable}}
 
 The **`showOpenFilePicker()`** method of the
 {{domxref("Window")}} interface shows a file picker that allows a user to select a file

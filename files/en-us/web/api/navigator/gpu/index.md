@@ -4,9 +4,12 @@ short-title: gpu
 slug: Web/API/Navigator/gpu
 page-type: web-api-instance-property
 browser-compat: api.Navigator.gpu
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`Navigator.gpu`** read-only property returns the {{domxref("GPU")}} object for the current browsing context, which is the entry point for the {{domxref("WebGPU_API", "WebGPU API", "", "nocode")}}.
 

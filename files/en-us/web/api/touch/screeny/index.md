@@ -4,9 +4,10 @@ short-title: screenY
 slug: Web/API/Touch/screenY
 page-type: web-api-instance-property
 browser-compat: api.Touch.screenY
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 Returns the Y coordinate of the touch point relative to the screen, not including any scroll offset.
 

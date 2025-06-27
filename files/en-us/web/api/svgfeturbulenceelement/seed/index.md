@@ -4,9 +4,10 @@ short-title: seed
 slug: Web/API/SVGFETurbulenceElement/seed
 page-type: web-api-instance-property
 browser-compat: api.SVGFETurbulenceElement.seed
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`seed`** read-only property of the {{domxref("SVGFETurbulenceElement")}} interface reflects the {{SVGAttr("seed")}} attribute of the given {{SVGElement("feTurbulence")}} element.
 

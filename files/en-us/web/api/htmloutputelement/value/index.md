@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/HTMLOutputElement/value
 page-type: web-api-instance-property
 browser-compat: api.HTMLOutputElement.value
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`value`** property of the {{DOMxRef("HTMLOutputElement")}} interface represents the value of the {{htmlelement("output")}} element as a string, or the empty string if no value is set. It returns or sets the contents of the element, similar to the {{domxref("Node.textContent","textContent")}} property.
 

@@ -4,9 +4,10 @@ short-title: label
 slug: Web/API/AudioTrack/label
 page-type: web-api-instance-property
 browser-compat: api.AudioTrack.label
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **{{domxref("AudioTrack")}}**
 property **`label`** returns a string specifying the audio

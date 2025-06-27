@@ -4,9 +4,10 @@ short-title: enabled
 slug: Web/API/MediaStreamTrack/enabled
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.enabled
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`enabled`** property of the
 {{domxref("MediaStreamTrack")}} interface is a Boolean value which is

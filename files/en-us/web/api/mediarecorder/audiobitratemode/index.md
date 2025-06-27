@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.MediaRecorder.audioBitrateMode
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
 
-{{APIRef("MediaStream Recording")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`audioBitrateMode`** read-only property of the {{domxref("MediaRecorder")}} interface returns the bitrate mode used to encode audio tracks.
 

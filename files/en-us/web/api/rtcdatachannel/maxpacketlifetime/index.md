@@ -4,9 +4,10 @@ short-title: maxPacketLifeTime
 slug: Web/API/RTCDataChannel/maxPacketLifeTime
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannel.maxPacketLifeTime
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only `RTCDataChannel` property
 **`maxPacketLifeTime`** returns the amount of time, in

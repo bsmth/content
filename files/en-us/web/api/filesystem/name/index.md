@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/FileSystem/name
 page-type: web-api-instance-property
 browser-compat: api.FileSystem.name
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The read-only **`name`** property of the
 {{domxref("FileSystem")}} interface indicates the file system's name. This

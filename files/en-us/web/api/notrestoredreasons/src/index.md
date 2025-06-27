@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NotRestoredReasons.src
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`src`** read-only property of the
 {{domxref("NotRestoredReasons")}} interface returns a string representing the path to the source of the {{htmlelement("iframe")}} the document is contained in (for example `<iframe src="b.html">`).

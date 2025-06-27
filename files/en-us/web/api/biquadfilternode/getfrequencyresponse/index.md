@@ -4,9 +4,10 @@ short-title: getFrequencyResponse()
 slug: Web/API/BiquadFilterNode/getFrequencyResponse
 page-type: web-api-instance-method
 browser-compat: api.BiquadFilterNode.getFrequencyResponse
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `getFrequencyResponse()` method of the {{ domxref("BiquadFilterNode")}} interface takes the current filtering algorithm's settings and calculates the frequency response for frequencies specified in a specified array of frequencies.
 

@@ -4,9 +4,12 @@ short-title: gamepad
 slug: Web/API/GamepadEvent/gamepad
 page-type: web-api-instance-property
 browser-compat: api.GamepadEvent.gamepad
+sidebar:
+  - apiref:
+      - Gamepad API
 ---
 
-{{APIRef("Gamepad API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`GamepadEvent.gamepad`** property of the
 **{{domxref("GamepadEvent")}} interface** returns a {{domxref("Gamepad")}}

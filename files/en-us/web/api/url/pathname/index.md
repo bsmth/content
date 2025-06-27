@@ -4,9 +4,12 @@ short-title: pathname
 slug: Web/API/URL/pathname
 page-type: web-api-instance-property
 browser-compat: api.URL.pathname
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`pathname`** property of the {{domxref("URL")}} interface represents a location in a hierarchical structure. It is a string constructed from a list of path segments, each of which is prefixed by a `/` character.
 

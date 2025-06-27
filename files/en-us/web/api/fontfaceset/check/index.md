@@ -4,9 +4,12 @@ short-title: check()
 slug: Web/API/FontFaceSet/check
 page-type: web-api-instance-method
 browser-compat: api.FontFaceSet.check
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `check()` method of the {{domxref("FontFaceSet")}} returns `true` if you can render some text using the given font specification without attempting to use any fonts in this `FontFaceSet` that are not yet fully loaded. This means you can use the font specification without causing a [font swap](/en-US/docs/Web/CSS/@font-face/font-display).
 

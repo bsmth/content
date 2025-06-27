@@ -4,9 +4,12 @@ short-title: IDBVersionChangeEvent()
 slug: Web/API/IDBVersionChangeEvent/IDBVersionChangeEvent
 page-type: web-api-constructor
 browser-compat: api.IDBVersionChangeEvent.IDBVersionChangeEvent
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{securecontext_header}}{{APIRef("IndexedDB")}}
+{{securecontext_header}}
 
 The **`IDBVersionChangeEvent()`** constructor
 creates a new {{domxref("IDBVersionChangeEvent")}} object, which is used to represent

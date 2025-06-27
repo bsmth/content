@@ -4,9 +4,12 @@ short-title: ready
 slug: Web/API/WritableStreamDefaultWriter/ready
 page-type: web-api-instance-property
 browser-compat: api.WritableStreamDefaultWriter.ready
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ready`** read-only property of the
 {{domxref("WritableStreamDefaultWriter")}} interface returns a {{jsxref("Promise")}}

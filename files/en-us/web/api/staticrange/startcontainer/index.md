@@ -4,9 +4,10 @@ short-title: startContainer
 slug: Web/API/StaticRange/startContainer
 page-type: web-api-instance-property
 browser-compat: api.StaticRange.startContainer
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`startContainer`**
 property of the {{domxref("StaticRange")}} interface returns the start

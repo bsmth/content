@@ -4,9 +4,10 @@ short-title: href
 slug: Web/API/CSSImportRule/href
 page-type: web-api-instance-property
 browser-compat: api.CSSImportRule.href
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`href`** property of the
 {{domxref("CSSImportRule")}} interface returns the URL specified by the

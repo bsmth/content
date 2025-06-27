@@ -4,9 +4,10 @@ short-title: localDescription
 slug: Web/API/RTCPeerConnection/localDescription
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.localDescription
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`localDescription`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns an {{domxref("RTCSessionDescription")}} describing the session for the local end of the connection.
 If it has not yet been set, this is `null`.

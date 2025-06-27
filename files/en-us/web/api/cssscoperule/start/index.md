@@ -4,9 +4,10 @@ short-title: start
 slug: Web/API/CSSScopeRule/start
 page-type: web-api-instance-property
 browser-compat: api.CSSScopeRule.start
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`start`** property of the {{domxref("CSSScopeRule")}} interface returns a string containing the value of the `@scope` at-rule's scope root.
 

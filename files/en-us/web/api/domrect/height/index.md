@@ -4,9 +4,12 @@ short-title: height
 slug: Web/API/DOMRect/height
 page-type: web-api-instance-property
 browser-compat: api.DOMRect.height
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`height`** property of the {{domxref("DOMRect")}} interface represents the height of the rectangle. The value can be negative.
 

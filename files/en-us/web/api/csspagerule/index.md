@@ -3,9 +3,10 @@ title: CSSPageRule
 slug: Web/API/CSSPageRule
 page-type: web-api-interface
 browser-compat: api.CSSPageRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 **`CSSPageRule`** represents a single CSS {{cssxref("@page")}} rule.
 

@@ -4,9 +4,10 @@ short-title: hasPointerCapture()
 slug: Web/API/Element/hasPointerCapture
 page-type: web-api-instance-method
 browser-compat: api.Element.hasPointerCapture
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`hasPointerCapture()`** method of the
 {{domxref("Element")}} interface checks whether the element on which it is invoked has

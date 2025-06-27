@@ -3,9 +3,12 @@ title: ErrorEvent
 slug: Web/API/ErrorEvent
 page-type: web-api-interface
 browser-compat: api.ErrorEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ErrorEvent`** interface represents events providing information related to errors in scripts or in files.
 

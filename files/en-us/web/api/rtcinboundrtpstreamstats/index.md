@@ -3,9 +3,10 @@ title: RTCInboundRtpStreamStats
 slug: Web/API/RTCInboundRtpStreamStats
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport.type_inbound-rtp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCInboundRtpStreamStats`** dictionary of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) is used to report statistics related to the receiving end of an RTP stream on the local end of the {{domxref("RTCPeerConnection")}}.
 

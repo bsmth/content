@@ -3,9 +3,10 @@ title: Animation
 slug: Web/API/Animation
 page-type: web-api-interface
 browser-compat: api.Animation
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`Animation`** interface of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API) represents a single animation player and provides playback controls and a timeline for an animation node or source.
 

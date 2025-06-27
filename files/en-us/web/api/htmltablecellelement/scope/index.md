@@ -4,9 +4,10 @@ short-title: scope
 slug: Web/API/HTMLTableCellElement/scope
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableCellElement.scope
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`scope`** property of the {{domxref("HTMLTableCellElement")}} interface
 indicates the scope of a {{HTMLElement("th")}} cell.

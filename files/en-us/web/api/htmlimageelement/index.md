@@ -3,9 +3,10 @@ title: HTMLImageElement
 slug: Web/API/HTMLImageElement
 page-type: web-api-interface
 browser-compat: api.HTMLImageElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLImageElement`** interface represents an HTML {{HTMLElement("img")}} element, providing the properties and methods used to manipulate image elements.
 

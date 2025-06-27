@@ -4,9 +4,12 @@ short-title: protocol
 slug: Web/API/URL/protocol
 page-type: web-api-instance-property
 browser-compat: api.URL.protocol
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`protocol`** property of the {{domxref("URL")}} interface is a string containing the protocol or scheme of the URL, including the final `":"`.
 

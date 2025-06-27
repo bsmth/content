@@ -4,9 +4,10 @@ short-title: detune
 slug: Web/API/BiquadFilterNode/detune
 page-type: web-api-instance-property
 browser-compat: api.BiquadFilterNode.detune
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `detune` property of the {{ domxref("BiquadFilterNode") }} interface is an [a-rate](/en-US/docs/Web/API/AudioParam#a-rate) {{domxref("AudioParam")}} representing detuning of the frequency in [cents](https://en.wikipedia.org/wiki/Cent_%28music%29).
 

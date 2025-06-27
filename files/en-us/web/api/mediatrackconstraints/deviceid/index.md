@@ -4,9 +4,10 @@ short-title: deviceId
 slug: Web/API/MediaTrackConstraints/deviceId
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.deviceId_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackConstraints")}} dictionary's
 **`deviceId`** property is a [`ConstrainDOMString`](/en-US/docs/Web/API/MediaTrackConstraints#constraindomstring)

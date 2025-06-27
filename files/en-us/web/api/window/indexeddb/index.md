@@ -4,9 +4,10 @@ short-title: indexedDB
 slug: Web/API/Window/indexedDB
 page-type: web-api-instance-property
 browser-compat: api.indexedDB
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{APIRef("IndexedDB")}}
 
 The **`indexedDB`** read-only property of the {{domxref("Window")}} interface provides a mechanism for applications to
 asynchronously access the capabilities of indexed databases.

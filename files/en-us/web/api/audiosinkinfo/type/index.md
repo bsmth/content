@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.AudioSinkInfo.type
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`type`** read-only property of the {{domxref("AudioSinkInfo")}} interface returns the type of the audio output device.
 

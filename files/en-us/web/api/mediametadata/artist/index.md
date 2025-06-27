@@ -4,9 +4,10 @@ short-title: artist
 slug: Web/API/MediaMetadata/artist
 page-type: web-api-instance-property
 browser-compat: api.MediaMetadata.artist
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`artist`** property of the
 {{domxref("MediaMetadata")}} interface returns or sets the name of the artist, group,

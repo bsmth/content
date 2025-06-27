@@ -4,9 +4,8 @@ short-title: error
 slug: Web/API/HTMLMediaElement/error_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.error_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`error`** event is fired when the resource could not be loaded due to an error (for example, a network connectivity problem).
 

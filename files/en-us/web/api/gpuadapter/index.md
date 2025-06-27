@@ -3,9 +3,12 @@ title: GPUAdapter
 slug: Web/API/GPUAdapter
 page-type: web-api-interface
 browser-compat: api.GPUAdapter
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUAdapter`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} represents a GPU adapter. From this you can request a {{domxref("GPUDevice")}}, adapter info, features, and limits.
 

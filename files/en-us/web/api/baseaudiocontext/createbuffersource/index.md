@@ -4,9 +4,10 @@ short-title: createBufferSource()
 slug: Web/API/BaseAudioContext/createBufferSource
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createBufferSource
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createBufferSource()` method of the {{ domxref("BaseAudioContext") }}
 Interface is used to create a new {{ domxref("AudioBufferSourceNode") }}, which can be

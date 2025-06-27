@@ -4,9 +4,10 @@ short-title: pendingLocalDescription
 slug: Web/API/RTCPeerConnection/pendingLocalDescription
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.pendingLocalDescription
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`pendingLocalDescription`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns an {{domxref("RTCSessionDescription")}} object describing a pending configuration change for the local end of the connection.
 

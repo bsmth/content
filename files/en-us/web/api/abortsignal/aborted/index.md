@@ -4,9 +4,12 @@ short-title: aborted
 slug: Web/API/AbortSignal/aborted
 page-type: web-api-instance-property
 browser-compat: api.AbortSignal.aborted
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`aborted`** read-only property returns a value that indicates whether the asynchronous operations the signal is communicating with are aborted (`true`) or not (`false`).
 

@@ -4,9 +4,10 @@ short-title: online
 slug: Web/API/WorkerGlobalScope/online_event
 page-type: web-api-event
 browser-compat: api.WorkerGlobalScope.online_event
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("worker")}}
 
 The **`online`** event of the {{domxref("WorkerGlobalScope")}} fires when the device reconnects to the internet.
 

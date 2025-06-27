@@ -4,9 +4,12 @@ short-title: type
 slug: Web/API/Event/type
 page-type: web-api-instance-property
 browser-compat: api.Event.type
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`type`** read-only property of the {{domxref("Event")}}
 interface returns a string containing the event's type. It is set when the event is

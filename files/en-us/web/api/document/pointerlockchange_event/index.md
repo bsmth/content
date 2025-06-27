@@ -4,9 +4,10 @@ short-title: pointerlockchange
 slug: Web/API/Document/pointerlockchange_event
 page-type: web-api-event
 browser-compat: api.Document.pointerlockchange_event
+sidebar:
+  - apiref:
+      - Pointer Lock API
 ---
-
-{{APIRef("Pointer Lock API")}}
 
 The **`pointerlockchange`** event is fired when the pointer is locked/unlocked.
 

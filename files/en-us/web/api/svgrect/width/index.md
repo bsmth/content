@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGRect/width
 page-type: web-api-instance-property
 browser-compat: api.SVGRect.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`width`** property of the {{domxref("SVGRect")}} interface is an alias for the {{DOMXref("DOMRect.width")}} property. It describes the horizontal size of the element. It reflects the SVG element's {{SVGattr("width")}} attribute and the CSS {{cssxref("width")}} property.
 

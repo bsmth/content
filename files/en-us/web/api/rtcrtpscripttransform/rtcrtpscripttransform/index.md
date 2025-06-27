@@ -4,9 +4,10 @@ short-title: RTCRtpScriptTransform()
 slug: Web/API/RTCRtpScriptTransform/RTCRtpScriptTransform
 page-type: web-api-constructor
 browser-compat: api.RTCRtpScriptTransform.RTCRtpScriptTransform
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCRtpScriptTransform()`** constructor creates a new {{domxref("RTCRtpScriptTransform")}} object.
 

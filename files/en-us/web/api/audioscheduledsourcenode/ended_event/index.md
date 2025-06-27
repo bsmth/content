@@ -4,9 +4,10 @@ short-title: ended
 slug: Web/API/AudioScheduledSourceNode/ended_event
 page-type: web-api-event
 browser-compat: api.AudioScheduledSourceNode.ended_event
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The `ended` event of the {{domxref("AudioScheduledSourceNode")}} interface is fired when the source node has stopped playing.
 

@@ -3,9 +3,10 @@ title: WorkerLocation
 slug: Web/API/WorkerLocation
 page-type: web-api-interface
 browser-compat: api.WorkerLocation
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("worker")}}
 
 The **`WorkerLocation`** interface defines the absolute location of the script executed by the {{domxref("Worker")}}. Such an object is initialized for each worker and is available via the {{domxref("WorkerGlobalScope.location")}} property obtained by calling `self.location`.
 

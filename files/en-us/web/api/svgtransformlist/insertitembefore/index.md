@@ -4,9 +4,10 @@ short-title: insertItemBefore()
 slug: Web/API/SVGTransformList/insertItemBefore
 page-type: web-api-instance-method
 browser-compat: api.SVGTransformList.insertItemBefore
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `insertItemBefore()` method of the {{domxref("SVGTransformList")}} interface inserts a new item into the list at the specified position.
 

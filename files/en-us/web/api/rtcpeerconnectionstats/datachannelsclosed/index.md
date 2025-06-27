@@ -4,9 +4,10 @@ short-title: dataChannelsClosed
 slug: Web/API/RTCPeerConnectionStats/dataChannelsClosed
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_peer-connection.dataChannelsClosed
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`dataChannelsClosed`** property of the {{domxref("RTCPeerConnectionStats")}} dictionary indicates the number of unique {{domxref("RTCDataChannel")}} objects that have left the [`open`](/en-US/docs/Web/API/RTCDataChannel/readyState#open) state during their lifetime.
 

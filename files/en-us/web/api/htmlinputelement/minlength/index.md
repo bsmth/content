@@ -4,9 +4,10 @@ short-title: minLength
 slug: Web/API/HTMLInputElement/minLength
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.minLength
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`minLength`** property of the {{domxref("HTMLInputElement")}} interface indicates the minimum number of characters (in {{glossary("UTF-16", "UTF-16 code units")}}) required for the value of the {{HTMLElement("input")}} element to be valid. It reflects the element's [`minlength`](/en-US/docs/Web/HTML/Reference/Elements/input#minlength) attribute. `-1` means there is no minimum length requirement.
 

@@ -4,9 +4,8 @@ short-title: scrollTo()
 slug: Web/API/Element/scrollTo
 page-type: web-api-instance-method
 browser-compat: api.Element.scrollTo
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`scrollTo()`** method of the {{domxref("Element")}}
 interface scrolls to a particular set of coordinates inside a given element.

@@ -4,9 +4,8 @@ short-title: keydown
 slug: Web/API/Element/keydown_event
 page-type: web-api-event
 browser-compat: api.Element.keydown_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`keydown`** event is fired when a key is pressed.
 

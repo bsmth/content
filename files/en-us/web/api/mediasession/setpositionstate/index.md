@@ -4,9 +4,10 @@ short-title: setPositionState()
 slug: Web/API/MediaSession/setPositionState
 page-type: web-api-instance-method
 browser-compat: api.MediaSession.setPositionState
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`setPositionState()`** method of the
 {{domxref("MediaSession")}} interface is used to update the current

@@ -4,9 +4,10 @@ short-title: clientHeight
 slug: Web/API/Element/clientHeight
 page-type: web-api-instance-property
 browser-compat: api.Element.clientHeight
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`clientHeight`** read-only property of the {{domxref("Element")}} interface is zero for elements with no CSS or inline layout boxes; otherwise, it's the inner height of an element in pixels. It includes padding but excludes borders, margins, and horizontal scrollbars (if present).
 

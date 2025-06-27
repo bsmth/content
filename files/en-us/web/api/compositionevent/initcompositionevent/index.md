@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.CompositionEvent.initCompositionEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{deprecated_header}}{{APIRef("UI Events")}}
+{{deprecated_header}}
 
 The **`initCompositionEvent()`**
 method of the {{domxref("CompositionEvent")}} interface initializes the attributes of a

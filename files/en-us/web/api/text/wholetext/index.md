@@ -4,9 +4,10 @@ short-title: wholeText
 slug: Web/API/Text/wholeText
 page-type: web-api-instance-property
 browser-compat: api.Text.wholeText
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ apiref("DOM") }}
 
 The read-only **`wholeText`** property of the {{domxref("Text")}} interface
 returns the full text of all {{domxref("Text")}} nodes logically adjacent to the node.

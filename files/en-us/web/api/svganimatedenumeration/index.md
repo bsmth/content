@@ -3,9 +3,10 @@ title: SVGAnimatedEnumeration
 slug: Web/API/SVGAnimatedEnumeration
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedEnumeration
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedEnumeration`** interface describes attribute values which are constants from a particular enumeration and which can be animated.
 

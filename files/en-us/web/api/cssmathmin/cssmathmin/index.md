@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.CSSMathMin.CSSMathMin
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
 
-{{SeeCompatTable}}{{APIRef("CSS Typed Object Model API")}}
+{{SeeCompatTable}}
 
 The **`CSSMathMin()`** constructor creates a
 new {{domxref("CSSMathMin")}} object which represents the CSS

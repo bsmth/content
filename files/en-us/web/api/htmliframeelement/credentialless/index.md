@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.HTMLIFrameElement.credentialless
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`credentialless`** property of the {{domxref("HTMLIFrameElement")}} interface indicates whether the {{htmlelement("iframe")}} is credentialless, meaning that documents inside will be loaded using new, ephemeral contexts.
 

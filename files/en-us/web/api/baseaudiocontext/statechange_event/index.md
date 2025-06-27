@@ -4,9 +4,10 @@ short-title: statechange
 slug: Web/API/BaseAudioContext/statechange_event
 page-type: web-api-event
 browser-compat: api.BaseAudioContext.statechange_event
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 A `statechange` event is fired at a {{DOMxRef("BaseAudioContext")}} object when its {{domxref("BaseAudioContext.state", "state")}} member changes.
 

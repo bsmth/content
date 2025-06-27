@@ -4,9 +4,10 @@ short-title: has()
 slug: Web/API/CustomStateSet/has
 page-type: web-api-instance-method
 browser-compat: api.CustomStateSet.has
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`has()`** method of the {{domxref("CustomStateSet")}} interface returns a {{jsxref("Boolean")}} asserting whether an element is present with the given value.
 

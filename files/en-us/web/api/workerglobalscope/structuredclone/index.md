@@ -4,9 +4,10 @@ short-title: structuredClone()
 slug: Web/API/WorkerGlobalScope/structuredClone
 page-type: web-api-instance-method
 browser-compat: api.structuredClone
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("worker")}}
 
 The **`structuredClone()`** method of the {{domxref("WorkerGlobalScope")}} interface creates a {{Glossary("deep copy")}} of a given value using the [structured clone algorithm](/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm).
 

@@ -4,9 +4,10 @@ short-title: system
 slug: Web/API/CSSCounterStyleRule/system
 page-type: web-api-instance-property
 browser-compat: api.CSSCounterStyleRule.system
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`system`** property of the {{domxref("CSSCounterStyleRule")}} interface gets and sets the value of the {{cssxref("@counter-style/system", "system")}} descriptor. If the descriptor does not have a value set, this attribute returns an empty string.
 

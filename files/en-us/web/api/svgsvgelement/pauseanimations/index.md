@@ -4,9 +4,10 @@ short-title: pauseAnimations()
 slug: Web/API/SVGSVGElement/pauseAnimations
 page-type: web-api-instance-method
 browser-compat: api.SVGSVGElement.pauseAnimations
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `pauseAnimations()` method of the {{domxref("SVGSVGElement")}} interface suspends (i.e., pauses) all currently running animations that are defined within the SVG document fragment corresponding to this {{SVGElement("svg")}} element, causing the animation clock corresponding to this document fragment to stand still until it is unpaused.
 

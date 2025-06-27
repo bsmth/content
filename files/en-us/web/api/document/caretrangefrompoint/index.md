@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.Document.caretRangeFromPoint
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Non-standard_header}}
+{{Non-standard_header}}
 
 The **`caretRangeFromPoint()`** method of the
 {{domxref("Document")}} interface returns a {{domxref("Range")}} object for the document

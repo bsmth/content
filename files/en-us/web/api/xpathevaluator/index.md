@@ -3,9 +3,10 @@ title: XPathEvaluator
 slug: Web/API/XPathEvaluator
 page-type: web-api-interface
 browser-compat: api.XPathEvaluator
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
-
-{{APIRef("DOM XPath")}}
 
 The `XPathEvaluator` interface allows to compile and evaluate {{Glossary("XPath")}} expressions.
 

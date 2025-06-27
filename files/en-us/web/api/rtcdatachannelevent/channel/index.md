@@ -4,9 +4,10 @@ short-title: channel
 slug: Web/API/RTCDataChannelEvent/channel
 page-type: web-api-instance-property
 browser-compat: api.RTCDataChannelEvent.channel
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only property **`RTCDataChannelEvent.channel`**
 returns the {{domxref("RTCDataChannel")}} associated with the event.

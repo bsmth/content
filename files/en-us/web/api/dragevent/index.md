@@ -3,9 +3,10 @@ title: DragEvent
 slug: Web/API/DragEvent
 page-type: web-api-interface
 browser-compat: api.DragEvent
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DragEvent`** interface is a [DOM event](/en-US/docs/Web/API/Event) that represents a drag and drop interaction. The user initiates a drag by placing a pointer device (such as a mouse) on the touch surface and then dragging the pointer to a new location (such as another DOM element). Applications are free to interpret a drag and drop interaction in an application-specific way.
 

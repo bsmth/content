@@ -4,9 +4,10 @@ short-title: clientTop
 slug: Web/API/Element/clientTop
 page-type: web-api-instance-property
 browser-compat: api.Element.clientTop
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`clientTop`** read-only property of the {{domxref("Element")}} interface returns the width of the top border of an element in pixels.
 

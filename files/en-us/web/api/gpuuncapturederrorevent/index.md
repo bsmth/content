@@ -3,9 +3,12 @@ title: GPUUncapturedErrorEvent
 slug: Web/API/GPUUncapturedErrorEvent
 page-type: web-api-interface
 browser-compat: api.GPUUncapturedErrorEvent
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUUncapturedErrorEvent`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} is the event object type for the {{domxref("GPUDevice")}} {{domxref("GPUDevice.uncapturederror_event", "uncapturederror")}} event, used for telemetry and to report unexpected errors.
 

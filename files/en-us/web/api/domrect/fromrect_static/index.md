@@ -4,9 +4,12 @@ short-title: fromRect()
 slug: Web/API/DOMRect/fromRect_static
 page-type: web-api-static-method
 browser-compat: api.DOMRect.fromRect_static
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`fromRect()`** static method of the
 {{domxref("DOMRect")}} object creates a new `DOMRect`

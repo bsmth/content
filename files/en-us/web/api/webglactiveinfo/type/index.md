@@ -4,9 +4,12 @@ short-title: type
 slug: Web/API/WebGLActiveInfo/type
 page-type: web-api-instance-property
 browser-compat: api.WebGLActiveInfo.type
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`WebGLActiveInfo.type`** property represents the type of the requested data returned by calling the {{domxref("WebGLRenderingContext.getActiveAttrib()", "getActiveAttrib()")}} or {{domxref("WebGLRenderingContext.getActiveUniform()", "getActiveUniform()")}} methods.
 

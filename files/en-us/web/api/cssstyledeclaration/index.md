@@ -3,9 +3,10 @@ title: CSSStyleDeclaration
 slug: Web/API/CSSStyleDeclaration
 page-type: web-api-interface
 browser-compat: api.CSSStyleDeclaration
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSStyleDeclaration`** interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.
 

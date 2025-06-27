@@ -4,9 +4,10 @@ short-title: port
 slug: Web/API/SharedWorker/port
 page-type: web-api-instance-property
 browser-compat: api.SharedWorker.port
+sidebar:
+  - apiref:
+      - Web Workers API
 ---
-
-{{APIRef("Web Workers API")}}
 
 The **`port`** property of the {{domxref("SharedWorker")}}
 interface returns a {{domxref("MessagePort")}} object used to communicate and control

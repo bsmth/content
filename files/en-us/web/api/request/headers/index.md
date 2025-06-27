@@ -4,9 +4,12 @@ short-title: headers
 slug: Web/API/Request/headers
 page-type: web-api-instance-property
 browser-compat: api.Request.headers
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`headers`** read-only property of the
 {{domxref("Request")}} interface contains the {{domxref("Headers")}} object associated

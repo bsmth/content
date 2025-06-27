@@ -4,9 +4,12 @@ short-title: currentTarget
 slug: Web/API/Event/currentTarget
 page-type: web-api-instance-property
 browser-compat: api.Event.currentTarget
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`currentTarget`** read-only property of the {{domxref("Event")}} interface identifies the element to which the event handler has been attached.
 

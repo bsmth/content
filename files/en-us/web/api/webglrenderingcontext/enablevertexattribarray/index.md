@@ -4,9 +4,12 @@ short-title: enableVertexAttribArray()
 slug: Web/API/WebGLRenderingContext/enableVertexAttribArray
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.enableVertexAttribArray
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The {{domxref("WebGLRenderingContext")}} method
 **`enableVertexAttribArray()`**, part of the [WebGL API](/en-US/docs/Web/API/WebGL_API), turns on the generic vertex

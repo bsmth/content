@@ -4,9 +4,12 @@ short-title: registerProtocolHandler()
 slug: Web/API/Navigator/registerProtocolHandler
 page-type: web-api-instance-method
 browser-compat: api.Navigator.registerProtocolHandler
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **{{domxref("Navigator")}}** method **`registerProtocolHandler()`** lets websites register their ability to open or handle particular URL schemes (also known as protocols).
 

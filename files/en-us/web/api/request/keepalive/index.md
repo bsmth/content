@@ -4,9 +4,10 @@ short-title: keepalive
 slug: Web/API/Request/keepalive
 page-type: web-api-instance-property
 browser-compat: api.Request.keepalive
+sidebar:
+  - apiref:
+      - Fetch API
 ---
-
-{{APIRef("Fetch API")}}
 
 The **`keepalive`** read-only property of the {{domxref("Request")}} interface contains the request's `keepalive` setting (`true` or `false`), which indicates whether the browser will keep the associated request alive if the page that initiated it is unloaded before the request is complete.
 

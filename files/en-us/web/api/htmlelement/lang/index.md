@@ -4,9 +4,10 @@ short-title: lang
 slug: Web/API/HTMLElement/lang
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.lang
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`lang`** property of the {{domxref("HTMLElement")}} interface indicates the base language of an element's attribute values and text content, in the form of a {{RFC(5646, "BCP 47 language identifier tag")}}. It reflects the element's [`lang`](/en-US/docs/Web/HTML/Reference/Global_attributes/lang) attribute; the `xml:lang` attribute does not affect this property.
 

@@ -4,9 +4,12 @@ short-title: get()
 slug: Web/API/MediaKeyStatusMap/get
 page-type: web-api-instance-method
 browser-compat: api.MediaKeyStatusMap.get
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`get()`** method of the {{domxref("MediaKeyStatusMap")}} interface returns the status value associated with the given key, or `undefined` if there is none.
 

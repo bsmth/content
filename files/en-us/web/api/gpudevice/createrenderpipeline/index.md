@@ -4,9 +4,12 @@ short-title: createRenderPipeline()
 slug: Web/API/GPUDevice/createRenderPipeline
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.createRenderPipeline
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createRenderPipeline()`** method of the
 {{domxref("GPUDevice")}} interface creates a {{domxref("GPURenderPipeline")}} that can control the vertex and fragment shader stages and be used in a {{domxref("GPURenderPassEncoder")}} or {{domxref("GPURenderBundleEncoder")}}.

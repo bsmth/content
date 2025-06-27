@@ -4,9 +4,10 @@ short-title: TransitionEvent()
 slug: Web/API/TransitionEvent/TransitionEvent
 page-type: web-api-constructor
 browser-compat: api.TransitionEvent.TransitionEvent
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`TransitionEvent()`** constructor returns a new {{domxref("TransitionEvent")}} object, representing an event in relation with a transition.
 

@@ -3,9 +3,10 @@ title: HTMLElement
 slug: Web/API/HTMLElement
 page-type: web-api-interface
 browser-compat: api.HTMLElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLElement`** interface represents any [HTML](/en-US/docs/Web/HTML) element. Some elements directly implement this interface, while others implement it via an interface that inherits it.
 

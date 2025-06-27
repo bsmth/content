@@ -4,9 +4,10 @@ short-title: setInterval()
 slug: Web/API/Window/setInterval
 page-type: web-api-instance-method
 browser-compat: api.setInterval
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`setInterval()`** method of the {{domxref("Window")}} interface repeatedly calls a function or executes a code snippet, with a fixed time delay between each call.
 

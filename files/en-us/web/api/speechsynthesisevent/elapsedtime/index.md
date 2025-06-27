@@ -4,9 +4,10 @@ short-title: elapsedTime
 slug: Web/API/SpeechSynthesisEvent/elapsedTime
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisEvent.elapsedTime
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`elapsedTime`** read-only property of the {{domxref("SpeechSynthesisEvent")}} returns the elapsed time in seconds, after the {{domxref("SpeechSynthesisUtterance.text")}} started being spoken, at which the [event](/en-US/docs/Web/API/SpeechSynthesisUtterance#events) was triggered.
 

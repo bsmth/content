@@ -4,9 +4,10 @@ short-title: constraint
 slug: Web/API/OverconstrainedError/constraint
 page-type: web-api-instance-property
 browser-compat: api.OverconstrainedError.constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`constraint`** read-only property of the
 {{domxref("OverconstrainedError")}} interface returns the constraint that was supplied

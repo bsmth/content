@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Screen.unlockOrientation
+sidebar:
+  - apiref:
+      - Screen Orientation API
 ---
 
-{{APIRef("Screen Orientation API")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`Screen.unlockOrientation()`** method removes all the
 previous screen locks set by the page/app. The {{DOMxRef("ScreenOrientation.unlock()")}}

@@ -3,9 +3,10 @@ title: RTCStatsReport
 slug: Web/API/RTCStatsReport
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCStatsReport`** interface of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) provides a statistics report for a {{domxref("RTCPeerConnection")}}, {{domxref("RTCRtpSender")}}, or {{domxref("RTCRtpReceiver")}}.
 

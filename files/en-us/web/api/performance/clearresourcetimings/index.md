@@ -4,9 +4,12 @@ short-title: clearResourceTimings()
 slug: Web/API/Performance/clearResourceTimings
 page-type: web-api-instance-method
 browser-compat: api.Performance.clearResourceTimings
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`clearResourceTimings()`** method removes all performance entries with an {{domxref("PerformanceEntry.entryType","entryType")}} of `"resource"` from the browser's performance timeline and sets the size of the performance resource data buffer to zero.
 

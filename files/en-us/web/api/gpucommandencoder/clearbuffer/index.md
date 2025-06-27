@@ -4,9 +4,12 @@ short-title: clearBuffer()
 slug: Web/API/GPUCommandEncoder/clearBuffer
 page-type: web-api-instance-method
 browser-compat: api.GPUCommandEncoder.clearBuffer
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`clearBuffer()`** method of the
 {{domxref("GPUCommandEncoder")}} interface encodes a command that fills a region of a {{domxref("GPUBuffer")}} with zeroes.

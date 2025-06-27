@@ -4,9 +4,10 @@ short-title: autoGainControl
 slug: Web/API/MediaTrackConstraints/autoGainControl
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.autoGainControl_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackConstraints")}} dictionary's **`autoGainControl`** property is a [`ConstrainBoolean`](/en-US/docs/Web/API/MediaTrackConstraints#constrainboolean) describing the requested or mandatory constraints placed
 upon the value of the {{domxref("MediaTrackSettings.autoGainControl", "autoGainControl")}} constrainable property.

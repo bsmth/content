@@ -4,9 +4,10 @@ short-title: getAttributeNodeNS()
 slug: Web/API/Element/getAttributeNodeNS
 page-type: web-api-instance-method
 browser-compat: api.Element.getAttributeNodeNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`getAttributeNodeNS()`** method of the {{domxref("Element")}} interface returns the namespaced {{domxref("Attr")}} node of an element.
 

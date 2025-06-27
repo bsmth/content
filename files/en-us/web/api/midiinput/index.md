@@ -3,9 +3,12 @@ title: MIDIInput
 slug: Web/API/MIDIInput
 page-type: web-api-interface
 browser-compat: api.MIDIInput
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{APIRef("Web MIDI API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`MIDIInput`** interface of the [Web MIDI API](/en-US/docs/Web/API/Web_MIDI_API) receives messages from a MIDI input port.
 

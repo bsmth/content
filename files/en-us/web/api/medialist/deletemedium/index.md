@@ -4,9 +4,10 @@ short-title: deleteMedium()
 slug: Web/API/MediaList/deleteMedium
 page-type: web-api-instance-method
 browser-compat: api.MediaList.deleteMedium
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The `deleteMedium()` method of the {{DOMxRef("MediaList")}} interface removes from this `MediaList` the given media query.
 

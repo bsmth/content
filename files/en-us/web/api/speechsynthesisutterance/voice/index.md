@@ -4,9 +4,10 @@ short-title: voice
 slug: Web/API/SpeechSynthesisUtterance/voice
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisUtterance.voice
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`voice`** property of the {{domxref("SpeechSynthesisUtterance")}} interface gets and sets the voice that will be used to speak the utterance.
 

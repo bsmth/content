@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.IdleDetector.IdleDetector
+sidebar:
+  - apiref:
+      - Idle Detection API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("Idle Detection API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`IdleDetector()`** constructor creates a new {{domxref("IdleDetector")}}
 object which provides events indicating when the user is no longer interacting

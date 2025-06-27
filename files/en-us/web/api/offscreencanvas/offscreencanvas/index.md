@@ -4,9 +4,12 @@ short-title: OffscreenCanvas()
 slug: Web/API/OffscreenCanvas/OffscreenCanvas
 page-type: web-api-constructor
 browser-compat: api.OffscreenCanvas.OffscreenCanvas
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`OffscreenCanvas()`** constructor returns a newly instantiated {{domxref("OffscreenCanvas")}} object.
 

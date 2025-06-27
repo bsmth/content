@@ -4,9 +4,10 @@ short-title: srclang
 slug: Web/API/HTMLTrackElement/srclang
 page-type: web-api-instance-property
 browser-compat: api.HTMLTrackElement.srclang
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`srclang`** property of the {{domxref("HTMLTrackElement")}} interface reflects the value of
 the {{HTMLElement("track")}} element's [`srclang`](/en-US/docs/Web/HTML/Reference/Elements/track#srclang) attribute or the empty string if not defined.

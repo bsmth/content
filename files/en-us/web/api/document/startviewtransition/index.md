@@ -4,9 +4,10 @@ short-title: startViewTransition()
 slug: Web/API/Document/startViewTransition
 page-type: web-api-instance-method
 browser-compat: api.Document.startViewTransition
+sidebar:
+  - apiref:
+      - View Transition API
 ---
-
-{{APIRef("View Transition API")}}
 
 The **`startViewTransition()`** method of the {{domxref("Document")}} interface starts a new same-document (SPA) [view transition](/en-US/docs/Web/API/View_Transition_API) and returns a {{domxref("ViewTransition")}} object to represent it.
 

@@ -4,9 +4,12 @@ short-title: storage
 slug: Web/API/Navigator/storage
 page-type: web-api-instance-property
 browser-compat: api.Navigator.storage
+sidebar:
+  - apiref:
+      - Storage
 ---
 
-{{securecontext_header}}{{APIRef("Storage")}}
+{{securecontext_header}}
 
 The **`Navigator.storage`**
 read-only property returns the singleton {{domxref("StorageManager")}} object used to

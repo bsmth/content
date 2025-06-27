@@ -4,9 +4,10 @@ short-title: toJSON()
 slug: Web/API/GeolocationPosition/toJSON
 page-type: web-api-instance-method
 browser-compat: api.GeolocationPosition.toJSON
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
-
-{{APIRef("Geolocation API")}}
 
 The **`toJSON()`** method of the {{domxref("GeolocationPosition")}} interface is a {{Glossary("Serialization","serializer")}}; it returns a JSON representation of the {{domxref("GeolocationPosition")}} object.
 

@@ -4,9 +4,10 @@ short-title: children
 slug: Web/API/DocumentFragment/children
 page-type: web-api-instance-property
 browser-compat: api.DocumentFragment.children
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The read-only **`children`** property returns a live {{domxref("HTMLCollection")}}
 which contains all of the child {{domxref("Element", "elements")}} of the document fragment upon which it was called.

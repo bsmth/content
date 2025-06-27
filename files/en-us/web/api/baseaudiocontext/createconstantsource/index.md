@@ -4,9 +4,10 @@ short-title: createConstantSource()
 slug: Web/API/BaseAudioContext/createConstantSource
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createConstantSource
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`createConstantSource()`**
 property of the {{domxref("BaseAudioContext")}} interface creates a

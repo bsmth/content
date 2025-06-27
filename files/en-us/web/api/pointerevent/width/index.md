@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/PointerEvent/width
 page-type: web-api-instance-property
 browser-compat: api.PointerEvent.width
+sidebar:
+  - apiref:
+      - Pointer Events
 ---
-
-{{ APIRef("Pointer Events") }}
 
 The **`width`** read-only property of the
 {{domxref("PointerEvent")}} interface represents the width of the pointer's contact

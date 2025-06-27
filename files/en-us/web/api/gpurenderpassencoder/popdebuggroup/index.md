@@ -4,9 +4,12 @@ short-title: popDebugGroup()
 slug: Web/API/GPURenderPassEncoder/popDebugGroup
 page-type: web-api-instance-method
 browser-compat: api.GPURenderPassEncoder.popDebugGroup
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`popDebugGroup()`** method of the
 {{domxref("GPURenderPassEncoder")}} interface ends a render pass debug group, which is begun with a {{domxref("GPURenderPassEncoder.pushDebugGroup", "pushDebugGroup()")}} call.

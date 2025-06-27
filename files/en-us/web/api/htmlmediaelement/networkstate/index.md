@@ -4,9 +4,10 @@ short-title: networkState
 slug: Web/API/HTMLMediaElement/networkState
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.networkState
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The
 **`HTMLMediaElement.networkState`** property indicates the

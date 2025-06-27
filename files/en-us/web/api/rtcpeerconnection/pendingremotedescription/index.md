@@ -4,9 +4,10 @@ short-title: pendingRemoteDescription
 slug: Web/API/RTCPeerConnection/pendingRemoteDescription
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.pendingRemoteDescription
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`pendingRemoteDescription`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns an {{domxref("RTCSessionDescription")}} object describing a pending configuration change for the remote end of the connection.
 

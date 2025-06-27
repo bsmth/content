@@ -4,9 +4,10 @@ short-title: clearData()
 slug: Web/API/DataTransfer/clearData
 page-type: web-api-instance-method
 browser-compat: api.DataTransfer.clearData
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransfer.clearData()`** method removes the drag
 operation's [drag data](/en-US/docs/Web/API/DataTransfer) for the given type. If data for the

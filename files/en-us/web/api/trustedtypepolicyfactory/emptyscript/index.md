@@ -4,9 +4,12 @@ short-title: emptyScript
 slug: Web/API/TrustedTypePolicyFactory/emptyScript
 page-type: web-api-instance-property
 browser-compat: api.TrustedTypePolicyFactory.emptyScript
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`emptyScript`** read-only property of the {{domxref("TrustedTypePolicyFactory")}} interface returns a {{domxref("TrustedScript")}} object containing an empty string.
 

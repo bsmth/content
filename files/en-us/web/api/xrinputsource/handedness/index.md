@@ -4,9 +4,12 @@ short-title: handedness
 slug: Web/API/XRInputSource/handedness
 page-type: web-api-instance-property
 browser-compat: api.XRInputSource.handedness
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRInputSource")}} property
 **`handedness`** indicates which of the user's hands the WebXR

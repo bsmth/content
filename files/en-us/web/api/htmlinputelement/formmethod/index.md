@@ -4,9 +4,10 @@ short-title: formMethod
 slug: Web/API/HTMLInputElement/formMethod
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.formMethod
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`formMethod`** property of the {{domxref("HTMLInputElement")}} interface is the {{Glossary("HTTP")}} method used to submit the {{HtmlElement("form")}} if the {{HTMLElement("input")}} element is the control that submits the form. It reflects the value of the `<input>`'s [`formmethod`](/en-US/docs/Web/HTML/Reference/Elements/input#formmethod) attribute.
 

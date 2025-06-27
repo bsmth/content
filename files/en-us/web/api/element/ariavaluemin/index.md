@@ -4,9 +4,10 @@ short-title: ariaValueMin
 slug: Web/API/Element/ariaValueMin
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaValueMin
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaValueMin`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-valuemin`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-valuemin) attribute, which defines the minimum allowed value for a range widget.
 

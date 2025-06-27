@@ -4,9 +4,10 @@ short-title: setCustomValidity()
 slug: Web/API/HTMLSelectElement/setCustomValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLSelectElement.setCustomValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLSelectElement.setCustomValidity()`** method sets the
 custom validity message for the selection element to the specified message. Use the

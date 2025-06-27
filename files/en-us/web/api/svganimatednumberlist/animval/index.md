@@ -4,9 +4,10 @@ short-title: animVal
 slug: Web/API/SVGAnimatedNumberList/animVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedNumberList.animVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animVal`** read-only property of the {{domxref("SVGAnimatedNumberList")}} interface represents the current animated value of an animatable attribute that accepts a list of [`<number>`](/en-US/docs/Web/SVG/Guides/Content_type#number) values.
 

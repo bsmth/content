@@ -4,9 +4,10 @@ short-title: context
 slug: Web/API/AudioNode/context
 page-type: web-api-instance-property
 browser-compat: api.AudioNode.context
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The read-only `context` property of the
 {{domxref("AudioNode")}} interface returns the associated

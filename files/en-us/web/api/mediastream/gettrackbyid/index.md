@@ -4,9 +4,10 @@ short-title: getTrackById()
 slug: Web/API/MediaStream/getTrackById
 page-type: web-api-instance-method
 browser-compat: api.MediaStream.getTrackById
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`getTrackById()`** method of the {{domxref("MediaStream")}} interface
 returns a {{domxref("MediaStreamTrack")}} object representing the track with the specified ID

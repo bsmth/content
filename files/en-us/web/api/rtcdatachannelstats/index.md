@@ -3,9 +3,10 @@ title: RTCDataChannelStats
 slug: Web/API/RTCDataChannelStats
 page-type: web-api-interface
 browser-compat: api.RTCStatsReport.type_data-channel
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCDataChannelStats`** dictionary of the [WebRTC API](/en-US/docs/Web/API/WebRTC_API) provides statistics related to one {{domxref("RTCDataChannel")}} object on the connection.
 

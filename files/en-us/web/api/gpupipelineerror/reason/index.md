@@ -4,9 +4,12 @@ short-title: reason
 slug: Web/API/GPUPipelineError/reason
 page-type: web-api-instance-property
 browser-compat: api.GPUPipelineError.reason
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`reason`** read-only property of the
 {{domxref("GPUPipelineError")}} interface defines the reason the pipeline creation failed in a machine-readable way.

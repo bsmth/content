@@ -4,9 +4,12 @@ short-title: File()
 slug: Web/API/File/File
 page-type: web-api-constructor
 browser-compat: api.File.File
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`File()`** constructor creates a new {{domxref("File")}}
 object instance.

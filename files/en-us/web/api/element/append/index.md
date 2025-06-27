@@ -4,9 +4,10 @@ short-title: append()
 slug: Web/API/Element/append
 page-type: web-api-instance-method
 browser-compat: api.Element.append
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.append()`** method
 inserts a set of {{domxref("Node")}} objects or strings after

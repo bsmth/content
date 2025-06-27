@@ -4,9 +4,10 @@ short-title: positionY
 slug: Web/API/PannerNode/positionY
 page-type: web-api-instance-property
 browser-compat: api.PannerNode.positionY
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`positionY`** property of the {{ domxref("PannerNode") }} interface specifies the Y coordinate of the audio source's position in 3D Cartesian
 coordinates, corresponding to the _vertical_ axis (top-bottom). The complete

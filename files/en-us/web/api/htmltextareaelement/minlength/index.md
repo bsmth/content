@@ -4,9 +4,10 @@ short-title: minLength
 slug: Web/API/HTMLTextAreaElement/minLength
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.minLength
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`minLength`** property of the {{domxref("HTMLTextAreaElement")}} interface indicates the minimum number of characters (in {{glossary("UTF-16", "UTF-16 code units")}}) required for the value of the {{HTMLElement("textarea")}} element to be valid. It reflects the element's [`minlength`](/en-US/docs/Web/HTML/Reference/Elements/textarea#minlength) attribute. `-1` means there is no minimum length requirement.
 

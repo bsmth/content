@@ -4,9 +4,12 @@ short-title: setPipeline()
 slug: Web/API/GPURenderBundleEncoder/setPipeline
 page-type: web-api-instance-method
 browser-compat: api.GPURenderBundleEncoder.setPipeline
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`setPipeline()`** method of the
 {{domxref("GPURenderBundleEncoder")}} interface sets the {{domxref("GPURenderPipeline")}} to use for subsequent render bundle commands.

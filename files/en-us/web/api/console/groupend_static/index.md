@@ -4,9 +4,12 @@ short-title: groupEnd()
 slug: Web/API/console/groupEnd_static
 page-type: web-api-static-method
 browser-compat: api.console.groupEnd_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.groupEnd()`** static method exits the current inline group in the console. See [Using groups in the console](/en-US/docs/Web/API/console#using_groups_in_the_console) in the {{domxref("console")}} documentation for details and examples.
 

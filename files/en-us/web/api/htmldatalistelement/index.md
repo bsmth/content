@@ -3,9 +3,10 @@ title: HTMLDataListElement
 slug: Web/API/HTMLDataListElement
 page-type: web-api-interface
 browser-compat: api.HTMLDataListElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLDataListElement`** interface provides special properties (beyond the {{domxref("HTMLElement")}} object interface it also has available to it by inheritance) to manipulate {{ HTMLElement("datalist") }} elements and their content.
 

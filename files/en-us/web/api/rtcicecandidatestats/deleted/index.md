@@ -4,9 +4,10 @@ short-title: deleted
 slug: Web/API/RTCIceCandidateStats/deleted
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.deleted
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCIceCandidateStats")}} dictionary's
 **`deleted`** property indicates whether or not the candidate

@@ -4,9 +4,10 @@ short-title: specularConstant
 slug: Web/API/SVGFESpecularLightingElement/specularConstant
 page-type: web-api-instance-property
 browser-compat: api.SVGFESpecularLightingElement.specularConstant
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`specularConstant`** read-only property of the {{domxref("SVGFESpecularLightingElement")}} interface reflects the {{SVGAttr("specularConstant")}} attribute of the given {{SVGElement("feSpecularLighting")}} element.
 

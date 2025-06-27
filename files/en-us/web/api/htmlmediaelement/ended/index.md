@@ -4,9 +4,10 @@ short-title: ended
 slug: Web/API/HTMLMediaElement/ended
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.ended
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.ended`** property indicates whether the media
 element has ended playback.

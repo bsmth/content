@@ -4,9 +4,10 @@ short-title: parseHTML()
 slug: Web/API/Document/parseHTML_static
 page-type: web-api-static-method
 browser-compat: api.Document.parseHTML_static
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`parseHTML()`** static method of the {{domxref("Document")}} object provides an XSS-safe method to parse and sanitize a string of HTML in order to create a new {{domxref("Document")}} instance.
 

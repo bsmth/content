@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.SnapEvent
+sidebar:
+  - apiref:
+      - Snap Events
 ---
 
-{{APIRef("Snap Events")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`SnapEvent`** interface defines the event object for the {{domxref("Element/scrollsnapchanging_event", "scrollsnapchanging")}} and {{domxref("Element/scrollsnapchange_event", "scrollsnapchange")}} events. Respectively, these fire on a [scroll container](/en-US/docs/Glossary/Scroll_container) when the browser determines that a new scroll snap target is pending (will be selected when the current scroll gesture ends), and when a new snap target is selected.
 

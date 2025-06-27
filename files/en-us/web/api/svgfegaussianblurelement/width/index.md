@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/SVGFEGaussianBlurElement/width
 page-type: web-api-instance-property
 browser-compat: api.SVGFEGaussianBlurElement.width
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`width`** read-only property of the {{domxref("SVGFEGaussianBlurElement")}} interface describes the horizontal size of an SVG filter primitive as a {{domxref("SVGAnimatedLength")}}.
 

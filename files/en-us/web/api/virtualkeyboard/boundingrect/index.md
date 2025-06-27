@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.VirtualKeyboard.boundingRect
+sidebar:
+  - apiref:
+      - VirtualKeyboard API
 ---
 
-{{APIRef("VirtualKeyboard API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`boundingRect`** property of the {{domxref("VirtualKeyboard")}} interface contains a {{domxref("DOMRect")}} indicating the position and size of the on-screen virtual keyboard that overlays the web page.
 

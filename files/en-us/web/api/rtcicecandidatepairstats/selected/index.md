@@ -4,9 +4,12 @@ short-title: selected
 slug: Web/API/RTCIceCandidatePairStats/selected
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.selected
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{non-standard_header}}
+{{non-standard_header}}
 
 The **`selected`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates whether or not the candidate pair described by the object is the one currently being used to communicate with the remote peer.
 

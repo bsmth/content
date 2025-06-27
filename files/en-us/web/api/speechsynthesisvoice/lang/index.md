@@ -4,9 +4,10 @@ short-title: lang
 slug: Web/API/SpeechSynthesisVoice/lang
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisVoice.lang
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`lang`** read-only property of the {{domxref("SpeechSynthesisVoice")}} interface returns a BCP 47 language tag indicating the language of the voice.
 

@@ -4,9 +4,10 @@ short-title: getElementsByTagNameNS()
 slug: Web/API/Document/getElementsByTagNameNS
 page-type: web-api-instance-method
 browser-compat: api.Document.getElementsByTagNameNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 Returns a list of elements with the given tag name belonging to the given namespace.
 The complete document is searched, including the root node.

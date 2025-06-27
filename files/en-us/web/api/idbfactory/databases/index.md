@@ -4,9 +4,12 @@ short-title: databases()
 slug: Web/API/IDBFactory/databases
 page-type: web-api-instance-method
 browser-compat: api.IDBFactory.databases
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`databases`** method of the {{domxref("IDBFactory")}} interface returns a {{jsxref("Promise")}} that fulfills with an array of objects containing the name and version of all the available databases.
 

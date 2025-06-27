@@ -4,9 +4,12 @@ short-title: createComputePipeline()
 slug: Web/API/GPUDevice/createComputePipeline
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.createComputePipeline
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createComputePipeline()`** method of the
 {{domxref("GPUDevice")}} interface creates a {{domxref("GPUComputePipeline")}} that can control the compute shader stage and be used in a {{domxref("GPUComputePassEncoder")}}.

@@ -3,9 +3,10 @@ title: CSSStyleRule
 slug: Web/API/CSSStyleRule
 page-type: web-api-interface
 browser-compat: api.CSSStyleRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`CSSStyleRule`** interface represents a single CSS style rule.
 

@@ -3,9 +3,10 @@ title: HTMLObjectElement
 slug: Web/API/HTMLObjectElement
 page-type: web-api-interface
 browser-compat: api.HTMLObjectElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLObjectElement`** interface provides special properties and methods (beyond those on the {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating the layout and presentation of {{HTMLElement("object")}} element, representing external resources.
 

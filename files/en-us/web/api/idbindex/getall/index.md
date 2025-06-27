@@ -4,9 +4,10 @@ short-title: getAll()
 slug: Web/API/IDBIndex/getAll
 page-type: web-api-instance-method
 browser-compat: api.IDBIndex.getAll
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{ APIRef("IndexedDB") }}
 
 The **`getAll()`** method of the {{domxref("IDBIndex")}}
 interface retrieves all objects that are inside the index.

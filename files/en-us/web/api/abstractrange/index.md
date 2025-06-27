@@ -3,9 +3,10 @@ title: AbstractRange
 slug: Web/API/AbstractRange
 page-type: web-api-interface
 browser-compat: api.AbstractRange
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`AbstractRange`** abstract interface is the base class upon which all {{Glossary("DOM")}} range types are defined. A **range** is an object that indicates the start and end points of a section of content within the document.
 

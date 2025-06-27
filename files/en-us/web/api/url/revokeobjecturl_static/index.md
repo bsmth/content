@@ -4,9 +4,10 @@ short-title: revokeObjectURL()
 slug: Web/API/URL/revokeObjectURL_static
 page-type: web-api-static-method
 browser-compat: api.URL.revokeObjectURL_static
+sidebar:
+  - apiref:
+      - File API")}} {{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("File API")}} {{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`revokeObjectURL()`** static method of the {{domxref("URL")}} interface
 releases an existing object URL which was previously created by calling

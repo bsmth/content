@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGPatternElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGPatternElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** read-only property of the {{domxref("SVGPatternElement")}} interface describes the height of the pattern as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("height")}} attribute on the {{SVGElement("pattern")}} element.
 

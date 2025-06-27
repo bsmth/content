@@ -4,9 +4,10 @@ short-title: getHTML()
 slug: Web/API/Element/getHTML
 page-type: web-api-instance-method
 browser-compat: api.Element.getHTML
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`getHTML()`** method of the {{domxref("Element")}} interface is used to serialize an element's DOM to an HTML string.
 

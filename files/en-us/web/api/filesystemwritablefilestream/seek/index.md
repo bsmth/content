@@ -4,9 +4,12 @@ short-title: seek()
 slug: Web/API/FileSystemWritableFileStream/seek
 page-type: web-api-instance-method
 browser-compat: api.FileSystemWritableFileStream.seek
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers}}
+{{securecontext_header}}{{AvailableInWorkers}}
 
 The **`seek()`** method of the {{domxref("FileSystemWritableFileStream")}} interface updates the current file cursor offset to the position (in bytes) specified when calling the method.
 

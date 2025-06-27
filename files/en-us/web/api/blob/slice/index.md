@@ -4,9 +4,12 @@ short-title: slice()
 slug: Web/API/Blob/slice
 page-type: web-api-instance-method
 browser-compat: api.Blob.slice
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`slice()`** method of the {{domxref("Blob")}} interface
 creates and returns a new `Blob` object which contains data from a subset of

@@ -4,9 +4,10 @@ short-title: lastChild
 slug: Web/API/Node/lastChild
 page-type: web-api-instance-property
 browser-compat: api.Node.lastChild
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`lastChild`** property of the {{domxref("Node")}} interface
 returns the last child of the node, or `null` if there are no child nodes.

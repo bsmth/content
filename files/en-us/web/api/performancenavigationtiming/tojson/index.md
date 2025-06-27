@@ -4,9 +4,10 @@ short-title: toJSON()
 slug: Web/API/PerformanceNavigationTiming/toJSON
 page-type: web-api-instance-method
 browser-compat: api.PerformanceNavigationTiming.toJSON
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`toJSON()`** method of the {{domxref("PerformanceNavigationTiming")}} interface is a {{Glossary("Serialization","serializer")}}; it returns a JSON representation of the {{domxref("PerformanceNavigationTiming")}} object.
 

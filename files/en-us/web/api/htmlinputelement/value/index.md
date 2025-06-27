@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/HTMLInputElement/value
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.value
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`value`** property of the {{DOMxRef("HTMLInputElement")}} interface represents the current value of the {{htmlelement("input")}} element as a string.
 

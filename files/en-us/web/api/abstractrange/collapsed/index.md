@@ -4,9 +4,10 @@ short-title: collapsed
 slug: Web/API/AbstractRange/collapsed
 page-type: web-api-instance-property
 browser-compat: api.AbstractRange.collapsed
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`collapsed`** property of the {{domxref("AbstractRange")}} interface returns `true` if the range's start position and end position are the same.
 

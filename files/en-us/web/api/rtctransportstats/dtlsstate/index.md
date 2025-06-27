@@ -4,9 +4,10 @@ short-title: dtlsState
 slug: Web/API/RTCTransportStats/dtlsState
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_transport.dtlsState
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`dtlsState`** property of the {{domxref("RTCTransportStats")}} dictionary is a string that indicates the current state of the underlying {{domxref("RTCDtlsTransport")}}.
 

@@ -4,9 +4,10 @@ short-title: numOctaves
 slug: Web/API/SVGFETurbulenceElement/numOctaves
 page-type: web-api-instance-property
 browser-compat: api.SVGFETurbulenceElement.numOctaves
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`numOctaves`** read-only property of the {{domxref("SVGFETurbulenceElement")}} interface reflects the {{SVGAttr("numOctaves")}} attribute of the given {{SVGElement("feTurbulence")}} element.
 

@@ -3,9 +3,10 @@ title: SVGAnimatedTransformList
 slug: Web/API/SVGAnimatedTransformList
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedTransformList
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedTransformList`** interface represents attributes which take a list of numbers and which can be animated.
 

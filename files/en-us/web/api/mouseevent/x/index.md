@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/MouseEvent/x
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.x
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`MouseEvent.x`** property is an alias for the {{domxref("MouseEvent.clientX")}} property.
 

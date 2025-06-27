@@ -4,9 +4,8 @@ short-title: ellipse()
 slug: Web/API/CanvasRenderingContext2D/ellipse
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.ellipse
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.ellipse()`**

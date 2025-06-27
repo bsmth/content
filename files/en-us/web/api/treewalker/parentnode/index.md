@@ -4,9 +4,10 @@ short-title: parentNode()
 slug: Web/API/TreeWalker/parentNode
 page-type: web-api-instance-method
 browser-compat: api.TreeWalker.parentNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.parentNode()`** method moves the current
 {{domxref("Node")}} to the first _visible_ ancestor node in the document order,

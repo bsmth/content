@@ -4,9 +4,10 @@ short-title: willValidate
 slug: Web/API/ElementInternals/willValidate
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.willValidate
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`willValidate`** read-only property of the {{domxref("ElementInternals")}} interface returns `true` if the element is a submittable element that is a candidate for [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation).
 

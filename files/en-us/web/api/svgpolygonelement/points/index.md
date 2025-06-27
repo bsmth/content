@@ -4,9 +4,10 @@ short-title: points
 slug: Web/API/SVGPolygonElement/points
 page-type: web-api-instance-property
 browser-compat: api.SVGPolygonElement.points
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`points`** read-only property of the {{domxref("SVGPolygonElement")}} interface reflects the base (i.e., static) value of the element's {{SVGAttr("points")}} attribute. Modifications via the {{DOMxRef("SVGPointList")}} object are reflected in the {{SVGAttr("points")}} attribute, and vice versa.
 

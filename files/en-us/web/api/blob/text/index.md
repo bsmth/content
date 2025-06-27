@@ -4,9 +4,12 @@ short-title: text()
 slug: Web/API/Blob/text
 page-type: web-api-instance-method
 browser-compat: api.Blob.text
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`text()`** method of the
 {{domxref("Blob")}} interface returns a {{jsxref("Promise")}} that resolves with a

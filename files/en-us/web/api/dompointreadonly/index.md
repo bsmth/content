@@ -3,9 +3,12 @@ title: DOMPointReadOnly
 slug: Web/API/DOMPointReadOnly
 page-type: web-api-interface
 browser-compat: api.DOMPointReadOnly
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMPointReadOnly`** interface specifies the coordinate and perspective fields used by {{domxref("DOMPoint")}} to define a 2D or 3D point in a coordinate system.
 

@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLMapElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLMapElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`name`** property of the {{domxref("HTMLMapElement")}} represents the unique name `<map>` element.
 Its value can be used with the `useMap` attribute of the {{HTMLElement("img")}} element to reference a `<map>` element.

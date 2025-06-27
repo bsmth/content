@@ -4,9 +4,10 @@ short-title: AudioWorkletProcessor()
 slug: Web/API/AudioWorkletProcessor/AudioWorkletProcessor
 page-type: web-api-constructor
 browser-compat: api.AudioWorkletProcessor.AudioWorkletProcessor
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`AudioWorkletProcessor()`**
 constructor creates a new {{domxref("AudioWorkletProcessor")}} object, which

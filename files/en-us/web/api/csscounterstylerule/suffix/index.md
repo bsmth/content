@@ -4,9 +4,10 @@ short-title: suffix
 slug: Web/API/CSSCounterStyleRule/suffix
 page-type: web-api-instance-property
 browser-compat: api.CSSCounterStyleRule.suffix
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`suffix`** property of the {{domxref("CSSCounterStyleRule")}} interface gets and sets the value of the {{cssxref("@counter-style/suffix","suffix")}} descriptor. If the descriptor does not have a value set, this attribute returns an empty string.
 

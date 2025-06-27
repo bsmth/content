@@ -4,9 +4,10 @@ short-title: close()
 slug: Web/API/HTMLDialogElement/close
 page-type: web-api-instance-method
 browser-compat: api.HTMLDialogElement.close
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`close()`** method of the {{domxref("HTMLDialogElement")}} interface closes the {{htmlelement("dialog")}}.
 An optional string may be passed as an argument, updating the `returnValue` of the dialog.

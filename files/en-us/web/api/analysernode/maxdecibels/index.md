@@ -4,9 +4,10 @@ short-title: maxDecibels
 slug: Web/API/AnalyserNode/maxDecibels
 page-type: web-api-instance-property
 browser-compat: api.AnalyserNode.maxDecibels
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`maxDecibels`** property of the {{domxref("AnalyserNode")}} interface is a double value representing the maximum power value in the scaling range for the FFT analysis data, for conversion to unsigned byte values — basically, this specifies the maximum value for the range of results when using `getByteFrequencyData()`.
 

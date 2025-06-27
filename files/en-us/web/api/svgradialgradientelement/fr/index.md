@@ -4,9 +4,10 @@ short-title: fr
 slug: Web/API/SVGRadialGradientElement/fr
 page-type: web-api-instance-property
 browser-compat: api.SVGRadialGradientElement.fr
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`fr`** read-only property of the {{domxref("SVGRadialGradientElement")}} interface describes the radius of the focal circle of the radial gradient as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("fr")}} attribute on the {{SVGElement("radialGradient")}} element.
 

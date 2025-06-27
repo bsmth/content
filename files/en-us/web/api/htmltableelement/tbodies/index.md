@@ -4,9 +4,10 @@ short-title: tBodies
 slug: Web/API/HTMLTableElement/tBodies
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableElement.tBodies
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLTableElement.tBodies`** read-only property returns a
 live {{domxref("HTMLCollection")}} of the bodies in a {{htmlElement("table")}}.

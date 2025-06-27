@@ -4,9 +4,10 @@ short-title: stdDeviationY
 slug: Web/API/SVGFEGaussianBlurElement/stdDeviationY
 page-type: web-api-instance-property
 browser-compat: api.SVGFEGaussianBlurElement.stdDeviationY
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`stdDeviationY`** read-only property of the {{domxref("SVGFEGaussianBlurElement")}} interface reflects the (possibly automatically computed) Y component of the {{SVGAttr("stdDeviation")}} attribute of the given {{SVGElement("feGaussianBlur")}} element.
 

@@ -4,9 +4,10 @@ short-title: iterateNext()
 slug: Web/API/XPathResult/iterateNext
 page-type: web-api-instance-method
 browser-compat: api.XPathResult.iterateNext
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
-
-{{APIRef("DOM XPath")}}
 
 The **`iterateNext()`** method of the
 {{domxref("XPathResult")}} interface iterates over a node set result and returns the

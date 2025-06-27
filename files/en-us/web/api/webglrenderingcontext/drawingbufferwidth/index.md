@@ -4,9 +4,12 @@ short-title: drawingBufferWidth
 slug: Web/API/WebGLRenderingContext/drawingBufferWidth
 page-type: web-api-instance-property
 browser-compat: api.WebGLRenderingContext.drawingBufferWidth
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`WebGLRenderingContext.drawingBufferWidth`**
 property represents the actual width of the current drawing buffer. It should match the

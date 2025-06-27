@@ -4,9 +4,10 @@ short-title: getModifierState()
 slug: Web/API/KeyboardEvent/getModifierState
 page-type: web-api-instance-method
 browser-compat: api.KeyboardEvent.getModifierState
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`KeyboardEvent.getModifierState()`** method returns the
 current state of the specified modifier key: `true` if the modifier is active

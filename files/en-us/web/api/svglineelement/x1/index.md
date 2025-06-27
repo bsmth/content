@@ -4,9 +4,10 @@ short-title: x1
 slug: Web/API/SVGLineElement/x1
 page-type: web-api-instance-property
 browser-compat: api.SVGLineElement.x1
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x1`** read-only property of the {{domxref("SVGLineElement")}} interface describes the start of the SVG line along the x-axis as an {{domxref("SVGAnimatedLength")}}. It reflects the {{SVGElement("line")}} element's {{SVGAttr("x1")}} geometric attribute.
 

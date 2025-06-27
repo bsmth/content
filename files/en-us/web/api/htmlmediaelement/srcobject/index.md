@@ -4,9 +4,10 @@ short-title: srcObject
 slug: Web/API/HTMLMediaElement/srcObject
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.srcObject
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`srcObject`** property of the
 {{domxref("HTMLMediaElement")}} interface sets or returns the object which serves as

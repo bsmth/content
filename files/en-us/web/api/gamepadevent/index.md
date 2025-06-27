@@ -3,9 +3,12 @@ title: GamepadEvent
 slug: Web/API/GamepadEvent
 page-type: web-api-interface
 browser-compat: api.GamepadEvent
+sidebar:
+  - apiref:
+      - Gamepad API
 ---
 
-{{APIRef("Gamepad API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The GamepadEvent interface of the Gamepad API contains references to gamepads connected to the system, which is what the gamepad events {{domxref("Window.gamepadconnected_event", "gamepadconnected")}} and {{domxref("Window.gamepaddisconnected_event", "gamepaddisconnected")}} are fired in response to.
 

@@ -4,9 +4,10 @@ short-title: createCDATASection()
 slug: Web/API/Document/createCDATASection
 page-type: web-api-instance-method
 browser-compat: api.Document.createCDATASection
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 **`createCDATASection()`** creates a new CDATA section node,
 and returns it.

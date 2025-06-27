@@ -4,9 +4,10 @@ short-title: toJSON()
 slug: Web/API/LargestContentfulPaint/toJSON
 page-type: web-api-instance-method
 browser-compat: api.LargestContentfulPaint.toJSON
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`toJSON()`** method of the {{domxref("LargestContentfulPaint")}} interface is a {{Glossary("Serialization","serializer")}}; it returns a JSON representation of the {{domxref("LargestContentfulPaint")}} object.
 

@@ -4,9 +4,10 @@ short-title: caches
 slug: Web/API/WorkerGlobalScope/caches
 page-type: web-api-instance-property
 browser-compat: api.caches
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{securecontext_header}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Service Workers API")}}{{securecontext_header}}{{AvailableInWorkers("worker")}}
 
 The **`caches`** read-only property of the {{domxref("WorkerGlobalScope")}} interface returns the {{domxref("CacheStorage")}} object associated with the current context.
 This object enables functionality such as storing assets for offline use, and generating custom responses to requests.

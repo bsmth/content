@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/TrustedTypePolicy/name
 page-type: web-api-instance-property
 browser-compat: api.TrustedTypePolicy.name
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`name`** read-only property of the {{domxref("TrustedTypePolicy")}} interface returns the name of the policy.
 

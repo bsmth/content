@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGForeignObjectElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGForeignObjectElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** read-only property of the {{domxref("SVGForeignObjectElement")}} interface describes the height of the `<foreignObject>` element. It reflects the computed value of the {{SVGAttr("height")}} attribute on the {{SVGElement("foreignObject")}} element.
 

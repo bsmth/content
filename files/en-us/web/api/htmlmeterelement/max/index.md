@@ -4,9 +4,10 @@ short-title: max
 slug: Web/API/HTMLMeterElement/max
 page-type: web-api-instance-property
 browser-compat: api.HTMLMeterElement.max
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`max`** property of the {{DOMxRef("HTMLMeterElement")}} interface represents the maximum value of the {{htmlelement("meter")}} element as a floating-point number. It reflects the element's [`max`](/en-US/docs/Web/HTML/Reference/Elements/meter#max) attribute, or the `min` value if no `max` is set, or `1` if neither the `min` or the `max` is defined.
 

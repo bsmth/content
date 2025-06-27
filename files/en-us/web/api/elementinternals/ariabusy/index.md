@@ -4,9 +4,10 @@ short-title: ariaBusy
 slug: Web/API/ElementInternals/ariaBusy
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaBusy
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaBusy`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-busy`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-busy) attribute, which indicates whether an element is being modified, as assistive technologies may want to wait until the modifications are complete before exposing them to the user.
 

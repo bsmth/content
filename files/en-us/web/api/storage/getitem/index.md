@@ -4,9 +4,10 @@ short-title: getItem()
 slug: Web/API/Storage/getItem
 page-type: web-api-instance-method
 browser-compat: api.Storage.getItem
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`getItem()`** method of the {{domxref("Storage")}}
 interface, when passed a key name, will return that key's value, or `null` if

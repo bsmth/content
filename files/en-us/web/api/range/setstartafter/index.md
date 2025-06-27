@@ -4,9 +4,10 @@ short-title: setStartAfter()
 slug: Web/API/Range/setStartAfter
 page-type: web-api-instance-method
 browser-compat: api.Range.setStartAfter
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.setStartAfter()`** method sets the start position
 of a {{domxref("Range")}} relative to a {{domxref("Node")}}. The parent

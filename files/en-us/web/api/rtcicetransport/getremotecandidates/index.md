@@ -4,9 +4,10 @@ short-title: getRemoteCandidates()
 slug: Web/API/RTCIceTransport/getRemoteCandidates
 page-type: web-api-instance-method
 browser-compat: api.RTCIceTransport.getRemoteCandidates
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getRemoteCandidates()`** method of the {{domxref("RTCIceTransport")}} interface returns an array that contains one {{domxref("RTCIceCandidate")}} for each of the candidates that have been received from the remote peer so far during the current {{Glossary("ICE")}} gathering session.
 

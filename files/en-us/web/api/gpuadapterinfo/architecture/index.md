@@ -4,9 +4,12 @@ short-title: architecture
 slug: Web/API/GPUAdapterInfo/architecture
 page-type: web-api-instance-property
 browser-compat: api.GPUAdapterInfo.architecture
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`architecture`** read-only property of the
 {{domxref("GPUAdapterInfo")}} interface returns the name of the family or class of GPUs the adapter belongs to, or an empty string if it is not available.

@@ -4,9 +4,12 @@ short-title: target
 slug: Web/API/Event/target
 page-type: web-api-instance-property
 browser-compat: api.Event.target
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`target`** property of the
 {{domxref("Event")}} interface is a reference to the object onto which the event was

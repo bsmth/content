@@ -4,9 +4,10 @@ short-title: transport
 slug: Web/API/RTCRtpSender/transport
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpSender.transport
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`transport`** property of an
 {{domxref("RTCRtpSender")}} object provides the {{domxref("RTCDtlsTransport")}} object

@@ -4,9 +4,12 @@ short-title: acceleration
 slug: Web/API/DeviceMotionEvent/acceleration
 page-type: web-api-instance-property
 browser-compat: api.DeviceMotionEvent.acceleration
+sidebar:
+  - apiref:
+      - Device Orientation Events
 ---
 
-{{APIRef("Device Orientation Events")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`acceleration`** read-only property of the {{domxref("DeviceMotionEvent")}} interface returns the acceleration recorded by
 the device, in [meters per second squared (m/s²)](https://en.wikipedia.org/wiki/Meter_per_second_squared).

@@ -4,9 +4,10 @@ short-title: host
 slug: Web/API/WorkerLocation/host
 page-type: web-api-instance-property
 browser-compat: api.WorkerLocation.host
+sidebar:
+  - apiref:
+      - WorkerLocation")}}{{AvailableInWorkers("worker
 ---
-
-{{ApiRef("WorkerLocation")}}{{AvailableInWorkers("worker")}}
 
 The **`host`** property of a {{domxref("WorkerLocation")}} object returns the {{domxref("URL.host", "host")}} part of the worker's location.
 

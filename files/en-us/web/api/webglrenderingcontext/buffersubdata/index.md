@@ -4,9 +4,12 @@ short-title: bufferSubData()
 slug: Web/API/WebGLRenderingContext/bufferSubData
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.bufferSubData
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.bufferSubData()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) updates a subset of a buffer

@@ -3,9 +3,10 @@ title: "HTMLElement: beforetoggle event"
 slug: Web/API/HTMLElement/beforetoggle_event
 page-type: web-api-event
 browser-compat: api.HTMLElement.beforetoggle_event
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`beforetoggle`** event of the {{domxref("HTMLElement")}} interface fires on a {{domxref("Popover_API", "popover", "", "nocode")}} or {{htmlelement("dialog")}} element just before it is shown or hidden.
 

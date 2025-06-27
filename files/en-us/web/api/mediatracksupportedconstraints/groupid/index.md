@@ -4,9 +4,10 @@ short-title: groupId
 slug: Web/API/MediaTrackSupportedConstraints/groupId
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.groupId_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSupportedConstraints")}} dictionary's
 **`groupId`** property is a read-only Boolean value which is

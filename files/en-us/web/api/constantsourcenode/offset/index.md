@@ -4,9 +4,10 @@ short-title: offset
 slug: Web/API/ConstantSourceNode/offset
 page-type: web-api-instance-property
 browser-compat: api.ConstantSourceNode.offset
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The read-only `offset` property of the {{ domxref("ConstantSourceNode") }}
 interface returns a {{domxref("AudioParam")}} object indicating the numeric [a-rate](/en-US/docs/Web/API/AudioParam#a-rate) value which is always returned

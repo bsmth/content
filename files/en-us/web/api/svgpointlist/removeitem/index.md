@@ -4,9 +4,10 @@ short-title: removeItem()
 slug: Web/API/SVGPointList/removeItem
 page-type: web-api-instance-method
 browser-compat: api.SVGPointList.removeItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`removeItem()`** method of the {{domxref("SVGPointList")}} interface removes a {{domxref("DOMPoint")}} from the list.
 

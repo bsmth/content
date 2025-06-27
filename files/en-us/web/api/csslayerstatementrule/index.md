@@ -3,9 +3,10 @@ title: CSSLayerStatementRule
 slug: Web/API/CSSLayerStatementRule
 page-type: web-api-interface
 browser-compat: api.CSSLayerStatementRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSLayerStatementRule`** represents a {{cssxref("@layer")}} statement rule. Unlike {{domxref("CSSLayerBlockRule")}}, it doesn't contain other rules and merely defines one or several layers by providing their names.
 

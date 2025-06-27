@@ -4,9 +4,10 @@ short-title: clonable
 slug: Web/API/ShadowRoot/clonable
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.clonable
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The **`clonable`** read-only property of the {{domxref("ShadowRoot")}} interface returns `true` if the shadow root is clonable, and `false` otherwise.
 

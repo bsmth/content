@@ -4,9 +4,12 @@ short-title: verify()
 slug: Web/API/SubtleCrypto/verify
 page-type: web-api-instance-method
 browser-compat: api.SubtleCrypto.verify
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`verify()`** method of the {{domxref("SubtleCrypto")}}
 interface verifies a digital {{glossary("signature")}}.

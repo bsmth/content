@@ -4,9 +4,10 @@ short-title: finish()
 slug: Web/API/Animation/finish
 page-type: web-api-instance-method
 browser-compat: api.Animation.finish
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`finish()`** method of the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API)'s {{domxref("Animation")}} Interface sets the current playback time to the end of the animation corresponding to the current playback direction.
 

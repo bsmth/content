@@ -4,9 +4,12 @@ short-title: TextDecoderStream()
 slug: Web/API/TextDecoderStream/TextDecoderStream
 page-type: web-api-constructor
 browser-compat: api.TextDecoderStream.TextDecoderStream
+sidebar:
+  - apiref:
+      - Encoding API
 ---
 
-{{APIRef("Encoding API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`TextDecoderStream()`** constructor creates a new {{domxref("TextDecoderStream")}} object which is used to convert a stream of text in a binary encoding into strings.
 

@@ -4,9 +4,12 @@ short-title: statusMessage
 slug: Web/API/WebGLContextEvent/statusMessage
 page-type: web-api-instance-property
 browser-compat: api.WebGLContextEvent.statusMessage
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`WebGLContextEvent.statusMessage`** property contains additional event status information, or is an empty string if no additional information is available.
 

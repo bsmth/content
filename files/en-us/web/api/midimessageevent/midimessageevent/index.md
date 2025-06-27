@@ -4,9 +4,12 @@ short-title: MIDIMessageEvent()
 slug: Web/API/MIDIMessageEvent/MIDIMessageEvent
 page-type: web-api-constructor
 browser-compat: api.MIDIMessageEvent.MIDIMessageEvent
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`MIDIMessageEvent()`** constructor creates a new {{domxref("MIDIMessageEvent")}} object. Typically this constructor is not used as events are created when a {{domxref("MIDIInput")}} finishes receiving one or more MIDI messages.
 

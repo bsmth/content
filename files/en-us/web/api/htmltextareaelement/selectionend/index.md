@@ -4,9 +4,10 @@ short-title: selectionEnd
 slug: Web/API/HTMLTextAreaElement/selectionEnd
 page-type: web-api-instance-property
 browser-compat: api.HTMLTextAreaElement.selectionEnd
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`selectionEnd`** property of the {{domxref("HTMLTextAreaElement")}} interface specifies the end position of the current text selection in a {{HTMLElement("textarea")}} element. It is a number representing the last index of the selected text. It can be used to both retrieve and set the index of the end of a `<textarea>`s selected text.
 

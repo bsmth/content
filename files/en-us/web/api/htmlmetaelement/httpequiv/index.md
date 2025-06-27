@@ -4,9 +4,10 @@ short-title: httpEquiv
 slug: Web/API/HTMLMetaElement/httpEquiv
 page-type: web-api-instance-property
 browser-compat: api.HTMLMetaElement.httpEquiv
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMetaElement.httpEquiv`** property gets or sets the pragma directive or an HTTP response header name for the {{domxref("HTMLMetaElement.content")}} attribute.
 For more details on the possible values, see the [http-equiv](/en-US/docs/Web/HTML/Reference/Elements/meta#http-equiv) attribute.

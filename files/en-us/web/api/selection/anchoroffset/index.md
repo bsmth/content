@@ -4,9 +4,10 @@ short-title: anchorOffset
 slug: Web/API/Selection/anchorOffset
 page-type: web-api-instance-property
 browser-compat: api.Selection.anchorOffset
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.anchorOffset`** read-only property returns the
 number of characters that the selection's anchor is offset within the

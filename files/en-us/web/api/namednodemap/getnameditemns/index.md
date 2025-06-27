@@ -4,9 +4,10 @@ short-title: getNamedItemNS()
 slug: Web/API/NamedNodeMap/getNamedItemNS
 page-type: web-api-instance-method
 browser-compat: api.NamedNodeMap.getNamedItemNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`getNamedItemNS()`** method of the {{domxref("NamedNodeMap")}} interface returns the {{domxref("Attr")}} corresponding to the given local name in the given namespace, or `null` if there is no corresponding attribute.
 

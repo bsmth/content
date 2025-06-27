@@ -4,9 +4,10 @@ short-title: forEach()
 slug: Web/API/DOMTokenList/forEach
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.forEach
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`forEach()`** method of the {{domxref("DOMTokenList")}} interface
 calls the callback given in parameter once for each value pair in the list, in

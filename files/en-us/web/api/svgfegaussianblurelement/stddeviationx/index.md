@@ -4,9 +4,10 @@ short-title: stdDeviationX
 slug: Web/API/SVGFEGaussianBlurElement/stdDeviationX
 page-type: web-api-instance-property
 browser-compat: api.SVGFEGaussianBlurElement.stdDeviationX
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`stdDeviationX`** read-only property of the {{domxref("SVGFEGaussianBlurElement")}} interface reflects the (possibly automatically computed) X component of the {{SVGAttr("stdDeviation")}} attribute of the given {{SVGElement("feGaussianBlur")}} element.
 

@@ -3,9 +3,10 @@ title: Text
 slug: Web/API/Text
 page-type: web-api-interface
 browser-compat: api.Text
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Text`** interface represents a text {{domxref("Node", "node")}} in a DOM tree.
 

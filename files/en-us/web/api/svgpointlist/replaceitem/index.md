@@ -4,9 +4,10 @@ short-title: replaceItem()
 slug: Web/API/SVGPointList/replaceItem
 page-type: web-api-instance-method
 browser-compat: api.SVGPointList.replaceItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`replaceItem()`** method of the {{domxref("SVGPointList")}} interface replaces a {{domxref("DOMPoint")}} in the list.
 

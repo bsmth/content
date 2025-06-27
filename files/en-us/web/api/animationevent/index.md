@@ -3,9 +3,10 @@ title: AnimationEvent
 slug: Web/API/AnimationEvent
 page-type: web-api-interface
 browser-compat: api.AnimationEvent
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`AnimationEvent`** interface represents events providing information related to [animations](/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations).
 

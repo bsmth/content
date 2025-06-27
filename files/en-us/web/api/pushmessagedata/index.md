@@ -3,9 +3,10 @@ title: PushMessageData
 slug: Web/API/PushMessageData
 page-type: web-api-interface
 browser-compat: api.PushMessageData
+sidebar:
+  - apiref:
+      - Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`PushMessageData`** interface of the [Push API](/en-US/docs/Web/API/Push_API) provides methods which let you retrieve the push data sent by a server in various formats.
 

@@ -4,9 +4,10 @@ short-title: numberOfItems
 slug: Web/API/SVGLengthList/numberOfItems
 page-type: web-api-instance-property
 browser-compat: api.SVGLengthList.numberOfItems
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`numberOfItems`** property of the {{domxref("SVGLengthList")}} interface returns the number of items in the list. {{domxref("SVGLengthList.length", "length")}} is an alias of it.
 

@@ -4,9 +4,10 @@ short-title: CSSUnparsedValue()
 slug: Web/API/CSSUnparsedValue/CSSUnparsedValue
 page-type: web-api-constructor
 browser-compat: api.CSSUnparsedValue.CSSUnparsedValue
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSUnparsedValue()`** constructor
 creates a new {{domxref("CSSUnparsedValue")}} object which represents property values

@@ -4,9 +4,12 @@ short-title: isProgram()
 slug: Web/API/WebGLRenderingContext/isProgram
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.isProgram
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.isProgram()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns `true` if the
 passed {{domxref("WebGLProgram")}} is valid, `false` otherwise.

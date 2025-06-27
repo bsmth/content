@@ -4,9 +4,10 @@ short-title: SpeechRecognition()
 slug: Web/API/SpeechRecognition/SpeechRecognition
 page-type: web-api-constructor
 browser-compat: api.SpeechRecognition.SpeechRecognition
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`SpeechRecognition()`** constructor creates a new
 {{domxref("SpeechRecognition")}} object instance.

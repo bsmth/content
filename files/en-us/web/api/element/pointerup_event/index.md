@@ -4,9 +4,8 @@ short-title: pointerup
 slug: Web/API/Element/pointerup_event
 page-type: web-api-event
 browser-compat: api.Element.pointerup_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `pointerup` event is fired when a pointer is no longer active. Remember that it is possible to get a [`pointercancel`](/en-US/docs/Web/API/Element/pointercancel_event) event instead.
 

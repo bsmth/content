@@ -4,9 +4,10 @@ short-title: DataTransfer()
 slug: Web/API/DataTransfer/DataTransfer
 page-type: web-api-constructor
 browser-compat: api.DataTransfer.DataTransfer
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransfer`** constructor creates a new
 {{domxref("DataTransfer")}} object instance.

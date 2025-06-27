@@ -3,9 +3,10 @@ title: BluetoothUUID
 slug: Web/API/BluetoothUUID
 page-type: web-api-interface
 browser-compat: api.BluetoothUUID
+sidebar:
+  - apiref:
+      - Bluetooth API
 ---
-
-{{APIRef("Bluetooth API")}}
 
 The **`BluetoothUUID`** interface of the [Web Bluetooth API](/en-US/docs/Web/API/Web_Bluetooth_API) provides a way to look up Universally Unique Identifier (UUID) values by name in the
 [registry](https://www.bluetooth.com/specifications/assigned-numbers/) maintained by the Bluetooth SIG.

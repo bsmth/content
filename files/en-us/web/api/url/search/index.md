@@ -4,9 +4,12 @@ short-title: search
 slug: Web/API/URL/search
 page-type: web-api-instance-property
 browser-compat: api.URL.search
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`search`** property of the {{domxref("URL")}} interface is a search string, also called a _query string_, that is a string containing a `"?"` followed by the parameters of the URL. If the URL does not have a search query, this property contains an empty string, `""`.
 

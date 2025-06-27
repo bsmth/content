@@ -3,9 +3,10 @@ title: SVGTSpanElement
 slug: Web/API/SVGTSpanElement
 page-type: web-api-interface
 browser-compat: api.SVGTSpanElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGTSpanElement`** interface represents a {{SVGElement("tspan")}} element.
 

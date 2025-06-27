@@ -3,9 +3,12 @@ title: WebGLFramebuffer
 slug: Web/API/WebGLFramebuffer
 page-type: web-api-interface
 browser-compat: api.WebGLFramebuffer
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **WebGLFramebuffer** interface is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and represents a collection of buffers that serve as a rendering destination.
 

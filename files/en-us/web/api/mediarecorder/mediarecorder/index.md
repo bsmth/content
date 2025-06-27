@@ -4,9 +4,10 @@ short-title: MediaRecorder()
 slug: Web/API/MediaRecorder/MediaRecorder
 page-type: web-api-constructor
 browser-compat: api.MediaRecorder.MediaRecorder
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`MediaRecorder()`** constructor
 creates a new {{domxref("MediaRecorder")}} object that will record a specified

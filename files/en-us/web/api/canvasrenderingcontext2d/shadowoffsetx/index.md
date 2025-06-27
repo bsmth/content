@@ -4,9 +4,8 @@ short-title: shadowOffsetX
 slug: Web/API/CanvasRenderingContext2D/shadowOffsetX
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.shadowOffsetX
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.shadowOffsetX`**

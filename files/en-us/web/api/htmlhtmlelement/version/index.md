@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLHtmlElement.version
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{ APIRef("HTML DOM") }} {{deprecated_header}}
+{{deprecated_header}}
 
 > [!NOTE]
 > This property has been declared as deprecated by the W3C technical recommendation for HTML 4.01 in favor of use of the DTD for obtaining version information for a document.

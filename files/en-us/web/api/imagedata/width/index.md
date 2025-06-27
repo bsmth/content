@@ -4,9 +4,12 @@ short-title: width
 slug: Web/API/ImageData/width
 page-type: web-api-instance-property
 browser-compat: api.ImageData.width
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The readonly **`ImageData.width`** property returns the number
 of pixels per row in the {{domxref("ImageData")}} object.

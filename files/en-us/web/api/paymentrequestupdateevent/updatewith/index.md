@@ -4,9 +4,12 @@ short-title: updateWith()
 slug: Web/API/PaymentRequestUpdateEvent/updateWith
 page-type: web-api-instance-method
 browser-compat: api.PaymentRequestUpdateEvent.updateWith
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{APIRef("Payment Request API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`updateWith()`** method of the
 {{domxref("PaymentRequestUpdateEvent")}} interface updates the details of an existing

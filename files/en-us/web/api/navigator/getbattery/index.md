@@ -4,9 +4,12 @@ short-title: getBattery()
 slug: Web/API/Navigator/getBattery
 page-type: web-api-instance-method
 browser-compat: api.Navigator.getBattery
+sidebar:
+  - apiref:
+      - Battery API
 ---
 
-{{ApiRef("Battery API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`getBattery()`** method provides information about the system's battery.
 It returns a battery promise, which resolves with a {{domxref("BatteryManager")}} object providing some properties to get the battery status also some events you can handle to monitor the battery status.

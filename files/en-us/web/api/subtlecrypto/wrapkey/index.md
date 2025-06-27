@@ -4,9 +4,12 @@ short-title: wrapKey()
 slug: Web/API/SubtleCrypto/wrapKey
 page-type: web-api-instance-method
 browser-compat: api.SubtleCrypto.wrapKey
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`wrapKey()`** method of the {{domxref("SubtleCrypto")}} interface "wraps" a key.
 This means that it exports the key in an external, portable format, then encrypts the exported key.

@@ -4,9 +4,10 @@ short-title: createDocumentFragment()
 slug: Web/API/Document/createDocumentFragment
 page-type: web-api-instance-method
 browser-compat: api.Document.createDocumentFragment
+sidebar:
+  - apiref:
+      - DOM WHATWG
 ---
-
-{{APIRef("DOM WHATWG")}}
 
 Creates a new empty {{domxref("DocumentFragment")}} into which
 DOM nodes can be added to build an offscreen DOM tree.

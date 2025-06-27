@@ -4,9 +4,10 @@ short-title: location
 slug: Web/API/KeyboardEvent/location
 page-type: web-api-instance-property
 browser-compat: api.KeyboardEvent.location
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`KeyboardEvent.location`** read-only property returns an
 `unsigned long` representing the location of the key on the keyboard or other

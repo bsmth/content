@@ -4,9 +4,10 @@ short-title: createComment()
 slug: Web/API/Document/createComment
 page-type: web-api-instance-method
 browser-compat: api.Document.createComment
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 **`createComment()`** creates a new comment node, and returns
 it.

@@ -4,9 +4,10 @@ short-title: key()
 slug: Web/API/Storage/key
 page-type: web-api-instance-method
 browser-compat: api.Storage.key
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`key()`** method of the {{domxref("Storage")}} interface,
 when passed a number n, returns the name of the nth key in a given `Storage`

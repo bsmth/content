@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLInputElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`type`** property of the {{domxref("HTMLInputElement")}} interface indicates the kind of data allowed in the {{HTMLElement("input")}} element, for example a number, a date, or an email. Browsers will select the appropriate widget and behavior to help users to enter a valid value.
 

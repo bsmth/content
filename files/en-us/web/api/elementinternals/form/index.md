@@ -4,9 +4,10 @@ short-title: form
 slug: Web/API/ElementInternals/form
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.form
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`form`** read-only property of the {{domxref("ElementInternals")}} interface returns the {{domxref("HTMLFormElement")}} associated with this element.
 

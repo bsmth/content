@@ -4,9 +4,12 @@ short-title: length
 slug: Web/API/FileList/length
 page-type: web-api-instance-property
 browser-compat: api.FileList.length
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`length`** read-only property of the {{domxref("FileList")}} interface returns the number of files in the `FileList`.
 

@@ -4,9 +4,10 @@ short-title: removeAttributeNode()
 slug: Web/API/Element/removeAttributeNode
 page-type: web-api-instance-method
 browser-compat: api.Element.removeAttributeNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`removeAttributeNode()`** method of the {{domxref("Element")}} interface removes the specified {{domxref("Attr")}} node from the element.
 

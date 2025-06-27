@@ -4,9 +4,8 @@ short-title: dragend
 slug: Web/API/HTMLElement/dragend_event
 page-type: web-api-event
 browser-compat: api.HTMLElement.dragend_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `dragend` event is fired when a drag operation ends (by releasing a mouse button or hitting the escape key).
 

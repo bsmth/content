@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/PermissionStatus/name
 page-type: web-api-instance-property
 browser-compat: api.PermissionStatus.name
+sidebar:
+  - apiref:
+      - Permissions API
 ---
 
-{{APIRef("Permissions API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`name`** read-only property of the {{domxref("PermissionStatus")}} interface returns the name of a requested permission.
 

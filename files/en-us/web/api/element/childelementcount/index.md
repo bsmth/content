@@ -4,9 +4,10 @@ short-title: childElementCount
 slug: Web/API/Element/childElementCount
 page-type: web-api-instance-property
 browser-compat: api.Element.childElementCount
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`Element.childElementCount`** read-only property
 returns the number of child elements of this element.

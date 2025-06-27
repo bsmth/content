@@ -4,9 +4,10 @@ short-title: lastPacketReceivedTimestamp
 slug: Web/API/RTCIceCandidatePairStats/lastPacketReceivedTimestamp
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.lastPacketReceivedTimestamp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`lastPacketReceivedTimestamp`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the time at which the connection described by the candidate pair last received a packet.
 

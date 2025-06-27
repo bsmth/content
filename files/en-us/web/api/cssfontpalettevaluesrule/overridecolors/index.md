@@ -4,9 +4,10 @@ short-title: overrideColors
 slug: Web/API/CSSFontPaletteValuesRule/overrideColors
 page-type: web-api-instance-property
 browser-compat: api.CSSFontPaletteValuesRule.overrideColors
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`overrideColors`** property of the {{domxref("CSSFontPaletteValuesRule")}} interface is a string containing a list of color index and color pair that are to be used instead. It is specified in the same format as the corresponding {{cssxref("@font-palette-values/override-colors", "override-colors")}} descriptor.
 

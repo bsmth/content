@@ -4,9 +4,10 @@ short-title: flush()
 slug: Web/API/VideoDecoder/flush
 page-type: web-api-instance-method
 browser-compat: api.VideoDecoder.flush
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`flush()`** method of the {{domxref("VideoDecoder")}} interface returns a Promise that resolves once all pending messages in the queue have been completed.
 

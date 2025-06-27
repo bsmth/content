@@ -4,9 +4,10 @@ short-title: relatedAddress
 slug: Web/API/RTCIceCandidate/relatedAddress
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.relatedAddress
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **{{domxref("RTCIceCandidate")}}** interface's read-only **`relatedAddress`** property is a string indicating the **related address** of a relay or reflexive candidate.
 

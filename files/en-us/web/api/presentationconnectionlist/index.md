@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.PresentationConnectionList
+sidebar:
+  - apiref:
+      - Presentation API
 ---
 
-{{securecontext_header}}{{SeeCompatTable}}{{APIRef("Presentation API")}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 `PresentationConnectionList` is the collection of incoming presentation connections.
 

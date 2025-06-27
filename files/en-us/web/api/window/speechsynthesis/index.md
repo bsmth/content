@@ -4,9 +4,10 @@ short-title: speechSynthesis
 slug: Web/API/Window/speechSynthesis
 page-type: web-api-instance-property
 browser-compat: api.Window.speechSynthesis
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The `speechSynthesis` read-only property of the Window object returns a {{domxref("SpeechSynthesis")}} object, which is the entry point into using [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) speech synthesis functionality.
 

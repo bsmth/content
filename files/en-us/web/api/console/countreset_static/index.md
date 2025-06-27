@@ -4,9 +4,12 @@ short-title: countReset()
 slug: Web/API/console/countReset_static
 page-type: web-api-static-method
 browser-compat: api.console.countReset_static
+sidebar:
+  - apiref:
+      - Console API
 ---
 
-{{APIRef("Console API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`console.countReset()`** static method resets counter used with {{domxref("console/count_static", "console.count()")}}.
 

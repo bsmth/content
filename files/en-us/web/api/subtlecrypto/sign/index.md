@@ -4,9 +4,12 @@ short-title: sign()
 slug: Web/API/SubtleCrypto/sign
 page-type: web-api-instance-method
 browser-compat: api.SubtleCrypto.sign
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`sign()`** method of the {{domxref("SubtleCrypto")}} interface generates a digital {{glossary("signature")}}.
 

@@ -4,9 +4,8 @@ short-title: lineDashOffset
 slug: Web/API/CanvasRenderingContext2D/lineDashOffset
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.lineDashOffset
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.lineDashOffset`**

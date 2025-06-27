@@ -4,9 +4,10 @@ short-title: formEnctype
 slug: Web/API/HTMLButtonElement/formEnctype
 page-type: web-api-instance-property
 browser-compat: api.HTMLButtonElement.formEnctype
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`formEnctype`** property of the {{domxref("HTMLButtonElement")}} interface is the {{Glossary("MIME_type", "MIME type")}} of the content sent to the server when the form is submitted. It reflects the value of the `<button>`'s [`formenctype`](/en-US/docs/Web/HTML/Reference/Elements/button#formenctype) attribute.
 

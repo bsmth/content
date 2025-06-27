@@ -4,9 +4,10 @@ short-title: y
 slug: Web/API/SVGUseElement/y
 page-type: web-api-instance-property
 browser-compat: api.SVGUseElement.y
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y`** read-only property of the {{domxref("SVGUseElement")}} interface describes the y-axis coordinate of the start point of the referenced element as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("y")}} attribute on the {{SVGElement("use")}} element.
 

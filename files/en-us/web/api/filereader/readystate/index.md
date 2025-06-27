@@ -4,9 +4,12 @@ short-title: readyState
 slug: Web/API/FileReader/readyState
 page-type: web-api-instance-property
 browser-compat: api.FileReader.readyState
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`readyState`** read-only property of the {{domxref("FileReader")}} interface provides the current state of the reading operation.
 This will be one of the states: `EMPTY`, `LOADING`, or `DONE`.

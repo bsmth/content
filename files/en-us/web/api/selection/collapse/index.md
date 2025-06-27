@@ -4,9 +4,10 @@ short-title: collapse()
 slug: Web/API/Selection/collapse
 page-type: web-api-instance-method
 browser-compat: api.Selection.collapse
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Selection.collapse()`** method collapses the current selection to a single point. The document is not modified. If the content is focused and editable, the caret will blink there.
 

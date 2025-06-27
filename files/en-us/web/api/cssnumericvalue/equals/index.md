@@ -4,9 +4,10 @@ short-title: equals()
 slug: Web/API/CSSNumericValue/equals
 page-type: web-api-instance-method
 browser-compat: api.CSSNumericValue.equals
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`equals()`** method of the
 {{domxref("CSSNumericValue")}} interface returns a boolean indicating whether the passed

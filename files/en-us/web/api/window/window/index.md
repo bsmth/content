@@ -4,9 +4,8 @@ short-title: window
 slug: Web/API/Window/window
 page-type: web-api-instance-property
 browser-compat: api.Window.window
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`window`** property of a {{domxref("Window")}} object points to the window object itself.
 

@@ -3,9 +3,10 @@ title: SVGAnimatedLengthList
 slug: Web/API/SVGAnimatedLengthList
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedLengthList
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedLengthList`** interface is used for attributes of type {{domxref("SVGLengthList")}} which can be animated.
 

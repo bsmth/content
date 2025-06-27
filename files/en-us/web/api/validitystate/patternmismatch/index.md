@@ -4,9 +4,10 @@ short-title: patternMismatch
 slug: Web/API/ValidityState/patternMismatch
 page-type: web-api-instance-property
 browser-compat: api.ValidityState.patternMismatch
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`patternMismatch`** property of the [`ValidityState`](/en-US/docs/Web/API/ValidityState) interface indicates if the value of an {{HTMLElement("input")}}, after having been edited by the user, does not conform to the constraints set by the element's [`pattern`](/en-US/docs/Web/HTML/Reference/Attributes/pattern) attribute.
 

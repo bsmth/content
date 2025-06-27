@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/SVGLength/value
 page-type: web-api-instance-property
 browser-compat: api.SVGLength.value
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `value` property of the {{domxref("SVGLength")}} interface represents the floating point value of the [\<length>](/en-US/docs/Web/SVG/Guides/Content_type#length) in user units.
 

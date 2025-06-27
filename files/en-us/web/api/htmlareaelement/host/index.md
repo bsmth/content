@@ -4,9 +4,10 @@ short-title: host
 slug: Web/API/HTMLAreaElement/host
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.host
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`host`** property of the {{domxref("HTMLAreaElement")}} interface is a string containing the host, which is the {{domxref("HTMLAreaElement.hostname", "hostname")}}, and then, if the {{glossary("port")}} of the URL is nonempty, a `":"`, followed by the {{domxref("HTMLAreaElement.port", "port")}} of the URL. If the URL does not have a `hostname`, this property contains an empty string, `""`.
 

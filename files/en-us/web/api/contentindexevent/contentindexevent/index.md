@@ -6,9 +6,10 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.ContentIndexEvent.ContentIndexEvent
+sidebar:
+  - apiref:
+      - Content Index API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Content Index API")}}{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`ContentIndexEvent()`** constructor creates a new {{domxref("ContentIndexEvent")}} object
 whose type and other options are configured as specified.

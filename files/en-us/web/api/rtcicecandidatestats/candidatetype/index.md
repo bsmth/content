@@ -4,9 +4,10 @@ short-title: candidateType
 slug: Web/API/RTCIceCandidateStats/candidateType
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_local-candidate.candidateType
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`candidateType`** property of the {{domxref("RTCIceCandidateStats")}} dictionary is a string that indicates the type of {{Glossary("ICE")}} candidate the object represents.
 

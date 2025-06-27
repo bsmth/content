@@ -4,9 +4,8 @@ short-title: fill()
 slug: Web/API/CanvasRenderingContext2D/fill
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.fill
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.fill()`**

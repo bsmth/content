@@ -4,9 +4,10 @@ short-title: OverconstrainedError()
 slug: Web/API/OverconstrainedError/OverconstrainedError
 page-type: web-api-constructor
 browser-compat: api.OverconstrainedError.OverconstrainedError
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`OverconstrainedError()`** constructor
 creates a new {{domxref("OverconstrainedError")}} object which indicates that the set of

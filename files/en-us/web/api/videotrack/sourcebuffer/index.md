@@ -4,9 +4,10 @@ short-title: sourceBuffer
 slug: Web/API/VideoTrack/sourceBuffer
 page-type: web-api-instance-property
 browser-compat: api.VideoTrack.sourceBuffer
+sidebar:
+  - apiref:
+      - Media Source Extensions
 ---
-
-{{APIRef("Media Source Extensions")}}
 
 The read-only **{{domxref("VideoTrack")}}**
 property **`sourceBuffer`** returns the

@@ -4,9 +4,12 @@ short-title: url
 slug: Web/API/WebSocket/url
 page-type: web-api-instance-property
 browser-compat: api.WebSocket.url
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebSocket.url`** read-only property returns the absolute
 URL of the {{domxref("WebSocket")}} as resolved by the constructor.

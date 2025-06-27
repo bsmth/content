@@ -4,9 +4,10 @@ short-title: styleMap
 slug: Web/API/CSSStyleRule/styleMap
 page-type: web-api-instance-property
 browser-compat: api.CSSStyleRule.styleMap
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`styleMap`** read-only property of the
 {{domxref("CSSStyleRule")}} interface returns a {{domxref('StylePropertyMap')}} object

@@ -4,9 +4,10 @@ short-title: mid
 slug: Web/API/RTCRtpTransceiver/mid
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpTransceiver.mid
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only {{domxref("RTCRtpTransceiver")}} interface's
 **`mid`** property specifies the negotiated media ID

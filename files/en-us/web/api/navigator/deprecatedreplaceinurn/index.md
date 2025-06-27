@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Navigator.deprecatedReplaceInURN
+sidebar:
+  - apiref:
+      - Fenced Frame API
 ---
 
-{{APIRef("Fenced Frame API")}}{{seecompattable}}
+{{seecompattable}}
 
 The **`deprecatedReplaceInURN()`** method of the {{domxref("Navigator")}} interface substitutes specified strings inside the mapped URL corresponding to a given opaque URN or `FencedFrameConfig`'s internal `url` property.
 

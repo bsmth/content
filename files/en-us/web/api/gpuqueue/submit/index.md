@@ -4,9 +4,12 @@ short-title: submit()
 slug: Web/API/GPUQueue/submit
 page-type: web-api-instance-method
 browser-compat: api.GPUQueue.submit
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`submit()`** method of the
 {{domxref("GPUQueue")}} interface schedules the execution of command buffers represented by one or more {{domxref("GPUCommandBuffer")}} objects by the GPU.

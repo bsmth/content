@@ -4,9 +4,10 @@ short-title: getAttributeNames()
 slug: Web/API/Element/getAttributeNames
 page-type: web-api-instance-method
 browser-compat: api.Element.getAttributeNames
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`getAttributeNames()`** method of the
 {{domxref("Element")}} interface returns the attribute names of the element as an

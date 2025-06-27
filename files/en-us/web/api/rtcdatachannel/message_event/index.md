@@ -4,9 +4,10 @@ short-title: message
 slug: Web/API/RTCDataChannel/message_event
 page-type: web-api-event
 browser-compat: api.RTCDataChannel.message_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The WebRTC **`message`** event is sent to the `onmessage` event handler on an {{domxref("RTCDataChannel")}} object when a message has been received from the remote peer.
 

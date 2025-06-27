@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.Summarizer
+sidebar:
+  - apiref:
+      - Summarizer API
 ---
 
-{{APIRef("Summarizer API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Summarizer`** interface of the {{domxref("Summarizer API", "Summarizer API", "", "nocode")}} contains all the functionality for this API, including checking AI model availability, creating a new `Summarizer` instance, using it to generate a new summary, and more.
 

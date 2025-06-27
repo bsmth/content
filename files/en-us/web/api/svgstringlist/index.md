@@ -3,9 +3,10 @@ title: SVGStringList
 slug: Web/API/SVGStringList
 page-type: web-api-interface
 browser-compat: api.SVGStringList
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGStringList`** interface defines a list of strings.
 

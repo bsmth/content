@@ -4,9 +4,10 @@ short-title: y
 slug: Web/API/SVGMaskElement/y
 page-type: web-api-instance-property
 browser-compat: api.SVGMaskElement.y
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The read-only **`y`** property of the {{domxref("SVGMaskElement")}} interface returns an {{domxref("SVGAnimatedLength")}} object containing the value of the {{SVGattr("y")}} attribute of the {{SVGElement("marker")}}. It represents the y-axis coordinate of the _top-left_ corner of the masking area.
 

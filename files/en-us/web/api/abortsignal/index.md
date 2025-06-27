@@ -3,9 +3,12 @@ title: AbortSignal
 slug: Web/API/AbortSignal
 page-type: web-api-interface
 browser-compat: api.AbortSignal
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`AbortSignal`** interface represents a signal object that allows you to communicate with an asynchronous operation (such as a fetch request) and abort it if required via an {{domxref("AbortController")}} object.
 

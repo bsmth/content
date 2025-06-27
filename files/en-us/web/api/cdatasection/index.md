@@ -3,9 +3,10 @@ title: CDATASection
 slug: Web/API/CDATASection
 page-type: web-api-interface
 browser-compat: api.CDATASection
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`CDATASection`** interface represents a CDATA section
 that can be used within XML to include extended portions of unescaped text.

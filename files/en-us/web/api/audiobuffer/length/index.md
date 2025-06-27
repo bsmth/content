@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/AudioBuffer/length
 page-type: web-api-instance-property
 browser-compat: api.AudioBuffer.length
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`length`** property of the {{ domxref("AudioBuffer") }}
 interface returns an integer representing the length, in sample-frames, of the PCM data

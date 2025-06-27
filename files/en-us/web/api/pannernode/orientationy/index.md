@@ -4,9 +4,10 @@ short-title: orientationY
 slug: Web/API/PannerNode/orientationY
 page-type: web-api-instance-property
 browser-compat: api.PannerNode.orientationY
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`orientationY`** property of the {{ domxref("PannerNode") }} interface
 indicates the Y (vertical) component of the direction the audio source is facing, in 3D Cartesian coordinate space.

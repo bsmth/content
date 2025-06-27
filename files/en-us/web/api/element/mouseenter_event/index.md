@@ -4,9 +4,8 @@ short-title: mouseenter
 slug: Web/API/Element/mouseenter_event
 page-type: web-api-event
 browser-compat: api.Element.mouseenter_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`mouseenter`** event is fired at an {{domxref("Element")}} when a pointing device (usually a mouse) is initially moved so that its hotspot is within the element at which the event was fired.
 

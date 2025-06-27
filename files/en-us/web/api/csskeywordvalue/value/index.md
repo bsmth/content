@@ -4,9 +4,10 @@ short-title: value
 slug: Web/API/CSSKeywordValue/value
 page-type: web-api-instance-property
 browser-compat: api.CSSKeywordValue.value
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`value`** property of the
 {{domxref("CSSKeywordValue")}} interface returns or sets the value of the

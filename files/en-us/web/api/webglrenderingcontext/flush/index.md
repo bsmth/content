@@ -4,9 +4,12 @@ short-title: flush()
 slug: Web/API/WebGLRenderingContext/flush
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.flush
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.flush()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) empties different buffer commands,
 causing all commands to be executed as quickly as possible.

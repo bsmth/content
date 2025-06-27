@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/MediaRecorder/error_event
 page-type: web-api-event
 browser-compat: api.MediaRecorder.error_event
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`error`** event of the {{domxref("MediaRecorder")}} interface is fired when an error occurs: for example because recording wasn't allowed or was attempted using an unsupported codec.
 

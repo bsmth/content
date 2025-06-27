@@ -4,9 +4,10 @@ short-title: setKeyframes()
 slug: Web/API/KeyframeEffect/setKeyframes
 page-type: web-api-instance-method
 browser-compat: api.KeyframeEffect.setKeyframes
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`setKeyframes()`** method of the {{domxref("KeyframeEffect")}} interface replaces the keyframes that make up the affected `KeyframeEffect` with a new set of keyframes.
 

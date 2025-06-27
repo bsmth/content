@@ -7,9 +7,12 @@ status:
   - experimental
   - non-standard
 browser-compat: api.DataTransfer.addElement
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
 
-{{APIRef("HTML Drag and Drop API")}}{{SeeCompatTable}}{{Non-standard_header}}
+{{SeeCompatTable}}{{Non-standard_header}}
 
 The **`DataTransfer.addElement()`** method sets the drag source
 to the given element. This element will be the element to which {{domxref("HTMLElement/drag_event", "drag")}} and

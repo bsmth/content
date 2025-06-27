@@ -4,9 +4,10 @@ short-title: createMediaStreamTrackSource()
 slug: Web/API/AudioContext/createMediaStreamTrackSource
 page-type: web-api-instance-method
 browser-compat: api.AudioContext.createMediaStreamTrackSource
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`createMediaStreamTrackSource()`** method of the {{domxref("AudioContext")}} interface creates and returns a {{domxref("MediaStreamTrackAudioSourceNode")}} which represents an audio source whose data comes from the specified {{domxref("MediaStreamTrack")}}.
 

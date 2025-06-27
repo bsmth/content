@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/BiquadFilterNode/type
 page-type: web-api-instance-property
 browser-compat: api.BiquadFilterNode.type
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `type` property of the {{ domxref("BiquadFilterNode") }} interface is a string (enum) value defining the kind of filtering algorithm the node is implementing.
 

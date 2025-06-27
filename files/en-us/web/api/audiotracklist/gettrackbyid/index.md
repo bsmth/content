@@ -4,9 +4,10 @@ short-title: getTrackById()
 slug: Web/API/AudioTrackList/getTrackById
 page-type: web-api-instance-method
 browser-compat: api.AudioTrackList.getTrackById
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **{{domxref("AudioTrackList")}}** method **`getTrackById()`** returns the first {{domxref("AudioTrack")}} object from the track list whose {{domxref("AudioTrack.id", "id")}} matches the specified string.
 This lets you find a specified track if you know its ID string.

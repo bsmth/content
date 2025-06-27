@@ -4,9 +4,10 @@ short-title: evaluate()
 slug: Web/API/Document/evaluate
 page-type: web-api-instance-method
 browser-compat: api.Document.evaluate
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`evaluate()`** method of the {{domxref("Document")}} interface selects elements based on the [XPath](/en-US/docs/Web/XML/XPath)
 expression given in parameters.

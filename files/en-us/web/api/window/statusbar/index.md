@@ -4,9 +4,8 @@ short-title: statusbar
 slug: Web/API/Window/statusbar
 page-type: web-api-instance-property
 browser-compat: api.Window.statusbar
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 Returns the `statusbar` object.
 

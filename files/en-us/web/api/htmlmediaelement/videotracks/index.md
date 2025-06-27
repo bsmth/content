@@ -4,9 +4,10 @@ short-title: videoTracks
 slug: Web/API/HTMLMediaElement/videoTracks
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.videoTracks
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`videoTracks`**
 property on {{DOMxRef("HTMLMediaElement")}} objects returns a

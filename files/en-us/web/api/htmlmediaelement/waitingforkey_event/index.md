@@ -4,9 +4,10 @@ short-title: waitingforkey
 slug: Web/API/HTMLMediaElement/waitingforkey_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.waitingforkey_event
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
-
-{{APIRef("Encrypted Media Extensions")}}
 
 The `waitingforkey` event is fired at a media element when it is first unable to play because it needs a key to decode the following data, and playback is stopped.
 

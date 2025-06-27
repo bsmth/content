@@ -4,9 +4,12 @@ short-title: getAll()
 slug: Web/API/CookieStore/getAll
 page-type: web-api-instance-method
 browser-compat: api.CookieStore.getAll
+sidebar:
+  - apiref:
+      - Cookie Store API")}}{{AvailableInWorkers("window_and_service
 ---
 
-{{securecontext_header}}{{APIRef("Cookie Store API")}}{{AvailableInWorkers("window_and_service")}}
+{{securecontext_header}}
 
 The **`getAll()`** method of the {{domxref("CookieStore")}} interface returns a {{jsxref("Promise")}} that resolves as an array of cookies that match the `name` or `options` passed to it.
 Passing no parameters will return all cookies for the current context.

@@ -4,9 +4,10 @@ short-title: cy
 slug: Web/API/SVGCircleElement/cy
 page-type: web-api-instance-property
 browser-compat: api.SVGCircleElement.cy
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`cy`** read-only property of the {{domxref("SVGCircleElement")}} interface reflects the {{SVGAttr("cy")}} attribute of a {{SVGElement("circle")}} element and by that defines the y-coordinate of the circle's center.
 

@@ -4,9 +4,10 @@ short-title: control
 slug: Web/API/HTMLLabelElement/control
 page-type: web-api-instance-property
 browser-compat: api.HTMLLabelElement.control
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`HTMLLabelElement.control`** property returns a
 reference to the control (in the form of an object of type {{domxref("HTMLElement")}} or

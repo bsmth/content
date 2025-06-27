@@ -4,9 +4,12 @@ short-title: session
 slug: Web/API/XRInputSourcesChangeEvent/session
 page-type: web-api-instance-property
 browser-compat: api.XRInputSourcesChangeEvent.session
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The {{domxref("XRInputSourcesChangeEvent")}} property
 `session` specifies the

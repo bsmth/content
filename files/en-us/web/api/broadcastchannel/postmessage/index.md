@@ -4,9 +4,12 @@ short-title: postMessage()
 slug: Web/API/BroadcastChannel/postMessage
 page-type: web-api-instance-method
 browser-compat: api.BroadcastChannel.postMessage
+sidebar:
+  - apiref:
+      - BroadCastChannel API
 ---
 
-{{APIRef("BroadCastChannel API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`postMessage()`** method of the {{domxref("BroadcastChannel")}} interface sends a message,
 which can be of any kind of {{jsxref("Object")}},

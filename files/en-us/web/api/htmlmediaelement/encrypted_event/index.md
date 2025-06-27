@@ -4,9 +4,10 @@ short-title: encrypted
 slug: Web/API/HTMLMediaElement/encrypted_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.encrypted_event
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
-
-{{APIRef("Encrypted Media Extensions")}}
 
 The `encrypted` event is fired when initialization data is found in the media that indicates it is encrypted.
 

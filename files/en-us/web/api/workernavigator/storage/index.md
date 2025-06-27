@@ -4,9 +4,12 @@ short-title: storage
 slug: Web/API/WorkerNavigator/storage
 page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.storage
+sidebar:
+  - apiref:
+      - Storage")}}{{AvailableInWorkers("worker
 ---
 
-{{securecontext_header}}{{APIRef("Storage")}}{{AvailableInWorkers("worker")}}
+{{securecontext_header}}
 
 The **`storage`** read-only property of the {{domxref("WorkerNavigator")}} interface
 returns the singleton {{domxref("StorageManager")}} object used to

@@ -4,9 +4,12 @@ short-title: item()
 slug: Web/API/FileList/item
 page-type: web-api-instance-method
 browser-compat: api.FileList.item
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`item()`** method of the {{domxref("FileList")}} interface returns a {{domxref("File")}} object representing the file at the specified index in the file list.
 

@@ -4,9 +4,10 @@ short-title: getItem()
 slug: Web/API/SVGStringList/getItem
 page-type: web-api-instance-method
 browser-compat: api.SVGStringList.getItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`getItem()`** method of the {{domxref("SVGStringList")}} interface returns the specified item from the list. The returned item is the item itself and not a copy. Any changes made to the item are immediately reflected in the list. The first item is indexed 0.
 

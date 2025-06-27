@@ -4,9 +4,10 @@ short-title: getQueryEXT()
 slug: Web/API/EXT_disjoint_timer_query/getQueryEXT
 page-type: webgl-extension-method
 browser-compat: api.EXT_disjoint_timer_query.getQueryEXT
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`EXT_disjoint_timer_query.getQueryEXT()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) returns information about a query

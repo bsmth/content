@@ -4,9 +4,8 @@ short-title: contentType
 slug: Web/API/Document/contentType
 page-type: web-api-instance-property
 browser-compat: api.Document.contentType
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Document.contentType`** read-only property returns the
 MIME type that the document is being rendered as. This may come from HTTP headers or

@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.PresentationRequest
+sidebar:
+  - apiref:
+      - Presentation API
 ---
 
-{{SeeCompatTable}}{{securecontext_header}}{{APIRef("Presentation API")}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 A `PresentationRequest` object is used to initiate or reconnect to a presentation made by a [controlling browsing context](https://www.w3.org/TR/presentation-api/#dfn-controlling-browsing-context). The `PresentationRequest` object _MUST_ be implemented in a [controlling browsing context](https://www.w3.org/TR/presentation-api/#dfn-controlling-browsing-context) provided by a [controlling user agent](https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent).
 

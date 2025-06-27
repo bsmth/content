@@ -4,9 +4,10 @@ short-title: negotiationneeded
 slug: Web/API/RTCPeerConnection/negotiationneeded_event
 page-type: web-api-event
 browser-compat: api.RTCPeerConnection.negotiationneeded_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 A **`negotiationneeded`** event is sent to the {{domxref("RTCPeerConnection")}} when negotiation of the connection through the signaling channel is required.
 This occurs both during the initial setup of the connection as well as any time a change to the communication environment requires reconfiguring the connection.

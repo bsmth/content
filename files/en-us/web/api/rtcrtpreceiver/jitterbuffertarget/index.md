@@ -4,9 +4,10 @@ short-title: jitterBufferTarget
 slug: Web/API/RTCRtpReceiver/jitterBufferTarget
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpReceiver.jitterBufferTarget
+sidebar:
+  - apiref:
+      - WebRTC API
 ---
-
-{{APIRef("WebRTC API")}}
 
 The **`jitterBufferTarget`** property of the {{domxref("RTCRtpReceiver")}} interface is a {{domxref("DOMHighResTimeStamp")}} that indicates the application's preferred duration, in milliseconds, for which the jitter buffer should hold media before playing it out.
 

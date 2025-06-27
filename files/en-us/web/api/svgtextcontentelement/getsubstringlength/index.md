@@ -4,9 +4,10 @@ short-title: getSubStringLength()
 slug: Web/API/SVGTextContentElement/getSubStringLength
 page-type: web-api-instance-method
 browser-compat: api.SVGTextContentElement.getSubStringLength
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `getSubStringLength()` method of the {{domxref("SVGTextContentElement")}} interface represents the computed length of the formatted text advance distance for a substring of text within the element.
 

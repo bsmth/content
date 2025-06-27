@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.XRSubImage.viewport
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The read-only **`viewport`** property of the {{domxref("XRSubImage")}} interface represents the {{domxref("XRViewport")}} that is used when rendering the sub image.
 

@@ -4,9 +4,12 @@ short-title: width
 slug: Web/API/ImageBitmap/width
 page-type: web-api-instance-property
 browser-compat: api.ImageBitmap.width
+sidebar:
+  - apiref:
+      - Canvas API
 ---
 
-{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ImageBitmap.width`** read-only property returns the {{domxref("ImageBitmap")}} object's width in CSS pixels.
 

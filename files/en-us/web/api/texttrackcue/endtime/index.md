@@ -4,9 +4,10 @@ short-title: endTime
 slug: Web/API/TextTrackCue/endTime
 page-type: web-api-instance-property
 browser-compat: api.TextTrackCue.endTime
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`endTime`** property of the {{domxref("TextTrackCue")}} interface returns and sets the end time of the cue.
 

@@ -4,9 +4,10 @@ short-title: replacesClientId
 slug: Web/API/FetchEvent/replacesClientId
 page-type: web-api-instance-property
 browser-compat: api.FetchEvent.replacesClientId
+sidebar:
+  - apiref:
+      - Service Workers API")}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
 
 The **`replacesClientId`** read-only property of the
 {{domxref("FetchEvent")}} interface is the {{domxref("Client.id", "id")}} of the

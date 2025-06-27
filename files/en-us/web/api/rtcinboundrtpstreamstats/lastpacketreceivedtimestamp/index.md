@@ -4,9 +4,10 @@ short-title: lastPacketReceivedTimestamp
 slug: Web/API/RTCInboundRtpStreamStats/lastPacketReceivedTimestamp
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.lastPacketReceivedTimestamp
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`lastPacketReceivedTimestamp`** property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary indicates the time at which the most recently received packet arrived from this source.
 

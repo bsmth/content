@@ -4,9 +4,12 @@ short-title: bound()
 slug: Web/API/IDBKeyRange/bound_static
 page-type: web-api-static-method
 browser-compat: api.IDBKeyRange.bound_static
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`bound()`** static method of the {{domxref("IDBKeyRange")}}
 interface creates a new key range with the specified upper and lower bounds. The

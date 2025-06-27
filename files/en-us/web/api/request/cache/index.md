@@ -4,9 +4,12 @@ short-title: cache
 slug: Web/API/Request/cache
 page-type: web-api-instance-property
 browser-compat: api.Request.cache
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`cache`** read-only property of the {{domxref("Request")}} interface contains the cache mode of the request. It controls how the request will interact with the browser's [HTTP cache](/en-US/docs/Web/HTTP/Guides/Caching).
 

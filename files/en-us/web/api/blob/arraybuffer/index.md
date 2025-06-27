@@ -4,9 +4,12 @@ short-title: arrayBuffer()
 slug: Web/API/Blob/arrayBuffer
 page-type: web-api-instance-method
 browser-compat: api.Blob.arrayBuffer
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`arrayBuffer()`** method of the {{domxref("Blob")}}
 interface returns a {{jsxref("Promise")}} that resolves with the contents of the blob as

@@ -4,9 +4,10 @@ short-title: duration
 slug: Web/API/HTMLMediaElement/duration
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.duration
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The _read-only_ {{domxref("HTMLMediaElement")}}
 property **`duration`** indicates the length of the element's

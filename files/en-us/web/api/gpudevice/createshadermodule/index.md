@@ -4,9 +4,12 @@ short-title: createShaderModule()
 slug: Web/API/GPUDevice/createShaderModule
 page-type: web-api-instance-method
 browser-compat: api.GPUDevice.createShaderModule
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`createShaderModule()`** method of the
 {{domxref("GPUDevice")}} interface creates a {{domxref("GPUShaderModule")}} from a string of [WGSL](https://gpuweb.github.io/gpuweb/wgsl/) source code.

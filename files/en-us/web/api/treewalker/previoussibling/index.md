@@ -4,9 +4,10 @@ short-title: previousSibling()
 slug: Web/API/TreeWalker/previousSibling
 page-type: web-api-instance-method
 browser-compat: api.TreeWalker.previousSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.previousSibling()`** method moves the current
 {{domxref("Node")}} to its previous sibling, if any, and returns the found sibling. If

@@ -4,9 +4,12 @@ short-title: inverse()
 slug: Web/API/DOMMatrixReadOnly/inverse
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.inverse
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`inverse()`** method of the {{domxref("DOMMatrixReadOnly")}} interface creates a new matrix which is the inverse of the original matrix. If the matrix cannot be inverted, the new matrix's components are all set to `NaN` and its {{domxref("DOMMatrixReadOnly.is2D", "is2D")}} property is set to `false`. The original matrix is not changed.
 

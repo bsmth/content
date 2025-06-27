@@ -4,9 +4,10 @@ short-title: in2
 slug: Web/API/SVGFEDisplacementMapElement/in2
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDisplacementMapElement.in2
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`in2`** read-only property of the {{domxref("SVGFEDisplacementMapElement")}} interface reflects the {{SVGAttr("in2")}} attribute of the given {{SVGElement("feDisplacementMap")}} element.
 

@@ -4,9 +4,10 @@ short-title: createElementNS()
 slug: Web/API/Document/createElementNS
 page-type: web-api-instance-method
 browser-compat: api.Document.createElementNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 Creates an element with the specified namespace URI and qualified name.
 

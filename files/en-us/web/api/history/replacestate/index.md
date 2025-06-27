@@ -4,9 +4,10 @@ short-title: replaceState()
 slug: Web/API/History/replaceState
 page-type: web-api-instance-method
 browser-compat: api.History.replaceState
+sidebar:
+  - apiref:
+      - History API
 ---
-
-{{APIRef("History API")}}
 
 The **`replaceState()`** method of the {{domxref("History")}} interface modifies the current
 history entry, replacing it with the state object and

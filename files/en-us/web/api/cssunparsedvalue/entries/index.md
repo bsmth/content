@@ -4,9 +4,10 @@ short-title: entries()
 slug: Web/API/CSSUnparsedValue/entries
 page-type: web-api-instance-method
 browser-compat: api.CSSUnparsedValue.entries
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSUnparsedValue.entries()`** method
 returns an array of a given object's own enumerable property `[key, value]`

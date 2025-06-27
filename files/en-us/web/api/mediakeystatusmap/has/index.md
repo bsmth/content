@@ -4,9 +4,12 @@ short-title: has()
 slug: Web/API/MediaKeyStatusMap/has
 page-type: web-api-instance-method
 browser-compat: api.MediaKeyStatusMap.has
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`has()`** method of the
 {{domxref("MediaKeyStatusMap")}} interface returns a {{jsxref('Boolean')}}, asserting

@@ -4,9 +4,10 @@ short-title: getSupportedProfiles()
 slug: Web/API/WEBGL_compressed_texture_astc/getSupportedProfiles
 page-type: webgl-extension-method
 browser-compat: api.WEBGL_compressed_texture_astc.getSupportedProfiles
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`WEBGL_compressed_texture_astc.getSupportedProfiles()`**
 method returns an array of strings containing the names of the ASTC profiles supported

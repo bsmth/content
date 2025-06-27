@@ -4,9 +4,12 @@ short-title: updateViaCache
 slug: Web/API/ServiceWorkerRegistration/updateViaCache
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerRegistration.updateViaCache
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`updateViaCache`** read-only property of the {{domxref("ServiceWorkerRegistration")}} interface returns the value of the setting used to determine the circumstances in which the browser will consult the HTTP cache when it tries to update the service worker or any scripts that are imported via {{domxref("WorkerGlobalScope.importScripts", "importScripts()")}}.
 

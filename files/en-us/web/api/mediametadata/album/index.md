@@ -4,9 +4,10 @@ short-title: album
 slug: Web/API/MediaMetadata/album
 page-type: web-api-instance-property
 browser-compat: api.MediaMetadata.album
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`album`** property of the
 {{domxref("MediaMetadata")}} interface returns or sets the name of the album or

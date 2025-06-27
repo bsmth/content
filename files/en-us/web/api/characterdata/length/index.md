@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/CharacterData/length
 page-type: web-api-instance-property
 browser-compat: api.CharacterData.length
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`CharacterData.length`** property
 returns the number of characters in the contained data, as a positive integer.

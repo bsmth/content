@@ -4,9 +4,12 @@ short-title: drawingBufferColorSpace
 slug: Web/API/WebGL2RenderingContext/drawingBufferColorSpace
 page-type: web-api-instance-property
 browser-compat: api.WebGL2RenderingContext.drawingBufferColorSpace
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.drawingBufferColorSpace`** property specifies the color space of the WebGL drawing buffer. Along with the default (`srgb`), the `display-p3` color space can be used.
 

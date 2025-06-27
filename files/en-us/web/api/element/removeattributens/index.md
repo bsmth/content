@@ -4,9 +4,10 @@ short-title: removeAttributeNS()
 slug: Web/API/Element/removeAttributeNS
 page-type: web-api-instance-method
 browser-compat: api.Element.removeAttributeNS
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`removeAttributeNS()`** method of the
 {{domxref("Element")}} interface removes the specified attribute with the specified namespace from an element.

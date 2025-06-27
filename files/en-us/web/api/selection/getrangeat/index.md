@@ -4,9 +4,10 @@ short-title: getRangeAt()
 slug: Web/API/Selection/getRangeAt
 page-type: web-api-instance-method
 browser-compat: api.Selection.getRangeAt
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`getRangeAt()`** method of the {{domxref("Selection")}} interface returns a range object representing a currently selected range.
 

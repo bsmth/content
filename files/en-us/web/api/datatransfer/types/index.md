@@ -4,9 +4,10 @@ short-title: types
 slug: Web/API/DataTransfer/types
 page-type: web-api-instance-property
 browser-compat: api.DataTransfer.types
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransfer.types`** read-only property returns the available types that exist in the {{domxref("DataTransfer.items","items")}}.
 

@@ -4,9 +4,10 @@ short-title: RTCDataChannelEvent()
 slug: Web/API/RTCDataChannelEvent/RTCDataChannelEvent
 page-type: web-api-constructor
 browser-compat: api.RTCDataChannelEvent.RTCDataChannelEvent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCDataChannelEvent()`** constructor
 creates a new {{domxref("RTCDataChannelEvent")}} object.

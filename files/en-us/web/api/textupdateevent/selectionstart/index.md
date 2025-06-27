@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.TextUpdateEvent.selectionStart
+sidebar:
+  - apiref:
+      - EditContext API
 ---
 
-{{APIRef("EditContext API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`TextUpdateEvent.selectionStart`** read-only property indicates the position of the start of the selection (or caret) within the text content of the editable region attached to the {{domxref("EditContext")}} object.
 

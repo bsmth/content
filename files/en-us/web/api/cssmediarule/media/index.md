@@ -4,9 +4,10 @@ short-title: media
 slug: Web/API/CSSMediaRule/media
 page-type: web-api-instance-property
 browser-compat: api.CSSMediaRule.media
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The read-only **`media`** property of the
 {{domxref("CSSMediaRule")}} interface returns a {{domxref("MediaList")}} representing the intended

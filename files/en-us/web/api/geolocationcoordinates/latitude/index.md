@@ -4,9 +4,12 @@ short-title: latitude
 slug: Web/API/GeolocationCoordinates/latitude
 page-type: web-api-instance-property
 browser-compat: api.GeolocationCoordinates.latitude
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`latitude`** read-only property of the {{domxref("GeolocationCoordinates")}} interface is a `double` representing the latitude of the position in decimal degrees.
 

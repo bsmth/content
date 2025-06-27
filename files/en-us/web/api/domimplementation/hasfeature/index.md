@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.DOMImplementation.hasFeature
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{ApiRef("DOM")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The
 **`DOMImplementation.hasFeature()`** method returns a

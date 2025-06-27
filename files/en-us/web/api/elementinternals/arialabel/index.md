@@ -4,9 +4,10 @@ short-title: ariaLabel
 slug: Web/API/ElementInternals/ariaLabel
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaLabel
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaLabel`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-label`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label) attribute, which defines a string value that labels the current Element.
 

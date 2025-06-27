@@ -4,9 +4,8 @@ short-title: history
 slug: Web/API/Window/history
 page-type: web-api-instance-property
 browser-compat: api.Window.history
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `Window.history` read-only property returns a reference to the {{domxref("History")}} object, which provides an interface for manipulating the browser _session history_ (pages visited in the tab or frame that the current page is loaded in).
 

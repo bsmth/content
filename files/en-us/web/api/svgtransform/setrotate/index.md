@@ -4,9 +4,10 @@ short-title: setRotate()
 slug: Web/API/SVGTransform/setRotate
 page-type: web-api-instance-method
 browser-compat: api.SVGTransform.setRotate
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `setRotate()` method of the {{domxref("SVGTransform")}} interface sets the transform type to `SVG_TRANSFORM_ROTATE`, with parameter `angle` defining the rotation angle and parameters `cx` and `cy` defining the optional center of rotation.
 

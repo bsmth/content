@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Window.showDirectoryPicker
+sidebar:
+  - apiref:
+      - File System API
 ---
 
-{{APIRef("File System API")}}{{Securecontext_Header}}{{SeeCompatTable}}
+{{Securecontext_Header}}{{SeeCompatTable}}
 
 The **`showDirectoryPicker()`** method of the
 {{domxref("Window")}} interface displays a directory picker which allows the user to

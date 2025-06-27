@@ -4,9 +4,12 @@ short-title: algorithm
 slug: Web/API/CryptoKey/algorithm
 page-type: web-api-instance-property
 browser-compat: api.CryptoKey.algorithm
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The read-only **`algorithm`** property of the {{DOMxRef("CryptoKey")}} interface returns an object describing the algorithm for which this key can be used, and any associated extra parameters.
 

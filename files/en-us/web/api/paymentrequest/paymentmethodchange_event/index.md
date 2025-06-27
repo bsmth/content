@@ -4,9 +4,12 @@ short-title: paymentmethodchange
 slug: Web/API/PaymentRequest/paymentmethodchange_event
 page-type: web-api-event
 browser-compat: api.PaymentRequest.paymentmethodchange_event
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`paymentmethodchange`** event is delivered the [Payment Request API](/en-US/docs/Web/API/Payment_Request_API) to a {{domxref("PaymentRequest")}} object when the user changes the payment method within a given payment handler.
 

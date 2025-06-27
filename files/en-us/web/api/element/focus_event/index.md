@@ -4,9 +4,8 @@ short-title: focus
 slug: Web/API/Element/focus_event
 page-type: web-api-event
 browser-compat: api.Element.focus_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`focus`** event fires when an element has received focus. The event does not bubble, but the related {{domxref("Element/focusin_event", "focusin")}} event that follows does bubble.
 

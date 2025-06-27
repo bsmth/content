@@ -4,9 +4,10 @@ short-title: empty()
 slug: Web/API/Selection/empty
 page-type: web-api-instance-method
 browser-compat: api.Selection.empty
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ ApiRef("DOM") }}
 
 The **`Selection.empty()`** method removes all ranges from the selection, leaving the {{domxref("Selection.anchorNode", "anchorNode")}} and {{domxref("Selection.focusNode","focusNode")}} properties equal to `null` and nothing selected. When this method is called, a {{domxref("Document/selectionchange_event", "selectionchange")}} event is fired at the document.
 

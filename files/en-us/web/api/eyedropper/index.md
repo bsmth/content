@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.EyeDropper
+sidebar:
+  - apiref:
+      - EyeDropper API
 ---
 
-{{securecontext_header}}{{APIRef("EyeDropper API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`EyeDropper`** interface represents an instance of an eyedropper tool that can be opened and used by the user to select colors from the screen.
 

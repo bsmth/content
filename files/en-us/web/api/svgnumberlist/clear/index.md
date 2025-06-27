@@ -4,9 +4,10 @@ short-title: clear()
 slug: Web/API/SVGNumberList/clear
 page-type: web-api-instance-method
 browser-compat: api.SVGNumberList.clear
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`clear()`** method of the {{domxref("SVGNumberList")}} interface clears all existing items from the list, with the result being an empty list.
 

@@ -4,9 +4,10 @@ short-title: animVal
 slug: Web/API/SVGAnimatedAngle/animVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedAngle.animVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`animVal`** read-only property of the {{domxref("SVGAnimatedAngle")}} interface represents the current animated value of the associated [`<angle>`](/en-US/docs/Web/SVG/Guides/Content_type#angle) on an SVG element. If the attribute is not currently being animated, `animVal` will be the same as the `baseVal`.
 

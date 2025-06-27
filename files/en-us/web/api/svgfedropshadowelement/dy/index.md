@@ -4,9 +4,10 @@ short-title: dy
 slug: Web/API/SVGFEDropShadowElement/dy
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDropShadowElement.dy
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`dy`** read-only property of the {{domxref("SVGFEDropShadowElement")}} interface reflects the {{SVGAttr("dy")}} attribute of the given {{SVGElement("feDropShadow")}} element.
 

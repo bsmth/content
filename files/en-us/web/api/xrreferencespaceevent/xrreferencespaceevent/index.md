@@ -4,9 +4,12 @@ short-title: XRReferenceSpaceEvent()
 slug: Web/API/XRReferenceSpaceEvent/XRReferenceSpaceEvent
 page-type: web-api-constructor
 browser-compat: api.XRReferenceSpaceEvent.XRReferenceSpaceEvent
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`XRReferenceSpaceEvent()`**
 constructor is used to create a new {{domxref("XRReferenceSpaceEvent")}} object, which

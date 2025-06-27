@@ -4,9 +4,10 @@ short-title: suspend()
 slug: Web/API/OfflineAudioContext/suspend
 page-type: web-api-instance-method
 browser-compat: api.OfflineAudioContext.suspend
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The **`suspend()`** method of the {{domxref("OfflineAudioContext")}} interface schedules a suspension of the time
 progression in the audio context at the specified time and returns a promise. This is

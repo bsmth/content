@@ -4,9 +4,10 @@ short-title: orientType
 slug: Web/API/SVGMarkerElement/orientType
 page-type: web-api-instance-property
 browser-compat: api.SVGMarkerElement.orientType
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`orientType`** read-only property of the {{domxref("SVGMarkerElement")}} interface returns an {{domxref("SVGAnimatedEnumeration")}} object indicating whether the {{SVGattr("orient")}} attribute is `auto`, an angle value, or something else.
 

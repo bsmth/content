@@ -4,9 +4,12 @@ short-title: active
 slug: Web/API/ServiceWorkerRegistration/active
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerRegistration.active
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`active`** read-only property of the
 {{domxref("ServiceWorkerRegistration")}} interface returns a service worker whose

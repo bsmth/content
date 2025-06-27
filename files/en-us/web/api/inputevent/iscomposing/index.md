@@ -4,9 +4,10 @@ short-title: isComposing
 slug: Web/API/InputEvent/isComposing
 page-type: web-api-instance-property
 browser-compat: api.InputEvent.isComposing
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`InputEvent.isComposing`** read-only property returns a
 boolean value indicating if the event is fired after

@@ -4,9 +4,12 @@ short-title: randomUUID()
 slug: Web/API/Crypto/randomUUID
 page-type: web-api-instance-method
 browser-compat: api.Crypto.randomUUID
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
 
-{{APIRef("Web Crypto API")}}{{SecureContext_header}}{{AvailableInWorkers}}
+{{SecureContext_header}}{{AvailableInWorkers}}
 
 The **`randomUUID()`** method of the {{domxref("Crypto")}} interface is used to generate a v4 {{Glossary("UUID")}} using a cryptographically secure random number generator.
 

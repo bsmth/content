@@ -3,9 +3,10 @@ title: MediaTrackSupportedConstraints
 slug: Web/API/MediaTrackSupportedConstraints
 page-type: web-api-interface
 spec-urls: https://w3c.github.io/mediacapture-main/#media-track-supported-constraints
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`MediaTrackSupportedConstraints`** dictionary establishes the list of constrainable properties recognized by the {{Glossary("user agent")}} or browser in its implementation of the {{domxref("MediaStreamTrack")}} object. An object conforming to `MediaTrackSupportedConstraints` is returned by {{domxref("MediaDevices.getSupportedConstraints()")}}.
 

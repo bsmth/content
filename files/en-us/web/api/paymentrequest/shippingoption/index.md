@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.PaymentRequest.shippingOption
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{APIRef("Payment Request API")}}{{SecureContext_Header}}{{Deprecated_Header}}{{Non-standard_Header}}
+{{SecureContext_Header}}{{Deprecated_Header}}{{Non-standard_Header}}
 
 The **`shippingOption`** read-only attribute of the {{domxref('PaymentRequest')}} interface returns either the id of a selected shipping option, null (if no shipping option was set to be selected) or a shipping option selected by the user.
 It is initially `null` by when no "selected" shipping options are provided.

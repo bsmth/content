@@ -4,9 +4,10 @@ short-title: parentNode
 slug: Web/API/Node/parentNode
 page-type: web-api-instance-property
 browser-compat: api.Node.parentNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`parentNode`** property of the {{domxref("Node")}} interface
 returns the parent of the specified node in the DOM tree.

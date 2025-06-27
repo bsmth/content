@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.HTMLTableColElement.chOff
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`chOff`** property of the {{domxref("HTMLTableColElement")}} interface does nothing. It reflects the `charoff` attribute of the {{HTMLElement("col")}} element.
 

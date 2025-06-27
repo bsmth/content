@@ -4,9 +4,12 @@ short-title: dimension
 slug: Web/API/GPUTexture/dimension
 page-type: web-api-instance-property
 browser-compat: api.GPUTexture.dimension
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`dimension`** read-only property of the
 {{domxref("GPUTexture")}} interface represents the dimension of the set of texels for each `GPUTexture` subresource.

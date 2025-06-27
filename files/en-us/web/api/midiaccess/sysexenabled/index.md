@@ -4,9 +4,12 @@ short-title: sysexEnabled
 slug: Web/API/MIDIAccess/sysexEnabled
 page-type: web-api-instance-property
 browser-compat: api.MIDIAccess.sysexEnabled
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`sysexEnabled`** read-only property of the {{domxref("MIDIAccess")}} interface indicates whether system exclusive support is enabled on the current MIDIAccess instance.
 

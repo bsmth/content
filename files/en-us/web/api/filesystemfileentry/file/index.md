@@ -4,9 +4,10 @@ short-title: file()
 slug: Web/API/FileSystemFileEntry/file
 page-type: web-api-instance-method
 browser-compat: api.FileSystemFileEntry.file
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The {{domxref("FileSystemFileEntry")}} interface's method
 **`file()`** returns a

@@ -4,9 +4,10 @@ short-title: dataavailable
 slug: Web/API/MediaRecorder/dataavailable_event
 page-type: web-api-event
 browser-compat: api.MediaRecorder.dataavailable_event
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`dataavailable`** event of the {{domxref("MediaRecorder")}} interface is fired when the MediaRecorder delivers media
 data to your application for its use. The data is provided in a {{domxref("Blob")}}

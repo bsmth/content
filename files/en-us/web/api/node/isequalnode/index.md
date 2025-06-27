@@ -4,9 +4,10 @@ short-title: isEqualNode()
 slug: Web/API/Node/isEqualNode
 page-type: web-api-instance-method
 browser-compat: api.Node.isEqualNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`isEqualNode()`** method of the {{domxref("Node")}} interface tests whether two nodes are equal.
 Two nodes are equal when they have the same type, defining characteristics (for

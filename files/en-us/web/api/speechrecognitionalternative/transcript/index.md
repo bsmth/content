@@ -4,9 +4,10 @@ short-title: transcript
 slug: Web/API/SpeechRecognitionAlternative/transcript
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognitionAlternative.transcript
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`transcript`** read-only property of the
 {{domxref("SpeechRecognitionResult")}} interface returns a string containing the

@@ -4,9 +4,10 @@ short-title: kind
 slug: Web/API/RTCVideoSourceStats/kind
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_media-source.kind
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`kind`** property of the {{domxref("RTCVideoSourceStats")}} dictionary is a string with the value `video`.
 

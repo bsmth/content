@@ -4,9 +4,10 @@ short-title: reload()
 slug: Web/API/Location/reload
 page-type: web-api-instance-method
 browser-compat: api.Location.reload
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`reload()`** method of the {{DOMXref("Location")}} interface reloads the current URL, like the Refresh button.
 

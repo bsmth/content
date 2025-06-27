@@ -4,9 +4,12 @@ short-title: BroadcastChannel()
 slug: Web/API/BroadcastChannel/BroadcastChannel
 page-type: web-api-constructor
 browser-compat: api.BroadcastChannel.BroadcastChannel
+sidebar:
+  - apiref:
+      - BroadCastChannel API
 ---
 
-{{APIRef("BroadCastChannel API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`BroadcastChannel()`** constructor creates a new
 {{domxref("BroadcastChannel")}} and connects it to the underlying channel.

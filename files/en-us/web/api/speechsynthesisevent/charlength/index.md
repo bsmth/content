@@ -4,9 +4,10 @@ short-title: charLength
 slug: Web/API/SpeechSynthesisEvent/charLength
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisEvent.charLength
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The read-only **`charLength`** property of the {{DOMxRef("SpeechSynthesisEvent")}} interface returns the number of characters left to be spoken after the character at the {{DOMxRef("SpeechSynthesisEvent.charIndex", "charIndex")}} position.
 

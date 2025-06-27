@@ -4,9 +4,10 @@ short-title: preload
 slug: Web/API/HTMLMediaElement/preload
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.preload
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`preload`** property of the {{domxref("HTMLMediaElement")}} interface is a string that provides a hint to the browser about what the author thinks will lead to the best user experience.
 

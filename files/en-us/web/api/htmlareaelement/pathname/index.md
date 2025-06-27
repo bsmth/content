@@ -4,9 +4,10 @@ short-title: pathname
 slug: Web/API/HTMLAreaElement/pathname
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.pathname
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`HTMLAreaElement.pathname`** property is a
 string containing an initial `'/'` followed by the path of

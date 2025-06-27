@@ -4,9 +4,10 @@ short-title: FocusEvent()
 slug: Web/API/FocusEvent/FocusEvent
 page-type: web-api-constructor
 browser-compat: api.FocusEvent.FocusEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`FocusEvent()`** constructor returns a newly created
 {{domxref("FocusEvent")}} object with an optional {{domxref("EventTarget")}}. When the

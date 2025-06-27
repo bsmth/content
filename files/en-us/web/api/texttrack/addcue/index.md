@@ -4,9 +4,10 @@ short-title: addCue()
 slug: Web/API/TextTrack/addCue
 page-type: web-api-instance-method
 browser-compat: api.TextTrack.addCue
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`addCue()`** method of the {{domxref("TextTrack")}} interface adds a new cue to the list of cues.
 

@@ -4,9 +4,10 @@ short-title: multiple
 slug: Web/API/HTMLInputElement/multiple
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.multiple
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLInputElement.multiple`** property indicates if an input can have more than one value. Firefox currently only supports `multiple` for `<input type="file">`.
 

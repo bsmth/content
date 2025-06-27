@@ -4,9 +4,8 @@ short-title: focus
 slug: Web/API/Window/focus_event
 page-type: web-api-event
 browser-compat: api.Window.focus_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`focus`** event fires when an element has received focus.
 

@@ -4,9 +4,10 @@ short-title: queryCounterEXT()
 slug: Web/API/EXT_disjoint_timer_query/queryCounterEXT
 page-type: webgl-extension-method
 browser-compat: api.EXT_disjoint_timer_query.queryCounterEXT
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`EXT_disjoint_timer_query.queryCounterEXT()`** method of
 the [WebGL API](/en-US/docs/Web/API/WebGL_API) records the current time into

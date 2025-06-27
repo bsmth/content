@@ -4,9 +4,10 @@ short-title: getDirectory()
 slug: Web/API/FileSystemDirectoryEntry/getDirectory
 page-type: web-api-instance-method
 browser-compat: api.FileSystemDirectoryEntry.getDirectory
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The {{domxref("FileSystemDirectoryEntry")}} interface's method
 **`getDirectory()`** returns a

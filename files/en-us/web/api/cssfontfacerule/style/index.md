@@ -4,9 +4,10 @@ short-title: style
 slug: Web/API/CSSFontFaceRule/style
 page-type: web-api-instance-property
 browser-compat: api.CSSFontFaceRule.style
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`style`** property of the {{domxref("CSSFontFaceRule")}} interface returns the style information from the {{cssxref("@font-face")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule). This will be in the form of a {{domxref("CSSStyleDeclaration")}} object.
 

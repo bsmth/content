@@ -4,9 +4,12 @@ short-title: readyState
 slug: Web/API/IDBRequest/readyState
 page-type: web-api-instance-property
 browser-compat: api.IDBRequest.readyState
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`readyState`** read-only property of the
 {{domxref("IDBRequest")}} interface returns the state of the request.

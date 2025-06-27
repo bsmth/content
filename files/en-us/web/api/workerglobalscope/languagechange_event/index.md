@@ -4,9 +4,10 @@ short-title: languagechange
 slug: Web/API/WorkerGlobalScope/languagechange_event
 page-type: web-api-event
 browser-compat: api.WorkerGlobalScope.languagechange_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{AvailableInWorkers("worker")}}
+{{AvailableInWorkers("worker")}}
 
 The **`languagechange`** event is fired at the global scope object when the user's preferred language changes.
 

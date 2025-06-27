@@ -4,9 +4,10 @@ short-title: baseLatency
 slug: Web/API/AudioContext/baseLatency
 page-type: web-api-instance-property
 browser-compat: api.AudioContext.baseLatency
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`baseLatency`** read-only property of the
 {{domxref("AudioContext")}} interface returns a double that represents the number of

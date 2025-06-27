@@ -4,9 +4,10 @@ short-title: state
 slug: Web/API/MediaRecorder/state
 page-type: web-api-instance-property
 browser-compat: api.MediaRecorder.state
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`state`** read-only property of the {{domxref("MediaRecorder")}} interface returns the current state of the current `MediaRecorder` object.
 

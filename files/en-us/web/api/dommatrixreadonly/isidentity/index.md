@@ -4,9 +4,12 @@ short-title: isIdentity
 slug: Web/API/DOMMatrixReadOnly/isIdentity
 page-type: web-api-instance-property
 browser-compat: api.DOMMatrixReadOnly.isIdentity
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The readonly **`isIdentity`** property of the {{domxref("DOMMatrixReadOnly")}} interface is a Boolean whose value is `true` if the matrix is the [identity matrix](https://en.wikipedia.org/wiki/Identity_matrix).
 

@@ -4,9 +4,10 @@ short-title: ratio
 slug: Web/API/DynamicsCompressorNode/ratio
 page-type: web-api-instance-property
 browser-compat: api.DynamicsCompressorNode.ratio
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `ratio` property of the {{ domxref("DynamicsCompressorNode") }} interface Is a [k-rate](/en-US/docs/Web/API/AudioParam#k-rate) {{domxref("AudioParam")}} representing the amount of change, in dB, needed in the input for a 1 dB change in the output.
 

@@ -3,9 +3,10 @@ title: SVGAnimatedBoolean
 slug: Web/API/SVGAnimatedBoolean
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedBoolean
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedBoolean`** interface is used for attributes of type boolean which can be animated.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.SVGPathElement.setPathData
+sidebar:
+  - apiref:
+      - SVG
 ---
 
-{{APIRef("SVG")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`SVGPathElement.setPathData()`** method sets the sequence of path segments as the new path data.
 

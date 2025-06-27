@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.ScreenDetails
+sidebar:
+  - apiref:
+      - Window Management API
 ---
 
-{{APIRef("Window Management API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`ScreenDetails`** interface of the [Window Management API](/en-US/docs/Web/API/Window_Management_API) represents the details of all the screens available to the user's device.
 

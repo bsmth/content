@@ -4,9 +4,10 @@ short-title: text
 slug: Web/API/HTMLOptionElement/text
 page-type: web-api-instance-property
 browser-compat: api.HTMLOptionElement.text
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`text`** property of the {{domxref("HTMLOptionElement")}} represents the text inside the {{htmlelement("option")}} element.
 This property represents the same information as {{domxref("Node.textContent")}}.

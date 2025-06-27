@@ -4,9 +4,10 @@ short-title: specularExponent
 slug: Web/API/SVGFESpecularLightingElement/specularExponent
 page-type: web-api-instance-property
 browser-compat: api.SVGFESpecularLightingElement.specularExponent
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`specularExponent`** read-only property of the {{domxref("SVGFESpecularLightingElement")}} interface reflects the {{SVGAttr("specularExponent")}} attribute of the given {{SVGElement("feSpecularLighting")}} element.
 

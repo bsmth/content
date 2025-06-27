@@ -4,9 +4,12 @@ short-title: pushManager
 slug: Web/API/ServiceWorkerRegistration/pushManager
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerRegistration.pushManager
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`pushManager`** read-only property of the
 {{domxref("ServiceWorkerRegistration")}} interface returns a reference to the

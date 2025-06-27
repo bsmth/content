@@ -4,9 +4,10 @@ short-title: filesystem
 slug: Web/API/FileSystemEntry/filesystem
 page-type: web-api-instance-property
 browser-compat: api.FileSystemEntry.filesystem
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The read-only **`filesystem`**
 property of the {{domxref("FileSystemEntry")}} interface contains a

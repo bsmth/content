@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.WorkletSharedStorage.length
+sidebar:
+  - apiref:
+      - Shared Storage API
 ---
 
-{{APIRef("Shared Storage API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`length()`** method of the
 {{domxref("WorkletSharedStorage")}} interface returns the number of entries currently stored in shared storage for the current origin.

@@ -4,9 +4,10 @@ short-title: code
 slug: Web/API/MediaError/code
 page-type: web-api-instance-property
 browser-compat: api.MediaError.code
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only property **`MediaError.code`** returns a numeric
 value which represents the kind of error that occurred on a media element. To get a text

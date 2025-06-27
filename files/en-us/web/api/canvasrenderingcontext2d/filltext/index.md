@@ -4,9 +4,10 @@ short-title: fillText()
 slug: Web/API/CanvasRenderingContext2D/fillText
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.fillText
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("CanvasRenderingContext2D")}} method
 **`fillText()`**, part of the Canvas 2D API, draws a text string

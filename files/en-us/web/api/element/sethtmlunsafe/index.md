@@ -4,9 +4,10 @@ short-title: setHTMLUnsafe()
 slug: Web/API/Element/setHTMLUnsafe
 page-type: web-api-instance-method
 browser-compat: api.Element.setHTMLUnsafe
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`setHTMLUnsafe()`** method of the {{domxref("Element")}} interface is used to parse a string of HTML into a {{domxref("DocumentFragment")}}, optionally filtering out unwanted elements and attributes, and those that don't belong in the context, and then using it to replace the element's subtree in the DOM.
 

@@ -4,9 +4,12 @@ short-title: session
 slug: Web/API/XRSessionEvent/session
 page-type: web-api-instance-property
 browser-compat: api.XRSessionEvent.session
+sidebar:
+  - apiref:
+      - WebXR Device API
 ---
 
-{{APIRef("WebXR Device API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only {{domxref("XRSessionEvent")}} interface's
 **`session`** property indicates which

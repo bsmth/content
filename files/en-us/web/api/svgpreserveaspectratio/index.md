@@ -3,9 +3,10 @@ title: SVGPreserveAspectRatio
 slug: Web/API/SVGPreserveAspectRatio
 page-type: web-api-interface
 browser-compat: api.SVGPreserveAspectRatio
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGPreserveAspectRatio`** interface corresponds to the {{SVGAttr("preserveAspectRatio")}} attribute.
 

@@ -4,9 +4,10 @@ short-title: sdpMid
 slug: Web/API/RTCIceCandidate/sdpMid
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.sdpMid
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only property **`sdpMid`** on the {{domxref("RTCIceCandidate")}} interface returns a string
 specifying the media stream identification tag of the media component with which the candidate is associated.

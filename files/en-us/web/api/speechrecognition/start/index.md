@@ -4,9 +4,10 @@ short-title: start()
 slug: Web/API/SpeechRecognition/start
 page-type: web-api-instance-method
 browser-compat: api.SpeechRecognition.start
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`start()`** method of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) starts the speech
 recognition service listening to incoming audio with intent to recognize grammars

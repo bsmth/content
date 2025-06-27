@@ -4,9 +4,12 @@ short-title: type
 slug: Web/API/WakeLockSentinel/type
 page-type: web-api-instance-property
 browser-compat: api.WakeLockSentinel.type
+sidebar:
+  - apiref:
+      - Screen Wake Lock API
 ---
 
-{{APIRef("Screen Wake Lock API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`type`** read-only property of the {{domxref("WakeLockSentinel")}} interface returns a string representation of the currently acquired {{domxref("WakeLockSentinel")}} type.
 

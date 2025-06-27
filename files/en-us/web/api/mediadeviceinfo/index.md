@@ -3,9 +3,12 @@ title: MediaDeviceInfo
 slug: Web/API/MediaDeviceInfo
 page-type: web-api-interface
 browser-compat: api.MediaDeviceInfo
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`MediaDeviceInfo`** interface of the {{domxref("Media Capture and Streams API", "", "", "nocode")}} contains information that describes a single media input or output device.
 

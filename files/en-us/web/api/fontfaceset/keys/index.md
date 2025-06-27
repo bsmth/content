@@ -4,9 +4,12 @@ short-title: keys()
 slug: Web/API/FontFaceSet/keys
 page-type: web-api-instance-method
 browser-compat: api.FontFaceSet.keys
+sidebar:
+  - apiref:
+      - CSS Font Loading API
 ---
 
-{{APIRef("CSS Font Loading API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`keys()`** method of the {{domxref("FontFaceSet")}} interface is an alias for {{domxref("FontFaceSet.values")}}.
 

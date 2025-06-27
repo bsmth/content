@@ -3,9 +3,10 @@ title: PerformanceEventTiming
 slug: Web/API/PerformanceEventTiming
 page-type: web-api-interface
 browser-compat: api.PerformanceEventTiming
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The `PerformanceEventTiming` interface of the Event Timing API provides insights into the latency of certain event types triggered by user interaction.
 

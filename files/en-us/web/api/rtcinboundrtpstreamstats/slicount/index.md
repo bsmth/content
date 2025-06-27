@@ -4,9 +4,10 @@ short-title: sliCount
 slug: Web/API/RTCInboundRtpStreamStats/sliCount
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_inbound-rtp.sliCount
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`sliCount`** property of the
 {{domxref("RTCInboundRtpStreamStats")}} dictionary indicates how many **Slice

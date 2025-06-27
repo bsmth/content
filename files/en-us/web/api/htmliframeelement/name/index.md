@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLIFrameElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLIFrameElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`name`** property of the {{domxref("HTMLIFrameElement")}} interface is a string value that reflects the `name` attribute of the {{HTMLElement("iframe")}} element, indicating the specific name of the `<iframe>` element.
 

@@ -4,9 +4,10 @@ short-title: setOrientToAuto()
 slug: Web/API/SVGMarkerElement/setOrientToAuto
 page-type: web-api-instance-method
 browser-compat: api.SVGMarkerElement.setOrientToAuto
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`setOrientToAuto()`** method of the {{domxref("SVGMarkerElement")}} interface sets the value of the `orient` attribute to `auto`.
 

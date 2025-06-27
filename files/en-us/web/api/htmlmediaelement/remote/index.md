@@ -4,9 +4,10 @@ short-title: remote
 slug: Web/API/HTMLMediaElement/remote
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.remote
+sidebar:
+  - apiref:
+      - Remote Playback API
 ---
-
-{{APIRef("Remote Playback API")}}
 
 The **`remote`** read-only property of the {{domxref("HTMLMediaElement")}} interface returns the {{domxref("RemotePlayback")}} object associated with the media element. The `RemotePlayback` object allow the control of remote devices playing the media.
 

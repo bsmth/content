@@ -4,9 +4,10 @@ short-title: startRendering()
 slug: Web/API/OfflineAudioContext/startRendering
 page-type: web-api-instance-method
 browser-compat: api.OfflineAudioContext.startRendering
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `startRendering()` method of the {{ domxref("OfflineAudioContext") }} Interface starts rendering the audio graph, taking into account the current connections and the current scheduled changes.
 

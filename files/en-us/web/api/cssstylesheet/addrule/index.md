@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.CSSStyleSheet.addRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The obsolete {{domxref("CSSStyleSheet")}} interface's
 **`addRule()`** _legacy method_ adds a new rule to the

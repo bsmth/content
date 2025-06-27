@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.FetchLaterResult.activated
+sidebar:
+  - apiref:
+      - fetchLater API
 ---
 
-{{APIRef("fetchLater API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`activated`** read-only property of the {{domxref("FetchLaterResult")}} interface returns a boolean specifying whether the deferred fetch has been sent.
 

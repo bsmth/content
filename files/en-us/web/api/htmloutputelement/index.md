@@ -3,9 +3,10 @@ title: HTMLOutputElement
 slug: Web/API/HTMLOutputElement
 page-type: web-api-interface
 browser-compat: api.HTMLOutputElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLOutputElement`** interface provides properties and methods (beyond those inherited from {{domxref("HTMLElement")}}) for manipulating the layout and presentation of {{HTMLElement("output")}} elements.
 

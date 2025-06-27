@@ -4,9 +4,10 @@ short-title: dirName
 slug: Web/API/HTMLInputElement/dirName
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.dirName
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`dirName`** property of the {{domxref("HTMLInputElement")}} interface is the directionality of the element and enables the submission of that value. It reflects the value of the {{htmlelement("input")}} element's [`dirName`](/en-US/docs/Web/HTML/Reference/Attributes/dirname) attribute. This property can be retrieved or set.
 

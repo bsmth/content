@@ -4,9 +4,10 @@ short-title: key
 slug: Web/API/StorageEvent/key
 page-type: web-api-instance-property
 browser-compat: api.StorageEvent.key
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`key`** property of the {{domxref("StorageEvent")}} interface returns the key for the storage item that was changed.
 

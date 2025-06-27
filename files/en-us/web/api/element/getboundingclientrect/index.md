@@ -4,9 +4,10 @@ short-title: getBoundingClientRect()
 slug: Web/API/Element/getBoundingClientRect
 page-type: web-api-instance-method
 browser-compat: api.Element.getBoundingClientRect
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.getBoundingClientRect()`** method returns a
 {{domxref("DOMRect")}} object providing information about the size of an element and its

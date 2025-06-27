@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/SVGScriptElement/type
 page-type: web-api-instance-property
 browser-compat: api.SVGScriptElement.type
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`type`** read-only property of the {{domxref("SVGScriptElement")}} interface reflects the {{SVGAttr("type")}} attribute of the given {{SVGElement("script")}} element.
 

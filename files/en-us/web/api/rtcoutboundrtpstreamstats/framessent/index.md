@@ -4,9 +4,10 @@ short-title: framesSent
 slug: Web/API/RTCOutboundRtpStreamStats/framesSent
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_outbound-rtp.framesSent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`framesSent`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary indicates the total number of encoded frames sent on this RTP stream over its lifetime.
 

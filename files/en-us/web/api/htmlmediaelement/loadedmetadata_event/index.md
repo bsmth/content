@@ -4,9 +4,10 @@ short-title: loadedmetadata
 slug: Web/API/HTMLMediaElement/loadedmetadata_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.loadedmetadata_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `loadedmetadata` event is fired when the metadata has been loaded.
 

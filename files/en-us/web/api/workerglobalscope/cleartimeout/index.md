@@ -4,9 +4,10 @@ short-title: clearTimeout()
 slug: Web/API/WorkerGlobalScope/clearTimeout
 page-type: web-api-instance-method
 browser-compat: api.clearTimeout
+sidebar:
+  - apiref:
+      - HTML DOM")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("HTML DOM")}}{{AvailableInWorkers("worker")}}
 
 The **`clearTimeout()`** method of the {{domxref("WorkerGlobalScope")}} interface cancels a timeout previously established by calling {{domxref("WorkerGlobalScope.setTimeout()")}}.
 

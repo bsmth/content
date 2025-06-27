@@ -4,9 +4,10 @@ short-title: mute
 slug: Web/API/MediaStreamTrack/mute_event
 page-type: web-api-event
 browser-compat: api.MediaStreamTrack.mute_event
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`mute`** event is sent to a {{domxref("MediaStreamTrack")}} when the track's source is temporarily unable to provide media data.
 

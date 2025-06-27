@@ -4,9 +4,10 @@ short-title: screenY
 slug: Web/API/MouseEvent/screenY
 page-type: web-api-instance-property
 browser-compat: api.MouseEvent.screenY
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`screenY`** read-only property of the {{domxref("MouseEvent")}} interface provides the vertical coordinate (offset) of the mouse pointer in [screen coordinates](/en-US/docs/Web/CSS/CSSOM_view/Coordinate_systems#screen).
 

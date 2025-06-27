@@ -4,9 +4,12 @@ short-title: heading
 slug: Web/API/GeolocationCoordinates/heading
 page-type: web-api-instance-property
 browser-compat: api.GeolocationCoordinates.heading
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`heading`** read-only property of the {{domxref("GeolocationCoordinates")}} interface is a `double` representing the direction in which the device is traveling. This value, specified in degrees, indicates how far off from heading due north the device is. `0` degrees represents true north, and the direction is determined clockwise (which means that east is `90` degrees and west is `270` degrees). If {{domxref("GeolocationCoordinates.speed")}} is `0` or the device is not able to provide heading information, `heading` is `null`.
 

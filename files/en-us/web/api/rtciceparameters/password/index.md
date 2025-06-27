@@ -4,9 +4,10 @@ short-title: password
 slug: Web/API/RTCIceParameters/password
 page-type: web-api-instance-property
 spec-urls: https://w3c.github.io/webrtc-pc/#dom-rtciceparameters-password
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **{{domxref("RTCIceParameters")}}**
 dictionary's **`password`** property specifies the ICE

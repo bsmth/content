@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.RestrictionTarget
+sidebar:
+  - apiref:
+      - Screen Capture API
 ---
 
-{{APIRef("Screen Capture API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`RestrictionTarget`** interface of the {{domxref("Screen Capture API", "Screen Capture API", "", "nocode")}} provides a static method, {{domxref("RestrictionTarget.fromElement_static", "fromElement()")}}, which returns a `RestrictionTarget` instance that can be used to restrict a captured video track to a specified DOM element.
 

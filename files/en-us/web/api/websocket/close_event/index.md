@@ -4,9 +4,12 @@ short-title: close
 slug: Web/API/WebSocket/close_event
 page-type: web-api-event
 browser-compat: api.WebSocket.close_event
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `close` event is fired when a connection with a `WebSocket` is closed.
 

@@ -4,9 +4,12 @@ short-title: url
 slug: Web/API/Report/url
 page-type: web-api-instance-property
 browser-compat: api.Report.url
+sidebar:
+  - apiref:
+      - Reporting API
 ---
 
-{{APIRef("Reporting API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`url`** read-only property of the {{domxref("Report")}}
 interface returns the URL of the document that generated the report.

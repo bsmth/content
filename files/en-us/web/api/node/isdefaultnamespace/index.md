@@ -4,9 +4,10 @@ short-title: isDefaultNamespace()
 slug: Web/API/Node/isDefaultNamespace
 page-type: web-api-instance-method
 browser-compat: api.Node.isDefaultNamespace
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`isDefaultNamespace()`** method of the {{domxref("Node")}} interface accepts a namespace URI as an argument.
 It returns a boolean value that is `true` if the namespace is the default namespace on the given node and `false` if not.

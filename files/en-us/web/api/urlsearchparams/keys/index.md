@@ -4,9 +4,12 @@ short-title: keys()
 slug: Web/API/URLSearchParams/keys
 page-type: web-api-instance-method
 browser-compat: api.URLSearchParams.keys
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{APIRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`keys()`** method of the {{domxref("URLSearchParams")}}
 interface returns an {{jsxref("Iteration_protocols",'iterator')}} allowing iteration

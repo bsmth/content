@@ -4,9 +4,8 @@ short-title: textRendering
 slug: Web/API/CanvasRenderingContext2D/textRendering
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.textRendering
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.textRendering`** property of the [Canvas API](/en-US/docs/Web/API/Canvas_API) provides information to the rendering engine about what to optimize for when rendering text.
 

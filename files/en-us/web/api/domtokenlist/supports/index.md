@@ -4,9 +4,10 @@ short-title: supports()
 slug: Web/API/DOMTokenList/supports
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.supports
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`supports()`** method of the {{domxref("DOMTokenList")}} interface
 returns `true` if a given `token` is in the associated attribute's supported tokens.

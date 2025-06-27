@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/SpeechRecognitionResult/item
 page-type: web-api-instance-method
 browser-compat: api.SpeechRecognitionResult.item
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`item`** getter of the
 {{domxref("SpeechRecognitionResult")}} interface is a standard getter that allows

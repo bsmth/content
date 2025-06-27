@@ -4,9 +4,10 @@ short-title: transportId
 slug: Web/API/RTCIceCandidatePairStats/transportId
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.transportId
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`transportId`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary uniquely identifies the {{domxref("RTCIceTransport")}} object that was inspected to obtain the transport-related statistics contained in the stats object.
 

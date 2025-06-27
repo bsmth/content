@@ -4,9 +4,10 @@ short-title: PageRevealEvent()
 slug: Web/API/PageRevealEvent/PageRevealEvent
 page-type: web-api-constructor
 browser-compat: api.PageRevealEvent.PageRevealEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`PageRevealEvent()`** constructor creates a new
 {{domxref("PageRevealEvent")}} object instance.

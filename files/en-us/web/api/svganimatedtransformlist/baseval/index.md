@@ -4,9 +4,10 @@ short-title: baseVal
 slug: Web/API/SVGAnimatedTransformList/baseVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedTransformList.baseVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`baseVal`** read-only property of the {{domxref("SVGAnimatedTransformList")}} interface represents the non-animated value of the `transform` attribute of an SVG element.
 

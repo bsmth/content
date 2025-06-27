@@ -4,9 +4,10 @@ short-title: latency
 slug: Web/API/MediaTrackSupportedConstraints/latency
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.latency_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSupportedConstraints")}} dictionary's **`latency`** property is a read-only Boolean value which is present (and set to `true`) in the object returned by {{domxref("MediaDevices.getSupportedConstraints()")}} if and only if the {{Glossary("user agent")}} supports the `latency` constraint.
 If the constraint isn't supported, it's not included in the list, so this value will never be `false`.

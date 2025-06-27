@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.VideoTrackGenerator.writable
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API
 ---
 
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`writable`** property of the {{domxref("VideoTrackGenerator")}} interface returns a {{domxref("WritableStream")}}. This allows the writing of {{domxref("VideoFrame")}}s to the {{domxref("VideoTrackGenerator.track")}}.
 

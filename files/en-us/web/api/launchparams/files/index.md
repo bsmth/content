@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.LaunchParams.files
+sidebar:
+  - apiref:
+      - Launch Handler API
 ---
 
-{{APIRef("Launch Handler API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`files`** read-only property of the {{domxref("LaunchParams")}} interface returns an array of {{domxref("FileSystemHandle")}} objects representing any files passed along with the launch navigation via the [`POST`](/en-US/docs/Web/HTTP/Reference/Methods/POST) method.
 

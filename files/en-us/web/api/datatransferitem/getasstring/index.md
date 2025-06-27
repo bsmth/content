@@ -4,9 +4,10 @@ short-title: getAsString()
 slug: Web/API/DataTransferItem/getAsString
 page-type: web-api-instance-method
 browser-compat: api.DataTransferItem.getAsString
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The **`DataTransferItem.getAsString()`** method invokes the given callback with the drag data item's string data as the argument if the item's {{domxref("DataTransferItem.kind","kind")}} is a _Plain unicode string_ (i.e., `kind` is `string`).
 

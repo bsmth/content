@@ -4,9 +4,10 @@ short-title: replaceItem()
 slug: Web/API/SVGTransformList/replaceItem
 page-type: web-api-instance-method
 browser-compat: api.SVGTransformList.replaceItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `replaceItem()` method of the {{domxref("SVGTransformList")}} interface replaces an existing item in the list with a new item.
 

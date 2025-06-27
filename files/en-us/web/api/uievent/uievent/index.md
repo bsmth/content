@@ -4,9 +4,10 @@ short-title: UIEvent()
 slug: Web/API/UIEvent/UIEvent
 page-type: web-api-constructor
 browser-compat: api.UIEvent.UIEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`UIEvent()`** constructor creates a new {{domxref("UIEvent")}} object.
 

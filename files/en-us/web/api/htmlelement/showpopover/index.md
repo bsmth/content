@@ -4,9 +4,10 @@ short-title: showPopover()
 slug: Web/API/HTMLElement/showPopover
 page-type: web-api-instance-method
 browser-compat: api.HTMLElement.showPopover
+sidebar:
+  - apiref:
+      - Popover API
 ---
-
-{{APIRef("Popover API")}}
 
 The **`showPopover()`** method of the {{domxref("HTMLElement")}} interface shows a {{domxref("Popover_API", "popover", "", "nocode")}} element (i.e., one that has a valid [`popover`](/en-US/docs/Web/HTML/Reference/Global_attributes/popover) attribute) by adding it to the {{glossary("top layer")}}.
 

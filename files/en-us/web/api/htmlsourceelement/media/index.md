@@ -4,9 +4,10 @@ short-title: media
 slug: Web/API/HTMLSourceElement/media
 page-type: web-api-instance-property
 browser-compat: api.HTMLSourceElement.media
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`media`** property of the {{domxref("HTMLSourceElement")}} interface is a string representing the intended destination medium for the resource. The value is a [media query](/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries), which is a comma separated list of media-types, media-features, and logical operators.
 

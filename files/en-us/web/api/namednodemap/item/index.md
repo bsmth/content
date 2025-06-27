@@ -4,9 +4,10 @@ short-title: item()
 slug: Web/API/NamedNodeMap/item
 page-type: web-api-instance-method
 browser-compat: api.NamedNodeMap.item
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`item()`** method of the {{domxref("NamedNodeMap")}} interface
 returns the item in the map matching the index.

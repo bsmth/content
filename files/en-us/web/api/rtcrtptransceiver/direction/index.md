@@ -4,9 +4,10 @@ short-title: direction
 slug: Web/API/RTCRtpTransceiver/direction
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpTransceiver.direction
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCRtpTransceiver")}} property **`direction`** is a string that indicates the transceiver's _preferred_ directionality.
 

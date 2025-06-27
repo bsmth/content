@@ -4,9 +4,10 @@ short-title: blur()
 slug: Web/API/SVGElement/blur
 page-type: web-api-instance-method
 browser-compat: api.SVGElement.blur
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGElement.blur()`** method removes keyboard focus from the current SVG element.
 

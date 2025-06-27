@@ -4,9 +4,12 @@ short-title: y
 slug: Web/API/DOMPoint/y
 page-type: web-api-instance-property
 browser-compat: api.DOMPoint.y
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DOMPoint`** interface's
 **`y`** property holds the vertical coordinate, _y_,

@@ -4,9 +4,10 @@ short-title: detach()
 slug: Web/API/Range/detach
 page-type: web-api-instance-method
 browser-compat: api.Range.detach
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.detach()`** method does nothing. It used to
 disable the {{domxref("Range")}} object and enable the browser to release associated

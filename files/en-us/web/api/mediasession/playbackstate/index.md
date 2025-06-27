@@ -4,9 +4,10 @@ short-title: playbackState
 slug: Web/API/MediaSession/playbackState
 page-type: web-api-instance-property
 browser-compat: api.MediaSession.playbackState
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`playbackState`** property of the
 {{domxref("MediaSession")}} interface indicates whether the current media session is

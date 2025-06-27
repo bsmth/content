@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Performance.timing
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The legacy
 **`Performance.timing`** read-only

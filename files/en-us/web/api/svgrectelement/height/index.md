@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGRectElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGRectElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** read-only property of the {{domxref("SVGRectElement")}} interface describes the vertical size of an SVG rectangle as a {{domxref("SVGAnimatedLength")}}. The length is in user coordinate system units along the y-axis. Its syntax is the same as that for [`<length>`](/en-US/docs/Web/SVG/Guides/Content_type#length).
 

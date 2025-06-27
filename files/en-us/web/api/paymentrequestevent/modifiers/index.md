@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PaymentRequestEvent.modifiers
+sidebar:
+  - apiref:
+      - Payment Handler API")}}{{AvailableInWorkers("service
 ---
 
-{{SeeCompatTable}}{{APIRef("Payment Handler API")}}{{AvailableInWorkers("service")}}
+{{SeeCompatTable}}
 
 The **`modifiers`** read-only property of the
 {{domxref("PaymentRequestEvent")}} interface returns an {{jsxref("Array")}} of `PaymentDetailsModifier` objects containing modifiers for payment details.

@@ -4,9 +4,10 @@ short-title: streams
 slug: Web/API/RTCTrackEvent/streams
 page-type: web-api-instance-property
 browser-compat: api.RTCTrackEvent.streams
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The [WebRTC API](/en-US/docs/Web/API/WebRTC_API)
 interface {{domxref("RTCTrackEvent")}}'s read-only

@@ -4,9 +4,10 @@ short-title: customError
 slug: Web/API/ValidityState/customError
 page-type: web-api-instance-property
 browser-compat: api.ValidityState.customError
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`customError`** property of the [`ValidityState`](/en-US/docs/Web/API/ValidityState) interface returns `true` if an element doesn't meet the validation required in the custom validity set by the element's {{domxref("HTMLInputElement.setCustomValidity", "setCustomValidity()")}} method.
 

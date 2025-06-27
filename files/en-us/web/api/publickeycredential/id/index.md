@@ -4,9 +4,12 @@ short-title: id
 slug: Web/API/PublicKeyCredential/id
 page-type: web-api-instance-property
 browser-compat: api.PublicKeyCredential.id
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`id`** read-only property of the
 {{domxref("PublicKeyCredential")}} interface is a string, inherited

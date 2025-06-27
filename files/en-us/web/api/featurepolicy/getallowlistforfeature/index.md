@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.FeaturePolicy.getAllowlistForFeature
+sidebar:
+  - apiref:
+      - Feature Policy API
 ---
 
-{{APIRef("Feature Policy API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`getAllowlistForFeature()`**
 method of the {{DOMxRef("FeaturePolicy")}} interface enables querying of the allowlist for a specific feature for the current Permissions Policy.

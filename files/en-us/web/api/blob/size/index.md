@@ -4,9 +4,12 @@ short-title: size
 slug: Web/API/Blob/size
 page-type: web-api-instance-property
 browser-compat: api.Blob.size
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`size`** read-only property of the {{domxref("Blob")}} interface returns
 the size of the {{domxref("Blob")}} or {{domxref("File")}} in bytes.

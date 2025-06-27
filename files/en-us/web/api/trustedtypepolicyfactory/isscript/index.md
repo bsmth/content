@@ -4,9 +4,12 @@ short-title: isScript()
 slug: Web/API/TrustedTypePolicyFactory/isScript
 page-type: web-api-instance-method
 browser-compat: api.TrustedTypePolicyFactory.isScript
+sidebar:
+  - apiref:
+      - Trusted Types API
 ---
 
-{{APIRef("Trusted Types API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`isScript()`** method of the {{domxref("TrustedTypePolicyFactory")}} interface returns true if it is passed a valid {{domxref("TrustedScript")}} object.
 

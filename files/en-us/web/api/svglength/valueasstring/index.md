@@ -4,9 +4,10 @@ short-title: valueAsString
 slug: Web/API/SVGLength/valueAsString
 page-type: web-api-instance-property
 browser-compat: api.SVGLength.valueAsString
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `valueAsString` property of the {{domxref("SVGLength")}} interface represents the [\<length>](/en-US/docs/Web/SVG/Guides/Content_type#length)'s value as a string, in the units expressed by {{domxref("SVGLength.unitType", "unitType")}}.
 

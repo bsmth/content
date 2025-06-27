@@ -4,9 +4,8 @@ short-title: menubar
 slug: Web/API/Window/menubar
 page-type: web-api-instance-property
 browser-compat: api.Window.menubar
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 Returns the `menubar` object.
 

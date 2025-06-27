@@ -4,9 +4,12 @@ short-title: values()
 slug: Web/API/Headers/values
 page-type: web-api-instance-method
 browser-compat: api.Headers.values
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Headers.values()`** method returns an
 {{jsxref("Iteration_protocols",'iterator')}} allowing to go through all values contained

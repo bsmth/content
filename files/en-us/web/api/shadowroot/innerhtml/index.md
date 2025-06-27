@@ -4,9 +4,10 @@ short-title: innerHTML
 slug: Web/API/ShadowRoot/innerHTML
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.innerHTML
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The **`innerHTML`** property of the {{domxref("ShadowRoot")}} interface gets or sets the HTML markup to the DOM tree inside the `ShadowRoot`.
 

@@ -3,9 +3,10 @@ title: HTMLBodyElement
 slug: Web/API/HTMLBodyElement
 page-type: web-api-interface
 browser-compat: api.HTMLBodyElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLBodyElement`** interface provides special properties (beyond those inherited from the regular {{ domxref("HTMLElement") }} interface) for manipulating {{HtmlElement("body")}} elements.
 

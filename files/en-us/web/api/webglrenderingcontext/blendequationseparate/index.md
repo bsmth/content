@@ -4,9 +4,12 @@ short-title: blendEquationSeparate()
 slug: Web/API/WebGLRenderingContext/blendEquationSeparate
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.blendEquationSeparate
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.blendEquationSeparate()`** method
 of the [WebGL API](/en-US/docs/Web/API/WebGL_API) is used to set the RGB

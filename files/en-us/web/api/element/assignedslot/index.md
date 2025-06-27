@@ -4,9 +4,10 @@ short-title: assignedSlot
 slug: Web/API/Element/assignedSlot
 page-type: web-api-instance-property
 browser-compat: api.Element.assignedSlot
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The **`assignedSlot`** read-only
 property of the {{domxref("Element")}} interface returns an

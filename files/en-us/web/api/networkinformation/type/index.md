@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NetworkInformation.type
+sidebar:
+  - apiref:
+      - Network Information API
 ---
 
-{{apiref("Network Information API")}}{{SeeCompatTable}} {{AvailableInWorkers}}
+{{SeeCompatTable}} {{AvailableInWorkers}}
 
 The **`type`** read-only property of the {{domxref("NetworkInformation")}} interface returns the type of connection a device is using to communicate with the network.
 

@@ -4,9 +4,12 @@ short-title: usage
 slug: Web/API/GPUBuffer/usage
 page-type: web-api-instance-property
 browser-compat: api.GPUBuffer.usage
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`usage`** read-only property of the
 {{domxref("GPUBuffer")}} interface contains the {{glossary("bitwise flags")}} representing the allowed usages of the `GPUBuffer`.

@@ -4,9 +4,10 @@ short-title: limitingConeAngle
 slug: Web/API/SVGFESpotLightElement/limitingConeAngle
 page-type: web-api-instance-property
 browser-compat: api.SVGFESpotLightElement.limitingConeAngle
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`limitingConeAngle`** read-only property of the {{domxref("SVGFESpotLightElement")}} interface reflects the {{SVGAttr("limitingConeAngle")}} attribute of the given {{SVGElement("feSpotLight")}} element.
 

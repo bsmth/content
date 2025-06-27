@@ -4,9 +4,10 @@ short-title: isFinal
 slug: Web/API/SpeechRecognitionResult/isFinal
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognitionResult.isFinal
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`isFinal`** read-only property of the
 {{domxref("SpeechRecognitionResult")}} interface is a boolean value that states

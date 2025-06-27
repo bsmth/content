@@ -4,9 +4,10 @@ short-title: nextNode()
 slug: Web/API/NodeIterator/nextNode
 page-type: web-api-instance-method
 browser-compat: api.NodeIterator.nextNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeIterator.nextNode()`** method returns the next node
 in the set represented by the {{domxref("NodeIterator")}} and advances the position of

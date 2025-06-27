@@ -4,9 +4,10 @@ short-title: delete()
 slug: Web/API/CustomStateSet/delete
 page-type: web-api-instance-method
 browser-compat: api.CustomStateSet.delete
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`delete()`** method of the {{domxref("CustomStateSet")}} interface deletes a single value from the `CustomStateSet`.
 

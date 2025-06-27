@@ -4,9 +4,10 @@ short-title: intersectionRect
 slug: Web/API/IntersectionObserverEntry/intersectionRect
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserverEntry.intersectionRect
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`intersectionRect`** read-only property of the {{domxref("IntersectionObserverEntry")}} interface is a {{domxref("DOMRectReadOnly")}} object which describes the smallest rectangle that contains the entire portion of the target element which is currently visible within the intersection root.
 

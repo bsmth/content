@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - deprecated
 browser-compat: api.Window.blur
+sidebar: apiref
 ---
 
-{{APIRef}}{{deprecated_header}}
+{{deprecated_header}}
 
 The **`Window.blur()`** method does nothing.
 

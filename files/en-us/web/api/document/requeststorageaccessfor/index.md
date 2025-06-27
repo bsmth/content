@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.Document.requestStorageAccessFor
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
 
-{{APIRef("Storage Access API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`requestStorageAccessFor()`** method of the {{domxref("Document")}} interface allows top-level sites to request third-party cookie access on behalf of embedded content originating from another site in the same [related website set](/en-US/docs/Web/API/Storage_Access_API/Related_website_sets). It returns a {{jsxref("Promise")}} that resolves if the access was granted, and rejects if access was denied.
 

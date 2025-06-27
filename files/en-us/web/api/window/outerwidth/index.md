@@ -4,9 +4,8 @@ short-title: outerWidth
 slug: Web/API/Window/outerWidth
 page-type: web-api-instance-property
 browser-compat: api.Window.outerWidth
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 **`Window.outerWidth`** read-only property returns the width of the outside of the browser window. It represents the width of the whole browser window including sidebar (if expanded), window chrome and window resizing borders/handles.
 

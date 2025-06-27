@@ -3,9 +3,12 @@ title: URLSearchParams
 slug: Web/API/URLSearchParams
 page-type: web-api-interface
 browser-compat: api.URLSearchParams
+sidebar:
+  - apiref:
+      - URL API
 ---
 
-{{ApiRef("URL API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`URLSearchParams`** interface defines utility methods to work with the query string of a URL.
 

@@ -4,9 +4,10 @@ short-title: SpeechSynthesisErrorEvent()
 slug: Web/API/SpeechSynthesisErrorEvent/SpeechSynthesisErrorEvent
 page-type: web-api-constructor
 browser-compat: api.SpeechSynthesisErrorEvent.SpeechSynthesisErrorEvent
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`SpeechSynthesisErrorEvent()`** constructor creates a new {{domxref("SpeechSynthesisErrorEvent")}} object.
 

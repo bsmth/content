@@ -4,9 +4,10 @@ short-title: unloadEventEnd
 slug: Web/API/PerformanceNavigationTiming/unloadEventEnd
 page-type: web-api-instance-property
 browser-compat: api.PerformanceNavigationTiming.unloadEventEnd
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`unloadEventEnd`** read-only property returns a {{domxref("DOMHighResTimeStamp")}} representing the time immediately after the current document's [`unload`](/en-US/docs/Web/API/Window/unload_event) event handler completes.
 

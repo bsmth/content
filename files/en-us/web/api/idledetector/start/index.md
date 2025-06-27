@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.IdleDetector.start
+sidebar:
+  - apiref:
+      - Idle Detection API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("Idle Detection API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`start()`** method of the {{domxref("IdleDetector")}} interface returns a
 {{jsxref("Promise")}} that resolves when the detector starts listening for changes in the

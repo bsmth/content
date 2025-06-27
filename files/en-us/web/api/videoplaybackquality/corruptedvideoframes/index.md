@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.VideoPlaybackQuality.corruptedVideoFrames
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
 
-{{APIRef("HTML DOM")}}{{deprecated_header}}
+{{deprecated_header}}
 
 The {{domxref("VideoPlaybackQuality")}} interface's read-only
 **`corruptedVideoFrames`** property the number of corrupted

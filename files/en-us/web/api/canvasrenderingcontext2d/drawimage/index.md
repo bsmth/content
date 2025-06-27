@@ -4,9 +4,8 @@ short-title: drawImage()
 slug: Web/API/CanvasRenderingContext2D/drawImage
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.drawImage
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.drawImage()`** method of the
 Canvas 2D API provides different ways to draw an image onto the canvas.

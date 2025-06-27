@@ -4,9 +4,10 @@ short-title: captureStream()
 slug: Web/API/HTMLMediaElement/captureStream
 page-type: web-api-instance-method
 browser-compat: api.HTMLMediaElement.captureStream
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`captureStream()`** method of the {{domxref("HTMLMediaElement")}} interface returns a {{domxref('MediaStream')}} object which is streaming a real-time capture of the content being rendered in the media element.
 

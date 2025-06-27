@@ -4,9 +4,10 @@ short-title: createImageBitmap()
 slug: Web/API/Window/createImageBitmap
 page-type: web-api-instance-method
 browser-compat: api.createImageBitmap
+sidebar:
+  - apiref:
+      - Canvas API
 ---
-
-{{APIRef("Canvas API")}}
 
 The **`createImageBitmap()`** method of the {{domxref("Window")}} interface creates a bitmap from a given source, optionally cropped to contain only a portion of that source.
 It accepts a variety of different image sources, and returns a {{jsxref("Promise")}} which resolves to an {{domxref("ImageBitmap")}}.

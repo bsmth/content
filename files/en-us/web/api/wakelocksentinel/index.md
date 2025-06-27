@@ -3,9 +3,12 @@ title: WakeLockSentinel
 slug: Web/API/WakeLockSentinel
 page-type: web-api-interface
 browser-compat: api.WakeLockSentinel
+sidebar:
+  - apiref:
+      - Screen Wake Lock API
 ---
 
-{{securecontext_header}}{{APIRef("Screen Wake Lock API")}}
+{{securecontext_header}}
 
 The **`WakeLockSentinel`** interface of the [Screen Wake Lock API](/en-US/docs/Web/API/Screen_Wake_Lock_API) can be used to monitor the status of the platform screen wake lock, and manually release the lock when needed.
 

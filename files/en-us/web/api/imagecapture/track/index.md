@@ -4,9 +4,10 @@ short-title: track
 slug: Web/API/ImageCapture/track
 page-type: web-api-instance-property
 browser-compat: api.ImageCapture.track
+sidebar:
+  - apiref:
+      - Image Capture API
 ---
-
-{{APIRef("Image Capture API")}}
 
 The **`track`** read-only property of the
 {{domxref("ImageCapture")}} interface returns a reference to the

@@ -4,9 +4,10 @@ short-title: mediaSession
 slug: Web/API/Navigator/mediaSession
 page-type: web-api-instance-property
 browser-compat: api.Navigator.mediaSession
+sidebar:
+  - apiref:
+      - Media Session API
 ---
-
-{{APIRef("Media Session API")}}
 
 The **`mediaSession`** read-only property of the {{domxref("Navigator")}}
 interface returns a {{domxref("MediaSession")}}

@@ -4,9 +4,10 @@ short-title: initialize()
 slug: Web/API/SVGPointList/initialize
 page-type: web-api-instance-method
 browser-compat: api.SVGPointList.initialize
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`initialize()`** method of the {{domxref("SVGPointList")}} interface clears the list then adds a single new {{domxref("DOMPoint")}} object to the list.
 

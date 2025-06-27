@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.MutationEvent.relatedNode
+sidebar:
+  - apiref:
+      - UI Events
 ---
 
-{{APIRef("UI Events")}}{{Deprecated_Header}}{{non-standard_header}}
+{{Deprecated_Header}}{{non-standard_header}}
 
 The **`relatedNode`** read-only property of the {{domxref("MutationEvent")}} interface returns a string indicating the node related to the event, like the changed node inside the subtree for `DOMSubtreeModified`.
 

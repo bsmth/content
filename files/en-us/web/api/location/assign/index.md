@@ -4,9 +4,10 @@ short-title: assign()
 slug: Web/API/Location/assign
 page-type: web-api-instance-method
 browser-compat: api.Location.assign
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`assign()`** method of the {{DOMXref("Location")}}
 interface causes the window to load

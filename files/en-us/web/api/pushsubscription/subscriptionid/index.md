@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.PushSubscription.subscriptionId
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{ApiRef("Push API")}}{{deprecated_header}}{{non-standard_header}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{deprecated_header}}{{non-standard_header}}{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`subscriptionId`** read-only property of the
 {{domxref("PushSubscription")}} interface returns a string containing

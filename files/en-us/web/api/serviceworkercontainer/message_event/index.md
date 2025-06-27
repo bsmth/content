@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/ServiceWorkerContainer/message_event
 page-type: web-api-event
 browser-compat: api.ServiceWorkerContainer.message_event
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`message`** event is used in a page controlled by a service worker to receive messages from the service worker.
 

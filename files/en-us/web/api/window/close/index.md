@@ -4,9 +4,8 @@ short-title: close()
 slug: Web/API/Window/close
 page-type: web-api-instance-method
 browser-compat: api.Window.close
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.close()`** method closes the current window, or
 the window on which it was called.

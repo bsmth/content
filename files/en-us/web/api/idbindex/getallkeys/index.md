@@ -4,9 +4,10 @@ short-title: getAllKeys()
 slug: Web/API/IDBIndex/getAllKeys
 page-type: web-api-instance-method
 browser-compat: api.IDBIndex.getAllKeys
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{ APIRef("IndexedDB") }}
 
 The **`getAllKeys()`** method of the {{domxref("IDBIndex")}}
 interface asynchronously retrieves the primary keys of all objects inside the index,

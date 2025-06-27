@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.NavigatorUAData.platform
+sidebar:
+  - apiref:
+      - User-Agent Client Hints API
 ---
 
-{{APIRef("User-Agent Client Hints API")}}{{SeeCompatTable}}{{AvailableInWorkers}}
+{{SeeCompatTable}}{{AvailableInWorkers}}
 
 The **`platform`** read-only property of the {{domxref("NavigatorUAData")}} interface returns the platform brand information.
 

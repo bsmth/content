@@ -4,9 +4,10 @@ short-title: ariaPlaceholder
 slug: Web/API/Element/ariaPlaceholder
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaPlaceholder
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaPlaceholder`** property of the {{domxref("Element")}} interface reflects the value of the `aria-placeholder` attribute, which defines a short hint intended to aid the user with data entry when the control has no value.
 

@@ -4,9 +4,10 @@ short-title: requestFrame()
 slug: Web/API/CanvasCaptureMediaStreamTrack/requestFrame
 page-type: web-api-instance-method
 browser-compat: api.CanvasCaptureMediaStreamTrack.requestFrame
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`requestFrame()`** method of the {{domxref("CanvasCaptureMediaStreamTrack")}} interface requests that a frame be captured from the canvas and sent to the stream.
 

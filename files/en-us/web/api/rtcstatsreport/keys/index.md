@@ -4,9 +4,10 @@ short-title: keys()
 slug: Web/API/RTCStatsReport/keys
 page-type: web-api-instance-method
 browser-compat: api.RTCStatsReport.keys
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`keys()`** method of the {{domxref("RTCStatsReport")}} interface returns a new _[iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator)_ object that can be used to iterate through the keys for each element in the `RTCStatsReport` object, in insertion order.
 

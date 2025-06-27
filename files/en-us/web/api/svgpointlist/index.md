@@ -3,9 +3,10 @@ title: SVGPointList
 slug: Web/API/SVGPointList
 page-type: web-api-interface
 browser-compat: api.SVGPointList
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGPointList`** interface represents a list of {{domxref("DOMPoint")}} objects.
 

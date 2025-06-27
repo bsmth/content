@@ -4,9 +4,10 @@ short-title: PictureInPictureEvent()
 slug: Web/API/PictureInPictureEvent/PictureInPictureEvent
 page-type: web-api-constructor
 browser-compat: api.PictureInPictureEvent.PictureInPictureEvent
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The **`PictureInPictureEvent()`** constructor returns a new {{domxref("PictureInPictureEvent")}} object.
 

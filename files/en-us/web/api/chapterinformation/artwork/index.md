@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ChapterInformation.artwork
+sidebar:
+  - apiref:
+      - Media Session API
 ---
 
-{{APIRef("Media Session API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`artwork`** read-only property of the
 {{domxref("ChapterInformation")}} interface returns an {{jsxref("Array")}} of objects representing images associated with the chapter.

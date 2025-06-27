@@ -5,9 +5,10 @@ slug: Web/API/Highlight/clear
 page-type: web-api-instance-method
 browser-compat: api.Highlight.clear
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.clear
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`clear()`** method of the {{domxref("Highlight")}} interface removes all the {{domxref("Range")}} objects from a `Highlight` object.
 

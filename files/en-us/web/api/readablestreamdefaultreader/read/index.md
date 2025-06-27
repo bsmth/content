@@ -4,9 +4,12 @@ short-title: read()
 slug: Web/API/ReadableStreamDefaultReader/read
 page-type: web-api-instance-method
 browser-compat: api.ReadableStreamDefaultReader.read
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`read()`** method of the {{domxref("ReadableStreamDefaultReader")}} interface returns a {{jsxref("Promise")}} providing access to the next chunk in the stream's internal queue.
 

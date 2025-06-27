@@ -4,9 +4,10 @@ short-title: usernameFragment
 slug: Web/API/RTCIceCandidate/usernameFragment
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.usernameFragment
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`usernameFragment`** property on the {{domxref("RTCIceCandidate")}} interface is a string indicating the
 username fragment ("ufrag") that uniquely identifies a single ICE interaction session.

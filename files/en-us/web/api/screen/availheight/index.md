@@ -4,9 +4,10 @@ short-title: availHeight
 slug: Web/API/Screen/availHeight
 page-type: web-api-instance-property
 browser-compat: api.Screen.availHeight
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only {{DOMxRef("Screen")}} interface's
 **`availHeight`** property returns the height, in CSS pixels, of

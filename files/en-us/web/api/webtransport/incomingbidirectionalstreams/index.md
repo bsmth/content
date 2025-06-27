@@ -4,9 +4,12 @@ short-title: incomingBidirectionalStreams
 slug: Web/API/WebTransport/incomingBidirectionalStreams
 page-type: web-api-instance-property
 browser-compat: api.WebTransport.incomingBidirectionalStreams
+sidebar:
+  - apiref:
+      - WebTransport API
 ---
 
-{{APIRef("WebTransport API")}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`incomingBidirectionalStreams`** read-only property of the {{domxref("WebTransport")}} interface represents one or more bidirectional streams opened by the server. Returns a {{domxref("ReadableStream")}} of {{domxref("WebTransportBidirectionalStream")}} objects. Each one can be used to reliably read data from the server and write data back to it.
 

@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/HTMLSelectElement/name
 page-type: web-api-instance-property
 browser-compat: api.HTMLSelectElement.name
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`name`** property of the {{domxref("HTMLSelectElement")}} interface indicates the name of the {{HTMLElement("select")}} element. It reflects the element's [`name`](/en-US/docs/Web/HTML/Reference/Elements/select#name) attribute.
 

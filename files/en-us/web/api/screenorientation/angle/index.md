@@ -4,9 +4,10 @@ short-title: angle
 slug: Web/API/ScreenOrientation/angle
 page-type: web-api-instance-property
 browser-compat: api.ScreenOrientation.angle
+sidebar:
+  - apiref:
+      - Screen Orientation
 ---
-
-{{APIRef("Screen Orientation")}}
 
 The **`angle`** read-only property of the
 {{domxref("ScreenOrientation")}} interface returns the document's current orientation

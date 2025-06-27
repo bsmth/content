@@ -4,9 +4,10 @@ short-title: getSynchronizationSources()
 slug: Web/API/RTCRtpReceiver/getSynchronizationSources
 page-type: web-api-instance-method
 browser-compat: api.RTCRtpReceiver.getSynchronizationSources
+sidebar:
+  - apiref:
+      - WebRTC API
 ---
-
-{{APIRef("WebRTC API")}}
 
 The **`getSynchronizationSources()`** method of the {{domxref("RTCRtpReceiver")}} interface returns an array of objects, each corresponding to one SSRC (synchronization source) identifier received by the current `RTCRtpReceiver` in the last ten seconds.
 

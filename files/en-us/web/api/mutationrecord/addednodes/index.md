@@ -4,9 +4,10 @@ short-title: addedNodes
 slug: Web/API/MutationRecord/addedNodes
 page-type: web-api-instance-property
 browser-compat: api.MutationRecord.addedNodes
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("MutationRecord")}} read-only property **`addedNodes`** is a {{domxref("NodeList")}} of nodes added to a target node by a mutation observed with a {{domxref("MutationObserver")}}.
 

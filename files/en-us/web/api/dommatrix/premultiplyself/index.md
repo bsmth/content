@@ -4,9 +4,12 @@ short-title: preMultiplySelf()
 slug: Web/API/DOMMatrix/preMultiplySelf
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.preMultiplySelf
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`preMultiplySelf()`** method of the {{domxref("DOMMatrix")}} interface modifies the matrix by pre-multiplying it with the specified `DOMMatrix`. This is equivalent to the dot product `B⋅A`, where matrix `A` is the source matrix and `B` is the matrix given as an input to the method. If no matrix is specified as the multiplier, the matrix is multiplied by a matrix in which every element is `0` _except_ the bottom-right corner and the element immediately above and to its left: `m33` and `m34`. These have the default value of `1`.
 

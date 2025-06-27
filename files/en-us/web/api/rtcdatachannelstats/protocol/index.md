@@ -4,9 +4,10 @@ short-title: protocol
 slug: Web/API/RTCDataChannelStats/protocol
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_data-channel.protocol
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`protocol`** property of the {{domxref("RTCDataChannelStats")}} dictionary returns a string containing the {{domxref("RTCDataChannel.protocol", "protocol")}} of the associated data channel.
 

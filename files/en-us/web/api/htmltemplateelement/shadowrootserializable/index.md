@@ -4,9 +4,10 @@ short-title: shadowRootSerializable
 slug: Web/API/HTMLTemplateElement/shadowRootSerializable
 page-type: web-api-instance-property
 browser-compat: api.HTMLTemplateElement.shadowRootSerializable
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`shadowRootSerializable`** property reflects the value of the [`shadowrootserializable`](/en-US/docs/Web/HTML/Reference/Elements/template#shadowrootserializable) attribute of the associated [`<template>`](/en-US/docs/Web/HTML/Reference/Elements/template) element.
 

@@ -3,9 +3,10 @@ title: PerformancePaintTiming
 slug: Web/API/PerformancePaintTiming
 page-type: web-api-interface
 browser-compat: api.PerformancePaintTiming
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`PerformancePaintTiming`** interface provides timing information about "paint" (also called "render") operations during web page construction. "Paint" refers to conversion of the render tree to on-screen pixels.
 

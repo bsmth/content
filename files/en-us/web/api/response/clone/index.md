@@ -4,9 +4,12 @@ short-title: clone()
 slug: Web/API/Response/clone
 page-type: web-api-instance-method
 browser-compat: api.Response.clone
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`clone()`** method of the {{domxref("Response")}} interface creates a clone of a response object, identical in every way, but stored in a different variable.
 

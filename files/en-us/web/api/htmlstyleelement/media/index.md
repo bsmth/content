@@ -4,9 +4,10 @@ short-title: media
 slug: Web/API/HTMLStyleElement/media
 page-type: web-api-instance-property
 browser-compat: api.HTMLStyleElement.media
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLStyleElement.media`** property specifies the
 intended destination medium for style information.

@@ -4,9 +4,10 @@ short-title: send()
 slug: Web/API/RTCDataChannel/send
 page-type: web-api-instance-method
 browser-compat: api.RTCDataChannel.send
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`send()`** method of the
 {{domxref("RTCDataChannel")}} interface sends data across the data channel to the

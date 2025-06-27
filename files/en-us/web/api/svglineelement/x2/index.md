@@ -4,9 +4,10 @@ short-title: x2
 slug: Web/API/SVGLineElement/x2
 page-type: web-api-instance-property
 browser-compat: api.SVGLineElement.x2
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x2`** read-only property of the {{domxref("SVGLineElement")}} interface describes the x-axis coordinate value of the end of a line as an {{domxref("SVGAnimatedLength")}}. It reflects the {{SVGElement("line")}} element's {{SVGAttr("x2")}} geometric attribute.
 

@@ -3,9 +3,10 @@ title: HTMLLIElement
 slug: Web/API/HTMLLIElement
 page-type: web-api-interface
 browser-compat: api.HTMLLIElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLLIElement`** interface exposes specific properties and methods (beyond those defined by regular {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating list elements.
 

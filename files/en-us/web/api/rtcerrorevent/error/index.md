@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/RTCErrorEvent/error
 page-type: web-api-instance-property
 browser-compat: api.RTCErrorEvent.error
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only {{domxref("RTCErrorEvent")}} property **`error`**
 contains an {{domxref("RTCError")}} object describing the details of the error which the

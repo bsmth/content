@@ -4,9 +4,10 @@ short-title: address
 slug: Web/API/RTCPeerConnectionIceErrorEvent/address
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnectionIceErrorEvent.address
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCPeerConnectionIceErrorEvent")}} property
 **`address`** is a string which indicates the local IP address

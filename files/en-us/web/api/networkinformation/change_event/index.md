@@ -4,9 +4,12 @@ short-title: change
 slug: Web/API/NetworkInformation/change_event
 page-type: web-api-event
 browser-compat: api.NetworkInformation.change_event
+sidebar:
+  - apiref:
+      - Network Information API
 ---
 
-{{apiref("Network Information API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`change`** event of the {{domxref("NetworkInformation")}} interface fires when connection information changes, and the event is received by the {{domxref("NetworkInformation")}} object.
 

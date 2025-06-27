@@ -4,9 +4,10 @@ short-title: yChannelSelector
 slug: Web/API/SVGFEDisplacementMapElement/yChannelSelector
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDisplacementMapElement.yChannelSelector
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`yChannelSelector`** read-only property of the {{domxref("SVGFEDisplacementMapElement")}} interface reflects the {{SVGAttr("yChannelSelector")}} attribute of the given {{SVGElement("feDisplacementMap")}} element. It takes one of the `SVG_CHANNEL_*` constants defined on this interface.
 

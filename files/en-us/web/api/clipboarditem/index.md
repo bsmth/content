@@ -3,9 +3,12 @@ title: ClipboardItem
 slug: Web/API/ClipboardItem
 page-type: web-api-interface
 browser-compat: api.ClipboardItem
+sidebar:
+  - apiref:
+      - Clipboard API
 ---
 
-{{APIRef("Clipboard API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`ClipboardItem`** interface of the [Clipboard API](/en-US/docs/Web/API/Clipboard_API) represents a single item format, used when reading or writing clipboard data using {{domxref("Clipboard.read()")}} and {{domxref("Clipboard.write()")}} respectively.
 

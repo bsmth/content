@@ -4,9 +4,12 @@ short-title: framebufferTextureLayer()
 slug: Web/API/WebGL2RenderingContext/framebufferTextureLayer
 page-type: web-api-instance-method
 browser-compat: api.WebGL2RenderingContext.framebufferTextureLayer
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGL2RenderingContext.framebufferTextureLayer()`**
 method of the [WebGL 2 API](/en-US/docs/Web/API/WebGL_API) attaches a single

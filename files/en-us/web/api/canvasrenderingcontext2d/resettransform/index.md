@@ -4,9 +4,8 @@ short-title: resetTransform()
 slug: Web/API/CanvasRenderingContext2D/resetTransform
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.resetTransform
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.resetTransform()`**

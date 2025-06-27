@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/CSSRuleList/length
 page-type: web-api-instance-property
 browser-compat: api.CSSRuleList.length
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`length`** property of the {{domxref("CSSRuleList")}} interface returns the number of {{domxref("CSSRule")}} objects in the list.
 

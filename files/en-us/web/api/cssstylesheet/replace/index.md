@@ -4,9 +4,10 @@ short-title: replace()
 slug: Web/API/CSSStyleSheet/replace
 page-type: web-api-instance-method
 browser-compat: api.CSSStyleSheet.replace
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`replace()`** method of the {{domxref("CSSStyleSheet")}} interface asynchronously replaces the content of the stylesheet with the content passed into it. The method returns a promise that resolves with the `CSSStyleSheet` object.
 

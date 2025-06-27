@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.VideoTrackGenerator.track
+sidebar:
+  - apiref:
+      - Insertable Streams for MediaStreamTrack API
 ---
 
-{{APIRef("Insertable Streams for MediaStreamTrack API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`track`** property of the {{domxref("VideoTrackGenerator")}} interface returns a {{domxref("MediaStreamTrack")}}. {{domxref("VideoFrame")}}s written to {{domxref("VideoTrackGenerator.writable")}} will be generated in this track.
 

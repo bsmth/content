@@ -4,9 +4,10 @@ short-title: getAllKeys()
 slug: Web/API/IDBObjectStore/getAllKeys
 page-type: web-api-instance-method
 browser-compat: api.IDBObjectStore.getAllKeys
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{ APIRef("IndexedDB") }}
 
 The `getAllKeys()` method of the {{domxref("IDBObjectStore")}}
 interface returns an {{domxref("IDBRequest")}} object retrieves record keys for all

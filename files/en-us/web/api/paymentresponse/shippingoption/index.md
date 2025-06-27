@@ -4,9 +4,12 @@ short-title: shippingOption
 slug: Web/API/PaymentResponse/shippingOption
 page-type: web-api-instance-property
 browser-compat: api.PaymentResponse.shippingOption
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`shippingOption`** read-only property of
 the `PaymentRequest` interface returns the ID attribute of the shipping

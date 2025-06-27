@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/HTMLImageElement/height
 page-type: web-api-instance-property
 browser-compat: api.HTMLImageElement.height
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`height`** property of the
 {{domxref("HTMLImageElement")}} interface indicates the height at which the image is

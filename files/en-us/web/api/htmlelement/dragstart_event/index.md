@@ -4,9 +4,8 @@ short-title: dragstart
 slug: Web/API/HTMLElement/dragstart_event
 page-type: web-api-event
 browser-compat: api.HTMLElement.dragstart_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `dragstart` event is fired when the user starts dragging an element or text selection.
 

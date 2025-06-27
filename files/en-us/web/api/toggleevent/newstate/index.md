@@ -4,9 +4,10 @@ short-title: newState
 slug: Web/API/ToggleEvent/newState
 page-type: web-api-instance-property
 browser-compat: api.ToggleEvent.newState
+sidebar:
+  - apiref:
+      - Popover API
 ---
-
-{{APIRef("Popover API")}}
 
 The **`newState`** read-only property of the {{domxref("ToggleEvent")}} interface is a string representing the state the element is transitioning to.
 

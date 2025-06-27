@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/SVGUseElement/height
 page-type: web-api-instance-property
 browser-compat: api.SVGUseElement.height
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`height`** read-only property of the {{domxref("SVGUseElement")}} interface describes the height of the referenced element as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("height")}} attribute on the {{SVGElement("use")}} element.
 

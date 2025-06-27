@@ -4,9 +4,10 @@ short-title: utterance
 slug: Web/API/SpeechSynthesisEvent/utterance
 page-type: web-api-instance-property
 browser-compat: api.SpeechSynthesisEvent.utterance
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`utterance`** read-only property of the {{domxref("SpeechSynthesisUtterance")}} interface returns the {{domxref("SpeechSynthesisUtterance")}} instance that the event was triggered on.
 

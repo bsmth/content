@@ -4,9 +4,12 @@ short-title: startMessages()
 slug: Web/API/ServiceWorkerContainer/startMessages
 page-type: web-api-instance-method
 browser-compat: api.ServiceWorkerContainer.startMessages
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`startMessages()`** method of
 the {{domxref("ServiceWorkerContainer")}} interface explicitly starts the flow of

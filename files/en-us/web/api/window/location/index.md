@@ -4,9 +4,8 @@ short-title: location
 slug: Web/API/Window/location
 page-type: web-api-instance-property
 browser-compat: api.Window.location
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.location`** read-only property returns a {{domxref("Location")}} object with information about the current location of the document.
 

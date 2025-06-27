@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BrowserCaptureMediaStreamTrack.cropTo
+sidebar:
+  - apiref:
+      - Screen Capture API
 ---
 
-{{APIRef("Screen Capture API")}}{{SeeCompatTable}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`cropTo()`** method of the {{domxref("BrowserCaptureMediaStreamTrack")}} interface crops a self-capture stream to the area in which a specified DOM element is rendered.
 

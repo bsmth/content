@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/NodeList/length
 page-type: web-api-instance-property
 browser-compat: api.NodeList.length
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`NodeList.length`** property returns the number of items
 in a {{domxref("NodeList")}}.

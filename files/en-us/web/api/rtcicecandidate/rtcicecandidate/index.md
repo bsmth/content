@@ -4,9 +4,10 @@ short-title: RTCIceCandidate()
 slug: Web/API/RTCIceCandidate/RTCIceCandidate
 page-type: web-api-constructor
 browser-compat: api.RTCIceCandidate.RTCIceCandidate
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The
 **`RTCIceCandidate()`**

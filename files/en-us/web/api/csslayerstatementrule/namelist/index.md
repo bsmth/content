@@ -4,9 +4,10 @@ short-title: nameList
 slug: Web/API/CSSLayerStatementRule/nameList
 page-type: web-api-instance-property
 browser-compat: api.CSSLayerStatementRule.nameList
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`nameList`** property of the {{DOMxRef("CSSLayerStatementRule")}} interface return the list of associated cascade layer names. The names can't be modified.
 

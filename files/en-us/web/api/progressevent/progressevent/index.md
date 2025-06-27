@@ -4,9 +4,12 @@ short-title: ProgressEvent()
 slug: Web/API/ProgressEvent/ProgressEvent
 page-type: web-api-constructor
 browser-compat: api.ProgressEvent.ProgressEvent
+sidebar:
+  - apiref:
+      - XMLHttpRequest API
 ---
 
-{{APIRef("XMLHttpRequest API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ProgressEvent()`** constructor returns a new {{domxref("ProgressEvent")}} object, representing the current completion of a long process.
 

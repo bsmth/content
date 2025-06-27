@@ -4,9 +4,10 @@ short-title: change
 slug: Web/API/MediaQueryList/change_event
 page-type: web-api-event
 browser-compat: api.MediaQueryList.change_event
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`change`** event of the {{DOMxRef("MediaQueryList")}} interface fires when the status of media query support changes.
 

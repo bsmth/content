@@ -4,9 +4,10 @@ short-title: checked
 slug: Web/API/HTMLInputElement/checked
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.checked
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`checked`** property of the {{DOMxRef("HTMLInputElement")}} interface specifies the current checkedness of the element; that is, whether the form control is checked or not.
 

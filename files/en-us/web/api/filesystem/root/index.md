@@ -4,9 +4,10 @@ short-title: root
 slug: Web/API/FileSystem/root
 page-type: web-api-instance-property
 browser-compat: api.FileSystem.root
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The read-only **`root`** property of the
 {{domxref("FileSystem")}} interface specifies a {{domxref("FileSystemDirectoryEntry")}}

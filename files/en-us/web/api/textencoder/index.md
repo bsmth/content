@@ -3,9 +3,12 @@ title: TextEncoder
 slug: Web/API/TextEncoder
 page-type: web-api-interface
 browser-compat: api.TextEncoder
+sidebar:
+  - apiref:
+      - Encoding API
 ---
 
-{{APIRef("Encoding API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`TextEncoder`** interface takes a string as input and encodes it using {{glossary("UTF-8")}}.
 

@@ -4,9 +4,8 @@ short-title: createLinearGradient()
 slug: Web/API/CanvasRenderingContext2D/createLinearGradient
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.createLinearGradient
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.createLinearGradient()`**

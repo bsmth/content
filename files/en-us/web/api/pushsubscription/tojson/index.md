@@ -4,9 +4,12 @@ short-title: toJSON()
 slug: Web/API/PushSubscription/toJSON
 page-type: web-api-instance-method
 browser-compat: api.PushSubscription.toJSON
+sidebar:
+  - apiref:
+      - Push API
 ---
 
-{{APIRef("Push API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The `toJSON()` method of the {{domxref("PushSubscription")}} interface is a
 standard serializer: it returns a JSON representation of the subscription properties,

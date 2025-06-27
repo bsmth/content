@@ -3,9 +3,10 @@ title: VisualViewport
 slug: Web/API/VisualViewport
 page-type: web-api-interface
 browser-compat: api.VisualViewport
+sidebar:
+  - apiref:
+      - Visual Viewport
 ---
-
-{{APIRef("Visual Viewport")}}
 
 The **`VisualViewport`** interface of the {{domxref("Visual Viewport API", "", "", "nocode")}} represents the visual viewport for a given window. For a page containing iframes, each iframe, as well as the containing page, will have a unique window object. Each window on a page will have a unique `VisualViewport` representing the properties associated with that window.
 

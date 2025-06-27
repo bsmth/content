@@ -4,9 +4,10 @@ short-title: baseVal
 slug: Web/API/SVGAnimatedPreserveAspectRatio/baseVal
 page-type: web-api-instance-property
 browser-compat: api.SVGAnimatedPreserveAspectRatio.baseVal
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`baseVal`** read-only property of the {{domxref("SVGAnimatedPreserveAspectRatio")}} interface represents the base (non-animated) value of the {{SVGAttr("preserveAspectRatio")}} attribute of an SVG element.
 

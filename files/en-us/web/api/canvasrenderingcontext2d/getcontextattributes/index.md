@@ -4,9 +4,10 @@ short-title: getContextAttributes()
 slug: Web/API/CanvasRenderingContext2D/getContextAttributes
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.getContextAttributes
+sidebar:
+  - apiref:
+      - WebGL
 ---
-
-{{APIRef("WebGL")}}
 
 The **`CanvasRenderingContext2D.getContextAttributes()`** method returns an object that contains attributes used by the context.
 

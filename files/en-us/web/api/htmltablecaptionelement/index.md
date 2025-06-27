@@ -3,9 +3,10 @@ title: HTMLTableCaptionElement
 slug: Web/API/HTMLTableCaptionElement
 page-type: web-api-interface
 browser-compat: api.HTMLTableCaptionElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLTableCaptionElement`** interface provides special properties (beyond the regular {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating table {{HTMLElement("caption")}} elements.
 

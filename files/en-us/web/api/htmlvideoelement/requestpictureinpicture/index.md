@@ -4,9 +4,10 @@ short-title: requestPictureInPicture()
 slug: Web/API/HTMLVideoElement/requestPictureInPicture
 page-type: web-api-instance-method
 browser-compat: api.HTMLVideoElement.requestPictureInPicture
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The **{{domxref("HTMLVideoElement")}}** method
 **`requestPictureInPicture()`** issues an asynchronous request

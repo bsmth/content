@@ -4,9 +4,10 @@ short-title: src
 slug: Web/API/HTMLInputElement/src
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.src
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`src`** property of the {{DOMxRef("HTMLInputElement")}} interface specifies the source of an image to display as the graphical submit button. It reflects the {{htmlelement("input")}} element's [`src`](/en-US/docs/Web/HTML/Reference/Elements/input#src) attribute.
 

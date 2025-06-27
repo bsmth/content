@@ -3,9 +3,10 @@ title: SVGGradientElement
 slug: Web/API/SVGGradientElement
 page-type: web-api-interface
 browser-compat: api.SVGGradientElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGGradient`** interface is a base interface used by {{domxref("SVGLinearGradientElement")}} and {{domxref("SVGRadialGradientElement")}}.
 

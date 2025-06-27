@@ -4,9 +4,10 @@ short-title: hidden
 slug: Web/API/HTMLElement/hidden
 page-type: web-api-instance-property
 browser-compat: api.HTMLElement.hidden
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The {{domxref("HTMLElement")}} property **`hidden`** reflects the value of the element's [`hidden`](/en-US/docs/Web/HTML/Reference/Global_attributes/hidden) attribute.
 

@@ -4,9 +4,12 @@ short-title: parameters
 slug: Web/API/AudioWorkletNode/parameters
 page-type: web-api-instance-property
 browser-compat: api.AudioWorkletNode.parameters
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
 
-{{APIRef("Web Audio API")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The read-only **`parameters`** property of the
 {{domxref("AudioWorkletNode")}} interface returns the associated

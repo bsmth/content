@@ -4,9 +4,10 @@ short-title: srcset
 slug: Web/API/HTMLSourceElement/srcset
 page-type: web-api-instance-property
 browser-compat: api.HTMLSourceElement.srcset
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`srcset`** property of the {{domxref("HTMLSourceElement")}} interface is a string containing a comma-separated list of candidate images.
 

@@ -4,9 +4,10 @@ short-title: resume
 slug: Web/API/MediaRecorder/resume_event
 page-type: web-api-event
 browser-compat: api.MediaRecorder.resume_event
+sidebar:
+  - apiref:
+      - MediaStream Recording
 ---
-
-{{APIRef("MediaStream Recording")}}
 
 The **`resume`** event of the {{domxref("MediaRecorder")}} interface is fired when
 {{domxref("MediaRecorder.resume()")}} is called.

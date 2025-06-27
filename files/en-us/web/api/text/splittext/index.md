@@ -4,9 +4,10 @@ short-title: splitText()
 slug: Web/API/Text/splitText
 page-type: web-api-instance-method
 browser-compat: api.Text.splitText
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`splitText()`** method of the {{domxref("Text")}} interface
 breaks the {{domxref("Text")}} node into two nodes at the specified offset,

@@ -4,9 +4,10 @@ short-title: track
 slug: Web/API/HTMLTrackElement/track
 page-type: web-api-instance-property
 browser-compat: api.HTMLTrackElement.track
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`track`** read-only property of the {{domxref("HTMLTrackElement")}} interface returns a {{DOMxRef("TextTrack")}} object corresponding to the text track of the {{HTMLElement("track")}} element.
 

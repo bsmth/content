@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/HTMLMediaElement/error
 page-type: web-api-instance-property
 browser-compat: api.HTMLMediaElement.error
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLMediaElement.error`** property is the
 {{domxref("MediaError")}} object for the most recent error, or `null` if

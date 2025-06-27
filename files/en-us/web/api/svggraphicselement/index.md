@@ -3,9 +3,10 @@ title: SVGGraphicsElement
 slug: Web/API/SVGGraphicsElement
 page-type: web-api-interface
 browser-compat: api.SVGGraphicsElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGGraphicsElement`** interface represents SVG elements whose primary purpose is to directly render graphics into a group.
 

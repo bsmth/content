@@ -4,9 +4,10 @@ short-title: KeyboardEvent()
 slug: Web/API/KeyboardEvent/KeyboardEvent
 page-type: web-api-constructor
 browser-compat: api.KeyboardEvent.KeyboardEvent
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`KeyboardEvent()`** constructor creates a new
 {{domxref("KeyboardEvent")}} object.

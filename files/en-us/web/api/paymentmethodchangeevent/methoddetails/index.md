@@ -4,9 +4,12 @@ short-title: methodDetails
 slug: Web/API/PaymentMethodChangeEvent/methodDetails
 page-type: web-api-instance-property
 browser-compat: api.PaymentMethodChangeEvent.methodDetails
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The read-only **`methodDetails`** property of the {{domxref("PaymentMethodChangeEvent")}} interface is an object
 containing any data the payment handler may provide to describe the change the user

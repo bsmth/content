@@ -4,9 +4,10 @@ short-title: results
 slug: Web/API/SpeechRecognitionEvent/results
 page-type: web-api-instance-property
 browser-compat: api.SpeechRecognitionEvent.results
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`results`** read-only property of the
 {{domxref("SpeechRecognitionEvent")}} interface returns a

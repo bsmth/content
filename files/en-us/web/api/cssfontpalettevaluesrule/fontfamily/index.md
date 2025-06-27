@@ -4,9 +4,10 @@ short-title: fontFamily
 slug: Web/API/CSSFontPaletteValuesRule/fontFamily
 page-type: web-api-instance-property
 browser-compat: api.CSSFontPaletteValuesRule.fontFamily
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The read-only **`fontFamily`** property of the {{domxref("CSSFontPaletteValuesRule")}} interface lists the font families the rule can be applied to. The font families must be _named_ families; _generic_ families like `courier` are not valid.
 

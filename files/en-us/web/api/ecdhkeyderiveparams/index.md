@@ -3,9 +3,10 @@ title: EcdhKeyDeriveParams
 slug: Web/API/EcdhKeyDeriveParams
 page-type: web-api-interface
 spec-urls: https://w3c.github.io/webcrypto/#dfn-EcdhKeyDeriveParams
+sidebar:
+  - apiref:
+      - Web Crypto API
 ---
-
-{{ APIRef("Web Crypto API") }}
 
 The **`EcdhKeyDeriveParams`** dictionary of the [Web Crypto API](/en-US/docs/Web/API/Web_Crypto_API) represents the object that should be passed as the `algorithm` parameter into {{domxref("SubtleCrypto.deriveKey()")}} and {{domxref("SubtleCrypto.deriveBits()")}}, when using the [ECDH](/en-US/docs/Web/API/SubtleCrypto/deriveKey#ecdh) or [X25519](/en-US/docs/Web/API/SubtleCrypto/deriveKey#x25519) algorithms.
 

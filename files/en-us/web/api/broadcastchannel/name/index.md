@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/BroadcastChannel/name
 page-type: web-api-instance-property
 browser-compat: api.BroadcastChannel.name
+sidebar:
+  - apiref:
+      - BroadCastChannel API
 ---
 
-{{APIRef("BroadCastChannel API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`name`** read-only property of the {{domxref("BroadcastChannel")}} interface returns a string, which uniquely identifies the given channel with its name. This name is passed to the {{domxref("BroadcastChannel.BroadCastChannel", "BroadcastChannel()")}} constructor at creation time and is therefore read-only.
 

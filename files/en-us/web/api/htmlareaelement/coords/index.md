@@ -4,9 +4,10 @@ short-title: coords
 slug: Web/API/HTMLAreaElement/coords
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.coords
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`coords`** property of the {{DOMxRef("HTMLAreaElement")}} interface specifies the coordinates of the element's shape as a list of floating-point numbers. It reflects the {{htmlelement("area")}} element's [`coords`](/en-US/docs/Web/HTML/Reference/Elements/area#coords) attribute.
 

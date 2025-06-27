@@ -4,9 +4,12 @@ short-title: numberValue
 slug: Web/API/XPathResult/numberValue
 page-type: web-api-instance-property
 browser-compat: api.XPathResult.numberValue
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
 
-{{APIRef("DOM XPath")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`numberValue`** property of the
 {{domxref("XPathResult")}} interface returns the numeric value of a result with

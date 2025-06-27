@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ChapterInformation.startTime
+sidebar:
+  - apiref:
+      - Media Session API
 ---
 
-{{APIRef("Media Session API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`startTime`** read-only property of the
 {{domxref("ChapterInformation")}} interface returns a number representing the start time of the chapter in seconds.

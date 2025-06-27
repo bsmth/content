@@ -3,9 +3,10 @@ title: StorageEvent
 slug: Web/API/StorageEvent
 page-type: web-api-interface
 browser-compat: api.StorageEvent
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`StorageEvent`** interface is implemented by the {{domxref("Window/storage_event", "storage")}} event, which is
 sent to a window

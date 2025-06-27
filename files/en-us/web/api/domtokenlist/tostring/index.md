@@ -4,9 +4,10 @@ short-title: toString()
 slug: Web/API/DOMTokenList/toString
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.toString
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`toString()`** {{Glossary("stringifier")}} method of the {{domxref("DOMTokenList")}} interface returns the values of the token list serialized as a string. The return value is a space-separated list of tokens equal to the {{domxref("DOMTokenList.value")}} property.
 

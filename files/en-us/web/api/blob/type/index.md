@@ -4,9 +4,12 @@ short-title: type
 slug: Web/API/Blob/type
 page-type: web-api-instance-property
 browser-compat: api.Blob.type
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`type`** read-only property of the {{domxref("Blob")}} interface returns the {{Glossary("MIME type")}} of the file.
 

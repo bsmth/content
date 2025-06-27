@@ -4,9 +4,12 @@ short-title: initiatorType
 slug: Web/API/PerformanceResourceTiming/initiatorType
 page-type: web-api-instance-property
 browser-compat: api.PerformanceResourceTiming.initiatorType
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`initiatorType`** read-only property is a string representing web platform feature that initiated the resource load.
 

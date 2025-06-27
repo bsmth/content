@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Notification.renotify
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{SecureContext_Header}}{{SeeCompatTable}} {{AvailableInWorkers}}
+{{SecureContext_Header}}{{SeeCompatTable}} {{AvailableInWorkers}}
 
 The **`renotify`** read-only property of the
 {{domxref("Notification")}} interface specifies whether the user should be notified

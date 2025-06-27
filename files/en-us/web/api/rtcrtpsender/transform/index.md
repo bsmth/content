@@ -4,9 +4,10 @@ short-title: transform
 slug: Web/API/RTCRtpSender/transform
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpSender.transform
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`transform`** property of the {{domxref("RTCRtpSender")}} object is used to insert a transform stream ({{domxref("TransformStream")}}) running in a worker thread into the sender pipeline.
 This allows stream transforms to be applied to encoded video and audio frames after they are output by a codec, and before they are sent.

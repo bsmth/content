@@ -4,9 +4,10 @@ short-title: forEach()
 slug: Web/API/RTCStatsReport/forEach
 page-type: web-api-instance-method
 browser-compat: api.RTCStatsReport.forEach
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`forEach()`** method of the {{domxref("RTCStatsReport")}} interface executes a provided function once for each key/value pair in the `RTCStatsReport` object, in insertion order.
 

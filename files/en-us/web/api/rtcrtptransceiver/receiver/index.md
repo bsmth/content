@@ -4,9 +4,10 @@ short-title: receiver
 slug: Web/API/RTCRtpTransceiver/receiver
 page-type: web-api-instance-property
 browser-compat: api.RTCRtpTransceiver.receiver
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The read-only **`receiver`** property
 of WebRTC's {{domxref("RTCRtpTransceiver")}} interface indicates the

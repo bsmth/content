@@ -4,9 +4,12 @@ short-title: getError()
 slug: Web/API/WebGLRenderingContext/getError
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getError
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getError()`** method of the [WebGL API](/en-US/docs/Web/API/WebGL_API) returns error information.
 

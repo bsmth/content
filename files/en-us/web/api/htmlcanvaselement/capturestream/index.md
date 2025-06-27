@@ -4,9 +4,10 @@ short-title: captureStream()
 slug: Web/API/HTMLCanvasElement/captureStream
 page-type: web-api-instance-method
 browser-compat: api.HTMLCanvasElement.captureStream
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`captureStream()`** method of the {{domxref("HTMLCanvasElement")}} interface returns a {{domxref("MediaStream")}}
 which includes a {{domxref("CanvasCaptureMediaStreamTrack")}} containing a real-time video capture of the canvas's contents.

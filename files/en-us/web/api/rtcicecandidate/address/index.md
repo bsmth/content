@@ -4,9 +4,10 @@ short-title: address
 slug: Web/API/RTCIceCandidate/address
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidate.address
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **{{domxref("RTCIceCandidate")}}** interface's read-only **`address`** property is a string providing the IP address of the device which is the source of the candidate.
 The `address` is `null` by default if not otherwise specified.

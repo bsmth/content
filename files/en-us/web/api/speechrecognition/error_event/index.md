@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/SpeechRecognition/error_event
 page-type: web-api-event
 browser-compat: api.SpeechRecognition.error_event
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`error`** event of the [Web Speech API](/en-US/docs/Web/API/Web_Speech_API) {{domxref("SpeechRecognition")}} object is fired when a speech recognition error occurs.
 

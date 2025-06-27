@@ -4,9 +4,10 @@ short-title: label
 slug: Web/API/MediaStreamTrack/label
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.label
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`label`** read-only property of the {{domxref("MediaStreamTrack")}} interface returns a string containing a {{glossary("user agent")}}-assigned label that identifies the track source, as in `"internal microphone"`.
 

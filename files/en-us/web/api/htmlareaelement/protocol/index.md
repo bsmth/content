@@ -4,9 +4,10 @@ short-title: protocol
 slug: Web/API/HTMLAreaElement/protocol
 page-type: web-api-instance-property
 browser-compat: api.HTMLAreaElement.protocol
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`protocol`** property of the {{domxref("HTMLAreaElement")}} interface is a string containing the protocol or scheme of the `<area>` element's `href`, including the final `":"`.
 

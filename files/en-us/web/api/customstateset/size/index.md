@@ -4,9 +4,10 @@ short-title: size
 slug: Web/API/CustomStateSet/size
 page-type: web-api-instance-property
 browser-compat: api.CustomStateSet.size
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`size`** property of the {{domxref("CustomStateSet")}} interface returns the number of values in the `CustomStateSet`.
 

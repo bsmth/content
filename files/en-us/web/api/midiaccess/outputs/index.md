@@ -4,9 +4,12 @@ short-title: outputs
 slug: Web/API/MIDIAccess/outputs
 page-type: web-api-instance-property
 browser-compat: api.MIDIAccess.outputs
+sidebar:
+  - apiref:
+      - Web MIDI API
 ---
 
-{{securecontext_header}}{{APIRef("Web MIDI API")}}
+{{securecontext_header}}
 
 The **`outputs`** read-only property of the {{domxref("MIDIAccess")}} interface provides access to any available MIDI output ports.
 

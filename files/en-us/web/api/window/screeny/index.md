@@ -4,9 +4,8 @@ short-title: screenY
 slug: Web/API/Window/screenY
 page-type: web-api-instance-property
 browser-compat: api.Window.screenY
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.screenY`** read-only property returns the vertical distance, in CSS pixels, of the top border of the user's browser viewport to the top edge of the screen.
 

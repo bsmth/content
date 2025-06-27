@@ -4,9 +4,10 @@ short-title: primitiveUnits
 slug: Web/API/SVGFilterElement/primitiveUnits
 page-type: web-api-instance-property
 browser-compat: api.SVGFilterElement.primitiveUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`primitiveUnits`** read-only property of the {{domxref("SVGFilterElement")}} interface reflects the {{SVGAttr("primitiveUnits")}} attribute of the given {{SVGElement("filter")}} element. It takes one of the `SVG_UNIT_TYPE_*` constants defined in {{domxref("SVGUnitTypes")}}.
 

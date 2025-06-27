@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/HTMLFormElement/length
 page-type: web-api-instance-property
 browser-compat: api.HTMLFormElement.length
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormElement.length`**
 read-only property returns the number of controls in the {{HTMLElement("form")}}

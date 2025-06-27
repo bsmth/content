@@ -4,9 +4,10 @@ short-title: end
 slug: Web/API/CSSScopeRule/end
 page-type: web-api-instance-property
 browser-compat: api.CSSScopeRule.end
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`end`** property of the {{domxref("CSSScopeRule")}} interface returns a string containing the value of the `@scope` at-rule's scope limit.
 

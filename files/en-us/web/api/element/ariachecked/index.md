@@ -4,9 +4,10 @@ short-title: ariaChecked
 slug: Web/API/Element/ariaChecked
 page-type: web-api-instance-property
 browser-compat: api.Element.ariaChecked
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaChecked`** property of the {{domxref("Element")}} interface reflects the value of the [`aria-checked`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-checked) attribute, which indicates the current "checked" state of checkboxes, radio buttons, and other widgets that have a checked state.
 

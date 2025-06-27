@@ -3,9 +3,12 @@ title: CacheStorage
 slug: Web/API/CacheStorage
 page-type: web-api-interface
 browser-compat: api.CacheStorage
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`CacheStorage`** interface represents the storage for {{domxref("Cache")}} objects.
 

@@ -4,9 +4,12 @@ short-title: keys()
 slug: Web/API/Headers/keys
 page-type: web-api-instance-method
 browser-compat: api.Headers.keys
+sidebar:
+  - apiref:
+      - Fetch API
 ---
 
-{{APIRef("Fetch API")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Headers.keys()`** method returns an
 {{jsxref("Iteration_protocols",'iterator')}} allowing to go through all keys contained

@@ -4,9 +4,10 @@ short-title: positionAlign
 slug: Web/API/VTTCue/positionAlign
 page-type: web-api-instance-property
 browser-compat: api.VTTCue.positionAlign
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`positionAlign`** property of the {{domxref("VTTCue")}} interface is used to determine what {{domxref("VTTCue.position")}} is anchored to.
 

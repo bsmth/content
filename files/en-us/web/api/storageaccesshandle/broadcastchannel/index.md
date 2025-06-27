@@ -4,9 +4,10 @@ short-title: BroadcastChannel()
 slug: Web/API/StorageAccessHandle/BroadcastChannel
 page-type: web-api-instance-method
 browser-compat: api.StorageAccessHandle.BroadcastChannel
+sidebar:
+  - apiref:
+      - Storage Access API
 ---
-
-{{APIRef("Storage Access API")}}
 
 > [!NOTE]
 > See {{domxref("BroadcastChannel.BroadcastChannel", "BroadcastChannel()")}} to understand usage.

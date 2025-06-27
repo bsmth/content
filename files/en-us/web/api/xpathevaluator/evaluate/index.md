@@ -4,9 +4,10 @@ short-title: evaluate()
 slug: Web/API/XPathEvaluator/evaluate
 page-type: web-api-instance-method
 browser-compat: api.XPathEvaluator.evaluate
+sidebar:
+  - apiref:
+      - DOM XPath
 ---
-
-{{APIRef("DOM XPath")}}
 
 The `evaluate()` method of the {{domxref("XPathEvaluator")}} interface
 executes an XPath expression on the given node or document and returns an

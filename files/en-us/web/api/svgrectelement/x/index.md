@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/SVGRectElement/x
 page-type: web-api-instance-property
 browser-compat: api.SVGRectElement.x
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x`** read-only property of the {{domxref("SVGRectElement")}} interface describes the horizontal coordinate of the position of an SVG rectangle as a {{domxref("SVGAnimatedLength")}}. The `<coordinate>` is a length in the user coordinate system that is the given distance from the origin of the user coordinate system along the x-axis. Its syntax is the same as that for [`<length>`](/en-US/docs/Web/SVG/Guides/Content_type#length).
 

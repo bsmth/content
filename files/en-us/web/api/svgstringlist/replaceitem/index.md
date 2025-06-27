@@ -4,9 +4,10 @@ short-title: replaceItem()
 slug: Web/API/SVGStringList/replaceItem
 page-type: web-api-instance-method
 browser-compat: api.SVGStringList.replaceItem
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`replaceItem()`** method of the {{domxref("SVGStringList")}} interface replaces an existing item in the list with a new item. The inserted item is the item itself and not a copy.
 

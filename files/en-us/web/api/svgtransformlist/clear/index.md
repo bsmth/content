@@ -4,9 +4,10 @@ short-title: clear()
 slug: Web/API/SVGTransformList/clear
 page-type: web-api-instance-method
 browser-compat: api.SVGTransformList.clear
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `clear()` method of the {{domxref("SVGTransformList")}} interface clears all existing current items from the list, with the result being an empty list.
 

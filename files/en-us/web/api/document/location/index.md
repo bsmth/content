@@ -4,9 +4,10 @@ short-title: location
 slug: Web/API/Document/location
 page-type: web-api-instance-property
 browser-compat: api.Document.location
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Document.location`** read-only property returns a
 {{domxref("Location")}} object, which contains information about the URL of the document

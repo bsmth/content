@@ -4,9 +4,10 @@ short-title: y
 slug: Web/API/SVGTextPositioningElement/y
 page-type: web-api-instance-property
 browser-compat: api.SVGTextPositioningElement.y
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`y`** read-only property of the {{domxref("SVGTextPositioningElement")}} interface describes the y-axis coordinate of the {{domxref("SVGTextElement")}} or {{domxref("SVGTSpanElement")}} as an {{domxref("SVGAnimatedLengthList")}}. It reflects the {{SVGAttr("y")}} attribute's vertical position of the individual text glyphs in the user coordinate system.
 

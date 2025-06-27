@@ -4,9 +4,10 @@ short-title: createMediaElementSource()
 slug: Web/API/AudioContext/createMediaElementSource
 page-type: web-api-instance-method
 browser-compat: api.AudioContext.createMediaElementSource
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createMediaElementSource()` method of the {{ domxref("AudioContext") }} Interface is used to create a new {{ domxref("MediaElementAudioSourceNode") }} object, given an existing HTML {{htmlelement("audio")}} or {{htmlelement("video")}} element, the audio from which can then be played and manipulated.
 

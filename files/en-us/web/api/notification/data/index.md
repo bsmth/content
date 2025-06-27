@@ -4,9 +4,12 @@ short-title: data
 slug: Web/API/Notification/data
 page-type: web-api-instance-property
 browser-compat: api.Notification.data
+sidebar:
+  - apiref:
+      - Web Notifications
 ---
 
-{{APIRef("Web Notifications")}}{{securecontext_header}} {{AvailableInWorkers}}
+{{securecontext_header}} {{AvailableInWorkers}}
 
 The **`data`** read-only property of the
 {{domxref("Notification")}} interface returns a structured clone of the notification's

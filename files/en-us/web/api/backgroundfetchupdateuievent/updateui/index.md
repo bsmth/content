@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 status:
   - experimental
 browser-compat: api.BackgroundFetchUpdateUIEvent.updateUI
+sidebar:
+  - apiref:
+      - Background Fetch API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
 ---
-
-{{APIRef("Background Fetch API")}}{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`updateUI()`** method of the {{domxref("BackgroundFetchUpdateUIEvent")}} interface updates the title and icon in the user interface to show the status of a background fetch.
 

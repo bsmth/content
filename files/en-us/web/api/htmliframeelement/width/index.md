@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/HTMLIFrameElement/width
 page-type: web-api-instance-property
 browser-compat: api.HTMLIFrameElement.width
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`width`** property of the {{domxref("HTMLIFrameElement")}} interface returns a string that reflects the `width` attribute of the {{HTMLElement("iframe")}} element, indicating the width of the frame in CSS pixels.
 

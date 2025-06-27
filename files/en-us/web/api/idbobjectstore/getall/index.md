@@ -4,9 +4,10 @@ short-title: getAll()
 slug: Web/API/IDBObjectStore/getAll
 page-type: web-api-instance-method
 browser-compat: api.IDBObjectStore.getAll
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{ APIRef("IndexedDB") }}
 
 The **`getAll()`** method of the
 {{domxref("IDBObjectStore")}} interface returns an {{domxref("IDBRequest")}} object

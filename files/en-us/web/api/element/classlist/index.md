@@ -4,9 +4,10 @@ short-title: classList
 slug: Web/API/Element/classList
 page-type: web-api-instance-property
 browser-compat: api.Element.classList
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.classList`** is a read-only property that
 returns a live {{domxref("DOMTokenList")}} collection of the `class`

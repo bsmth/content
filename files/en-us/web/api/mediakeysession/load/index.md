@@ -4,9 +4,12 @@ short-title: load()
 slug: Web/API/MediaKeySession/load
 page-type: web-api-instance-method
 browser-compat: api.MediaKeySession.load
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The `load()` method of the {{domxref('MediaKeySession')}} interface returns a {{jsxref('Promise')}} that resolves to a boolean value after loading data for a specified session object.
 

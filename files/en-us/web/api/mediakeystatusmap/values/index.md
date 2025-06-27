@@ -4,9 +4,10 @@ short-title: values()
 slug: Web/API/MediaKeyStatusMap/values
 page-type: web-api-instance-method
 browser-compat: api.MediaKeyStatusMap.values
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
-
-{{APIRef("Encrypted Media Extensions")}}
 
 The **`values()`** method of the
 {{domxref("MediaKeyStatusMap")}} interface returns a new Iterator object, containing

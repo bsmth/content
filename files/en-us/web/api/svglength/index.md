@@ -3,9 +3,10 @@ title: SVGLength
 slug: Web/API/SVGLength
 page-type: web-api-interface
 browser-compat: api.SVGLength
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGLength`** interface correspond to the [\<length>](/en-US/docs/Web/SVG/Guides/Content_type#length) basic data type.
 

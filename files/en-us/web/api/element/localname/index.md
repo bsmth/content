@@ -4,9 +4,10 @@ short-title: localName
 slug: Web/API/Element/localName
 page-type: web-api-instance-property
 browser-compat: api.Element.localName
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.localName`** read-only property returns the
 local part of the qualified name of an element.

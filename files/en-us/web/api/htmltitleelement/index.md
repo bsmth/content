@@ -3,9 +3,10 @@ title: HTMLTitleElement
 slug: Web/API/HTMLTitleElement
 page-type: web-api-interface
 browser-compat: api.HTMLTitleElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLTitleElement`** interface is implemented by a document's {{ HTMLElement( "title" )}}. This element inherits all of the properties and methods of the {{domxref("HTMLElement")}} interface.
 

@@ -4,9 +4,12 @@ short-title: error()
 slug: Web/API/WritableStreamDefaultController/error
 page-type: web-api-instance-method
 browser-compat: api.WritableStreamDefaultController.error
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`error()`** method of the
 {{domxref("WritableStreamDefaultController")}} interface causes any future interactions

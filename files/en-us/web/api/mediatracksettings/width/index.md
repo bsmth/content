@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/MediaTrackSettings/width
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.width_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's **`width`**
 property is an integer indicating the number of pixels wide

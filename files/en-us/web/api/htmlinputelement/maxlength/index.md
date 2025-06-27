@@ -4,9 +4,10 @@ short-title: maxLength
 slug: Web/API/HTMLInputElement/maxLength
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.maxLength
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`maxLength`** property of the {{domxref("HTMLInputElement")}} interface indicates the maximum number of characters (in {{glossary("UTF-16", "UTF-16 code units")}}) allowed to be entered for the value of the {{HTMLElement("input")}} element, and the maximum number of characters allowed for the value to be valid. It reflects the element's [`maxlength`](/en-US/docs/Web/HTML/Reference/Elements/input#maxlength) attribute. `-1` means there is no limit on the length of the value.
 

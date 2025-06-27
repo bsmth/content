@@ -4,9 +4,12 @@ short-title: previousPriority
 slug: Web/API/TaskPriorityChangeEvent/previousPriority
 page-type: web-api-instance-property
 browser-compat: api.TaskPriorityChangeEvent.previousPriority
+sidebar:
+  - apiref:
+      - Prioritized Task Scheduling API
 ---
 
-{{APIRef("Prioritized Task Scheduling API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`previousPriority`** read-only property of the {{domxref("TaskPriorityChangeEvent")}} interface returns the priority of the corresponding {{domxref("TaskSignal")}} before it was changed and this [`prioritychange`](/en-US/docs/Web/API/TaskSignal/prioritychange_event) event was emitted.
 

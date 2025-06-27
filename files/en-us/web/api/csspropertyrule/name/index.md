@@ -4,9 +4,10 @@ short-title: name
 slug: Web/API/CSSPropertyRule/name
 page-type: web-api-instance-property
 browser-compat: api.CSSPropertyRule.name
+sidebar:
+  - apiref:
+      - CSS Properties and Values API
 ---
-
-{{APIRef("CSS Properties and Values API")}}
 
 The read-only **`name`** property of the {{domxref("CSSPropertyRule")}} interface represents the property name, this being the serialization of the name given to the custom property in the {{cssxref("@property")}} rule's prelude.
 

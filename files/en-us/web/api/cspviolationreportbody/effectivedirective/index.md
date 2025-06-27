@@ -4,9 +4,10 @@ short-title: effectiveDirective
 slug: Web/API/CSPViolationReportBody/effectiveDirective
 page-type: web-api-instance-property
 browser-compat: api.CSPViolationReportBody.effectiveDirective
+sidebar:
+  - apiref:
+      - Reporting API
 ---
-
-{{APIRef("Reporting API")}}
 
 The **`effectiveDirective`** read-only property of the {{domxref("CSPViolationReportBody")}} interface is a string that represents the effective [Content Security Policy (CSP)](/en-US/docs/Web/HTTP/Guides/CSP) directive that was violated.
 

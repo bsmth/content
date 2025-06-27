@@ -3,9 +3,12 @@ title: DecompressionStream
 slug: Web/API/DecompressionStream
 page-type: web-api-interface
 browser-compat: api.DecompressionStream
+sidebar:
+  - apiref:
+      - Compression Streams API
 ---
 
-{{APIRef("Compression Streams API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`DecompressionStream`** interface of the {{domxref('Compression Streams API','','',' ')}} is an API for decompressing a stream of data.
 

@@ -3,9 +3,10 @@ title: HTMLMapElement
 slug: Web/API/HTMLMapElement
 page-type: web-api-interface
 browser-compat: api.HTMLMapElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLMapElement`** interface provides special properties and methods (beyond those of the regular object {{domxref("HTMLElement")}} interface it also has available to it by inheritance) for manipulating the layout and presentation of map elements.
 

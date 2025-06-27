@@ -4,9 +4,10 @@ short-title: valueInSpecifiedUnits
 slug: Web/API/SVGAngle/valueInSpecifiedUnits
 page-type: web-api-instance-property
 browser-compat: api.SVGAngle.valueInSpecifiedUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `valueInSpecifiedUnits` property of the {{domxref("SVGAngle")}} interface represents the value of this angle as a number, in the units expressed by the angle's {{domxref("SVGAngle.unitType", "unitType")}}.
 

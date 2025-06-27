@@ -4,9 +4,10 @@ short-title: checkValidity()
 slug: Web/API/HTMLSelectElement/checkValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLSelectElement.checkValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`checkValidity()`** method of the {{domxref("HTMLSelectElement")}} interface returns a boolean value which indicates if the element meets any [constraint validation](/en-US/docs/Web/HTML/Guides/Constraint_validation) rules applied to it. If false, the method also fires an {{domxref("HTMLElement/invalid_event", "invalid")}} event on the element. Because there's no default browser behavior for `checkValidity()`, canceling this `invalid` event has no effect.
 

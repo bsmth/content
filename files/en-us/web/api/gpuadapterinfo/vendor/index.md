@@ -4,9 +4,12 @@ short-title: vendor
 slug: Web/API/GPUAdapterInfo/vendor
 page-type: web-api-instance-property
 browser-compat: api.GPUAdapterInfo.vendor
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`vendor`** read-only property of the
 {{domxref("GPUAdapterInfo")}} interface returns the name of the adapter vendor, or an empty string if it is not available.

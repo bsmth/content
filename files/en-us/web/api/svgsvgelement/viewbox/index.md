@@ -4,9 +4,10 @@ short-title: viewBox
 slug: Web/API/SVGSVGElement/viewBox
 page-type: web-api-instance-property
 browser-compat: api.SVGSVGElement.viewBox
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`viewBox`** read-only property of the {{domxref("SVGSVGElement")}} interface reflects the {{SVGElement("svg")}} element's {{SVGAttr("viewBox")}} attribute as an {{domxref("SVGAnimatedRect")}}.
 

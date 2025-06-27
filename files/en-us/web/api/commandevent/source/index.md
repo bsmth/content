@@ -4,9 +4,10 @@ short-title: source
 slug: Web/API/CommandEvent/source
 page-type: web-api-instance-property
 browser-compat: api.CommandEvent.source
+sidebar:
+  - apiref:
+      - Invoker Commands API
 ---
-
-{{APIRef("Invoker Commands API")}}
 
 The **`source`** read-only property of the {{domxref("CommandEvent")}} interface returns an {{domxref("EventTarget")}} representing the control that invoked the given command.
 

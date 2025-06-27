@@ -4,9 +4,10 @@ short-title: contentDocument
 slug: Web/API/HTMLObjectElement/contentDocument
 page-type: web-api-instance-property
 browser-compat: api.HTMLObjectElement.contentDocument
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`contentDocument`** read-only property of
 the {{domxref("HTMLObjectElement")}} interface Returns a {{domxref("Document")}}

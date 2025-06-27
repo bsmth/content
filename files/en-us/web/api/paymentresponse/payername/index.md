@@ -4,9 +4,12 @@ short-title: payerName
 slug: Web/API/PaymentResponse/payerName
 page-type: web-api-instance-property
 browser-compat: api.PaymentResponse.payerName
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`payerName`** read-only property of the
 {{domxref("PaymentResponse")}} interface returns the name supplied by the user. This

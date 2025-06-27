@@ -4,9 +4,12 @@ short-title: getWriter()
 slug: Web/API/WritableStream/getWriter
 page-type: web-api-instance-method
 browser-compat: api.WritableStream.getWriter
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`getWriter()`** method of the {{domxref("WritableStream")}} interface returns a new instance of {{domxref("WritableStreamDefaultWriter")}} and locks the stream to that instance.
 While the stream is locked, no other writer can be acquired until this one is released.

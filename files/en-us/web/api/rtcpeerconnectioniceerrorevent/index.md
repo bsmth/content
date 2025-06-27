@@ -3,9 +3,10 @@ title: RTCPeerConnectionIceErrorEvent
 slug: Web/API/RTCPeerConnectionIceErrorEvent
 page-type: web-api-interface
 browser-compat: api.RTCPeerConnectionIceErrorEvent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCPeerConnectionIceErrorEvent`** interface—based upon the {{domxref("Event")}} interface—provides details pertaining to an {{Glossary("ICE")}} error announced by sending an {{domxref("RTCPeerConnection.icecandidateerror_event", "icecandidateerror")}} event to the {{domxref("RTCPeerConnection")}} object.
 

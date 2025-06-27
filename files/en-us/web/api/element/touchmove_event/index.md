@@ -4,9 +4,8 @@ short-title: touchmove
 slug: Web/API/Element/touchmove_event
 page-type: web-api-event
 browser-compat: api.Element.touchmove_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `touchmove` event is fired when one or more touch points are moved along the touch surface.
 

@@ -3,9 +3,10 @@ title: HTMLScriptElement
 slug: Web/API/HTMLScriptElement
 page-type: web-api-interface
 browser-compat: api.HTMLScriptElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 HTML {{HTMLElement("script")}} elements expose the **`HTMLScriptElement`** interface, which provides special properties and methods for manipulating the behavior and execution of `<script>` elements (beyond the inherited {{domxref("HTMLElement")}} interface).
 

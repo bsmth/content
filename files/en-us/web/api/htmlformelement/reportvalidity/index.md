@@ -4,9 +4,10 @@ short-title: reportValidity()
 slug: Web/API/HTMLFormElement/reportValidity
 page-type: web-api-instance-method
 browser-compat: api.HTMLFormElement.reportValidity
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`reportValidity()`** method of the {{domxref("HTMLFormElement")}} interface performs the same validity checking steps as the {{domxref("HTMLFormElement.checkValidity", "checkValidity()")}} method. In addition, for each {{domxref("HTMLElement/invalid_event", "invalid")}} event that was fired and not canceled, the browser displays the problem to the user.
 

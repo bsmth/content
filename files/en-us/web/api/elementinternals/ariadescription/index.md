@@ -4,9 +4,10 @@ short-title: ariaDescription
 slug: Web/API/ElementInternals/ariaDescription
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaDescription
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaDescription`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-description`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-description) attribute, which defines a string value that describes or annotates the current element.
 

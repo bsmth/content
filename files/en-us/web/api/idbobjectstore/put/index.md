@@ -4,9 +4,12 @@ short-title: put()
 slug: Web/API/IDBObjectStore/put
 page-type: web-api-instance-method
 browser-compat: api.IDBObjectStore.put
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`put()`** method of the {{domxref("IDBObjectStore")}} interface updates a given record in a database, or inserts a new record if the given item does not already exist.
 

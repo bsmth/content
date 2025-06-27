@@ -4,9 +4,10 @@ short-title: requestSubmit()
 slug: Web/API/HTMLFormElement/requestSubmit
 page-type: web-api-instance-method
 browser-compat: api.HTMLFormElement.requestSubmit
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The {{domxref("HTMLFormElement")}} method **`requestSubmit()`** requests
 that the form be submitted using a specific submit button.

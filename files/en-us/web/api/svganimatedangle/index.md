@@ -3,9 +3,10 @@ title: SVGAnimatedAngle
 slug: Web/API/SVGAnimatedAngle
 page-type: web-api-interface
 browser-compat: api.SVGAnimatedAngle
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGAnimatedAngle`** interface is used for attributes of basic type [\<angle>](/en-US/docs/Web/SVG/Guides/Content_type#angle) which can be animated.
 

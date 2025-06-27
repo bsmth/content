@@ -4,9 +4,12 @@ short-title: getShaderPrecisionFormat()
 slug: Web/API/WebGLRenderingContext/getShaderPrecisionFormat
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getShaderPrecisionFormat
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The
 **`WebGLRenderingContext.getShaderPrecisionFormat()`** method of

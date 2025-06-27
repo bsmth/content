@@ -4,9 +4,10 @@ short-title: rel
 slug: Web/API/HTMLLinkElement/rel
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.rel
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`rel`** property of the {{domxref("HTMLLinkElement")}} interface reflects the [`rel`](/en-US/docs/Web/HTML/Reference/Attributes/rel) attribute. It is a string containing a space-separated list of link types indicating the relationship between the resource represented by the {{HTMLElement("link")}} element and the current document.
 

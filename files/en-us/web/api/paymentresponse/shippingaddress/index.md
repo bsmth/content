@@ -4,9 +4,12 @@ short-title: shippingAddress
 slug: Web/API/PaymentResponse/shippingAddress
 page-type: web-api-instance-property
 browser-compat: api.PaymentResponse.shippingAddress
+sidebar:
+  - apiref:
+      - Payment Request API
 ---
 
-{{securecontext_header}}{{APIRef("Payment Request API")}}
+{{securecontext_header}}
 
 The **`shippingAddress`** read-only property of
 the `PaymentRequest` interface returns a {{domxref('PaymentAddress')}} object

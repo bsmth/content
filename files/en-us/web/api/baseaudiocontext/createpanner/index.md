@@ -4,9 +4,10 @@ short-title: createPanner()
 slug: Web/API/BaseAudioContext/createPanner
 page-type: web-api-instance-method
 browser-compat: api.BaseAudioContext.createPanner
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `createPanner()` method of the {{ domxref("BaseAudioContext") }}
 Interface is used to create a new {{domxref("PannerNode")}}, which is used to

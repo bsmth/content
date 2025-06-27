@@ -4,9 +4,10 @@ short-title: stepMismatch
 slug: Web/API/ValidityState/stepMismatch
 page-type: web-api-instance-property
 browser-compat: api.ValidityState.stepMismatch
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The read-only **`stepMismatch`** property of the [`ValidityState`](/en-US/docs/Web/API/ValidityState) interface indicates if the value of an {{HTMLElement("input")}}, after having been edited by the user, does not conform to the constraints set by the element's `step` attribute.
 

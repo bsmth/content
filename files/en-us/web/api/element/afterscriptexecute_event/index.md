@@ -7,9 +7,10 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.Element.afterscriptexecute_event
+sidebar: apiref
 ---
 
-{{APIRef}}{{Non-standard_header}}{{deprecated_header}}
+{{Non-standard_header}}{{deprecated_header}}
 
 > [!WARNING]
 > This event was a proposal in an early version of the specification. Do not rely on it.

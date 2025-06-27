@@ -4,9 +4,12 @@ short-title: upperOpen
 slug: Web/API/IDBKeyRange/upperOpen
 page-type: web-api-instance-property
 browser-compat: api.IDBKeyRange.upperOpen
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`upperOpen`** read-only property of the
 {{domxref("IDBKeyRange")}} interface returns a boolean indicating whether the

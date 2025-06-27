@@ -4,9 +4,8 @@ short-title: navigator
 slug: Web/API/Window/navigator
 page-type: web-api-instance-property
 browser-compat: api.Window.navigator
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`Window.navigator`** read-only property returns a
 reference to the {{domxref("Navigator")}} object, which has methods and properties about

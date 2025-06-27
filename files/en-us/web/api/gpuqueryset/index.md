@@ -3,9 +3,12 @@ title: GPUQuerySet
 slug: Web/API/GPUQuerySet
 page-type: web-api-interface
 browser-compat: api.GPUQuerySet
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`GPUQuerySet`** interface of the {{domxref("WebGPU API", "WebGPU API", "", "nocode")}} is used to record the results of queries on passes, such as occlusion or timestamp queries.
 

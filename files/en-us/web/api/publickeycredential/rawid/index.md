@@ -4,9 +4,12 @@ short-title: rawId
 slug: Web/API/PublicKeyCredential/rawId
 page-type: web-api-instance-property
 browser-compat: api.PublicKeyCredential.rawId
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`rawId`** read-only property of the
 {{domxref("PublicKeyCredential")}} interface is an {{jsxref("ArrayBuffer")}} object

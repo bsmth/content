@@ -4,9 +4,12 @@ short-title: groupId
 slug: Web/API/MediaDeviceInfo/groupId
 page-type: web-api-instance-property
 browser-compat: api.MediaDeviceInfo.groupId
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
 
-{{APIRef("Media Capture and Streams")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`groupId`** read-only property of
 the {{domxref("MediaDeviceInfo")}} interface returns a string that

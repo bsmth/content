@@ -4,9 +4,12 @@ short-title: setMatrixValue()
 slug: Web/API/DOMMatrix/setMatrixValue
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrix.setMatrixValue
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`setMatrixValue()`** method of the {{domxref("DOMMatrix")}} interface replaces the contents of the matrix with the matrix described by the specified transform or transforms, returning itself.
 

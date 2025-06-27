@@ -4,9 +4,10 @@ short-title: thresholds
 slug: Web/API/IntersectionObserver/thresholds
 page-type: web-api-instance-property
 browser-compat: api.IntersectionObserver.thresholds
+sidebar:
+  - apiref:
+      - Intersection Observer API
 ---
-
-{{APIRef("Intersection Observer API")}}
 
 The **`thresholds`** read-only property of the {{domxref("IntersectionObserver")}} interface returns the list of intersection thresholds that was specified when the observer was instantiated with {{domxref("IntersectionObserver.IntersectionObserver", "IntersectionObserver()")}}.
 

@@ -4,9 +4,12 @@ short-title: getMappedRange()
 slug: Web/API/GPUBuffer/getMappedRange
 page-type: web-api-instance-method
 browser-compat: api.GPUBuffer.getMappedRange
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`getMappedRange()`** method of the
 {{domxref("GPUBuffer")}} interface returns an {{jsxref("ArrayBuffer")}} containing the mapped contents of the `GPUBuffer` in the specified range.

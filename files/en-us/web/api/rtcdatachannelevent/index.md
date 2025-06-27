@@ -3,9 +3,10 @@ title: RTCDataChannelEvent
 slug: Web/API/RTCDataChannelEvent
 page-type: web-api-interface
 browser-compat: api.RTCDataChannelEvent
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCDataChannelEvent`** interface
 represents an event related to a specific {{DOMxRef("RTCDataChannel")}}.

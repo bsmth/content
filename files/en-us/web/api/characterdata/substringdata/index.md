@@ -4,9 +4,10 @@ short-title: substringData()
 slug: Web/API/CharacterData/substringData
 page-type: web-api-instance-method
 browser-compat: api.CharacterData.substringData
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`substringData()`** method of the {{domxref("CharacterData")}} interface
 returns a portion of the existing data,

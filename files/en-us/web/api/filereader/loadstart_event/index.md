@@ -4,9 +4,12 @@ short-title: loadstart
 slug: Web/API/FileReader/loadstart_event
 page-type: web-api-event
 browser-compat: api.FileReader.loadstart_event
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`loadstart`** event of the {{domxref("FileReader")}} interface is fired when a file read operation has begun.
 

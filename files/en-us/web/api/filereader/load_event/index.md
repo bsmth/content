@@ -4,9 +4,12 @@ short-title: load
 slug: Web/API/FileReader/load_event
 page-type: web-api-event
 browser-compat: api.FileReader.load_event
+sidebar:
+  - apiref:
+      - File API
 ---
 
-{{APIRef("File API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`load`** event of the {{domxref("FileReader")}} interface is fired when a file has been read successfully.
 

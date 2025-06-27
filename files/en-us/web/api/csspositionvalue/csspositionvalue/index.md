@@ -7,9 +7,12 @@ status:
   - deprecated
   - non-standard
 browser-compat: api.CSSPositionValue.CSSPositionValue
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
 
-{{APIRef("CSS Typed Object Model API")}}{{deprecated_header}}{{Non-standard_header}}
+{{deprecated_header}}{{Non-standard_header}}
 
 The **`CSSPositionValue()`** constructor
 creates a new {{domxref("CSSPositionValue")}} object which represents values for

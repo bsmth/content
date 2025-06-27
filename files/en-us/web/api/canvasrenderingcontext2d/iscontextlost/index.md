@@ -4,9 +4,8 @@ short-title: isContextLost()
 slug: Web/API/CanvasRenderingContext2D/isContextLost
 page-type: web-api-instance-method
 browser-compat: api.CanvasRenderingContext2D.isContextLost
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`CanvasRenderingContext2D.isContextLost()`** method of the Canvas 2D API returns `true` if the rendering context is lost (and has not yet been reset).
 This might occur due to driver crashes, running out of memory, and so on.

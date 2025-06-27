@@ -4,9 +4,12 @@ short-title: state
 slug: Web/API/PermissionStatus/state
 page-type: web-api-instance-property
 browser-compat: api.PermissionStatus.state
+sidebar:
+  - apiref:
+      - Permissions API
 ---
 
-{{APIRef("Permissions API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`state`** read-only property of the
 {{domxref("PermissionStatus")}} interface returns the state of a requested permission.

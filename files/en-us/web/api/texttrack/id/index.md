@@ -4,9 +4,10 @@ short-title: id
 slug: Web/API/TextTrack/id
 page-type: web-api-instance-property
 browser-compat: api.TextTrack.id
+sidebar:
+  - apiref:
+      - WebVTT
 ---
-
-{{APIRef("WebVTT")}}
 
 The **`id`** read-only property of the {{domxref("TextTrack")}} interface returns the ID of the track if it has one.
 

@@ -4,9 +4,12 @@ short-title: getVertexAttrib()
 slug: Web/API/WebGLRenderingContext/getVertexAttrib
 page-type: web-api-instance-method
 browser-compat: api.WebGLRenderingContext.getVertexAttrib
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`WebGLRenderingContext.getVertexAttrib()`** method of the
 [WebGL API](/en-US/docs/Web/API/WebGL_API) returns information about a vertex

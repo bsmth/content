@@ -4,9 +4,10 @@ short-title: responsesReceived
 slug: Web/API/RTCIceCandidatePairStats/responsesReceived
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_candidate-pair.responsesReceived
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`responsesReceived`** property in the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the total number of {{Glossary("STUN")}} connectivity check responses that have been received on the connection described by this pair of candidates.
 

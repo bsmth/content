@@ -4,9 +4,10 @@ short-title: sampleRate
 slug: Web/API/BaseAudioContext/sampleRate
 page-type: web-api-instance-property
 browser-compat: api.BaseAudioContext.sampleRate
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `sampleRate` property of the {{domxref("BaseAudioContext")}} interface returns a floating point number representing the sample rate, in samples per second, used by all nodes in this audio context.
 This limitation means that sample-rate converters are not supported.

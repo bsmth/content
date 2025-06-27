@@ -4,9 +4,10 @@ short-title: submit()
 slug: Web/API/HTMLFormElement/submit
 page-type: web-api-instance-method
 browser-compat: api.HTMLFormElement.submit
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLFormElement.submit()`** method submits a given
 {{HtmlElement("form")}}.

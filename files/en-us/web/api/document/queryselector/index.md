@@ -4,9 +4,10 @@ short-title: querySelector()
 slug: Web/API/Document/querySelector
 page-type: web-api-instance-method
 browser-compat: api.Document.querySelector
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The {{domxref("Document")}} method **`querySelector()`**
 returns the first {{domxref("Element")}} within the document that matches the specified

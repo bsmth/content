@@ -4,9 +4,12 @@ short-title: transformPoint()
 slug: Web/API/DOMMatrixReadOnly/transformPoint
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.transformPoint
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`transformPoint`** method of the
 {{domxref("DOMMatrixReadOnly")}} interface creates a new {{domxref("DOMPoint")}} object, transforming a specified point by the matrix. Neither the matrix nor the original point are altered.

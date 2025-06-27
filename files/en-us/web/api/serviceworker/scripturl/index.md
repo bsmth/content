@@ -4,9 +4,12 @@ short-title: scriptURL
 slug: Web/API/ServiceWorker/scriptURL
 page-type: web-api-instance-property
 browser-compat: api.ServiceWorker.scriptURL
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 Returns the `ServiceWorker` serialized script URL defined as part of [`ServiceWorkerRegistration`](/en-US/docs/Web/API/ServiceWorkerRegistration).
 Must be on the same origin as the document that registers the

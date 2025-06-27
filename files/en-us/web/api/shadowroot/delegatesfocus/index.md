@@ -4,9 +4,10 @@ short-title: delegatesFocus
 slug: Web/API/ShadowRoot/delegatesFocus
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.delegatesFocus
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The **`delegatesFocus`** read-only property of the {{domxref("ShadowRoot")}} interface returns `true` if the shadow root delegates focus, and `false` otherwise.
 

@@ -4,9 +4,10 @@ short-title: type
 slug: Web/API/HTMLOListElement/type
 page-type: web-api-instance-property
 browser-compat: api.HTMLOListElement.type
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`type`** property of the {{domxref("HTMLOListElement")}} interface indicates the kind of marker to be used to display ordered list.
 

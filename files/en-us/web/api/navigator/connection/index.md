@@ -4,9 +4,10 @@ short-title: connection
 slug: Web/API/Navigator/connection
 page-type: web-api-instance-property
 browser-compat: api.Navigator.connection
+sidebar:
+  - apiref:
+      - Network Information API
 ---
-
-{{APIRef("Network Information API")}}
 
 The **`connection`** read-only property of the {{domxref("Navigator")}} interface returns a {{domxref("NetworkInformation")}} object containing information about the system's connection, such as the current bandwidth of the user's device or whether the connection is metered.
 

@@ -4,9 +4,10 @@ short-title: x
 slug: Web/API/SVGFEGaussianBlurElement/x
 page-type: web-api-instance-property
 browser-compat: api.SVGFEGaussianBlurElement.x
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`x`** read-only property of the {{domxref("SVGFEGaussianBlurElement")}} interface describes the horizontal coordinate of the position of an SVG filter primitive as a {{domxref("SVGAnimatedLength")}}.
 

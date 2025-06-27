@@ -4,9 +4,10 @@ short-title: host
 slug: Web/API/ShadowRoot/host
 page-type: web-api-instance-property
 browser-compat: api.ShadowRoot.host
+sidebar:
+  - apiref:
+      - Shadow DOM
 ---
-
-{{APIRef("Shadow DOM")}}
 
 The **`host`** read-only property of
 the {{domxref("ShadowRoot")}} returns a reference to the DOM element the

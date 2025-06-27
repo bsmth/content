@@ -4,9 +4,10 @@ short-title: stdDeviationY
 slug: Web/API/SVGFEDropShadowElement/stdDeviationY
 page-type: web-api-instance-property
 browser-compat: api.SVGFEDropShadowElement.stdDeviationY
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`stdDeviationY`** read-only property of the {{domxref("SVGFEDropShadowElement")}} interface reflects the (possibly automatically computed) Y component of the {{SVGAttr("stdDeviation")}} attribute of the given {{SVGElement("feDropShadow")}} element.
 

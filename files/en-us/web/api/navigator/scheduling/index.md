@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Navigator.scheduling
+sidebar:
+  - apiref:
+      - Prioritized Task Scheduling API
 ---
 
-{{SeeCompatTable}}{{APIRef("Prioritized Task Scheduling API")}}
+{{SeeCompatTable}}
 
 The **`scheduling`** read-only property of the {{domxref("Navigator")}} interface returns a {{domxref("Scheduling")}} object for the current document, which provides methods and properties to control scheduling tasks.
 

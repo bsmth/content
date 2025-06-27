@@ -4,9 +4,10 @@ short-title: didTimeout
 slug: Web/API/IdleDeadline/didTimeout
 page-type: web-api-instance-property
 browser-compat: api.IdleDeadline.didTimeout
+sidebar:
+  - apiref:
+      - Background Tasks
 ---
-
-{{APIRef("Background Tasks")}}
 
 The read-only **`didTimeout`** property on the
 **{{domxref("IdleDeadline")}}** interface is a Boolean value which

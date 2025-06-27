@@ -4,9 +4,10 @@ short-title: width
 slug: Web/API/HTMLCanvasElement/width
 page-type: web-api-instance-property
 browser-compat: api.HTMLCanvasElement.width
+sidebar:
+  - apiref:
+      - Canvas API
 ---
-
-{{APIRef("Canvas API")}}
 
 The **`HTMLCanvasElement.width`** property is a
 positive `integer` reflecting the [`width`](/en-US/docs/Web/HTML/Reference/Elements/canvas#width) HTML

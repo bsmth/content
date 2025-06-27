@@ -4,9 +4,12 @@ short-title: clear()
 slug: Web/API/IDBObjectStore/clear
 page-type: web-api-instance-method
 browser-compat: api.IDBObjectStore.clear
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`clear()`** method of the {{domxref("IDBObjectStore")}}
 interface creates and immediately returns an {{domxref("IDBRequest")}} object, and

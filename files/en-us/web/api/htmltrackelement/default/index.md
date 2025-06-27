@@ -4,9 +4,10 @@ short-title: default
 slug: Web/API/HTMLTrackElement/default
 page-type: web-api-instance-property
 browser-compat: api.HTMLTrackElement.default
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`default`** property of the {{domxref("HTMLTrackElement")}} interface represents whether the track will be enabled if the user's preferences do not indicate that another track would be more appropriate. It reflects the {{htmlelement("track")}} element's boolean [`default`](/en-US/docs/Web/HTML/Reference/Elements/track#default) attribute, returning `true` if present and `false` otherwise.
 

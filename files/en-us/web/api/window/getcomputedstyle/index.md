@@ -4,9 +4,10 @@ short-title: getComputedStyle()
 slug: Web/API/Window/getComputedStyle
 page-type: web-api-instance-method
 browser-compat: api.Window.getComputedStyle
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The
 **`Window.getComputedStyle()`** method returns an object

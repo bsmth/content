@@ -3,9 +3,10 @@ title: MediaStream
 slug: Web/API/MediaStream
 page-type: web-api-interface
 browser-compat: api.MediaStream
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`MediaStream`** interface of the {{domxref("Media Capture and Streams API", "", "", "nocode")}} represents a stream of media content. A stream consists of several **tracks**, such as video or audio tracks. Each track is specified as an instance of {{domxref("MediaStreamTrack")}}.
 

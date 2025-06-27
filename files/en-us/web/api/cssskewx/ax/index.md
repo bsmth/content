@@ -4,9 +4,12 @@ short-title: ax
 slug: Web/API/CSSSkewX/ax
 page-type: web-api-instance-property
 browser-compat: api.CSSSkewX.ax
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
 
-{{APIRef("CSS Typed OM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ax`** property of the
 {{domxref("CSSSkewX")}} interface gets and sets the angle used to distort the element

@@ -4,9 +4,12 @@ short-title: transaction
 slug: Web/API/IDBRequest/transaction
 page-type: web-api-instance-property
 browser-compat: api.IDBRequest.transaction
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`transaction`** read-only property of the IDBRequest
 interface returns the transaction for the request, that is, the transaction the

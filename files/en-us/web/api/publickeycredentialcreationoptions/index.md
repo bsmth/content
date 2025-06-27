@@ -4,9 +4,12 @@ slug: Web/API/PublicKeyCredentialCreationOptions
 page-type: web-api-interface
 browser-compat: api.CredentialsContainer.create.publicKey_option
 spec-urls: https://w3c.github.io/webauthn/#dictionary-makecredentialoptions
+sidebar:
+  - apiref:
+      - Web Authentication API
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}
+{{securecontext_header}}
 
 The **`PublicKeyCredentialCreationOptions`** dictionary represents the object passed to {{domxref("CredentialsContainer.create()")}} as the value of the `publicKey` option: that is, when using `create()` to create a public key credential using the [Web Authentication API](/en-US/docs/Web/API/Web_Authentication_API).
 

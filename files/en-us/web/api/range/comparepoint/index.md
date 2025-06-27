@@ -4,9 +4,10 @@ short-title: comparePoint()
 slug: Web/API/Range/comparePoint
 page-type: web-api-instance-method
 browser-compat: api.Range.comparePoint
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`comparePoint()`** method of the {{domxref("Range")}} interface determines whether a specified point is before, within, or after the {{domxref("Range")}}. The point is specified by a reference node and an offset within that node.
 

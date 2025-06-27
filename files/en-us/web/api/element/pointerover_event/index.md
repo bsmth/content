@@ -4,9 +4,8 @@ short-title: pointerover
 slug: Web/API/Element/pointerover_event
 page-type: web-api-event
 browser-compat: api.Element.pointerover_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `pointerover` event is fired when a pointing device is moved into an element's hit test boundaries.
 

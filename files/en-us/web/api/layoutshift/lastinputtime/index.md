@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.LayoutShift.lastInputTime
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{SeeCompatTable}}{{APIRef("Performance API")}}
+{{SeeCompatTable}}
 
 The **`lastInputTime`** read-only property of the {{domxref("LayoutShift")}} interface returns the time of the most recent excluding input or `0` if no excluding input has occurred.
 

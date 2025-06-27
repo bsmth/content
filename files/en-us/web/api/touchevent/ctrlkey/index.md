@@ -4,9 +4,10 @@ short-title: ctrlKey
 slug: Web/API/TouchEvent/ctrlKey
 page-type: web-api-instance-property
 browser-compat: api.TouchEvent.ctrlKey
+sidebar:
+  - apiref:
+      - Touch Events
 ---
-
-{{ APIRef("Touch Events") }}
 
 The read-only **`ctrlKey`** property of the {{domxref("TouchEvent")}} interface returns a boolean value indicating whether the <kbd>control</kbd> (Control) key is enabled when the touch event is created. If this key is enabled, the attribute's value is `true`. Otherwise, it is `false`.
 

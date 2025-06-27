@@ -4,9 +4,10 @@ short-title: active
 slug: Web/API/MediaStream/active
 page-type: web-api-instance-property
 browser-compat: api.MediaStream.active
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`active`** read-only property of the
 {{domxref("MediaStream")}} interface returns a Boolean value which is

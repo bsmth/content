@@ -3,9 +3,12 @@ title: Performance
 slug: Web/API/Performance
 page-type: web-api-interface
 browser-compat: api.Performance
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`Performance`** interface provides access to performance-related information for the current page.
 

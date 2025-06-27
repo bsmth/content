@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.ChapterInformation.title
+sidebar:
+  - apiref:
+      - Media Session API
 ---
 
-{{APIRef("Media Session API")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`title`** read-only property of the
 {{domxref("ChapterInformation")}} interface returns a string representing the title of the chapter.

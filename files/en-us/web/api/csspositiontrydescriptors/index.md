@@ -3,9 +3,10 @@ title: CSSPositionTryDescriptors
 slug: Web/API/CSSPositionTryDescriptors
 page-type: web-api-interface
 browser-compat: api.CSSPositionTryDescriptors
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM")}}
 
 The **`CSSPositionTryDescriptors`** interface defines properties that represent the list of CSS descriptors that can be set in the body of a {{cssxref("@position-try")}} [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule).
 

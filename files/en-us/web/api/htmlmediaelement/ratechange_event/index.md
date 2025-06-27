@@ -4,9 +4,10 @@ short-title: ratechange
 slug: Web/API/HTMLMediaElement/ratechange_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.ratechange_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `ratechange` event is fired when the playback rate has changed.
 

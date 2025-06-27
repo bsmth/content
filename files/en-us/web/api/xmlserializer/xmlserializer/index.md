@@ -4,9 +4,10 @@ short-title: XMLSerializer()
 slug: Web/API/XMLSerializer/XMLSerializer
 page-type: web-api-constructor
 browser-compat: api.XMLSerializer.XMLSerializer
+sidebar:
+  - apiref:
+      - XMLSerializer
 ---
-
-{{APIRef('XMLSerializer')}}
 
 The **`XMLSerializer()`** constructor creates a new {{domxref("XMLSerializer")}}.
 

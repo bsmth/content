@@ -4,9 +4,12 @@ short-title: message
 slug: Web/API/GeolocationPositionError/message
 page-type: web-api-instance-property
 browser-compat: api.GeolocationPositionError.message
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{APIRef("Geolocation API")}}
+{{securecontext_header}}
 
 The **`message`** read-only property of the {{domxref("GeolocationPositionError")}} interface returns a human-readable string describing the details of the error.
 

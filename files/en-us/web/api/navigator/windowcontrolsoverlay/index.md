@@ -4,9 +4,12 @@ short-title: windowControlsOverlay
 slug: Web/API/Navigator/windowControlsOverlay
 page-type: web-api-instance-property
 browser-compat: api.Navigator.windowControlsOverlay
+sidebar:
+  - apiref:
+      -
 ---
 
-{{SecureContext_Header}}{{APIRef("")}}
+{{SecureContext_Header}}
 
 The **`windowControlsOverlay`** read-only property of the {{domxref("Navigator")}}
 interface returns the {{domxref("WindowControlsOverlay")}} interface, which exposes

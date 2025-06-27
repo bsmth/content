@@ -4,9 +4,10 @@ short-title: element
 slug: Web/API/LargestContentfulPaint/element
 page-type: web-api-instance-property
 browser-compat: api.LargestContentfulPaint.element
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`element`** read-only property of the {{domxref("LargestContentfulPaint")}} interface returns an object representing the {{domxref("Element")}} that is the largest contentful paint.
 

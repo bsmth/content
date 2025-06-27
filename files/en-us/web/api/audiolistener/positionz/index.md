@@ -4,9 +4,10 @@ short-title: positionZ
 slug: Web/API/AudioListener/positionZ
 page-type: web-api-instance-property
 browser-compat: api.AudioListener.positionZ
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `positionZ` read-only property of the {{ domxref("AudioListener") }} interface is an {{domxref("AudioParam")}} representing the z position of the listener in 3D cartesian space.
 

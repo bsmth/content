@@ -4,9 +4,10 @@ short-title: connectionState
 slug: Web/API/RTCPeerConnection/connectionState
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.connectionState
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`connectionState`** read-only property of the {{domxref("RTCPeerConnection")}} interface indicates the current state of the peer connection by returning one of the following string values: `new`, `connecting`, `connected`, `disconnected`, `failed`, or `closed`.
 

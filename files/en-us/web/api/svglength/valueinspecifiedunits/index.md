@@ -4,9 +4,10 @@ short-title: valueInSpecifiedUnits
 slug: Web/API/SVGLength/valueInSpecifiedUnits
 page-type: web-api-instance-property
 browser-compat: api.SVGLength.valueInSpecifiedUnits
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The `valueInSpecifiedUnits` property of the {{domxref("SVGLength")}} interface represents floating point value, in the units expressed by {{domxref("SVGLength.unitType", "unitType")}}.
 

@@ -4,9 +4,12 @@ short-title: setBindGroup()
 slug: Web/API/GPURenderPassEncoder/setBindGroup
 page-type: web-api-instance-method
 browser-compat: api.GPURenderPassEncoder.setBindGroup
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`setBindGroup()`** method of the
 {{domxref("GPURenderPassEncoder")}} interface sets the {{domxref("GPUBindGroup")}} to use for subsequent render commands, for a given index.

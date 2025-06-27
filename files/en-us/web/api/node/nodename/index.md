@@ -4,9 +4,10 @@ short-title: nodeName
 slug: Web/API/Node/nodeName
 page-type: web-api-instance-property
 browser-compat: api.Node.nodeName
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`nodeName`** property of {{domxref("Node")}} returns the name of the current node as a string.
 

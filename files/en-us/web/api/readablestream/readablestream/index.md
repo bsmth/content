@@ -4,9 +4,12 @@ short-title: ReadableStream()
 slug: Web/API/ReadableStream/ReadableStream
 page-type: web-api-constructor
 browser-compat: api.ReadableStream.ReadableStream
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`ReadableStream()`** constructor creates and returns a readable stream object from the given handlers.
 

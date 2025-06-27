@@ -4,9 +4,10 @@ short-title: createTHead()
 slug: Web/API/HTMLTableElement/createTHead
 page-type: web-api-instance-method
 browser-compat: api.HTMLTableElement.createTHead
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`createTHead()`** method of
 {{domxref("HTMLTableElement")}} objects returns the {{HTMLElement("thead")}} element

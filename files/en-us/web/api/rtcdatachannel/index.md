@@ -3,9 +3,10 @@ title: RTCDataChannel
 slug: Web/API/RTCDataChannel
 page-type: web-api-interface
 browser-compat: api.RTCDataChannel
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCDataChannel`** interface represents a network channel which can be used for bidirectional peer-to-peer transfers of arbitrary data. Every data channel is associated with an {{DOMxRef("RTCPeerConnection")}}, and each peer connection can have up to a theoretical maximum of 65,534 data channels (the actual limit may vary from browser to browser).
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.FederatedCredential.protocol
+sidebar:
+  - apiref:
+      - Credential Management API
 ---
 
-{{SeeCompatTable}}{{APIRef("Credential Management API")}}{{securecontext_header}}
+{{SeeCompatTable}}{{securecontext_header}}
 
 The **`protocol`** property of the
 {{domxref("FederatedCredential")}} interface returns a read-only

@@ -4,9 +4,10 @@ short-title: cells
 slug: Web/API/HTMLTableRowElement/cells
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableRowElement.cells
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`cells`** read-only property of the {{domxref("HTMLTableRowElement")}} interface
 returns a live {{domxref("HTMLCollection")}} containing the cells in the row. The `HTMLCollection` is live and is automatically updated when cells are added or removed.

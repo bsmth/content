@@ -3,9 +3,10 @@ title: ViewTransition
 slug: Web/API/ViewTransition
 page-type: web-api-interface
 browser-compat: api.ViewTransition
+sidebar:
+  - apiref:
+      - View Transition API
 ---
-
-{{APIRef("View Transition API")}}
 
 The **`ViewTransition`** interface of the {{domxref("View Transition API", "View Transition API", "", "nocode")}} represents an active view transition, and provides functionality to react to the transition reaching different states (e.g., ready to run the animation, or animation finished) or skip the transition altogether.
 

@@ -4,9 +4,10 @@ short-title: close()
 slug: Web/API/VideoEncoder/close
 page-type: web-api-instance-method
 browser-compat: api.VideoEncoder.close
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
 ---
-
-{{APIRef("WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`close()`** method of the {{domxref("VideoEncoder")}} interface ends all pending work and releases system resources.
 

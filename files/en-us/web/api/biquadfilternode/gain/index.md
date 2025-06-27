@@ -4,9 +4,10 @@ short-title: gain
 slug: Web/API/BiquadFilterNode/gain
 page-type: web-api-instance-property
 browser-compat: api.BiquadFilterNode.gain
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `gain` property of the {{ domxref("BiquadFilterNode") }} interface is an [a-rate](/en-US/docs/Web/API/AudioParam#a-rate) {{domxref("AudioParam")}} — a double representing the [gain](https://en.wikipedia.org/wiki/Gain) used in the current filtering algorithm.
 

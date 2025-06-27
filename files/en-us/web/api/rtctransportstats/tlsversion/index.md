@@ -4,9 +4,10 @@ short-title: tlsVersion
 slug: Web/API/RTCTransportStats/tlsVersion
 page-type: web-api-instance-property
 browser-compat: api.RTCStatsReport.type_transport.tlsVersion
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`tlsVersion`** property of the {{domxref("RTCTransportStats")}} dictionary indicates the negotiated TLS version of an underlying DTLS transport.
 

@@ -4,9 +4,10 @@ short-title: entries()
 slug: Web/API/CSSTransformValue/entries
 page-type: web-api-instance-method
 browser-compat: api.CSSTransformValue.entries
+sidebar:
+  - apiref:
+      - CSS Typed OM
 ---
-
-{{APIRef("CSS Typed OM")}}
 
 The **`CSSTransformValue.entries()`** method
 returns an array of a given object's own enumerable

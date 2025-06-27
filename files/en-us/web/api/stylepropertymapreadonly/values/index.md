@@ -4,9 +4,10 @@ short-title: values()
 slug: Web/API/StylePropertyMapReadOnly/values
 page-type: web-api-instance-method
 browser-compat: api.StylePropertyMapReadOnly.values
+sidebar:
+  - apiref:
+      - CSS Typed Object Model API
 ---
-
-{{APIRef("CSS Typed Object Model API")}}
 
 The **`StylePropertyMapReadOnly.values()`** method returns a
 new _array iterator_ containing the values for each index in the

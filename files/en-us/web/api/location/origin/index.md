@@ -4,9 +4,12 @@ short-title: origin
 slug: Web/API/Location/origin
 page-type: web-api-instance-property
 browser-compat: api.Location.origin
+sidebar:
+  - apiref:
+      - Location
 ---
 
-{{APIRef("Location")}} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`origin`** read-only property of the {{domxref("Location")}} interface returns a string containing the Unicode serialization of the origin of the location's URL.
 

@@ -4,9 +4,10 @@ short-title: abort
 slug: Web/API/XMLHttpRequestUpload/abort_event
 page-type: web-api-event
 browser-compat: api.XMLHttpRequestUpload.abort_event
+sidebar:
+  - apiref:
+      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service")}}
 
 The `abort` event is fired at {{domxref("XMLHttpRequestUpload")}} when a request has been aborted, for example because the program called {{domxref("XMLHttpRequest.abort()")}}.
 

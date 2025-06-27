@@ -4,9 +4,10 @@ short-title: querySelectorAll()
 slug: Web/API/Element/querySelectorAll
 page-type: web-api-instance-method
 browser-compat: api.Element.querySelectorAll
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("Element")}} method **`querySelectorAll()`**
 returns a static (not live) {{domxref("NodeList")}} representing a list of elements

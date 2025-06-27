@@ -5,9 +5,10 @@ slug: Web/API/Highlight/add
 page-type: web-api-instance-method
 browser-compat: api.Highlight.add
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.add
+sidebar:
+  - apiref:
+      - CSS Custom Highlight API
 ---
-
-{{APIRef("CSS Custom Highlight API")}}
 
 The **`add()`** method of the {{domxref("Highlight")}} interface adds a new {{domxref("Range")}} object to a highlight, to be styled using the {{domxref("css_custom_highlight_api", "CSS Custom Highlight API", "", "nocode")}}.
 

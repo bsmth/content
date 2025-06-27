@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.WebTransport.congestionControl
+sidebar:
+  - apiref:
+      - WebTransport API
 ---
 
-{{APIRef("WebTransport API")}}{{SeeCompatTable}}{{SecureContext_Header}} {{AvailableInWorkers}}
+{{SeeCompatTable}}{{SecureContext_Header}} {{AvailableInWorkers}}
 
 The **`congestionControl`** read-only property of the {{domxref("WebTransport")}} interface indicates the application's preference for either high throughput or low-latency when sending data.
 

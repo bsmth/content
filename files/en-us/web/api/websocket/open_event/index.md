@@ -4,9 +4,12 @@ short-title: open
 slug: Web/API/WebSocket/open_event
 page-type: web-api-event
 browser-compat: api.WebSocket.open_event
+sidebar:
+  - apiref:
+      - WebSockets API
 ---
 
-{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The `open` event is fired when a connection with a `WebSocket` is opened.
 

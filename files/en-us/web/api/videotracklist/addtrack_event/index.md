@@ -4,9 +4,8 @@ short-title: addtrack
 slug: Web/API/VideoTrackList/addtrack_event
 page-type: web-api-event
 browser-compat: api.VideoTrackList.addtrack_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The `addtrack` event is fired when a video track is added to a [`VideoTrackList`](/en-US/docs/Web/API/VideoTrackList).
 

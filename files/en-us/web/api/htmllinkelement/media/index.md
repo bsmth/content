@@ -4,9 +4,10 @@ short-title: media
 slug: Web/API/HTMLLinkElement/media
 page-type: web-api-instance-property
 browser-compat: api.HTMLLinkElement.media
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`media`** property of the {{domxref("HTMLLinkElement")}} interface is a string representing a list of one or more media formats to which the resource applies.
 

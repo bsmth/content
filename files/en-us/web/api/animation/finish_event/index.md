@@ -4,9 +4,10 @@ short-title: finish
 slug: Web/API/Animation/finish_event
 page-type: web-api-event
 browser-compat: api.Animation.finish_event
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`finish`** event of the {{domxref("Animation")}} interface is fired when the animation finishes playing, either when the animation completes naturally, or
 when the {{domxref("Animation.finish()")}} method is called to immediately cause the

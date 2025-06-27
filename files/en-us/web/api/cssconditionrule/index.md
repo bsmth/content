@@ -3,9 +3,10 @@ title: CSSConditionRule
 slug: Web/API/CSSConditionRule
 page-type: web-api-interface
 browser-compat: api.CSSConditionRule
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 An object implementing the **`CSSConditionRule`** interface represents a single condition CSS [at-rule](/en-US/docs/Web/CSS/CSS_syntax/At-rule), which consists of a condition and a statement block.
 

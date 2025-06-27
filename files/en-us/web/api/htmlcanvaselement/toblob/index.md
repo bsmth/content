@@ -4,9 +4,10 @@ short-title: toBlob()
 slug: Web/API/HTMLCanvasElement/toBlob
 page-type: web-api-instance-method
 browser-compat: api.HTMLCanvasElement.toBlob
+sidebar:
+  - apiref:
+      - Canvas API
 ---
-
-{{APIRef("Canvas API")}}
 
 The **`HTMLCanvasElement.toBlob()`** method creates a {{domxref("Blob")}} object representing the image contained in the canvas.
 This file may be cached on the disk or stored in memory at the discretion of the user agent.

@@ -4,9 +4,10 @@ short-title: kernelUnitLengthY
 slug: Web/API/SVGFEConvolveMatrixElement/kernelUnitLengthY
 page-type: web-api-instance-property
 browser-compat: api.SVGFEConvolveMatrixElement.kernelUnitLengthY
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`kernelUnitLengthY`** read-only property of the {{domxref("SVGFEConvolveMatrixElement")}} interface reflects the {{SVGAttr("kernelUnitLength")}} attribute of the given {{SVGElement("feConvolveMatrix")}} element.
 

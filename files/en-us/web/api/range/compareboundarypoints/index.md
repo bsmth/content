@@ -4,9 +4,10 @@ short-title: compareBoundaryPoints()
 slug: Web/API/Range/compareBoundaryPoints
 page-type: web-api-instance-method
 browser-compat: api.Range.compareBoundaryPoints
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`compareBoundaryPoints()`** method of the {{domxref("Range")}} interface compares the boundary points of the {{domxref("Range")}} with those of another range.
 

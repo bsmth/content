@@ -4,9 +4,10 @@ short-title: remove()
 slug: Web/API/DOMTokenList/remove
 page-type: web-api-instance-method
 browser-compat: api.DOMTokenList.remove
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`remove()`** method of the {{domxref("DOMTokenList")}} interface
 removes the specified _tokens_ from the list.

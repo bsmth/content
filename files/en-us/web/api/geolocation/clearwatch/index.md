@@ -4,9 +4,12 @@ short-title: clearWatch()
 slug: Web/API/Geolocation/clearWatch
 page-type: web-api-instance-method
 browser-compat: api.Geolocation.clearWatch
+sidebar:
+  - apiref:
+      - Geolocation API
 ---
 
-{{securecontext_header}}{{ APIref("Geolocation API") }}
+{{securecontext_header}}
 
 The **`clearWatch()`** method of the {{domxref("Geolocation")}} interface is used to unregister location/error monitoring handlers previously installed using {{domxref("Geolocation.watchPosition()")}}.
 

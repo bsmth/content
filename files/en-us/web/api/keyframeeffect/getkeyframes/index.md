@@ -4,9 +4,10 @@ short-title: getKeyframes()
 slug: Web/API/KeyframeEffect/getKeyframes
 page-type: web-api-instance-method
 browser-compat: api.KeyframeEffect.getKeyframes
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{ APIRef("Web Animations") }}
 
 The **`getKeyframes()`** method of a {{domxref("KeyframeEffect")}} returns an Array of the computed keyframes that make up this animation along with their computed offsets.
 

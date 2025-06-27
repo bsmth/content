@@ -4,9 +4,10 @@ short-title: ariaColIndex
 slug: Web/API/ElementInternals/ariaColIndex
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaColIndex
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaColIndex`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-colindex`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-colindex) attribute, which defines an element's column index or position with respect to the total number of columns within a table, grid, or treegrid.
 

@@ -4,9 +4,12 @@ short-title: cancel()
 slug: Web/API/ReadableStream/cancel
 page-type: web-api-instance-method
 browser-compat: api.ReadableStream.cancel
+sidebar:
+  - apiref:
+      - Streams
 ---
 
-{{APIRef("Streams")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`cancel()`** method of the {{domxref("ReadableStream")}} interface returns a {{jsxref("Promise")}} that resolves when the stream is canceled.
 

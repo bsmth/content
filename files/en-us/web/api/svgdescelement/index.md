@@ -3,9 +3,10 @@ title: SVGDescElement
 slug: Web/API/SVGDescElement
 page-type: web-api-interface
 browser-compat: api.SVGDescElement
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`SVGDescElement`** interface corresponds to the {{SVGElement("desc")}} element.
 

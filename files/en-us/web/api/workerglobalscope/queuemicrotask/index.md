@@ -4,9 +4,10 @@ short-title: queueMicrotask()
 slug: Web/API/WorkerGlobalScope/queueMicrotask
 page-type: web-api-instance-method
 browser-compat: api.queueMicrotask
+sidebar:
+  - apiref:
+      - Web Workers API")}}{{AvailableInWorkers("worker
 ---
-
-{{APIRef("Web Workers API")}}{{AvailableInWorkers("worker")}}
 
 The **`queueMicrotask()`** method of the {{domxref("WorkerGlobalScope")}} interface
 queues a microtask to be executed at a safe time prior to control returning to the

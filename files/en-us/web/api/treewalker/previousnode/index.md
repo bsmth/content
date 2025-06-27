@@ -4,9 +4,10 @@ short-title: previousNode()
 slug: Web/API/TreeWalker/previousNode
 page-type: web-api-instance-method
 browser-compat: api.TreeWalker.previousNode
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ APIRef("DOM") }}
 
 The **`TreeWalker.previousNode()`** method moves the current
 {{domxref("Node")}} to the previous _visible_ node in the document order, and

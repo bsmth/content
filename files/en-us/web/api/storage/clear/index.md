@@ -4,9 +4,10 @@ short-title: clear()
 slug: Web/API/Storage/clear
 page-type: web-api-instance-method
 browser-compat: api.Storage.clear
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`clear()`** method of the {{domxref("Storage")}}
 interface clears all keys stored in a given `Storage` object.

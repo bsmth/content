@@ -4,9 +4,12 @@ short-title: get()
 slug: Web/API/IDBIndex/get
 page-type: web-api-instance-method
 browser-compat: api.IDBIndex.get
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{ APIRef("IndexedDB") }} {{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`get()`** method of the {{domxref("IDBIndex")}}
 interface returns an {{domxref("IDBRequest")}} object, and, in a separate thread,

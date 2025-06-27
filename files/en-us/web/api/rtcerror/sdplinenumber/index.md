@@ -4,9 +4,10 @@ short-title: sdpLineNumber
 slug: Web/API/RTCError/sdpLineNumber
 page-type: web-api-instance-property
 browser-compat: api.RTCError.sdpLineNumber
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The {{domxref("RTCError")}} interface's read-only property
 **`sdpLineNumber`** specifies the line number within the

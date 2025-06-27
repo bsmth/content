@@ -4,9 +4,12 @@ short-title: open()
 slug: Web/API/CacheStorage/open
 page-type: web-api-instance-method
 browser-compat: api.CacheStorage.open
+sidebar:
+  - apiref:
+      - Service Workers API
 ---
 
-{{APIRef("Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`open()`** method of the
 {{domxref("CacheStorage")}} interface returns a {{jsxref("Promise")}} that resolves to

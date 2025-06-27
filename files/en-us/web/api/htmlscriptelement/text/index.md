@@ -4,9 +4,10 @@ short-title: text
 slug: Web/API/HTMLScriptElement/text
 page-type: web-api-instance-property
 browser-compat: api.HTMLScriptElement.text
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`text`** property of the {{domxref("HTMLScriptElement")}} interface is a string that reflects the text content inside the {{HTMLElement("script")}} element. It acts the same way as the {{domxref("Node.textContent")}} property.
 

@@ -4,9 +4,10 @@ short-title: logicalSurface
 slug: Web/API/MediaTrackSettings/logicalSurface
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.logicalSurface_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackSettings")}} dictionary's
 **`logicalSurface`** property indicates whether or not the

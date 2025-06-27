@@ -3,9 +3,10 @@ title: PageSwapEvent
 slug: Web/API/PageSwapEvent
 page-type: web-api-interface
 browser-compat: api.PageSwapEvent
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`PageSwapEvent`** event object is made available inside handler functions for the {{domxref("Window.pageswap_event", "pageswap")}} event.
 

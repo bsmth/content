@@ -4,9 +4,10 @@ short-title: play
 slug: Web/API/HTMLMediaElement/play_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.play_event
+sidebar:
+  - apiref:
+      - HTMLMediaElement
 ---
-
-{{APIRef("HTMLMediaElement")}}
 
 The `play` event is fired when the `paused` property is changed from `true` to `false`, as a result of the `play` method, or the `autoplay` attribute.
 

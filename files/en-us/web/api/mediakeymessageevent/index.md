@@ -3,9 +3,12 @@ title: MediaKeyMessageEvent
 slug: Web/API/MediaKeyMessageEvent
 page-type: web-api-interface
 browser-compat: api.MediaKeyMessageEvent
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`MediaKeyMessageEvent`** interface of the [Encrypted Media Extensions API](/en-US/docs/Web/API/Encrypted_Media_Extensions_API) contains the content and related data when the content decryption module generates a message for the session.
 

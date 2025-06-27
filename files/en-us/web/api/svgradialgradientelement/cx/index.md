@@ -4,9 +4,10 @@ short-title: cx
 slug: Web/API/SVGRadialGradientElement/cx
 page-type: web-api-instance-property
 browser-compat: api.SVGRadialGradientElement.cx
+sidebar:
+  - apiref:
+      - SVG
 ---
-
-{{APIRef("SVG")}}
 
 The **`cx`** read-only property of the {{domxref("SVGRadialGradientElement")}} interface describes the x-axis coordinate of the center of the radial gradient as an {{domxref("SVGAnimatedLength")}}. It reflects the computed value of the {{SVGAttr("cx")}} attribute on the {{SVGElement("radialGradient")}} element.
 

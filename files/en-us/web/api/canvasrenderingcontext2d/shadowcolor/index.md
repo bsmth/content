@@ -4,9 +4,8 @@ short-title: shadowColor
 slug: Web/API/CanvasRenderingContext2D/shadowColor
 page-type: web-api-instance-property
 browser-compat: api.CanvasRenderingContext2D.shadowColor
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The
 **`CanvasRenderingContext2D.shadowColor`**

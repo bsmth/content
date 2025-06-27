@@ -3,9 +3,10 @@ title: MediaStreamTrack
 slug: Web/API/MediaStreamTrack
 page-type: web-api-interface
 browser-compat: api.MediaStreamTrack
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`MediaStreamTrack`** interface of the {{domxref("Media Capture and Streams API", "", "", "nocode")}} represents a single media track within a stream; typically, these are audio or video tracks, but other track types may exist as well.
 

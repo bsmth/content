@@ -4,9 +4,10 @@ short-title: reset()
 slug: Web/API/GamepadHapticActuator/reset
 page-type: web-api-instance-method
 browser-compat: api.GamepadHapticActuator.reset
+sidebar:
+  - apiref:
+      - Gamepad API
 ---
-
-{{APIRef("Gamepad API")}}
 
 The **`reset()`** method of the {{domxref("GamepadHapticActuator")}} interface stops the hardware from playing an active vibration effect.
 

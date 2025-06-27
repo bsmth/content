@@ -4,9 +4,12 @@ short-title: name
 slug: Web/API/PerformanceEntry/name
 page-type: web-api-instance-property
 browser-compat: api.PerformanceEntry.name
+sidebar:
+  - apiref:
+      - Performance API
 ---
 
-{{APIRef("Performance API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The read-only **`name`** property of the {{domxref("PerformanceEntry")}} interface is a string representing the name for a performance entry. It acts as an identifier, but it does not have to be unique. The value depends on the subclass.
 

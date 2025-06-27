@@ -4,9 +4,10 @@ short-title: selectionEnd
 slug: Web/API/HTMLInputElement/selectionEnd
 page-type: web-api-instance-property
 browser-compat: api.HTMLInputElement.selectionEnd
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ApiRef("HTML DOM")}}
 
 The **`selectionEnd`** property of the {{domxref("HTMLInputElement")}} interface is a number that represents the end index of the selected text. When there is no selection, this returns the offset of the character immediately following the current text input cursor position.
 

@@ -3,9 +3,12 @@ title: WebGLTexture
 slug: Web/API/WebGLTexture
 page-type: web-api-interface
 browser-compat: api.WebGLTexture
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **WebGLTexture** interface is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and represents an opaque texture object providing storage and state for texturing operations.
 

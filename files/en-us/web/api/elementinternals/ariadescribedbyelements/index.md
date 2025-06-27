@@ -4,9 +4,10 @@ short-title: ariaDescribedByElements
 slug: Web/API/ElementInternals/ariaDescribedByElements
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaDescribedByElements
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`ariaDescribedByElements`** property of the {{domxref("ElementInternals")}} interface is an array containing the element (or elements) that provide an accessible description for the element it is applied to.
 The accessible description is similar to the accessible label (see {{domxref("Element/ariaLabelledByElements","ariaLabelledByElements")}}), but provides more verbose information.

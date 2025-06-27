@@ -4,9 +4,10 @@ short-title: selectNodeContents()
 slug: Web/API/Range/selectNodeContents
 page-type: web-api-instance-method
 browser-compat: api.Range.selectNodeContents
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`Range.selectNodeContents()`** method sets the {{domxref("Range")}} to contain the contents of a {{domxref("Node")}}.
 

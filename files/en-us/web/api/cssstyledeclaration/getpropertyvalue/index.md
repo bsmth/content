@@ -4,9 +4,10 @@ short-title: getPropertyValue()
 slug: Web/API/CSSStyleDeclaration/getPropertyValue
 page-type: web-api-instance-method
 browser-compat: api.CSSStyleDeclaration.getPropertyValue
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **CSSStyleDeclaration.getPropertyValue()** method interface returns a string containing the value of a specified CSS property.
 

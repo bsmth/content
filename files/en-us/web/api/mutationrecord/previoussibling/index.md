@@ -4,9 +4,10 @@ short-title: previousSibling
 slug: Web/API/MutationRecord/previousSibling
 page-type: web-api-instance-property
 browser-compat: api.MutationRecord.previousSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The {{domxref("MutationRecord")}} read-only property **`previousSibling`** is the previous sibling of an added or removed child node of the [`target`](/en-US/docs/Web/API/MutationRecord/target) of a {{domxref("MutationObserver")}}.
 

@@ -4,9 +4,12 @@ short-title: durability
 slug: Web/API/IDBTransaction/durability
 page-type: web-api-instance-property
 browser-compat: api.IDBTransaction.durability
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
 
-{{securecontext_header}}{{APIRef("IndexedDB")}}
+{{securecontext_header}}
 
 The **`durability`** read-only property of the {{domxref("IDBTransaction")}} interface returns the durability hint the transaction was created with.
 This is a hint to the user agent of whether to prioritize performance or durability when committing the transaction.

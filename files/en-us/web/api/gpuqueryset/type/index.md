@@ -4,9 +4,12 @@ short-title: type
 slug: Web/API/GPUQuerySet/type
 page-type: web-api-instance-property
 browser-compat: api.GPUQuerySet.type
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`type`** read-only property of the
 {{domxref("GPUQuerySet")}} interface is an enumerated value specifying the type of queries managed by the `GPUQuerySet`.

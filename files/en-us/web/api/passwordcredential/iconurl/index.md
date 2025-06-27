@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.PasswordCredential.iconURL
+sidebar:
+  - apiref:
+      - Credential Management API
 ---
 
-{{SeeCompatTable}}{{APIRef("Credential Management API")}}{{SecureContext_Header}}
+{{SeeCompatTable}}{{SecureContext_Header}}
 
 The **`iconURL`** read-only property
 of the {{domxref("PasswordCredential")}} interface returns a string

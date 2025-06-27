@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/HTMLOptionsCollection/length
 page-type: web-api-instance-property
 browser-compat: api.HTMLOptionsCollection.length
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`length`** property of the {{DOMxRef("HTMLOptionsCollection")}} interface returns the number of {{htmlelement("option")}} elements in the collection. The property can get or set the size of the collection.
 

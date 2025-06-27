@@ -3,9 +3,12 @@ title: WebGLBuffer
 slug: Web/API/WebGLBuffer
 page-type: web-api-interface
 browser-compat: api.WebGLBuffer
+sidebar:
+  - apiref:
+      - WebGL
 ---
 
-{{APIRef("WebGL")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **WebGLBuffer** interface is part of the [WebGL API](/en-US/docs/Web/API/WebGL_API) and represents an opaque buffer object storing data such as vertices or colors.
 

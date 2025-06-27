@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Navigator.ink
+sidebar:
+  - apiref:
+      - Ink API
 ---
 
-{{SeeCompatTable}}{{APIRef("Ink API")}}
+{{SeeCompatTable}}
 
 The **`ink`** read-only property of the {{domxref("Navigator")}} interface returns an {{domxref("Ink")}} object for the current document, providing access to [Ink API](/en-US/docs/Web/API/Ink_API) functionality.
 

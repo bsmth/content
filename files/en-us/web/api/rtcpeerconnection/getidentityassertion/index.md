@@ -4,9 +4,10 @@ short-title: getIdentityAssertion()
 slug: Web/API/RTCPeerConnection/getIdentityAssertion
 page-type: web-api-instance-method
 browser-compat: api.RTCPeerConnection.getIdentityAssertion
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`getIdentityAssertion()`** method of the {{domxref("RTCPeerConnection")}} interface initiates the gathering of an identity assertion.
 This has an effect only if the {{domxref("RTCPeerConnection.signalingState", "signalingState")}} is not `"closed"`.

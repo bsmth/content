@@ -4,9 +4,10 @@ short-title: pictureInPictureWindow
 slug: Web/API/PictureInPictureEvent/pictureInPictureWindow
 page-type: web-api-instance-property
 browser-compat: api.PictureInPictureEvent.pictureInPictureWindow
+sidebar:
+  - apiref:
+      - Picture-in-Picture API
 ---
-
-{{APIRef("Picture-in-Picture API")}}
 
 The read-only **`pictureInPictureWindow`** property of the {{domxref("PictureInPictureEvent")}} interface returns the {{domxref("PictureInPictureWindow")}} the event relates to.
 

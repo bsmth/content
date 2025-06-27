@@ -4,9 +4,10 @@ short-title: AnimationEvent()
 slug: Web/API/AnimationEvent/AnimationEvent
 page-type: web-api-constructor
 browser-compat: api.AnimationEvent.AnimationEvent
+sidebar:
+  - apiref:
+      - Web Animations
 ---
-
-{{APIRef("Web Animations")}}
 
 The **`AnimationEvent()`** constructor returns a new {{domxref("AnimationEvent")}} object, representing an event in relation with an animation.
 

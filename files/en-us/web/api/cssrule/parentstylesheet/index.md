@@ -4,9 +4,10 @@ short-title: parentStyleSheet
 slug: Web/API/CSSRule/parentStyleSheet
 page-type: web-api-instance-property
 browser-compat: api.CSSRule.parentStyleSheet
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{ APIRef("CSSOM") }}
 
 The **`parentStyleSheet`** property of the
 {{domxref("CSSRule")}} interface returns the {{domxref("StyleSheet")}} object in which

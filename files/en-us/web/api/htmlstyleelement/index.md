@@ -3,9 +3,10 @@ title: HTMLStyleElement
 slug: Web/API/HTMLStyleElement
 page-type: web-api-interface
 browser-compat: api.HTMLStyleElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{APIRef("HTML DOM")}}
 
 The **`HTMLStyleElement`** interface represents a {{HTMLElement("style")}} element. It inherits properties and methods from its parent, {{domxref("HTMLElement")}}.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.CSSValue.cssValueType
+sidebar:
+  - apiref:
+      - CSSOM
 ---
 
-{{APIRef("CSSOM")}}{{Deprecated_header}}
+{{Deprecated_header}}
 
 The **`cssValueType`** read-only property of the
 {{domxref("CSSValue")}} interface represents the type of the current computed CSS

@@ -3,9 +3,10 @@ title: EventCounts
 slug: Web/API/EventCounts
 page-type: web-api-interface
 browser-compat: api.EventCounts
+sidebar:
+  - apiref:
+      - Performance API
 ---
-
-{{APIRef("Performance API")}}
 
 The **`EventCounts`** interface of the [Performance API](/en-US/docs/Web/API/Performance_API) provides the number of events that have been dispatched for each event type.
 

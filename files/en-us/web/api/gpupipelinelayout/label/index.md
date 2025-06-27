@@ -4,9 +4,12 @@ short-title: label
 slug: Web/API/GPUPipelineLayout/label
 page-type: web-api-instance-property
 browser-compat: api.GPUPipelineLayout.label
+sidebar:
+  - apiref:
+      - WebGPU API
 ---
 
-{{APIRef("WebGPU API")}}{{SecureContext_Header}}{{AvailableInWorkers}}
+{{SecureContext_Header}}{{AvailableInWorkers}}
 
 The **`label`** property of the
 {{domxref("GPUPipelineLayout")}} interface provides a label that can be used to identify the object, for example in {{domxref("GPUError")}} messages or console warnings.

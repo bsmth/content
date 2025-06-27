@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.RTCStatsReport.type_local-candidate.usernameFragment
+sidebar:
+  - apiref:
+      - WebRTC
 ---
 
-{{APIRef("WebRTC")}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`usernameFragment`** property of the {{domxref("RTCIceCandidateStats")}} interface is a string that represents the {{Glossary("ICE")}} username fragment ("ice-ufrag").
 

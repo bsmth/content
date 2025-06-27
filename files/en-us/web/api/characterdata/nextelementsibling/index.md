@@ -4,9 +4,10 @@ short-title: nextElementSibling
 slug: Web/API/CharacterData/nextElementSibling
 page-type: web-api-instance-property
 browser-compat: api.CharacterData.nextElementSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The read-only **`nextElementSibling`** property of the {{domxref("CharacterData")}} interface
 returns the first {{domxref("Element")}} node following the specified one in its parent's

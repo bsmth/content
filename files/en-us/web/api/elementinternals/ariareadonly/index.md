@@ -4,9 +4,10 @@ short-title: ariaReadOnly
 slug: Web/API/ElementInternals/ariaReadOnly
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaReadOnly
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaReadOnly`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-readonly`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-readonly) attribute, which indicates that the element is not editable, but is otherwise operable.
 

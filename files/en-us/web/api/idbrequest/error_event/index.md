@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/IDBRequest/error_event
 page-type: web-api-event
 browser-compat: api.IDBRequest.error_event
+sidebar:
+  - apiref:
+      - IndexedDB
 ---
-
-{{APIRef("IndexedDB")}}
 
 The `error` handler is executed when an error caused a request to fail. In the `error` event handler, you can access the error of the request, as well as place more requests to the same transaction.
 

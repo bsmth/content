@@ -4,9 +4,10 @@ short-title: pause()
 slug: Web/API/SpeechSynthesis/pause
 page-type: web-api-instance-method
 browser-compat: api.SpeechSynthesis.pause
+sidebar:
+  - apiref:
+      - Web Speech API
 ---
-
-{{APIRef("Web Speech API")}}
 
 The **`pause()`** method of the {{domxref("SpeechSynthesis")}}
 interface puts the `SpeechSynthesis` object into a paused state.

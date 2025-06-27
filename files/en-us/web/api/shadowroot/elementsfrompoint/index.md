@@ -6,9 +6,12 @@ page-type: web-api-instance-method
 status:
   - non-standard
 browser-compat: api.ShadowRoot.elementsFromPoint
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The **`elementsFromPoint()`** method of the {{domxref("ShadowRoot")}} interface returns an array of all the shadow root elements at the specified coordinates (relative to the viewport). The elements are ordered from the topmost element (highest in the display z-order), to the bottommost element.
 

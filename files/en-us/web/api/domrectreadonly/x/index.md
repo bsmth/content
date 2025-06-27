@@ -4,9 +4,12 @@ short-title: x
 slug: Web/API/DOMRectReadOnly/x
 page-type: web-api-instance-property
 browser-compat: api.DOMRectReadOnly.x
+sidebar:
+  - apiref:
+      - Geometry Interfaces
 ---
 
-{{APIRef("Geometry Interfaces")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`x`** read-only property of the **`DOMRectReadOnly`** interface represents the x coordinate of the `DOMRect`'s origin.
 

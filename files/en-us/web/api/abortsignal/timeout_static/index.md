@@ -4,9 +4,12 @@ short-title: timeout()
 slug: Web/API/AbortSignal/timeout_static
 page-type: web-api-static-method
 browser-compat: api.AbortSignal.timeout_static
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`AbortSignal.timeout()`** static method returns an {{domxref("AbortSignal")}} that will automatically abort after a specified time.
 

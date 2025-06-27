@@ -4,9 +4,10 @@ short-title: querySelector()
 slug: Web/API/DocumentFragment/querySelector
 page-type: web-api-instance-method
 browser-compat: api.DocumentFragment.querySelector
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{ApiRef("DOM")}}
 
 The **`DocumentFragment.querySelector()`** method returns the
 first element, or `null` if no matches are found, within the

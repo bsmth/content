@@ -3,9 +3,10 @@ title: RTCDTMFSender
 slug: Web/API/RTCDTMFSender
 page-type: web-api-interface
 browser-compat: api.RTCDTMFSender
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`RTCDTMFSender`** interface provides a mechanism for transmitting {{Glossary("DTMF")}} codes on a [WebRTC](/en-US/docs/Web/API/WebRTC_API) {{domxref("RTCPeerConnection")}}. You gain access to the connection's `RTCDTMFSender` through the {{domxref("RTCRtpSender.dtmf")}} property on the audio track you wish to send DTMF with.
 

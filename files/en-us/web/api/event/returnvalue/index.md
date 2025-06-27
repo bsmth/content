@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - deprecated
 browser-compat: api.Event.returnValue
+sidebar:
+  - apiref:
+      - DOM
 ---
 
-{{APIRef("DOM")}}{{Deprecated_Header}}{{AvailableInWorkers}}
+{{Deprecated_Header}}{{AvailableInWorkers}}
 
 The {{domxref("Event")}} property
 **`returnValue`** indicates whether the default action for

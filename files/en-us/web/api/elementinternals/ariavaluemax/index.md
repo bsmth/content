@@ -4,9 +4,10 @@ short-title: ariaValueMax
 slug: Web/API/ElementInternals/ariaValueMax
 page-type: web-api-instance-property
 browser-compat: api.ElementInternals.ariaValueMax
+sidebar:
+  - apiref:
+      - Web Components
 ---
-
-{{APIRef("Web Components")}}
 
 The **`ariaValueMax`** property of the {{domxref("ElementInternals")}} interface reflects the value of the [`aria-valuemax`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-valuemax) attribute, which defines the maximum allowed value for a range widget.
 

@@ -4,9 +4,10 @@ short-title: nextElementSibling
 slug: Web/API/Element/nextElementSibling
 page-type: web-api-instance-property
 browser-compat: api.Element.nextElementSibling
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Element.nextElementSibling`** read-only
 property returns the element immediately following the specified one in its parent's

@@ -4,9 +4,10 @@ short-title: cellIndex
 slug: Web/API/HTMLTableCellElement/cellIndex
 page-type: web-api-instance-property
 browser-compat: api.HTMLTableCellElement.cellIndex
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`cellIndex`** read-only property of the {{domxref("HTMLTableCellElement")}} interface
 represents the position of a cell within its row ({{htmlelement("tr")}}). The first cell has an index of `0`.

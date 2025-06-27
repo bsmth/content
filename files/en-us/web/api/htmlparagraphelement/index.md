@@ -3,9 +3,10 @@ title: HTMLParagraphElement
 slug: Web/API/HTMLParagraphElement
 page-type: web-api-interface
 browser-compat: api.HTMLParagraphElement
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The **`HTMLParagraphElement`** interface provides special properties (beyond those of the regular {{domxref("HTMLElement")}} object interface it inherits) for manipulating {{HTMLElement("p")}} elements.
 

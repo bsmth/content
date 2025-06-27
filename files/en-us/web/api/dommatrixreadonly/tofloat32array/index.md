@@ -4,9 +4,10 @@ short-title: toFloat32Array()
 slug: Web/API/DOMMatrixReadOnly/toFloat32Array
 page-type: web-api-instance-method
 browser-compat: api.DOMMatrixReadOnly.toFloat32Array
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`toFloat32Array()`** method of the {{domxref("DOMMatrixReadOnly")}} interface returns a new {{jsxref("Float32Array")}} containing all 16 elements (`m11`, `m12`, `m13`, `m14`, `m21`, `m22`, `m23`, `m24`, `m31`, `m32`, `m33`, `m34`, `m41`, `m42`, `m43`, `m44`) which comprise the matrix. The elements are stored into the array as single-precision floating-point numbers in column-major (colexographical access, or "colex") order. (In other words, down the first column from top to bottom, then the second column, and so forth.)
 

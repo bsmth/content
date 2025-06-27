@@ -4,9 +4,10 @@ short-title: canTrickleIceCandidates
 slug: Web/API/RTCPeerConnection/canTrickleIceCandidates
 page-type: web-api-instance-property
 browser-compat: api.RTCPeerConnection.canTrickleIceCandidates
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 The **`canTrickleIceCandidates`** read-only property of the {{domxref("RTCPeerConnection")}} interface returns a boolean value which indicates whether or not the remote peer can accept [trickled ICE candidates](https://datatracker.ietf.org/doc/html/draft-ietf-mmusic-trickle-ice).
 

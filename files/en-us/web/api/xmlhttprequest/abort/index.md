@@ -4,9 +4,10 @@ short-title: abort()
 slug: Web/API/XMLHttpRequest/abort
 page-type: web-api-instance-method
 browser-compat: api.XMLHttpRequest.abort
+sidebar:
+  - apiref:
+      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
 ---
-
-{{APIRef("XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`XMLHttpRequest.abort()`** method aborts the request if
 it has already been sent. When a request is aborted, its

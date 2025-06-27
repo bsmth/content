@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/Storage/length
 page-type: web-api-instance-property
 browser-compat: api.Storage.length
+sidebar:
+  - apiref:
+      - Web Storage API
 ---
-
-{{APIRef("Web Storage API")}}
 
 The **`length`** read-only property of the
 {{domxref("Storage")}} interface returns the number of data items stored in a given

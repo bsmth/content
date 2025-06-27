@@ -4,9 +4,10 @@ short-title: start()
 slug: Web/API/AudioBufferSourceNode/start
 page-type: web-api-instance-method
 browser-compat: api.AudioBufferSourceNode.start
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{ APIRef("Web Audio API") }}
 
 The `start()` method of the {{ domxref("AudioBufferSourceNode") }}
 Interface is used to schedule playback of the audio data contained in the buffer, or

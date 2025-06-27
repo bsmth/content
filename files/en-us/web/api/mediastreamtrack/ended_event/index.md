@@ -4,9 +4,10 @@ short-title: ended
 slug: Web/API/MediaStreamTrack/ended_event
 page-type: web-api-event
 browser-compat: api.MediaStreamTrack.ended_event
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The **`ended`** event of the {{domxref("MediaStreamTrack")}} interface is fired when playback or streaming has stopped because the end of the media was reached or because no further data is available.
 

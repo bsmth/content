@@ -4,9 +4,10 @@ short-title: dateTime
 slug: Web/API/HTMLTimeElement/dateTime
 page-type: web-api-instance-property
 browser-compat: api.HTMLTimeElement.dateTime
+sidebar:
+  - apiref:
+      - HTML DOM
 ---
-
-{{ APIRef("HTML DOM") }}
 
 The
 **`dateTime`**

@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/MediaTrackConstraints/height
 page-type: web-api-instance-property
 browser-compat: api.MediaStreamTrack.applyConstraints.height_constraint
+sidebar:
+  - apiref:
+      - Media Capture and Streams
 ---
-
-{{APIRef("Media Capture and Streams")}}
 
 The {{domxref("MediaTrackConstraints")}} dictionary's
 **`height`** property is a [`ConstrainULong`](/en-US/docs/Web/API/MediaTrackConstraints#constrainulong)

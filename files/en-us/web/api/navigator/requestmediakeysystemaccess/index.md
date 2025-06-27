@@ -4,9 +4,12 @@ short-title: requestMediaKeySystemAccess()
 slug: Web/API/Navigator/requestMediaKeySystemAccess
 page-type: web-api-instance-method
 browser-compat: api.Navigator.requestMediaKeySystemAccess
+sidebar:
+  - apiref:
+      - Encrypted Media Extensions
 ---
 
-{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+{{SecureContext_Header}}
 
 The **`requestMediaKeySystemAccess()`** method of the {{domxref("Navigator")}} interface returns a {{jsxref('Promise')}} which delivers a {{domxref('MediaKeySystemAccess')}} object that can be used to access a particular media key system, which can in turn be used to create keys for decrypting a media stream.
 

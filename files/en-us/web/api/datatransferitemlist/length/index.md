@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/DataTransferItemList/length
 page-type: web-api-instance-property
 browser-compat: api.DataTransferItemList.length
+sidebar:
+  - apiref:
+      - HTML Drag and Drop API
 ---
-
-{{APIRef("HTML Drag and Drop API")}}
 
 The read-only **`length`** property of the
 {{domxref("DataTransferItemList")}} interface returns the number of items currently in

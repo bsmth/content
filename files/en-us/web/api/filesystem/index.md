@@ -3,9 +3,10 @@ title: FileSystem
 slug: Web/API/FileSystem
 page-type: web-api-interface
 browser-compat: api.FileSystem
+sidebar:
+  - apiref:
+      - File and Directory Entries API
 ---
-
-{{APIRef("File and Directory Entries API")}}
 
 The File and Directory Entries API interface **`FileSystem`** is used to represent a file system. These objects can be obtained from the {{domxref("FileSystemEntry.filesystem", "filesystem")}} property on any file system entry. Some browsers offer additional APIs to create and manage file systems, such as Chrome's {{domxref("Window.requestFileSystem", "requestFileSystem()")}} method.
 

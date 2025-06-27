@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/PaintSize/height
 page-type: web-api-instance-property
 browser-compat: api.PaintSize.height
+sidebar:
+  - apiref:
+      - CSS Painting API
 ---
-
-{{APIRef("CSS Painting API")}}
 
 The **`height`** read-only property of the {{domxref("PaintSize")}} interface returns the height of the output bitmap that the author should draw.
 

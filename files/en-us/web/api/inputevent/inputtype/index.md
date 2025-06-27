@@ -4,9 +4,10 @@ short-title: inputType
 slug: Web/API/InputEvent/inputType
 page-type: web-api-instance-property
 browser-compat: api.InputEvent.inputType
+sidebar:
+  - apiref:
+      - UI Events
 ---
-
-{{APIRef("UI Events")}}
 
 The **`inputType`** read-only property of the
 {{domxref("InputEvent")}} interface returns the type of change made to editable content.

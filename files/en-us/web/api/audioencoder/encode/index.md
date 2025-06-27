@@ -4,9 +4,12 @@ short-title: encode()
 slug: Web/API/AudioEncoder/encode
 page-type: web-api-instance-method
 browser-compat: api.AudioEncoder.encode
+sidebar:
+  - apiref:
+      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
 ---
 
-{{securecontext_header}}{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+{{securecontext_header}}
 
 The **`encode()`** method of the {{domxref("AudioEncoder")}} interface enqueues a control message to encode a given {{domxref("AudioData")}} object.
 

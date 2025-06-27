@@ -3,9 +3,10 @@ title: Range
 slug: Web/API/Range
 page-type: web-api-interface
 browser-compat: api.Range
+sidebar:
+  - apiref:
+      - DOM
 ---
-
-{{APIRef("DOM")}}
 
 The **`Range`** interface represents a fragment of a document that can contain nodes and parts of text nodes.
 

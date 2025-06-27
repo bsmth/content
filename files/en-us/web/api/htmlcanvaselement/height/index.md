@@ -4,9 +4,10 @@ short-title: height
 slug: Web/API/HTMLCanvasElement/height
 page-type: web-api-instance-property
 browser-compat: api.HTMLCanvasElement.height
+sidebar:
+  - apiref:
+      - Canvas API
 ---
-
-{{APIRef("Canvas API")}}
 
 The **`HTMLCanvasElement.height`** property is a
 positive `integer` reflecting the [`height`](/en-US/docs/Web/HTML/Reference/Elements/canvas#height) HTML

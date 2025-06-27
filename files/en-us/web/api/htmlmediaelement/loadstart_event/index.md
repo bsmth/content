@@ -4,9 +4,8 @@ short-title: loadstart
 slug: Web/API/HTMLMediaElement/loadstart_event
 page-type: web-api-event
 browser-compat: api.HTMLMediaElement.loadstart_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`loadstart`** event is fired when the browser has started to load a resource.
 

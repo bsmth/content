@@ -4,9 +4,10 @@ short-title: length
 slug: Web/API/CSSKeyframesRule/length
 page-type: web-api-instance-property
 browser-compat: api.CSSKeyframesRule.length
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM") }}
 
 The read-only **`length`** property of the {{domxref("CSSKeyframeRule")}} interface returns the number of {{domxref("CSSKeyframeRule")}} objects in its list. You can then access each keyframe rule by its index directly on the `CSSKeyframeRule` object.
 

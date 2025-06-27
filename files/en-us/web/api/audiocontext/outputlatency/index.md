@@ -4,9 +4,10 @@ short-title: outputLatency
 slug: Web/API/AudioContext/outputLatency
 page-type: web-api-instance-property
 browser-compat: api.AudioContext.outputLatency
+sidebar:
+  - apiref:
+      - Web Audio API
 ---
-
-{{APIRef("Web Audio API")}}
 
 The **`outputLatency`** read-only property of
 the {{domxref("AudioContext")}} Interface provides an estimation of the output latency

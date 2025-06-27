@@ -4,9 +4,10 @@ short-title: selectorText
 slug: Web/API/CSSStyleRule/selectorText
 page-type: web-api-instance-property
 browser-compat: api.CSSStyleRule.selectorText
+sidebar:
+  - apiref:
+      - CSSOM
 ---
-
-{{APIRef("CSSOM") }}
 
 The **`selectorText`** property of the {{domxref("CSSStyleRule")}} interface gets and sets the selectors associated with the `CSSStyleRule`.
 

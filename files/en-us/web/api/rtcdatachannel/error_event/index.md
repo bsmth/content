@@ -4,9 +4,10 @@ short-title: error
 slug: Web/API/RTCDataChannel/error_event
 page-type: web-api-event
 browser-compat: api.RTCDataChannel.error_event
+sidebar:
+  - apiref:
+      - WebRTC
 ---
-
-{{APIRef("WebRTC")}}
 
 A WebRTC `error` event is sent to an {{domxref("RTCDataChannel")}} object's `onerror` event handler when an error occurs on the data channel.
 

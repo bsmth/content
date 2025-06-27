@@ -4,9 +4,8 @@ short-title: mouseleave
 slug: Web/API/Element/mouseleave_event
 page-type: web-api-event
 browser-compat: api.Element.mouseleave_event
+sidebar: apiref
 ---
-
-{{APIRef}}
 
 The **`mouseleave`** event is fired at an {{domxref("Element")}} when the cursor of a pointing device (usually a mouse) is moved out of it.
 

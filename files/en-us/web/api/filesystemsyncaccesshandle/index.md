@@ -3,9 +3,12 @@ title: FileSystemSyncAccessHandle
 slug: Web/API/FileSystemSyncAccessHandle
 page-type: web-api-interface
 browser-compat: api.FileSystemSyncAccessHandle
+sidebar:
+  - apiref:
+      - File System API")}}{{AvailableInWorkers("dedicated
 ---
 
-{{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers("dedicated")}}
+{{securecontext_header}}
 
 The **`FileSystemSyncAccessHandle`** interface of the {{domxref("File System API", "File System API", "", "nocode")}} represents a synchronous handle to a file system entry.
 
