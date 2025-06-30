@@ -6,9 +6,12 @@ page-type: web-api-constructor
 status:
   - experimental
 browser-compat: api.Accelerometer.Accelerometer
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`Accelerometer()`** constructor creates a new {{domxref("Accelerometer")}} object which returns the acceleration of the device along all three axes at the time it is read.
 

@@ -6,9 +6,12 @@ page-type: web-api-instance-property
 status:
   - experimental
 browser-compat: api.Accelerometer.z
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`z`** read-only property of the {{domxref("Accelerometer")}} interface returns a number specifying the acceleration of the device along its z-axis.
 

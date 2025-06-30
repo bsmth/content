@@ -4,9 +4,12 @@ short-title: wasClean
 slug: Web/API/CloseEvent/wasClean
 page-type: web-api-instance-property
 browser-compat: api.CloseEvent.wasClean
+sidebar:
+  - apiref:
+      - Websockets API
 ---
 
-{{APIRef("Websockets API")}}{{AvailableInWorkers}}
+{{AvailableInWorkers}}
 
 The **`wasClean`** read-only property of the {{domxref("CloseEvent")}} interface returns `true` if the connection closed cleanly.
 

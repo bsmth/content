@@ -5,9 +5,12 @@ page-type: web-api-interface
 status:
   - experimental
 browser-compat: api.Accelerometer
+sidebar:
+  - apiref:
+      - Sensor API
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}{{SeeCompatTable}}
+{{securecontext_header}}{{SeeCompatTable}}
 
 The **`Accelerometer`** interface of the [Sensor APIs](/en-US/docs/Web/API/Sensor_APIs) provides on each reading the acceleration applied to the device along all three axes.
 
