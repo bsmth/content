@@ -7,10 +7,10 @@ status:
 browser-compat: api.Serial
 sidebar:
   - apiref:
-      - Web Serial API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
+      - Web Serial API
 ---
 
-{{securecontext_header}}
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The `Serial` interface of the [Web Serial API](/en-US/docs/Web/API/Web_Serial_API) provides attributes and methods for finding and connecting to serial ports from a web page.
 

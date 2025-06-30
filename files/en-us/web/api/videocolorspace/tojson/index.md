@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.VideoColorSpace.toJSON
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`toJSON()`** method of the {{domxref("VideoColorSpace")}} interface is a _serializer_ that returns a JSON representation of the `VideoColorSpace` object.
 

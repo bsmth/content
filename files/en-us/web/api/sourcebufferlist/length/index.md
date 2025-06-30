@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.SourceBufferList.length
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`length`** read-only property of the
 {{domxref("SourceBufferList")}} interface returns the number of

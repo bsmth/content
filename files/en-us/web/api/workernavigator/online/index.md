@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.onLine
 sidebar:
   - apiref:
-      - HTML DOM")}}{{AvailableInWorkers("worker
+      - HTML DOM
 ---
+
+{{AvailableInWorkers("worker")}}
 
 Returns the online status of the browser. The property returns a boolean value, with `true` meaning online and `false` meaning offline. The property sends updates whenever the browser's ability to connect to the network changes. The update occurs when the user follows links or when a script requests a remote page.
 

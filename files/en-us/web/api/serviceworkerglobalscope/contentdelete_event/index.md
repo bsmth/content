@@ -8,8 +8,10 @@ status:
 browser-compat: api.ServiceWorkerGlobalScope.contentdelete_event
 sidebar:
   - apiref:
-      - Content Index API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Content Index API
 ---
+
+{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`contentdelete`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired when an item is removed from the indexed content via the user agent.
 

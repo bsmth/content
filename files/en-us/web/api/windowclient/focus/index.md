@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.WindowClient.focus
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`focus()`** method of the {{domxref("WindowClient")}}
 interface gives user input focus to the current client and returns a

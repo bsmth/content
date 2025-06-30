@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.XMLHttpRequest.readystatechange_event
 sidebar:
   - apiref:
-      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
+      - XMLHttpRequest API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The `readystatechange` event is fired whenever the {{domxref("XMLHttpRequest.readyState", "readyState")}} property of the {{domxref("XMLHttpRequest")}} changes.
 

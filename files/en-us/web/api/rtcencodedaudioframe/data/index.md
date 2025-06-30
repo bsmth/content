@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.RTCEncodedAudioFrame.data
 sidebar:
   - apiref:
-      - WebRTC")}}{{AvailableInWorkers("window_and_dedicated
+      - WebRTC
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`data`** property of the {{domxref("RTCEncodedAudioFrame")}} interface returns a buffer containing the data for an encoded frame.
 

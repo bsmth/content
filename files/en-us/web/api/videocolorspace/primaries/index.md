@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.VideoColorSpace.primaries
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`primaries`** read-only property of the {{domxref("VideoColorSpace")}} interface returns the color {{glossary("gamut")}} of the video.
 

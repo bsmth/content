@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.XMLHttpRequestUpload.error_event
 sidebar:
   - apiref:
-      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
+      - XMLHttpRequest API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The `error` event is fired when the request encountered an error.
 

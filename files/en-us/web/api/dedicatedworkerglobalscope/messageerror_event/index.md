@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.DedicatedWorkerGlobalScope.messageerror_event
 sidebar:
   - apiref:
-      - Web Workers API")}}{{AvailableInWorkers("dedicated
+      - Web Workers API
 ---
+
+{{AvailableInWorkers("dedicated")}}
 
 The `messageerror` event is fired on a {{domxref('DedicatedWorkerGlobalScope')}} object when it receives a message that can't be deserialized.
 

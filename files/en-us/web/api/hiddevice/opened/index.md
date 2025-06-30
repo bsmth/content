@@ -8,8 +8,10 @@ status:
 browser-compat: api.HIDDevice.opened
 sidebar:
   - apiref:
-      - WebHID API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared
+      - WebHID API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared")}}
 
 {{securecontext_header}}
 

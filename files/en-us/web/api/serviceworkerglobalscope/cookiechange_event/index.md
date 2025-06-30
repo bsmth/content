@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.cookiechange_event
 sidebar:
   - apiref:
-      - Cookie Store API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Cookie Store API
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`cookiechange`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired when a cookie change occurs that matches the service worker's cookie change subscription list.
 

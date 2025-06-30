@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.notificationclick_event
 sidebar:
   - apiref:
-      - Web Notifications")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Web Notifications
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`notificationclick`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired to indicate that a system notification spawned by {{domxref("ServiceWorkerRegistration.showNotification()")}} has been clicked.
 

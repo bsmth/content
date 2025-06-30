@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.ExtendableCookieChangeEvent.changed
 sidebar:
   - apiref:
-      - Cookie Store API")}}{{AvailableInWorkers("service
+      - Cookie Store API
 ---
+
+{{AvailableInWorkers("service")}}
 
 {{securecontext_header}}
 

@@ -8,10 +8,10 @@ status:
 browser-compat: api.SerialPort.getInfo
 sidebar:
   - apiref:
-      - Web Serial API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
+      - Web Serial API
 ---
 
-{{SecureContext_Header}}
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`getInfo()`** method of the {{domxref("SerialPort")}} interface returns an object containing identifying information for the device available via the port.
 

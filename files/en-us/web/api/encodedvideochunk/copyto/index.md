@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.EncodedVideoChunk.copyTo
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`copyTo()`** method of the {{domxref("EncodedVideoChunk")}} interface copies the encoded chunk of video data.
 

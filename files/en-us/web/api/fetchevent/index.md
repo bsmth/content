@@ -5,8 +5,10 @@ page-type: web-api-interface
 browser-compat: api.FetchEvent
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 This is the event type for `fetch` events dispatched on the {{domxref("ServiceWorkerGlobalScope", "service worker global scope", "", 1)}}. It contains information about the fetch, including the request and how the receiver will treat the response. It provides the {{domxref("FetchEvent.respondWith", "event.respondWith()")}} method, which allows us to provide a response to this fetch.
 

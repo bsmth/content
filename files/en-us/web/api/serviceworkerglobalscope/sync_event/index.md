@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.sync_event
 sidebar:
   - apiref:
-      - Background Sync")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Background Sync
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`sync`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired when the page (or worker) that registered the event with the {{domxref('SyncManager')}} is running and as soon as network connectivity is available.
 

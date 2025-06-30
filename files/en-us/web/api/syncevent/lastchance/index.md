@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.SyncEvent.lastChance
 sidebar:
   - apiref:
-      - Background Sync")}}{{AvailableInWorkers("service
+      - Background Sync
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`lastChance`** read-only property of the
 {{domxref("SyncEvent")}} interface returns `true` if the user agent will not

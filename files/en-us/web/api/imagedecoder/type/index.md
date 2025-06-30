@@ -6,10 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.ImageDecoder.type
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
 
-{{securecontext_header}}
+{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`type`** read-only property of the {{domxref("ImageDecoder")}} interface reflects the [MIME type](/en-US/docs/Web/HTTP/Guides/MIME_types) configured during construction.
 

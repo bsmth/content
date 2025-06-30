@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.VideoFrame.visibleRect
 sidebar:
   - apiref:
-      - Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - Web Codecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`visibleRect`** property of the {{domxref("VideoFrame")}} interface returns a {{domxref("DOMRectReadOnly")}} describing the visible rectangle of pixels for this `VideoFrame`.
 

@@ -8,8 +8,10 @@ status:
 browser-compat: api.BackgroundFetchEvent.registration
 sidebar:
   - apiref:
-      - Background Fetch API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
+      - Background Fetch API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`registration`** read-only property of the {{domxref("BackgroundFetchEvent")}} interface returns a {{domxref("BackgroundFetchRegistration")}} object.
 

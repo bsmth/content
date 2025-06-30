@@ -6,10 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.AudioDecoder.flush
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
 
-{{securecontext_header}}
+{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`flush()`** method of the {{domxref("AudioDecoder")}} interface returns a Promise that resolves once all pending messages in the queue have been completed.
 

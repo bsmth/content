@@ -8,8 +8,10 @@ status:
 browser-compat: api.WorkerNavigator.product
 sidebar:
   - apiref:
-      - HTML DOM")}} {{Deprecated_Header}}{{AvailableInWorkers("worker
+      - HTML DOM
 ---
+
+{{Deprecated_Header}}{{AvailableInWorkers("worker")}}
 
 The value of the **`WorkerNavigator.product`** property is always
 `"Gecko"`, in any browser. This property is kept only for compatibility

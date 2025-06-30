@@ -6,8 +6,10 @@ page-type: web-api-constructor
 browser-compat: api.VideoEncoder.VideoEncoder
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{securecontext_header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`VideoEncoder()`** constructor creates a new {{domxref("VideoEncoder")}} object with the provided `options.output` callback assigned as the output callback, the provided `options.error` callback as the error callback, and sets the {{domxref("VideoEncoder.state")}} to `"unconfigured"`.
 

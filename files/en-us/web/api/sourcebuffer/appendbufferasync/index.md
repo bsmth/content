@@ -9,8 +9,10 @@ status:
 browser-compat: api.SourceBuffer.appendBufferAsync
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 {{Non-standard_Header}}{{SeeCompatTable}}
 

@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.Client.type
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`type`** read-only property of the {{domxref("Client")}}
 interface indicates the type of client the service worker is controlling.

@@ -9,8 +9,10 @@ status:
 browser-compat: api.PaymentRequestEvent.instrumentKey
 sidebar:
   - apiref:
-      - Payment Handler API")}}{{deprecated_header}}{{non-standard_header}}{{AvailableInWorkers("service
+      - Payment Handler API
 ---
+
+{{deprecated_header}}{{non-standard_header}}{{AvailableInWorkers("service")}}
 
 The **`instrumentKey`** read-only property of the
 {{domxref("PaymentRequestEvent")}} interface returns a

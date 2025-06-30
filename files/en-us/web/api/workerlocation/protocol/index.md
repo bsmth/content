@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerLocation.protocol
 sidebar:
   - apiref:
-      - WorkerLocation")}}{{AvailableInWorkers("worker
+      - WorkerLocation
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`protocol`** property of a {{domxref("WorkerLocation")}} object returns the {{domxref("URL.protocol", "protocol")}} part of the worker's location.
 

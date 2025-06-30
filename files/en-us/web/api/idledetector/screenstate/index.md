@@ -8,10 +8,10 @@ status:
 browser-compat: api.IdleDetector.screenState
 sidebar:
   - apiref:
-      - Idle Detection API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
+      - Idle Detection API
 ---
 
-{{securecontext_header}}
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`screenState`** read-only property of the {{domxref("IdleDetector")}} interface
 returns a string indicating whether the screen is locked, one of `"locked"` or

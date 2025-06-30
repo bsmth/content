@@ -8,8 +8,10 @@ status:
 browser-compat: api.PaymentRequestEvent.modifiers
 sidebar:
   - apiref:
-      - Payment Handler API")}}{{AvailableInWorkers("service
+      - Payment Handler API
 ---
+
+{{AvailableInWorkers("service")}}
 
 {{SeeCompatTable}}
 

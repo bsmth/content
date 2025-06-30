@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.ServiceWorkerGlobalScope.skipWaiting
 sidebar:
   - apiref:
-      - Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`skipWaiting()`** method of the {{domxref("ServiceWorkerGlobalScope")}} interface forces the waiting service worker to become the active service worker.
 

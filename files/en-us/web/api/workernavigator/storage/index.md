@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.storage
 sidebar:
   - apiref:
-      - Storage")}}{{AvailableInWorkers("worker
+      - Storage
 ---
+
+{{AvailableInWorkers("worker")}}
 
 {{securecontext_header}}
 

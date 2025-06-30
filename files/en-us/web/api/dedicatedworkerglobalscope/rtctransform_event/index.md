@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.DedicatedWorkerGlobalScope.rtctransform_event
 sidebar:
   - apiref:
-      - WebRTC")}}{{AvailableInWorkers("dedicated
+      - WebRTC
 ---
+
+{{AvailableInWorkers("dedicated")}}
 
 The **`rtctransform`** event is fired at a worker's {{domxref('DedicatedWorkerGlobalScope')}} object when an encoded video or audio frame has been queued for processing by a {{domxref("WebRTC API/Using Encoded Transforms", "WebRTC Encoded Transform", "", "nocode")}}.
 

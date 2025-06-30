@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.SourceBuffer.abort
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`abort()`** method of the {{domxref("SourceBuffer")}}
 interface aborts the current segment and resets the segment parser.

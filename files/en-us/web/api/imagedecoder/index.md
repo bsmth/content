@@ -5,10 +5,10 @@ page-type: web-api-interface
 browser-compat: api.ImageDecoder
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
 
-{{securecontext_header}}
+{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`ImageDecoder`** interface of the {{domxref('WebCodecs API','','','true')}} provides a way to unpack and decode encoded image data.
 

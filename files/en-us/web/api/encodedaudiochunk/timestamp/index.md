@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.EncodedAudioChunk.timestamp
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`timestamp`** read-only property of the {{domxref("EncodedAudioChunk")}} interface returns an integer indicating the timestamp of the audio in microseconds.
 

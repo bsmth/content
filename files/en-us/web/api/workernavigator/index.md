@@ -5,8 +5,10 @@ page-type: web-api-interface
 browser-compat: api.WorkerNavigator
 sidebar:
   - apiref:
-      - Web Workers API")}}{{AvailableInWorkers("worker
+      - Web Workers API
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`WorkerNavigator`** interface represents a subset of the {{DOMxRef("Navigator")}} interface allowed to be accessed from a {{DOMxRef("Worker")}}. Such an object is initialized for each worker and is available via the {{DOMxRef("WorkerGlobalScope.navigator", "self.navigator")}} property.
 

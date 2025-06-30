@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.performance
 sidebar:
   - apiref:
-      - Performance API")}}{{AvailableInWorkers("worker
+      - Performance API
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`performance`** property of the {{domxref("WorkerGlobalScope")}} interface returns a {{domxref("Performance")}} object, which can be used to gather performance information about code running in the worker's scope.
 

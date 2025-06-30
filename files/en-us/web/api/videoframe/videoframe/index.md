@@ -6,8 +6,10 @@ page-type: web-api-constructor
 browser-compat: api.VideoFrame.VideoFrame
 sidebar:
   - apiref:
-      - Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - Web Codecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`VideoFrame()`** constructor creates a new {{domxref("VideoFrame")}} object representing a frame of a video.
 

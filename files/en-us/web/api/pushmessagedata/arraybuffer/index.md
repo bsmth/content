@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.PushMessageData.arrayBuffer
 sidebar:
   - apiref:
-      - Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Push API
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`arrayBuffer()`** method of the {{domxref("PushMessageData")}} interface extracts push message data as an {{jsxref("ArrayBuffer")}} object.
 

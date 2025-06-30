@@ -9,8 +9,10 @@ status:
 browser-compat: api.RTCEncodedVideoFrame.timestamp
 sidebar:
   - apiref:
-      - WebRTC")}}{{AvailableInWorkers("window_and_dedicated
+      - WebRTC
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 {{deprecated_header}}{{non-standard_header}}
 

@@ -8,10 +8,10 @@ status:
 browser-compat: api.IdleDetector.change_event
 sidebar:
   - apiref:
-      - Idle Detection API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
+      - Idle Detection API
 ---
 
-{{securecontext_header}}
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`change`** event of the {{domxref("IdleDetector")}} interface fires when the value of `userState` or `screenState` has changed.
 

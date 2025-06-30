@@ -8,8 +8,10 @@ status:
 browser-compat: api.WindowClient.ancestorOrigins
 sidebar:
   - apiref:
-      - Service Workers API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`ancestorOrigins`** read-only property of the {{domxref("WindowClient")}} interface is an array of strings listing the origins of all ancestors of the browsing context represented by this `WindowClient` in reverse order.
 

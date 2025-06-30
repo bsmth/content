@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.ExtendableMessageEvent.source
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`source`** read-only property of the
 {{domxref("ExtendableMessageEvent")}} interface returns a reference to the

@@ -5,8 +5,10 @@ page-type: web-api-interface
 browser-compat: api.SyncEvent
 sidebar:
   - apiref:
-      - Background Sync")}}{{AvailableInWorkers("service
+      - Background Sync
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`SyncEvent`** interface of the {{domxref("Background Synchronization API", "", "", "nocode")}} represents a sync action that is dispatched on the {{domxref("ServiceWorkerGlobalScope")}} of a ServiceWorker.
 

@@ -6,10 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.ImageDecoder.tracks
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
 
-{{securecontext_header}}
+{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`tracks`** read-only property of the {{domxref("ImageDecoder")}} interface returns a list of the tracks in the encoded image data.
 

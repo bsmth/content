@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.WorkerGlobalScope.offline_event
 sidebar:
   - apiref:
-      - Web Workers API")}}{{AvailableInWorkers("worker
+      - Web Workers API
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`offline`** event of the {{domxref("WorkerGlobalScope")}} fires when the device loses connection to the internet.
 

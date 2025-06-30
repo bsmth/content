@@ -6,10 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.ImageDecoder.complete
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
 
-{{securecontext_header}}
+{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`complete`** read-only property of the {{domxref("ImageDecoder")}} interface returns true if encoded data has completed buffering.
 

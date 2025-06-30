@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.Worker.error_event
 sidebar:
   - apiref:
-      - Web Workers API")}}{{AvailableInWorkers("window_and_worker_except_service
+      - Web Workers API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`error`** event of the {{domxref("Worker")}} interface fires when an error occurs in the worker.
 

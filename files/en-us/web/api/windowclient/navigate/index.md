@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.WindowClient.navigate
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`navigate()`** method of the {{domxref("WindowClient")}}
 interface loads a specified URL into a controlled client page then returns a

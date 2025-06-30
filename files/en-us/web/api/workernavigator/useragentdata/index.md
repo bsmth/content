@@ -8,8 +8,10 @@ status:
 browser-compat: api.WorkerNavigator.userAgentData
 sidebar:
   - apiref:
-      - User-Agent Client Hints API")}}{{SeeCompatTable}}{{securecontext_header}}{{AvailableInWorkers("worker
+      - User-Agent Client Hints API
 ---
+
+{{SeeCompatTable}}{{securecontext_header}}{{AvailableInWorkers("worker")}}
 
 The **`userAgentData`** read-only property of the {{domxref("WorkerNavigator")}} interface returns an {{domxref("NavigatorUAData")}} object which can be used to access the {{domxref("User-Agent Client Hints API", "", "", "nocode")}}.
 

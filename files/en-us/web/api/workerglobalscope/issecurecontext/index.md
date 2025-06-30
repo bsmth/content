@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.isSecureContext
 sidebar:
   - apiref:
-      - DOM")}}{{AvailableInWorkers("worker
+      - DOM
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`isSecureContext`** read-only property of the {{domxref("WorkerGlobalScope")}} interface returns a boolean indicating whether the current [context is secure](/en-US/docs/Web/Security/Secure_Contexts) (`true`) or not (`false`).
 

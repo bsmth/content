@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.XMLHttpRequest.load_event
 sidebar:
   - apiref:
-      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
+      - XMLHttpRequest API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The `load` event is fired when an {{domxref("XMLHttpRequest")}} transaction completes successfully.
 

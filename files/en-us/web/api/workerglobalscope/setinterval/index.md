@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.setInterval
 sidebar:
   - apiref:
-      - HTML DOM")}}{{AvailableInWorkers("worker
+      - HTML DOM
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`setInterval()`** method of the {{domxref("WorkerGlobalScope")}} interface repeatedly calls a function or executes a code snippet, with a fixed time delay between each call.
 

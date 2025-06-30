@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.VideoDecoder.decode
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{securecontext_header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`decode()`** method of the {{domxref("VideoDecoder")}} interface enqueues a control message to decode a given chunk of video.
 

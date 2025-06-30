@@ -5,8 +5,10 @@ page-type: web-api-interface
 browser-compat: api.ExtendableCookieChangeEvent
 sidebar:
   - apiref:
-      - Cookie Store API")}}{{AvailableInWorkers("service
+      - Cookie Store API
 ---
+
+{{AvailableInWorkers("service")}}
 
 {{securecontext_header}}
 

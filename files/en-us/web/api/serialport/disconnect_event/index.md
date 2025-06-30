@@ -8,10 +8,10 @@ status:
 browser-compat: api.SerialPort.disconnect_event
 sidebar:
   - apiref:
-      - Web Serial API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
+      - Web Serial API
 ---
 
-{{SecureContext_Header}}
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`disconnect`** event of the {{domxref("SerialPort")}} interface is fired when the port disconnects from the device.
 

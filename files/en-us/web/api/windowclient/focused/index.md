@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WindowClient.focused
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`focused`** read-only property of the
 {{domxref("WindowClient")}} interface is a boolean value that indicates whether

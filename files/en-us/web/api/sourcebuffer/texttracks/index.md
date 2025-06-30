@@ -8,8 +8,10 @@ status:
 browser-compat: api.SourceBuffer.textTracks
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 {{SeeCompatTable}}
 

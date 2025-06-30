@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.XMLHttpRequestUpload.loadstart_event
 sidebar:
   - apiref:
-      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
+      - XMLHttpRequest API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`loadstart`** event is fired when a request has started to load data.
 

@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.VideoFrame.copyTo
 sidebar:
   - apiref:
-      - Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - Web Codecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`copyTo()`** method of the {{domxref("VideoFrame")}} interface copies the contents of the `VideoFrame` to an `ArrayBuffer`.
 

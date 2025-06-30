@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.CookieStoreManager.unsubscribe
 sidebar:
   - apiref:
-      - Cookie Store API")}}{{AvailableInWorkers("window_and_service
+      - Cookie Store API
 ---
+
+{{AvailableInWorkers("window_and_service")}}
 
 {{securecontext_header}}
 

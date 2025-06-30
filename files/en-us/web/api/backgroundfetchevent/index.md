@@ -7,8 +7,10 @@ status:
 browser-compat: api.BackgroundFetchEvent
 sidebar:
   - apiref:
-      - Background Fetch API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
+      - Background Fetch API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`BackgroundFetchEvent`** interface of the {{domxref('Background Fetch API', "", "", "nocode")}} is the event type for background fetch events dispatched on the {{domxref("ServiceWorkerGlobalScope", "service worker global scope", "", "nocode")}}.
 

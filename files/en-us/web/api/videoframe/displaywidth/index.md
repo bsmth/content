@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.VideoFrame.displayWidth
 sidebar:
   - apiref:
-      - Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - Web Codecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`displayWidth`** property of the {{domxref("VideoFrame")}} interface returns the width of the `VideoFrame` after applying aspect ratio adjustments.
 

@@ -5,8 +5,10 @@ page-type: web-api-interface
 browser-compat: api.MediaSource
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`MediaSource`** interface of the {{domxref("Media Source Extensions API", "Media Source Extensions API", "", "nocode")}} represents a source of media data for an {{domxref("HTMLMediaElement")}} object. A `MediaSource` object can be attached to a {{domxref("HTMLMediaElement")}} to be played in the user agent.
 

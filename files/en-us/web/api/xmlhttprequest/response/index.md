@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.XMLHttpRequest.response
 sidebar:
   - apiref:
-      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
+      - XMLHttpRequest API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The {{domxref("XMLHttpRequest")}}
 **`response`** property returns the response's body content as

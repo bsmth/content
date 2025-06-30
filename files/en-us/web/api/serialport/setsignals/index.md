@@ -8,10 +8,10 @@ status:
 browser-compat: api.SerialPort.setSignals
 sidebar:
   - apiref:
-      - Web Serial API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
+      - Web Serial API
 ---
 
-{{SecureContext_Header}}
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`setSignals()`** method of the {{domxref("SerialPort")}} interface sets control signals on the port and returns a {{jsxref("Promise")}} that resolves when they are set.
 

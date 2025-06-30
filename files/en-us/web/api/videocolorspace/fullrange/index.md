@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.VideoColorSpace.fullRange
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`fullRange`** read-only property of the {{domxref("VideoColorSpace")}} interface returns `true` if full-range color values are used.
 

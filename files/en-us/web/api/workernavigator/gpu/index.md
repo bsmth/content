@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.gpu
 sidebar:
   - apiref:
-      - Web Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("worker
+      - Web Workers API
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("worker")}}
 
 The **`gpu`** read-only property of the {{domxref("WorkerNavigator")}} interface returns the {{domxref("GPU")}} object for the current worker context, which is the entry point for the {{domxref("WebGPU_API", "WebGPU API", "", "nocode")}}.
 

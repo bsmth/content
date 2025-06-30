@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.PushMessageData.bytes
 sidebar:
   - apiref:
-      - Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Push API
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`bytes()`** method of the {{domxref("PushMessageData")}} interface extracts push message data as an {{jsxref("Uint8Array")}} object.
 

@@ -7,10 +7,10 @@ status:
 browser-compat: api.IdleDetector
 sidebar:
   - apiref:
-      - Idle Detection API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
+      - Idle Detection API
 ---
 
-{{securecontext_header}}
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`IdleDetector`** interface of the {{domxref('idle_detection_api','Idle Detection API','','true')}} provides methods and events for detecting user activity on a device or screen.
 

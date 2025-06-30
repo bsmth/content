@@ -6,10 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.AudioDecoder.state
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
 
-{{securecontext_header}}
+{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`state`** read-only property of the {{domxref("AudioDecoder")}} interface returns the current state of the underlying codec.
 

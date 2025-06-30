@@ -8,8 +8,10 @@ status:
 browser-compat: api.WorkerNavigator.appVersion
 sidebar:
   - apiref:
-      - HTML DOM")}} {{Deprecated_Header}}{{AvailableInWorkers("worker
+      - HTML DOM
 ---
+
+{{Deprecated_Header}}{{AvailableInWorkers("worker")}}
 
 Returns either `"4.0"` or a string representing version information about
 the browser.

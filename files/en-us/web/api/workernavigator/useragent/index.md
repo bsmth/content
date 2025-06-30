@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.userAgent
 sidebar:
   - apiref:
-      - HTML DOM")}}{{AvailableInWorkers("worker
+      - HTML DOM
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`WorkerNavigator.userAgent`** read-only property returns the
 user agent string for the current browser.

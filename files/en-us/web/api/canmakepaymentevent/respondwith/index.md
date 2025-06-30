@@ -8,8 +8,10 @@ status:
 browser-compat: api.CanMakePaymentEvent.respondWith
 sidebar:
   - apiref:
-      - Payment Handler API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
+      - Payment Handler API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`respondWith()`** method of the {{domxref("CanMakePaymentEvent")}} interface enables the service worker to respond appropriately to signal whether it is ready to handle payments.
 

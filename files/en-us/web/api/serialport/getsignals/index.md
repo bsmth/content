@@ -8,10 +8,10 @@ status:
 browser-compat: api.SerialPort.getSignals
 sidebar:
   - apiref:
-      - Web Serial API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
+      - Web Serial API
 ---
 
-{{SecureContext_Header}}
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`SerialPort.getSignals()`** method of the {{domxref("SerialPort")}} interface returns a {{jsxref("Promise")}} that resolves with an object containing the current state of the port's control signals.
 

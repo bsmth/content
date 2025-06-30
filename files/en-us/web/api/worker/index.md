@@ -5,8 +5,10 @@ page-type: web-api-interface
 browser-compat: api.Worker
 sidebar:
   - apiref:
-      - Web Workers API")}}{{AvailableInWorkers("window_and_worker_except_service
+      - Web Workers API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`Worker`** interface of the [Web Workers API](/en-US/docs/Web/API/Web_Workers_API) represents a background task that can be created via script, which can send messages back to its creator.
 

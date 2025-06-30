@@ -5,8 +5,10 @@ page-type: web-api-interface
 browser-compat: api.CookieStoreManager
 sidebar:
   - apiref:
-      - Cookie Store API")}}{{AvailableInWorkers("window_and_service
+      - Cookie Store API
 ---
+
+{{AvailableInWorkers("window_and_service")}}
 
 {{securecontext_header}}
 

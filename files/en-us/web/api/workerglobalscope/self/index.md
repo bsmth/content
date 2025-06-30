@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerGlobalScope.self
 sidebar:
   - apiref:
-      - Web Workers API")}}{{AvailableInWorkers("worker
+      - Web Workers API
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`self`** read-only property of the {{domxref("WorkerGlobalScope")}} interface returns a reference to the `WorkerGlobalScope` itself. Most of the time it is a specific scope like {{domxref("DedicatedWorkerGlobalScope")}}, {{domxref("SharedWorkerGlobalScope")}}, or {{domxref("ServiceWorkerGlobalScope")}}.
 

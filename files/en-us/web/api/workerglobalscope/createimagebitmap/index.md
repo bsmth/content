@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.createImageBitmap
 sidebar:
   - apiref:
-      - Canvas API")}}{{AvailableInWorkers("worker
+      - Canvas API
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`createImageBitmap()`** method of the {{domxref("WorkerGlobalScope")}} interface creates a bitmap from a given source, optionally cropped to contain only a portion of that source.
 It accepts a variety of different image sources, and returns a {{jsxref("Promise")}} which resolves to an {{domxref("ImageBitmap")}}.

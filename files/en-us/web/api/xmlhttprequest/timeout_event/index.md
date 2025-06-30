@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.XMLHttpRequest.timeout_event
 sidebar:
   - apiref:
-      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
+      - XMLHttpRequest API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`timeout`** event is fired when progression is terminated due to preset time expiring.
 

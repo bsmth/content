@@ -8,8 +8,10 @@ status:
 browser-compat: api.PaymentRequestEvent.respondWith
 sidebar:
   - apiref:
-      - Payment Handler API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
+      - Payment Handler API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`respondWith()`** method of the {{domxref("PaymentRequestEvent")}} interface prevents the default event handling and allows you to provide a {{jsxref("Promise")}} for a payment handler response object yourself.
 

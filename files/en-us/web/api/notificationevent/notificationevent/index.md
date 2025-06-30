@@ -6,8 +6,10 @@ page-type: web-api-constructor
 browser-compat: api.NotificationEvent.NotificationEvent
 sidebar:
   - apiref:
-      - Web Notifications")}}{{AvailableInWorkers("service
+      - Web Notifications
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`NotificationEvent()`** constructor creates a new {{domxref("NotificationEvent")}} object.
 

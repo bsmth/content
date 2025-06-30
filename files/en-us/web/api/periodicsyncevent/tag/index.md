@@ -8,8 +8,10 @@ status:
 browser-compat: api.PeriodicSyncEvent.tag
 sidebar:
   - apiref:
-      - Periodic Background Sync")}}{{SeeCompatTable}}{{AvailableInWorkers("service
+      - Periodic Background Sync
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`tag`** read-only property of the
 {{domxref("PeriodicSyncEvent")}} interface returns the developer-defined identifier for

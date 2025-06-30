@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.atob
 sidebar:
   - apiref:
-      - HTML DOM")}}{{AvailableInWorkers("worker
+      - HTML DOM
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`atob()`** method of the {{domxref("WorkerGlobalScope")}} interface decodes a
 string of data which has been encoded using {{glossary("Base64")}} encoding. You can use

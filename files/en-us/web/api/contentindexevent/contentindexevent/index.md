@@ -8,8 +8,10 @@ status:
 browser-compat: api.ContentIndexEvent.ContentIndexEvent
 sidebar:
   - apiref:
-      - Content Index API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
+      - Content Index API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`ContentIndexEvent()`** constructor creates a new {{domxref("ContentIndexEvent")}} object
 whose type and other options are configured as specified.

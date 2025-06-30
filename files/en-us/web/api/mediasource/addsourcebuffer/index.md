@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.MediaSource.addSourceBuffer
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`addSourceBuffer()`** method of the
 {{domxref("MediaSource")}} interface creates a new {{domxref("SourceBuffer")}} of the

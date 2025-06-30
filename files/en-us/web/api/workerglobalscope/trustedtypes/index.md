@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.trustedTypes
 sidebar:
   - apiref:
-      - Trusted Types API")}}{{AvailableInWorkers("worker
+      - Trusted Types API
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`trustedTypes`** read-only property of the {{domxref("WorkerGlobalScope")}} interface returns the {{domxref("TrustedTypePolicyFactory")}} object associated with the global object, providing the entry point for using the {{domxref("Trusted Types API", "", "", "nocode")}}.
 

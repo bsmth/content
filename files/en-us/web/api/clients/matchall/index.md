@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.Clients.matchAll
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`matchAll()`** method of the {{domxref("Clients")}}
 interface returns a {{jsxref("Promise")}} for a list of service worker

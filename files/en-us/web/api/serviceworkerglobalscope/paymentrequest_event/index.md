@@ -8,8 +8,10 @@ status:
 browser-compat: api.ServiceWorkerGlobalScope.paymentrequest_event
 sidebar:
   - apiref:
-      - Payment Handler API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Payment Handler API
 ---
+
+{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`paymentrequest`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface is fired on a payment app when a payment flow has been initiated on the merchant website via the {{domxref("PaymentRequest.show()")}} method.
 

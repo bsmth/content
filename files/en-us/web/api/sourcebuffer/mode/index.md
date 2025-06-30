@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.SourceBuffer.mode
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`mode`** property of the {{domxref("SourceBuffer")}}
 interface controls whether media segments can be appended to the

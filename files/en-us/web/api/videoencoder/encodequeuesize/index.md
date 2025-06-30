@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.VideoEncoder.encodeQueueSize
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{securecontext_header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`encodeQueueSize`** read-only property of the {{domxref("VideoEncoder")}} interface returns the number of pending encode requests in the queue.
 

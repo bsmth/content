@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.VideoFrame.clone
 sidebar:
   - apiref:
-      - Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - Web Codecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`clone()`** method of the {{domxref("VideoFrame")}} interface creates a new `VideoFrame` object referencing the same media resource as the original.
 

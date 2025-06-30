@@ -6,8 +6,10 @@ page-type: web-api-static-method
 browser-compat: api.AudioDecoder.isConfigSupported_static
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{securecontext_header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`isConfigSupported()`** static method of the {{domxref("AudioDecoder")}} interface checks if the given config is supported (that is, if {{domxref("AudioDecoder")}} objects can be successfully configured with the given config).
 

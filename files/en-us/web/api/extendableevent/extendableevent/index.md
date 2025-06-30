@@ -6,8 +6,10 @@ page-type: web-api-constructor
 browser-compat: api.ExtendableEvent.ExtendableEvent
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`ExtendableEvent()`** constructor creates a new {{domxref("ExtendableEvent")}} object.
 

@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.serviceWorker
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("worker
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("worker")}}
 
 {{securecontext_header}}
 

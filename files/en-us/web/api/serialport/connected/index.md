@@ -8,10 +8,10 @@ status:
 browser-compat: api.SerialPort.connected
 sidebar:
   - apiref:
-      - Web Serial API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated
+      - Web Serial API
 ---
 
-{{SecureContext_Header}}
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}{{securecontext_header}}
 
 The **`connected`** read-only property of the {{domxref("SerialPort")}} interface returns a boolean value that indicates whether the port is [logically connected](/en-US/docs/Web/API/SerialPort/connect_event#description) to the device.
 

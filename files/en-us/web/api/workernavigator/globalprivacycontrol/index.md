@@ -8,8 +8,10 @@ status:
 browser-compat: api.WorkerNavigator.globalPrivacyControl
 sidebar:
   - apiref:
-      - DOM")}}{{SeeCompatTable}}{{AvailableInWorkers("worker
+      - DOM
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("worker")}}
 
 The **`WorkerNavigator.globalPrivacyControl`** read-only property returns the user's [Global Privacy Control](https://globalprivacycontrol.org/) setting for the current website.
 This setting indicates whether the user consents to the website or service selling or sharing their personal information with third parties.

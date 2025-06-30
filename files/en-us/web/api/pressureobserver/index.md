@@ -7,8 +7,10 @@ status:
 browser-compat: api.PressureObserver
 sidebar:
   - apiref:
-      - Compute Pressure API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_service
+      - Compute Pressure API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_service")}}
 
 {{securecontext_header}}
 

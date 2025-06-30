@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerNavigator.locks
 sidebar:
   - apiref:
-      - Web Locks API")}}{{securecontext_header}}{{AvailableInWorkers("worker
+      - Web Locks API
 ---
+
+{{securecontext_header}}{{AvailableInWorkers("worker")}}
 
 The **`locks`** read-only property of
 the {{domxref("WorkerNavigator")}} interface returns a {{domxref("LockManager")}}

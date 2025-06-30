@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerGlobalScope.fonts
 sidebar:
   - apiref:
-      - DOM")}}{{AvailableInWorkers("worker
+      - DOM
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`fonts`** property of the {{domxref("WorkerGlobalScope")}} interface returns the {{domxref("FontFaceSet")}} interface of the worker.
 

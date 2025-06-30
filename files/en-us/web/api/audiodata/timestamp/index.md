@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.AudioData.timestamp
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`timestamp`** read-only property of the {{domxref("AudioData")}} interface returns the timestamp of this `AudioData` object.
 

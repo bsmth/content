@@ -6,8 +6,10 @@ page-type: web-api-constructor
 browser-compat: api.XMLHttpRequest.XMLHttpRequest
 sidebar:
   - apiref:
-      - XMLHttpRequest API")}} {{AvailableInWorkers("window_and_worker_except_service
+      - XMLHttpRequest API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The **`XMLHttpRequest()`** constructor
 creates a new {{domxref("XMLHttpRequest")}}.

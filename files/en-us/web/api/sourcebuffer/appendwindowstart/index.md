@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.SourceBuffer.appendWindowStart
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`appendWindowStart`** property of the
 {{domxref("SourceBuffer")}} interface controls the timestamp for the start of the [append window](https://w3c.github.io/media-source/#append-window), a

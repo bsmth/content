@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.WorkerLocation.hostname
 sidebar:
   - apiref:
-      - WorkerLocation")}}{{AvailableInWorkers("worker
+      - WorkerLocation
 ---
+
+{{AvailableInWorkers("worker")}}
 
 The **`hostname`** property of a {{domxref("WorkerLocation")}} object returns the {{domxref("URL.hostname", "hostname")}} part of the worker's location.
 

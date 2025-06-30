@@ -6,8 +6,10 @@ page-type: web-api-constructor
 browser-compat: api.MediaSource.MediaSource
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`MediaSource()`** constructor of the
 {{domxref("MediaSource")}} interface constructs and returns a new

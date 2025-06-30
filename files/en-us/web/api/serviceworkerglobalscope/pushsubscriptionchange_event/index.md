@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.pushsubscriptionchange_event
 sidebar:
   - apiref:
-      - Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Push API
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`pushsubscriptionchange`** event is sent to the [global scope](/en-US/docs/Web/API/ServiceWorkerGlobalScope) of a {{domxref("ServiceWorker")}} to indicate a change in push subscription that was triggered outside the application's control.
 

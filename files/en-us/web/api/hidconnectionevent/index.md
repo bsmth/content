@@ -7,8 +7,10 @@ status:
 browser-compat: api.HIDConnectionEvent
 sidebar:
   - apiref:
-      - WebHID API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared
+      - WebHID API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("window_and_worker_except_shared")}}
 
 {{securecontext_header}}
 

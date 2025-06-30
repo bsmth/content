@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.FileSystemFileHandle.createSyncAccessHandle
 sidebar:
   - apiref:
-      - File System API")}}{{AvailableInWorkers("dedicated
+      - File System API
 ---
+
+{{AvailableInWorkers("dedicated")}}
 
 {{securecontext_header}}
 

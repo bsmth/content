@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.Client.frameType
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`frameType`** read-only property of the {{domxref("Client")}} interface indicates the type of browsing context of the current {{domxref("Client")}}. This value can be one of `"auxiliary"`, `"top-level"`, `"nested"`, or `"none"`.
 

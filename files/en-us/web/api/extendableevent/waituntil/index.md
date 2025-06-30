@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.ExtendableEvent.waitUntil
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`ExtendableEvent.waitUntil()`**
 method tells the event dispatcher that work is ongoing. It can also be used to detect

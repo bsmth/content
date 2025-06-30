@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.FetchEvent.clientId
 sidebar:
   - apiref:
-      - Service Workers API")}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{AvailableInWorkers("service")}}
 
 The **`clientId`** read-only property of the
 {{domxref("FetchEvent")}} interface returns the id of the {{domxref("Client")}} that the

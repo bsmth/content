@@ -8,8 +8,10 @@ status:
 browser-compat: api.PeriodicSyncEvent.PeriodicSyncEvent
 sidebar:
   - apiref:
-      - Periodic Background Sync")}}{{SeeCompatTable}}{{AvailableInWorkers("service
+      - Periodic Background Sync
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`PeriodicSyncEvent()`** constructor
 creates a new {{domxref("PeriodicSyncEvent")}} object. This constructor is not typically

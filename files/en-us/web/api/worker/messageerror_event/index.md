@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.Worker.messageerror_event
 sidebar:
   - apiref:
-      - Web Workers API")}}{{AvailableInWorkers("window_and_worker_except_service
+      - Web Workers API
 ---
+
+{{AvailableInWorkers("window_and_worker_except_service")}}
 
 The `messageerror` event is fired on a {{domxref('Worker')}} object when it receives a message that can't be deserialized.
 

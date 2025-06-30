@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.messageerror_event
 sidebar:
   - apiref:
-      - Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`messageerror`** event of the {{domxref("ServiceWorkerGlobalScope")}} interface occurs when incoming messages can't be deserialized.
 

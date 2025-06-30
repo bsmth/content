@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.MediaSource.setLiveSeekableRange
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`setLiveSeekableRange()`** method of the
 {{domxref("MediaSource")}} interface sets the range that the user can seek to in the

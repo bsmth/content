@@ -7,8 +7,10 @@ status:
 browser-compat: api.ContentIndexEvent
 sidebar:
   - apiref:
-      - Content Index API")}}{{SeeCompatTable}}{{AvailableInWorkers("service
+      - Content Index API
 ---
+
+{{SeeCompatTable}}{{AvailableInWorkers("service")}}
 
 The **`ContentIndexEvent`** interface of the [content index](/en-US/docs/Web/API/Content_Index_API) defines the object used to represent the {{domxref("ServiceWorkerGlobalScope.contentdelete_event", 'contentdelete')}} event.
 

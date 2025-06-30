@@ -6,8 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.VideoEncoder.reset
 sidebar:
   - apiref:
-      - WebCodecs API")}}{{SecureContext_Header}}{{AvailableInWorkers("window_and_dedicated
+      - WebCodecs API
 ---
+
+{{securecontext_header}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`reset()`** method of the {{domxref("VideoEncoder")}} interface synchronously cancels all pending encodes and callbacks, frees all underlying resources and sets the {{domxref("VideoEncoder.state", "state")}} to "unconfigured".
 After calling `reset()`, {{domxref("VideoEncoder.configure()", "configure()")}} must be called before resuming {{domxref("VideoEncoder.encode()", "encode()")}} calls.

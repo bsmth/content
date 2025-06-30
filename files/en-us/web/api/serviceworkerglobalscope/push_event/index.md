@@ -6,8 +6,10 @@ page-type: web-api-event
 browser-compat: api.ServiceWorkerGlobalScope.push_event
 sidebar:
   - apiref:
-      - Push API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Push API
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`push`** event is sent to a service worker's global scope (represented by the {{domxref("ServiceWorkerGlobalScope")}} interface) when the service worker has received a push message.
 

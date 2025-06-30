@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.SourceBuffer.videoTracks
 sidebar:
   - apiref:
-      - Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated
+      - Media Source Extensions
 ---
+
+{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`videoTracks`** read-only property of the
 {{domxref("SourceBuffer")}} interface returns a list of the video tracks currently

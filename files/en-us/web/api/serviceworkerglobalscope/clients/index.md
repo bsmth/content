@@ -6,8 +6,10 @@ page-type: web-api-instance-property
 browser-compat: api.ServiceWorkerGlobalScope.clients
 sidebar:
   - apiref:
-      - Service Workers API")}}{{SecureContext_Header}}{{AvailableInWorkers("service
+      - Service Workers API
 ---
+
+{{SecureContext_Header}}{{AvailableInWorkers("service")}}
 
 The **`clients`** read-only property of the
 {{domxref("ServiceWorkerGlobalScope")}} interface returns the [`Clients`](/en-US/docs/Web/API/Clients)
