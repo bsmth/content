@@ -2,9 +2,10 @@
 title: Equality comparisons and sameness
 slug: Web/JavaScript/Guide/Equality_comparisons_and_sameness
 page-type: guide
+sidebar:
+  - jssidebar:
+      - Intermediate
 ---
-
-{{jsSidebar("Intermediate")}}
 
 JavaScript provides three different value-comparison operations:
 

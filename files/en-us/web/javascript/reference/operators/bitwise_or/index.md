@@ -3,9 +3,10 @@ title: Bitwise OR (|)
 slug: Web/JavaScript/Reference/Operators/Bitwise_OR
 page-type: javascript-operator
 browser-compat: javascript.operators.bitwise_or
+sidebar:
+  - jssidebar:
+      - Operators
 ---
-
-{{jsSidebar("Operators")}}
 
 The **bitwise OR (`|`)** operator returns a number or BigInt whose binary representation has a `1` in each bit position for which the corresponding bits of either or both operands are `1`.
 

@@ -3,9 +3,10 @@ title: parseFloat()
 slug: Web/JavaScript/Reference/Global_Objects/parseFloat
 page-type: javascript-function
 browser-compat: javascript.builtins.parseFloat
+sidebar:
+  - jssidebar:
+      - Objects
 ---
-
-{{jsSidebar("Objects")}}
 
 The **`parseFloat()`** function parses a string argument and returns a floating point number.
 

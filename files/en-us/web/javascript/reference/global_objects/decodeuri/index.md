@@ -3,9 +3,10 @@ title: decodeURI()
 slug: Web/JavaScript/Reference/Global_Objects/decodeURI
 page-type: javascript-function
 browser-compat: javascript.builtins.decodeURI
+sidebar:
+  - jssidebar:
+      - Objects
 ---
-
-{{jsSidebar("Objects")}}
 
 The **`decodeURI()`** function decodes a Uniform Resource Identifier (URI) previously created by {{jsxref("encodeURI()")}} or a similar routine.
 

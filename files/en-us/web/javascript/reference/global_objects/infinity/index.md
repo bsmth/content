@@ -3,9 +3,10 @@ title: Infinity
 slug: Web/JavaScript/Reference/Global_Objects/Infinity
 page-type: javascript-global-property
 browser-compat: javascript.builtins.Infinity
+sidebar:
+  - jssidebar:
+      - Objects
 ---
-
-{{jsSidebar("Objects")}}
 
 The **`Infinity`** global property is a numeric value representing infinity.
 

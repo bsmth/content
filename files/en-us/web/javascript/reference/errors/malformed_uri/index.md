@@ -2,9 +2,10 @@
 title: "URIError: malformed URI sequence"
 slug: Web/JavaScript/Reference/Errors/Malformed_URI
 page-type: javascript-error
+sidebar:
+  - jssidebar:
+      - Errors
 ---
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "malformed URI sequence" occurs when URI encoding or decoding
 wasn't successful.

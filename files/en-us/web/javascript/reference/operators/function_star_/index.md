@@ -3,9 +3,10 @@ title: function* expression
 slug: Web/JavaScript/Reference/Operators/function*
 page-type: javascript-operator
 browser-compat: javascript.operators.generator_function
+sidebar:
+  - jssidebar:
+      - Operators
 ---
-
-{{jsSidebar("Operators")}}
 
 The **`function*`** keyword can be used to define a generator function inside an expression.
 

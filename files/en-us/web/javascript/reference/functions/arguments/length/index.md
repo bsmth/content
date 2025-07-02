@@ -4,9 +4,10 @@ short-title: length
 slug: Web/JavaScript/Reference/Functions/arguments/length
 page-type: javascript-instance-data-property
 browser-compat: javascript.functions.arguments.length
+sidebar:
+  - jssidebar:
+      - Functions
 ---
-
-{{jsSidebar("Functions")}}
 
 The **`arguments.length`** data property contains the number of arguments passed to the function.
 

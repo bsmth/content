@@ -3,9 +3,10 @@ title: Grouping operator ( )
 slug: Web/JavaScript/Reference/Operators/Grouping
 page-type: javascript-operator
 browser-compat: javascript.operators.grouping
+sidebar:
+  - jssidebar:
+      - Operators
 ---
-
-{{jsSidebar("Operators")}}
 
 The **grouping `( )`** operator controls the precedence of evaluation in expressions. It also acts as a container for arbitrary expressions in certain syntactic constructs, where ambiguity or syntax errors would otherwise occur.
 

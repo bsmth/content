@@ -3,9 +3,10 @@ title: import()
 slug: Web/JavaScript/Reference/Operators/import
 page-type: javascript-operator
 browser-compat: javascript.operators.import
+sidebar:
+  - jssidebar:
+      - Operators
 ---
-
-{{jsSidebar("Operators")}}
 
 The **`import()`** syntax, commonly called _dynamic import_, is a function-like expression that allows loading an ECMAScript module asynchronously and dynamically into a potentially non-module environment.
 

@@ -3,9 +3,10 @@ title: Multiplication (*)
 slug: Web/JavaScript/Reference/Operators/Multiplication
 page-type: javascript-operator
 browser-compat: javascript.operators.multiplication
+sidebar:
+  - jssidebar:
+      - Operators
 ---
-
-{{jsSidebar("Operators")}}
 
 The **multiplication (`*`)** operator produces the product of the operands.
 

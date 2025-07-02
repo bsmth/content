@@ -2,9 +2,10 @@
 title: "SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead"
 slug: Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma
 page-type: javascript-error
+sidebar:
+  - jssidebar:
+      - Errors
 ---
-
-{{jsSidebar("Errors")}}
 
 The JavaScript warning "Using `//@` to indicate sourceURL pragmas is deprecated. Use `//#` instead" occurs when there is a deprecated source map syntax in a JavaScript source.
 

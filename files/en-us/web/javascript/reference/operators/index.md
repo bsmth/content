@@ -3,9 +3,10 @@ title: Expressions and operators
 slug: Web/JavaScript/Reference/Operators
 page-type: landing-page
 browser-compat: javascript.operators
+sidebar:
+  - jssidebar:
+      - Operators
 ---
-
-{{jsSidebar("Operators")}}
 
 This chapter documents all the JavaScript language operators, expressions and keywords.
 

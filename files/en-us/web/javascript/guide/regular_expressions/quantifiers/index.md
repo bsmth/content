@@ -2,9 +2,10 @@
 title: Quantifiers
 slug: Web/JavaScript/Guide/Regular_expressions/Quantifiers
 page-type: guide
+sidebar:
+  - jssidebar:
+      - JavaScript Guide
 ---
-
-{{jsSidebar("JavaScript Guide")}}
 
 Quantifiers indicate numbers of characters or expressions to match.
 

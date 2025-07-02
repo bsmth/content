@@ -3,9 +3,10 @@ title: Strict inequality (!==)
 slug: Web/JavaScript/Reference/Operators/Strict_inequality
 page-type: javascript-operator
 browser-compat: javascript.operators.strict_inequality
+sidebar:
+  - jssidebar:
+      - Operators
 ---
-
-{{jsSidebar("Operators")}}
 
 The **strict inequality (`!==`)** operator checks whether its two operands are
 not equal, returning a Boolean result. Unlike the [inequality](/en-US/docs/Web/JavaScript/Reference/Operators/Inequality)

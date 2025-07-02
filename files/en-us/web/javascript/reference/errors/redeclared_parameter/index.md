@@ -2,9 +2,10 @@
 title: 'SyntaxError: redeclaration of formal parameter "x"'
 slug: Web/JavaScript/Reference/Errors/Redeclared_parameter
 page-type: javascript-error
+sidebar:
+  - jssidebar:
+      - Errors
 ---
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "redeclaration of formal parameter" occurs when the same
 variable name occurs as a function parameter and is then redeclared using a

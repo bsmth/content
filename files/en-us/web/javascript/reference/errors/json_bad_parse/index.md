@@ -2,9 +2,10 @@
 title: "SyntaxError: JSON.parse: bad parsing"
 slug: Web/JavaScript/Reference/Errors/JSON_bad_parse
 page-type: javascript-error
+sidebar:
+  - jssidebar:
+      - Errors
 ---
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exceptions thrown by {{jsxref("JSON.parse()")}} occur when string failed
 to be parsed as JSON.

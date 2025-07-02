@@ -3,9 +3,10 @@ title: yield
 slug: Web/JavaScript/Reference/Operators/yield
 page-type: javascript-operator
 browser-compat: javascript.operators.yield
+sidebar:
+  - jssidebar:
+      - Operators
 ---
-
-{{jsSidebar("Operators")}}
 
 The **`yield`** operator is used to pause and resume a [generator function](/en-US/docs/Web/JavaScript/Reference/Statements/function*).
 

@@ -2,9 +2,10 @@
 title: "SyntaxError: incomplete quantifier in regular expression"
 slug: Web/JavaScript/Reference/Errors/Regex_incomplete_quantifier
 page-type: javascript-error
+sidebar:
+  - jssidebar:
+      - Errors
 ---
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "incomplete quantifier in regular expression" occurs when a regular expression pattern contains a `{`, but it does not start a valid [quantifier](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier).
 

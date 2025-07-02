@@ -2,9 +2,10 @@
 title: "SyntaxError: function statement requires a name"
 slug: Web/JavaScript/Reference/Errors/Unnamed_function_statement
 page-type: javascript-error
+sidebar:
+  - jssidebar:
+      - Errors
 ---
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "function statement requires a name" occurs
 when there is a [function statement](/en-US/docs/Web/JavaScript/Reference/Statements/function)

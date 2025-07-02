@@ -3,9 +3,10 @@ title: function
 slug: Web/JavaScript/Reference/Statements/function
 page-type: javascript-statement
 browser-compat: javascript.statements.function
+sidebar:
+  - jssidebar:
+      - Statements
 ---
-
-{{jsSidebar("Statements")}}
 
 The **`function`** declaration creates a {{Glossary("binding")}} of a new function to a given name.
 

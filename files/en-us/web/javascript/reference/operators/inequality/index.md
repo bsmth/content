@@ -3,9 +3,10 @@ title: Inequality (!=)
 slug: Web/JavaScript/Reference/Operators/Inequality
 page-type: javascript-operator
 browser-compat: javascript.operators.inequality
+sidebar:
+  - jssidebar:
+      - Operators
 ---
-
-{{jsSidebar("Operators")}}
 
 The **inequality (`!=`)** operator checks whether its two operands are not
 equal, returning a Boolean result.
