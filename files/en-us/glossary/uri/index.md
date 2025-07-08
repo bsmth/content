@@ -2,9 +2,8 @@
 title: URI
 slug: Glossary/URI
 page-type: glossary-definition
+sidebar: glossary
 ---
-
-{{GlossarySidebar}}
 
 A **URI** _(Uniform Resource Identifier)_ is a string that refers to a resource.
 

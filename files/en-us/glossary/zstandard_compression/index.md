@@ -2,9 +2,8 @@
 title: Zstandard compression
 slug: Glossary/Zstandard_compression
 page-type: glossary-definition
+sidebar: glossary
 ---
-
-{{GlossarySidebar}}
 
 **Zstandard** is a general-purpose lossless compression algorithm.
 

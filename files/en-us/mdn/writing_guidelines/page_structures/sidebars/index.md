@@ -129,7 +129,7 @@ When a list item has `children` and `details` specified, it is rendered with a {
 
 ### Automatically rendering a subpage list
 
-If you want to create a list containing links to a particular page's subpages, you can generate this by specifying a list item with a `type` key of value `listSubPages`, and a `path` key whose value is the path to the page whose subpages you want to generate links to. For example, the entire [Glossary](/en-US/docs/Glossary) sidebar definition (see [`glossarysidebar.yaml`](https://github.com/mdn/content/blob/main/files/sidebars/glossarysidebar.yaml)) looks like this:
+If you want to create a list containing links to a particular page's subpages, you can generate this by specifying a list item with a `type` key of value `listSubPages`, and a `path` key whose value is the path to the page whose subpages you want to generate links to. For example, the entire [Glossary](/en-US/docs/Glossary) sidebar definition (see [`glossary.yaml`](https://github.com/mdn/content/blob/main/files/sidebars/glossary.yaml)) looks like this:
 
 ```yaml
 sidebar:

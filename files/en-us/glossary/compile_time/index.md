@@ -2,9 +2,8 @@
 title: Compile time
 slug: Glossary/Compile_time
 page-type: glossary-definition
+sidebar: glossary
 ---
-
-{{GlossarySidebar}}
 
 **Compile time** is the time from when the program is first loaded until the program is {{Glossary("parse","parsed")}}.
 

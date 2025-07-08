@@ -2,9 +2,8 @@
 title: Falsy
 slug: Glossary/Falsy
 page-type: glossary-definition
+sidebar: glossary
 ---
-
-{{GlossarySidebar}}
 
 <!-- cSpell:ignore falsey -->
 
