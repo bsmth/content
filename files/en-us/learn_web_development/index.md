@@ -5,20 +5,21 @@ page-type: landing-page
 sidebar: learnsidebar
 ---
 
-## The essential skill set for new front-end developers
-
-Welcome to MDN **Learning Web Development** (also known as **Learn**). This resource provides a structured set of tutorials teaching the essential skills and practices for being a successful front-end developer, along with challenges and further recommended resources.
+These resources provide a structured set of tutorials teaching the essential skills and practices for being a successful web developer, along with challenges and recommended resources.
 
 ## About Learn web development
 
-- Teaches the essential skills and knowledge every front-end developer needs for career success and industry relevance, as defined in the [MDN Curriculum](/en-US/curriculum/).
+Welcome to MDN **Learn Web Development** (also known as **Learn**), which contains everything you need to get started as a new web developer.
+These resources are:
+
+- The essential skills and knowledge every front-end developer needs for career success and industry relevance, as defined in the [MDN Curriculum](/en-US/curriculum/).
 
 - Created by the MDN community and refined with insights from students, educators, and developers from the broader web community.
 
 - Designed to take you from "beginner" to "comfortable" (not "beginner" to "expert"), giving you enough knowledge to use more advanced resources (such as [the rest of MDN](/en-US/)).
 
 > [!NOTE]
-> Last updated: December 2024 ([see changelog](/en-US/docs/Learn_web_development/Changelog)).
+> Last major revision: December 2024 ([see changelog](/en-US/docs/Learn_web_development/Changelog)).
 
 ## Don't know where to get started?
 

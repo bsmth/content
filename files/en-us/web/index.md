@@ -24,6 +24,8 @@ The open Web presents incredible opportunities for developers. To take full adva
   - : Protecting users from data leaks and data theft, side-channel attacks, and attacks such as cross-site scripting, content injection, and click-jacking.
 - [Glossary](/en-US/docs/Glossary)
   - : Definitions of Web-related terms.
+- [Learn web development](/en-US/docs/Learn_web_development)
+  - : A structured set of tutorials teaching the essential skills and practices for being a successful web developer, along with challenges and recommended resources.
 
 ## Web technology references
 
@@ -67,6 +69,18 @@ The open Web presents incredible opportunities for developers. To take full adva
   - : XPath uses a non-XML syntax to provide a flexible way of addressing (pointing to) different parts of an [XML](/en-US/docs/Web/XML/Guides/XML_introduction) document. It can also be used to test addressed nodes within a document to determine whether they match a pattern or not.
 - [EXSLT](/en-US/docs/Web/XML/EXSLT)
   - : EXSLT a set of extensions to [XSLT](/en-US/docs/Web/XML/XSLT).
+
+## Other resources
+
+- [MDN](/en-US/docs/MDN)
+  - : MDN Web Docs meta-docs, with information about how the site works, how we write documentation, the guidelines and conventions we follow, and how you can get involved.
+- [Mozilla](/en-US/docs/Mozilla)
+  - : This section includes comprehensive Firefox release notes for developers, and a site section dedicated to add-ons (browser extensions) with examples, guides, and browser compatibility data.
+- [Games](/en-US/docs/Games)
+  - : This section describes the technologies you can use to develop fun, interactive games that can be run in any standards-compliant web browser.
+- [Related](/en-US/docs/Related)
+  - : Web-related technologies that aren't central to MDN, but are related to the web and of interest to web developers.
+    Currently limited to IMSC (subtitles and captioning for the Web) documentation.
 
 ## Developer tools documentation
 
