@@ -90,11 +90,27 @@ In this example, we use extra `<span>`s for generated content to provide indicat
 </form>
 ```
 
-To provide these indicators, we use the following CSS:
+We set the `<span>`s to `position: relative` so that we can position generated content relative to them.
+We absolutely-position generated content depending on whether the form's data is valid or invalid — a green check or a red cross, respectively.
+To highlight the invalid data, we've also given the inputs a thick red border when invalid:
+
+> [!NOTE]
+> We've used `::before` to add these labels, as we were already using `::after` for the "required" labels.
 
 ```css
 input + span {
   position: relative;
+}
+
+input:required + span::after {
+  font-size: 0.8rem;
+  position: absolute;
+  content: "required";
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  top: -26px;
+  left: -70px;
 }
 
 input + span::before {
@@ -169,31 +185,16 @@ input + span {
   position: relative;
 }
 
-input:required + span::after {
-  font-size: 0.8rem;
-  position: absolute;
-  content: "required";
-  color: white;
-  background-color: black;
-  padding: 5px 10px;
-  top: -26px;
-  left: -70px;
-}
-
 button {
   width: 60%;
   margin: 0 auto;
 }
 ```
 
-We set the `<span>`s to `position: relative` so that we can position the generated content relative to them. We then absolutely position different generated content depending on whether the form's data is valid or invalid — a green check or a red cross, respectively. To add a bit of extra urgency to the invalid data, we've also given the inputs a thick red border when invalid.
+Notice how the required text inputs are invalid when empty, but valid when they have something filled in.
+The email input is valid when empty (it's not required), but invalid when it contains something that is not [a valid email address](/en-US/docs/Web/HTML/Reference/Elements/input/email#basic_validation):
 
-> [!NOTE]
-> We've used `::before` to add these labels, as we were already using `::after` for the "required" labels.
-
-{{embedlivesample("", , "430")}}
-
-Notice how the required text inputs are invalid when empty, but valid when they have something filled in. The email input on the other hand is valid when empty, as it is not required, but invalid when it contains something that is not a proper email address.
+{{embedlivesample("indicating_valid_and_invalid_form_fields", , "430")}}
 
 ## Specifications
 
