@@ -43,297 +43,168 @@ How an `<input>` works varies considerably depending on the value of its [`type`
 
 The available types are as follows:
 
-<table class="no-markdown">
-  <colgroup>
-    <col />
-    <col style="width: 50%" />
-    <col />
-  </colgroup>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Description</th>
-      <th>Basic Examples</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>{{HTMLElement("input/button", "button")}}</td>
-      <td>
-        A push button with no default behavior displaying the value of the <a href="#value"><code>value</code></a> attribute, empty by default.
-      </td>
-      <td id="examplebutton">
-        <pre class="brush: html hidden">
-&#x3C;input type="button" name="button" value="Button" /></pre>
-        {{EmbedLiveSample("examplebutton",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/checkbox", "checkbox")}}</td>
-      <td>A check box allowing single values to be selected/deselected.</td>
-      <td id="examplecheckbox">
-        <pre class="brush: html hidden">
-&#x3C;input type="checkbox" name="checkbox"/></pre>
-        {{EmbedLiveSample("examplecheckbox",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/color", "color")}}</td>
-      <td>
-        A control for specifying a color; opening a color picker when active in supporting browsers.
-      </td>
-      <td id="examplecolor">
-        <pre class="brush: html hidden">
-&#x3C;input type="color" name="color"/></pre>
-        {{EmbedLiveSample("examplecolor",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/date", "date")}}</td>
-      <td>
-        A control for entering a date (year, month, and day, with no time).
-        Opens a date picker or numeric wheels for year, month, day when active
-        in supporting browsers.
-      </td>
-      <td id="exampledate">
-        <pre class="brush: html hidden">
-&#x3C;input type="date" name="date"/></pre>
-        {{EmbedLiveSample("exampledate",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        {{HTMLElement("input/datetime-local", "datetime-local")}}
-      </td>
-      <td>
-        A control for entering a date and time, with no time zone. Opens a date
-        picker or numeric wheels for date- and time-components when active in supporting browsers.
-      </td>
-      <td id="exampledtl">
-        <pre class="brush: html hidden">
-&#x3C;input type="datetime-local" name="datetime-local"/></pre>
-        {{EmbedLiveSample("exampledtl",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/email", "email")}}</td>
-      <td>
-        A field for editing an email address. Looks like a
-        <code>text</code> input, but has validation parameters and relevant
-        keyboard in supporting browsers and devices with dynamic keyboards.
-      </td>
-      <td id="exampleemail">
-        <pre class="brush: html hidden">
-&#x3C;input type="email" name="email"/></pre>
-        {{EmbedLiveSample("exampleemail",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/file", "file")}}</td>
-      <td>
-        A control that lets the user select a file.
-        Use the <a href="#accept"><code>accept</code></a> attribute to define the types of files that the control can select.
-      </td>
-      <td id="examplefile">
-        <pre class="brush: html hidden">
-&#x3C;input type="file" accept="image/*, text/*" name="file"/></pre>
-        {{EmbedLiveSample("examplefile",'100%',55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/hidden", "hidden")}}</td>
-      <td>
-        A control that is not displayed but whose value is submitted to the
-        server. There is an example in the next column, but it's hidden!
-      </td>
-      <td id="examplehidden">
-        <pre class="brush: html hidden">
-&#x3C;input id="userId" name="userId" type="hidden" value="abc123"></pre
-        >
-        {{EmbedLiveSample("examplehidden",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/image", "image")}}</td>
-      <td>
-        A graphical <code>submit</code> button. Displays an image defined by the <code>src</code> attribute.
-        The <a href="#alt"><code>alt</code></a> attribute displays if the image <a href="#src"><code>src</code></a> is missing.
-      </td>
-      <td id="exampleimage">
-        <pre class="brush: html hidden">
-&#x3C;input type="image" name="image" src="" alt="image input"/></pre>
-        {{EmbedLiveSample("exampleimage",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/month", "month")}}</td>
-      <td>A control for entering a month and year, with no time zone.</td>
-      <td id="examplemonth">
-        <pre class="brush: html hidden">
-&#x3C;input type="month" name="month"/></pre>
-        {{EmbedLiveSample("examplemonth",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/number", "number")}}</td>
-      <td>
-        A control for entering a number. Displays a spinner and adds default
-        validation. Displays a numeric keypad in some devices
-        with dynamic keypads.
-      </td>
-      <td id="examplenumber">
-        <pre class="brush: html hidden">
-&#x3C;input type="number" name="number"/></pre>
-        {{EmbedLiveSample("examplenumber",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/password", "password")}}</td>
-      <td>
-        A single-line text field whose value is obscured.
-        Will alert user if site is not secure.
-      </td>
-      <td id="examplepassword">
-        <pre class="brush: html hidden">
-&#x3C;input type="password" name="password"/></pre>
-        {{EmbedLiveSample("examplepassword",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/radio", "radio")}}</td>
-      <td>
-        A radio button, allowing a single value to be selected out of multiple choices with the same <a href="#name"><code>name</code></a> value.
-      </td>
-      <td id="exampleradio">
-        <pre class="brush: html hidden">
-&#x3C;input type="radio" name="radio"/></pre
-        >
-        {{EmbedLiveSample("exampleradio",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/range", "range")}}</td>
-      <td>
-        A control for entering a number whose exact value is not important.
-        Displays as a range widget defaulting to the middle value.
-        Used in conjunction <a href="#min"><code>min</code></a> and <a href="#max"><code>max</code></a> to define the range of acceptable values.
-      </td>
-      <td id="examplerange">
-        <pre class="brush: html hidden">
-&#x3C;input type="range" name="range" min="0" max="25"/></pre>
-        {{EmbedLiveSample("examplerange",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/reset", "reset")}}</td>
-      <td>
-        A button that resets the contents of the form to default values. Not recommended.
-      </td>
-      <td id="examplereset">
-        <pre class="brush: html hidden">
-&#x3C;input type="reset" name="reset"/></pre
-        >
-        {{EmbedLiveSample("examplereset",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/search", "search")}}</td>
-      <td>
-        A single-line text field for entering search strings. Line-breaks are
-        automatically removed from the input value. May include a delete icon in
-        supporting browsers that can be used to clear the field. Displays a
-        search icon instead of enter key on some devices with dynamic keypads.
-      </td>
-      <td id="examplesearch">
-        <pre class="brush: html hidden">
-&#x3C;input type="search" name="search"/></pre>
-        {{EmbedLiveSample("examplesearch",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/submit", "submit")}}</td>
-      <td>A button that submits the form.</td>
-      <td id="examplesubmit">
-        <pre class="brush: html hidden">
-&#x3C;input type="submit" name="submit"/></pre>
-        {{EmbedLiveSample("examplesubmit",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/tel", "tel")}}</td>
-      <td>
-        A control for entering a telephone number. Displays a telephone keypad
-        in some devices with dynamic keypads.
-      </td>
-      <td id="exampletel">
-        <pre class="brush: html hidden">
-&#x3C;input type="tel" name="tel"/></pre>
-        {{EmbedLiveSample("exampletel",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/text", "text")}}</td>
-      <td>
-        The default value. A single-line text field. Line-breaks are
-        automatically removed from the input value.
-      </td>
-      <td id="exampletext">
-        <pre class="brush: html hidden">
-&#x3C;input type="text" name="text"/></pre
-        >
-        {{EmbedLiveSample("exampletext",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/time", "time")}}</td>
-      <td>A control for entering a time value with no time zone.</td>
-      <td id="exampletime">
-        <pre class="brush: html hidden">
-&#x3C;input type="time" name="time"/></pre>
-        {{EmbedLiveSample("exampletime",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/url", "url")}}</td>
-      <td>
-        A field for entering a URL. Looks like a <code>text</code> input, but
-        has validation parameters and relevant keyboard in supporting browsers
-        and devices with dynamic keyboards.
-      </td>
-      <td id="exampleurl">
-        <pre class="brush: html hidden">
-&#x3C;input type="url" name="url"/></pre
-        >
-        {{EmbedLiveSample("exampleurl",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <td>{{HTMLElement("input/week", "week")}}</td>
-      <td>
-        A control for entering a date consisting of a week-year number and a week number with no time zone.
-      </td>
-      <td id="exampleweek">
-        <pre class="brush: html hidden">
-&#x3C;input type="week" name="week"/></pre>
-        {{EmbedLiveSample("exampleweek",200,55)}}
-      </td>
-    </tr>
-    <tr>
-      <th colspan="3">Obsolete values</th>
-    </tr>
-    <tr>
-      <td><code>datetime</code> {{deprecated_inline}}</td>
-      <td>
-        A control for entering a date and time (hour, minute, second, and fraction of a second) based on UTC time zone.
-      </td>
-      <td id="exampledatetime">
-        <pre class="brush: html hidden">
-&#x3C;input type="datetime" name="datetime"/></pre>
-        {{EmbedLiveSample("exampledatetime",200,75)}}
-      </td>
-    </tr>
-  </tbody>
-</table>
+- {{HTMLElement("input/button", "button")}}
+  - : A push button with no default behavior displaying the value of the [`value`](#value) attribute, empty by default.
+    ```html live-sample___examplebutton
+    <input type="button" name="button" value="Button" />
+    ```
+    {{EmbedLiveSample("examplebutton",200,55)}}
+
+- {{HTMLElement("input/checkbox", "checkbox")}}
+  - : A check box allowing single values to be selected/deselected.
+    ```html live-sample___examplecheckbox
+    <input type="checkbox" name="checkbox" />
+    ```
+    {{EmbedLiveSample("examplecheckbox",200,55)}}
+
+- {{HTMLElement("input/color", "color")}}
+  - : A control for specifying a color; opens a color picker when active in supporting browsers.
+    ```html live-sample___examplecolor
+    <input type="color" name="color" />
+    ```
+    {{EmbedLiveSample("examplecolor",200,55)}}
+
+- {{HTMLElement("input/date", "date")}}
+  - : A control for entering a date (year, month, and day, with no time). Opens a date picker or numeric wheels in supporting browsers.
+    ```html live-sample___exampledate
+    <input type="date" name="date" />
+    ```
+    {{EmbedLiveSample("exampledate",200,55)}}
+
+- {{HTMLElement("input/datetime-local", "datetime-local")}}
+  - : A control for entering a date and time, with no time zone. Opens a date and time picker in supporting browsers.
+    ```html live-sample___exampledtl
+    <input type="datetime-local" name="datetime-local" />
+    ```
+    {{EmbedLiveSample("exampledtl",200,55)}}
+
+- {{HTMLElement("input/email", "email")}}
+  - : A field for editing an email address. Looks like a `text` input, but adds validation and relevant keyboards on supporting devices.
+    ```html live-sample___exampleemail
+    <input type="email" name="email" />
+    ```
+    {{EmbedLiveSample("exampleemail",200,55)}}
+
+- {{HTMLElement("input/file", "file")}}
+  - : A control that lets the user select a file. Use the [`accept`](#accept) attribute to define allowed file types.
+    ```html live-sample___examplefile
+    <input type="file" accept="image/*, text/*" name="file" />
+    ```
+    {{EmbedLiveSample("examplefile",'100%',55)}}
+
+- {{HTMLElement("input/hidden", "hidden")}}
+  - : A control that is not displayed but whose value is submitted to the server.
+    ```html live-sample___examplehidden
+    <input id="userId" name="userId" type="hidden" value="abc123" />
+    ```
+    {{EmbedLiveSample("examplehidden",200,55)}}
+
+- {{HTMLElement("input/image", "image")}}
+  - : A graphical `submit` button. Displays an image defined by the `src` attribute, with [`alt`](#alt) text shown if the image is missing.
+    ```html live-sample___exampleimage
+    <input type="image" name="image" src="" alt="image input" />
+    ```
+    {{EmbedLiveSample("exampleimage",200,55)}}
+
+- {{HTMLElement("input/month", "month")}}
+  - : A control for entering a month and year, with no time zone.
+    ```html live-sample___examplemonth
+    <input type="month" name="month" />
+    ```
+    {{EmbedLiveSample("examplemonth",200,55)}}
+
+- {{HTMLElement("input/number", "number")}}
+  - : A control for entering a number. Includes a spinner, validation, and numeric keypad on some devices.
+    ```html live-sample___examplenumber
+    <input type="number" name="number" />
+    ```
+    {{EmbedLiveSample("examplenumber",200,55)}}
+
+- {{HTMLElement("input/password", "password")}}
+  - : A single-line text field whose value is obscured. Warns the user if the site is not secure.
+    ```html live-sample___examplepassword
+    <input type="password" name="password" />
+    ```
+    {{EmbedLiveSample("examplepassword",200,55)}}
+
+- {{HTMLElement("input/radio", "radio")}}
+  - : A radio button, allowing one choice from a set of options sharing the same [`name`](#name).
+    ```html live-sample___exampleradio
+    <input type="radio" name="radio" />
+    ```
+    {{EmbedLiveSample("exampleradio",200,55)}}
+
+- {{HTMLElement("input/range", "range")}}
+  - : A control for entering a number when precision isn’t important. Displays as a slider, using [`min`](#min) and [`max`](#max) to define the range.
+    ```html live-sample___examplerange
+    <input type="range" name="range" min="0" max="25" />
+    ```
+    {{EmbedLiveSample("examplerange",200,55)}}
+
+- {{HTMLElement("input/reset", "reset")}}
+  - : A button that resets the form contents to their defaults. Not recommended.
+    ```html live-sample___examplereset
+    <input type="reset" name="reset" />
+    ```
+    {{EmbedLiveSample("examplereset",200,55)}}
+
+- {{HTMLElement("input/search", "search")}}
+  - : A single-line text field for search strings. Line breaks are removed. May show clear/search icons on supporting devices.
+    ```html live-sample___examplesearch
+    <input type="search" name="search" />
+    ```
+    {{EmbedLiveSample("examplesearch",200,55)}}
+
+- {{HTMLElement("input/submit", "submit")}}
+  - : A button that submits the form.
+    ```html live-sample___examplesubmit
+    <input type="submit" name="submit" />
+    ```
+    {{EmbedLiveSample("examplesubmit",200,55)}}
+
+- {{HTMLElement("input/tel", "tel")}}
+  - : A control for entering a telephone number. Shows a telephone keypad on some devices.
+    ```html live-sample___exampletel
+    <input type="tel" name="tel" />
+    ```
+    {{EmbedLiveSample("exampletel",200,55)}}
+
+- {{HTMLElement("input/text", "text")}}
+  - : The default input type. A single-line text field with line breaks automatically removed.
+    ```html live-sample___exampletext
+    <input type="text" name="text" />
+    ```
+    {{EmbedLiveSample("exampletext",200,55)}}
+
+- {{HTMLElement("input/time", "time")}}
+  - : A control for entering a time value with no time zone.
+    ```html live-sample___exampletime
+    <input type="time" name="time" />
+    ```
+    {{EmbedLiveSample("exampletime",200,55)}}
+
+- {{HTMLElement("input/url", "url")}}
+  - : A field for entering a URL. Looks like `text`, but adds validation and relevant keyboards on supporting devices.
+    ```html live-sample___exampleurl
+    <input type="url" name="url" />
+    ```
+    {{EmbedLiveSample("exampleurl",200,55)}}
+
+- {{HTMLElement("input/week", "week")}}
+  - : A control for entering a week number within a year, with no time zone.
+    ```html live-sample___exampleweek
+    <input type="week" name="week" />
+    ```
+    {{EmbedLiveSample("exampleweek",200,55)}}
+
+### Obsolete values
+
+- `datetime` {{deprecated_inline}}
+  - : A control for entering a date and time (hour, minute, second, and fraction of a second) based on UTC time zone.
+    ```html live-sample___exampledatetime
+    <input type="datetime" name="datetime" />
+    ```
+    {{EmbedLiveSample("exampledatetime",200,75)}}
 
 ## Attributes
 
