@@ -6,8 +6,10 @@ page-type: firefox-release-notes-active
 sidebar: firefox
 ---
 
-This article provides information about the changes in Firefox 146 that affect developers.
 Firefox 146 is the current [Nightly version of Firefox](https://www.firefox.com/en-US/channel/desktop/#nightly) and ships on [December 9, 2025](https://whattrainisitnow.com/release/?version=146).
+The release notes listed below describe **developer-facing** changes.
+They highlight new or updated web platform features, APIs, and tools that developers can use to build for the modern web.
+To see the features and fixes that improve everyday browsing, see the [Firefox Nightly release notes](https://www.firefox.com/en-US/firefox/nightly/notes/).
 
 > [!NOTE]
 > The release notes for this Firefox version are still a work in progress.
@@ -83,3 +85,8 @@ Firefox 146 is the current [Nightly version of Firefox](https://www.firefox.com/
 These features are shipping in Firefox 146 but are disabled by default.
 To experiment with them, search for the appropriate preference on the `about:config` page and set it to `true`.
 You can find more such features on the [Experimental features](/en-US/docs/Mozilla/Firefox/Experimental_features) page.
+
+## See also
+
+- [Firefox release channels](/en-US/docs/Mozilla/Firefox#firefox_release_channels) - different Firefox release versions and their cadence
+- [Firefox Release Trains](https://whattrainisitnow.com/) - Mozilla's official reference for all things related to the Firefox release schedule

@@ -18,11 +18,11 @@ Learn how to create add-ons for [Firefox](https://www.firefox.com/en-US/), how t
 - Firefox add-on guide
   - : The [Add-on guide](/en-US/docs/Mozilla/Add-ons) provides information about developing and deploying Firefox extensions.
 - Developer release notes
-  - : [Developer-focused release notes](/en-US/docs/Mozilla/Firefox/Releases); learn what new capabilities for both websites and add-ons arrive in each version of Firefox.
+  - : [Developer-focused release notes](/en-US/docs/Mozilla/Firefox/Releases); learn about new or updated web platform features, APIs, and tools that developers can use to build for the modern web.
 
-## Firefox channels
+## Firefox release channels
 
-Firefox is available in five **channels**.
+Firefox is available in five release **channels**.
 
 ### Firefox Nightly
 
@@ -50,7 +50,7 @@ After stabilizing for another four weeks in Beta, we're ready to ship the new fe
 
 ### Firefox Extended Support Release (ESR)
 
-Firefox ESR is the long-term support edition of Firefox for desktop for use by organizations including schools, universities, businesses and others who need extended support for mass deployments.
+Firefox ESR is the long-term support edition of Firefox for desktop for use by organizations including schools, universities, businesses and others who need extended support and stability for mass deployments.
 
 [Download Firefox ESR](https://www.firefox.com/en-US/download/all/#product-desktop-esr)
 
@@ -60,5 +60,6 @@ Firefox ESR is the long-term support edition of Firefox for desktop for use by o
 
 ## See also
 
+- [Firefox release notes for users](https://www.firefox.com/en-US/firefox/notes/) - features and fixes that improve everyday browsing
 - [Mailing list](https://groups.google.com/a/mozilla.org/g/firefox-dev)
 - [Release schedule](https://whattrainisitnow.com/calendar/)

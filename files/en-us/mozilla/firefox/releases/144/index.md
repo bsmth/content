@@ -6,8 +6,10 @@ page-type: firefox-release-notes-active
 sidebar: firefox
 ---
 
-This article provides information about the changes in Firefox 144 that affect developers.
 Firefox 144 was released on [October 14, 2025](https://whattrainisitnow.com/release/?version=144).
+The release notes listed below describe **developer-facing** changes.
+They highlight new or updated web platform features, APIs, and tools that developers can use to build for the modern web.
+To see the features and fixes that improve everyday browsing, see the [Firefox release notes](https://www.firefox.com/en-US/firefox/notes/).
 
 ## Changes for web developers
 
@@ -98,3 +100,9 @@ You can find more such features on the [Experimental features](/en-US/docs/Mozil
 - **datetime-local time picker:** `dom.forms.datetime.timepicker`.
 
   HTML datetime-local input elements ([`<input type="datetime-local">`](/en-US/docs/Web/HTML/Reference/Elements/input/datetime-local)) now includes a time picker. ([Firefox bug 1726108](https://bugzil.la/1726108)).
+
+## See also
+
+- [Firefox release channels](/en-US/docs/Mozilla/Firefox#firefox_release_channels) - different Firefox release versions and their cadence
+- [Firefox Release Trains](https://whattrainisitnow.com/) - Mozilla's official reference for all things related to the Firefox release schedule
+- [Firefox release notes for users](https://www.firefox.com/en-US/firefox/notes/) - features and fixes that improve everyday browsing
