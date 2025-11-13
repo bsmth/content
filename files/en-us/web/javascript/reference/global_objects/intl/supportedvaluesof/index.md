@@ -145,6 +145,8 @@ References:
 
 Below are all values that are commonly supported by browsers for the `numberingSystem` key. These values can be used for the `numberingSystem` option or the `nu` [Unicode extension key](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locales_argument) when creating objects such as {{jsxref("Intl.NumberFormat")}}. For the rows with "digit characters", the runtime translates the digits one-by-one without extra actions. The others marked as "algorithmic" need additional algorithms to translate the digits. The higher the Unicode code point is, the newer the numbering system is and the more likely it is unsupported by all browsers.
 
+<!-- markdownlint-disable MD060 -->
+
 | Value      | Description                                                                | Digit characters                                                                                        |
 | ---------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | `adlm`     | Adlam digits                                                               | `𞥐𞥑𞥒𞥓𞥔𞥕𞥖𞥗𞥘𞥙` (U+1E950 to U+1E959)                                                                       |
@@ -243,6 +245,8 @@ Below are all values that are commonly supported by browsers for the `numberingS
 | `vaii`     | Vai digits                                                                 | `꘠꘡꘢꘣꘤꘥꘦꘧꘨꘩` (U+A620 to U+A629)                                                                         |
 | `wara`     | Warang Citi digits                                                         | `𑣠𑣡𑣢𑣣𑣤𑣥𑣦𑣧𑣨𑣩` (U+118E0 to U+118E9)                                                                       |
 | `wcho`     | Wancho digits                                                              | `𞋰𞋱𞋲𞋳𞋴𞋵𞋶𞋷𞋸𞋹` (U+1E2F0 to U+1E2F9)                                                                       |
+
+<!-- markdownlint-enable MD060 -->
 
 There are three special values: `native`, `traditio`, and `finance`, whose meanings are locale-dependent, and will be resolved to the right system depending on the locale. Therefore, the `resolvedOptions()` methods will never return these values, but `Intl.Locale.prototype.numberingSystem` will (if provided as input).
 

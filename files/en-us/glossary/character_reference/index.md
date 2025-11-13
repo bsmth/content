@@ -27,6 +27,8 @@ There are three types of character references:
 
 A very small subset of useful named character references along with their unicode code points are listed below.
 
+<!-- markdownlint-disable MD060 -->
+
 | Character | Named reference | Unicode code-point |
 | --------- | --------------- | ------------------ |
 | &         | `&amp;`         | U+00026            |
@@ -45,6 +47,8 @@ A very small subset of useful named character references along with their unicod
 | £         | `&pound;`       | U+000A3            |
 | €         | `&euro;`        | U+020AC            |
 | °         | `&deg;`         | U+000B0            |
+
+<!-- markdownlint-enable MD060 -->
 
 The full list of HTML named character references [can found in the HTML specification here](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references).
 

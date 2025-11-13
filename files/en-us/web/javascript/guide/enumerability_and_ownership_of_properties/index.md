@@ -21,6 +21,8 @@ All properties, enumerable or not, string or symbol, own or inherited, can be ac
 
 There are four built-in ways to query a property of an object. They all support both string and symbol keys. The following table summarizes when each method returns `true`.
 
+<!-- markdownlint-disable MD060 -->
+
 |                                                                                                             | Enumerable, own | Enumerable, inherited | Non-enumerable, own | Non-enumerable, inherited |
 | ----------------------------------------------------------------------------------------------------------- | --------------- | --------------------- | ------------------- | ------------------------- |
 | [`propertyIsEnumerable()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable) | `true ✅`       | `false ❌`            | `false ❌`          | `false ❌`                |
@@ -28,11 +30,15 @@ There are four built-in ways to query a property of an object. They all support 
 | [`Object.hasOwn()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn)                      | `true ✅`       | `false ❌`            | `true ✅`           | `false ❌`                |
 | [`in`](/en-US/docs/Web/JavaScript/Reference/Operators/in)                                                   | `true ✅`       | `true ✅`             | `true ✅`           | `true ✅`                 |
 
+<!-- markdownlint-enable MD060 -->
+
 ## Traversing object properties
 
 There are many methods in JavaScript that traverse a group of properties of an object. Sometimes, these properties are returned as an array; sometimes, they are iterated one-by-one in a loop; sometimes, they are used for constructing or mutating another object. The following table summarizes when a property may be visited.
 
 Methods that only visit string properties or only symbol properties will have an extra note. ✅ means a property of this type will be visited; ❌ means it will not.
+
+<!-- markdownlint-disable MD060 -->
 
 |                                                                                                                                                                                                                                                                        | Enumerable, own   | Enumerable, inherited | Non-enumerable, own | Non-enumerable, inherited |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------------------- | ------------------- | ------------------------- |
@@ -44,6 +50,8 @@ Methods that only visit string properties or only symbol properties will have an
 | [`for...in`](/en-US/docs/Web/JavaScript/Reference/Statements/for...in)                                                                                                                                                                                                 | ✅<br />(strings) | ✅<br />(strings)     | ❌                  | ❌                        |
 | [`Object.assign`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)<br />(After the first parameter)                                                                                                                                                  | ✅                | ❌                    | ❌                  | ❌                        |
 | [Object spread](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)                                                                                                                                                                                          | ✅                | ❌                    | ❌                  | ❌                        |
+
+<!-- markdownlint-enable MD060 -->
 
 ## Obtaining properties by enumerability/ownership
 
